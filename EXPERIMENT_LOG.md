@@ -37,3 +37,5 @@ Stage2首次启动在模型加载前被训练入口另一处旧20上限拦截，
 Epoch 30阶段完成：val100 S=68.66835；best_so_far epoch=30。实际八项指标与固定图册见reports/epoch-30。
 
 Epoch30 AI审阅：实际查看全部6页固定图册，仍有整类错误与近纯色输出；val100 S=68.66835，较20轮+1.89562，Eff/SwAV改善而SSIM/Alex5下降，不触发连续退步停止条件。训练/评价退出0，30轮15960更新，全部里程碑保留，best30三份文件哈希核验一致。发布后原配置完整恢复至40轮。详见reports/epoch-30。
+
+2026-09-22 03:12:48：epoch30报告和全部图册已发布到私有GitHub（794d265，三端提交一致、工作树干净），确认训练/评价进程结束且GPU空闲后启动author-stage2-40，控制器1196185、启动器1196189。从checkpoint-30完整恢复30轮/15960更新，38项AdamW参数状态逐tensor精确一致，LR1e-4，loader generator恢复；已观察第31真实epoch前进。审计见reports/stage2-resume-to-40.json。
