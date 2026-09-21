@@ -1,0 +1,21 @@
+{
+  "started_at": "2026-09-21T17:36:35+08:00",
+  "tmux": "author-stage1",
+  "controller_pid": 1120499,
+  "first_launcher_pid": 1120504,
+  "run_commit": "657889bd44744482874a220e96283281804dffb1",
+  "scientific_code_commit": "20aa87aeefb4df945675f19eff2bb169fbaeea5d",
+  "max_cumulative_epoch": 20,
+  "milestones": [
+    1,
+    5,
+    10,
+    20
+  ],
+  "heartbeat": "neuroadapter-20epoch",
+  "stage_status": "running",
+  "microbatches_per_rank_per_epoch": 1063,
+  "expected_samples_per_epoch_with_accelerate_padding": 8504,
+  "expected_unique_images_per_epoch": 8500,
+  "note": "Expected padded counts must be confirmed by actual epoch log; not reference epochs."
+}
