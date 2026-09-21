@@ -1,0 +1,294 @@
+{
+  "samples": [
+    {
+      "image_id": 48303,
+      "presentations": [
+        6491,
+        13463,
+        16200
+      ],
+      "seconds": 0.33547641104087234,
+      "brain_shape": [
+        200,
+        626
+      ],
+      "image_shape": [
+        3,
+        512,
+        512
+      ]
+    },
+    {
+      "image_id": 34961,
+      "presentations": [
+        26174,
+        26444,
+        26460
+      ],
+      "seconds": 0.3004230649676174,
+      "brain_shape": [
+        200,
+        626
+      ],
+      "image_shape": [
+        3,
+        512,
+        512
+      ]
+    },
+    {
+      "image_id": 8886,
+      "presentations": [
+        21110,
+        21197,
+        21262
+      ],
+      "seconds": 0.2677072200458497,
+      "brain_shape": [
+        200,
+        626
+      ],
+      "image_shape": [
+        3,
+        512,
+        512
+      ]
+    },
+    {
+      "image_id": 58155,
+      "presentations": [
+        4509,
+        16725,
+        16894
+      ],
+      "seconds": 0.26353549503255635,
+      "brain_shape": [
+        200,
+        626
+      ],
+      "image_shape": [
+        3,
+        512,
+        512
+      ]
+    },
+    {
+      "image_id": 27699,
+      "presentations": [
+        2649,
+        7622,
+        18592
+      ],
+      "seconds": 0.28044997598044574,
+      "brain_shape": [
+        200,
+        626
+      ],
+      "image_shape": [
+        3,
+        512,
+        512
+      ]
+    },
+    {
+      "image_id": 26199,
+      "presentations": [
+        8833,
+        25112,
+        25275
+      ],
+      "seconds": 0.2981598040787503,
+      "brain_shape": [
+        200,
+        626
+      ],
+      "image_shape": [
+        3,
+        512,
+        512
+      ]
+    },
+    {
+      "image_id": 44776,
+      "presentations": [
+        8208,
+        14269,
+        14392
+      ],
+      "seconds": 0.32157255592755973,
+      "brain_shape": [
+        200,
+        626
+      ],
+      "image_shape": [
+        3,
+        512,
+        512
+      ]
+    },
+    {
+      "image_id": 18109,
+      "presentations": [
+        16304,
+        16325,
+        25684
+      ],
+      "seconds": 0.2857683220645413,
+      "brain_shape": [
+        200,
+        626
+      ],
+      "image_shape": [
+        3,
+        512,
+        512
+      ]
+    },
+    {
+      "image_id": 55248,
+      "presentations": [
+        12387,
+        20773,
+        24541
+      ],
+      "seconds": 0.279616042971611,
+      "brain_shape": [
+        200,
+        626
+      ],
+      "image_shape": [
+        3,
+        512,
+        512
+      ]
+    },
+    {
+      "image_id": 30013,
+      "presentations": [
+        10445,
+        10672,
+        17181
+      ],
+      "seconds": 0.2818382700206712,
+      "brain_shape": [
+        200,
+        626
+      ],
+      "image_shape": [
+        3,
+        512,
+        512
+      ]
+    },
+    {
+      "image_id": 47976,
+      "presentations": [
+        17022,
+        17195,
+        17250
+      ],
+      "seconds": 0.2622925069881603,
+      "brain_shape": [
+        200,
+        626
+      ],
+      "image_shape": [
+        3,
+        512,
+        512
+      ]
+    },
+    {
+      "image_id": 57593,
+      "presentations": [
+        3432,
+        20851,
+        21037
+      ],
+      "seconds": 0.2471595510141924,
+      "brain_shape": [
+        200,
+        626
+      ],
+      "image_shape": [
+        3,
+        512,
+        512
+      ]
+    },
+    {
+      "image_id": 42991,
+      "presentations": [
+        688,
+        1001,
+        17975
+      ],
+      "seconds": 0.3098113889573142,
+      "brain_shape": [
+        200,
+        626
+      ],
+      "image_shape": [
+        3,
+        512,
+        512
+      ]
+    },
+    {
+      "image_id": 49146,
+      "presentations": [
+        4384,
+        9304,
+        28488
+      ],
+      "seconds": 0.28211458993609995,
+      "brain_shape": [
+        200,
+        626
+      ],
+      "image_shape": [
+        3,
+        512,
+        512
+      ]
+    },
+    {
+      "image_id": 70940,
+      "presentations": [
+        12353,
+        24886,
+        28343
+      ],
+      "seconds": 0.2852173950523138,
+      "brain_shape": [
+        200,
+        626
+      ],
+      "image_shape": [
+        3,
+        512,
+        512
+      ]
+    },
+    {
+      "image_id": 15485,
+      "presentations": [
+        8469,
+        23894,
+        24152
+      ],
+      "seconds": 0.31303420290350914,
+      "brain_shape": [
+        200,
+        626
+      ],
+      "image_shape": [
+        3,
+        512,
+        512
+      ]
+    }
+  ],
+  "parcel_identity_shared": true,
+  "mean_read_seconds": 0.28838604981137905
+}

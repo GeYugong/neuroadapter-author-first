@@ -49,7 +49,7 @@ from brain_adapter.model import GuidanceGenerator
 from brain_adapter.dataset import nsd_topk_parcel_dataset  # multi-subject removed
 
 # os.chdir("/engram/nklab/pf2477/brain_decoding/whole_brain_encoder")
-from whole_brain_encoder.brain_encoder_wrapper import BrainEncoderWrapper
+# Brain encoder is imported only when candidate selection is requested.
 
 # os.chdir("/engram/nklab/pf2477/brain_decoding/")
 
@@ -532,7 +532,7 @@ def save_individual_results(
     return state
 
 
-def run_diffusion(brain_embeds, img_ip, models_dict, num_predictions=1, noise_factor=4.0, denoising_steps=50):
+def run_diffusion(brain_embeds, img_ip, models_dict, num_predictions=1, noise_factor=4.0, denoising_steps=50, generator=None):
     """
     Run diffusion process with brain conditioning to generate images.
     
@@ -580,12 +580,12 @@ def run_diffusion(brain_embeds, img_ip, models_dict, num_predictions=1, noise_fa
     timesteps = noise_scheduler.timesteps[t_start:]
 
     # Generate initial latents from input image
-    init_latents = vae.encode(img_ip).latent_dist.sample() * vae.config.scaling_factor
+    init_latents = vae.encode(img_ip).latent_dist.sample(generator=generator) * vae.config.scaling_factor
 
     # Generate different noise for each prediction
     latents = []
     for i in range(num_predictions):
-        noise = torch.randn(init_latents.shape).to(device, dtype=weight_dtype)
+        noise = torch.randn(init_latents.shape, generator=generator).to(device, dtype=weight_dtype)
         noised_latents = noise_scheduler.add_noise(init_latents, noise, timesteps[:1])
         latents.append(noised_latents)
         # Clean up noise tensor immediately
@@ -603,7 +603,7 @@ def run_diffusion(brain_embeds, img_ip, models_dict, num_predictions=1, noise_fa
         # Clean up intermediate predictions
         del noise_pred_uncond, noise_pred_cond
         
-        latents = noise_scheduler.step(noise_pred, t, latents).prev_sample
+        latents = noise_scheduler.step(noise_pred, t, latents, generator=generator).prev_sample
         
         # Clean up noise prediction
         del noise_pred
@@ -949,6 +949,7 @@ def main():
     original_cwd = os.getcwd()
     try:
         os.chdir("/engram/nklab/pf2477/brain_decoding/whole_brain_encoder")
+        from whole_brain_encoder.brain_encoder_wrapper import BrainEncoderWrapper
         brain_encoder = BrainEncoderWrapper(num_gpus=args.num_gpus, subj=args.subject_id)
         print("Brain encoder loaded successfully")
     except Exception as e:

@@ -459,6 +459,7 @@ class nsd_topk_parcel_dataset(Dataset):
         ).input_ids
 
         return {
+            "image_id": int(self.base_dataset.split_presented_imgs[idx]),
             "img_encoder": img,
             "img_ipadapter": img_ipadapter,
             "text_input_ids": text_input_ids,

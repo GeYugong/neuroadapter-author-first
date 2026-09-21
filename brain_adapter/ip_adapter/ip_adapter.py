@@ -4,7 +4,10 @@ from typing import List
 import torch
 import torch.nn as nn
 from diffusers import StableDiffusionPipeline
-from diffusers.pipelines.controlnet import MultiControlNetModel
+try:
+    from diffusers.pipelines.controlnet import MultiControlNetModel
+except ImportError:
+    from diffusers.models.controlnets.multicontrolnet import MultiControlNetModel
 from PIL import Image
 from safetensors import safe_open
 from transformers import CLIPImageProcessor, CLIPVisionModelWithProjection

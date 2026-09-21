@@ -20,6 +20,10 @@ import shutil
 import argparse
 import time
 import itertools
+import json
+import hashlib
+import subprocess
+import signal
 from types import SimpleNamespace
 from datetime import datetime
 import warnings
@@ -35,7 +39,7 @@ from pathlib import Path
 import wandb
 
 # Accelerate imports
-from accelerate import Accelerator, DistributedDataParallelKwargs
+from accelerate import Accelerator, DistributedDataParallelKwargs, DataLoaderConfiguration
 from accelerate.utils import set_seed, synchronize_rng_states
 
 # Diffusion model imports
@@ -58,7 +62,7 @@ else:
 
 from brain_adapter.model import NeuroAdapter, GuidanceGenerator
 from brain_adapter.utils import str2bool
-from brain_adapter.dataset import nsd_topk_parcel_dataset, nsd_groupwise_topk_parcel_dataset
+from brain_adapter.dataset import nsd_topk_parcel_dataset
 from brain_adapter.loss import min_snr_loss_weights, dispersive_loss
 
 warnings.filterwarnings("ignore")
@@ -74,7 +78,7 @@ def setup_accelerator(args):
         deepspeed_plugin=None,
         fsdp_plugin=None,
         device_placement=True,
-        split_batches=False,
+        dataloader_config=DataLoaderConfiguration(split_batches=False, use_seedable_sampler=True, data_seed=args.seed),
         step_scheduler_with_optimizer=False,
         kwargs_handlers=None,
         log_with=None,
@@ -90,7 +94,7 @@ def setup_wandb_logging(args, accelerator):
     if accelerator.is_main_process and args.wandb:
         # Note: Consider moving the API key to environment variable for security
         subj_info = args.subject_id if args.training_subjects is None else "_".join(map(str, args.training_subjects))
-        wandb.login(key="fa2d96cf662daa2fc63a8242133501a23399a230")
+        wandb.login()
         wandb.init(
             project="brain-decoding",
             entity='tonylovescode',
@@ -186,9 +190,9 @@ def setup_dataset_and_dataloader(args, tokenizer):
     dataset_args = SimpleNamespace(
         subj=args.subject_id,
         backbone_arch="dinov2_q",
-        data_dir="/engram/nklab/datasets/natural_scene_dataset/model_training_datasets/neural_data",
-        imgs_dir="/engram/nklab/datasets/natural_scene_dataset/nsddata_stimuli/stimuli/nsd",
-        parcel_dir="/engram/nklab/algonauts/ethan/whole_brain_encoder/parcels/schaefer",
+        data_dir=args.data_dir,
+        imgs_dir=args.imgs_dir,
+        parcel_dir=args.parcel_dir,
         hemi=None,
         tokenizer=tokenizer,
         gen_size=args.gen_img_resolution,
@@ -196,6 +200,10 @@ def setup_dataset_and_dataloader(args, tokenizer):
     )
 
     if args.training_subjects is not None:
+        try:
+            from brain_adapter.dataset import nsd_groupwise_topk_parcel_dataset
+        except ImportError as exc:
+            raise NotImplementedError("Upstream does not provide multi-subject dataset") from exc
         train_dataset = nsd_groupwise_topk_parcel_dataset(
             dataset_args, 
             split='train', 
@@ -211,11 +219,18 @@ def setup_dataset_and_dataloader(args, tokenizer):
             topk=args.topk
         )
 
+    if args.train_ids:
+        ids = np.loadtxt(args.train_ids, dtype=np.int64).reshape(-1)
+        base = train_dataset.base_dataset
+        assert set(ids).issubset(set(base.split_presented_imgs))
+        base.split_presented_imgs = ids
+        base.img_to_runs = [np.where(base.img_order == i)[0] for i in ids]
     train_dataloader = torch.utils.data.DataLoader(
         train_dataset,
         shuffle=True,
         batch_size=args.train_batch_size,
         num_workers=args.dataloader_num_workers,
+        generator=torch.Generator().manual_seed(args.seed),
     )
     
     return train_dataset, train_dataloader
@@ -322,7 +337,7 @@ def process_training_batch(batch, vae, noise_scheduler, text_encoder, guidance_g
     with torch.no_grad():
         # Prepare input data
         img_ipadapter = batch["img_ipadapter"].to(accelerator.device, dtype=weight_dtype)
-        text_input_ids = batch["text_input_ids"].to(accelerator.device)
+        text_input_ids = batch["text_input_ids"].to(accelerator.device).reshape(-1, batch["text_input_ids"].shape[-1])
         
         # Encode images to latent space
         latents = vae.encode(img_ipadapter).latent_dist.sample()
@@ -378,15 +393,31 @@ def process_training_batch(batch, vae, noise_scheduler, text_encoder, guidance_g
 def training_loop(args, accelerator, neuro_adapter, guidance_generator, train_dataloader, 
                  optimizer, lr_scheduler, vae, text_encoder, noise_scheduler, weight_dtype, train_dataset):
     """Main training loop."""
-    global_step = 0
-    
-    for epoch in range(0, args.num_train_epochs):
+    progress = args.progress
+    global_step = progress.global_optimizer_updates
+    stop_requested = [False]
+    def request_stop(signum, frame):
+        stop_requested[0] = True
+    signal.signal(signal.SIGTERM, request_stop)
+    signal.signal(signal.SIGINT, request_stop)
+    for epoch in range(progress.completed_epochs, args.num_train_epochs):
+        train_dataloader.set_epoch(epoch)
+        neuro_adapter.train()
+        guidance_generator.train()
+        seen = []
+        epoch_samples = 0
+        loss_sum = 0.0
+        epoch_start = time.perf_counter()
         progress_bar = tqdm(total=len(train_dataloader), disable=not accelerator.is_local_main_process)
         progress_bar.set_description(f"Epoch {epoch}")
         begin = time.perf_counter()
         
         for step, batch in enumerate(train_dataloader):
             load_data_time = time.perf_counter() - begin
+            ids = accelerator.gather(batch['image_id']).cpu().tolist()
+            seen.extend(ids)
+            epoch_samples += len(ids)
+            progress.actual_samples_processed += len(ids)
             acc_modules = (neuro_adapter, guidance_generator)
             
             with accelerator.accumulate(*acc_modules):
@@ -403,7 +434,7 @@ def training_loop(args, accelerator, neuro_adapter, guidance_generator, train_da
                 accelerator.backward(train_loss)
 
                 # Gradient clipping if specified
-                if args.clip_max_norm > 0:
+                if args.clip_max_norm > 0 and accelerator.sync_gradients:
                     params_to_opt = itertools.chain(
                         neuro_adapter.image_proj_model.parameters() if not hasattr(neuro_adapter, 'module') 
                         else neuro_adapter.module.image_proj_model.parameters(),
@@ -413,7 +444,19 @@ def training_loop(args, accelerator, neuro_adapter, guidance_generator, train_da
                     )
                     accelerator.clip_grad_norm_(params_to_opt, args.clip_max_norm)
                 
+                if args.audit and epoch == 0 and accelerator.sync_gradients and global_step == 0:
+                    audit_before = audit_parameters(accelerator, neuro_adapter, guidance_generator, vae, text_encoder)
                 optimizer.step()
+                if accelerator.sync_gradients:
+                    if not accelerator.optimizer_step_was_skipped:
+                        global_step += 1
+                        progress.global_optimizer_updates = global_step
+                    else:
+                        progress.skipped_updates += 1
+                if args.audit and epoch == 0 and accelerator.sync_gradients and global_step == 1:
+                    audit_after = audit_parameters(accelerator, neuro_adapter, guidance_generator, vae, text_encoder)
+                    if accelerator.is_main_process:
+                        Path(args.output_dir, 'update_audit.json').write_text(json.dumps({'before': audit_before, 'after': audit_after}, indent=2))
                 optimizer.zero_grad()
                 if lr_scheduler:
                     lr_scheduler.step()
@@ -430,29 +473,64 @@ def training_loop(args, accelerator, neuro_adapter, guidance_generator, train_da
                     tqdm.write("Epoch {}, step {}, data_time: {:.3f}s, time: {:.3f}s, avg_train_loss: {:.6f}".format(
                             epoch, step, load_data_time, time.perf_counter() - begin, avg_train_loss))
 
-            global_step += 1
+            loss_sum += avg_train_loss
 
             begin = time.perf_counter()
             progress_bar.update(1)
         
-        # Save checkpoints every X epochs
-        if (epoch + 1) % args.save_epochs == 0:
-            save_path = os.path.join(args.output_dir, f"checkpoint-{epoch + 1}")
-            accelerator.save_state(save_path, safe_serialization=False)
-            if accelerator.is_main_process:
-                tqdm.write(f"Saved checkpoint to {save_path}")
-                cleanup_checkpoints(args.output_dir, keep_last_n=1)
-            
-            
+        progress.completed_epochs = epoch + 1
+        progress.loader_generator_state = train_dataloader.generator.get_state()
+        progress.config = {k: v for k, v in vars(args).items() if k != 'progress'}
+        progress.current_lr = [g['lr'] for g in optimizer.param_groups]
+        if accelerator.is_main_process:
+            record = dict(epoch=epoch + 1, global_optimizer_updates=global_step,
+                          actual_samples_processed=progress.actual_samples_processed,
+                          epoch_samples=epoch_samples, unique_samples=len(set(seen)),
+                          padding_samples=epoch_samples-len(set(seen)),
+                          microbatches_per_rank=len(train_dataloader),
+                          final_accumulation_microbatches=(len(train_dataloader)-1)%args.gradient_accumulation_steps+1,
+                          final_local_batch=int(batch['image_id'].shape[0]),
+                          mean_loss=loss_sum/len(train_dataloader), seconds=time.perf_counter()-epoch_start,
+                          image_order_sha256=hashlib.sha256(np.asarray(seen,dtype=np.int64).tobytes()).hexdigest())
+            with open(Path(args.output_dir)/'epochs.jsonl', 'a') as f:
+                f.write(json.dumps(record)+'\n')
+            if args.audit:
+                Path(args.output_dir, f'order-{epoch+1}.json').write_text(json.dumps(seen))
+            print(json.dumps(record), flush=True)
+        save_path = Path(args.output_dir)/f'checkpoint-{epoch+1}'
+        temporary = Path(str(save_path)+'.incomplete')
+        if save_path.exists() or temporary.exists():
+            raise FileExistsError(f'Refusing to overwrite checkpoint {save_path}')
+        accelerator.save_state(str(temporary), safe_serialization=False)
+        accelerator.wait_for_everyone()
+        if accelerator.is_main_process:
+            # Verify every serialized file can be read before marking this epoch complete.
+            for f in list(temporary.glob('*.bin')) + list(temporary.glob('*.pkl')):
+                torch.load(f, map_location='cpu', weights_only=False)
+            metadata = progress.state_dict().copy()
+            metadata.pop('loader_generator_state')
+            (temporary/'progress.json').write_text(json.dumps(metadata,indent=2))
+            (temporary/'COMPLETE').write_text('epoch boundary\n')
+            temporary.rename(save_path)
+            export_inference(args, accelerator, neuro_adapter, guidance_generator, train_dataset, epoch+1)
+            cleanup_checkpoints(args.output_dir, keep_last_n=2)
+        accelerator.wait_for_everyone()
+        progress_bar.close()
+        stopping = accelerator.reduce(torch.tensor(int(stop_requested[0]),device=accelerator.device), reduction='sum')
+        if stopping.item():
+            accelerator.print('Requested stop: saved complete epoch and exiting.')
+            break
 def cleanup_checkpoints(output_dir, keep_last_n=3):
     """Clean up old checkpoints, keeping only the last N. Safe for distributed training."""
     # List all checkpoint directories
     checkpoints = sorted(
-        glob.glob(os.path.join(output_dir, "checkpoint-*")),
+        [p for p in glob.glob(os.path.join(output_dir, "checkpoint-*")) if Path(p, "COMPLETE").exists()],
         key=lambda x: int(x.split('-')[-1])
     )
     # Delete older checkpoints, keep only the last N
     for checkpoint in checkpoints[:-keep_last_n]:
+        if int(checkpoint.rsplit("-",1)[1]) in (1,5,10,20):
+            continue
         try:
             if os.path.exists(checkpoint):
                 print(f"Deleting old checkpoint: {checkpoint}")
@@ -461,6 +539,54 @@ def cleanup_checkpoints(output_dir, keep_last_n=3):
             # Another process may have already deleted this checkpoint
             print(f"Checkpoint {checkpoint} already deleted or inaccessible: {e}")
             continue
+
+
+class TrainingProgress:
+    def __init__(self, args):
+        self.completed_epochs = 0
+        self.global_optimizer_updates = 0
+        self.actual_samples_processed = 0
+        self.skipped_updates = 0
+        self.run_id = args.run_id
+        self.current_lr = [args.learning_rate]
+        self.code_commit = subprocess.check_output(['git','rev-parse','HEAD'],text=True).strip()
+        self.config = {}
+        self.loader_generator_state = None
+
+    def state_dict(self):
+        return self.__dict__.copy()
+
+    def load_state_dict(self, state):
+        self.__dict__.update(state)
+
+
+def export_inference(args, accelerator, neuro_adapter, guidance_generator, dataset, epoch):
+    adapter = accelerator.unwrap_model(neuro_adapter)
+    out = Path(args.output_dir)/'exports'/f'epoch-{epoch}'
+    out.mkdir(parents=True, exist_ok=True)
+    torch.save({'guidance_generator': accelerator.unwrap_model(guidance_generator).state_dict(),
+                'image_proj': adapter.image_proj_model.state_dict(),
+                'ip_adapter': adapter.adapter_modules.state_dict()}, out/'inference.pt')
+    torch.save(dataset.get_selected_voxel_indices(),out/'parcel_vertices.pt')
+    info = dataset.get_selected_parcel_info()
+    info.update(subject=args.subject_id, epoch=epoch, config={k:v for k,v in vars(args).items() if k!='progress'},
+                code_commit=subprocess.check_output(['git','rev-parse','HEAD'],text=True).strip(),
+                global_optimizer_updates=args.progress.global_optimizer_updates,
+                sha256=hashlib.sha256((out/'inference.pt').read_bytes()).hexdigest(),
+                preprocessing='Author HDF5 repetition mean, lh then rh, SNR-descending parcel order, zero padding; no added brain normalization')
+    (out/'metadata.json').write_text(json.dumps(info,indent=2))
+
+
+def audit_parameters(accelerator, neuro_adapter, guidance_generator, vae, text_encoder):
+    adapter = accelerator.unwrap_model(neuro_adapter)
+    result = {'max_memory_allocated': torch.cuda.max_memory_allocated(), 'parameters': {}}
+    for prefix, model in [('adapter',adapter),('guidance',accelerator.unwrap_model(guidance_generator)),('vae',vae),('text',text_encoder)]:
+        for name,p in model.named_parameters():
+            assert p.requires_grad or p.grad is None, f'Frozen gradient: {prefix}.{name}'
+            if p.requires_grad:
+                result['parameters'][prefix+'.'+name] = {'dtype':str(p.dtype),'has_grad':p.grad is not None,
+                    'sha256':hashlib.sha256(p.detach().cpu().numpy().tobytes()).hexdigest()}
+    return result
 
 
 def main(args):
@@ -507,6 +633,22 @@ def main(args):
     # )
     lr_scheduler = None
     
+    progress = TrainingProgress(args)
+    accelerator.register_for_checkpointing(progress)
+    args.progress = progress
+    if args.resume_from:
+        if not Path(args.resume_from, 'COMPLETE').exists():
+            raise ValueError('Only a complete epoch boundary can be resumed')
+        accelerator.load_state(args.resume_from)
+        train_dataloader.generator.set_state(progress.loader_generator_state)
+        assert progress.run_id == args.run_id
+        for key in ('seed','train_batch_size','gradient_accumulation_steps','mixed_precision','dataloader_num_workers','train_ids','data_dir','topk','condition_dim'):
+            assert progress.config[key] == getattr(args,key), f'Resume configuration changed: {key}'
+    else:
+        if any(Path(args.output_dir).glob('checkpoint-*')):
+            raise RuntimeError('Existing run requires --resume_from')
+        if accelerator.is_main_process:
+            export_inference(args, accelerator, neuro_adapter, guidance_generator, train_dataset, 0)
     # Start training
     accelerator.print("Starting training...")
     training_loop(
@@ -524,6 +666,13 @@ def create_argument_parser():
         description="Train Brain Adapter model for fMRI-guided image generation."
     )
     
+    parser.add_argument('--data_dir', required=True)
+    parser.add_argument('--imgs_dir', required=True)
+    parser.add_argument('--parcel_dir', required=True)
+    parser.add_argument('--run_id', required=True)
+    parser.add_argument('--resume_from')
+    parser.add_argument('--train_ids', help='Only for the isolated short real-data test')
+    parser.add_argument('--audit', action='store_true')
     # Model paths
     parser.add_argument(
         "--pretrained_model_name_or_path",
@@ -611,7 +760,7 @@ def create_argument_parser():
     parser.add_argument(
         "--mixed_precision",
         type=str,
-        default="fp16",
+        default="no",
         choices=["no", "fp16", "bf16"],
         help="Mixed precision training. bf16 requires PyTorch >= 1.10 and Nvidia Ampere GPU.",
     )
@@ -712,16 +861,14 @@ if __name__ == "__main__":
     if env_local_rank != -1 and env_local_rank != args.local_rank:
         args.local_rank = env_local_rank
 
-    # Create output directory if training (learning_rate > 0)
-    if args.learning_rate > 0:
-        # 1) If time wasn’t passed in, generate it now
-        if args.time is None:
-            args.time = datetime.now().strftime("%m_%d_%Y-%H_%M")
-
-        # 2) Append the time to the base output_dir and make it
-        args.output_dir = os.path.join(args.output_dir, args.time)
-        os.makedirs(args.output_dir, exist_ok=True)
-        
+    if args.num_train_epochs > 20:
+        raise ValueError('This stage is authorized only through cumulative epoch 20')
+    args.time = args.run_id
+    os.makedirs(args.output_dir, exist_ok=True)
+    torch.backends.cuda.matmul.allow_tf32 = True
+    torch.backends.cudnn.allow_tf32 = True
+    torch.backends.cudnn.benchmark = False
+    torch.use_deterministic_algorithms(True)
     # Start training
     main(args)
 

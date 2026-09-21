@@ -113,3 +113,9 @@ notebooks/legacy/
 legacy/
 
 figures/
+# Author-first server-only assets
+/runtime/
+/runs/
+/data/
+/backup/
+*.bundle

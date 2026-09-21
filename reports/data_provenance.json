@@ -1,0 +1,22 @@
+{
+  "counts": {
+    "train": 8500,
+    "val": 500,
+    "test": 1000
+  },
+  "presentations_per_image": {
+    "train": {
+      "3": 8500
+    },
+    "val": {
+      "3": 500
+    },
+    "test": {
+      "3": 1000
+    }
+  },
+  "source_metadata": "/data1/matengyu/geyugong/neuroadapter-subject1-research/data/derived/neural_data/metadata_sub-01.npy",
+  "source_metadata_sha256": "2f8ae875553845254b29031f5fe73a6e008a0d38a7fe4756c7dc3d1539086b72",
+  "metadata_sha256": "daf88dfecec3829288c853c3c65873f40f36f1cb8c2302f65541c5d9a50d08c9",
+  "development_validation": true
+}
