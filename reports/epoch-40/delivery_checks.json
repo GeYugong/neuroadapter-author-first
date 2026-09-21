@@ -1,0 +1,136 @@
+{
+  "val100": "Fixed IDs and separate candidate means verified",
+  "train16": "Fixed IDs and separate candidate means verified",
+  "inference.pt": "223a62a70f745f9fa6f016c362b401ab16fe13a7ad1bf821fdc1ed9556489d81",
+  "metadata.json": "499ca4d4720104e23125a43aeb0d1ce5d224540ded8e59d6d3a68c5c916ab809",
+  "parcel_vertices.pt": "a5aceb7d1ec1ad6c8193cbe6f0fd2db23d298a6d4182e74aeac3a980a7b86ad3",
+  "checkpoints": {
+    "1": {
+      "updates": 532,
+      "files": [
+        "custom_checkpoint_1.pkl",
+        "COMPLETE",
+        "custom_checkpoint_0.pkl",
+        "optimizer.bin",
+        "random_states_0.pkl",
+        "pytorch_model_1.bin",
+        "pytorch_model.bin",
+        "random_states_1.pkl",
+        "progress.json"
+      ]
+    },
+    "5": {
+      "updates": 2660,
+      "files": [
+        "custom_checkpoint_1.pkl",
+        "COMPLETE",
+        "custom_checkpoint_0.pkl",
+        "optimizer.bin",
+        "random_states_0.pkl",
+        "pytorch_model_1.bin",
+        "pytorch_model.bin",
+        "random_states_1.pkl",
+        "progress.json"
+      ]
+    },
+    "10": {
+      "updates": 5320,
+      "files": [
+        "custom_checkpoint_1.pkl",
+        "COMPLETE",
+        "custom_checkpoint_0.pkl",
+        "optimizer.bin",
+        "random_states_0.pkl",
+        "pytorch_model_1.bin",
+        "pytorch_model.bin",
+        "random_states_1.pkl",
+        "progress.json"
+      ]
+    },
+    "20": {
+      "updates": 10640,
+      "files": [
+        "custom_checkpoint_1.pkl",
+        "COMPLETE",
+        "custom_checkpoint_0.pkl",
+        "optimizer.bin",
+        "random_states_0.pkl",
+        "pytorch_model_1.bin",
+        "pytorch_model.bin",
+        "random_states_1.pkl",
+        "progress.json"
+      ]
+    },
+    "30": {
+      "updates": 15960,
+      "files": [
+        "custom_checkpoint_1.pkl",
+        "COMPLETE",
+        "custom_checkpoint_0.pkl",
+        "optimizer.bin",
+        "random_states_0.pkl",
+        "pytorch_model_1.bin",
+        "pytorch_model.bin",
+        "random_states_1.pkl",
+        "progress.json"
+      ]
+    },
+    "40": {
+      "updates": 21280,
+      "files": [
+        "custom_checkpoint_1.pkl",
+        "COMPLETE",
+        "custom_checkpoint_0.pkl",
+        "optimizer.bin",
+        "random_states_0.pkl",
+        "pytorch_model_1.bin",
+        "pytorch_model.bin",
+        "random_states_1.pkl",
+        "progress.json"
+      ]
+    }
+  },
+  "gpu_compute_processes": "",
+  "stage_events": [
+    {
+      "time": "2026-09-22T05:40:37+0800",
+      "action": "exit",
+      "label": "train-to-40",
+      "pid": 1196189,
+      "exit_code": 0
+    },
+    {
+      "time": "2026-09-22T05:40:37+0800",
+      "action": "launch",
+      "label": "eval-40",
+      "command": [
+        "/data1/matengyu/geyugong/neuroadapter-author-first/runtime/env/bin/python",
+        "scripts/evaluate_stage.py",
+        "--run",
+        "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42",
+        "--epoch",
+        "40"
+      ],
+      "parent_pid": 1196185
+    },
+    {
+      "time": "2026-09-22T05:40:37+0800",
+      "action": "running",
+      "label": "eval-40",
+      "pid": 1215012
+    },
+    {
+      "time": "2026-09-22T05:52:53+0800",
+      "action": "exit",
+      "label": "eval-40",
+      "pid": 1215012,
+      "exit_code": 0
+    },
+    {
+      "time": "2026-09-22T05:52:58+0800",
+      "action": "stage_complete",
+      "epoch": 40,
+      "updates": 21280
+    }
+  ]
+}
