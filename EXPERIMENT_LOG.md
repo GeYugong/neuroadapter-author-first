@@ -19,3 +19,7 @@
 Epoch 5阶段完成：val100 S=60.52020；best_so_far epoch=5。实际八项指标与固定图册见reports/epoch-5。
 
 Epoch 5人工复核：全部32验证/16训练固定图册已逐页查看，整类/场景错误仍多，部分大类对应但两候选不稳定，训练图也尚未稳定拟合。此为首个val100基线，不作早期失败判断或改参；继续既定10/20阶段。指标候选平均、COMPLETE、checkpoint进度及原导出/best/同服务器backup的SHA256核验通过，详见reports/epoch-5/README.md。
+
+Epoch 10阶段完成：val100 S=62.16667；best_so_far epoch=10。实际八项指标与固定图册见reports/epoch-10。
+
+Epoch 10人工复核：全部32验证/16训练双候选图册已查看，整类错误仍多且部分候选近纯色/抽象图案。固定val100 S较epoch5增加1.64646，但Eff/SwAV距离变差，未见稳定整体改观，不改参。指标均值、相同ID、完整checkpoint-5/10以及epoch10导出/best/同服务器backup哈希一致性已核验。训练与评价退出0，已从checkpoint-10继续累计20轮；详细观察见reports/epoch-10/README.md。
