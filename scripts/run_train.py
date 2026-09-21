@@ -30,6 +30,7 @@ if args.smoke:
 if args.resume:
     config['resume_from'] = str(root/args.resume)
 config['num_train_epochs'] = args.target
+if args.stage2: config['stage2'] = True
 cmd = [sys.executable, '-m', 'accelerate.commands.launch', '--config_file', str(root/'acc_config.yaml'),
        '--main_process_port','29621','--mixed_precision','no',str(root/'train_brain_adapter.py')]
 for k,v in config.items():
