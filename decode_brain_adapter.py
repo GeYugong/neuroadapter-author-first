@@ -19,6 +19,8 @@ from pathlib import Path
 from types import SimpleNamespace
 import warnings
 import time
+import json
+import hashlib
 
 # Third-party imports
 import numpy as np
@@ -287,15 +289,15 @@ def create_test_dataset(
     dataset_args = SimpleNamespace(
         subj=args.subject_id,
         backbone_arch="dinov2_q",
-        data_dir="/engram/nklab/datasets/natural_scene_dataset/model_training_datasets/neural_data",
-        imgs_dir="/engram/nklab/datasets/natural_scene_dataset/nsddata_stimuli/stimuli/nsd",
-        parcel_dir="/engram/nklab/algonauts/ethan/whole_brain_encoder/parcels/schaefer",
+        data_dir=args.data_dir,
+        imgs_dir=args.imgs_dir,
+        parcel_dir=args.parcel_dir,
         hemi=None,
         tokenizer=tokenizer,
         gen_size=512,
     )
 
-    test_dataset = nsd_topk_parcel_dataset(dataset_args, split="test", transform=None, topk=topk)
+    test_dataset = nsd_topk_parcel_dataset(dataset_args, split=args.split, transform=None, topk=topk)
     total_samples = len(test_dataset)
     
     print(f"Test dataset created with {total_samples} total samples, using top {topk} parcels per hemisphere.")
@@ -327,6 +329,11 @@ def create_test_dataset(
 
     print(f"Final evaluation: {len(indices)} samples (indices {actual_start} to {actual_end-1})")
 
+    if args.image_ids:
+        requested = np.loadtxt(args.image_ids, dtype=np.int64).reshape(-1)
+        mapping = {int(v):i for i,v in enumerate(test_dataset.base_dataset.split_presented_imgs)}
+        indices = [mapping[int(v)] for v in requested]
+        actual_start, actual_end = 0, len(indices)
     # Create subset and dataloader
     test_subset = torch.utils.data.Subset(test_dataset, indices)
     test_dataloader = torch.utils.data.DataLoader(
@@ -841,6 +848,10 @@ def decode_images_from_brain(
 
 def main():
     """Main execution function with enhanced evaluation options."""
+    torch.backends.cuda.matmul.allow_tf32 = True
+    torch.backends.cudnn.allow_tf32 = True
+    torch.backends.cudnn.benchmark = False
+    torch.use_deterministic_algorithms(True)
     # Setup device
     device = setup_device()
     
@@ -872,7 +883,7 @@ def main():
     
     # Load pre-trained models
     print("Loading diffusion models...")
-    noise_scheduler, tokenizer, text_encoder, vae, unet = load_diffusion_models()
+    noise_scheduler, tokenizer, text_encoder, vae, unet = load_diffusion_models(args.pretrained_model_name_or_path)
     
     # Setup IP-Adapter components
     print("Setting up IP-Adapter...")
@@ -906,21 +917,21 @@ def main():
         sub_approach=args.sub_approach,
     )
 
+    if args.export_path:
+        saved_vertices = torch.load(Path(args.export_path).parent/'parcel_vertices.pt',weights_only=True)
+        for h in ['lh','rh']:
+            assert all(torch.equal(x,y) for x,y in zip(saved_vertices[h],test_dataset.get_selected_voxel_indices()[h]))
     # Load trained model weights
     print(f"Loading trained weights from checkpoint-{args.saved_epochs}...")
-    try:
-        brain_adapter.load_state_dict(torch.load(
-            f"{args.model_weights_dir}/checkpoint-{args.saved_epochs}/pytorch_model.bin",
-            map_location="cpu"
-        ))
-        guidance_generator.load_state_dict(torch.load(
-            f"{args.model_weights_dir}/checkpoint-{args.saved_epochs}/pytorch_model_1.bin", 
-            map_location="cpu"
-        ))
-        print("Model weights loaded successfully")
-    except FileNotFoundError as e:
-        print(f"Error: Could not load model weights: {e}")
-        return 1
+    if args.export_path:
+        weights = torch.load(args.export_path,map_location='cpu',weights_only=True)
+        brain_adapter.image_proj_model.load_state_dict(weights['image_proj'],strict=True)
+        brain_adapter.adapter_modules.load_state_dict(weights['ip_adapter'],strict=True)
+        guidance_generator.load_state_dict(weights['guidance_generator'],strict=True)
+        del weights
+    else:
+        brain_adapter.load_state_dict(torch.load(f"{args.model_weights_dir}/checkpoint-{args.saved_epochs}/pytorch_model.bin",map_location='cpu',weights_only=True))
+        guidance_generator.load_state_dict(torch.load(f"{args.model_weights_dir}/checkpoint-{args.saved_epochs}/pytorch_model_1.bin",map_location='cpu',weights_only=True))
 
     # Set up weight dtype and move models to device
     weight_dtype = torch.float32
@@ -944,19 +955,10 @@ def main():
         initial_memory = torch.cuda.memory_allocated(device) / 1024**3
         print(f"Initial GPU memory usage: {initial_memory:.2f}GB")
 
-    # Load brain encoder for evaluation
-    print("Loading brain encoder...")
-    original_cwd = os.getcwd()
-    try:
-        os.chdir("/engram/nklab/pf2477/brain_decoding/whole_brain_encoder")
+    brain_encoder = None
+    if not args.no_selection:
         from whole_brain_encoder.brain_encoder_wrapper import BrainEncoderWrapper
-        brain_encoder = BrainEncoderWrapper(num_gpus=args.num_gpus, subj=args.subject_id)
-        print("Brain encoder loaded successfully")
-    except Exception as e:
-        print(f"Error loading brain encoder: {e}")
-        return 1
-    finally:
-        os.chdir(original_cwd)
+        brain_encoder = BrainEncoderWrapper(num_gpus=args.num_gpus,subj=args.subject_id)
 
     # Freeze all models for inference
     print("Freezing models for inference...")
@@ -974,6 +976,35 @@ def main():
         'weight_dtype': weight_dtype,
     }
 
+    if args.no_selection:
+        assert args.batch_size == 1 and args.num_predictions == 2
+        destination = Path(args.decoded_stimuli_dir)
+        destination.mkdir(parents=True,exist_ok=True)
+        with torch.no_grad():
+            for batch in tqdm(test_dataloader,desc=f'Decode {args.split}'):
+                image_id = int(batch['image_id'].item())
+                target = destination/f'image_{image_id:06d}.npz'
+                if target.exists():
+                    raise FileExistsError(f'Refusing to replace decoded result: {target}')
+                brain_data = torch.cat([batch['brain_lh_f'],batch['brain_rh_f']],dim=1).to(device,dtype=weight_dtype)
+                brain_embeds,_ = guidance_generator(brain_data)
+                # Shape is fixed by protocol; no GT values enter the generator.
+                img_init = torch.zeros((1,3,512,512),device=device,dtype=weight_dtype)
+                candidates=[]
+                seeds=[]
+                for candidate in range(2):
+                    seed = int.from_bytes(hashlib.sha256(f'{args.seed}:{image_id}:{candidate}'.encode()).digest()[:8],'little') % (2**63-1)
+                    generator = torch.Generator(device='cpu').manual_seed(seed)
+                    images = run_diffusion(brain_embeds,img_init,models_dict,num_predictions=1,
+                                           noise_factor=args.noise_factor,denoising_steps=args.denoising_steps,generator=generator)
+                    candidates.append(images[0]); seeds.append(seed)
+                np.savez_compressed(target,image_id=image_id,groundtruth_image=batch['img_encoder'][0].cpu().numpy(),
+                                    candidate_images=np.stack(candidates),seeds=np.asarray(seeds,dtype=np.int64))
+        (destination/'protocol.json').write_text(json.dumps(dict(split=args.split,image_ids=args.image_ids,
+            candidate_batch=1,num_predictions=2,denoising_steps=args.denoising_steps,cfg=args.noise_factor,
+            seed=args.seed,selection=False,gt_initialization=False,weight_dtype=str(weight_dtype),
+            vae_decode_autocast='author CUDA default float16',export_path=args.export_path),indent=2))
+        return 0
     # Run decoding
     print(f"\nStarting image decoding from brain signals...")
     print(f"Processing {num_samples} samples with {args.num_predictions} predictions each...")
@@ -1165,11 +1196,20 @@ def create_argument_parser():
         help="Number of diffusion denoising steps."
     )
 
+    parser.add_argument('--data_dir',required=True)
+    parser.add_argument('--imgs_dir',required=True)
+    parser.add_argument('--parcel_dir',required=True)
+    parser.add_argument('--pretrained_model_name_or_path',required=True)
+    parser.add_argument('--split',choices=['train','val','test'],default='val')
+    parser.add_argument('--image_ids')
+    parser.add_argument('--no_selection',action='store_true')
+    parser.add_argument('--export_path')
+    parser.add_argument('--seed',type=int,default=42)
     return parser
 
 
 if __name__ == "__main__":
-    main()
+    sys.exit(main())
     """
     Usage Examples (multi-subject removed):
     python decode_brain_adapter_2.py \

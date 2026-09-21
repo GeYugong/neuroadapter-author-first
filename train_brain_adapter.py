@@ -387,6 +387,10 @@ def process_training_batch(batch, vae, noise_scheduler, text_encoder, guidance_g
     loss = loss * snr_weights
     train_loss = loss.mean()
     
+    if not getattr(process_training_batch, '_reported', False):
+        accelerator.print({'actual_tensor_dtypes': {k:str(v.dtype) for k,v in
+            [('image',img_ipadapter),('brain',brain_data),('latents',latents),('tokens',condition_tokens),('text',encoder_hidden_states),('noise_pred',noise_pred),('loss',train_loss)]}})
+        process_training_batch._reported = True
     return train_loss
 
 
@@ -501,6 +505,7 @@ def training_loop(args, accelerator, neuro_adapter, guidance_generator, train_da
         temporary = Path(str(save_path)+'.incomplete')
         if save_path.exists() or temporary.exists():
             raise FileExistsError(f'Refusing to overwrite checkpoint {save_path}')
+        accelerator.wait_for_everyone()
         accelerator.save_state(str(temporary), safe_serialization=False)
         accelerator.wait_for_everyone()
         if accelerator.is_main_process:
