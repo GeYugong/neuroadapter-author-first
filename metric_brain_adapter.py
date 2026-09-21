@@ -431,7 +431,7 @@ class MetricEvaluator:
         """Compute CLIP feature-based metrics."""
         print(">>> Computing CLIP features...")
         
-        clip_model, _ = clip.load("ViT-L/14", device=self.device)
+        clip_model, _ = clip.load(os.environ.get("AUTHOR_CLIP_PATH", "ViT-L/14"), device=self.device)
         preprocessor = transforms.Compose([
             transforms.Resize(self.config.CLIP_SIZE, interpolation=transforms.InterpolationMode.BILINEAR),
             transforms.Normalize(mean=self.config.CLIP_MEAN, std=self.config.CLIP_STD),
@@ -480,7 +480,7 @@ class MetricEvaluator:
         """Compute SwAV feature-based metrics."""
         print(">>> Computing SwAV features...")
         
-        swav_model = torch.hub.load("facebookresearch/swav:main", "resnet50")
+        swav_model = torch.hub.load(os.environ.get("AUTHOR_SWAV_SOURCE", "facebookresearch/swav:main"), "resnet50", source="local" if os.environ.get("AUTHOR_SWAV_SOURCE") else "github")
         model = create_feature_extractor(swav_model, return_nodes=["avgpool"]).to(self.device).eval().requires_grad_(False)
         
         preprocessor = transforms.Compose([

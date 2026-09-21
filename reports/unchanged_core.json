@@ -1,0 +1,13 @@
+{
+  "train_brain_adapter.py:load_pretrained_models": true,
+  "train_brain_adapter.py:setup_ip_adapter": true,
+  "train_brain_adapter.py:setup_models_and_optimizer": true,
+  "train_brain_adapter.py:apply_fmri_token_dropout": true,
+  "brain_adapter/model.py:ParcelMapper": true,
+  "brain_adapter/model.py:GuidanceGenerator": true,
+  "brain_adapter/model.py:NeuroAdapter": true,
+  "brain_adapter/ip_adapter/ip_adapter.py:ImageProjModel": true,
+  "brain_adapter/ip_adapter/attention_processor.py:IPAttnProcessor2_0": true,
+  "brain_adapter/ip_adapter/attention_processor.py:AttnProcessor2_0": true,
+  "brain_adapter/loss.py:min_snr_loss_weights": true
+}

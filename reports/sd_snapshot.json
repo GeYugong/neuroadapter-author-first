@@ -1,0 +1,70 @@
+{
+  "path": "/data1/matengyu/geyugong/neuroadapter-subject1-research/models/stable-diffusion-v1-5",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 14461,
+      "sha256": "2079161f9df7524bd9eca5e53ff5911271b8551e0f868b7b5a92b84776df28a3"
+    },
+    {
+      "path": "model_index.json",
+      "bytes": 541,
+      "sha256": "e2f6f22e274374010aec30c79eb2d6e53fff4a36ac0225523a92cb2d41a83347"
+    },
+    {
+      "path": "scheduler/scheduler_config.json",
+      "bytes": 308,
+      "sha256": "699cce92eb7c122e2eb7dfdea78e6187fda76a5ed4a8e42319b85610e620e091"
+    },
+    {
+      "path": "text_encoder/config.json",
+      "bytes": 617,
+      "sha256": "845df614cb9327ae7bbea027316246fae917827407da6df13572e41b5f93b4cc"
+    },
+    {
+      "path": "text_encoder/model.safetensors",
+      "bytes": 492265874,
+      "sha256": "d008943c017f0092921106440254dbbe00b6a285f7883ec8ba160c3faad88334"
+    },
+    {
+      "path": "tokenizer/merges.txt",
+      "bytes": 524619,
+      "sha256": "9fd691f7c8039210e0fced15865466c65820d09b63988b0174bfe25de299051a"
+    },
+    {
+      "path": "tokenizer/special_tokens_map.json",
+      "bytes": 472,
+      "sha256": "c4864a9376a8401918425bed71fc14fc0e81f9b59ec45c1cf96cccb2df508eac"
+    },
+    {
+      "path": "tokenizer/tokenizer_config.json",
+      "bytes": 806,
+      "sha256": "00439066fcba73de57644cf41e4e3b9f2dbb09d7f3fc2005898ba52399045882"
+    },
+    {
+      "path": "tokenizer/vocab.json",
+      "bytes": 1059962,
+      "sha256": "e089ad92ba36837a0d31433e555c8f45fe601ab5c221d4f607ded32d9f7a4349"
+    },
+    {
+      "path": "unet/config.json",
+      "bytes": 743,
+      "sha256": "78f474de6bab3d893868f37be97b636ae65c0df3073ed3256ca458ff599b5f96"
+    },
+    {
+      "path": "unet/diffusion_pytorch_model.safetensors",
+      "bytes": 3438167540,
+      "sha256": "19da7aaa4b880e59d56843f1fcb4dd9b599c28a1d9d9af7c1143057c8ffae9f1"
+    },
+    {
+      "path": "vae/config.json",
+      "bytes": 547,
+      "sha256": "786a7d21647ddea6a04b9675c03d3cb45e90a2f3c6da5fbda2c54ade040036de"
+    },
+    {
+      "path": "vae/diffusion_pytorch_model.safetensors",
+      "bytes": 334643276,
+      "sha256": "a2b5134f4dbc140d9c11f11cba3233099e00af40f262f136c691fb7d38d2194c"
+    }
+  ]
+}

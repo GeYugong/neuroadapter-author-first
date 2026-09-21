@@ -5,3 +5,9 @@
 已完成16图原始HDF5核对；全部三次呈现保持同split，脑输入[200,626]、顶点顺序、padding和图像逐项一致。500验证图是历史开发集。独立环境复制既有环境，不升级依赖。采用FP32张量、沿用TF32开启/cudnn benchmark关闭/确定性算法开启；不是严格禁TF32。
 
 短测试首次真实更新成功，随后新增checkpoint目录防覆盖检查出现双rank竞态（FileExistsError）；已增加所有rank检查后的同步屏障。失败测试保留，正式训练未开始。
+
+独立环境副本中的旧项目editable路径已移除；官方CLIP包复制为独立安装，SwAV官方源代码复制到新工作区runtime，指标权重只读引用。不会从旧项目src加载训练或推理代码。
+
+短测试通过：连续2个短epoch vs 1个短epoch保存→独立进程解码与八项指标→新进程恢复1个短epoch。1752项tensor比较最大误差0；两个rank RNG与每批样本顺序完全一致。容差事先固定rtol=1e-6、atol=1e-7，未放宽。导出权重与完整状态的两张验证图×两候选逐像素一致。峰值分配显存12437804544字节。短测试权重不用于正式初始化。
+
+正式配置固定：2×4090 DDP，FP32张量、TF32开启，microbatch4×accumulation2，seed42，LR1e-4、AdamW、无scheduler。num_workers=0。评价沿用作者VAE解码autocast，其他张量FP32；候选batch1固定不变。阶段调度仅到20，阶段错误则停止。

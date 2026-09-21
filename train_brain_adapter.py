@@ -663,6 +663,7 @@ def main(args):
     )
     
     accelerator.print("Training completed!")
+    accelerator.end_training()
 
 
 def create_argument_parser():

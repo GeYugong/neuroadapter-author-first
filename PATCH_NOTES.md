@@ -11,3 +11,8 @@
 Unchanged scientific functions: load_pretrained_models, setup_ip_adapter, setup_models_and_optimizer, apply_fmri_token_dropout; ParcelMapper, GuidanceGenerator, NeuroAdapter, ImageProjModel, attention processors, min_snr_loss_weights.
 
 Short-resume comparison tolerance declared before execution: identical image IDs and RNG tensors, model/AdamW floating tensors allclose(rtol=1e-6,atol=1e-7), integer states exact. No post-hoc relaxation.
+
+- decode main/create_test_dataset: val/train split and exact image ID entry, strict export loading and vertex identity check, no-selection branch calls original run_diffusion twice with fixed candidate batch 1. Original CUDA VAE decode autocast is retained and explicitly recorded.
+- metric_brain_adapter.py: only CLIP and SwAV local asset paths parameterized; all eight metric functions, preprocessing, layer choices and two-way direction unchanged.
+- scripts: launch/stage orchestration, author metric calls, export comparisons and fixed contact sheets. No new forward, loss, sampler, or metric formulas.
+- Checkpoint directory precondition now synchronized across ranks after first short-test failure.
