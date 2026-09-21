@@ -1,0 +1,6 @@
+{
+  "runtime_commit": "20aa87aeefb4df945675f19eff2bb169fbaeea5d",
+  "upstream_commit": "7d86d8c59dc13d8c14a04709e66e4b2de1b7d3ae",
+  "diff": "upstream-to-runtime.redacted.diff",
+  "redaction": "Only deleted upstream credential line; scientific diff otherwise unchanged"
+}
