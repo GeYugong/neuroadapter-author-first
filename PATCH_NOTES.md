@@ -16,3 +16,6 @@ Short-resume comparison tolerance declared before execution: identical image IDs
 - metric_brain_adapter.py: only CLIP and SwAV local asset paths parameterized; all eight metric functions, preprocessing, layer choices and two-way direction unchanged.
 - scripts: launch/stage orchestration, author metric calls, export comparisons and fixed contact sheets. No new forward, loss, sampler, or metric formulas.
 - Checkpoint directory precondition now synchronized across ranks after first short-test failure.
+
+
+Stage 2: explicit --stage2 targets 30/40/50 retain the default stage1 <=20 boundary; separate stage2 controller starts from full previous milestone. Evaluation adds epoch50 to full500 path, unchanged decoding/scoring. Permanent checkpoint list extends to 30/40/50; stage2 best selection considers all completed 5/10/20/30/40/50 nodes. Added post-load exact AdamW-state audit and non-finite loss/gradient stop guards, with no loss, model, optimizer, sampling, accumulation or padding formula changes. Stage1 controller and historical results remain unchanged.

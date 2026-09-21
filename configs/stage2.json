@@ -1,0 +1,1 @@
+{"max_cumulative_epoch":50,"allowed_targets":[30,40,50],"resume_epoch":20,"science_config":"stage1.json","permanent_checkpoints":[1,5,10,20,30,40,50],"reviewer":"AI"}

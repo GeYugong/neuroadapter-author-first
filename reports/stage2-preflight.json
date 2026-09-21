@@ -1,0 +1,17 @@
+{
+  "completed_epochs": 20,
+  "global_optimizer_updates": 10640,
+  "optimizer_lr": [
+    0.0001
+  ],
+  "adamw_state_entries": 38,
+  "unchanged_science_functions": {
+    "train_brain_adapter.py:load_pretrained_models": true,
+    "train_brain_adapter.py:setup_ip_adapter": true,
+    "train_brain_adapter.py:setup_models_and_optimizer": true,
+    "train_brain_adapter.py:apply_fmri_token_dropout": true,
+    "train_brain_adapter.py:process_training_batch": true,
+    "decode_brain_adapter.py:run_diffusion": true
+  },
+  "syntax": "passed"
+}

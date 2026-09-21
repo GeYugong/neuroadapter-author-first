@@ -15,3 +15,18 @@ runtime/env/bin/python scripts/evaluate_stage.py --run runs/subject01-author-fp3
 ```
 
 No cumulative target above 20 is accepted. On errors, inspect logs and complete checkpoints; do not start another trajectory. Use SIGTERM on both training ranks to request epoch-boundary save/exit; an interrupted partial epoch must be replayed from the last COMPLETE checkpoint. Only a new complete readable rolling checkpoint permits cleanup; epochs 1/5/10/20 are always retained.
+
+
+## Stage 2: authorized cumulative 50 epochs
+
+Stage 1 remains capped at 20 by default. Stage 2 requires --stage2 and a full checkpoint; allowed cumulative targets are 30/40/50. No fresh initialization is authorized.
+
+```bash
+runtime/env/bin/python scripts/stage2.py --target 30
+runtime/env/bin/python scripts/stage2.py --target 40
+runtime/env/bin/python scripts/stage2.py --target 50
+# Recovery only after all previous processes exit and inspecting the last COMPLETE epoch:
+runtime/env/bin/python scripts/run_train.py --stage2 --target 30 --resume runs/subject01-author-fp32-seed42/checkpoint-20
+```
+
+Each stage invocation exits after evaluation. The monitoring assistant reviews every fixed atlas as AI, publishes that milestone immediately, checks the authorized stop criteria, then starts the next invocation. No hyperparameter approval framework is introduced. Targets refer to cumulative epochs, not additional epochs. Full checkpoints 1/5/10/20/30/40/50 are permanent; other rolling checkpoints retain the existing last-two policy. Non-finite loss/gradients stop before a corrupt optimizer update; the previous COMPLETE epoch remains the recoverable state (no claim of mid-epoch recovery). Full recovery records resume-to-30/40/50.json before training, including exact AdamW-state equality against the saved checkpoint and actual LR.

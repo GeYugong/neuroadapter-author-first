@@ -12,8 +12,14 @@ parser.add_argument('--target', type=int, required=True)
 parser.add_argument('--run-dir')
 parser.add_argument('--resume')
 parser.add_argument('--smoke', action='store_true')
+parser.add_argument('--stage2', action='store_true')
 args = parser.parse_args()
-assert 0 < args.target <= 20
+if args.stage2:
+    assert args.target in (30,40,50) and args.resume and not args.smoke and not args.run_dir
+    state=json.loads((Path(args.resume)/'progress.json').read_text())
+    assert 20 <= state['completed_epochs'] < args.target
+else:
+    assert 0 < args.target <= 20
 config = json.loads((root/'configs/stage1.json').read_text())
 if args.run_dir:
     config['output_dir'] = str(root/args.run_dir)

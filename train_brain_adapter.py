@@ -434,6 +434,9 @@ def training_loop(args, accelerator, neuro_adapter, guidance_generator, train_da
                 # Gather losses across all processes for logging
                 avg_train_loss = accelerator.gather(train_loss.repeat(args.train_batch_size)).mean().item()
 
+                if not torch.isfinite(torch.tensor(avg_train_loss)):
+                    raise FloatingPointError('Non-finite loss; retain last COMPLETE epoch, do not save corrupted state')
+
                 # Backpropagation
                 accelerator.backward(train_loss)
 
@@ -446,7 +449,9 @@ def training_loop(args, accelerator, neuro_adapter, guidance_generator, train_da
                         else neuro_adapter.module.adapter_modules.parameters(),
                         guidance_generator.parameters()
                     )
-                    accelerator.clip_grad_norm_(params_to_opt, args.clip_max_norm)
+                    grad_norm = accelerator.clip_grad_norm_(params_to_opt, args.clip_max_norm)
+                    if not torch.isfinite(grad_norm):
+                        raise FloatingPointError('Non-finite gradients; retain last COMPLETE epoch')
                 
                 if args.audit and epoch == 0 and accelerator.sync_gradients and global_step == 0:
                     audit_before = audit_parameters(accelerator, neuro_adapter, guidance_generator, vae, text_encoder)
@@ -534,7 +539,7 @@ def cleanup_checkpoints(output_dir, keep_last_n=3):
     )
     # Delete older checkpoints, keep only the last N
     for checkpoint in checkpoints[:-keep_last_n]:
-        if int(checkpoint.rsplit("-",1)[1]) in (1,5,10,20):
+        if int(checkpoint.rsplit("-",1)[1]) in (1,5,10,20,30,40,50):
             continue
         try:
             if os.path.exists(checkpoint):
@@ -647,6 +652,29 @@ def main(args):
         accelerator.load_state(args.resume_from)
         train_dataloader.generator.set_state(progress.loader_generator_state)
         assert progress.run_id == args.run_id
+        if accelerator.is_main_process:
+            saved_optimizer = torch.load(Path(args.resume_from)/'optimizer.bin', map_location='cpu', weights_only=False)
+            actual_optimizer = optimizer.state_dict()
+            assert len(actual_optimizer['state']) == len(saved_optimizer['state']) > 0
+            for key, saved in saved_optimizer['state'].items():
+                for field, value in saved.items():
+                    actual = actual_optimizer['state'][key][field]
+                    assert torch.equal(value, actual.cpu()) if torch.is_tensor(value) else value == actual
+            assert actual_optimizer['param_groups'] == saved_optimizer['param_groups']
+            assert all(g['lr'] == 1e-4 for g in optimizer.param_groups)
+            audit = dict(completed_epochs=progress.completed_epochs,
+                         global_optimizer_updates=progress.global_optimizer_updates,
+                         optimizer_lr=[g['lr'] for g in optimizer.param_groups],
+                         adamw_state_entries=len(actual_optimizer['state']),
+                         adamw_exactly_matches_checkpoint=True,
+                         loader_generator_restored=True, full_accelerate_load=True,
+                         source=args.resume_from)
+            audit_path=Path(args.output_dir)/f'resume-to-{args.num_train_epochs}.json'
+            audit_path.write_text(json.dumps(audit,indent=2))
+            print('RESUME_AUDIT '+json.dumps(audit),flush=True)
+            del saved_optimizer, actual_optimizer
+        accelerator.wait_for_everyone()
+
         for key in ('seed','train_batch_size','gradient_accumulation_steps','mixed_precision','dataloader_num_workers','train_ids','data_dir','topk','condition_dim'):
             assert progress.config[key] == getattr(args,key), f'Resume configuration changed: {key}'
     else:
