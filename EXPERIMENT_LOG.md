@@ -33,3 +33,7 @@ Epoch 20阶段完成：val100 S=66.77273；best_so_far epoch=20。实际八项�
 Stage2首次启动在模型加载前被训练入口另一处旧20上限拦截，退出1，未执行更新。补充显式--stage2贯穿入口，仅允许30/40/50且必须完整resume，默认20边界保留；确认控制器及子进程退出/GPU空闲后重新启动。非恢复失败，无科学参数修改。
 
 2026-09-22 00:30:06 Stage2已启动，tmux author-stage2-30，控制器1174928，启动器1174934。完整恢复前进度20/10640；加载后38个AdamW状态逐tensor与checkpoint完全一致，param_groups完全一致，LR1e-4，DataLoader generator已恢复，见reports/stage2-resume-to-30.json。已观察第21真实epoch（日志0基Epoch20）microbatch推进；未新建仓库、未从初始化训练。
+
+Epoch 30阶段完成：val100 S=68.66835；best_so_far epoch=30。实际八项指标与固定图册见reports/epoch-30。
+
+Epoch30 AI审阅：实际查看全部6页固定图册，仍有整类错误与近纯色输出；val100 S=68.66835，较20轮+1.89562，Eff/SwAV改善而SSIM/Alex5下降，不触发连续退步停止条件。训练/评价退出0，30轮15960更新，全部里程碑保留，best30三份文件哈希核验一致。发布后原配置完整恢复至40轮。详见reports/epoch-30。
