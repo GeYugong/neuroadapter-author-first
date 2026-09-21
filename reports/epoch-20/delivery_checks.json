@@ -1,0 +1,32 @@
+{
+  "milestones": {
+    "1": {
+      "updates": 532,
+      "samples": 8504
+    },
+    "5": {
+      "updates": 2660,
+      "samples": 42520
+    },
+    "10": {
+      "updates": 5320,
+      "samples": 85040
+    },
+    "20": {
+      "updates": 10640,
+      "samples": 170080
+    }
+  },
+  "best_epoch": 20,
+  "export_hashes": {
+    "inference.pt": "3c7436efff9d71d7ee806c888e83b41c9c9b30c88e317b6b7bcb9655f6105c1e",
+    "metadata.json": "d5b5e53d6499edbc40514f39babbf1273934b79602a87866f95fdddb7cadce7c",
+    "parcel_vertices.pt": "a5aceb7d1ec1ad6c8193cbe6f0fd2db23d298a6d4182e74aeac3a980a7b86ad3"
+  },
+  "metric_means_verified": true,
+  "fixed100_ids_match": true,
+  "backup": "same server/filesystem, not offsite",
+  "gpu_compute_processes": [],
+  "stage_processes_exited": true,
+  "reload_pixels_equal": true
+}

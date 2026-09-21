@@ -1,0 +1,30 @@
+{"time": "2026-09-21T17:36:35+0800", "action": "start", "pid": 1120499, "max_cumulative_epoch": 20}
+{"time": "2026-09-21T17:36:35+0800", "action": "launch", "label": "train-to-1", "command": ["/data1/matengyu/geyugong/neuroadapter-author-first/runtime/env/bin/python", "scripts/run_train.py", "--target", "1"], "parent_pid": 1120499}
+{"time": "2026-09-21T17:36:35+0800", "action": "running", "label": "train-to-1", "pid": 1120504}
+{"time": "2026-09-21T17:57:44+0800", "action": "exit", "label": "train-to-1", "pid": 1120504, "exit_code": 0}
+{"time": "2026-09-21T17:57:44+0800", "action": "launch", "label": "eval-1", "command": ["/data1/matengyu/geyugong/neuroadapter-author-first/runtime/env/bin/python", "scripts/evaluate_stage.py", "--run", "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42", "--epoch", "1"], "parent_pid": 1120499}
+{"time": "2026-09-21T17:57:44+0800", "action": "running", "label": "eval-1", "pid": 1123387}
+{"time": "2026-09-21T17:58:18+0800", "action": "exit", "label": "eval-1", "pid": 1123387, "exit_code": 0}
+{"time": "2026-09-21T17:58:18+0800", "action": "stage_complete", "epoch": 1, "updates": 532}
+{"time": "2026-09-21T17:58:19+0800", "action": "launch", "label": "train-to-5", "command": ["/data1/matengyu/geyugong/neuroadapter-author-first/runtime/env/bin/python", "scripts/run_train.py", "--target", "5", "--resume", "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42/checkpoint-1"], "parent_pid": 1120499}
+{"time": "2026-09-21T17:58:19+0800", "action": "running", "label": "train-to-5", "pid": 1123497}
+{"time": "2026-09-21T18:57:17+0800", "action": "exit", "label": "train-to-5", "pid": 1123497, "exit_code": 0}
+{"time": "2026-09-21T18:57:17+0800", "action": "launch", "label": "eval-5", "command": ["/data1/matengyu/geyugong/neuroadapter-author-first/runtime/env/bin/python", "scripts/evaluate_stage.py", "--run", "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42", "--epoch", "5"], "parent_pid": 1120499}
+{"time": "2026-09-21T18:57:17+0800", "action": "running", "label": "eval-5", "pid": 1131156}
+{"time": "2026-09-21T19:09:55+0800", "action": "exit", "label": "eval-5", "pid": 1131156, "exit_code": 0}
+{"time": "2026-09-21T19:09:56+0800", "action": "stage_complete", "epoch": 5, "updates": 2660}
+{"time": "2026-09-21T19:09:56+0800", "action": "launch", "label": "train-to-10", "command": ["/data1/matengyu/geyugong/neuroadapter-author-first/runtime/env/bin/python", "scripts/run_train.py", "--target", "10", "--resume", "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42/checkpoint-5"], "parent_pid": 1120499}
+{"time": "2026-09-21T19:09:56+0800", "action": "running", "label": "train-to-10", "pid": 1132806}
+{"time": "2026-09-21T20:23:35+0800", "action": "exit", "label": "train-to-10", "pid": 1132806, "exit_code": 0}
+{"time": "2026-09-21T20:23:35+0800", "action": "launch", "label": "eval-10", "command": ["/data1/matengyu/geyugong/neuroadapter-author-first/runtime/env/bin/python", "scripts/evaluate_stage.py", "--run", "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42", "--epoch", "10"], "parent_pid": 1120499}
+{"time": "2026-09-21T20:23:35+0800", "action": "running", "label": "eval-10", "pid": 1142456}
+{"time": "2026-09-21T20:35:51+0800", "action": "exit", "label": "eval-10", "pid": 1142456, "exit_code": 0}
+{"time": "2026-09-21T20:35:56+0800", "action": "stage_complete", "epoch": 10, "updates": 5320}
+{"time": "2026-09-21T20:35:56+0800", "action": "launch", "label": "train-to-20", "command": ["/data1/matengyu/geyugong/neuroadapter-author-first/runtime/env/bin/python", "scripts/run_train.py", "--target", "20", "--resume", "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42/checkpoint-10"], "parent_pid": 1120499}
+{"time": "2026-09-21T20:35:56+0800", "action": "running", "label": "train-to-20", "pid": 1144182}
+{"time": "2026-09-21T23:03:39+0800", "action": "exit", "label": "train-to-20", "pid": 1144182, "exit_code": 0}
+{"time": "2026-09-21T23:03:39+0800", "action": "launch", "label": "eval-20", "command": ["/data1/matengyu/geyugong/neuroadapter-author-first/runtime/env/bin/python", "scripts/evaluate_stage.py", "--run", "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42", "--epoch", "20"], "parent_pid": 1120499}
+{"time": "2026-09-21T23:03:39+0800", "action": "running", "label": "eval-20", "pid": 1163083}
+{"time": "2026-09-21T23:57:15+0800", "action": "exit", "label": "eval-20", "pid": 1163083, "exit_code": 0}
+{"time": "2026-09-21T23:57:20+0800", "action": "stage_complete", "epoch": 20, "updates": 10640}
+{"time": "2026-09-21T23:57:20+0800", "action": "completed_stopped", "epoch": 20}
