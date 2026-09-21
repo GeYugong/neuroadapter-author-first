@@ -1,0 +1,14 @@
+{
+  "epoch": 1,
+  "global_optimizer_updates": 532,
+  "actual_samples_processed": 8504,
+  "epoch_samples": 8504,
+  "unique_samples": 8500,
+  "padding_samples": 4,
+  "microbatches_per_rank": 1063,
+  "final_accumulation_microbatches": 1,
+  "final_local_batch": 4,
+  "mean_loss": 0.11528910457849614,
+  "seconds": 1256.9460750740254,
+  "image_order_sha256": "b38194514f35d21a9af732d1344a09a3ccbe6d98da856a91321e5dc8b5969a47"
+}
