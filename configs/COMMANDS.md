@@ -34,3 +34,15 @@ Each stage invocation exits after evaluation. The monitoring assistant reviews e
 ## Stage 3: cumulative60 only
 
 `runtime/env/bin/python scripts/stage3.py --target 60` starts from full checkpoint50, trains then exits training before independent val100 evaluation and stops. Explicit recovery command only after checking all processes have exited: `runtime/env/bin/python scripts/run_train.py --stage3 --target 60 --resume runs/subject01-author-fp32-seed42/checkpoint-50`. Existing checkpoints including49 remain protected. No full500 evaluation at60.
+
+## Stage 4: cumulative70/80 only
+
+```bash
+runtime/env/bin/python scripts/stage4.py --target 70
+# Only after AI review and publication of70, and checking GPU/process availability:
+runtime/env/bin/python scripts/stage4.py --target 80
+# Recovery after failure only from the latest COMPLETE epoch after all prior processes exit:
+runtime/env/bin/python scripts/run_train.py --stage4 --target 70 --resume runs/subject01-author-fp32-seed42/checkpoint-60
+```
+
+Stage4 explicitly allows70/80; old stage limits remain.70 uses monitor100;80 generates500 once and scores500 and monitor100 from the same outputs. Science unchanged. Every invocation ends after evaluation; review/publish70 before starting80. Full60 and all historical milestones remain protected;70/80 are permanent.80 completes and stops without automatic further training.

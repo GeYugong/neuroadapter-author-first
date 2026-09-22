@@ -29,7 +29,7 @@ def execute(label,cmd):
     event(action='exit',label=label,pid=proc.pid,exit_code=code)
     if code:raise RuntimeError(f'{label} failed with exit {code}; see logs/{label}.log')
 
-def summarize(epoch):
+def summarize(epoch, milestones=(5,10,20,30,40,50,60), stop_epoch=60):
     report=ROOT/'reports'/f'epoch-{epoch}'
     if epoch==1:
         reload_check=RUN/'decoded/epoch-1/reload_check.json'
@@ -43,10 +43,12 @@ def summarize(epoch):
     text=f'# Epoch {epoch}\n\n同一固定100张历史开发验证图，每图2候选分别评分后平均；没有候选选择。训练16图仅为辅助观察，二选一负例池不同，不与验证识别率直接相减。\n\n'
     keys=list(val['mean'])
     text+='| 集合 | '+ ' | '.join(keys)+' | S |\n|---|'+ '|'.join(['---']*(len(keys)+1))+'|\n'
-    for name,result in [('val100',val),('train16',train)]:
+    results=[('val100',val),('train16',train)]
+    if (report/'val500/metrics.json').exists():results.insert(1,('val500',json.loads((report/'val500/metrics.json').read_text())))
+    for name,result in results:
         text+='| '+name+' | '+' | '.join(f'{result["mean"][k]:.5f}' for k in keys)+f' | {result["S"]:.5f} |\n'
     previous=[]
-    for e in [5,10,20,30,40,50,60]:
+    for e in milestones:
         f=ROOT/f'reports/epoch-{e}/val100/metrics.json'
         if e <= epoch and (f.parent.parent/'COMPLETE').exists():previous.append((e,json.loads(f.read_text())))
     if len(previous)>1:
@@ -68,7 +70,7 @@ def summarize(epoch):
                'backup':str(backup),'backup_note':'Two server-local copies on same filesystem, not an offsite backup'}
     (ROOT/'reports/best_so_far.json').write_text(json.dumps(selection,indent=2))
     text+=f'\n当前按固定val100 S保留的best_so_far为epoch {best_epoch}，仅为本阶段开发选择；所有里程碑完整状态均保留。科学设置未调整。\n'
-    if epoch==60:text+='\n已到本次授权上限60，训练和评价完成后停止，等待用户决定是否继续。\n'
+    if epoch==stop_epoch:text+=f'\n已到本次授权上限{stop_epoch}，训练和评价完成后停止，等待用户决定是否继续。\n'
     (report/'README.md').write_text(text)
     with (ROOT/'EXPERIMENT_LOG.md').open('a') as f:f.write(f'\nEpoch {epoch}阶段完成：val100 S={val["S"]:.5f}；best_so_far epoch={best_epoch}。实际八项指标与固定图册见reports/epoch-{epoch}。\n')
 
