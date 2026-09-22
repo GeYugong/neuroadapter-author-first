@@ -1,0 +1,116 @@
+{
+  "completed_epochs": 70,
+  "updates": 37240,
+  "skipped_updates": 0,
+  "all_val100_S": {
+    "5": 60.52020202020202,
+    "10": 62.166666666666664,
+    "20": 66.77272727272727,
+    "30": 68.66835016835017,
+    "40": 71.98148148148148,
+    "50": 72.83164983164984,
+    "60": 78.66666666666667,
+    "70": 80.60774410774411
+  },
+  "best_epoch": 70,
+  "hashes": {
+    "runs/subject01-author-fp32-seed42/exports/epoch-70": {
+      "inference.pt": "4bd899b63e5412971ca0b85e576cdb1998e131656b2a1fbcefeb1bfe01673004",
+      "metadata.json": "9d640bbc1e489d593e824df9a689e81296a9dc009f2599ce52cebdb5b1667d4a",
+      "parcel_vertices.pt": "a5aceb7d1ec1ad6c8193cbe6f0fd2db23d298a6d4182e74aeac3a980a7b86ad3"
+    },
+    "runs/subject01-author-fp32-seed42/best_so_far": {
+      "inference.pt": "4bd899b63e5412971ca0b85e576cdb1998e131656b2a1fbcefeb1bfe01673004",
+      "metadata.json": "9d640bbc1e489d593e824df9a689e81296a9dc009f2599ce52cebdb5b1667d4a",
+      "parcel_vertices.pt": "a5aceb7d1ec1ad6c8193cbe6f0fd2db23d298a6d4182e74aeac3a980a7b86ad3"
+    },
+    "backup/subject01-author-fp32-seed42/best_so_far": {
+      "inference.pt": "4bd899b63e5412971ca0b85e576cdb1998e131656b2a1fbcefeb1bfe01673004",
+      "metadata.json": "9d640bbc1e489d593e824df9a689e81296a9dc009f2599ce52cebdb5b1667d4a",
+      "parcel_vertices.pt": "a5aceb7d1ec1ad6c8193cbe6f0fd2db23d298a6d4182e74aeac3a980a7b86ad3"
+    }
+  },
+  "historical_checkpoints_present": true,
+  "historical_144_labels_unchanged": true,
+  "observation_rows": 192,
+  "reviewer": "AI",
+  "fixed_id_order_verified": true,
+  "gpu_compute_processes": "",
+  "events": [
+    {
+      "time": "2026-09-22T15:08:53+0800",
+      "action": "start",
+      "pid": 1290089,
+      "target": 70,
+      "max_cumulative_epoch": 80,
+      "source": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42/checkpoint-60"
+    },
+    {
+      "time": "2026-09-22T15:08:53+0800",
+      "action": "launch",
+      "label": "train-to-70",
+      "command": [
+        "/data1/matengyu/geyugong/neuroadapter-author-first/runtime/env/bin/python",
+        "scripts/run_train.py",
+        "--stage4",
+        "--target",
+        "70",
+        "--resume",
+        "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42/checkpoint-60"
+      ],
+      "parent_pid": 1290089
+    },
+    {
+      "time": "2026-09-22T15:08:53+0800",
+      "action": "running",
+      "label": "train-to-70",
+      "pid": 1290094
+    },
+    {
+      "time": "2026-09-22T17:36:23+0800",
+      "action": "exit",
+      "label": "train-to-70",
+      "pid": 1290094,
+      "exit_code": 0
+    },
+    {
+      "time": "2026-09-22T17:36:23+0800",
+      "action": "launch",
+      "label": "eval-70",
+      "command": [
+        "/data1/matengyu/geyugong/neuroadapter-author-first/runtime/env/bin/python",
+        "scripts/evaluate_stage.py",
+        "--run",
+        "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42",
+        "--epoch",
+        "70"
+      ],
+      "parent_pid": 1290089
+    },
+    {
+      "time": "2026-09-22T17:36:23+0800",
+      "action": "running",
+      "label": "eval-70",
+      "pid": 1309711
+    },
+    {
+      "time": "2026-09-22T17:48:38+0800",
+      "action": "exit",
+      "label": "eval-70",
+      "pid": 1309711,
+      "exit_code": 0
+    },
+    {
+      "time": "2026-09-22T17:48:46+0800",
+      "action": "stage_complete",
+      "epoch": 70,
+      "updates": 37240
+    },
+    {
+      "time": "2026-09-22T17:48:46+0800",
+      "action": "completed_stopped",
+      "epoch": 70,
+      "exit_code": 0
+    }
+  ]
+}
