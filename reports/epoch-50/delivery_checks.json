@@ -1,0 +1,379 @@
+{
+  "val100": {
+    "n": 100,
+    "fixed_ids_verified": true,
+    "mean": {
+      "PixCorr": 0.021773110757771552,
+      "SSIM": 0.3362857415473878,
+      "Alex(2)": 65.9848484848485,
+      "Alex(5)": 72.70202020202021,
+      "Incep": 71.57070707070707,
+      "CLIP": 74.22222222222223,
+      "Eff": 0.8668757384612282,
+      "SwAV": 0.5514943189601891
+    },
+    "S": 72.83164983164984
+  },
+  "val500": {
+    "n": 500,
+    "fixed_ids_verified": true,
+    "mean": {
+      "PixCorr": 0.026622757906816612,
+      "SSIM": 0.32350525310712425,
+      "Alex(2)": 63.422645290581166,
+      "Alex(5)": 72.11482965931864,
+      "Incep": 71.24168336673347,
+      "CLIP": 72.85450901803608,
+      "Eff": 0.8781771917032155,
+      "SwAV": 0.5580768804392808
+    },
+    "S": 72.07034068136274
+  },
+  "train16": {
+    "n": 16,
+    "fixed_ids_verified": true,
+    "mean": {
+      "PixCorr": 0.027664255871408205,
+      "SSIM": 0.25563100482867346,
+      "Alex(2)": 68.125,
+      "Alex(5)": 77.70833333333334,
+      "Incep": 71.66666666666667,
+      "CLIP": 71.875,
+      "Eff": 0.9274604385686247,
+      "SwAV": 0.5844399654405472
+    },
+    "S": 73.75
+  },
+  "same_batch_val100": "evaluate_stage.py scores monitor100 from the identical epoch-50/val directory; all 500 IDs and dual candidates verified",
+  "milestones": {
+    "1": {
+      "updates": 532,
+      "skipped_updates": 0,
+      "lr": [
+        0.0001
+      ]
+    },
+    "5": {
+      "updates": 2660,
+      "skipped_updates": 0,
+      "lr": [
+        0.0001
+      ]
+    },
+    "10": {
+      "updates": 5320,
+      "skipped_updates": 0,
+      "lr": [
+        0.0001
+      ]
+    },
+    "20": {
+      "updates": 10640,
+      "skipped_updates": 0,
+      "lr": [
+        0.0001
+      ]
+    },
+    "30": {
+      "updates": 15960,
+      "skipped_updates": 0,
+      "lr": [
+        0.0001
+      ]
+    },
+    "40": {
+      "updates": 21280,
+      "skipped_updates": 0,
+      "lr": [
+        0.0001
+      ]
+    },
+    "50": {
+      "updates": 26600,
+      "skipped_updates": 0,
+      "lr": [
+        0.0001
+      ]
+    }
+  },
+  "val100_S_trend": {
+    "5": 60.52020202020202,
+    "10": 62.166666666666664,
+    "20": 66.77272727272727,
+    "30": 68.66835016835017,
+    "40": 71.98148148148148,
+    "50": 72.83164983164984
+  },
+  "inference.pt": "94efedfb49382a0c6f0ba8edd349b5ec8cc70509dab20be50f740bd9f9556e93",
+  "metadata.json": "bca7ce85684dc91d33163165f094cb4c9757b4425a3aaa55b67d2abef8fcae5a",
+  "parcel_vertices.pt": "a5aceb7d1ec1ad6c8193cbe6f0fd2db23d298a6d4182e74aeac3a980a7b86ad3",
+  "best_metadata_verified": true,
+  "reload": [
+    {
+      "image_id": 38833,
+      "two_candidates_export_checkpoint_original_pixel_exact": true
+    },
+    {
+      "image_id": 27648,
+      "two_candidates_export_checkpoint_original_pixel_exact": true
+    }
+  ],
+  "gpu_compute_processes": "",
+  "gpu": "index, memory.used [MiB], utilization.gpu [%]\n0, 48 MiB, 0 %\n1, 15 MiB, 0 %\n",
+  "all_stage_processes_exited": true,
+  "events": [
+    {
+      "time": "2026-09-22T00:28:48+0800",
+      "action": "start",
+      "pid": 1174521,
+      "target": 30,
+      "max_cumulative_epoch": 50,
+      "source": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42/checkpoint-20"
+    },
+    {
+      "time": "2026-09-22T00:28:48+0800",
+      "action": "launch",
+      "label": "train-to-30",
+      "command": [
+        "/data1/matengyu/geyugong/neuroadapter-author-first/runtime/env/bin/python",
+        "scripts/run_train.py",
+        "--stage2",
+        "--target",
+        "30",
+        "--resume",
+        "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42/checkpoint-20"
+      ],
+      "parent_pid": 1174521
+    },
+    {
+      "time": "2026-09-22T00:28:48+0800",
+      "action": "running",
+      "label": "train-to-30",
+      "pid": 1174525
+    },
+    {
+      "time": "2026-09-22T00:28:52+0800",
+      "action": "exit",
+      "label": "train-to-30",
+      "pid": 1174525,
+      "exit_code": 1
+    },
+    {
+      "time": "2026-09-22T00:28:52+0800",
+      "action": "failed",
+      "error": "RuntimeError('train-to-30 failed with exit 1; see logs/train-to-30.log')"
+    },
+    {
+      "time": "2026-09-22T00:30:06+0800",
+      "action": "start",
+      "pid": 1174928,
+      "target": 30,
+      "max_cumulative_epoch": 50,
+      "source": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42/checkpoint-20"
+    },
+    {
+      "time": "2026-09-22T00:30:06+0800",
+      "action": "launch",
+      "label": "train-to-30",
+      "command": [
+        "/data1/matengyu/geyugong/neuroadapter-author-first/runtime/env/bin/python",
+        "scripts/run_train.py",
+        "--stage2",
+        "--target",
+        "30",
+        "--resume",
+        "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42/checkpoint-20"
+      ],
+      "parent_pid": 1174928
+    },
+    {
+      "time": "2026-09-22T00:30:06+0800",
+      "action": "running",
+      "label": "train-to-30",
+      "pid": 1174934
+    },
+    {
+      "time": "2026-09-22T02:58:21+0800",
+      "action": "exit",
+      "label": "train-to-30",
+      "pid": 1174934,
+      "exit_code": 0
+    },
+    {
+      "time": "2026-09-22T02:58:21+0800",
+      "action": "launch",
+      "label": "eval-30",
+      "command": [
+        "/data1/matengyu/geyugong/neuroadapter-author-first/runtime/env/bin/python",
+        "scripts/evaluate_stage.py",
+        "--run",
+        "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42",
+        "--epoch",
+        "30"
+      ],
+      "parent_pid": 1174928
+    },
+    {
+      "time": "2026-09-22T02:58:21+0800",
+      "action": "running",
+      "label": "eval-30",
+      "pid": 1193911
+    },
+    {
+      "time": "2026-09-22T03:10:37+0800",
+      "action": "exit",
+      "label": "eval-30",
+      "pid": 1193911,
+      "exit_code": 0
+    },
+    {
+      "time": "2026-09-22T03:10:42+0800",
+      "action": "stage_complete",
+      "epoch": 30,
+      "updates": 15960
+    },
+    {
+      "time": "2026-09-22T03:12:48+0800",
+      "action": "start",
+      "pid": 1196185,
+      "target": 40,
+      "max_cumulative_epoch": 50,
+      "source": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42/checkpoint-30"
+    },
+    {
+      "time": "2026-09-22T03:12:48+0800",
+      "action": "launch",
+      "label": "train-to-40",
+      "command": [
+        "/data1/matengyu/geyugong/neuroadapter-author-first/runtime/env/bin/python",
+        "scripts/run_train.py",
+        "--stage2",
+        "--target",
+        "40",
+        "--resume",
+        "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42/checkpoint-30"
+      ],
+      "parent_pid": 1196185
+    },
+    {
+      "time": "2026-09-22T03:12:48+0800",
+      "action": "running",
+      "label": "train-to-40",
+      "pid": 1196189
+    },
+    {
+      "time": "2026-09-22T05:40:37+0800",
+      "action": "exit",
+      "label": "train-to-40",
+      "pid": 1196189,
+      "exit_code": 0
+    },
+    {
+      "time": "2026-09-22T05:40:37+0800",
+      "action": "launch",
+      "label": "eval-40",
+      "command": [
+        "/data1/matengyu/geyugong/neuroadapter-author-first/runtime/env/bin/python",
+        "scripts/evaluate_stage.py",
+        "--run",
+        "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42",
+        "--epoch",
+        "40"
+      ],
+      "parent_pid": 1196185
+    },
+    {
+      "time": "2026-09-22T05:40:37+0800",
+      "action": "running",
+      "label": "eval-40",
+      "pid": 1215012
+    },
+    {
+      "time": "2026-09-22T05:52:53+0800",
+      "action": "exit",
+      "label": "eval-40",
+      "pid": 1215012,
+      "exit_code": 0
+    },
+    {
+      "time": "2026-09-22T05:52:58+0800",
+      "action": "stage_complete",
+      "epoch": 40,
+      "updates": 21280
+    },
+    {
+      "time": "2026-09-22T06:06:33+0800",
+      "action": "start",
+      "pid": 1218512,
+      "target": 50,
+      "max_cumulative_epoch": 50,
+      "source": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42/checkpoint-40"
+    },
+    {
+      "time": "2026-09-22T06:06:33+0800",
+      "action": "launch",
+      "label": "train-to-50",
+      "command": [
+        "/data1/matengyu/geyugong/neuroadapter-author-first/runtime/env/bin/python",
+        "scripts/run_train.py",
+        "--stage2",
+        "--target",
+        "50",
+        "--resume",
+        "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42/checkpoint-40"
+      ],
+      "parent_pid": 1218512
+    },
+    {
+      "time": "2026-09-22T06:06:34+0800",
+      "action": "running",
+      "label": "train-to-50",
+      "pid": 1218516
+    },
+    {
+      "time": "2026-09-22T08:34:51+0800",
+      "action": "exit",
+      "label": "train-to-50",
+      "pid": 1218516,
+      "exit_code": 0
+    },
+    {
+      "time": "2026-09-22T08:34:51+0800",
+      "action": "launch",
+      "label": "eval-50",
+      "command": [
+        "/data1/matengyu/geyugong/neuroadapter-author-first/runtime/env/bin/python",
+        "scripts/evaluate_stage.py",
+        "--run",
+        "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42",
+        "--epoch",
+        "50"
+      ],
+      "parent_pid": 1218512
+    },
+    {
+      "time": "2026-09-22T08:34:51+0800",
+      "action": "running",
+      "label": "eval-50",
+      "pid": 1237559
+    },
+    {
+      "time": "2026-09-22T09:28:24+0800",
+      "action": "exit",
+      "label": "eval-50",
+      "pid": 1237559,
+      "exit_code": 0
+    },
+    {
+      "time": "2026-09-22T09:28:30+0800",
+      "action": "stage_complete",
+      "epoch": 50,
+      "updates": 26600
+    },
+    {
+      "time": "2026-09-22T09:28:30+0800",
+      "action": "completed_stopped",
+      "epoch": 50
+    }
+  ]
+}
