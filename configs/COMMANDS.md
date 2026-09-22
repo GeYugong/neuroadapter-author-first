@@ -46,3 +46,9 @@ runtime/env/bin/python scripts/run_train.py --stage4 --target 70 --resume runs/s
 ```
 
 Stage4 explicitly allows70/80; old stage limits remain.70 uses monitor100;80 generates500 once and scores500 and monitor100 from the same outputs. Science unchanged. Every invocation ends after evaluation; review/publish70 before starting80. Full60 and all historical milestones remain protected;70/80 are permanent.80 completes and stops without automatic further training.
+
+## Epoch70 full500 supplement (evaluation only)
+
+`runtime/env/bin/python scripts/complete_epoch70_val500.py` verifies original epoch70 export (37240 updates), reuses unchanged monitor100 outputs, and generates only400 missing IDs with the original decoder (200 disjoint IDs on each GPU; batch1, two sequential candidates per image). New files live in `runs/subject01-author-fp32-seed42/decoded/epoch-70-val500-supplement`; a source manifest and symlink union assemble500 by original validation ID order. Existing outputs are not overwritten. The command refuses existing supplement/report directories; inspect failures before any recovery.
+
+Author metrics score each candidate on the complete500 pool separately. The comparison reuses epoch80 CSVs, averages two candidates within each image, then applies10000 paired image bootstrap draws (NumPy PCG64 seed20260922), reporting95% percentile intervals for epoch70 minus epoch80. Identification scores keep the fixed500 negative pool. Intervals are exploratory internal-development-set results, not independent-test or cross-training-seed conclusions. No training or best-selection function is called.
