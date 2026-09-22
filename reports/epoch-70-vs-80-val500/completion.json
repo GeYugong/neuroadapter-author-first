@@ -1,0 +1,19 @@
+{
+  "training_updates_added": 0,
+  "decode_exit_codes": [
+    0,
+    0
+  ],
+  "existing100_unchanged": true,
+  "protected_files_unchanged": true,
+  "epoch80_results_reused": true,
+  "all500_ids_gt_and_seeds_match": true,
+  "complete": true,
+  "gpu_compute_processes": "",
+  "controller_exited": true,
+  "paired_rows": 500,
+  "paired_candidate_mean_crosscheck": true,
+  "bootstrap_metrics": 9,
+  "bootstrap_seed": 20260922,
+  "bootstrap_resamples": 10000
+}

@@ -48,3 +48,7 @@
 70真实epoch、37240次更新、0跳过更新。训练17:36:23退出0、独立评价17:48:38退出0、控制器17:48:46记录completed_stopped/exit_code0；对应进程已结束，GPU计算进程为空。checkpoint1/5/10/20/30/40/49/50/59/60/70模型、AdamW、RNG和自定义状态均存在。best按已完成固定val100 S最大选择70，原始导出/best/同服务器backup三份文件哈希一致（backup非异地）。SHA256：`4bd899b63e5412971ca0b85e576cdb1998e131656b2a1fbcefeb1bfe01673004`。核查见[delivery-checks.json](delivery-checks.json)。
 
 发布后下一条命令：`runtime/env/bin/python scripts/stage4.py --target 80`，完整恢复路径`runs/subject01-author-fp32-seed42/checkpoint-70`，沿用模型/AdamW/RNG/loader/累计进度。80完成500图评价并从同批输出重算原100图后停止，不自动100/300。
+
+## 完整500图补评（评价任务，无新增训练）
+
+已复用原100图并仅补400图。完整500图S=79.06780；与80的同条件差值及配对区间见[独立比较报告](../epoch-70-vs-80-val500/README.md)。原val100结果和best选择规则不变。
