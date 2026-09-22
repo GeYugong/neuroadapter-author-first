@@ -90,13 +90,13 @@ def main():
         if args.smoke:
             metrics(out/'export',config/'decode2_ids.txt',ROOT/'reports/smoke-decode')
         return
-    ids=config/('val_ids.txt' if epoch in (20,50,80) else 'monitor100_ids.txt')
+    ids=config/('val_ids.txt' if epoch in (20,50,80,100) else 'monitor100_ids.txt')
     if not args.metrics_only:
         decode(run,epoch,'val',ids,out/'val')
         decode(run,epoch,'train',config/'atlas_train16_ids.txt',out/'train')
     report=ROOT/'reports'/f'epoch-{epoch}'
     metrics(out/'val',config/'monitor100_ids.txt',report/'val100')
-    if epoch in (20,50,80):metrics(out/'val',config/'val_ids.txt',report/'val500')
+    if epoch in (20,50,80,100):metrics(out/'val',config/'val_ids.txt',report/'val500')
     metrics(out/'train',config/'atlas_train16_ids.txt',report/'train16')
     atlas(out/'val',config/'atlas_val32_ids.txt',report/'val-atlas')
     atlas(out/'train',config/'atlas_train16_ids.txt',report/'train-atlas')

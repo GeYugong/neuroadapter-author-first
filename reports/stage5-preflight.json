@@ -1,0 +1,17 @@
+{
+  "completed_epochs": 80,
+  "global_optimizer_updates": 42560,
+  "optimizer_lr": [
+    0.0001
+  ],
+  "adamw_state_entries": 38,
+  "science_functions_unchanged": true,
+  "changed_function_AST": [
+    "cleanup_checkpoints",
+    "create_argument_parser"
+  ],
+  "syntax": "passed",
+  "gpu_compute_processes": "",
+  "no_checkpoint_after_80": true,
+  "resume_source": "runs/subject01-author-fp32-seed42/checkpoint-80"
+}

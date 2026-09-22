@@ -15,9 +15,17 @@ parser.add_argument('--smoke', action='store_true')
 parser.add_argument('--stage2', action='store_true')
 parser.add_argument('--stage3', action='store_true')
 parser.add_argument('--stage4', action='store_true')
+parser.add_argument('--stage5', action='store_true')
 args = parser.parse_args()
-assert sum([args.stage2,args.stage3,args.stage4]) <= 1
-if args.stage4:
+assert sum([args.stage2,args.stage3,args.stage4,args.stage5]) <= 1
+if args.stage5:
+    assert args.target in (90,100) and args.resume and not args.smoke and not args.run_dir
+    checkpoint=root/args.resume
+    assert (checkpoint/'COMPLETE').exists()
+    state=json.loads((checkpoint/'progress.json').read_text())
+    assert args.target-10 <= state['completed_epochs'] < args.target
+    assert state['global_optimizer_updates'] == state['completed_epochs']*532
+elif args.stage4:
     assert args.target in (70,80) and args.resume and not args.smoke and not args.run_dir
     checkpoint=root/args.resume
     assert (checkpoint/'COMPLETE').exists()
@@ -50,6 +58,7 @@ config['num_train_epochs'] = args.target
 if args.stage2: config['stage2'] = True
 if args.stage3: config['stage3'] = True
 if args.stage4: config['stage4'] = True
+if args.stage5: config['stage5'] = True
 cmd = [sys.executable, '-m', 'accelerate.commands.launch', '--config_file', str(root/'acc_config.yaml'),
        '--main_process_port','29621','--mixed_precision','no',str(root/'train_brain_adapter.py')]
 for k,v in config.items():
