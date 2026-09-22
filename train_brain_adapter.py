@@ -539,7 +539,7 @@ def cleanup_checkpoints(output_dir, keep_last_n=3):
     )
     # Delete older checkpoints, keep only the last N
     for checkpoint in checkpoints[:-keep_last_n]:
-        if int(checkpoint.rsplit("-",1)[1]) in (1,5,10,20,30,40,50):
+        if int(checkpoint.rsplit("-",1)[1]) in (1,5,10,20,30,40,49,50,60):
             continue
         try:
             if os.path.exists(checkpoint):
@@ -706,6 +706,7 @@ def create_argument_parser():
     parser.add_argument('--run_id', required=True)
     parser.add_argument('--resume_from')
     parser.add_argument('--stage2', action='store_true')
+    parser.add_argument('--stage3', action='store_true')
     parser.add_argument('--train_ids', help='Only for the isolated short real-data test')
     parser.add_argument('--audit', action='store_true')
     # Model paths
@@ -896,7 +897,15 @@ if __name__ == "__main__":
     if env_local_rank != -1 and env_local_rank != args.local_rank:
         args.local_rank = env_local_rank
 
-    if args.stage2:
+    if args.stage2 and args.stage3:
+        raise ValueError('Select only one stage')
+    if args.stage3:
+        if args.num_train_epochs != 60 or not args.resume_from:
+            raise ValueError('Stage 3 requires full resume and cumulative target 60')
+        state=json.loads((Path(args.resume_from)/'progress.json').read_text())
+        if not 50 <= state['completed_epochs'] < 60 or state['global_optimizer_updates'] != state['completed_epochs']*532:
+            raise ValueError('Invalid stage 3 full checkpoint progress')
+    elif args.stage2:
         if args.num_train_epochs not in (30,40,50) or not args.resume_from:
             raise ValueError('Stage 2 requires full resume and cumulative target 30/40/50')
     elif args.num_train_epochs > 20:

@@ -19,3 +19,5 @@ Short-resume comparison tolerance declared before execution: identical image IDs
 
 
 Stage 2: explicit --stage2 targets 30/40/50 retain the default stage1 <=20 boundary; separate stage2 controller starts from full previous milestone. Evaluation adds epoch50 to full500 path, unchanged decoding/scoring. Permanent checkpoint list extends to 30/40/50; stage2 best selection considers all completed 5/10/20/30/40/50 nodes. Added post-load exact AdamW-state audit and non-finite loss/gradient stop guards, with no loss, model, optimizer, sampling, accumulation or padding formula changes. Stage1 controller and historical results remain unchanged.
+
+Stage3: explicit --stage3 full resume target60; default stage1 and stage2 limits retained. Separate stage3 controller reuses unchanged evaluation path (val100 only). Protect60 and existing49 in addition to all previous milestones; best summary includes60. Only checkpoint cleanup and argument parser function ASTs changed, no scientific functions changed.

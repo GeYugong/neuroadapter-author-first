@@ -1,0 +1,15 @@
+{
+  "completed_epochs": 50,
+  "global_optimizer_updates": 26600,
+  "optimizer_lr": [
+    0.0001
+  ],
+  "adamw_state_entries": 38,
+  "changed_functions": [
+    "cleanup_checkpoints",
+    "create_argument_parser"
+  ],
+  "science_functions_unchanged": true,
+  "syntax": "passed",
+  "existing_checkpoint49_preserved": true
+}

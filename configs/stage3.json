@@ -1,0 +1,22 @@
+{
+  "max_cumulative_epoch": 60,
+  "allowed_targets": [
+    60
+  ],
+  "resume_epoch": 50,
+  "science_config": "stage1.json",
+  "permanent_checkpoints": [
+    1,
+    5,
+    10,
+    20,
+    30,
+    40,
+    49,
+    50,
+    60
+  ],
+  "reviewer": "AI",
+  "evaluation": "fixed val100 only; original dual candidates and atlases",
+  "observation_table": "all fixed val32/train16 at 40/50/60; descriptive, not selection score"
+}

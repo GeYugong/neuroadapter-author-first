@@ -30,3 +30,7 @@ runtime/env/bin/python scripts/run_train.py --stage2 --target 30 --resume runs/s
 ```
 
 Each stage invocation exits after evaluation. The monitoring assistant reviews every fixed atlas as AI, publishes that milestone immediately, checks the authorized stop criteria, then starts the next invocation. No hyperparameter approval framework is introduced. Targets refer to cumulative epochs, not additional epochs. Full checkpoints 1/5/10/20/30/40/50 are permanent; other rolling checkpoints retain the existing last-two policy. Non-finite loss/gradients stop before a corrupt optimizer update; the previous COMPLETE epoch remains the recoverable state (no claim of mid-epoch recovery). Full recovery records resume-to-30/40/50.json before training, including exact AdamW-state equality against the saved checkpoint and actual LR.
+
+## Stage 3: cumulative60 only
+
+`runtime/env/bin/python scripts/stage3.py --target 60` starts from full checkpoint50, trains then exits training before independent val100 evaluation and stops. Explicit recovery command only after checking all processes have exited: `runtime/env/bin/python scripts/run_train.py --stage3 --target 60 --resume runs/subject01-author-fp32-seed42/checkpoint-50`. Existing checkpoints including49 remain protected. No full500 evaluation at60.
