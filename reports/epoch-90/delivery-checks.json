@@ -1,0 +1,140 @@
+{
+  "completed_epochs": 90,
+  "updates": 47880,
+  "skipped_updates": 0,
+  "all_val100_S": {
+    "5": 60.52020202020202,
+    "10": 62.166666666666664,
+    "20": 66.77272727272727,
+    "30": 68.66835016835017,
+    "40": 71.98148148148148,
+    "50": 72.83164983164984,
+    "60": 78.66666666666667,
+    "70": 80.60774410774411,
+    "80": 78.83164983164984,
+    "90": 82.89057239057239
+  },
+  "best_epoch": 90,
+  "hashes": {
+    "runs/subject01-author-fp32-seed42/exports/epoch-90": {
+      "inference.pt": "b8422286f60712e3113174ac8f3d064411cb59ff5768feab01920a70fdfaa0c3",
+      "metadata.json": "34947a604d04d034bbdbe1d385c8141be7975291ecac5fb98e81e51eec8fd608",
+      "parcel_vertices.pt": "a5aceb7d1ec1ad6c8193cbe6f0fd2db23d298a6d4182e74aeac3a980a7b86ad3"
+    },
+    "runs/subject01-author-fp32-seed42/best_so_far": {
+      "inference.pt": "b8422286f60712e3113174ac8f3d064411cb59ff5768feab01920a70fdfaa0c3",
+      "metadata.json": "34947a604d04d034bbdbe1d385c8141be7975291ecac5fb98e81e51eec8fd608",
+      "parcel_vertices.pt": "a5aceb7d1ec1ad6c8193cbe6f0fd2db23d298a6d4182e74aeac3a980a7b86ad3"
+    },
+    "backup/subject01-author-fp32-seed42/best_so_far": {
+      "inference.pt": "b8422286f60712e3113174ac8f3d064411cb59ff5768feab01920a70fdfaa0c3",
+      "metadata.json": "34947a604d04d034bbdbe1d385c8141be7975291ecac5fb98e81e51eec8fd608",
+      "parcel_vertices.pt": "a5aceb7d1ec1ad6c8193cbe6f0fd2db23d298a6d4182e74aeac3a980a7b86ad3"
+    }
+  },
+  "permanent_checkpoints": [
+    1,
+    5,
+    10,
+    20,
+    30,
+    40,
+    49,
+    50,
+    59,
+    60,
+    70,
+    79,
+    80,
+    90
+  ],
+  "reviewer": "AI",
+  "atlas_pages_viewed": 6,
+  "metric_ids_and_candidate_means_verified": true,
+  "processes_exited": [
+    1357179,
+    1357184,
+    1357203,
+    1357204,
+    1376558
+  ],
+  "gpu_compute_processes": "",
+  "events": [
+    {
+      "time": "2026-09-22T23:12:32+0800",
+      "action": "start",
+      "pid": 1357179,
+      "target": 90,
+      "max_cumulative_epoch": 100,
+      "source": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42/checkpoint-80"
+    },
+    {
+      "time": "2026-09-22T23:12:32+0800",
+      "action": "launch",
+      "label": "train-to-90",
+      "command": [
+        "/data1/matengyu/geyugong/neuroadapter-author-first/runtime/env/bin/python",
+        "scripts/run_train.py",
+        "--stage5",
+        "--target",
+        "90",
+        "--resume",
+        "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42/checkpoint-80"
+      ],
+      "parent_pid": 1357179
+    },
+    {
+      "time": "2026-09-22T23:12:32+0800",
+      "action": "running",
+      "label": "train-to-90",
+      "pid": 1357184
+    },
+    {
+      "time": "2026-09-23T01:41:05+0800",
+      "action": "exit",
+      "label": "train-to-90",
+      "pid": 1357184,
+      "exit_code": 0
+    },
+    {
+      "time": "2026-09-23T01:41:05+0800",
+      "action": "launch",
+      "label": "eval-90",
+      "command": [
+        "/data1/matengyu/geyugong/neuroadapter-author-first/runtime/env/bin/python",
+        "scripts/evaluate_stage.py",
+        "--run",
+        "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42",
+        "--epoch",
+        "90"
+      ],
+      "parent_pid": 1357179
+    },
+    {
+      "time": "2026-09-23T01:41:05+0800",
+      "action": "running",
+      "label": "eval-90",
+      "pid": 1376558
+    },
+    {
+      "time": "2026-09-23T01:53:51+0800",
+      "action": "exit",
+      "label": "eval-90",
+      "pid": 1376558,
+      "exit_code": 0
+    },
+    {
+      "time": "2026-09-23T01:53:56+0800",
+      "action": "stage_complete",
+      "epoch": 90,
+      "updates": 47880
+    },
+    {
+      "time": "2026-09-23T01:53:56+0800",
+      "action": "completed_stopped",
+      "epoch": 90,
+      "exit_code": 0
+    }
+  ],
+  "decision": "Publish90 then continue unchanged to100; seven of eight metrics improve vs80, no overall obvious output deterioration"
+}

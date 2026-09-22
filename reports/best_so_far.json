@@ -1,9 +1,9 @@
 {
-  "epoch": 70,
+  "epoch": 90,
   "criterion": "maximum fixed val100 S among completed stages; provisional development selection",
-  "S": 80.60774410774411,
-  "full_checkpoint": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42/checkpoint-70",
-  "sha256": "4bd899b63e5412971ca0b85e576cdb1998e131656b2a1fbcefeb1bfe01673004",
+  "S": 82.89057239057239,
+  "full_checkpoint": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42/checkpoint-90",
+  "sha256": "b8422286f60712e3113174ac8f3d064411cb59ff5768feab01920a70fdfaa0c3",
   "backup": "/data1/matengyu/geyugong/neuroadapter-author-first/backup/subject01-author-fp32-seed42/best_so_far",
   "backup_note": "Two server-local copies on same filesystem, not an offsite backup"
 }
