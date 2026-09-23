@@ -1,0 +1,12 @@
+{
+  "completed_epochs": 100,
+  "global_optimizer_updates": 53200,
+  "optimizer_lr": [
+    0.0001
+  ],
+  "adamw_state_entries": 38,
+  "adamw_exactly_matches_checkpoint": true,
+  "loader_generator_restored": true,
+  "full_accelerate_load": true,
+  "source": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42/checkpoint-100"
+}
