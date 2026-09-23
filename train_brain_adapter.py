@@ -506,7 +506,7 @@ def training_loop(args, accelerator, neuro_adapter, guidance_generator, train_da
             if args.audit:
                 Path(args.output_dir, f'order-{epoch+1}.json').write_text(json.dumps(seen))
             print(json.dumps(record), flush=True)
-        if args.branch_lr_half:
+        if args.branch_lr_half and args.num_train_epochs==110:
             reference={x['epoch']:x for x in map(json.loads,Path(__file__).resolve().parent.joinpath('runs/subject01-author-fp32-seed42/epochs.jsonl').read_text().splitlines())}
             assert hashlib.sha256(np.asarray(seen,dtype=np.int64).tobytes()).hexdigest()==reference[epoch+1]['image_order_sha256'], 'Actual branch order differs from H'
         save_path = Path(args.output_dir)/f'checkpoint-{epoch+1}'
@@ -542,7 +542,7 @@ def cleanup_checkpoints(output_dir, keep_last_n=3):
     )
     # Delete older checkpoints, keep only the last N
     for checkpoint in checkpoints[:-keep_last_n]:
-        if int(checkpoint.rsplit("-",1)[1]) in (1,5,10,20,30,40,49,50,59,60,70,79,80,90,99,100,105,110,120):
+        if int(checkpoint.rsplit("-",1)[1]) in (1,5,10,20,30,40,49,50,59,60,70,79,80,90,99,100,105,110,115,120):
             continue
         try:
             if os.path.exists(checkpoint):

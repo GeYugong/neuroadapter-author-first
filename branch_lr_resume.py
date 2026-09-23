@@ -20,13 +20,14 @@ def equal(a,b):
 def validate(args):
     source=Path(args.resume_from).resolve();out=Path(args.output_dir).resolve()
     assert args.run_id==BRANCH and out==ROOT/'runs'/BRANCH
-    assert args.num_train_epochs==110 and args.learning_rate==5e-5
+    assert args.num_train_epochs in (110,120) and args.learning_rate==5e-5
+    if args.num_train_epochs==120: assert source.parent==out, "120 requires L own checkpoint"
     assert source==ROOT/'runs'/MAIN/'checkpoint-100' or source.parent==out
     baseline=json.loads((ROOT/'configs/stage1.json').read_text())
     for key,value in baseline.items():
         if key not in ('run_id','output_dir','learning_rate'): assert getattr(args,key)==value, f'Branch science changed: {key}'
     state=json.loads((source/'progress.json').read_text())
-    assert (source/'COMPLETE').exists() and 100<=state['completed_epochs']<110
+    assert (source/'COMPLETE').exists() and args.num_train_epochs-10<=state['completed_epochs']<args.num_train_epochs
     assert state['global_optimizer_updates']==state['completed_epochs']*532
     if source.parent==out: assert state['run_id']==BRANCH and state['current_lr']==[5e-5]
     else: assert state['run_id']==MAIN and state['completed_epochs']==100 and state['current_lr']==[1e-4]
@@ -59,10 +60,13 @@ def restore(args,accelerator,optimizer,models,loader,dataset,progress):
     gathered=accelerator.gather(torch.tensor(ids,device=accelerator.device)).cpu().numpy()
     ordered=gathered.reshape(accelerator.num_processes,len(batches),-1).transpose(1,0,2).reshape(-1)
     digest=hashlib.sha256(ordered.astype(np.int64).tobytes()).hexdigest()
-    reference={x['epoch']:x for x in map(json.loads,(ROOT/'runs'/MAIN/'epochs.jsonl').read_text().splitlines())}
-    assert digest==reference[progress.completed_epochs+1]['image_order_sha256'], 'Branch sampler order differs from H'
+    matches_h=None
+    if args.num_train_epochs==110:
+        reference={x['epoch']:x for x in map(json.loads,(ROOT/'runs'/MAIN/'epochs.jsonl').read_text().splitlines())}
+        assert digest==reference[progress.completed_epochs+1]['image_order_sha256'], 'Branch sampler order differs from H'
+        matches_h=True
     equal(torch.get_rng_state(),saved_rng['torch_manual_seed']);equal(torch.cuda.get_rng_state_all(),saved_rng['torch_cuda_manual_seed'])
-    provenance=dict(source_run=MAIN,source_checkpoint=str(ROOT/'runs'/MAIN/'checkpoint-100'),source_commit=json.loads((ROOT/'runs'/MAIN/'exports/epoch-100/metadata.json').read_text())['code_commit'],branch_run_id=BRANCH,lr_change_location='after accelerator.load_state; before training_loop',resume_source=str(source),rank=accelerator.process_index,completed_epochs=progress.completed_epochs,global_optimizer_updates=progress.global_optimizer_updates,model_exact=True,adamw_before_exact=True,adamw_after_only_lr_changed=True,adamw_state_entries=len(saved['state']),optimizer_lr=[g['lr'] for g in optimizer.param_groups],rng_exact=True,loader_restored=True,next_epoch_order_sha256=digest,order_matches_H=True)
+    provenance=dict(source_run=MAIN,source_checkpoint=str(ROOT/'runs'/MAIN/'checkpoint-100'),source_commit=json.loads((ROOT/'runs'/MAIN/'exports/epoch-100/metadata.json').read_text())['code_commit'],branch_run_id=BRANCH,lr_change_location='after accelerator.load_state; before training_loop',resume_source=str(source),rank=accelerator.process_index,completed_epochs=progress.completed_epochs,global_optimizer_updates=progress.global_optimizer_updates,model_exact=True,adamw_before_exact=True,adamw_after_only_lr_changed=True,adamw_state_entries=len(saved['state']),optimizer_lr=[g['lr'] for g in optimizer.param_groups],rng_exact=True,loader_restored=True,next_epoch_order_sha256=digest,order_matches_H=matches_h, continuation_target=args.num_train_epochs, adamw_lr_unchanged=not initial)
     Path(args.output_dir,f'branch-resume-{progress.completed_epochs}-rank{accelerator.process_index}.json').write_text(json.dumps(provenance,indent=2))
     progress.run_id=BRANCH;progress.current_lr=[5e-5];progress.branch_provenance=provenance
     accelerator.wait_for_everyone()

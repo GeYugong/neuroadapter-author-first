@@ -21,7 +21,7 @@ parser.add_argument('--branch-lr-half', action='store_true')
 args = parser.parse_args()
 assert sum([args.stage2,args.stage3,args.stage4,args.stage5,args.stage6,args.branch_lr_half]) <= 1
 if args.branch_lr_half:
-    assert args.target==110 and args.resume and not args.smoke and not args.run_dir
+    assert args.target in (110,120) and args.resume and not args.smoke and not args.run_dir
 elif args.stage6:
     assert args.target in (110,120) and args.resume and not args.smoke and not args.run_dir
     checkpoint=root/args.resume
