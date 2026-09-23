@@ -1,0 +1,5 @@
+{
+  "published_commit": "967d169918525bd55dfa14ff32219dfad68d0e32",
+  "decision": "Continue unchanged to L140: six metrics improved, SSIM and Inception declined; mixed local visual changes without overall marked deterioration; no numerical/resume failure.",
+  "reviewer": "AI"
+}
