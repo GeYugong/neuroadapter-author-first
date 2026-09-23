@@ -53,7 +53,7 @@ def restore(args,accelerator,optimizer,models,loader,dataset,progress):
     equal(expected,optimizer.state_dict())
     # Predict the first resumed epoch using an isolated sampler copy, without loading data.
     loader.set_epoch(progress.completed_epochs)
-    sampler=copy.deepcopy(loader.batch_sampler)
+    sampler=copy.deepcopy(loader.batch_sampler, {id(dataset): dataset})
     batches=list(sampler)
     ids=np.asarray(dataset.base_dataset.split_presented_imgs)[np.asarray(batches)]
     gathered=accelerator.gather(torch.tensor(ids,device=accelerator.device)).cpu().numpy()

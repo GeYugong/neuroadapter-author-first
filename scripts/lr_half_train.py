@@ -6,7 +6,7 @@ ROOT=common.ROOT
 if __name__=='__main__':
     lock=(ROOT/'runtime/lr-half.lock').open('w');fcntl.flock(lock,fcntl.LOCK_EX|fcntl.LOCK_NB)
     run=ROOT/'runs/subject01-author-fp32-seed42-lr5e-5-from100'
-    assert not run.exists(), 'Branch exists: inspect last COMPLETE before recovery; never replay source100'
+    assert not run.exists() or not any(run.iterdir()), 'Branch contains state: inspect last COMPLETE before recovery; never replay source100'
     def event(**kw):
         with (ROOT/'logs/lr-half-events.jsonl').open('a') as f:f.write(json.dumps(kw)+'\n')
         print(json.dumps(kw),flush=True)

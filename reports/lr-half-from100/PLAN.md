@@ -11,3 +11,5 @@ B0=原100/53200，不更新；H=原110/58520（LR1e-4），不重训；L=独立s
 实际AI审阅原32验证+16训练全部候选，展示改善和内容退步，不以S替代图册。无额外LR/seed/探针/诊断。只本次10轮和统一评价，结束停止，新候选不自动提升主线best。数值/恢复/顺序不一致时保留最后完整状态停止报告。
 
 运行：`runtime/env/bin/python scripts/lr_half_train.py`。中断后须先确认原控制器和所有子进程结束，仅从L最新COMPLETE恢复：`runtime/env/bin/python scripts/run_train.py --branch-lr-half --target 110 --resume runs/subject01-author-fp32-seed42-lr5e-5-from100/checkpoint-N`，N必须100以上且小于110；不得重新执行初始控制器。恢复审计为每rank独立JSON。
+
+开训前工程修复：采样器deepcopy原先尝试复制HDF5 dataset句柄而失败，未进入训练循环、0新增更新。改为`copy.deepcopy(loader.batch_sampler, {id(dataset): dataset})`，dataset仅共享只读引用；不改数据顺序与科学设置。确认控制器/启动器/双rank全部退出且L输出目录为空后，允许这次零更新重试。
