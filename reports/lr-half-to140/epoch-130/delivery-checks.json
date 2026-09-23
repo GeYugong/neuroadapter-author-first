@@ -1,0 +1,305 @@
+{
+  "progress": {
+    "completed_epochs": 130,
+    "global_optimizer_updates": 69160,
+    "actual_samples_processed": 1105520,
+    "skipped_updates": 0,
+    "run_id": "subject01-author-fp32-seed42-lr5e-5-from100",
+    "current_lr": [
+      5e-05
+    ],
+    "code_commit": "657889bd44744482874a220e96283281804dffb1",
+    "config": {
+      "data_dir": "/data1/matengyu/geyugong/neuroadapter-author-first/data",
+      "imgs_dir": "/data1/matengyu/geyugong/neuroadapter-subject1-research/data/raw/nsd/stimuli",
+      "parcel_dir": "/data1/matengyu/geyugong/neuroadapter-subject1-research/data/derived/parcels/schaefer",
+      "run_id": "subject01-author-fp32-seed42-lr5e-5-from100",
+      "resume_from": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42-lr5e-5-from100/checkpoint-120",
+      "branch_lr_half": true,
+      "stage2": false,
+      "stage3": false,
+      "stage4": false,
+      "stage5": false,
+      "stage6": false,
+      "train_ids": null,
+      "audit": false,
+      "pretrained_model_name_or_path": "/data1/matengyu/geyugong/neuroadapter-subject1-research/models/stable-diffusion-v1-5",
+      "pretrained_ip_adapter_path": null,
+      "dataset_path": "/engram/nklab/coco/images/train2017/",
+      "output_dir": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42-lr5e-5-from100",
+      "logging_dir": "logs",
+      "training_subjects": null,
+      "learning_rate": 5e-05,
+      "weight_decay": 1e-06,
+      "num_train_epochs": 130,
+      "train_batch_size": 4,
+      "dataloader_num_workers": 0,
+      "save_epochs": 1,
+      "clip_max_norm": 1.0,
+      "mixed_precision": "no",
+      "gradient_accumulation_steps": 2,
+      "local_rank": 0,
+      "subject_id": 1,
+      "topk": 100,
+      "num_decoder_queries": 50,
+      "condition_dim": 768,
+      "encoder_resolution": 224,
+      "make_square": 224,
+      "gen_img_resolution": 512,
+      "sub_approach": "linear_projection",
+      "wandb": false,
+      "time": "subject01-author-fp32-seed42-lr5e-5-from100",
+      "seed": 42
+    },
+    "branch_provenance": {
+      "source_run": "subject01-author-fp32-seed42",
+      "source_checkpoint": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42/checkpoint-100",
+      "source_commit": "ddbac421b0a06e4dc3360dece3cf2afd8429dcdd",
+      "branch_run_id": "subject01-author-fp32-seed42-lr5e-5-from100",
+      "lr_change_location": "after accelerator.load_state; before training_loop",
+      "resume_source": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42-lr5e-5-from100/checkpoint-120",
+      "rank": 0,
+      "completed_epochs": 120,
+      "global_optimizer_updates": 63840,
+      "model_exact": true,
+      "adamw_before_exact": true,
+      "adamw_after_only_lr_changed": true,
+      "adamw_state_entries": 38,
+      "optimizer_lr": [
+        5e-05
+      ],
+      "rng_exact": true,
+      "loader_restored": true,
+      "next_epoch_order_sha256": "be9c106448ca1262e2882ecfb0613601ce40fb78bc6aab2751ccb80a1d1ae971",
+      "order_matches_H": null,
+      "continuation_target": 130,
+      "adamw_lr_unchanged": true
+    }
+  },
+  "epochs": [
+    {
+      "epoch": 121,
+      "global_optimizer_updates": 64372,
+      "actual_samples_processed": 1028984,
+      "epoch_samples": 8504,
+      "unique_samples": 8500,
+      "padding_samples": 4,
+      "microbatches_per_rank": 1063,
+      "final_accumulation_microbatches": 1,
+      "final_local_batch": 4,
+      "mean_loss": 0.11032354318592014,
+      "seconds": 878.7263596170815,
+      "image_order_sha256": "be9c106448ca1262e2882ecfb0613601ce40fb78bc6aab2751ccb80a1d1ae971"
+    },
+    {
+      "epoch": 122,
+      "global_optimizer_updates": 64904,
+      "actual_samples_processed": 1037488,
+      "epoch_samples": 8504,
+      "unique_samples": 8500,
+      "padding_samples": 4,
+      "microbatches_per_rank": 1063,
+      "final_accumulation_microbatches": 1,
+      "final_local_batch": 4,
+      "mean_loss": 0.1126144789111111,
+      "seconds": 880.1241325280862,
+      "image_order_sha256": "a93f93db46c331d0523174666ed578f62696345ef18b6ed7f852e05ef8c6ff3b"
+    },
+    {
+      "epoch": 123,
+      "global_optimizer_updates": 65436,
+      "actual_samples_processed": 1045992,
+      "epoch_samples": 8504,
+      "unique_samples": 8500,
+      "padding_samples": 4,
+      "microbatches_per_rank": 1063,
+      "final_accumulation_microbatches": 1,
+      "final_local_batch": 4,
+      "mean_loss": 0.11165561283582003,
+      "seconds": 879.8017599870218,
+      "image_order_sha256": "2b0a9f9ed5d29f9231300fa0ae7e7ee80e4371416807b6c10ef4b51e325c26e2"
+    },
+    {
+      "epoch": 124,
+      "global_optimizer_updates": 65968,
+      "actual_samples_processed": 1054496,
+      "epoch_samples": 8504,
+      "unique_samples": 8500,
+      "padding_samples": 4,
+      "microbatches_per_rank": 1063,
+      "final_accumulation_microbatches": 1,
+      "final_local_batch": 4,
+      "mean_loss": 0.1106971978855618,
+      "seconds": 880.1655527279945,
+      "image_order_sha256": "e81f7e411814c23a6bb81c05ffa3290c4bbb6b75510f967e78b3146cca3b21f8"
+    },
+    {
+      "epoch": 125,
+      "global_optimizer_updates": 66500,
+      "actual_samples_processed": 1063000,
+      "epoch_samples": 8504,
+      "unique_samples": 8500,
+      "padding_samples": 4,
+      "microbatches_per_rank": 1063,
+      "final_accumulation_microbatches": 1,
+      "final_local_batch": 4,
+      "mean_loss": 0.11225037110631239,
+      "seconds": 879.4850350769702,
+      "image_order_sha256": "22a34b6868c379b9c02825d5f7d966b2e8d3a986851102b12b8862e31583921b"
+    },
+    {
+      "epoch": 126,
+      "global_optimizer_updates": 67032,
+      "actual_samples_processed": 1071504,
+      "epoch_samples": 8504,
+      "unique_samples": 8500,
+      "padding_samples": 4,
+      "microbatches_per_rank": 1063,
+      "final_accumulation_microbatches": 1,
+      "final_local_batch": 4,
+      "mean_loss": 0.11133603924606784,
+      "seconds": 879.8975203300361,
+      "image_order_sha256": "fa97da3d24573ddd64d0c27beba0cabfa6cdcdae34c7a166d4e20c9595ccb984"
+    },
+    {
+      "epoch": 127,
+      "global_optimizer_updates": 67564,
+      "actual_samples_processed": 1080008,
+      "epoch_samples": 8504,
+      "unique_samples": 8500,
+      "padding_samples": 4,
+      "microbatches_per_rank": 1063,
+      "final_accumulation_microbatches": 1,
+      "final_local_batch": 4,
+      "mean_loss": 0.10941945116306363,
+      "seconds": 880.5810300849844,
+      "image_order_sha256": "670b70476d9f8930499179a185aa0193fc30cc4b198a6e6b26f2e8279247df25"
+    },
+    {
+      "epoch": 128,
+      "global_optimizer_updates": 68096,
+      "actual_samples_processed": 1088512,
+      "epoch_samples": 8504,
+      "unique_samples": 8500,
+      "padding_samples": 4,
+      "microbatches_per_rank": 1063,
+      "final_accumulation_microbatches": 1,
+      "final_local_batch": 4,
+      "mean_loss": 0.11278290801698225,
+      "seconds": 880.5449713709531,
+      "image_order_sha256": "024138d5fe08162ed6dd12f8cc0a6f25f26e26cd9af002c2923684c7557976a2"
+    },
+    {
+      "epoch": 129,
+      "global_optimizer_updates": 68628,
+      "actual_samples_processed": 1097016,
+      "epoch_samples": 8504,
+      "unique_samples": 8500,
+      "padding_samples": 4,
+      "microbatches_per_rank": 1063,
+      "final_accumulation_microbatches": 1,
+      "final_local_batch": 4,
+      "mean_loss": 0.11150421273236637,
+      "seconds": 880.0011171399383,
+      "image_order_sha256": "e5c5d00cba9abe2ee3ae16c3733e32b07c499b94542e365ba7684462af7a0daf"
+    },
+    {
+      "epoch": 130,
+      "global_optimizer_updates": 69160,
+      "actual_samples_processed": 1105520,
+      "epoch_samples": 8504,
+      "unique_samples": 8500,
+      "padding_samples": 4,
+      "microbatches_per_rank": 1063,
+      "final_accumulation_microbatches": 1,
+      "final_local_batch": 4,
+      "mean_loss": 0.11081125778220559,
+      "seconds": 880.4849427980371,
+      "image_order_sha256": "2178ac324294a012a2e9e18904e1ee0c2921acb8c989c47485b515ede73a4020"
+    }
+  ],
+  "events": [
+    {
+      "action": "launch",
+      "label": "lr-half-train-to-130",
+      "command": [
+        "/data1/matengyu/geyugong/neuroadapter-author-first/runtime/env/bin/python",
+        "scripts/run_train.py",
+        "--branch-lr-half",
+        "--target",
+        "130",
+        "--resume",
+        "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42-lr5e-5-from100/checkpoint-120"
+      ],
+      "parent_pid": 1562742
+    },
+    {
+      "action": "running",
+      "label": "lr-half-train-to-130",
+      "pid": 1562808
+    },
+    {
+      "action": "exit",
+      "label": "lr-half-train-to-130",
+      "pid": 1562808,
+      "exit_code": 0
+    },
+    {
+      "action": "launch",
+      "label": "lr-half-to130-generate",
+      "command": [
+        "/data1/matengyu/geyugong/neuroadapter-author-first/runtime/env/bin/python",
+        "/data1/matengyu/geyugong/neuroadapter-author-first/scripts/lr_half_continue.py",
+        "--target",
+        "130",
+        "--phase",
+        "generate"
+      ],
+      "parent_pid": 1562742
+    },
+    {
+      "action": "running",
+      "label": "lr-half-to130-generate",
+      "pid": 1582212
+    },
+    {
+      "action": "exit",
+      "label": "lr-half-to130-generate",
+      "pid": 1582212,
+      "exit_code": 0
+    },
+    {
+      "action": "launch",
+      "label": "lr-half-to130-score",
+      "command": [
+        "/data1/matengyu/geyugong/neuroadapter-author-first/runtime/env/bin/python",
+        "/data1/matengyu/geyugong/neuroadapter-author-first/scripts/lr_half_continue.py",
+        "--target",
+        "130",
+        "--phase",
+        "score"
+      ],
+      "parent_pid": 1562742
+    },
+    {
+      "action": "running",
+      "label": "lr-half-to130-score",
+      "pid": 1583775
+    },
+    {
+      "action": "exit",
+      "label": "lr-half-to130-score",
+      "pid": 1583775,
+      "exit_code": 0
+    },
+    {
+      "action": "controller_complete",
+      "exit_code": 0
+    }
+  ],
+  "export_sha256": "d672f344d2e49836c0aa8e4c7eff6bfd6fcd0c5c5749eafa4701731103c6656e",
+  "loaded_finite_tensors": 38,
+  "protected_unchanged": true,
+  "task_pids_exited": true,
+  "gpu_compute_empty": true
+}
