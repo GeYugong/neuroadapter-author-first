@@ -25,3 +25,5 @@ Stage3: explicit --stage3 full resume target60; default stage1 and stage2 limits
 Stage4: explicit full-resume targets70/80 retain stage1/2/3 boundaries. Small controller reuses stage3 execution/summary helpers and existing trainer/evaluator; only80 added to full500 evaluation path. Protect70/80 and existing59; best candidates extend through80. Trainer scientific functions unchanged; only cleanup/parser function ASTs changed.
 
 Stage5: explicit full-resume90/100 targets, preserving all earlier stage boundaries. Small stage controller reuses stage3 execution/summary; evaluator adds100 to existing full500 path. Protect90/100 and existing79. Only trainer cleanup/parser function ASTs changed; no scientific functions changed.
+
+Stage6: explicit full-resume110/120, prior stage boundaries preserved. Reuse stage3 execution/summary and existing trainer/metrics. Add120 to full500; protect110/120 and existing99. Only trainer cleanup/parser ASTs changed; scientific functions unchanged.

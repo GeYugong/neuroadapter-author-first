@@ -1,0 +1,37 @@
+{
+  "resume": "runs/subject01-author-fp32-seed42/checkpoint-100",
+  "completed_epochs": 100,
+  "updates": 53200,
+  "lr": [
+    0.0001
+  ],
+  "full_checkpoint_files": [
+    "COMPLETE",
+    "optimizer.bin",
+    "pytorch_model.bin",
+    "pytorch_model_1.bin",
+    "random_states_0.pkl",
+    "random_states_1.pkl",
+    "custom_checkpoint_0.pkl",
+    "custom_checkpoint_1.pkl"
+  ],
+  "gpu_compute_processes": "",
+  "changed_trainer_functions": [
+    "cleanup_checkpoints",
+    "create_argument_parser"
+  ],
+  "scientific_functions_unchanged": true,
+  "targets": [
+    110,
+    120
+  ],
+  "best_preserved": {
+    "epoch": 90,
+    "criterion": "maximum fixed val100 S among completed stages; provisional development selection",
+    "S": 82.89057239057239,
+    "full_checkpoint": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42/checkpoint-90",
+    "sha256": "b8422286f60712e3113174ac8f3d064411cb59ff5768feab01920a70fdfaa0c3",
+    "backup": "/data1/matengyu/geyugong/neuroadapter-author-first/backup/subject01-author-fp32-seed42/best_so_far",
+    "backup_note": "Two server-local copies on same filesystem, not an offsite backup"
+  }
+}
