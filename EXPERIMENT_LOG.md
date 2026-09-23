@@ -93,3 +93,7 @@ Epoch 100阶段完成：val100 S=82.72054；best_so_far epoch=90。实际八项�
 ## Stage6 authorization
 
 Continue same trajectory from full100/53200 to110, publish feedback, then120 if no stop condition. FP32/backend, micro4 accum2, LR1e-4 original AdamW, seed42 and all scientific settings unchanged. No90 full500 prerequisite or new diagnostics. Full100 checkpoint present, no later checkpoint/process/GPU compute task observed at preflight. Best90 preserved; complete load audit will be recorded before real101 training.
+
+Epoch 110阶段完成：val100 S=83.05387；best_so_far epoch=110。实际八项指标与固定图册见reports/epoch-110。
+
+Stage6 stopped at110 after AI review of all six fixed atlas pages: six val100 metrics regress vs100, accompanied by new clear category errors (dog to cat, zebra to cattle, kitchen to bathroom, skateboard to skiing, fruit to object). Some improvements remain; see reports/epoch-110/README.md. User quality-stop condition met; no120 launched and no science changes. Full110/58520 saved, all exits0, GPU released. Best110 by unchanged val100 S83.05387; historical90 preserved.
