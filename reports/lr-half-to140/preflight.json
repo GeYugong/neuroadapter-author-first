@@ -1,0 +1,8 @@
+{
+  "L120_to130_allowed": true,
+  "main110_rejected": true,
+  "source100_rejected": true,
+  "skip_to140_rejected": true,
+  "target150_rejected": true,
+  "old120_boundary_rejected": true
+}

@@ -542,7 +542,7 @@ def cleanup_checkpoints(output_dir, keep_last_n=3):
     )
     # Delete older checkpoints, keep only the last N
     for checkpoint in checkpoints[:-keep_last_n]:
-        if int(checkpoint.rsplit("-",1)[1]) in (1,5,10,20,30,40,49,50,59,60,70,79,80,90,99,100,105,110,115,120):
+        if int(checkpoint.rsplit("-",1)[1]) in (1,5,10,20,30,40,49,50,59,60,70,79,80,90,99,100,105,110,115,120,130,140):
             continue
         try:
             if os.path.exists(checkpoint):

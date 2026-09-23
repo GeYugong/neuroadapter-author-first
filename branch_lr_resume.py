@@ -20,8 +20,8 @@ def equal(a,b):
 def validate(args):
     source=Path(args.resume_from).resolve();out=Path(args.output_dir).resolve()
     assert args.run_id==BRANCH and out==ROOT/'runs'/BRANCH
-    assert args.num_train_epochs in (110,120) and args.learning_rate==5e-5
-    if args.num_train_epochs==120: assert source.parent==out, "120 requires L own checkpoint"
+    assert args.num_train_epochs in (110,120,130,140) and args.learning_rate==5e-5
+    if args.num_train_epochs>=120: assert source.parent==out, "L continuation requires own checkpoint"
     assert source==ROOT/'runs'/MAIN/'checkpoint-100' or source.parent==out
     baseline=json.loads((ROOT/'configs/stage1.json').read_text())
     for key,value in baseline.items():
