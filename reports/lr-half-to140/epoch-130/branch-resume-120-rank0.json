@@ -1,0 +1,24 @@
+{
+  "source_run": "subject01-author-fp32-seed42",
+  "source_checkpoint": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42/checkpoint-100",
+  "source_commit": "ddbac421b0a06e4dc3360dece3cf2afd8429dcdd",
+  "branch_run_id": "subject01-author-fp32-seed42-lr5e-5-from100",
+  "lr_change_location": "after accelerator.load_state; before training_loop",
+  "resume_source": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42-lr5e-5-from100/checkpoint-120",
+  "rank": 0,
+  "completed_epochs": 120,
+  "global_optimizer_updates": 63840,
+  "model_exact": true,
+  "adamw_before_exact": true,
+  "adamw_after_only_lr_changed": true,
+  "adamw_state_entries": 38,
+  "optimizer_lr": [
+    5e-05
+  ],
+  "rng_exact": true,
+  "loader_restored": true,
+  "next_epoch_order_sha256": "be9c106448ca1262e2882ecfb0613601ce40fb78bc6aab2751ccb80a1d1ae971",
+  "order_matches_H": null,
+  "continuation_target": 130,
+  "adamw_lr_unchanged": true
+}
