@@ -13,3 +13,5 @@ B0=原100/53200，不更新；H=原110/58520（LR1e-4），不重训；L=独立s
 运行：`runtime/env/bin/python scripts/lr_half_train.py`。中断后须先确认原控制器和所有子进程结束，仅从L最新COMPLETE恢复：`runtime/env/bin/python scripts/run_train.py --branch-lr-half --target 110 --resume runs/subject01-author-fp32-seed42-lr5e-5-from100/checkpoint-N`，N必须100以上且小于110；不得重新执行初始控制器。恢复审计为每rank独立JSON。
 
 开训前工程修复：采样器deepcopy原先尝试复制HDF5 dataset句柄而失败，未进入训练循环、0新增更新。改为`copy.deepcopy(loader.batch_sampler, {id(dataset): dataset})`，dataset仅共享只读引用；不改数据顺序与科学设置。确认控制器/启动器/双rank全部退出且L输出目录为空后，允许这次零更新重试。
+
+双rank正式恢复审计通过：模型逐张量相同，AdamW38项状态及param_groups加载前后除LR外相同，双rank RNG精确匹配源checkpoint，DataLoader恢复，第101轮样本顺序预测SHA与H相同。实际101轮已开始。统一评价命令：`runtime/env/bin/python scripts/lr_half_evaluate.py`（仅训练完整退出后运行）。评价产物独立放reports/lr-half-from100，H新增400图放L的comparison目录，不覆盖H既有100图或主线报告。
