@@ -506,6 +506,9 @@ def training_loop(args, accelerator, neuro_adapter, guidance_generator, train_da
             if args.audit:
                 Path(args.output_dir, f'order-{epoch+1}.json').write_text(json.dumps(seen))
             print(json.dumps(record), flush=True)
+        if args.branch_lr_half:
+            reference={x['epoch']:x for x in map(json.loads,Path(__file__).resolve().parent.joinpath('runs/subject01-author-fp32-seed42/epochs.jsonl').read_text().splitlines())}
+            assert hashlib.sha256(np.asarray(seen,dtype=np.int64).tobytes()).hexdigest()==reference[epoch+1]['image_order_sha256'], 'Actual branch order differs from H'
         save_path = Path(args.output_dir)/f'checkpoint-{epoch+1}'
         temporary = Path(str(save_path)+'.incomplete')
         if save_path.exists() or temporary.exists():
@@ -539,7 +542,7 @@ def cleanup_checkpoints(output_dir, keep_last_n=3):
     )
     # Delete older checkpoints, keep only the last N
     for checkpoint in checkpoints[:-keep_last_n]:
-        if int(checkpoint.rsplit("-",1)[1]) in (1,5,10,20,30,40,49,50,59,60,70,79,80,90,99,100,110,120):
+        if int(checkpoint.rsplit("-",1)[1]) in (1,5,10,20,30,40,49,50,59,60,70,79,80,90,99,100,105,110,120):
             continue
         try:
             if os.path.exists(checkpoint):
@@ -651,8 +654,12 @@ def main(args):
             raise ValueError('Only a complete epoch boundary can be resumed')
         accelerator.load_state(args.resume_from)
         train_dataloader.generator.set_state(progress.loader_generator_state)
-        assert progress.run_id == args.run_id
-        if accelerator.is_main_process:
+        if args.branch_lr_half:
+            from branch_lr_resume import restore
+            restore(args, accelerator, optimizer, (neuro_adapter,guidance_generator), train_dataloader, train_dataset, progress)
+        else:
+            assert progress.run_id == args.run_id
+        if accelerator.is_main_process and not args.branch_lr_half:
             saved_optimizer = torch.load(Path(args.resume_from)/'optimizer.bin', map_location='cpu', weights_only=False)
             actual_optimizer = optimizer.state_dict()
             assert len(actual_optimizer['state']) == len(saved_optimizer['state']) > 0
@@ -705,6 +712,7 @@ def create_argument_parser():
     parser.add_argument('--parcel_dir', required=True)
     parser.add_argument('--run_id', required=True)
     parser.add_argument('--resume_from')
+    parser.add_argument('--branch_lr_half', action='store_true')
     parser.add_argument('--stage2', action='store_true')
     parser.add_argument('--stage3', action='store_true')
     parser.add_argument('--stage4', action='store_true')
@@ -900,9 +908,12 @@ if __name__ == "__main__":
     if env_local_rank != -1 and env_local_rank != args.local_rank:
         args.local_rank = env_local_rank
 
-    if sum([args.stage2,args.stage3,args.stage4,args.stage5,args.stage6]) > 1:
+    if sum([args.stage2,args.stage3,args.stage4,args.stage5,args.stage6,args.branch_lr_half]) > 1:
         raise ValueError('Select only one stage')
-    if args.stage6:
+    if args.branch_lr_half:
+        from branch_lr_resume import validate
+        validate(args)
+    elif args.stage6:
         if args.num_train_epochs not in (110,120) or not args.resume_from:
             raise ValueError('Stage 6 requires full resume and cumulative target 110/120')
         checkpoint=Path(args.resume_from)

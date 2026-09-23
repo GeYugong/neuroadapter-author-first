@@ -17,9 +17,12 @@ parser.add_argument('--stage3', action='store_true')
 parser.add_argument('--stage4', action='store_true')
 parser.add_argument('--stage5', action='store_true')
 parser.add_argument('--stage6', action='store_true')
+parser.add_argument('--branch-lr-half', action='store_true')
 args = parser.parse_args()
-assert sum([args.stage2,args.stage3,args.stage4,args.stage5,args.stage6]) <= 1
-if args.stage6:
+assert sum([args.stage2,args.stage3,args.stage4,args.stage5,args.stage6,args.branch_lr_half]) <= 1
+if args.branch_lr_half:
+    assert args.target==110 and args.resume and not args.smoke and not args.run_dir
+elif args.stage6:
     assert args.target in (110,120) and args.resume and not args.smoke and not args.run_dir
     checkpoint=root/args.resume
     assert (checkpoint/'COMPLETE').exists()
@@ -62,6 +65,8 @@ if args.smoke:
     config['audit'] = True
 if args.resume:
     config['resume_from'] = str(root/args.resume)
+if args.branch_lr_half:
+    config.update(run_id='subject01-author-fp32-seed42-lr5e-5-from100',output_dir=str(root/'runs/subject01-author-fp32-seed42-lr5e-5-from100'),learning_rate=5e-5,branch_lr_half=True)
 config['num_train_epochs'] = args.target
 if args.stage2: config['stage2'] = True
 if args.stage3: config['stage3'] = True

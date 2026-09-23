@@ -1,0 +1,16 @@
+{
+  "runs/subject01-author-fp32-seed42/checkpoint-100/custom_checkpoint_1.pkl": "20c0aaab7ef703a71130917b75d5b7b49a6667a0714f4d9ac5e53f7aa8c05c42",
+  "runs/subject01-author-fp32-seed42/checkpoint-100/COMPLETE": "bfc3546c1e2fc4e95580920dcb3038127b787f502804ab83348567d06fa511d6",
+  "runs/subject01-author-fp32-seed42/checkpoint-100/custom_checkpoint_0.pkl": "962e8f43b6f6f4a7735cc2a6fdf837809e215b36539f224a1727bce266b2ff58",
+  "runs/subject01-author-fp32-seed42/checkpoint-100/optimizer.bin": "cdf8db3ffd8c45989ba2f47f09155168e183b459d4cee3cf8d39226bbd0d4498",
+  "runs/subject01-author-fp32-seed42/checkpoint-100/random_states_0.pkl": "158e1d325e1b5e228a82cfec0d7cf69f8097cdec8b31dade112c86a24b96818b",
+  "runs/subject01-author-fp32-seed42/checkpoint-100/pytorch_model_1.bin": "91966fcb8f13654bb8002b6152b7d92fe32053bf1c2da3deb0c6a134fd7c9883",
+  "runs/subject01-author-fp32-seed42/checkpoint-100/pytorch_model.bin": "ce704b77b4e0cb00a0061f89903af8268e0f5a38fd1e427658c0fd07ec6a257a",
+  "runs/subject01-author-fp32-seed42/checkpoint-100/random_states_1.pkl": "2d4062e35ac07bd9f07c45c84a0d02f39accb9e4e61e12bd6aebc19d526e2dbf",
+  "runs/subject01-author-fp32-seed42/checkpoint-100/progress.json": "a2eda614eb725aaa9375f0f61a59bc1c20c06054c63203fd9757614191e01bd7",
+  "runs/subject01-author-fp32-seed42/best_so_far/metadata.json": "afa4fbff9f874d45abd34cd9cda521b3ca535e924008c433bd22093824b87c77",
+  "runs/subject01-author-fp32-seed42/best_so_far/parcel_vertices.pt": "a5aceb7d1ec1ad6c8193cbe6f0fd2db23d298a6d4182e74aeac3a980a7b86ad3",
+  "runs/subject01-author-fp32-seed42/best_so_far/inference.pt": "e97f3560080f656980751d950efaf491e8720a1478b22321876565073c90e420",
+  "reports/best_so_far.json": "087e8b96b417c312076172bac5913b412c050a52fc0ea86ce5fcfad12246365a",
+  "reports/STAGE6_STOPPED_AT_110.md": "30cc71bb0130b253731ac037ddaf30135e06f500cca546cdfaaf4cf13d5322f3"
+}
