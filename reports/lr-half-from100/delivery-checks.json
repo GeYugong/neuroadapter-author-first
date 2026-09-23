@@ -1,0 +1,167 @@
+{
+  "L_inference_path": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42-lr5e-5-from100/exports/epoch-110/inference.pt",
+  "sha256": "f9881c2897e1844db3b237c39e4b6f6309c85441d0629a2bdcc1c1a396be34f9",
+  "metadata": {
+    "epoch": 110,
+    "global_optimizer_updates": 58520,
+    "code_commit": "d6ecd3b97bc03eb04779492c9116555b1cac0424"
+  },
+  "finite_loaded_tensors": 38,
+  "full_checkpoints": [
+    "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42-lr5e-5-from100/checkpoint-105",
+    "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42-lr5e-5-from100/checkpoint-110"
+  ],
+  "new_epochs": 10,
+  "new_updates": 5320,
+  "final_updates": 58520,
+  "actual_saved_AdamW_lr": 5e-05,
+  "protected_source_and_mainline_hashes_unchanged": true,
+  "historical_reports_unchanged_from_587072f": true,
+  "H_added_images": 400,
+  "H_added_candidates": 800,
+  "L_val_images": 500,
+  "L_train_images": 16,
+  "reviewer": "AI",
+  "L_atlas_pages_viewed": 6,
+  "eval_events": [
+    {
+      "action": "launch",
+      "label": "lr-half-eval-prepare",
+      "command": [
+        "/data1/matengyu/geyugong/neuroadapter-author-first/runtime/env/bin/python",
+        "/data1/matengyu/geyugong/neuroadapter-author-first/scripts/lr_half_evaluate.py",
+        "--phase",
+        "prepare"
+      ],
+      "parent_pid": 1507400
+    },
+    {
+      "action": "running",
+      "label": "lr-half-eval-prepare",
+      "pid": 1507436
+    },
+    {
+      "action": "exit",
+      "label": "lr-half-eval-prepare",
+      "pid": 1507436,
+      "exit_code": 0
+    },
+    {
+      "action": "launch",
+      "label": "lr-half-eval-H-generate",
+      "command": [
+        "/data1/matengyu/geyugong/neuroadapter-author-first/runtime/env/bin/python",
+        "/data1/matengyu/geyugong/neuroadapter-author-first/scripts/lr_half_evaluate.py",
+        "--phase",
+        "H-generate"
+      ],
+      "parent_pid": 1507400
+    },
+    {
+      "action": "running",
+      "label": "lr-half-eval-H-generate",
+      "pid": 1507460
+    },
+    {
+      "action": "exit",
+      "label": "lr-half-eval-H-generate",
+      "pid": 1507460,
+      "exit_code": 0
+    },
+    {
+      "action": "launch",
+      "label": "lr-half-eval-H-score",
+      "command": [
+        "/data1/matengyu/geyugong/neuroadapter-author-first/runtime/env/bin/python",
+        "/data1/matengyu/geyugong/neuroadapter-author-first/scripts/lr_half_evaluate.py",
+        "--phase",
+        "H-score"
+      ],
+      "parent_pid": 1507400
+    },
+    {
+      "action": "running",
+      "label": "lr-half-eval-H-score",
+      "pid": 1512857
+    },
+    {
+      "action": "exit",
+      "label": "lr-half-eval-H-score",
+      "pid": 1512857,
+      "exit_code": 0
+    },
+    {
+      "action": "launch",
+      "label": "lr-half-eval-L-generate",
+      "command": [
+        "/data1/matengyu/geyugong/neuroadapter-author-first/runtime/env/bin/python",
+        "/data1/matengyu/geyugong/neuroadapter-author-first/scripts/lr_half_evaluate.py",
+        "--phase",
+        "L-generate"
+      ],
+      "parent_pid": 1507400
+    },
+    {
+      "action": "running",
+      "label": "lr-half-eval-L-generate",
+      "pid": 1513018
+    },
+    {
+      "action": "exit",
+      "label": "lr-half-eval-L-generate",
+      "pid": 1513018,
+      "exit_code": 0
+    },
+    {
+      "action": "launch",
+      "label": "lr-half-eval-L-score",
+      "command": [
+        "/data1/matengyu/geyugong/neuroadapter-author-first/runtime/env/bin/python",
+        "/data1/matengyu/geyugong/neuroadapter-author-first/scripts/lr_half_evaluate.py",
+        "--phase",
+        "L-score"
+      ],
+      "parent_pid": 1507400
+    },
+    {
+      "action": "running",
+      "label": "lr-half-eval-L-score",
+      "pid": 1519859
+    },
+    {
+      "action": "exit",
+      "label": "lr-half-eval-L-score",
+      "pid": 1519859,
+      "exit_code": 0
+    },
+    {
+      "action": "launch",
+      "label": "lr-half-eval-compare",
+      "command": [
+        "/data1/matengyu/geyugong/neuroadapter-author-first/runtime/env/bin/python",
+        "/data1/matengyu/geyugong/neuroadapter-author-first/scripts/lr_half_evaluate.py",
+        "--phase",
+        "compare"
+      ],
+      "parent_pid": 1507400
+    },
+    {
+      "action": "running",
+      "label": "lr-half-eval-compare",
+      "pid": 1520051
+    },
+    {
+      "action": "exit",
+      "label": "lr-half-eval-compare",
+      "pid": 1520051,
+      "exit_code": 0
+    }
+  ],
+  "all_recorded_eval_exit_codes": 0,
+  "successful_train_exit_code": 0,
+  "initial_preupdate_attempt_exit_code": 1,
+  "initial_attempt_updates": 0,
+  "controllers_exited": true,
+  "controller_exit_code_note": "Top-level shell did not persist a separate exit code; all child phases exit0, final marker exists, controller PID absent",
+  "gpu_compute_processes": ""
+}
