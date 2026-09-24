@@ -1,0 +1,40 @@
+{
+  "status": "DESIGN_ONLY_NOT_STARTED",
+  "training_seed": 43,
+  "subject": 1,
+  "endpoint_epochs": 120,
+  "expected_updates": 63840,
+  "learning_rate_by_epoch": {
+    "1-100": 0.0001,
+    "101-120": 5e-05
+  },
+  "new_training_runs": 1,
+  "formal_generated_candidates": 2000,
+  "entry_check_candidate_cap": 8,
+  "target_donor_and_atlas_files_sha256": {
+    "configs/stage1.json": "6cadd4b6297176851fde2fdc1504d1de296c7f23f9a7f8ae9f4dca70028a030a",
+    "configs/lr-half-to120.json": "3584892d3578d0f1b23fe62916f68ca59555d646b5fec80a8f117a83bde96c51",
+    "configs/train_ids.txt": "a13ad80a744e19c22e8309bc9ffe3cd49bd5ad1a4058921adec37fdd686614ea",
+    "configs/val_ids.txt": "73137068416d3400708e1a3d5bda09600be4ea7b2164f11322a26f4de1b37c55",
+    "reports/best_so_far.json": "087e8b96b417c312076172bac5913b412c050a52fc0ea86ce5fcfad12246365a",
+    "reports/ibbi-roi-l120-pilot/roi_mapping.json": "d690198504dd20e86c157fa4428c1572cd46aba45217688e0c07e0a920b4fa5d",
+    "reports/hl-content-replication-l120/protocol.json": "ffb590ac2ba27af364e1ef50e8ec16add9927d74932168fcfef6f6564fde98cb",
+    "reports/hl-content-replication-l120/target_ids.txt": "24856b1fbac12a597e9345e3b3f4eaf57c9c6763b0f122e148667f569669cca9",
+    "reports/hl-content-replication-l120/atlas32_ids.txt": "83cb80379e0013dc2b84c877a203ef779a469becfd46c99a3cc9f3e447621af7",
+    "reports/hl-content-replication-l120/comparison.json": "dfc0656d9067de36ecd52e715ff32b06fbfecdc04bf0a3099f05a0752f8c3005",
+    "reports/hl-content-replication-l120/EVIDENCE_SUMMARY.md": "074dd53dcb4caee8aa4b6f56c155b021b1afbc4c224dae2e31386b10e0d5a0c6",
+    "runs/subject01-author-fp32-seed42/epochs.jsonl": "784de7b7cc8a0f4bcdbe2a237ba2d80c404b259a0253b6c639a30f8f645719d9",
+    "runs/subject01-author-fp32-seed42-lr5e-5-from100/epochs.jsonl": "320e752f3355b25b0e99b24aa1f25c79616b22561d3134732e73b1b47720bb5b",
+    "reports/hl-content-replication-l120/donor-1/map.json": "35d8299fbb41216512234630dd1a640f27ce70bbfed5bbaa39a9f4762080498a",
+    "reports/hl-content-replication-l120/donor-2/map.json": "e9cfc32e7b2af84acacf622bd0a1c311ad88fd31c071c8c65ed60711e4046dc5",
+    "reports/hl-content-replication-l120/donor-3/map.json": "fd1d06b2767f6ddc56de2ce6cfaa12843f22e3d7ba68f5bd07aafde90fb034a3"
+  },
+  "training_seconds_per_epoch_historical_median": 880.2809244599775,
+  "estimated_training_hours_excluding_io": 29.342697481999252,
+  "existing_formal_runs": [
+    "subject01-author-fp32-seed42",
+    "subject01-author-fp32-seed42-lr5e-5-from100"
+  ],
+  "source_commit": "b8624692a13817db574b9d48d888a1b2f0780fe3",
+  "no_new_training_or_inference_started": true
+}
