@@ -18,9 +18,13 @@ parser.add_argument('--stage4', action='store_true')
 parser.add_argument('--stage5', action='store_true')
 parser.add_argument('--stage6', action='store_true')
 parser.add_argument('--branch-lr-half', action='store_true')
+parser.add_argument('--seed43-replication', action='store_true')
 args = parser.parse_args()
-assert sum([args.stage2,args.stage3,args.stage4,args.stage5,args.stage6,args.branch_lr_half]) <= 1
-if args.branch_lr_half:
+assert sum([args.stage2,args.stage3,args.stage4,args.stage5,args.stage6,args.branch_lr_half,args.seed43_replication]) <= 1
+if args.seed43_replication:
+    assert args.target in (100,120) and not args.smoke and not args.run_dir
+    assert args.target==100 or args.resume
+elif args.branch_lr_half:
     assert args.target in (110,120,130,140) and args.resume and not args.smoke and not args.run_dir
 elif args.stage6:
     assert args.target in (110,120) and args.resume and not args.smoke and not args.run_dir
@@ -57,6 +61,9 @@ elif args.stage2:
 else:
     assert 0 < args.target <= 20
 config = json.loads((root/'configs/stage1.json').read_text())
+if args.seed43_replication:
+    config = json.loads((root/'configs/seed43-replication.json').read_text())
+    config['learning_rate'] = 1e-4 if args.target==100 else 5e-5
 if args.run_dir:
     config['output_dir'] = str(root/args.run_dir)
 if args.smoke:

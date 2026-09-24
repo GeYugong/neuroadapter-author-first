@@ -1,0 +1,22 @@
+{
+  "tests": [
+    "initial seed43 configuration accepted",
+    "rejected invalid seed",
+    "rejected invalid learning_rate",
+    "rejected invalid num_train_epochs",
+    "rejected invalid output_dir",
+    "rejected invalid train_ids",
+    "accepted own 100 to120 full boundary",
+    "rejected wrong saved LR at100",
+    "accepted own 110 to120 full boundary",
+    "rejected wrong saved LR at110",
+    "accepted own 119 to120 full boundary",
+    "rejected wrong saved LR at119"
+  ],
+  "science_ast_unchanged": true,
+  "old_input_lock_verified": 433,
+  "protected_historical_files": 1018,
+  "gpu_processes": "",
+  "disk": "\u6587\u4ef6\u7cfb\u7edf        \u5927\u5c0f  \u5df2\u7528  \u53ef\u7528 \u5df2\u7528% \u6302\u8f7d\u70b9\n/dev/sda3       7.3T  6.3T  611G   92% /data1\n",
+  "status": "ready_for_authorized_launch"
+}

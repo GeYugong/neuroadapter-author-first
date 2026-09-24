@@ -1,0 +1,27 @@
+{
+  "source_commit": "619c0b5",
+  "scientific_functions_ast_unchanged": [
+    "setup_accelerator",
+    "setup_wandb_logging",
+    "load_pretrained_models",
+    "setup_ip_adapter",
+    "setup_dataset_and_dataloader",
+    "setup_models_and_optimizer",
+    "setup_weight_dtype",
+    "apply_fmri_token_dropout",
+    "apply_feature_dropout",
+    "apply_vertex_feature_dropout",
+    "process_training_batch",
+    "training_loop",
+    "cleanup_checkpoints",
+    "export_inference",
+    "audit_parameters"
+  ],
+  "author_training_loop_unchanged": true,
+  "old_stage_boundaries_retained": true,
+  "new_allowed_targets": [
+    100,
+    120
+  ],
+  "evaluation_pending_separate_process": true
+}

@@ -654,12 +654,15 @@ def main(args):
             raise ValueError('Only a complete epoch boundary can be resumed')
         accelerator.load_state(args.resume_from)
         train_dataloader.generator.set_state(progress.loader_generator_state)
-        if args.branch_lr_half:
+        if args.seed43_replication:
+            from seed43_resume import restore
+            restore(args, accelerator, optimizer, (neuro_adapter,guidance_generator), train_dataloader, progress)
+        elif args.branch_lr_half:
             from branch_lr_resume import restore
             restore(args, accelerator, optimizer, (neuro_adapter,guidance_generator), train_dataloader, train_dataset, progress)
         else:
             assert progress.run_id == args.run_id
-        if accelerator.is_main_process and not args.branch_lr_half:
+        if accelerator.is_main_process and not args.branch_lr_half and not args.seed43_replication:
             saved_optimizer = torch.load(Path(args.resume_from)/'optimizer.bin', map_location='cpu', weights_only=False)
             actual_optimizer = optimizer.state_dict()
             assert len(actual_optimizer['state']) == len(saved_optimizer['state']) > 0
@@ -689,6 +692,9 @@ def main(args):
             raise RuntimeError('Existing run requires --resume_from')
         if accelerator.is_main_process:
             export_inference(args, accelerator, neuro_adapter, guidance_generator, train_dataset, 0)
+    if args.seed43_replication and not args.resume_from:
+        from seed43_resume import audit_initial
+        audit_initial(args, accelerator, optimizer, (neuro_adapter,guidance_generator), train_dataloader, train_dataset, progress)
     # Start training
     accelerator.print("Starting training...")
     training_loop(
@@ -713,6 +719,7 @@ def create_argument_parser():
     parser.add_argument('--run_id', required=True)
     parser.add_argument('--resume_from')
     parser.add_argument('--branch_lr_half', action='store_true')
+    parser.add_argument('--seed43_replication', action='store_true')
     parser.add_argument('--stage2', action='store_true')
     parser.add_argument('--stage3', action='store_true')
     parser.add_argument('--stage4', action='store_true')
@@ -908,9 +915,12 @@ if __name__ == "__main__":
     if env_local_rank != -1 and env_local_rank != args.local_rank:
         args.local_rank = env_local_rank
 
-    if sum([args.stage2,args.stage3,args.stage4,args.stage5,args.stage6,args.branch_lr_half]) > 1:
+    if sum([args.stage2,args.stage3,args.stage4,args.stage5,args.stage6,args.branch_lr_half,args.seed43_replication]) > 1:
         raise ValueError('Select only one stage')
-    if args.branch_lr_half:
+    if args.seed43_replication:
+        from seed43_resume import validate
+        validate(args)
+    elif args.branch_lr_half:
         from branch_lr_resume import validate
         validate(args)
     elif args.stage6:
