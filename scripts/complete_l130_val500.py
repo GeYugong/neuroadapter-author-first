@@ -62,9 +62,14 @@ def prepare():
     old.save(REPORT/'provenance.json',dict(epochs=provenance,source_commit=subprocess.check_output(['git','rev-parse','HEAD'],cwd=ROOT,text=True).strip(),new_image_ids=missing,new_images=400,new_candidate_images=800,training_updates_added=0))
 
 def generate():
+    provenance=old.read(REPORT/'provenance.json')['epochs']
+    protocols=[v['identity']['protocol'] for v in provenance.values()]
+    common_protocol=lambda p:{k:v for k,v in p.items() if k not in ('image_ids','export_path')}
+    assert all(common_protocol(p)==common_protocol(protocols[0]) for p in protocols)
     assert not (WORK/'missing400').exists(), 'Do not overwrite or blindly repeat partial generation'
     ev.decode(RUN,130,'val',WORK/'missing400_ids.txt',WORK/'missing400')
-    old.identity(RUN,130,69160,WORK/'missing400')
+    new=old.identity(RUN,130,69160,WORK/'missing400')
+    assert common_protocol(new['protocol'])==common_protocol(protocols[0])
     full=old.ids('val_ids.txt');monitor=set(old.ids('monitor100_ids.txt'))
     union=WORK/'full500';union.mkdir()
     manifest=[]
