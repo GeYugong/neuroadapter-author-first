@@ -1,0 +1,70 @@
+{
+  "passed": true,
+  "attention_and_explicit_empty_mask_checked_together": true,
+  "original_decoder_same_forward": true,
+  "images": 2,
+  "candidates": 4,
+  "rows": [
+    {
+      "image_id": 38833,
+      "candidate": 0,
+      "seed": 2729802629225320932,
+      "condition": "BASE",
+      "mask_tokens": [],
+      "E_original_sha256": "200c661b448b30fcb37554c96df6157d1fc4d83616a53d9fca0da4bcf8ef55f7",
+      "E_intervened_sha256": "200c661b448b30fcb37554c96df6157d1fc4d83616a53d9fca0da4bcf8ef55f7",
+      "unselected_rows_exact": true,
+      "selected_rows_zero": true,
+      "conditional_checks": 50,
+      "unconditional_E_original_zeros": true,
+      "baseline_pixel_exact": true
+    },
+    {
+      "image_id": 38833,
+      "candidate": 1,
+      "seed": 1910759220297056890,
+      "condition": "BASE",
+      "mask_tokens": [],
+      "E_original_sha256": "200c661b448b30fcb37554c96df6157d1fc4d83616a53d9fca0da4bcf8ef55f7",
+      "E_intervened_sha256": "200c661b448b30fcb37554c96df6157d1fc4d83616a53d9fca0da4bcf8ef55f7",
+      "unselected_rows_exact": true,
+      "selected_rows_zero": true,
+      "conditional_checks": 50,
+      "unconditional_E_original_zeros": true,
+      "baseline_pixel_exact": true
+    },
+    {
+      "image_id": 27648,
+      "candidate": 0,
+      "seed": 8667894147635386096,
+      "condition": "BASE",
+      "mask_tokens": [],
+      "E_original_sha256": "5cbbce54e5de473a177d560087752fdb3dca9eb53325cf6fd630cb72ea11c142",
+      "E_intervened_sha256": "5cbbce54e5de473a177d560087752fdb3dca9eb53325cf6fd630cb72ea11c142",
+      "unselected_rows_exact": true,
+      "selected_rows_zero": true,
+      "conditional_checks": 50,
+      "unconditional_E_original_zeros": true,
+      "baseline_pixel_exact": true
+    },
+    {
+      "image_id": 27648,
+      "candidate": 1,
+      "seed": 5424059531349671196,
+      "condition": "BASE",
+      "mask_tokens": [],
+      "E_original_sha256": "5cbbce54e5de473a177d560087752fdb3dca9eb53325cf6fd630cb72ea11c142",
+      "E_intervened_sha256": "5cbbce54e5de473a177d560087752fdb3dca9eb53325cf6fd630cb72ea11c142",
+      "unselected_rows_exact": true,
+      "selected_rows_zero": true,
+      "conditional_checks": 50,
+      "unconditional_E_original_zeros": true,
+      "baseline_pixel_exact": true
+    }
+  ],
+  "weight_unchanged": {
+    "runs/subject01-author-fp32-seed42-lr5e-5-from100/exports/epoch-120/inference.pt": true,
+    "runs/subject01-author-fp32-seed42-lr5e-5-from100/exports/epoch-120/metadata.json": true,
+    "runs/subject01-author-fp32-seed42-lr5e-5-from100/exports/epoch-120/parcel_vertices.pt": true
+  }
+}

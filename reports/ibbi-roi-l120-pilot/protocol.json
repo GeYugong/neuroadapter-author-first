@@ -1,0 +1,88 @@
+{
+  "scope": "Fixed L120 IBBI and E-token ROI pilot; zero training updates.",
+  "budget": {
+    "ibbi_images": 32,
+    "candidates_per_image": 2,
+    "identity_images": 2,
+    "identity_candidates_reused_in_ibbi": 4,
+    "intervention_images_per_condition": 100,
+    "new_conditions": 8,
+    "new_intervention_candidates": 1600
+  },
+  "inference": {
+    "candidate_batch": 1,
+    "steps": 50,
+    "cfg": 4,
+    "seed": 42,
+    "random_process": "Original full image-ID-derived generator, including VAE initialization and scheduler draws",
+    "dtype": "float32, existing TF32/backend and original VAE decode autocast",
+    "selection": false,
+    "gt_enters_generation": false,
+    "standard_test_access": false
+  },
+  "mapping": {
+    "threshold": ">0.5 for each raw NSD Subject1 functional label; padding excluded; no pre-union",
+    "space": "Official NSD native white -> fsaverage nearest-neighbor 1-based source index transform, each hemisphere separately",
+    "LL": 31,
+    "HL": 78,
+    "LL_HL_intersection": [
+      22,
+      143
+    ],
+    "conflicts": "Retain all memberships; within-group union deduplicated; no outcome-based changes",
+    "random_seed": 2026092403,
+    "controls": 3,
+    "matched": "Parcel count and hemisphere counts only",
+    "unmatched": "SNR, effective vertices, functional membership, spatial adjacency"
+  },
+  "attention": {
+    "source": "Existing IPAttnProcessor2_0.ip_attn_map read-only post-forward hooks; original decoder loop unchanged",
+    "conditional_identity": "Assert actual UNet encoder row0 tail equals actual unconditional projected E=0, row1 equals actual conditional projected E",
+    "validation": "finite/nonnegative/query parcel mass1, dimension200, actual Transformer2DModel input H/W; CPU/CUDA RNG state unchanged by capture",
+    "B": "Original integrate_attention_layers, mean heads then query-weighted layers",
+    "RAM": "Original create_roi_attention_map per layer, ROI/head mean, bilinear512, L1 per layer, equal-layer mean; time mean after per-step normalization",
+    "saved_steps": [
+      1,
+      10,
+      20,
+      30,
+      40,
+      50
+    ],
+    "actual_timesteps_recorded": true,
+    "streaming": true,
+    "display": "Original create_attention_overlay display contrast only; quantitative arrays retained"
+  },
+  "intervention": {
+    "position": "GuidanceGenerator output E before ImageProjModel",
+    "operation": "Clone conditional E, zero selected rows, assert others bitwise unchanged, retain all200 rows and original unconditional branch",
+    "limit": "Projection bias/LayerNorm remain; zero E is not token removal or complete K/V path removal; not a verified Table14 exact implementation"
+  },
+  "checks": {
+    "identity_and_empty_mask": "Same original2 x2 trajectories with attention hooks and explicit empty mask must match original L120 pixel-exact; reused in64",
+    "all_ibbi": "All64 candidates must also match original baseline pixel-exact"
+  },
+  "scores": {
+    "pool": 100,
+    "author_evaluator": "scripts/evaluate_stage.py metrics unchanged; each candidate scored in100 pool then averaged",
+    "baseline": "Existing L120 val100 reused",
+    "primary": "E_LL and E_HL on S",
+    "S": "(Alex(5)+Incep+CLIP)/3",
+    "D": "S_BASE - S_mask",
+    "E": "D_ROI - mean of three same-size random D",
+    "bootstrap": {
+      "resamples": 10000,
+      "seed": 2026092404,
+      "unit": "image after averaging candidates",
+      "main_E_interval": 0.975,
+      "other_interval": 0.95,
+      "implementation": "Same batched image-paired percentile loop as existing complete_l130_val500.py"
+    }
+  },
+  "interpretation": "Repeated internal development set, fixed model and masks, descriptive nominal intervals, no historical-selection correction, no independent test, no human brain causality. No requirement for significance.",
+  "stop": "Complete bounded results, fixed atlases, attention arrays/maps and Chinese report, then stop. No additional conditions, training or checkpoints.",
+  "sources": [
+    "https://arxiv.org/html/2509.23566v2",
+    "https://github.com/cvnlab/nsdcode/tree/bfd36a503cc90a3eb3ebfd69b269403f7e186924"
+  ]
+}

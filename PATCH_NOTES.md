@@ -27,3 +27,14 @@ Stage4: explicit full-resume targets70/80 retain stage1/2/3 boundaries. Small co
 Stage5: explicit full-resume90/100 targets, preserving all earlier stage boundaries. Small stage controller reuses stage3 execution/summary; evaluator adds100 to existing full500 path. Protect90/100 and existing79. Only trainer cleanup/parser function ASTs changed; no scientific functions changed.
 
 Stage6: explicit full-resume110/120, prior stage boundaries preserved. Reuse stage3 execution/summary and existing trainer/metrics. Add120 to full500; protect110/120 and existing99. Only trainer cleanup/parser ASTs changed; scientific functions unchanged.
+
+
+## Fixed L120 IBBI and ROI pilot (2026-09-24)
+
+- Added isolated orchestration and read-only hooks around the unchanged author decoder, attention processor, and evaluator. No trainer, optimizer, model, loss, sampling or existing metric implementation is changed.
+- Official Subject1 native functional labels are mapped by the NSD hemisphere-specific white-to-fsaverage nearest-neighbor transforms, with one-based stored source indices converted to zero-based. Saved L120 parcel order/vertices and the SNR fsaverage index are checked exactly.
+- Explicit strict per-raw-label overlap >0.5 replaces neither historical results nor the author's plotting default0.75/dataset >= comparison; this experiment uses31 LL and78 HL parcels and preserves the two cross-memberships.
+- Original pure attention integration/ROI-map/overlay functions are loaded from their AST definitions to avoid the plotting entry's unrelated hardcoded cwd, pycortex setup and dataset defaults. Streaming adapts storage only: query-weighted B, layer-L1/equal-layer RAM.
+- A conditional E clone is masked after GuidanceGenerator and before original ImageProjModel, retaining every unselected row and the original unconditional path. Bias/LayerNorm remain. This is an explicit model-internal intervention, not a verified exact Table14 implementation.
+- Four original decode2 candidates, with both read-only attention and an explicit empty mask, matched prior L120 outputs pixel-exact; those four count within the fixed64 IBBI trajectories.
+- Three complement-only random sets per ROI use seed2026092403 and exact parcel/hemisphere counts; SNR, vertex size, function and mesh adjacency are reported but not matched.

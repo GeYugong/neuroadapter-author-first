@@ -1,0 +1,15 @@
+{
+  "time": "2026-09-24T15:02:35+0800",
+  "noninterference_passed": true,
+  "new_training_updates": 0,
+  "scientific_code_unchanged": true,
+  "source_hashes": {
+    "scripts/ibbi_roi_prepare.py": "9aaed3ee3ebb0071a76e73c151f89522805ce1ed82078b0291d166d0b5c97b76",
+    "scripts/decode_ibbi_roi.py": "9aaea5661333a985434890baf7080eaad4721bfe648a5149a2a6e6382f406394",
+    "scripts/ibbi_roi_pilot.py": "e2bdb585c1dba396a27c400791289c516a4c56b43371a46ecc7a4c16690de72f",
+    "scripts/ibbi_roi_figures.py": "a85b015b2dd3eb2f81850bf071b71e9fed5ce8773a312cdb07534c680355c294",
+    "scripts/ibbi_roi_characteristics.py": "f570f405f164f48f77c13280994f767703aa7a7e7d40968241a429de28a17d94"
+  },
+  "attention_budget": 64,
+  "new_intervention_budget": 1600
+}

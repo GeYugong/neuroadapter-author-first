@@ -1,0 +1,169 @@
+[
+  {
+    "path": "/data1/matengyu/geyugong/neuroadapter-author-first/runtime/ibbi-roi-l120-assets/prf-visualrois.mgz.ctab",
+    "url": "https://natural-scenes-dataset.s3.amazonaws.com/nsddata/freesurfer/subj01/label/prf-visualrois.mgz.ctab",
+    "sha256": "a224cd6232add03232580b009999c674e25c223f1719f02c19c2a1220e9737fb",
+    "bytes": 79,
+    "labels": "0 Unknown\n1 V1v\t    \n2 V1d\t   \n3 V2v\t   \n4 V2d\t   \n5 V3v\t    \n6 V3d\t    \n7 hV4\n"
+  },
+  {
+    "path": "/data1/matengyu/geyugong/neuroadapter-author-first/runtime/ibbi-roi-l120-assets/lh.prf-visualrois.mgz",
+    "url": "https://natural-scenes-dataset.s3.amazonaws.com/nsddata/freesurfer/subj01/label/lh.prf-visualrois.mgz",
+    "sha256": "37134b4e6c852b365d0fc8162acb9608e437c7adab88ec76d1e6a8fad7ba6cff",
+    "bytes": 4409,
+    "shape": [
+      227021
+    ],
+    "min": 0.0,
+    "max": 7.0
+  },
+  {
+    "path": "/data1/matengyu/geyugong/neuroadapter-author-first/runtime/ibbi-roi-l120-assets/rh.prf-visualrois.mgz",
+    "url": "https://natural-scenes-dataset.s3.amazonaws.com/nsddata/freesurfer/subj01/label/rh.prf-visualrois.mgz",
+    "sha256": "2af899525083c82bc264e872c58ece39c2183d41641c03667a8fca515e8a6cfa",
+    "bytes": 4729,
+    "shape": [
+      226601
+    ],
+    "min": 0.0,
+    "max": 7.0
+  },
+  {
+    "path": "/data1/matengyu/geyugong/neuroadapter-author-first/runtime/ibbi-roi-l120-assets/floc-faces.mgz.ctab",
+    "url": "https://natural-scenes-dataset.s3.amazonaws.com/nsddata/freesurfer/subj01/label/floc-faces.mgz.ctab",
+    "sha256": "a08777e03281f79421ec343b1ae8da3b4a54c69efbaf3cc6f27fe4b1279a3a02",
+    "bytes": 56,
+    "labels": "0 Unknown\n1 OFA\n2 FFA-1\n3 FFA-2\n4 mTL-faces\n5 aTL-faces\n"
+  },
+  {
+    "path": "/data1/matengyu/geyugong/neuroadapter-author-first/runtime/ibbi-roi-l120-assets/lh.floc-faces.mgz",
+    "url": "https://natural-scenes-dataset.s3.amazonaws.com/nsddata/freesurfer/subj01/label/lh.floc-faces.mgz",
+    "sha256": "bbacfb5a7e4f7e0dd444ad117cd6e93c8a5df307a5f01c59a2b80845ab89cd6d",
+    "bytes": 2445,
+    "shape": [
+      227021
+    ],
+    "min": 0.0,
+    "max": 5.0
+  },
+  {
+    "path": "/data1/matengyu/geyugong/neuroadapter-author-first/runtime/ibbi-roi-l120-assets/rh.floc-faces.mgz",
+    "url": "https://natural-scenes-dataset.s3.amazonaws.com/nsddata/freesurfer/subj01/label/rh.floc-faces.mgz",
+    "sha256": "5ee859d0af00bb5428a43e078990b8e156ab80a43cf8f2e443072174c029af55",
+    "bytes": 2940,
+    "shape": [
+      226601
+    ],
+    "min": 0.0,
+    "max": 5.0
+  },
+  {
+    "path": "/data1/matengyu/geyugong/neuroadapter-author-first/runtime/ibbi-roi-l120-assets/floc-bodies.mgz.ctab",
+    "url": "https://natural-scenes-dataset.s3.amazonaws.com/nsddata/freesurfer/subj01/label/floc-bodies.mgz.ctab",
+    "sha256": "d1f9a435e7722e1cd50c4a34ff66aed686ad47a55e2691866634f20bf62cc74d",
+    "bytes": 45,
+    "labels": "0 Unknown\n1 EBA\n2 FBA-1\n3 FBA-2\n4 mTL-bodies\n"
+  },
+  {
+    "path": "/data1/matengyu/geyugong/neuroadapter-author-first/runtime/ibbi-roi-l120-assets/lh.floc-bodies.mgz",
+    "url": "https://natural-scenes-dataset.s3.amazonaws.com/nsddata/freesurfer/subj01/label/lh.floc-bodies.mgz",
+    "sha256": "31ecb363d8ffdacdda9f513439e2ebf916e3424743e30b80d1d8de00e87c5bb1",
+    "bytes": 3833,
+    "shape": [
+      227021
+    ],
+    "min": 0.0,
+    "max": 2.0
+  },
+  {
+    "path": "/data1/matengyu/geyugong/neuroadapter-author-first/runtime/ibbi-roi-l120-assets/rh.floc-bodies.mgz",
+    "url": "https://natural-scenes-dataset.s3.amazonaws.com/nsddata/freesurfer/subj01/label/rh.floc-bodies.mgz",
+    "sha256": "84e07afa8713847a10b197ae9271379a5aab5379eea3b84bb8afb4606d0340b3",
+    "bytes": 6005,
+    "shape": [
+      226601
+    ],
+    "min": 0.0,
+    "max": 3.0
+  },
+  {
+    "path": "/data1/matengyu/geyugong/neuroadapter-author-first/runtime/ibbi-roi-l120-assets/floc-places.mgz.ctab",
+    "url": "https://natural-scenes-dataset.s3.amazonaws.com/nsddata/freesurfer/subj01/label/floc-places.mgz.ctab",
+    "sha256": "03454c774624ed0892ca5888dce33a407992d50a29a67533ece086373f758cce",
+    "bytes": 28,
+    "labels": "0 Unknown\n1 OPA\n2 PPA\n3 RSC\n"
+  },
+  {
+    "path": "/data1/matengyu/geyugong/neuroadapter-author-first/runtime/ibbi-roi-l120-assets/lh.floc-places.mgz",
+    "url": "https://natural-scenes-dataset.s3.amazonaws.com/nsddata/freesurfer/subj01/label/lh.floc-places.mgz",
+    "sha256": "bf05b90eff7c3e33217fe0906cef5efcc779d1e6b147a2b2081cfc506393753c",
+    "bytes": 5070,
+    "shape": [
+      227021
+    ],
+    "min": 0.0,
+    "max": 3.0
+  },
+  {
+    "path": "/data1/matengyu/geyugong/neuroadapter-author-first/runtime/ibbi-roi-l120-assets/rh.floc-places.mgz",
+    "url": "https://natural-scenes-dataset.s3.amazonaws.com/nsddata/freesurfer/subj01/label/rh.floc-places.mgz",
+    "sha256": "08454c68cfebae6a6a50949a831315e86fcb8dc3904a0e34ef76e15d95e3cfab",
+    "bytes": 4611,
+    "shape": [
+      226601
+    ],
+    "min": 0.0,
+    "max": 3.0
+  },
+  {
+    "path": "/data1/matengyu/geyugong/neuroadapter-author-first/runtime/ibbi-roi-l120-assets/floc-words.mgz.ctab",
+    "url": "https://natural-scenes-dataset.s3.amazonaws.com/nsddata/freesurfer/subj01/label/floc-words.mgz.ctab",
+    "sha256": "33528f2e43ebceb6d824e99af7cc16086aa2685120477de5d035b15c68e7a1f4",
+    "bytes": 59,
+    "labels": "0 Unknown\n1 OWFA\n2 VWFA-1\n3 VWFA-2\n4 mfs-words\n5 mTL-words\n"
+  },
+  {
+    "path": "/data1/matengyu/geyugong/neuroadapter-author-first/runtime/ibbi-roi-l120-assets/lh.floc-words.mgz",
+    "url": "https://natural-scenes-dataset.s3.amazonaws.com/nsddata/freesurfer/subj01/label/lh.floc-words.mgz",
+    "sha256": "17c4aeb62ef31973d91821eb8e39bc9663ba9913e8f52595c39107f1bc916526",
+    "bytes": 4340,
+    "shape": [
+      227021
+    ],
+    "min": 0.0,
+    "max": 5.0
+  },
+  {
+    "path": "/data1/matengyu/geyugong/neuroadapter-author-first/runtime/ibbi-roi-l120-assets/rh.floc-words.mgz",
+    "url": "https://natural-scenes-dataset.s3.amazonaws.com/nsddata/freesurfer/subj01/label/rh.floc-words.mgz",
+    "sha256": "38d528d13365553f93bc50e32dd446d61d4026e2a6d6b09a8a14c28f88a8bccc",
+    "bytes": 3223,
+    "shape": [
+      226601
+    ],
+    "min": 0.0,
+    "max": 3.0
+  },
+  {
+    "path": "/data1/matengyu/geyugong/neuroadapter-author-first/runtime/ibbi-roi-l120-assets/lh.white-to-fsaverage.mgz",
+    "url": "https://natural-scenes-dataset.s3.amazonaws.com/nsddata/ppdata/subj01/transforms/lh.white-to-fsaverage.mgz",
+    "sha256": "a2f0eacd4e4a84be91e463d93c9060add1286529304a3d8723467586a5672ee6",
+    "bytes": 445821,
+    "shape": [
+      163842
+    ],
+    "min": 1.0,
+    "max": 227021.0
+  },
+  {
+    "path": "/data1/matengyu/geyugong/neuroadapter-author-first/runtime/ibbi-roi-l120-assets/rh.white-to-fsaverage.mgz",
+    "url": "https://natural-scenes-dataset.s3.amazonaws.com/nsddata/ppdata/subj01/transforms/rh.white-to-fsaverage.mgz",
+    "sha256": "ce346d6f9ea27490158c11315dceed337ded832c24b991448975e4ce2d89cfca",
+    "bytes": 443594,
+    "shape": [
+      163842
+    ],
+    "min": 7.0,
+    "max": 226599.0
+  }
+]

@@ -97,3 +97,8 @@ Continue same trajectory from full100/53200 to110, publish feedback, then120 if 
 Epoch 110阶段完成：val100 S=83.05387；best_so_far epoch=110。实际八项指标与固定图册见reports/epoch-110。
 
 Stage6 stopped at110 after AI review of all six fixed atlas pages: six val100 metrics regress vs100, accompanied by new clear category errors (dog to cat, zebra to cattle, kitchen to bathroom, skateboard to skiing, fruit to object). Some improvements remain; see reports/epoch-110/README.md. User quality-stop condition met; no120 launched and no science changes. Full110/58520 saved, all exits0, GPU released. Best110 by unchanged val100 S83.05387; historical90 preserved.
+
+
+## 2026-09-24: fixed L120 IBBI / ROI pilot started
+
+User authorized attachment-driven inference-only budget:64 fixed attention trajectories and8 x100 x2 E-token interventions, with original BASE outputs reused. Model/parcel/ROI locks are in reports/ibbi-roi-l120-pilot. Two-image noninterference and empty-mask checks passed pixel-exact. Official ROI assets and exact native-to-fsaverage mapping provenance are frozen. No optimizer or training entry is used; original mainline best, all checkpoints and historical outputs/reports remain protected. Initial remote reference-code download timed out before inference; pinned official files were fetched through the local connection and checked by SHA. The 32-image IBBI phase is now running, without conclusions about ROI effects yet.
