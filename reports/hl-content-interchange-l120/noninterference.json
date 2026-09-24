@@ -1,0 +1,34 @@
+{
+  "passed": true,
+  "new_check_candidates": 8,
+  "checks": [
+    {
+      "condition": "AA",
+      "image_id": 38833,
+      "candidates": 2,
+      "pixel_exact": true,
+      "gt_and_seed_exact": true
+    },
+    {
+      "condition": "AA",
+      "image_id": 27648,
+      "candidates": 2,
+      "pixel_exact": true,
+      "gt_and_seed_exact": true
+    },
+    {
+      "condition": "BB",
+      "image_id": 38833,
+      "candidates": 2,
+      "pixel_exact": true,
+      "gt_and_seed_exact": true
+    },
+    {
+      "condition": "BB",
+      "image_id": 27648,
+      "candidates": 2,
+      "pixel_exact": true,
+      "gt_and_seed_exact": true
+    }
+  ]
+}

@@ -1,0 +1,1402 @@
+[
+  {
+    "image_id": 204,
+    "donor_id": 59470,
+    "sources": {
+      "AA": {
+        "path": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42-lr5e-5-from100/decoded/epoch-120/val/image_000204.npz",
+        "sha256": "eddad2587bf4e3fd6b4121f2158f075e533660645dfebc25b38ee5b7fc2951d0"
+      },
+      "BB": {
+        "path": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42-lr5e-5-from100/comparison/brain-correspondence-l120/permuted500/image_000204.npz",
+        "sha256": "6c4a746364065f78d28ce3eae8a44bfffc8ec4cd9ad5425fe2a51e1465db8898"
+      }
+    }
+  },
+  {
+    "image_id": 425,
+    "donor_id": 16800,
+    "sources": {
+      "AA": {
+        "path": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42-lr5e-5-from100/decoded/epoch-120/val/image_000425.npz",
+        "sha256": "058a6dd8ea0d35c0f27ed3cca3d85bc53973411b76234a6159e826b5d6d97c91"
+      },
+      "BB": {
+        "path": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42-lr5e-5-from100/comparison/brain-correspondence-l120/permuted500/image_000425.npz",
+        "sha256": "d7cdd5299cb8c7d01d98008b96d0d74638bce436b74429bed44bb1c419e34e19"
+      }
+    }
+  },
+  {
+    "image_id": 637,
+    "donor_id": 64050,
+    "sources": {
+      "AA": {
+        "path": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42-lr5e-5-from100/decoded/epoch-120/val/image_000637.npz",
+        "sha256": "78d766838205eb92a97bae9063c312d2bbcdade47067ed6443f55131cc2e203b"
+      },
+      "BB": {
+        "path": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42-lr5e-5-from100/comparison/brain-correspondence-l120/permuted500/image_000637.npz",
+        "sha256": "d5782f32bc272d7cc3061fc807f2a67e4d4fa6504585848bc19fa30664426642"
+      }
+    }
+  },
+  {
+    "image_id": 868,
+    "donor_id": 38833,
+    "sources": {
+      "AA": {
+        "path": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42-lr5e-5-from100/decoded/epoch-120/val/image_000868.npz",
+        "sha256": "470ec0fdfc2a6559da62e39aa6338ffb4c9422d61107663654cc8394e6bd491c"
+      },
+      "BB": {
+        "path": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42-lr5e-5-from100/comparison/brain-correspondence-l120/permuted500/image_000868.npz",
+        "sha256": "09b233abf23abb9953b91a845518cb6e6e3f5f5d2b04865ced9c97c03a7c4991"
+      }
+    }
+  },
+  {
+    "image_id": 1015,
+    "donor_id": 32697,
+    "sources": {
+      "AA": {
+        "path": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42-lr5e-5-from100/decoded/epoch-120/val/image_001015.npz",
+        "sha256": "e98764f7a9ab8eeecb9678d2918f6dbf68420911041020fb4920f8f1430655fe"
+      },
+      "BB": {
+        "path": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42-lr5e-5-from100/comparison/brain-correspondence-l120/permuted500/image_001015.npz",
+        "sha256": "9b5395d57dd1bc6782ece7dee43abda4814a12a17b2060436595b4a2d5610679"
+      }
+    }
+  },
+  {
+    "image_id": 1818,
+    "donor_id": 95,
+    "sources": {
+      "AA": {
+        "path": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42-lr5e-5-from100/decoded/epoch-120/val/image_001818.npz",
+        "sha256": "fb5ee073a8423b8acf2590c26dc87c3cea2f6e815abf1df8dd95b3fea6c34869"
+      },
+      "BB": {
+        "path": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42-lr5e-5-from100/comparison/brain-correspondence-l120/permuted500/image_001818.npz",
+        "sha256": "b898ebdb18ba661db60a508d200cc6dffe1b76a8f0c56b4e118eb27419a77775"
+      }
+    }
+  },
+  {
+    "image_id": 2980,
+    "donor_id": 33256,
+    "sources": {
+      "AA": {
+        "path": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42-lr5e-5-from100/decoded/epoch-120/val/image_002980.npz",
+        "sha256": "d1a00022f6cda11a7b6894859c18bb109428cb801d466e4fb58ea18f98e60ed3"
+      },
+      "BB": {
+        "path": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42-lr5e-5-from100/comparison/brain-correspondence-l120/permuted500/image_002980.npz",
+        "sha256": "2a3b14cd7764bc98842ad390c7aed3c001aeb017f9b176060c43632332680856"
+      }
+    }
+  },
+  {
+    "image_id": 3803,
+    "donor_id": 31280,
+    "sources": {
+      "AA": {
+        "path": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42-lr5e-5-from100/decoded/epoch-120/val/image_003803.npz",
+        "sha256": "e42b107cf72f18a6d26a8873d497381d300d382a48c3a4f811aeeecec55539de"
+      },
+      "BB": {
+        "path": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42-lr5e-5-from100/comparison/brain-correspondence-l120/permuted500/image_003803.npz",
+        "sha256": "2bc96e276738a4616c5e22ca4cb56d6345620fe64fef54a5547890564d8107c9"
+      }
+    }
+  },
+  {
+    "image_id": 5683,
+    "donor_id": 57114,
+    "sources": {
+      "AA": {
+        "path": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42-lr5e-5-from100/decoded/epoch-120/val/image_005683.npz",
+        "sha256": "78c5f53721d6dabdf60d9ff6a6ec8116bb17dc83c6cc9479889714124b4782d9"
+      },
+      "BB": {
+        "path": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42-lr5e-5-from100/comparison/brain-correspondence-l120/permuted500/image_005683.npz",
+        "sha256": "4d3217ced41bb2fd4d0b735b5e60fd95e115c3a9cfc5eb091ef196e9cf08d943"
+      }
+    }
+  },
+  {
+    "image_id": 6315,
+    "donor_id": 51227,
+    "sources": {
+      "AA": {
+        "path": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42-lr5e-5-from100/decoded/epoch-120/val/image_006315.npz",
+        "sha256": "428d138cffdf8d44d3e7c9b826b2b9c29856ba8de2010d52abbd38f82817a03e"
+      },
+      "BB": {
+        "path": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42-lr5e-5-from100/comparison/brain-correspondence-l120/permuted500/image_006315.npz",
+        "sha256": "b5dec4028bf657bf7f7b92c0506bb99138a7e81cfee531c351f1832e66e2b5eb"
+      }
+    }
+  },
+  {
+    "image_id": 8238,
+    "donor_id": 72527,
+    "sources": {
+      "AA": {
+        "path": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42-lr5e-5-from100/decoded/epoch-120/val/image_008238.npz",
+        "sha256": "3377405823fe25cea47a87cad6a2f8af74af3d08a2a442a340de83eea5dcfbc8"
+      },
+      "BB": {
+        "path": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42-lr5e-5-from100/comparison/brain-correspondence-l120/permuted500/image_008238.npz",
+        "sha256": "4e0725612f5360885c7859b68a827e32a4c7b0d7cba9638a742ce9a808afa545"
+      }
+    }
+  },
+  {
+    "image_id": 8275,
+    "donor_id": 66058,
+    "sources": {
+      "AA": {
+        "path": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42-lr5e-5-from100/decoded/epoch-120/val/image_008275.npz",
+        "sha256": "6f593481e28664f2c4e9b28e25b2ab2e2717fe4f13e97d4e01d8c8b9bc34eb66"
+      },
+      "BB": {
+        "path": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42-lr5e-5-from100/comparison/brain-correspondence-l120/permuted500/image_008275.npz",
+        "sha256": "c5019d5b45605cb5bad64f7763372bd65cbde45431b2afe27196bc3fb6821f44"
+      }
+    }
+  },
+  {
+    "image_id": 9877,
+    "donor_id": 30139,
+    "sources": {
+      "AA": {
+        "path": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42-lr5e-5-from100/decoded/epoch-120/val/image_009877.npz",
+        "sha256": "17971d7a19ec08c774d4bab4fd226e4b3308a0fc1bbc12de29fbb0d88b664dc8"
+      },
+      "BB": {
+        "path": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42-lr5e-5-from100/comparison/brain-correspondence-l120/permuted500/image_009877.npz",
+        "sha256": "20fd71a0d524df4ed496b5593b599f4afd8fcb66f3833b5f821ed4875bb86834"
+      }
+    }
+  },
+  {
+    "image_id": 10622,
+    "donor_id": 63062,
+    "sources": {
+      "AA": {
+        "path": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42-lr5e-5-from100/decoded/epoch-120/val/image_010622.npz",
+        "sha256": "042195a13bc5f3c49f98d54232c09b539c847341c9aed1bda7f5db3a05975b7b"
+      },
+      "BB": {
+        "path": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42-lr5e-5-from100/comparison/brain-correspondence-l120/permuted500/image_010622.npz",
+        "sha256": "e209ed317e4521ccab0bb8479be721f0ba3ac73a11a5eae6e76e941ef2789973"
+      }
+    }
+  },
+  {
+    "image_id": 12597,
+    "donor_id": 52733,
+    "sources": {
+      "AA": {
+        "path": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42-lr5e-5-from100/decoded/epoch-120/val/image_012597.npz",
+        "sha256": "904c004ce8c04caefed7c9d9b2b42abd4a3912520c85c6e78ef50b69677f9ad7"
+      },
+      "BB": {
+        "path": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42-lr5e-5-from100/comparison/brain-correspondence-l120/permuted500/image_012597.npz",
+        "sha256": "9d7cd09350e0a928e37757be28df727ba26a09f23f47d330fdb730b4734604a0"
+      }
+    }
+  },
+  {
+    "image_id": 13134,
+    "donor_id": 58169,
+    "sources": {
+      "AA": {
+        "path": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42-lr5e-5-from100/decoded/epoch-120/val/image_013134.npz",
+        "sha256": "77fa8515f7d04a5bc6a6b518baac1b155453351d1d0a2aaf283d89a57f0f162f"
+      },
+      "BB": {
+        "path": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42-lr5e-5-from100/comparison/brain-correspondence-l120/permuted500/image_013134.npz",
+        "sha256": "153bef050399344f5dd9e09950bd97c80a00fe7f67fe85c9250c53e98e550906"
+      }
+    }
+  },
+  {
+    "image_id": 13223,
+    "donor_id": 27648,
+    "sources": {
+      "AA": {
+        "path": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42-lr5e-5-from100/decoded/epoch-120/val/image_013223.npz",
+        "sha256": "7bcd5b6a3fe5d6ec62a0bcb6f3f67d8552db398c0b4e4348948ec7742a335622"
+      },
+      "BB": {
+        "path": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42-lr5e-5-from100/comparison/brain-correspondence-l120/permuted500/image_013223.npz",
+        "sha256": "04aef8d884d45960ddf4443ac083a0da521016a1c7a644858da167ec88438369"
+      }
+    }
+  },
+  {
+    "image_id": 13741,
+    "donor_id": 6360,
+    "sources": {
+      "AA": {
+        "path": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42-lr5e-5-from100/decoded/epoch-120/val/image_013741.npz",
+        "sha256": "65a499eec370f96a3df525d70face1b96727a390269db6518ac4d7d8e88bd023"
+      },
+      "BB": {
+        "path": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42-lr5e-5-from100/comparison/brain-correspondence-l120/permuted500/image_013741.npz",
+        "sha256": "624b6d47a5645ed040499b2ca1fa87371242300627c1d70b956db60bc574a82f"
+      }
+    }
+  },
+  {
+    "image_id": 13895,
+    "donor_id": 55202,
+    "sources": {
+      "AA": {
+        "path": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42-lr5e-5-from100/decoded/epoch-120/val/image_013895.npz",
+        "sha256": "4c1392d816799137767230fb5f49b7fee1b5c784e6bf6b9c01997846d48e3789"
+      },
+      "BB": {
+        "path": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42-lr5e-5-from100/comparison/brain-correspondence-l120/permuted500/image_013895.npz",
+        "sha256": "9e83ae3833faef2a6d71a9e50f46a48bcc781322529b39b45752932528d9b748"
+      }
+    }
+  },
+  {
+    "image_id": 13938,
+    "donor_id": 6454,
+    "sources": {
+      "AA": {
+        "path": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42-lr5e-5-from100/decoded/epoch-120/val/image_013938.npz",
+        "sha256": "902e363cc47fd8962f277927afe780466c10bf03f6aa2713bc33efdf5cd69cea"
+      },
+      "BB": {
+        "path": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42-lr5e-5-from100/comparison/brain-correspondence-l120/permuted500/image_013938.npz",
+        "sha256": "c990e6310bb9248bcd423df8fa301f7678ace565edb5dc6ad15829941ee152bc"
+      }
+    }
+  },
+  {
+    "image_id": 15068,
+    "donor_id": 27260,
+    "sources": {
+      "AA": {
+        "path": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42-lr5e-5-from100/decoded/epoch-120/val/image_015068.npz",
+        "sha256": "6b291d9b392579a5a06d3dba35960da19c5ccfb1369ce35256a4297ccf08c3f2"
+      },
+      "BB": {
+        "path": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42-lr5e-5-from100/comparison/brain-correspondence-l120/permuted500/image_015068.npz",
+        "sha256": "f881c4031469b408466e27536b3fe1ee4d9c97f205aca109ab5d9cfd4252e764"
+      }
+    }
+  },
+  {
+    "image_id": 15181,
+    "donor_id": 43584,
+    "sources": {
+      "AA": {
+        "path": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42-lr5e-5-from100/decoded/epoch-120/val/image_015181.npz",
+        "sha256": "f70b994a247cc0bdcba305c3fc72cf78051ea05d8fcd70e6da6b1bb502e459b0"
+      },
+      "BB": {
+        "path": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42-lr5e-5-from100/comparison/brain-correspondence-l120/permuted500/image_015181.npz",
+        "sha256": "d7f4b07bc94b8fea7a29c695507a7526e5dcf413cbf63d0ff457294573e84925"
+      }
+    }
+  },
+  {
+    "image_id": 15953,
+    "donor_id": 26519,
+    "sources": {
+      "AA": {
+        "path": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42-lr5e-5-from100/decoded/epoch-120/val/image_015953.npz",
+        "sha256": "ec18bfe02965d043e1afff38f983b3c80f4a64cf95528b798afe38c21f1bfe43"
+      },
+      "BB": {
+        "path": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42-lr5e-5-from100/comparison/brain-correspondence-l120/permuted500/image_015953.npz",
+        "sha256": "afe661b41af64ab2ec7d9e23204e9551698d62bedc4916433310b5133aebcabf"
+      }
+    }
+  },
+  {
+    "image_id": 15985,
+    "donor_id": 45952,
+    "sources": {
+      "AA": {
+        "path": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42-lr5e-5-from100/decoded/epoch-120/val/image_015985.npz",
+        "sha256": "8c0e14689cc56b7231a42a388b8532492b1133339253f4e56fe3d34344ca5207"
+      },
+      "BB": {
+        "path": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42-lr5e-5-from100/comparison/brain-correspondence-l120/permuted500/image_015985.npz",
+        "sha256": "9a74ddb7fd9f8fbe7c8473aec538d4e5edb5836d50cdc54f3fa300e3f5ca337d"
+      }
+    }
+  },
+  {
+    "image_id": 16625,
+    "donor_id": 36198,
+    "sources": {
+      "AA": {
+        "path": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42-lr5e-5-from100/decoded/epoch-120/val/image_016625.npz",
+        "sha256": "17d509c23758a72c4d10aa2b28945a44aa119f2a20cb27d2e3ccd1b6567b2525"
+      },
+      "BB": {
+        "path": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42-lr5e-5-from100/comparison/brain-correspondence-l120/permuted500/image_016625.npz",
+        "sha256": "54486e8ce0413629f8d9ae0afbf2f755ed7a48c7121802c04d387b78082e01c5"
+      }
+    }
+  },
+  {
+    "image_id": 17865,
+    "donor_id": 24103,
+    "sources": {
+      "AA": {
+        "path": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42-lr5e-5-from100/decoded/epoch-120/val/image_017865.npz",
+        "sha256": "727c44a675fb17066f9ebd94535912644d8b1acafadc5e2c04a6620dc1e1bb94"
+      },
+      "BB": {
+        "path": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42-lr5e-5-from100/comparison/brain-correspondence-l120/permuted500/image_017865.npz",
+        "sha256": "230ac6de4d00a56cf054e670fb8bd0391c8e59e4b06c6495c723dfde9840a2c1"
+      }
+    }
+  },
+  {
+    "image_id": 18888,
+    "donor_id": 48655,
+    "sources": {
+      "AA": {
+        "path": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42-lr5e-5-from100/decoded/epoch-120/val/image_018888.npz",
+        "sha256": "a01cc86d06174ae4574e53ea965cabfcdc8593351b0587b52700ca8917738c88"
+      },
+      "BB": {
+        "path": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42-lr5e-5-from100/comparison/brain-correspondence-l120/permuted500/image_018888.npz",
+        "sha256": "fae3d4bd552f0d04aeb28d0a7a78bbecf492f9547cdc60b8b1637ac42617b9e6"
+      }
+    }
+  },
+  {
+    "image_id": 19331,
+    "donor_id": 29400,
+    "sources": {
+      "AA": {
+        "path": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42-lr5e-5-from100/decoded/epoch-120/val/image_019331.npz",
+        "sha256": "21bdae560b86f0aead35c9b4ebb497ab94df43504b4fcd081e0e076a02ff866f"
+      },
+      "BB": {
+        "path": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42-lr5e-5-from100/comparison/brain-correspondence-l120/permuted500/image_019331.npz",
+        "sha256": "e9451b23d855a143aea49d4fd2e5cc2e8eda9d5a73356460225f1a108f705358"
+      }
+    }
+  },
+  {
+    "image_id": 20520,
+    "donor_id": 20863,
+    "sources": {
+      "AA": {
+        "path": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42-lr5e-5-from100/decoded/epoch-120/val/image_020520.npz",
+        "sha256": "9fa494e89047fb43f60d190d9b885f42af6cb4e15f16ba143d2d1ad67e34a53e"
+      },
+      "BB": {
+        "path": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42-lr5e-5-from100/comparison/brain-correspondence-l120/permuted500/image_020520.npz",
+        "sha256": "48c34354229a3590990267decb8a8d9293bbc7b16a82b9cc4f686b4afa001641"
+      }
+    }
+  },
+  {
+    "image_id": 20545,
+    "donor_id": 46276,
+    "sources": {
+      "AA": {
+        "path": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42-lr5e-5-from100/decoded/epoch-120/val/image_020545.npz",
+        "sha256": "f626c1ca25d2d74661a6a035595798841d097fdb27f1e149aa8406f1560f0afa"
+      },
+      "BB": {
+        "path": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42-lr5e-5-from100/comparison/brain-correspondence-l120/permuted500/image_020545.npz",
+        "sha256": "a0816c28f66a03f49e71b7c11c9aacedfc5e76da67d8940ea7bb9cc628406f9b"
+      }
+    }
+  },
+  {
+    "image_id": 20863,
+    "donor_id": 47086,
+    "sources": {
+      "AA": {
+        "path": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42-lr5e-5-from100/decoded/epoch-120/val/image_020863.npz",
+        "sha256": "6ce89d5e2b0aeeeb088b56c0224c7258900a64ac5d3c4a2c39c505509fe04b72"
+      },
+      "BB": {
+        "path": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42-lr5e-5-from100/comparison/brain-correspondence-l120/permuted500/image_020863.npz",
+        "sha256": "c87a0760390164f23f195f74adf33b175e7876248441b493a83b8b82f029ca4c"
+      }
+    }
+  },
+  {
+    "image_id": 22215,
+    "donor_id": 356,
+    "sources": {
+      "AA": {
+        "path": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42-lr5e-5-from100/decoded/epoch-120/val/image_022215.npz",
+        "sha256": "b8d3d3b292720b1b70975f01fe1250f769cf07f3b85499a7c21cb5ce36d68e3a"
+      },
+      "BB": {
+        "path": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42-lr5e-5-from100/comparison/brain-correspondence-l120/permuted500/image_022215.npz",
+        "sha256": "2173f5ec6c1a74d687e850b8bbf34454dd86e48e5f866a45fffa9265d60e6f30"
+      }
+    }
+  },
+  {
+    "image_id": 22303,
+    "donor_id": 25447,
+    "sources": {
+      "AA": {
+        "path": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42-lr5e-5-from100/decoded/epoch-120/val/image_022303.npz",
+        "sha256": "73f05566427ed24d74810988fdd90ad6de60bd91ed5044b529454828bc4c2fb6"
+      },
+      "BB": {
+        "path": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42-lr5e-5-from100/comparison/brain-correspondence-l120/permuted500/image_022303.npz",
+        "sha256": "1bb7aab98897f51c5f5473d4292aef170ad173c43633e4d185357a8249c6f38b"
+      }
+    }
+  },
+  {
+    "image_id": 23445,
+    "donor_id": 47471,
+    "sources": {
+      "AA": {
+        "path": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42-lr5e-5-from100/decoded/epoch-120/val/image_023445.npz",
+        "sha256": "b850e70ca67924b0ae642f1354c20f631c498fe3f8d445b23d5fe4d447bdf52b"
+      },
+      "BB": {
+        "path": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42-lr5e-5-from100/comparison/brain-correspondence-l120/permuted500/image_023445.npz",
+        "sha256": "8e62a6b0bcc3b7be03318adfcae523e1476fdc28783f7617b7a4bf338b3c0b53"
+      }
+    }
+  },
+  {
+    "image_id": 25374,
+    "donor_id": 34169,
+    "sources": {
+      "AA": {
+        "path": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42-lr5e-5-from100/decoded/epoch-120/val/image_025374.npz",
+        "sha256": "7c142c41448d0519d943bd511176ce0d8229daa62e4e818554817e0710001a8d"
+      },
+      "BB": {
+        "path": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42-lr5e-5-from100/comparison/brain-correspondence-l120/permuted500/image_025374.npz",
+        "sha256": "2a83a182d055b4d12fa894ee648b871752063667c83c5c3053f9b1caf78bbe2c"
+      }
+    }
+  },
+  {
+    "image_id": 26419,
+    "donor_id": 65609,
+    "sources": {
+      "AA": {
+        "path": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42-lr5e-5-from100/decoded/epoch-120/val/image_026419.npz",
+        "sha256": "11b828d234b1858029256e025a89276dc65f78c876ea6a6f6680627be8e1d791"
+      },
+      "BB": {
+        "path": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42-lr5e-5-from100/comparison/brain-correspondence-l120/permuted500/image_026419.npz",
+        "sha256": "a8d1d22323614db7127da8410a115d79fb6d5602a276afa6b807d2077301708d"
+      }
+    }
+  },
+  {
+    "image_id": 27648,
+    "donor_id": 22793,
+    "sources": {
+      "AA": {
+        "path": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42-lr5e-5-from100/decoded/epoch-120/val/image_027648.npz",
+        "sha256": "c648c06b402fba76d7aaa8a9decd4ecd8dca9803e436a8d73dc2167ddcaaff3b"
+      },
+      "BB": {
+        "path": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42-lr5e-5-from100/comparison/brain-correspondence-l120/permuted500/image_027648.npz",
+        "sha256": "95efc834b16eb6e1ff9dff796998d5d1c79f206cf5adea298ee6e0cd4d36ffbb"
+      }
+    }
+  },
+  {
+    "image_id": 29018,
+    "donor_id": 69087,
+    "sources": {
+      "AA": {
+        "path": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42-lr5e-5-from100/decoded/epoch-120/val/image_029018.npz",
+        "sha256": "9bc4dc4d5d3274e7c95f8fae857c77d43fdf54fce2bd73139c43207f2bb307ff"
+      },
+      "BB": {
+        "path": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42-lr5e-5-from100/comparison/brain-correspondence-l120/permuted500/image_029018.npz",
+        "sha256": "4fadc7878375fdd045122c7531fd49e812af2253738f7a3bcdcb12171070c4bd"
+      }
+    }
+  },
+  {
+    "image_id": 29815,
+    "donor_id": 1589,
+    "sources": {
+      "AA": {
+        "path": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42-lr5e-5-from100/decoded/epoch-120/val/image_029815.npz",
+        "sha256": "3a52b9b04830fc2b9d893ca05c39f5b2759efcbadbd9fb687a4b737956e2ba89"
+      },
+      "BB": {
+        "path": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42-lr5e-5-from100/comparison/brain-correspondence-l120/permuted500/image_029815.npz",
+        "sha256": "e458933f7d87f8e4dcb9a30446a4ffaa456f56f6004f3c15fe8fa9941ead601f"
+      }
+    }
+  },
+  {
+    "image_id": 30016,
+    "donor_id": 21436,
+    "sources": {
+      "AA": {
+        "path": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42-lr5e-5-from100/decoded/epoch-120/val/image_030016.npz",
+        "sha256": "75cab92f1dcbd282888501b08a107e8d59a73d3ca33e91227afdfc5b74a8857c"
+      },
+      "BB": {
+        "path": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42-lr5e-5-from100/comparison/brain-correspondence-l120/permuted500/image_030016.npz",
+        "sha256": "a41b1ec17ff55a5350095206af879ee6fdbf900cb6b7b1631d9d301cf2792c68"
+      }
+    }
+  },
+  {
+    "image_id": 30068,
+    "donor_id": 56272,
+    "sources": {
+      "AA": {
+        "path": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42-lr5e-5-from100/decoded/epoch-120/val/image_030068.npz",
+        "sha256": "85212f13b01e6c91d7ea035697671fb7a604f30b650d4076351b2255d9e09eaa"
+      },
+      "BB": {
+        "path": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42-lr5e-5-from100/comparison/brain-correspondence-l120/permuted500/image_030068.npz",
+        "sha256": "1168e0da28108d76bb3ca4b98f6eca8373f9e20223b6bfa957cf6cf15c7d0c8d"
+      }
+    }
+  },
+  {
+    "image_id": 30139,
+    "donor_id": 318,
+    "sources": {
+      "AA": {
+        "path": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42-lr5e-5-from100/decoded/epoch-120/val/image_030139.npz",
+        "sha256": "e647ed4ef7374ac37791785c34e6acb1eb96e13981190fc0020b0742f9f06739"
+      },
+      "BB": {
+        "path": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42-lr5e-5-from100/comparison/brain-correspondence-l120/permuted500/image_030139.npz",
+        "sha256": "e6b5725abe47a0635bc0c4064161dd83928d6c91dcd03a992d9f4bd78aadb468"
+      }
+    }
+  },
+  {
+    "image_id": 32365,
+    "donor_id": 27240,
+    "sources": {
+      "AA": {
+        "path": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42-lr5e-5-from100/decoded/epoch-120/val/image_032365.npz",
+        "sha256": "8c856e86052bfb17c600ea16be4712a696e85356a7398477b49eca01bc4d3b38"
+      },
+      "BB": {
+        "path": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42-lr5e-5-from100/comparison/brain-correspondence-l120/permuted500/image_032365.npz",
+        "sha256": "26f160ae67bae890fc7177df6a0567f57ecd06029a7dbb08f5f7765d3a9cc723"
+      }
+    }
+  },
+  {
+    "image_id": 33336,
+    "donor_id": 52277,
+    "sources": {
+      "AA": {
+        "path": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42-lr5e-5-from100/decoded/epoch-120/val/image_033336.npz",
+        "sha256": "bb0ce2a08d430fc731a4ba625d63fbf8ce69d0aa4499b1519343ef0dfd69e774"
+      },
+      "BB": {
+        "path": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42-lr5e-5-from100/comparison/brain-correspondence-l120/permuted500/image_033336.npz",
+        "sha256": "b97d814990994e30df315fdafb551634bca64143ff44c03351cbc4662d57f1c0"
+      }
+    }
+  },
+  {
+    "image_id": 34169,
+    "donor_id": 60932,
+    "sources": {
+      "AA": {
+        "path": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42-lr5e-5-from100/decoded/epoch-120/val/image_034169.npz",
+        "sha256": "e50ae27410fb608ddacd15642ca395737e13fedeb8846a58e6cc91dcd37e37f9"
+      },
+      "BB": {
+        "path": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42-lr5e-5-from100/comparison/brain-correspondence-l120/permuted500/image_034169.npz",
+        "sha256": "fbd0d893476ab78a59ec19a98f4f7083e9c6ad38398353e09dabe22f43ed239a"
+      }
+    }
+  },
+  {
+    "image_id": 34198,
+    "donor_id": 56162,
+    "sources": {
+      "AA": {
+        "path": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42-lr5e-5-from100/decoded/epoch-120/val/image_034198.npz",
+        "sha256": "d2dd1594b6f476c45ab9129530cad105cd473025ddfaf892c68a532616f06a71"
+      },
+      "BB": {
+        "path": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42-lr5e-5-from100/comparison/brain-correspondence-l120/permuted500/image_034198.npz",
+        "sha256": "f809265dd07d64fed10144eb1a8929c5eb85a03f5b58a408216a4ba9df2d4576"
+      }
+    }
+  },
+  {
+    "image_id": 34565,
+    "donor_id": 65878,
+    "sources": {
+      "AA": {
+        "path": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42-lr5e-5-from100/decoded/epoch-120/val/image_034565.npz",
+        "sha256": "718df0486852df3a5c3f10ccda6800d2a6f1542f73de8bb23bdaaad16b287df7"
+      },
+      "BB": {
+        "path": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42-lr5e-5-from100/comparison/brain-correspondence-l120/permuted500/image_034565.npz",
+        "sha256": "f73223a669eb598a21787d6039070f55033d7d66bcd74c3b9cfebe4679e63388"
+      }
+    }
+  },
+  {
+    "image_id": 34854,
+    "donor_id": 49195,
+    "sources": {
+      "AA": {
+        "path": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42-lr5e-5-from100/decoded/epoch-120/val/image_034854.npz",
+        "sha256": "a8949999c8f1d82eaafbc56ef4cab71233de1c4d7cf691231c6ab00196485659"
+      },
+      "BB": {
+        "path": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42-lr5e-5-from100/comparison/brain-correspondence-l120/permuted500/image_034854.npz",
+        "sha256": "47a200e23de2b9aff18bcbee3573fedf98f1b6ada58913e361e4d718db78954f"
+      }
+    }
+  },
+  {
+    "image_id": 35281,
+    "donor_id": 5582,
+    "sources": {
+      "AA": {
+        "path": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42-lr5e-5-from100/decoded/epoch-120/val/image_035281.npz",
+        "sha256": "76015b216a2f755cb9e6b5927531a0fa577bf68d4850b3f27149e6a8469e450c"
+      },
+      "BB": {
+        "path": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42-lr5e-5-from100/comparison/brain-correspondence-l120/permuted500/image_035281.npz",
+        "sha256": "edea56b1619bb3415f8c9aff6b286f35350c4a11926e2ef48f94fc5956b8b328"
+      }
+    }
+  },
+  {
+    "image_id": 35475,
+    "donor_id": 56963,
+    "sources": {
+      "AA": {
+        "path": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42-lr5e-5-from100/decoded/epoch-120/val/image_035475.npz",
+        "sha256": "dadcdbf5f866bf0dad399a23eab69cced70e1c73519e734b8e988e8fbb1c757f"
+      },
+      "BB": {
+        "path": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42-lr5e-5-from100/comparison/brain-correspondence-l120/permuted500/image_035475.npz",
+        "sha256": "341cba5e9488e08414b0101aa2c72d65d71b8624e6ea4e77a4723d686e674878"
+      }
+    }
+  },
+  {
+    "image_id": 36198,
+    "donor_id": 43198,
+    "sources": {
+      "AA": {
+        "path": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42-lr5e-5-from100/decoded/epoch-120/val/image_036198.npz",
+        "sha256": "920d2e1afb3d1cef70edfa46850309362227a0b1afd5abb54f5b177c19a61aa7"
+      },
+      "BB": {
+        "path": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42-lr5e-5-from100/comparison/brain-correspondence-l120/permuted500/image_036198.npz",
+        "sha256": "79ad8e37ca2f5dedda9ed35e64fd0fc6d199fc16d01bb50278282b570594321e"
+      }
+    }
+  },
+  {
+    "image_id": 36543,
+    "donor_id": 51865,
+    "sources": {
+      "AA": {
+        "path": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42-lr5e-5-from100/decoded/epoch-120/val/image_036543.npz",
+        "sha256": "6d247e97bc9bf555b98d78066f0c7f9f0955feb297d8a35d43516cb54a8e5e2f"
+      },
+      "BB": {
+        "path": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42-lr5e-5-from100/comparison/brain-correspondence-l120/permuted500/image_036543.npz",
+        "sha256": "d34be2b11116c319b0ec99ed9d40b8a12162ce4f4ec7815b6f6a415a881c05ac"
+      }
+    }
+  },
+  {
+    "image_id": 36557,
+    "donor_id": 35234,
+    "sources": {
+      "AA": {
+        "path": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42-lr5e-5-from100/decoded/epoch-120/val/image_036557.npz",
+        "sha256": "7a52f3c9665ea38c08c196a189f333ebd605b09f169371fd0d6311c727d1f003"
+      },
+      "BB": {
+        "path": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42-lr5e-5-from100/comparison/brain-correspondence-l120/permuted500/image_036557.npz",
+        "sha256": "1b1b9de685e982a38832bd0e38b12997a8efaa4e5ee6077ad36c5b9623483baf"
+      }
+    }
+  },
+  {
+    "image_id": 36992,
+    "donor_id": 25360,
+    "sources": {
+      "AA": {
+        "path": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42-lr5e-5-from100/decoded/epoch-120/val/image_036992.npz",
+        "sha256": "ad5f0998f43c21a15efcfb7454a74ff63017551f474bca82a9b7bdbcbaff8a08"
+      },
+      "BB": {
+        "path": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42-lr5e-5-from100/comparison/brain-correspondence-l120/permuted500/image_036992.npz",
+        "sha256": "e54569f394f55a3fffc9ba08524f36d7d7bff319e825315bbf12f879cb78a349"
+      }
+    }
+  },
+  {
+    "image_id": 38380,
+    "donor_id": 13298,
+    "sources": {
+      "AA": {
+        "path": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42-lr5e-5-from100/decoded/epoch-120/val/image_038380.npz",
+        "sha256": "1ce6d0c3f492ac1d51d907ae04baf8224e5c962b093db480ee2bca145f31a80e"
+      },
+      "BB": {
+        "path": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42-lr5e-5-from100/comparison/brain-correspondence-l120/permuted500/image_038380.npz",
+        "sha256": "dd2a154bbcb69b62488bc4a703e6d2f2bb4df31cd520f42e8da68a77d350ab63"
+      }
+    }
+  },
+  {
+    "image_id": 38833,
+    "donor_id": 50210,
+    "sources": {
+      "AA": {
+        "path": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42-lr5e-5-from100/decoded/epoch-120/val/image_038833.npz",
+        "sha256": "7d4829d2c7bfda7eaec67b841b018abeeaede6eba08b3f4de00d31468325ae57"
+      },
+      "BB": {
+        "path": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42-lr5e-5-from100/comparison/brain-correspondence-l120/permuted500/image_038833.npz",
+        "sha256": "766f925a70a092904af96c1344354cb0e2177374908f5aa47df8b26ebf4e152a"
+      }
+    }
+  },
+  {
+    "image_id": 38887,
+    "donor_id": 18159,
+    "sources": {
+      "AA": {
+        "path": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42-lr5e-5-from100/decoded/epoch-120/val/image_038887.npz",
+        "sha256": "8ae9aead1d96586667317deb798f1fee0d04c2585fe84084eb5fbcf07c7f3d19"
+      },
+      "BB": {
+        "path": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42-lr5e-5-from100/comparison/brain-correspondence-l120/permuted500/image_038887.npz",
+        "sha256": "38def25b6e4f69b7150a3e220d26c1667e7feff00963f8bf4e4b299a8666e60d"
+      }
+    }
+  },
+  {
+    "image_id": 39183,
+    "donor_id": 23633,
+    "sources": {
+      "AA": {
+        "path": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42-lr5e-5-from100/decoded/epoch-120/val/image_039183.npz",
+        "sha256": "ef28f0a0f2a13a7e238166f63ae818e03ac916ddb2ddc2220f476a52c4197b5c"
+      },
+      "BB": {
+        "path": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42-lr5e-5-from100/comparison/brain-correspondence-l120/permuted500/image_039183.npz",
+        "sha256": "d636af718a022a72a8ea167d6dded3c762a65c0344a5c1d5ff661490f3b52692"
+      }
+    }
+  },
+  {
+    "image_id": 39490,
+    "donor_id": 30016,
+    "sources": {
+      "AA": {
+        "path": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42-lr5e-5-from100/decoded/epoch-120/val/image_039490.npz",
+        "sha256": "e98ed94c3b819e978b1b35551375e58a5ae54d79d3a5bd4a9280dd8287123070"
+      },
+      "BB": {
+        "path": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42-lr5e-5-from100/comparison/brain-correspondence-l120/permuted500/image_039490.npz",
+        "sha256": "e83cb1a0929788e60b781cd1531956fa1639017afc96d4e8cfe1337a7bd118c0"
+      }
+    }
+  },
+  {
+    "image_id": 40933,
+    "donor_id": 29179,
+    "sources": {
+      "AA": {
+        "path": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42-lr5e-5-from100/decoded/epoch-120/val/image_040933.npz",
+        "sha256": "3dc3e255d128e5c7f50939668b5cab4486160099e0e05b383ec930a35ef5cdce"
+      },
+      "BB": {
+        "path": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42-lr5e-5-from100/comparison/brain-correspondence-l120/permuted500/image_040933.npz",
+        "sha256": "7c4e00732c97bbe90e22c03c7caae37bfe5fb39fa3f66b2bfce0d693d52e5180"
+      }
+    }
+  },
+  {
+    "image_id": 41924,
+    "donor_id": 35659,
+    "sources": {
+      "AA": {
+        "path": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42-lr5e-5-from100/decoded/epoch-120/val/image_041924.npz",
+        "sha256": "bebdf9233bb9d5136f0fdb4995481e9e15ba5af0ae7e854aa09cfc295ec065c0"
+      },
+      "BB": {
+        "path": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42-lr5e-5-from100/comparison/brain-correspondence-l120/permuted500/image_041924.npz",
+        "sha256": "ae9892caa67b2e1b082fe8d0f994fb1fe9de76c824a5b474a110b1ff2ece5177"
+      }
+    }
+  },
+  {
+    "image_id": 42251,
+    "donor_id": 35100,
+    "sources": {
+      "AA": {
+        "path": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42-lr5e-5-from100/decoded/epoch-120/val/image_042251.npz",
+        "sha256": "72f484cb7b02b45e6f287be39dbb060b8cb13d9e2090ebb0c02aea8071cc581c"
+      },
+      "BB": {
+        "path": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42-lr5e-5-from100/comparison/brain-correspondence-l120/permuted500/image_042251.npz",
+        "sha256": "c596e1b5ce36bd266bbe5b3d7970ec984d3d65163c652ab6305a44333139bd9b"
+      }
+    }
+  },
+  {
+    "image_id": 42466,
+    "donor_id": 69085,
+    "sources": {
+      "AA": {
+        "path": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42-lr5e-5-from100/decoded/epoch-120/val/image_042466.npz",
+        "sha256": "5c107184c44bee596ff59dfca86b7820a0578452e503c44c4d9ae2a859dcbca4"
+      },
+      "BB": {
+        "path": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42-lr5e-5-from100/comparison/brain-correspondence-l120/permuted500/image_042466.npz",
+        "sha256": "eca0c321294c6564731b5ccf1043099fcd6d4592d2a5f8aa15d4cfd348fb6ac0"
+      }
+    }
+  },
+  {
+    "image_id": 43198,
+    "donor_id": 71735,
+    "sources": {
+      "AA": {
+        "path": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42-lr5e-5-from100/decoded/epoch-120/val/image_043198.npz",
+        "sha256": "e3af879d8073229637d30cd94109cf3b3be4d465c6b177d2321139cc43a3ec2f"
+      },
+      "BB": {
+        "path": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42-lr5e-5-from100/comparison/brain-correspondence-l120/permuted500/image_043198.npz",
+        "sha256": "a9bbe8c2d31ad245cf530fcfcedea44d585300a316358e43ed14f40ff6491e54"
+      }
+    }
+  },
+  {
+    "image_id": 44279,
+    "donor_id": 45987,
+    "sources": {
+      "AA": {
+        "path": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42-lr5e-5-from100/decoded/epoch-120/val/image_044279.npz",
+        "sha256": "508aceaf78a489fd55a72c97192efe50c7b95f93669aea4d343156e51a5641f2"
+      },
+      "BB": {
+        "path": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42-lr5e-5-from100/comparison/brain-correspondence-l120/permuted500/image_044279.npz",
+        "sha256": "72a72d83a04ac1b4cce6863e6c2830f635f199126cb016a7fa4c793297d0f8b0"
+      }
+    }
+  },
+  {
+    "image_id": 45699,
+    "donor_id": 68553,
+    "sources": {
+      "AA": {
+        "path": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42-lr5e-5-from100/decoded/epoch-120/val/image_045699.npz",
+        "sha256": "aa090e46b49213798db76174871a4dad078d842e8e9578e9d8bc6c0a6db7768a"
+      },
+      "BB": {
+        "path": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42-lr5e-5-from100/comparison/brain-correspondence-l120/permuted500/image_045699.npz",
+        "sha256": "f9b06ea58cbee4082eccd30b2b116f082e15b73a190fd6ce3396b59de6d6551d"
+      }
+    }
+  },
+  {
+    "image_id": 46166,
+    "donor_id": 25150,
+    "sources": {
+      "AA": {
+        "path": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42-lr5e-5-from100/decoded/epoch-120/val/image_046166.npz",
+        "sha256": "2e3a8b40df1a150e67cefc118eb2f74cce408a4e4ee891031fad5bb7ad66a42f"
+      },
+      "BB": {
+        "path": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42-lr5e-5-from100/comparison/brain-correspondence-l120/permuted500/image_046166.npz",
+        "sha256": "6d9a4c6395c52807efd234617bc7a53b9425c7bedd510012c8cde266776ed34c"
+      }
+    }
+  },
+  {
+    "image_id": 46403,
+    "donor_id": 10361,
+    "sources": {
+      "AA": {
+        "path": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42-lr5e-5-from100/decoded/epoch-120/val/image_046403.npz",
+        "sha256": "3ecdd3c399027c857808c3a66b6a53f208d1104b23a118f6dc1837b09d425957"
+      },
+      "BB": {
+        "path": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42-lr5e-5-from100/comparison/brain-correspondence-l120/permuted500/image_046403.npz",
+        "sha256": "8cf34181242d1ba3132fba4494dfa87cdbecd408e62a9256ff52b4cb6e18e717"
+      }
+    }
+  },
+  {
+    "image_id": 48376,
+    "donor_id": 26146,
+    "sources": {
+      "AA": {
+        "path": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42-lr5e-5-from100/decoded/epoch-120/val/image_048376.npz",
+        "sha256": "10fe7475e004575deab7368e0f54072a73134205892c7f14818d53c502998688"
+      },
+      "BB": {
+        "path": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42-lr5e-5-from100/comparison/brain-correspondence-l120/permuted500/image_048376.npz",
+        "sha256": "2c31df3733563c805e19c884761a74cad6bed3500226aba7bdec9460a6c346c5"
+      }
+    }
+  },
+  {
+    "image_id": 49474,
+    "donor_id": 34509,
+    "sources": {
+      "AA": {
+        "path": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42-lr5e-5-from100/decoded/epoch-120/val/image_049474.npz",
+        "sha256": "c1047a2a5d218b73b7476205aceaa6ec08fb11d661195d5c45429d68bbcdc4a2"
+      },
+      "BB": {
+        "path": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42-lr5e-5-from100/comparison/brain-correspondence-l120/permuted500/image_049474.npz",
+        "sha256": "dcd52b598587b67efe63fa06f60061f3a145becd59674e12e8657a59a83d42f6"
+      }
+    }
+  },
+  {
+    "image_id": 49475,
+    "donor_id": 52228,
+    "sources": {
+      "AA": {
+        "path": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42-lr5e-5-from100/decoded/epoch-120/val/image_049475.npz",
+        "sha256": "c76f49db0cbbf82f94c86ce4497fb9d107d24a8dee604a325175f5dfe1fc6caa"
+      },
+      "BB": {
+        "path": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42-lr5e-5-from100/comparison/brain-correspondence-l120/permuted500/image_049475.npz",
+        "sha256": "ea6adea0e1570f626ec353339b3f35d4f7453fe168c67dbe669c7206b6edf8fe"
+      }
+    }
+  },
+  {
+    "image_id": 49678,
+    "donor_id": 46524,
+    "sources": {
+      "AA": {
+        "path": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42-lr5e-5-from100/decoded/epoch-120/val/image_049678.npz",
+        "sha256": "9d063e7e42f2c19b9bdcf3ef68ee5c9a908b122859d35a06c4d8c6a171bd6fef"
+      },
+      "BB": {
+        "path": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42-lr5e-5-from100/comparison/brain-correspondence-l120/permuted500/image_049678.npz",
+        "sha256": "a804baefa1a326506e331ff0057ec4e3855d1edde6eb9c903163466be7409c57"
+      }
+    }
+  },
+  {
+    "image_id": 50850,
+    "donor_id": 26749,
+    "sources": {
+      "AA": {
+        "path": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42-lr5e-5-from100/decoded/epoch-120/val/image_050850.npz",
+        "sha256": "5866e122bba6f1182167f71fd83e67b83e2c996848d16d0bb054a784f6e6f69c"
+      },
+      "BB": {
+        "path": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42-lr5e-5-from100/comparison/brain-correspondence-l120/permuted500/image_050850.npz",
+        "sha256": "866a0e440cc94ed9f4cd99861bc43ca8be7d6e4792cc2b6e5a113d80c3f1f321"
+      }
+    }
+  },
+  {
+    "image_id": 51380,
+    "donor_id": 34998,
+    "sources": {
+      "AA": {
+        "path": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42-lr5e-5-from100/decoded/epoch-120/val/image_051380.npz",
+        "sha256": "90734f823bec12ed8f169297e2370059860c63c2ef934959f78d35f24fc25489"
+      },
+      "BB": {
+        "path": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42-lr5e-5-from100/comparison/brain-correspondence-l120/permuted500/image_051380.npz",
+        "sha256": "324f0bd646dc854b42b8778baa3e2a0ffa0b3e92dab51f189a45530e963ba069"
+      }
+    }
+  },
+  {
+    "image_id": 51436,
+    "donor_id": 51943,
+    "sources": {
+      "AA": {
+        "path": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42-lr5e-5-from100/decoded/epoch-120/val/image_051436.npz",
+        "sha256": "d547de89428eb4965ee45517a69e2042701e13150eea29a34918fe84ff2e2fcb"
+      },
+      "BB": {
+        "path": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42-lr5e-5-from100/comparison/brain-correspondence-l120/permuted500/image_051436.npz",
+        "sha256": "2256e7eccccdc1725eb4eb7a88c64b3628bb3688c2b7d68fb687b6e2948c5ad2"
+      }
+    }
+  },
+  {
+    "image_id": 51956,
+    "donor_id": 24700,
+    "sources": {
+      "AA": {
+        "path": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42-lr5e-5-from100/decoded/epoch-120/val/image_051956.npz",
+        "sha256": "2ea0634cda1da046ad52fd1d82d614acf1c046fe5df8b2bae8a42ca6cc58f082"
+      },
+      "BB": {
+        "path": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42-lr5e-5-from100/comparison/brain-correspondence-l120/permuted500/image_051956.npz",
+        "sha256": "79f6d102c6392ebbf16908452d3162ed1ccfa53b04348114fd8ad3be94eb1fe7"
+      }
+    }
+  },
+  {
+    "image_id": 52927,
+    "donor_id": 12292,
+    "sources": {
+      "AA": {
+        "path": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42-lr5e-5-from100/decoded/epoch-120/val/image_052927.npz",
+        "sha256": "6baa954edc0a0a85fd01d065d6a520cec7f2fd4dd05af9238dd04da3ce61ea89"
+      },
+      "BB": {
+        "path": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42-lr5e-5-from100/comparison/brain-correspondence-l120/permuted500/image_052927.npz",
+        "sha256": "c400919cabfa46491e8273ab0d94e893ec26202417832ca27cfa4a3388a1cd99"
+      }
+    }
+  },
+  {
+    "image_id": 53659,
+    "donor_id": 15985,
+    "sources": {
+      "AA": {
+        "path": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42-lr5e-5-from100/decoded/epoch-120/val/image_053659.npz",
+        "sha256": "6687d4d5e7e6bfaa0f29fad17a19f3042f8e3ba2477cee19c53c1af2d3836047"
+      },
+      "BB": {
+        "path": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42-lr5e-5-from100/comparison/brain-correspondence-l120/permuted500/image_053659.npz",
+        "sha256": "8e487954f970a83346915f62e85664542b7088e1867299b6cb944f5a0cc3fd7f"
+      }
+    }
+  },
+  {
+    "image_id": 53729,
+    "donor_id": 18556,
+    "sources": {
+      "AA": {
+        "path": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42-lr5e-5-from100/decoded/epoch-120/val/image_053729.npz",
+        "sha256": "7e48979446bf4456ff3089f77b0b50737eb4c9666daf4e0ad77eccc86add15e8"
+      },
+      "BB": {
+        "path": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42-lr5e-5-from100/comparison/brain-correspondence-l120/permuted500/image_053729.npz",
+        "sha256": "a8eee3cf26aa44a976db64142ca3e255a38989a3b0c74cac12224a4ce3ea596b"
+      }
+    }
+  },
+  {
+    "image_id": 54054,
+    "donor_id": 61878,
+    "sources": {
+      "AA": {
+        "path": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42-lr5e-5-from100/decoded/epoch-120/val/image_054054.npz",
+        "sha256": "bbfe3b772d357f163570448a49001364f79d45d1f6159c89a32cafc1536a46fb"
+      },
+      "BB": {
+        "path": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42-lr5e-5-from100/comparison/brain-correspondence-l120/permuted500/image_054054.npz",
+        "sha256": "10c50bb5f2a99d30e47d9f3c738bbc57e0696339a277db1edcffbec08071f009"
+      }
+    }
+  },
+  {
+    "image_id": 54681,
+    "donor_id": 19593,
+    "sources": {
+      "AA": {
+        "path": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42-lr5e-5-from100/decoded/epoch-120/val/image_054681.npz",
+        "sha256": "0267f3fa9987ad6d55ed4477a250b3c2ed88b43004b65c485fc1dfd75133908d"
+      },
+      "BB": {
+        "path": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42-lr5e-5-from100/comparison/brain-correspondence-l120/permuted500/image_054681.npz",
+        "sha256": "b449ec9d6ec32571710757d961dbc6ea43767bd99d907f32e0a238a1b3f39b38"
+      }
+    }
+  },
+  {
+    "image_id": 55202,
+    "donor_id": 11757,
+    "sources": {
+      "AA": {
+        "path": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42-lr5e-5-from100/decoded/epoch-120/val/image_055202.npz",
+        "sha256": "78f38c2ebde2ad16dd59a1b2adf3558d3e66938951049d4d6189e48419399d97"
+      },
+      "BB": {
+        "path": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42-lr5e-5-from100/comparison/brain-correspondence-l120/permuted500/image_055202.npz",
+        "sha256": "8389a75669c5d4678f35a771eec722f6ee0fa15e5970c0b8b4bef0737ddbf02e"
+      }
+    }
+  },
+  {
+    "image_id": 55876,
+    "donor_id": 5790,
+    "sources": {
+      "AA": {
+        "path": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42-lr5e-5-from100/decoded/epoch-120/val/image_055876.npz",
+        "sha256": "962b93a9f0cc86cb011e4f14bd481796fd4f3128e8beafa313a3089830867de3"
+      },
+      "BB": {
+        "path": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42-lr5e-5-from100/comparison/brain-correspondence-l120/permuted500/image_055876.npz",
+        "sha256": "6cfc145b9a8c1d1f51f5d8f1019e7cd0a13bdca5cb215dd761362ae7e5b7738d"
+      }
+    }
+  },
+  {
+    "image_id": 56162,
+    "donor_id": 47125,
+    "sources": {
+      "AA": {
+        "path": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42-lr5e-5-from100/decoded/epoch-120/val/image_056162.npz",
+        "sha256": "cb042f7ff546b4700bdca2262bcd8f7ada2e3372300dfd33cc1bd8a6aee42a59"
+      },
+      "BB": {
+        "path": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42-lr5e-5-from100/comparison/brain-correspondence-l120/permuted500/image_056162.npz",
+        "sha256": "bc8d87b118d94e7cfa5644240c8fa40fcf2b1bcc8a0a77202bc836cc1157030e"
+      }
+    }
+  },
+  {
+    "image_id": 56629,
+    "donor_id": 33084,
+    "sources": {
+      "AA": {
+        "path": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42-lr5e-5-from100/decoded/epoch-120/val/image_056629.npz",
+        "sha256": "0afe16bb10f060ed55fae3f59521be3d053858129f9ae29778ff2ce4d4767ce2"
+      },
+      "BB": {
+        "path": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42-lr5e-5-from100/comparison/brain-correspondence-l120/permuted500/image_056629.npz",
+        "sha256": "3b089ba24d72ac049133b3858825792877f4b5a055ba7b81256eb1527333c838"
+      }
+    }
+  },
+  {
+    "image_id": 56963,
+    "donor_id": 54054,
+    "sources": {
+      "AA": {
+        "path": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42-lr5e-5-from100/decoded/epoch-120/val/image_056963.npz",
+        "sha256": "04df8cefcbfab8b1975e78632a377d7e77c9931cf075dc8bc76f6e3b4922395c"
+      },
+      "BB": {
+        "path": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42-lr5e-5-from100/comparison/brain-correspondence-l120/permuted500/image_056963.npz",
+        "sha256": "07511761c39e53ee02df06a3c1eb528c4ae81a917fdd2a7114428493f2fc9f17"
+      }
+    }
+  },
+  {
+    "image_id": 58835,
+    "donor_id": 45377,
+    "sources": {
+      "AA": {
+        "path": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42-lr5e-5-from100/decoded/epoch-120/val/image_058835.npz",
+        "sha256": "39f23400ddca510372b82cba2c15d3304b288419e38b654ca5d976635f1915ff"
+      },
+      "BB": {
+        "path": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42-lr5e-5-from100/comparison/brain-correspondence-l120/permuted500/image_058835.npz",
+        "sha256": "887c22dd8c4894d6a869d15931f586881e09df86de733148e4a2b09f2cbe6eba"
+      }
+    }
+  },
+  {
+    "image_id": 58977,
+    "donor_id": 64851,
+    "sources": {
+      "AA": {
+        "path": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42-lr5e-5-from100/decoded/epoch-120/val/image_058977.npz",
+        "sha256": "b6a54f251b0cfc84a26f49b53e3ffbea4ff9cc633a9a4add641ad885b500b59d"
+      },
+      "BB": {
+        "path": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42-lr5e-5-from100/comparison/brain-correspondence-l120/permuted500/image_058977.npz",
+        "sha256": "7e0574c36ed10f6cc897ee0463493e329eef8da30ec032f392a4287f2a1e2a24"
+      }
+    }
+  },
+  {
+    "image_id": 59183,
+    "donor_id": 32470,
+    "sources": {
+      "AA": {
+        "path": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42-lr5e-5-from100/decoded/epoch-120/val/image_059183.npz",
+        "sha256": "cd8ef1500186bae51ada25a19fadec9e8302f482b9cc05f7b6fe2725dba90a2b"
+      },
+      "BB": {
+        "path": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42-lr5e-5-from100/comparison/brain-correspondence-l120/permuted500/image_059183.npz",
+        "sha256": "93a57d644e0fef8a59e218d50c4058728aae1c3abe3907dff0864a54d8e8b91e"
+      }
+    }
+  },
+  {
+    "image_id": 59470,
+    "donor_id": 17843,
+    "sources": {
+      "AA": {
+        "path": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42-lr5e-5-from100/decoded/epoch-120/val/image_059470.npz",
+        "sha256": "e62be6c6702fa7f0d50cb511f3cf204c6d00a90a118a7ab9c9e778bb89810fa9"
+      },
+      "BB": {
+        "path": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42-lr5e-5-from100/comparison/brain-correspondence-l120/permuted500/image_059470.npz",
+        "sha256": "51529b15c6c70e074398e4eb6a6012a67118d227fda156c63f6bd67f5ff14309"
+      }
+    }
+  },
+  {
+    "image_id": 59905,
+    "donor_id": 64783,
+    "sources": {
+      "AA": {
+        "path": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42-lr5e-5-from100/decoded/epoch-120/val/image_059905.npz",
+        "sha256": "45dbae5838854d50c01350cde9c3334635dd33c6c28f0f0259f365ded92b1405"
+      },
+      "BB": {
+        "path": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42-lr5e-5-from100/comparison/brain-correspondence-l120/permuted500/image_059905.npz",
+        "sha256": "28380bab6cb9679a51acf0cfd86c961e3481ede019317d6d4c8d2e64561395e8"
+      }
+    }
+  },
+  {
+    "image_id": 60784,
+    "donor_id": 37406,
+    "sources": {
+      "AA": {
+        "path": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42-lr5e-5-from100/decoded/epoch-120/val/image_060784.npz",
+        "sha256": "bf46af4b6fb2c16ac82a6fb488a5b8d4d16d0ba685070c5e486d4d55473b1e19"
+      },
+      "BB": {
+        "path": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42-lr5e-5-from100/comparison/brain-correspondence-l120/permuted500/image_060784.npz",
+        "sha256": "dcc0d3fd5d4e76ad3e24a00910a409c05a6cde6b5faa7914b79dd313e076792d"
+      }
+    }
+  },
+  {
+    "image_id": 61868,
+    "donor_id": 41636,
+    "sources": {
+      "AA": {
+        "path": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42-lr5e-5-from100/decoded/epoch-120/val/image_061868.npz",
+        "sha256": "88d4003a9c02267926c96c7323ef6f62cdd0cf056263ea20e58a70f1fec3233e"
+      },
+      "BB": {
+        "path": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42-lr5e-5-from100/comparison/brain-correspondence-l120/permuted500/image_061868.npz",
+        "sha256": "520f742140b6173608574cb9a76cbb2abc46aa3309854bdc2957c96a21e0a623"
+      }
+    }
+  },
+  {
+    "image_id": 63247,
+    "donor_id": 68473,
+    "sources": {
+      "AA": {
+        "path": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42-lr5e-5-from100/decoded/epoch-120/val/image_063247.npz",
+        "sha256": "682c3ee58535581c61fd03630232607bf9deac8bcb1229db96804cc45891003f"
+      },
+      "BB": {
+        "path": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42-lr5e-5-from100/comparison/brain-correspondence-l120/permuted500/image_063247.npz",
+        "sha256": "1b812c954aaa2a482a9ab8d58d36a1bc52b682a2aeb8232092be0a619713dce5"
+      }
+    }
+  },
+  {
+    "image_id": 64417,
+    "donor_id": 9188,
+    "sources": {
+      "AA": {
+        "path": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42-lr5e-5-from100/decoded/epoch-120/val/image_064417.npz",
+        "sha256": "1b6ba70d38bbb321872623e322b3e331b2adceb03985d252ab39694b89ee7eef"
+      },
+      "BB": {
+        "path": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42-lr5e-5-from100/comparison/brain-correspondence-l120/permuted500/image_064417.npz",
+        "sha256": "544ccb01272a327839a4ac83830e7054525433a9cf59fff13dd9955eac4a6859"
+      }
+    }
+  },
+  {
+    "image_id": 65878,
+    "donor_id": 8234,
+    "sources": {
+      "AA": {
+        "path": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42-lr5e-5-from100/decoded/epoch-120/val/image_065878.npz",
+        "sha256": "da133413addd9483cb3675d2cf138b8398776612188dcbecdd15c9b1d72acaf8"
+      },
+      "BB": {
+        "path": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42-lr5e-5-from100/comparison/brain-correspondence-l120/permuted500/image_065878.npz",
+        "sha256": "3c9d4ecafb47660972b8e64626b20971bfbfb85c8890c62a4a5c258359fc96ea"
+      }
+    }
+  },
+  {
+    "image_id": 66437,
+    "donor_id": 709,
+    "sources": {
+      "AA": {
+        "path": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42-lr5e-5-from100/decoded/epoch-120/val/image_066437.npz",
+        "sha256": "4c2139c3e7894c2f11aaf25e5b205b75c1d55479070fab2a03b5df0a9c4dcc5d"
+      },
+      "BB": {
+        "path": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42-lr5e-5-from100/comparison/brain-correspondence-l120/permuted500/image_066437.npz",
+        "sha256": "e305fbe18e57f6551e776fa2b5f8e56dec6fb85bf6738b731fd3fd3440016544"
+      }
+    }
+  },
+  {
+    "image_id": 67261,
+    "donor_id": 68287,
+    "sources": {
+      "AA": {
+        "path": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42-lr5e-5-from100/decoded/epoch-120/val/image_067261.npz",
+        "sha256": "a043c5d86e94a040209d7690736e01d8f2f421c01c06cf4cbc689a8d3bac57a8"
+      },
+      "BB": {
+        "path": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42-lr5e-5-from100/comparison/brain-correspondence-l120/permuted500/image_067261.npz",
+        "sha256": "f7cba78ac658b1a82b5e7265f24e4635a21b910703fd4f19c07951bdb827d4bc"
+      }
+    }
+  },
+  {
+    "image_id": 68473,
+    "donor_id": 25166,
+    "sources": {
+      "AA": {
+        "path": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42-lr5e-5-from100/decoded/epoch-120/val/image_068473.npz",
+        "sha256": "5e19d61fc530c691fef48d99b3cbbf35cab7a55f39f2dd9ed67325181c5e21b6"
+      },
+      "BB": {
+        "path": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42-lr5e-5-from100/comparison/brain-correspondence-l120/permuted500/image_068473.npz",
+        "sha256": "6003454ce4bbf0bcdfc695d2dd913d0e64d028d80ef46e0a9ccbd208c370e199"
+      }
+    }
+  },
+  {
+    "image_id": 71624,
+    "donor_id": 37034,
+    "sources": {
+      "AA": {
+        "path": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42-lr5e-5-from100/decoded/epoch-120/val/image_071624.npz",
+        "sha256": "daf26150896f3dc67eefe7557793a780f27b59cfeed3c6b42396c54724663b9d"
+      },
+      "BB": {
+        "path": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42-lr5e-5-from100/comparison/brain-correspondence-l120/permuted500/image_071624.npz",
+        "sha256": "15a8434f08b23e1e2422dda40104df4f8ad85b89399624c5e66f139935b51a2e"
+      }
+    }
+  }
+]

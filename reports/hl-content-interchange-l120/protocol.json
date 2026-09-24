@@ -1,0 +1,28 @@
+{
+  "epoch": 120,
+  "updates": 63840,
+  "conditions": {
+    "AA": "HL=A,U=A (reused)",
+    "BA": "HL=B,U=A",
+    "AB": "HL=A,U=B",
+    "BB": "HL=B,U=B under target random stream (reused)"
+  },
+  "n": 100,
+  "candidates": 2,
+  "candidate_batch": 1,
+  "steps": 50,
+  "cfg": 4,
+  "seed": 42,
+  "check_candidate_cap": 8,
+  "formal_candidate_cap": 400,
+  "training_updates": 0,
+  "bootstrap_seed": 2026092407,
+  "resamples": 10000,
+  "primary": [
+    "D=S_AA-S_BA",
+    "R=S_AB-S_BB"
+  ],
+  "primary_nominal_interval": 0.975,
+  "auxiliary_nominal_interval": 0.95,
+  "caveat": "Fixed selected model/map and reused development pool; target/donor dependence; no iid coverage, test inference, causal brain claim or resolution of infeasible spatial matching. Mixed sources need not be in training distribution."
+}
