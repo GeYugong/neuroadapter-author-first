@@ -1,0 +1,21 @@
+{
+  "commit": "83f4d3ce528ed75e168a8356ed69d5c50ad82418",
+  "tmux": "author-brain-correspondence",
+  "controller_pid": 1649795,
+  "phase_pid": 1649831,
+  "decoder_pid": 1649836,
+  "command": "runtime/env/bin/python scripts/brain_correspondence.py",
+  "first_generated_input_audit": {
+    "target_image_id": 95,
+    "brain_source_image_id": 40798,
+    "expected_input_sha256": "07cc688291d039fcf668759718de80f27ae9adc539222d95ab6c4eebc3fa0777",
+    "target_input_sha256": "4548008a6d58a3304076402b38769cde40c95f1b47c9efb0fb0b21c65da8e928",
+    "target_gt_sha256": "6b363ed363cbcce33580ef8223e4e37344b7ecc4a7c41cdcbe0b436ac5316231",
+    "nonbrain_fields_unchanged": true,
+    "actual_generator_input_sha256": "07cc688291d039fcf668759718de80f27ae9adc539222d95ab6c4eebc3fa0777"
+  },
+  "first_target_gt_and_seeds_equal_to_baseline": true,
+  "first_generated_candidates_differ": true,
+  "training_updates_added": 0,
+  "launch_time": "2026-09-24T11:22:37+0800"
+}
