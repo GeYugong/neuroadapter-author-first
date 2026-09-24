@@ -1,0 +1,13 @@
+{
+  "command": [
+    "runtime/env/bin/python",
+    "scripts/hl_matched_controls.py"
+  ],
+  "source_commit": "3e49664a26928c2d5190127b1bc7cca6342bd250",
+  "started_at": "2026-09-24T16:42:48.562666+08:00",
+  "finished_at": "2026-09-24T16:42:49.609816+08:00",
+  "exit_code": 0,
+  "log": "logs/hl-matched-controls-feasibility.log",
+  "CUDA_VISIBLE_DEVICES": "",
+  "phase": "metadata-only necessary feasibility bounds"
+}

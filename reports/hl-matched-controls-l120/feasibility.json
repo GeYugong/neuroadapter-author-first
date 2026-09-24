@@ -1,0 +1,599 @@
+{
+  "status": "PROVEN_INFEASIBLE",
+  "time": "2026-09-24T16:42:49.480903+08:00",
+  "hemispheres": {
+    "lh": {
+      "target_tokens": [
+        1,
+        7,
+        9,
+        10,
+        12,
+        16,
+        18,
+        21,
+        22,
+        23,
+        24,
+        25,
+        27,
+        28,
+        29,
+        30,
+        34,
+        37,
+        38,
+        39,
+        40,
+        42,
+        43,
+        44,
+        45,
+        46,
+        51,
+        57,
+        62,
+        64,
+        73,
+        74,
+        75,
+        77,
+        87,
+        89,
+        90
+      ],
+      "target_count": 37,
+      "allowed_pool_tokens": [
+        0,
+        2,
+        3,
+        4,
+        5,
+        6,
+        8,
+        11,
+        13,
+        14,
+        15,
+        17,
+        19,
+        20,
+        26,
+        31,
+        32,
+        33,
+        35,
+        36,
+        41,
+        47,
+        48,
+        49,
+        50,
+        52,
+        53,
+        54,
+        55,
+        56,
+        58,
+        59,
+        60,
+        61,
+        63,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        76,
+        78,
+        79,
+        80,
+        81,
+        82,
+        83,
+        84,
+        85,
+        86,
+        88,
+        91,
+        92,
+        93,
+        94,
+        95,
+        96,
+        97,
+        98,
+        99
+      ],
+      "allowed_pool_count": 63,
+      "target_component_token_lists": [
+        [
+          1,
+          7,
+          9,
+          12,
+          16,
+          18,
+          21,
+          24,
+          27,
+          28,
+          29,
+          30,
+          37,
+          38,
+          39,
+          40,
+          42,
+          43,
+          44,
+          45,
+          46,
+          51,
+          57,
+          62,
+          64,
+          73,
+          74,
+          77
+        ],
+        [
+          10,
+          34,
+          75,
+          87
+        ],
+        [
+          23,
+          25,
+          89,
+          90
+        ],
+        [
+          22
+        ]
+      ],
+      "allowed_pool_component_token_lists": [
+        [
+          0,
+          2,
+          3,
+          4,
+          5,
+          6,
+          8,
+          11,
+          13,
+          14,
+          15,
+          17,
+          19,
+          20,
+          26,
+          31,
+          32,
+          36,
+          41,
+          47,
+          48,
+          52,
+          54,
+          56,
+          59,
+          65,
+          68,
+          86
+        ],
+        [
+          33,
+          35,
+          53,
+          55,
+          69,
+          71,
+          72,
+          83,
+          84
+        ],
+        [
+          60,
+          66,
+          76,
+          78,
+          79
+        ],
+        [
+          50,
+          58,
+          85
+        ],
+        [
+          61,
+          63,
+          67
+        ],
+        [
+          49,
+          70
+        ],
+        [
+          80,
+          98
+        ],
+        [
+          81,
+          96
+        ],
+        [
+          91,
+          94
+        ],
+        [
+          92,
+          97
+        ],
+        [
+          93,
+          99
+        ],
+        [
+          82
+        ],
+        [
+          88
+        ],
+        [
+          95
+        ]
+      ],
+      "target_internal_edges": 64,
+      "allowed_pool_internal_edges": 84,
+      "selection_internal_edges_upper_bound": 70,
+      "selection_component_count_lower_bound": 2,
+      "target_largest_component": 28,
+      "required_largest_component_minimum": 26,
+      "selection_largest_component_upper_bound": 28,
+      "feature_mean_bounds": {
+        "parcel_snr": {
+          "target_mean": 0.4968909170176532,
+          "population_sd_ddof0": 0.13688538352829943,
+          "target_quantiles": [
+            0.4278430640697479,
+            0.48745402693748474,
+            0.5457936525344849
+          ],
+          "possible_mean_bounds": [
+            0.35529166943318136,
+            0.5411530692835111
+          ],
+          "required_mean_tolerance": 0.013688538352829944
+        },
+        "log_valid_vertices": {
+          "target_mean": 5.486375855586061,
+          "population_sd_ddof0": 0.3696123389933856,
+          "target_quantiles": [
+            5.241747015059643,
+            5.58724865840025,
+            5.846438775057725
+          ],
+          "possible_mean_bounds": [
+            5.280716060565944,
+            5.657451090226195
+          ],
+          "required_mean_tolerance": 0.03696123389933856
+        }
+      }
+    },
+    "rh": {
+      "target_tokens": [
+        100,
+        102,
+        104,
+        106,
+        110,
+        111,
+        113,
+        118,
+        120,
+        121,
+        125,
+        126,
+        127,
+        128,
+        132,
+        135,
+        136,
+        138,
+        139,
+        140,
+        141,
+        142,
+        143,
+        144,
+        145,
+        148,
+        152,
+        153,
+        156,
+        159,
+        161,
+        163,
+        164,
+        165,
+        166,
+        169,
+        181,
+        185,
+        186,
+        189,
+        191
+      ],
+      "target_count": 41,
+      "allowed_pool_tokens": [
+        101,
+        103,
+        105,
+        107,
+        108,
+        109,
+        112,
+        114,
+        115,
+        116,
+        117,
+        119,
+        122,
+        123,
+        124,
+        129,
+        130,
+        131,
+        133,
+        134,
+        137,
+        146,
+        147,
+        149,
+        150,
+        151,
+        154,
+        155,
+        157,
+        158,
+        160,
+        162,
+        167,
+        168,
+        170,
+        171,
+        172,
+        173,
+        174,
+        175,
+        176,
+        177,
+        178,
+        179,
+        180,
+        182,
+        183,
+        184,
+        187,
+        188,
+        190,
+        192,
+        193,
+        194,
+        195,
+        196,
+        197,
+        198,
+        199
+      ],
+      "allowed_pool_count": 59,
+      "target_component_token_lists": [
+        [
+          100,
+          102,
+          104,
+          106,
+          110,
+          111,
+          113,
+          118,
+          120,
+          121,
+          125,
+          126,
+          127,
+          128,
+          136,
+          138,
+          139,
+          140,
+          142,
+          143,
+          144,
+          148,
+          152,
+          153,
+          156,
+          161,
+          163,
+          164,
+          165,
+          166,
+          169,
+          181,
+          185,
+          186,
+          189
+        ],
+        [
+          132,
+          135,
+          145
+        ],
+        [
+          141,
+          159,
+          191
+        ]
+      ],
+      "allowed_pool_component_token_lists": [
+        [
+          101,
+          103,
+          105,
+          107,
+          108,
+          109,
+          112,
+          114,
+          115,
+          116,
+          117,
+          122,
+          123,
+          124,
+          130,
+          131,
+          133,
+          134,
+          147,
+          150,
+          151,
+          155,
+          157,
+          158,
+          160,
+          168,
+          175,
+          176,
+          179,
+          196,
+          197
+        ],
+        [
+          129,
+          137,
+          154,
+          170,
+          184,
+          187
+        ],
+        [
+          146,
+          173,
+          178,
+          194,
+          195
+        ],
+        [
+          119,
+          167,
+          183,
+          190
+        ],
+        [
+          149,
+          172,
+          180
+        ],
+        [
+          177,
+          188,
+          199
+        ],
+        [
+          162,
+          192
+        ],
+        [
+          171
+        ],
+        [
+          174
+        ],
+        [
+          182
+        ],
+        [
+          193
+        ],
+        [
+          198
+        ]
+      ],
+      "target_internal_edges": 79,
+      "allowed_pool_internal_edges": 82,
+      "selection_internal_edges_upper_bound": 73,
+      "selection_component_count_lower_bound": 3,
+      "target_largest_component": 35,
+      "required_largest_component_minimum": 33,
+      "selection_largest_component_upper_bound": 31,
+      "feature_mean_bounds": {
+        "parcel_snr": {
+          "target_mean": 0.5183599714825793,
+          "population_sd_ddof0": 0.13345969090717683,
+          "target_quantiles": [
+            0.41574230790138245,
+            0.5007970333099365,
+            0.5621882677078247
+          ],
+          "possible_mean_bounds": [
+            0.3955895202915843,
+            0.5290946146336998
+          ],
+          "required_mean_tolerance": 0.013345969090717683
+        },
+        "log_valid_vertices": {
+          "target_mean": 5.555356638593319,
+          "population_sd_ddof0": 0.30125248006988065,
+          "target_quantiles": [
+            5.3230099791384085,
+            5.53338948872752,
+            5.707110264748875
+          ],
+          "possible_mean_bounds": [
+            5.415849304166381,
+            5.718366439926419
+          ],
+          "required_mean_tolerance": 0.030125248006988067
+        }
+      }
+    }
+  },
+  "violations": [
+    {
+      "hemisphere": "rh",
+      "constraint": "largest_connected_component",
+      "required_minimum": 33,
+      "provable_upper_bound": 31,
+      "proof": "Every connected component of an induced subgraph is contained in one full allowed-pool component. Selecting fewer vertices cannot join disconnected components."
+    }
+  ],
+  "graph_verified_against_all_original_frozen_masks": true,
+  "search_proposals_used": 0,
+  "control_sets_generated": 0,
+  "new_candidate_images": 0,
+  "new_training_updates": 0,
+  "latest_training_progress": {
+    "epoch": 140,
+    "global_optimizer_updates": 74480,
+    "actual_samples_processed": 1190560,
+    "epoch_samples": 8504,
+    "unique_samples": 8500,
+    "padding_samples": 4,
+    "microbatches_per_rank": 1063,
+    "final_accumulation_microbatches": 1,
+    "final_local_batch": 4,
+    "mean_loss": 0.11034387459948673,
+    "seconds": 887.4410518630175,
+    "image_order_sha256": "8c12010a3ed3d5d6b5320d90b4972f2ad8bc29e4c1c0d40c9d08fd2b9dbb2c9a"
+  },
+  "note": "Passing bounds does not prove feasibility. Failing any rigorous bound proves no set can satisfy the full frozen constraints."
+}

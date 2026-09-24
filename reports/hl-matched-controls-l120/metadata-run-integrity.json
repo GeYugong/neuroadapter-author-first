@@ -1,0 +1,16 @@
+{
+  "non_weight_inputs_rehashed_after": {
+    "reports/ibbi-roi-l120-pilot/roi_mapping.json": true,
+    "reports/ibbi-roi-l120-pilot/parcel_roi_mapping.csv": true,
+    "runs/subject01-author-fp32-seed42-lr5e-5-from100/exports/epoch-120/parcel_vertices.pt": true,
+    "runs/subject01-author-fp32-seed42-lr5e-5-from100/exports/epoch-120/metadata.json": true,
+    "runs/subject01-author-fp32-seed42-lr5e-5-from100/epochs.jsonl": true,
+    "reports/best_so_far.json": true,
+    "runtime/ibbi-roi-l120-assets/lh.fsaverage.white": true,
+    "runtime/ibbi-roi-l120-assets/rh.fsaverage.white": true
+  },
+  "model_weight_sha_verified_before": "bed56671f4e48ccf031e41c1daa36d473a4e325e94e3264aa1b21e08080fd798",
+  "model_weight_opened_readonly_for_sha_only": true,
+  "no_model_or_optimizer_constructed": true,
+  "no_gpu_generation_or_training": true
+}

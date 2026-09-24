@@ -1,0 +1,11 @@
+{
+  "reports/ibbi-roi-l120-pilot/roi_mapping.json": "d690198504dd20e86c157fa4428c1572cd46aba45217688e0c07e0a920b4fa5d",
+  "reports/ibbi-roi-l120-pilot/parcel_roi_mapping.csv": "f22507115f35eaf897820b0652cc8c9062e1acb0be0679c2f63890ed4d8ccead",
+  "runs/subject01-author-fp32-seed42-lr5e-5-from100/exports/epoch-120/parcel_vertices.pt": "a5aceb7d1ec1ad6c8193cbe6f0fd2db23d298a6d4182e74aeac3a980a7b86ad3",
+  "runs/subject01-author-fp32-seed42-lr5e-5-from100/exports/epoch-120/metadata.json": "fa5e25f16c0942ba521b17f43a224f55557bdcd6b4e7d1db10f947e46cbd17ca",
+  "runs/subject01-author-fp32-seed42-lr5e-5-from100/exports/epoch-120/inference.pt": "bed56671f4e48ccf031e41c1daa36d473a4e325e94e3264aa1b21e08080fd798",
+  "runs/subject01-author-fp32-seed42-lr5e-5-from100/epochs.jsonl": "320e752f3355b25b0e99b24aa1f25c79616b22561d3134732e73b1b47720bb5b",
+  "reports/best_so_far.json": "087e8b96b417c312076172bac5913b412c050a52fc0ea86ce5fcfad12246365a",
+  "runtime/ibbi-roi-l120-assets/lh.fsaverage.white": "c80741da738b70bc0ab1e0dcd6e8eec3d3d9f22af5812c38120a8ce4fb9fa7d3",
+  "runtime/ibbi-roi-l120-assets/rh.fsaverage.white": "4e6e74efbd851e3b23a943c28b062acb3395341ac02156a4d1078d735b55e295"
+}

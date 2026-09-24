@@ -1,0 +1,84 @@
+{
+  "time": "2026-09-24T16:43:25.925797+08:00",
+  "independent_component_verification": {
+    "lh": {
+      "HL": {
+        "scipy_component_sizes": [
+          28,
+          4,
+          4,
+          1
+        ],
+        "matches_original_traversal": true
+      },
+      "pool": {
+        "scipy_component_sizes": [
+          28,
+          9,
+          5,
+          3,
+          3,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          1,
+          1,
+          1
+        ],
+        "matches_original_traversal": true
+      }
+    },
+    "rh": {
+      "HL": {
+        "scipy_component_sizes": [
+          35,
+          3,
+          3
+        ],
+        "matches_original_traversal": true
+      },
+      "pool": {
+        "scipy_component_sizes": [
+          31,
+          6,
+          5,
+          4,
+          3,
+          3,
+          2,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "matches_original_traversal": true
+      }
+    }
+  },
+  "all_locked_inputs_rehashed_including_weights": {
+    "reports/ibbi-roi-l120-pilot/roi_mapping.json": true,
+    "reports/ibbi-roi-l120-pilot/parcel_roi_mapping.csv": true,
+    "runs/subject01-author-fp32-seed42-lr5e-5-from100/exports/epoch-120/parcel_vertices.pt": true,
+    "runs/subject01-author-fp32-seed42-lr5e-5-from100/exports/epoch-120/metadata.json": true,
+    "runs/subject01-author-fp32-seed42-lr5e-5-from100/exports/epoch-120/inference.pt": true,
+    "runs/subject01-author-fp32-seed42-lr5e-5-from100/epochs.jsonl": true,
+    "reports/best_so_far.json": true,
+    "runtime/ibbi-roi-l120-assets/lh.fsaverage.white": true,
+    "runtime/ibbi-roi-l120-assets/rh.fsaverage.white": true
+  },
+  "gpu_compute_processes": "",
+  "new_training_updates": 0,
+  "new_candidate_images": 0,
+  "changed_tracked_files_since_baseline": [
+    "reports/hl-matched-controls-l120/PLAN.md",
+    "reports/hl-matched-controls-l120/STARTED.json",
+    "reports/hl-matched-controls-l120/protocol.json",
+    "scripts/hl_matched_controls.py"
+  ],
+  "status": "STOPPED_INFEASIBLE",
+  "reason": "RH required >=33 but full allowed pool maximum is 31"
+}
