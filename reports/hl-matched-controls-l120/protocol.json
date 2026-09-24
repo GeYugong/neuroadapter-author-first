@@ -1,0 +1,49 @@
+{
+  "status": "authorized_metadata_feasibility_first",
+  "authorized_request": "开始实验",
+  "model": "L120",
+  "epoch": 120,
+  "optimizer_updates": 63840,
+  "model_sha256": "bed56671f4e48ccf031e41c1daa36d473a4e325e94e3264aa1b21e08080fd798",
+  "base_report": "reports/ibbi-roi-l120-pilot",
+  "candidate_pool": "selected200 minus frozen HL78",
+  "target_counts": {
+    "lh": 37,
+    "rh": 41
+  },
+  "constraints": {
+    "per_hemisphere_parcel_snr_mean_abs_difference_in_population_sd": 0.1,
+    "per_hemisphere_log_vertex_mean_abs_difference_in_population_sd": 0.1,
+    "per_hemisphere_snr_and_log_vertex_quantile_difference_in_population_sd": 0.2,
+    "quantiles": [
+      0.25,
+      0.5,
+      0.75
+    ],
+    "per_hemisphere_total_vertices_relative_tolerance": 0.05,
+    "per_hemisphere_vertex_weighted_snr_relative_tolerance": 0.05,
+    "per_hemisphere_internal_edges_relative_tolerance": 0.1,
+    "per_hemisphere_largest_component_absolute_tolerance": 2,
+    "per_hemisphere_component_count_absolute_tolerance": 1,
+    "pairwise_control_jaccard_max": 0.8
+  },
+  "matching_controls": 10,
+  "matching_seed": 2026092405,
+  "search_max_chains": 20,
+  "search_max_proposals_per_chain": 100000,
+  "stop_if_proven_infeasible": true,
+  "stop_if_insufficient_controls": true,
+  "allow_relaxation": false,
+  "candidate_generation_cap": 2004,
+  "training_updates_cap": 0,
+  "evaluation_pool": 100,
+  "candidate_count": 2,
+  "candidate_batch": 1,
+  "steps": 50,
+  "CFG": 4,
+  "statistical_primary": "E_matched on S",
+  "bootstrap_seed": 2026092406,
+  "bootstrap_repetitions": 10000,
+  "primary_nominal_level": 0.95,
+  "protected_scope": "All existing weights, outputs, reports and best remain read-only."
+}
