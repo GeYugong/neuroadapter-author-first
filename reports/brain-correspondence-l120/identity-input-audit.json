@@ -1,0 +1,20 @@
+[
+  {
+    "target_image_id": 38833,
+    "brain_source_image_id": 38833,
+    "expected_input_sha256": "0ee36d91f0fe26a21c8b011a35a72e02b64a31ce58ad4e02fb0ec7a4bbc50171",
+    "target_input_sha256": "0ee36d91f0fe26a21c8b011a35a72e02b64a31ce58ad4e02fb0ec7a4bbc50171",
+    "target_gt_sha256": "eddad1a795eb091da17df154ae8a4bfb486b439ef8239f0566d271462a586654",
+    "nonbrain_fields_unchanged": true,
+    "actual_generator_input_sha256": "0ee36d91f0fe26a21c8b011a35a72e02b64a31ce58ad4e02fb0ec7a4bbc50171"
+  },
+  {
+    "target_image_id": 27648,
+    "brain_source_image_id": 27648,
+    "expected_input_sha256": "ed92f24ee5ace4cecec9edc0f7392b8cbab36f5ee52a19edc2b1dee2e21b6627",
+    "target_input_sha256": "ed92f24ee5ace4cecec9edc0f7392b8cbab36f5ee52a19edc2b1dee2e21b6627",
+    "target_gt_sha256": "9616d3e356d8022f216e14ef8fa3fa788b2482cca35c3f51615e7138a7b69452",
+    "nonbrain_fields_unchanged": true,
+    "actual_generator_input_sha256": "ed92f24ee5ace4cecec9edc0f7392b8cbab36f5ee52a19edc2b1dee2e21b6627"
+  }
+]
