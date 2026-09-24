@@ -1,0 +1,16 @@
+{
+  "stage": "CPU-only wiring and boundary checks; no inference",
+  "commands_checked": 14,
+  "rejected": [
+    "model_weights_dir",
+    "decoded_stimuli_dir",
+    "unauthorized condition",
+    "extra check target exceeding budget"
+  ],
+  "formal_budget": 2000,
+  "checks_budget": 8,
+  "original_input_lock_passed": 433,
+  "author_decoder_metric_training_and_statistical_functions_unchanged": true,
+  "live_training_not_modified": true,
+  "evaluation_runtime_pending_checkpoint120": true
+}

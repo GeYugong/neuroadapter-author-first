@@ -22,26 +22,34 @@ def main():
     parser=argparse.ArgumentParser()
     parser.add_argument('--control-mode',choices=['identity','permuted'],required=True)
     parser.add_argument('--control-map',required=True)
+    parser.add_argument('--study-config',help='Only the bounded seed43 raw-reference check; original defaults retained')
     control,remaining=parser.parse_known_args()
     import decode_brain_adapter as decoder
     args=decoder.create_argument_parser().parse_args(remaining)
     assert args.no_selection and args.split=='val' and args.batch_size==1 and args.num_workers==0
     assert args.num_predictions==2 and args.denoising_steps==50 and args.noise_factor==4 and args.seed==42
     assert args.saved_epochs=='120' and args.precision=='fp32'
-    run=ROOT/'runs/subject01-author-fp32-seed42-lr5e-5-from100'
-    assert Path(args.export_path)==run/'exports/epoch-120/inference.pt'
-    destination=Path(args.decoded_stimuli_dir).resolve()
-    assert destination.is_relative_to(run/'comparison/brain-correspondence-l120')
-    assert not destination.exists(), 'Refuse existing control output directory'
-    full=np.loadtxt(ROOT/'configs/val_ids.txt',dtype=int).tolist()
-    entries=json.loads(Path(control.control_map).read_text())
-    mapping={int(row['target_image_id']):int(row['brain_source_image_id']) for row in entries}
-    assert len(entries)==len(mapping)==500 and set(mapping)==set(full) and set(mapping.values())==set(full)
-    assert all(i!=j for i,j in mapping.items())
-    requested=np.loadtxt(args.image_ids,dtype=int).reshape(-1).tolist()
-    if control.control_mode=='identity':
-        assert requested==np.loadtxt(ROOT/'configs/decode2_ids.txt',dtype=int).reshape(-1).tolist()
-    else: assert requested==full
+    if control.study_config:
+        from seed43_eval_config import validate,RUN as run
+        cfg,mapping,requested=validate(control.study_config,args,'AA' if control.control_mode=='identity' else 'BB',raw=True)
+        assert Path(control.control_map).resolve()==Path(cfg['mapping_path']).resolve()
+        destination=Path(args.decoded_stimuli_dir).resolve()
+        full=np.loadtxt(ROOT/'configs/val_ids.txt',dtype=int).tolist()
+    else:
+        run=ROOT/'runs/subject01-author-fp32-seed42-lr5e-5-from100'
+        assert Path(args.export_path)==run/'exports/epoch-120/inference.pt'
+        destination=Path(args.decoded_stimuli_dir).resolve()
+        assert destination.is_relative_to(run/'comparison/brain-correspondence-l120')
+        assert not destination.exists(), 'Refuse existing control output directory'
+        full=np.loadtxt(ROOT/'configs/val_ids.txt',dtype=int).tolist()
+        entries=json.loads(Path(control.control_map).read_text())
+        mapping={int(row['target_image_id']):int(row['brain_source_image_id']) for row in entries}
+        assert len(entries)==len(mapping)==500 and set(mapping)==set(full) and set(mapping.values())==set(full)
+        assert all(i!=j for i,j in mapping.items())
+        requested=np.loadtxt(args.image_ids,dtype=int).reshape(-1).tolist()
+        if control.control_mode=='identity':
+            assert requested==np.loadtxt(ROOT/'configs/decode2_ids.txt',dtype=int).reshape(-1).tolist()
+        else: assert requested==full
     destination.mkdir(parents=True)
     pending=[];records=[]
     original_create=decoder.create_test_dataset

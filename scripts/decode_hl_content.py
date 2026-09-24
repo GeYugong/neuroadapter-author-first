@@ -10,6 +10,7 @@ REPORT=ROOT/'reports/hl-content-interchange-l120'
 WORK=RUN/'comparison/hl-content-interchange-l120'
 def sha(t):return hashlib.sha256(t.detach().cpu().contiguous().numpy().tobytes()).hexdigest()
 def main():
+    global RUN
     p=argparse.ArgumentParser();p.add_argument('--content-condition',choices=['AA','BB','BA','AB'],required=True)
     p.add_argument('--study-config',help='Explicit bounded replication config; absent preserves original pilot semantics')
     opt,rest=p.parse_known_args()
@@ -18,10 +19,21 @@ def main():
     assert args.no_selection and args.split=='val' and args.batch_size==1 and args.num_workers==0
     assert args.num_predictions==2 and args.denoising_steps==50 and args.noise_factor==4 and args.seed==42
     assert args.saved_epochs=='120' and args.precision=='fp32'
+    seed43=False
+    if opt.study_config:
+        seed43=json.loads(Path(opt.study_config).read_text()).get('study')=='seed43-HL-content-replication'
+        if seed43:
+            from seed43_eval_config import RUN as selected_run
+            RUN=selected_run
     assert Path(args.export_path)==RUN/'exports/epoch-120/inference.pt'
     out=Path(args.decoded_stimuli_dir).resolve()
     ids=np.loadtxt(args.image_ids,dtype=int).reshape(-1).tolist()
-    if opt.study_config:
+    if seed43:
+        from seed43_eval_config import validate
+        config,mapping,verified_ids=validate(opt.study_config,args,opt.content_condition)
+        assert ids==verified_ids
+        check=config['mode']=='check'
+    elif opt.study_config:
         cfg_path=Path(opt.study_config).resolve()
         study_report=ROOT/'reports/hl-content-replication-l120'
         study_work=RUN/'comparison/hl-content-replication-l120'
@@ -109,7 +121,7 @@ def main():
         assert calls[0]==100 and sha(ea)==ah and sha(eb)==bh
         exact=None
         if check:
-            ref=(RUN/'decoded/epoch-120/val' if condition=='AA' else RUN/'comparison/brain-correspondence-l120/permuted500')/f'image_{i:06d}.npz'
+            ref=((Path(config['reference_root'])/condition) if seed43 else (RUN/'decoded/epoch-120/val' if condition=='AA' else RUN/'comparison/brain-correspondence-l120/permuted500'))/f'image_{i:06d}.npz'
             with np.load(ref) as z:
                 assert int(z['seeds'][k])==seed
                 assert np.array_equal(result[0],z['candidate_images'][k]),('Pixel reproduction failed',condition,i,k)
