@@ -126,6 +126,11 @@ def generate():
 def score():
     for label in ['BA','AB']:ev.metrics(SOURCES[label],ROOT/'configs/monitor100_ids.txt',METRICS[label])
 def direction():
+    ids=old.ids('monitor100_ids.txt')
+    mapping={r['target_image_id']:r['brain_source_image_id'] for r in old.read(REPORT/'target-donor-map.json')}
+    direction_for(ids,mapping,SOURCES,REPORT,AA)
+
+def direction_for(ids,mapping,sources,report,aa):
     import torch
     import metric_brain_adapter as m
     # Execute only the exact author's CLIP loading/preprocessing assignments, not its metric formula.
@@ -137,18 +142,16 @@ def direction():
     ns=dict(m.__dict__);ns['self']=m.MetricEvaluator(device='cuda')
     exec(compile(ast.Module(body=assignments,type_ignores=[]),'author_clip_setup','exec'),ns)
     model=ns['clip_model'].eval().requires_grad_(False);pre=ns['preprocessor']
-    ids=old.ids('monitor100_ids.txt')
-    mapping={r['target_image_id']:r['brain_source_image_id'] for r in old.read(REPORT/'target-donor-map.json')}
     def encode(t):
         with torch.no_grad():v=model.encode_image(pre(t.to('cuda'))).float()
         assert torch.isfinite(v).all()
         return torch.nn.functional.normalize(v,dim=-1).cpu()
     targets={};donors={}
     for i in ids:
-        with np.load(AA/f'image_{i:06d}.npz') as z:targets[i]=encode(torch.from_numpy(z['groundtruth_image'].copy()).unsqueeze(0))
-        with np.load(AA/f'image_{mapping[i]:06d}.npz') as z:donors[i]=encode(torch.from_numpy(z['groundtruth_image'].copy()).unsqueeze(0))
+        with np.load(aa/f'image_{i:06d}.npz') as z:targets[i]=encode(torch.from_numpy(z['groundtruth_image'].copy()).unsqueeze(0))
+        with np.load(aa/f'image_{mapping[i]:06d}.npz') as z:donors[i]=encode(torch.from_numpy(z['groundtruth_image'].copy()).unsqueeze(0))
     rows=[]
-    for label,folder in SOURCES.items():
+    for label,folder in sources.items():
         for i in ids:
             with np.load(folder/f'image_{i:06d}.npz') as z:
                 shape=z['groundtruth_image'].shape[1:]
@@ -157,8 +160,8 @@ def direction():
                     v=encode(m.resize_images(t,shape))
                     ca=float((v*targets[i]).sum());cb=float((v*donors[i]).sum())
                     rows.append(dict(condition=label,image_id=i,donor_id=mapping[i],candidate=k,cos_target=ca,cos_donor=cb,q=ca-cb))
-    pd.DataFrame(rows).to_csv(REPORT/'clip-direction-candidates.csv',index=False)
-    old.save(REPORT/'clip-direction-protocol.json',dict(author_setup=ast.unparse(ast.Module(body=assignments,type_ignores=[])),
+    pd.DataFrame(rows).to_csv(report/'clip-direction-candidates.csv',index=False)
+    old.save(report/'clip-direction-protocol.json',dict(author_setup=ast.unparse(ast.Module(body=assignments,type_ignores=[])),
         metric='Auxiliary cosine target minus cosine donor; not official two-way CLIP identification',
         clip_asset_sha256=old.sha(Path(os.environ['AUTHOR_CLIP_PATH'])),candidate_average_before_analysis=True))
 def compare():
@@ -199,21 +202,24 @@ def compare():
         sampling='Average two candidates inside each target first; shared resampled target rows for all conditions; original negative pool fixed.',
         limitations=old.read(REPORT/'protocol.json')['caveat']))
 def atlas():
-    from PIL import Image,ImageDraw
     ids=old.ids('atlas_val32_ids.txt')
     mapping={r['target_image_id']:r['brain_source_image_id'] for r in old.read(REPORT/'target-donor-map.json')}
-    out=REPORT/'atlas';out.mkdir(exist_ok=True)
+    atlas_for(ids,mapping,SOURCES,REPORT/'atlas',AA)
+
+def atlas_for(ids,mapping,sources,out,aa):
+    from PIL import Image,ImageDraw
+    out.mkdir(parents=True,exist_ok=True)
     for k in range(2):
-        for page in range(4):
+        for page in range((len(ids)+7)//8):
             canvas=Image.new('RGB',(6*224,40+8*248),'white');draw=ImageDraw.Draw(canvas)
             for col,caption in enumerate(['Target GT','Donor GT','AA','BA (HL donor)','AB (HL target)','BB']):
                 draw.text((col*224+4,10),caption,fill='black')
             for row,i in enumerate(ids[page*8:(page+1)*8]):
-                with np.load(AA/f'image_{i:06d}.npz') as z:a=(z['groundtruth_image'].transpose(1,2,0)*255).round().astype('uint8')
-                with np.load(AA/f'image_{mapping[i]:06d}.npz') as z:b=(z['groundtruth_image'].transpose(1,2,0)*255).round().astype('uint8')
+                with np.load(aa/f'image_{i:06d}.npz') as z:a=(z['groundtruth_image'].transpose(1,2,0)*255).round().astype('uint8')
+                with np.load(aa/f'image_{mapping[i]:06d}.npz') as z:b=(z['groundtruth_image'].transpose(1,2,0)*255).round().astype('uint8')
                 images=[a,b]
                 for label in ['AA','BA','AB','BB']:
-                    with np.load(SOURCES[label]/f'image_{i:06d}.npz') as z:images.append(z['candidate_images'][k].copy())
+                    with np.load(sources[label]/f'image_{i:06d}.npz') as z:images.append(z['candidate_images'][k].copy())
                 for col,img in enumerate(images):canvas.paste(Image.fromarray(img).resize((224,224)),(col*224,40+row*248))
                 draw.text((4,40+row*248+226),f'target {i}, donor {mapping[i]}, candidate {k}',fill='black')
             canvas.save(out/f'candidate-{k}-page-{page+1}.jpg',quality=92)

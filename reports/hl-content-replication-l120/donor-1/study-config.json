@@ -1,0 +1,15 @@
+{
+  "study": "L120-HL-content-replication",
+  "mode": "formal",
+  "allowed_conditions": [
+    "BA",
+    "AB",
+    "BB"
+  ],
+  "target_ids": "/data1/matengyu/geyugong/neuroadapter-author-first/reports/hl-content-replication-l120/target_ids.txt",
+  "mapping_path": "/data1/matengyu/geyugong/neuroadapter-author-first/reports/hl-content-replication-l120/donor-1/map.json",
+  "mapping_sha256": "35d8299fbb41216512234630dd1a640f27ce70bbfed5bbaa39a9f4762080498a",
+  "output_root": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42-lr5e-5-from100/comparison/hl-content-replication-l120/donor-1",
+  "roi_mapping_sha256": "d690198504dd20e86c157fa4428c1572cd46aba45217688e0c07e0a920b4fa5d",
+  "model_sha256": "bed56671f4e48ccf031e41c1daa36d473a4e325e94e3264aa1b21e08080fd798"
+}

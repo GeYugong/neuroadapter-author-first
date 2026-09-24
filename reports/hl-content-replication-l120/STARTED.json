@@ -1,0 +1,7 @@
+{
+  "authorized_request": "执行附件固定新100目标三供体复核",
+  "time": "2026-09-24T23:24:32+0800",
+  "baseline_commit": "4821bf228bb63e7d8aba7a977d5fead26e4f961f",
+  "stage": "Metadata-only partition before outcomes and generation",
+  "training_updates": 0
+}

@@ -1,0 +1,14 @@
+{
+  "study": "L120-HL-content-replication",
+  "mode": "check",
+  "allowed_conditions": [
+    "AA",
+    "BB"
+  ],
+  "target_ids": "/data1/matengyu/geyugong/neuroadapter-author-first/configs/decode2_ids.txt",
+  "mapping_path": "/data1/matengyu/geyugong/neuroadapter-author-first/reports/brain-correspondence-l120/brain-map.json",
+  "mapping_sha256": "65f98b46d2a98b02ecc135afb12336e5f5c5704d491f4043deaf0e2e2ea5f716",
+  "output_root": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42-lr5e-5-from100/comparison/hl-content-replication-l120/checks",
+  "roi_mapping_sha256": "d690198504dd20e86c157fa4428c1572cd46aba45217688e0c07e0a920b4fa5d",
+  "model_sha256": "bed56671f4e48ccf031e41c1daa36d473a4e325e94e3264aa1b21e08080fd798"
+}

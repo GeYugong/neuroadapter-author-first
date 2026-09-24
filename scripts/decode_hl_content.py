@@ -11,6 +11,7 @@ WORK=RUN/'comparison/hl-content-interchange-l120'
 def sha(t):return hashlib.sha256(t.detach().cpu().contiguous().numpy().tobytes()).hexdigest()
 def main():
     p=argparse.ArgumentParser();p.add_argument('--content-condition',choices=['AA','BB','BA','AB'],required=True)
+    p.add_argument('--study-config',help='Explicit bounded replication config; absent preserves original pilot semantics')
     opt,rest=p.parse_known_args()
     import decode_brain_adapter as d
     args=d.create_argument_parser().parse_args(rest)
@@ -19,11 +20,39 @@ def main():
     assert args.saved_epochs=='120' and args.precision=='fp32'
     assert Path(args.export_path)==RUN/'exports/epoch-120/inference.pt'
     out=Path(args.decoded_stimuli_dir).resolve()
-    assert out.is_relative_to(WORK) and not out.exists()
     ids=np.loadtxt(args.image_ids,dtype=int).reshape(-1).tolist()
-    check=opt.content_condition in ['AA','BB']
-    assert ids==np.loadtxt(ROOT/'configs'/('decode2_ids.txt' if check else 'monitor100_ids.txt'),dtype=int).reshape(-1).tolist()
-    mapping={r['target_image_id']:r['brain_source_image_id'] for r in json.loads((ROOT/'reports/brain-correspondence-l120/brain-map.json').read_text())}
+    if opt.study_config:
+        cfg_path=Path(opt.study_config).resolve()
+        study_report=ROOT/'reports/hl-content-replication-l120'
+        study_work=RUN/'comparison/hl-content-replication-l120'
+        assert cfg_path.is_relative_to(study_report)
+        config=json.loads(cfg_path.read_text())
+        assert config['study']=='L120-HL-content-replication' and config['mode'] in ['check','formal']
+        check=config['mode']=='check'
+        assert opt.content_condition in (['AA','BB'] if check else ['BA','AB','BB'])
+        assert config['allowed_conditions']==(['AA','BB'] if check else ['BA','AB','BB'])
+        assert Path(args.image_ids).resolve()==Path(config['target_ids']).resolve()
+        assert ids==np.loadtxt(config['target_ids'],dtype=int).reshape(-1).tolist()
+        assert out==Path(config['output_root'])/opt.content_condition and out.is_relative_to(study_work)
+        assert not out.exists()
+        mapping_path=Path(config['mapping_path'])
+        assert hashlib.sha256(mapping_path.read_bytes()).hexdigest()==config['mapping_sha256']
+        assert hashlib.sha256((ROOT/'reports/ibbi-roi-l120-pilot/roi_mapping.json').read_bytes()).hexdigest()==config['roi_mapping_sha256']
+        assert config['model_sha256']=='bed56671f4e48ccf031e41c1daa36d473a4e325e94e3264aa1b21e08080fd798'
+        mapping={r['target_image_id']:r['brain_source_image_id'] for r in json.loads(mapping_path.read_text())}
+        full=set(np.loadtxt(ROOT/'configs/val_ids.txt',dtype=int).tolist())
+        assert set(ids)<=full and len(ids)==len(set(ids)) and all(i!=mapping[i] for i in ids)
+        if check:
+            assert ids==np.loadtxt(ROOT/'configs/decode2_ids.txt',dtype=int).tolist()
+            assert mapping=={r['target_image_id']:r['brain_source_image_id'] for r in json.loads((ROOT/'reports/brain-correspondence-l120/brain-map.json').read_text())}
+        else:
+            assert len(ids)==len(mapping)==len(set(mapping.values()))==100
+            assert set(mapping)==set(ids) and not set(ids)&set(mapping.values()) and set(mapping.values())<=full
+    else:
+        assert out.is_relative_to(WORK) and not out.exists()
+        check=opt.content_condition in ['AA','BB']
+        assert ids==np.loadtxt(ROOT/'configs'/('decode2_ids.txt' if check else 'monitor100_ids.txt'),dtype=int).reshape(-1).tolist()
+        mapping={r['target_image_id']:r['brain_source_image_id'] for r in json.loads((ROOT/'reports/brain-correspondence-l120/brain-map.json').read_text())}
     hl=json.loads((ROOT/'reports/ibbi-roi-l120-pilot/roi_mapping.json').read_text())['groups']['HL']
     assert len(hl)==78 and sum(i<100 for i in hl)==37
     u=[i for i in range(200) if i not in hl];assert len(u)==122 and 22 in hl and 143 in hl
@@ -100,5 +129,5 @@ def main():
     assert len(audits)==len(ids)*2
     (out/'content-protocol.json').write_text(json.dumps(dict(condition=opt.content_condition,images=ids,
         hl_tokens=hl,complement_tokens=u,position='GuidanceGenerator E output before original ImageProjModel',
-        generated_candidates=len(audits)),indent=2)+'\n')
+        generated_candidates=len(audits),study_config=opt.study_config,mode='check' if check else 'formal'),indent=2)+'\n')
 if __name__=='__main__':main()
