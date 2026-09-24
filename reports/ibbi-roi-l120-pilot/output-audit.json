@@ -1,0 +1,167 @@
+{
+  "verified_at": "2026-09-24T15:55:21.428467+08:00",
+  "conditions": {
+    "LL": {
+      "images": 100,
+      "candidates": 200,
+      "candidate_shape": [
+        2,
+        512,
+        512,
+        3
+      ],
+      "exact_ID_set": true,
+      "seeds_and_stored_GT_exactly_equal_BASE": true,
+      "mask_tokens_match_frozen_mapping": true,
+      "unselected_rows_exact": true,
+      "selected_rows_zero": true,
+      "unconditional_E_unchanged": true,
+      "conditional_checks_per_candidate": 50,
+      "input_audit_sha256": "80aeb325b52dc0e98e8816d6bd9c9aa7b78f4b67b12b3b13931fc59016978887"
+    },
+    "HL": {
+      "images": 100,
+      "candidates": 200,
+      "candidate_shape": [
+        2,
+        512,
+        512,
+        3
+      ],
+      "exact_ID_set": true,
+      "seeds_and_stored_GT_exactly_equal_BASE": true,
+      "mask_tokens_match_frozen_mapping": true,
+      "unselected_rows_exact": true,
+      "selected_rows_zero": true,
+      "unconditional_E_unchanged": true,
+      "conditional_checks_per_candidate": 50,
+      "input_audit_sha256": "672761f556319bdfe40c87ee42f3fd04355c35e283c904559edc45298cb7059a"
+    },
+    "LL-R1": {
+      "images": 100,
+      "candidates": 200,
+      "candidate_shape": [
+        2,
+        512,
+        512,
+        3
+      ],
+      "exact_ID_set": true,
+      "seeds_and_stored_GT_exactly_equal_BASE": true,
+      "mask_tokens_match_frozen_mapping": true,
+      "unselected_rows_exact": true,
+      "selected_rows_zero": true,
+      "unconditional_E_unchanged": true,
+      "conditional_checks_per_candidate": 50,
+      "input_audit_sha256": "e6f6a171235cc622e983ab8bc2285292f01d869e16cde2a3b4a900f50e103dcc"
+    },
+    "LL-R2": {
+      "images": 100,
+      "candidates": 200,
+      "candidate_shape": [
+        2,
+        512,
+        512,
+        3
+      ],
+      "exact_ID_set": true,
+      "seeds_and_stored_GT_exactly_equal_BASE": true,
+      "mask_tokens_match_frozen_mapping": true,
+      "unselected_rows_exact": true,
+      "selected_rows_zero": true,
+      "unconditional_E_unchanged": true,
+      "conditional_checks_per_candidate": 50,
+      "input_audit_sha256": "f849fb9eb1dcd298b32619d3374e5fc67d3de897285fe3de408c19c657ac9089"
+    },
+    "LL-R3": {
+      "images": 100,
+      "candidates": 200,
+      "candidate_shape": [
+        2,
+        512,
+        512,
+        3
+      ],
+      "exact_ID_set": true,
+      "seeds_and_stored_GT_exactly_equal_BASE": true,
+      "mask_tokens_match_frozen_mapping": true,
+      "unselected_rows_exact": true,
+      "selected_rows_zero": true,
+      "unconditional_E_unchanged": true,
+      "conditional_checks_per_candidate": 50,
+      "input_audit_sha256": "ae8d749062e48c54000476e4d3e3cffb5d992d9669d1d86df059a4f3a82edd5e"
+    },
+    "HL-R1": {
+      "images": 100,
+      "candidates": 200,
+      "candidate_shape": [
+        2,
+        512,
+        512,
+        3
+      ],
+      "exact_ID_set": true,
+      "seeds_and_stored_GT_exactly_equal_BASE": true,
+      "mask_tokens_match_frozen_mapping": true,
+      "unselected_rows_exact": true,
+      "selected_rows_zero": true,
+      "unconditional_E_unchanged": true,
+      "conditional_checks_per_candidate": 50,
+      "input_audit_sha256": "9013e2aa523371f963274f2088e4fb82930f6989d26f34398d952644708299ac"
+    },
+    "HL-R2": {
+      "images": 100,
+      "candidates": 200,
+      "candidate_shape": [
+        2,
+        512,
+        512,
+        3
+      ],
+      "exact_ID_set": true,
+      "seeds_and_stored_GT_exactly_equal_BASE": true,
+      "mask_tokens_match_frozen_mapping": true,
+      "unselected_rows_exact": true,
+      "selected_rows_zero": true,
+      "unconditional_E_unchanged": true,
+      "conditional_checks_per_candidate": 50,
+      "input_audit_sha256": "f9f544d40eeabd97fbf4d1bc71623cb775aabf6e1d7c1a3f5f7ff30552c687b7"
+    },
+    "HL-R3": {
+      "images": 100,
+      "candidates": 200,
+      "candidate_shape": [
+        2,
+        512,
+        512,
+        3
+      ],
+      "exact_ID_set": true,
+      "seeds_and_stored_GT_exactly_equal_BASE": true,
+      "mask_tokens_match_frozen_mapping": true,
+      "unselected_rows_exact": true,
+      "selected_rows_zero": true,
+      "unconditional_E_unchanged": true,
+      "conditional_checks_per_candidate": 50,
+      "input_audit_sha256": "97d295784a75818cda65ca35996b1e07394e62c06f8b802d6d643ca9379ae795"
+    }
+  },
+  "total_intervention_images": 800,
+  "total_intervention_candidates": 1600,
+  "training_latest_epoch_log": {
+    "epoch": 140,
+    "global_optimizer_updates": 74480,
+    "actual_samples_processed": 1190560,
+    "epoch_samples": 8504,
+    "unique_samples": 8500,
+    "padding_samples": 4,
+    "microbatches_per_rank": 1063,
+    "final_accumulation_microbatches": 1,
+    "final_local_batch": 4,
+    "mean_loss": 0.11034387459948673,
+    "seconds": 887.4410518630175,
+    "image_order_sha256": "8c12010a3ed3d5d6b5320d90b4972f2ad8bc29e4c1c0d40c9d08fd2b9dbb2c9a"
+  },
+  "added_training_updates": 0,
+  "IBBI_trajectories": 64
+}

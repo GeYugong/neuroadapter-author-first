@@ -1,0 +1,57 @@
+{
+  "reviewer": "AI (Codex), not human or blinded review",
+  "time": "2026-09-24T15:54:33.134222+08:00",
+  "fixed_images": 32,
+  "candidates_per_image": 2,
+  "conditions_including_BASE": 9,
+  "pages": [
+    {
+      "path": "all-condition-atlas/candidate-0-page-1.jpg",
+      "sha256": "7e80b2723f46cb0166d9dd7128f4eb56a7fec1b7fe72a4f3736121fc8931a21c",
+      "actually_viewed_by": "AI (Codex)",
+      "preview_exactly_matches_final": true
+    },
+    {
+      "path": "all-condition-atlas/candidate-0-page-2.jpg",
+      "sha256": "4cfabe9853d6f6ed0acc4047827197e77e80cfad83018ca5b8f496f5bd35b1a1",
+      "actually_viewed_by": "AI (Codex)",
+      "preview_exactly_matches_final": true
+    },
+    {
+      "path": "all-condition-atlas/candidate-0-page-3.jpg",
+      "sha256": "7f7ea71ae9028045118c6e6dfad061427f700b02de58e02ba704c2aecdf8281c",
+      "actually_viewed_by": "AI (Codex)",
+      "preview_exactly_matches_final": true
+    },
+    {
+      "path": "all-condition-atlas/candidate-0-page-4.jpg",
+      "sha256": "04cea993b7e5b98266f486aba8c6b84bdd372811f95fd77dd89c478c1d539fa4",
+      "actually_viewed_by": "AI (Codex)",
+      "preview_exactly_matches_final": true
+    },
+    {
+      "path": "all-condition-atlas/candidate-1-page-1.jpg",
+      "sha256": "af0a99eff38845e9f6dbb33eead9d6cc20b9c28f655713a871e1c039d231a1df",
+      "actually_viewed_by": "AI (Codex)",
+      "preview_exactly_matches_final": true
+    },
+    {
+      "path": "all-condition-atlas/candidate-1-page-2.jpg",
+      "sha256": "43fd476e2246da53335b879abc82b0c947e27a23508c357bc9a81d9b5ae557d3",
+      "actually_viewed_by": "AI (Codex)",
+      "preview_exactly_matches_final": true
+    },
+    {
+      "path": "all-condition-atlas/candidate-1-page-3.jpg",
+      "sha256": "047351adb71e859214ffedbf8b92f421dfb7e123993b23ef6ab3b04fa326d6fa",
+      "actually_viewed_by": "AI (Codex)",
+      "preview_exactly_matches_final": true
+    },
+    {
+      "path": "all-condition-atlas/candidate-1-page-4.jpg",
+      "sha256": "61f9a43b4720befbb6100a250ff506ad0f06dfff6b76c2eef6e9884e73941512",
+      "actually_viewed_by": "AI (Codex)",
+      "preview_exactly_matches_final": true
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "checked_at": "2026-09-24T16:01:52.649848+08:00",
+  "source_commit": "5368d4d2a8a3b95d192824e10ef4c9cfeac69145",
+  "pre_publication_head": "243fccb96b2d745687932bffb41b0d8d64b83842",
+  "controller_complete": {
+    "time": "2026-09-24T16:00:07+0800",
+    "action": "controller_complete",
+    "exit_code": 0
+  },
+  "all_phase_and_child_exit_codes_zero": true,
+  "all_recorded_child_PIDs_and_controller_exited": true,
+  "gpu_compute_processes": [],
+  "protected_files_verified_by_compare": 1782,
+  "all_protected_hashes_unchanged": true,
+  "model_sha256": "bed56671f4e48ccf031e41c1daa36d473a4e325e94e3264aa1b21e08080fd798",
+  "mainline_best_untouched": true,
+  "training_updates_added": 0,
+  "latest_training_epoch": 140,
+  "latest_training_optimizer_updates": 74480,
+  "IBBI_trajectories": 64,
+  "intervention_candidates": 1600,
+  "output_audit": "output-audit.json",
+  "AI_review": "AI_REVIEW.md",
+  "all_8_atlas_pages_actually_viewed_and_exact_match": "visual-review-manifest.json",
+  "report_command": "runtime/env/bin/python scripts/ibbi_roi_report.py",
+  "report_exit_code": 0,
+  "publication_method": "Server conventional commit -> git bundle -> local fast-forward -> verified private GitHub author-first; final SHA/tree equality checked after push."
+}
