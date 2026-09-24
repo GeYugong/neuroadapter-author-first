@@ -1,0 +1,21 @@
+{
+  "time": "2026-09-24T15:03:43+0800",
+  "source_commit": "5368d4d2a8a3b95d192824e10ef4c9cfeac69145",
+  "baseline_commit": "1a6a479b3adadaeefded63328fd2a444fb6f52a6",
+  "identity_exit_code": 0,
+  "identity_pixel_exact": true,
+  "identity_candidates_reused_in_ibbi": 4,
+  "training_updates_added": 0,
+  "phase": "figures then bounded8-condition ROI pilot",
+  "expected_following_phases": [
+    "attention figures",
+    "eight fixed ROI mask conditions",
+    "original metrics",
+    "paired summaries",
+    "AI review and report"
+  ],
+  "controller_tmux": "author-ibbi-roi-l120",
+  "controller_start": "2026-09-24T15:07:37+0800",
+  "ibbi_exit_code": 0,
+  "ibbi_trajectories_pixel_exact": 64
+}
