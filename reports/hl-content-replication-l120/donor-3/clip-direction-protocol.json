@@ -1,0 +1,6 @@
+{
+  "author_setup": "clip_model, _ = clip.load(os.environ.get('AUTHOR_CLIP_PATH', 'ViT-L/14'), device=self.device)\npreprocessor = transforms.Compose([transforms.Resize(self.config.CLIP_SIZE, interpolation=transforms.InterpolationMode.BILINEAR), transforms.Normalize(mean=self.config.CLIP_MEAN, std=self.config.CLIP_STD)])",
+  "metric": "Auxiliary cosine target minus cosine donor; not official two-way CLIP identification",
+  "clip_asset_sha256": "b8cca3fd41ae0c99ba7e8951adf17d267cdb84cd88be6f7c2e0eca1737a03836",
+  "candidate_average_before_analysis": true
+}

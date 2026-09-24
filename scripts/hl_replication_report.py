@@ -66,5 +66,6 @@ def main():
     '固定负例池、单个选择过的模型、单一训练seed和历史自适应开发限制推断。名义区间只描述当前固定目标及三供体块，不提供人脑总体、所有供体或所有采样噪声的无条件覆盖；不校正历史模型选择。','',
     '混合E可能离开训练分布，条件冲突与输出退化不能一律叫语义转移。AB未完全恢复AA及AA原本错误均保留；不把正结果解释为人脑因果或HL功能专一性。','',
     '[既有研究证据汇总](EVIDENCE_SUMMARY.md)。固定预算结束后停止，不追加供体、子ROI、权重或训练。','']
+    lines += ['', (R/'INTERPRETATION.md').read_text(), '', '[实际退出、预算、433项保护及24页审阅核验](delivery-verification.json)']
     (R/'README.md').write_text('\n'.join(lines)+'\n')
 if __name__=='__main__':main()
