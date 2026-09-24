@@ -1,0 +1,11 @@
+{
+  "training_updates_added": 0,
+  "new_images": 400,
+  "new_candidate_images": 800,
+  "original100_unchanged": true,
+  "historical_outputs_and_reports_unchanged": true,
+  "primary_contrasts": [
+    "L130-minus-L120",
+    "L130-minus-L140"
+  ]
+}

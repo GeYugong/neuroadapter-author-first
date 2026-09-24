@@ -1,0 +1,114 @@
+{
+  "events": [
+    {
+      "time": "2026-09-24T10:03:34+0800",
+      "action": "launch",
+      "label": "l130-val500-generate",
+      "command": [
+        "/data1/matengyu/geyugong/neuroadapter-author-first/runtime/env/bin/python",
+        "/data1/matengyu/geyugong/neuroadapter-author-first/scripts/complete_l130_val500.py",
+        "--phase",
+        "generate"
+      ],
+      "parent_pid": 1637900
+    },
+    {
+      "time": "2026-09-24T10:03:34+0800",
+      "action": "running",
+      "label": "l130-val500-generate",
+      "pid": 1637936
+    },
+    {
+      "time": "2026-09-24T10:44:05+0800",
+      "action": "exit",
+      "label": "l130-val500-generate",
+      "pid": 1637936,
+      "exit_code": 0
+    },
+    {
+      "time": "2026-09-24T10:44:05+0800",
+      "action": "launch",
+      "label": "l130-val500-score",
+      "command": [
+        "/data1/matengyu/geyugong/neuroadapter-author-first/runtime/env/bin/python",
+        "/data1/matengyu/geyugong/neuroadapter-author-first/scripts/complete_l130_val500.py",
+        "--phase",
+        "score"
+      ],
+      "parent_pid": 1637900
+    },
+    {
+      "time": "2026-09-24T10:44:05+0800",
+      "action": "running",
+      "label": "l130-val500-score",
+      "pid": 1643267
+    },
+    {
+      "time": "2026-09-24T10:45:13+0800",
+      "action": "exit",
+      "label": "l130-val500-score",
+      "pid": 1643267,
+      "exit_code": 0
+    },
+    {
+      "time": "2026-09-24T10:45:13+0800",
+      "action": "launch",
+      "label": "l130-val500-compare",
+      "command": [
+        "/data1/matengyu/geyugong/neuroadapter-author-first/runtime/env/bin/python",
+        "/data1/matengyu/geyugong/neuroadapter-author-first/scripts/complete_l130_val500.py",
+        "--phase",
+        "compare"
+      ],
+      "parent_pid": 1637900
+    },
+    {
+      "time": "2026-09-24T10:45:13+0800",
+      "action": "running",
+      "label": "l130-val500-compare",
+      "pid": 1643434
+    },
+    {
+      "time": "2026-09-24T10:53:42+0800",
+      "action": "exit",
+      "label": "l130-val500-compare",
+      "pid": 1643434,
+      "exit_code": 0
+    },
+    {
+      "time": "2026-09-24T10:53:42+0800",
+      "action": "controller_complete",
+      "exit_code": 0
+    }
+  ],
+  "task_pids_absent": [
+    1637900,
+    1637936,
+    1643267,
+    1643434
+  ],
+  "gpu_compute_processes": [],
+  "training_updates_added": 0,
+  "latest_completed_epochs": 140,
+  "latest_global_optimizer_updates": 74480,
+  "epochs_log_sha256_unchanged": true,
+  "new_npz_files": 400,
+  "new_candidates": 800,
+  "merged_images": 500,
+  "reused_images": 100,
+  "monitor100_exactly_matches_history": true,
+  "paired_rows_per_contrast": 500,
+  "protected_files": 1697,
+  "protected_verification": "All 1697 hashes were checked in compare() before writing comparison/completion; phase and controller exit0.",
+  "completion": {
+    "training_updates_added": 0,
+    "new_images": 400,
+    "new_candidate_images": 800,
+    "original100_unchanged": true,
+    "historical_outputs_and_reports_unchanged": true,
+    "primary_contrasts": [
+      "L130-minus-L120",
+      "L130-minus-L140"
+    ]
+  }
+}
