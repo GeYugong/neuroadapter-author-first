@@ -1,0 +1,98 @@
+{
+  "reviewer": "AI",
+  "blind_human_review": false,
+  "fixed_ids": [
+    38833,
+    27648,
+    868,
+    38887,
+    63247,
+    60784,
+    33336,
+    20863,
+    20520,
+    67261,
+    17865,
+    61868,
+    34854,
+    30139,
+    29815,
+    59905,
+    6315,
+    45699,
+    15068,
+    50850,
+    36198,
+    19331,
+    53659,
+    1818,
+    56162,
+    59470,
+    36992,
+    44279,
+    71624,
+    39490,
+    66437,
+    1015
+  ],
+  "all_candidates_per_image": 2,
+  "pages": [
+    {
+      "condition": "correct",
+      "page": 1,
+      "path": "reports/lr-half-to120/val-atlas/atlas-1.jpg",
+      "sha256": "6aa7b698741e0d5386eecc12287067dc886aa1c8e2dd29aa35af0958d55dae5e",
+      "directly_viewed": true
+    },
+    {
+      "condition": "correct",
+      "page": 2,
+      "path": "reports/lr-half-to120/val-atlas/atlas-2.jpg",
+      "sha256": "6c8525bf5f2af7ae44520bbb498d4176952d0fd5bbd1d1b384d8931f27f86671",
+      "directly_viewed": true
+    },
+    {
+      "condition": "correct",
+      "page": 3,
+      "path": "reports/lr-half-to120/val-atlas/atlas-3.jpg",
+      "sha256": "f0b886a11542ca0234fdfd2634452b128a15f811430d39405d53d0a939979f17",
+      "directly_viewed": true
+    },
+    {
+      "condition": "correct",
+      "page": 4,
+      "path": "reports/lr-half-to120/val-atlas/atlas-4.jpg",
+      "sha256": "9a1181564d3914d51941e6568a025c82cae25a1269c7b94075424095e8c4a5ae",
+      "directly_viewed": true
+    },
+    {
+      "condition": "permuted",
+      "page": 1,
+      "path": "reports/brain-correspondence-l120/permuted/val-atlas/atlas-1.jpg",
+      "sha256": "339cd172d794cc533fc618838ba3f720277c8fbfb1830a96d0112957ae682242",
+      "directly_viewed": true
+    },
+    {
+      "condition": "permuted",
+      "page": 2,
+      "path": "reports/brain-correspondence-l120/permuted/val-atlas/atlas-2.jpg",
+      "sha256": "f476dfdbfd385c273041fc070f02e7562d12560bda1827c1ae69caa1359732a0",
+      "directly_viewed": true
+    },
+    {
+      "condition": "permuted",
+      "page": 3,
+      "path": "reports/brain-correspondence-l120/permuted/val-atlas/atlas-3.jpg",
+      "sha256": "7f06045eb4a8649409df940a99be960ead086a13e985ddefcf4888c3bf4e332a",
+      "directly_viewed": true
+    },
+    {
+      "condition": "permuted",
+      "page": 4,
+      "path": "reports/brain-correspondence-l120/permuted/val-atlas/atlas-4.jpg",
+      "sha256": "4142830e8ccbbcb0f381a16d919e7865511efe896c59db5536347a8d06d53efd",
+      "directly_viewed": true
+    }
+  ],
+  "note": "All four correct and all four permuted fixed validation pages were directly viewed. Existing train16 has no permuted condition and was not rescored or newly reviewed."
+}

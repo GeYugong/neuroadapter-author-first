@@ -1,0 +1,44 @@
+{
+  "checked_at": "2026-09-24T12:28:12.194060+08:00",
+  "training_updates_added": 0,
+  "latest_training_state": {
+    "completed_epochs": 140,
+    "global_optimizer_updates": 74480,
+    "epoch_log_sha256": "320e752f3355b25b0e99b24aa1f25c79616b22561d3134732e73b1b47720bb5b"
+  },
+  "weight_used": "runs/subject01-author-fp32-seed42-lr5e-5-from100/exports/epoch-120/inference.pt",
+  "weight_sha256": "bed56671f4e48ccf031e41c1daa36d473a4e325e94e3264aa1b21e08080fd798",
+  "protected_file_count": 1745,
+  "protected_hash_check": "All digests checked by compare before compare.done and controller exit0; epoch log and progress rechecked at delivery.",
+  "all_protected_hashes_unchanged": true,
+  "mainline_best_files_protected": [
+    "reports/best_so_far.json",
+    "runs/subject01-author-fp32-seed42/best_so_far/inference.pt",
+    "runs/subject01-author-fp32-seed42/best_so_far/metadata.json",
+    "runs/subject01-author-fp32-seed42/best_so_far/parcel_vertices.pt"
+  ],
+  "original_decoder_and_metric_unchanged": true,
+  "experiment_script_hashes_match_preflight": true,
+  "paired_rows_in_original_500_order": true,
+  "brain_input_audit_rows": 500,
+  "bijection_no_self_pairs": true,
+  "source_inputs_match_generator_inputs": true,
+  "saved_permuted_npz": 500,
+  "new_permuted_candidates": 1000,
+  "identity_images": 2,
+  "identity_candidates": 4,
+  "validation_atlas_pages": 4,
+  "baseline_atlas_pages_reviewed": 4,
+  "reviewer": "AI",
+  "exit_codes": {
+    "brain-correspondence-identity": 0,
+    "brain-correspondence-generate": 0,
+    "brain-correspondence-score": 0,
+    "brain-correspondence-compare": 0
+  },
+  "prepare_exit_code": 0,
+  "controller_exit_code": 0,
+  "active_experiment_processes": [],
+  "gpu_compute_processes": "",
+  "tmux_exited": true
+}

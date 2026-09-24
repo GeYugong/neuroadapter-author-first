@@ -1,0 +1,13 @@
+{"time": "2026-09-24T11:21:21+0800", "action": "launch", "label": "brain-correspondence-identity", "command": ["/data1/matengyu/geyugong/neuroadapter-author-first/runtime/env/bin/python", "scripts/brain_correspondence.py", "--phase", "identity"], "parent_pid": 1649369}
+{"time": "2026-09-24T11:21:21+0800", "action": "running", "label": "brain-correspondence-identity", "pid": 1649403}
+{"time": "2026-09-24T11:21:44+0800", "action": "exit", "label": "brain-correspondence-identity", "pid": 1649403, "exit_code": 0}
+{"time": "2026-09-24T11:22:37+0800", "action": "launch", "label": "brain-correspondence-generate", "command": ["/data1/matengyu/geyugong/neuroadapter-author-first/runtime/env/bin/python", "/data1/matengyu/geyugong/neuroadapter-author-first/scripts/brain_correspondence.py", "--phase", "generate"], "parent_pid": 1649795}
+{"time": "2026-09-24T11:22:37+0800", "action": "running", "label": "brain-correspondence-generate", "pid": 1649831}
+{"time": "2026-09-24T12:13:45+0800", "action": "exit", "label": "brain-correspondence-generate", "pid": 1649831, "exit_code": 0}
+{"time": "2026-09-24T12:13:45+0800", "action": "launch", "label": "brain-correspondence-score", "command": ["/data1/matengyu/geyugong/neuroadapter-author-first/runtime/env/bin/python", "/data1/matengyu/geyugong/neuroadapter-author-first/scripts/brain_correspondence.py", "--phase", "score"], "parent_pid": 1649795}
+{"time": "2026-09-24T12:13:45+0800", "action": "running", "label": "brain-correspondence-score", "pid": 1656697}
+{"time": "2026-09-24T12:14:54+0800", "action": "exit", "label": "brain-correspondence-score", "pid": 1656697, "exit_code": 0}
+{"time": "2026-09-24T12:14:54+0800", "action": "launch", "label": "brain-correspondence-compare", "command": ["/data1/matengyu/geyugong/neuroadapter-author-first/runtime/env/bin/python", "/data1/matengyu/geyugong/neuroadapter-author-first/scripts/brain_correspondence.py", "--phase", "compare"], "parent_pid": 1649795}
+{"time": "2026-09-24T12:14:54+0800", "action": "running", "label": "brain-correspondence-compare", "pid": 1656864}
+{"time": "2026-09-24T12:23:08+0800", "action": "exit", "label": "brain-correspondence-compare", "pid": 1656864, "exit_code": 0}
+{"time": "2026-09-24T12:23:08+0800", "action": "controller_complete", "exit_code": 0}

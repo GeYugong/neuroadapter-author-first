@@ -1,0 +1,8 @@
+{
+  "mode": "permuted",
+  "map_path": "/data1/matengyu/geyugong/neuroadapter-author-first/reports/brain-correspondence-l120/brain-map.json",
+  "map_sha256": "65f98b46d2a98b02ecc135afb12336e5f5c5704d491f4043deaf0e2e2ea5f716",
+  "intervention": "Replace only brain_lh_f/brain_rh_f before original GuidanceGenerator; retain target GT/ID and target-ID candidate seeds.",
+  "pid": 1649836,
+  "input_rows_verified": 500
+}

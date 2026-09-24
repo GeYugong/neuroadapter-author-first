@@ -1,0 +1,9 @@
+{
+  "training_updates_added": 0,
+  "permuted_images": 500,
+  "permuted_candidates": 1000,
+  "identity_check_images": 2,
+  "identity_check_candidates": 4,
+  "original_outputs_unchanged": true,
+  "protected_hashes_unchanged": true
+}
