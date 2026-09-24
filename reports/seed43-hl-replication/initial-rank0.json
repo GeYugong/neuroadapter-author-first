@@ -1,0 +1,19 @@
+{
+  "seed": 43,
+  "completed_epochs": 0,
+  "global_optimizer_updates": 0,
+  "optimizer_lr": [
+    0.0001
+  ],
+  "optimizer_state_empty": true,
+  "trainable_parameters_fp32": true,
+  "trainable_sha256": "97c7e0f7d029c401b67919018b0d33f155a12b99c5ed12d79ff4924797743b61",
+  "ranks_identical": true,
+  "guidance_differs_from_seed42_initialization": true,
+  "parcel_vertices_exactly_match_L120": true,
+  "rng_unchanged_by_audit": true,
+  "loader_generator_sha256": "5d898ff0719d3cff95ebfa4424bcc53134ef38bca55e960f0e4a730f5120a3bf",
+  "rank": 0,
+  "run_id": "subject01-author-fp32-seed43-lrhalf-at100",
+  "source_commit": "64df93e487ccac28eb69e9268655284690657d7d"
+}

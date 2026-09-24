@@ -1,0 +1,11 @@
+{
+  "time": "2026-09-25T01:23:23+0800",
+  "first_optimizer_update_observed": true,
+  "changed_trainable_parameter_tensors": 38,
+  "trainable_parameter_tensors": 38,
+  "all_trainable_fp32": true,
+  "audit_source": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed43-lrhalf-at100/update_audit.json",
+  "current_gpu_processes": "pid, process_name, used_gpu_memory [MiB]\n1764389, /data1/matengyu/geyugong/neuroadapter-author-first/runtime/env/bin/python, 15886 MiB\n1764390, /data1/matengyu/geyugong/neuroadapter-author-first/runtime/env/bin/python, 15886 MiB\n",
+  "training_complete": false,
+  "evaluation_started": false
+}

@@ -1,0 +1,11 @@
+{
+  "time": "2026-09-25T01:19:21+0800",
+  "tmux": "author-seed43-replication",
+  "command": "cd /data1/matengyu/geyugong/neuroadapter-author-first && runtime/env/bin/python scripts/seed43_replication.py > logs/seed43-controller.log 2>&1",
+  "code_commit": "64df93e487ccac28eb69e9268655284690657d7d",
+  "authorized_epochs": 120,
+  "expected_updates": 63840,
+  "formal_generation_budget": 2000,
+  "check_generation_cap": 8,
+  "status": "training_initialization_started"
+}
