@@ -438,8 +438,10 @@
     "scripts/evaluate_stage.py": true
   },
   "compute_complete": true,
-  "AI_review_and_publication_pending": true,
+  "AI_review_and_publication_pending": false,
   "AI_review_complete": true,
   "fixed_pages_reviewed": 24,
-  "publication_pending": true
+  "publication_pending": false,
+  "published_results_commit": "a708f01148fd7dbc5edbdc9af41384e342627da2",
+  "delivery_status": "complete; fixed budget stopped"
 }
