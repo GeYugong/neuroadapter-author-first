@@ -44,7 +44,10 @@ def main():
       '- [原始汇总与区间](comparison.json)、[逐图四条件及配对差值](paired-four-conditions.csv)、[每候选CLIP两个cosine与q](clip-direction-candidates.csv)。',
       '- [BA候选0](BA/val100/candidate-0.csv)、[BA候选1](BA/val100/candidate-1.csv)、[AB候选0](AB/val100/candidate-0.csv)、[AB候选1](AB/val100/candidate-1.csv)。',
       '- 原参考指标：[AA](../lr-half-to120/val100/metrics.json)、[BB](../brain-correspondence-l120/permuted/val100/metrics.json)。',
-      '- [实际预算与关键输入不变检查](completion.json)。命令：runtime/env/bin/python scripts/hl_content_interchange.py；逐阶段命令、退出码及最终GPU核验见delivery-checks.json（交付时补齐）。','',
+      '- [实际预算与关键输入不变检查](completion.json)。命令：runtime/env/bin/python scripts/hl_content_interchange.py；逐阶段命令、退出码及最终GPU核验见[delivery-checks.json](delivery-checks.json)。','',
       '原IBBI/ROI先导及严格匹配PROVEN_INFEASIBLE报告保持原样；本轮无后续训练或追加实验。']
+    rows[2:2]=[(R/'CONCLUSION.md').read_text(), '']
+    delivery=json.loads((R/'delivery-checks.json').read_text())
+    rows += ['', '## 实际退出与停止状态', '', '运行代码提交c282585；12条阶段/子进程退出记录均为0，控制器controller_complete=0。BA/AB共400张正式图，AA/BB检查8张，未超预算。309项锁定关键输入SHA复核一致；训练仍为L140/74480，新增更新0。最终无本实验控制器或decoder进程，GPU计算进程为空。全部8页已完成AI非盲审阅；到此停止，不追加实验。', '', '[命令、退出码、脚本SHA与最终GPU记录](delivery-checks.json)']
     (R/'README.md').write_text('\n'.join(rows)+'\n',encoding='utf-8')
 if __name__=='__main__':main()
