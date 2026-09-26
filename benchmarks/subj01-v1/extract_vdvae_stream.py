@@ -66,5 +66,5 @@ for split in ['test','train']:
  arr=np.concatenate([torch.load(p,map_location='cpu')['features'] for p in sorted(d.glob('batch-*.pt'))]);assert len(arr)==len(ids)
  np.save(O/f'vdvae_{split}_latents.npy',arr)
 np.savez(O/'nsd_vdvae_features_31l.npz',train_latents=np.load(O/'vdvae_train_latents.npy'),test_latents=np.load(O/'vdvae_test_latents.npy'))
-savej(O/'VDVAE_COMPLETE.json',{**audit,'complete_utc':now(),'elapsed_seconds':time.time()-t0,'exit_status':0,'outputs':{p.name:sha(p) for p in O.glob('*.np*')}})
+savej(O/'VDVAE_COMPLETE.json',{**audit,'complete_utc':now(),'elapsed_seconds':time.time()-t0,'exit_status':0,'outputs':{p.name:sha(p) for p in [O/'vdvae_train_latents.npy',O/'vdvae_test_latents.npy',O/'nsd_vdvae_features_31l.npz']}})
 print('VDVAE_COMPLETE',flush=True)

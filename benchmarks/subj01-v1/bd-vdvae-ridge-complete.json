@@ -1,0 +1,36 @@
+{
+  "utc": "2026-09-26T12:27:25.334592+00:00",
+  "pid": 2103075,
+  "source_sha256": "e7dd3a1748b9ec4ed72bfb4f5c89285989f89686fbb3a5cdc35a8c2df2fe3825",
+  "sklearn": "1.2.2",
+  "alpha": 50000,
+  "max_iter": 10000,
+  "fit_intercept": true,
+  "solver": "author default auto",
+  "cpu_threads": "8",
+  "estimated_peak_ram_gib": 45,
+  "available_ram_at_launch_gib": 115,
+  "test_pool": 982,
+  "test_score": "diagnostic only, not selection",
+  "engineering": "Author preprocessing/fit/predict/rescaling AST executed unchanged. Added missing pickle import, explicit paths, normalization audit. No target chunking.",
+  "complete_utc": "2026-09-26T12:31:39.767292+00:00",
+  "elapsed_seconds": 252.68791270256042,
+  "exit_status": 0,
+  "prediction_shape": [
+    982,
+    91168
+  ],
+  "prediction_dtype": "float64",
+  "weight_shape": [
+    91168,
+    15724
+  ],
+  "brain_scale_divisor": 300,
+  "brain_std_ddof": 1,
+  "calibration": "All 982 test predictions zscore ddof0 then train latent mean/std; never T100-only calibration",
+  "files": {
+    "vdvae_regression_weights.pkl": "63edf0f89d32857a996b2bdcc3cce0d296769773fc8b44731f87ecfd4d3ec3fb",
+    "nsd_vdvae_nsdgeneral_pred_sub1_31l_alpha50k.npy": "bfe20ec914484896c41dd22dab4addbc22f566fe40f21a13837bf67020d93bdb",
+    "normalization.npz": "f4a8c8d5e69be6ae1465124b7b02777cc5264c47657165ae4288bc44bf13fc2a"
+  }
+}

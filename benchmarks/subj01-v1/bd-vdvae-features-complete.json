@@ -1,0 +1,28 @@
+{
+  "pid": 2101005,
+  "start_utc": "2026-09-26T12:22:22.057455+00:00",
+  "source": "/data1/matengyu/geyugong/neuroadapter-author-first/benchmarks/subj01-v1/upstream/brain-diffuser/scripts/vdvae_extract_features.py",
+  "source_sha256": "b2c3d09b187035ed0f578754741d87a644bf87e23e8d381a65ef8f285135ca2d",
+  "weights_sha256": "0d3b9e07177f5c5082e31685cc47f4e53f8557e4a5eefb72bca514445d3bc48e",
+  "strict_all_model_tensors_equal": true,
+  "batch_size": 30,
+  "num_latents": 31,
+  "order": [
+    "test",
+    "train"
+  ],
+  "seed": 0,
+  "seed_disclosure": "Original extraction H.seed=0 is unused (no set_up_hyperparams call); this adapter explicitly seeds NumPy/Torch/CUDA before model construction. No claim of identical historical stochastic feature samples.",
+  "implementation": "Author H dict, set_up_data/load_vaes and original AST no_grad latent extraction body; only streamed image I/O, checkpoint/resume and output storage adapted.",
+  "device": "physical GPU0",
+  "command": "CUDA_VISIBLE_DEVICES=0 envs/p1-author310/bin/python extract_vdvae_stream.py",
+  "complete_utc": "2026-09-26T12:26:25.777471+00:00",
+  "elapsed_seconds": 243.50208353996277,
+  "exit_status": 0,
+  "outputs": {
+    "vdvae_test_latents.npy": "5d34f17464e817f26b90c9cc546d2fb1393e999a3e54f9c1e0240ccdf7c37fed",
+    "vdvae_train_latents.npy": "c50db2be7ca3280e3f58f7c08861ffd632b8b2f097c47983ef6e14eb8ef22543",
+    "nsd_vdvae_features_31l.npz": "25e7d08defbf29645ee83a70d5175998ec02f32534a41a3fff7a32e6130960fa"
+  },
+  "audit_scope_note": "Only three VDVAE outputs attested; parallel CLIP files excluded."
+}
