@@ -29,3 +29,7 @@ Eff 使用冻结实现的 EfficientNet-B1。所有识别指标在同一完整评
 [首100图原报告与结论](RESULTS_TEST100_ZH.md)保留不变。固定32图输出没有改变，全部页沿用[已完成的AI审阅](AI_REVIEW.md)，不是人工盲评。
 
 两方法完整生成与评分退出码均为0；保护清单全部通过，无新增NeuroAdapter训练。完整982图特征前向batch16、全池原公式；浮点差异及五图验证见[验证记录](metric-batching-validation.json)，不声称与整批逐位相等。
+
+## 新增基线实测
+
+[Brain-Diffuser完整982图结果及四列图册](BRAIN_DIFFUSER_test_full_ids_ZH.md)；[首100图结果](BRAIN_DIFFUSER_test100_ids_ZH.md)。旧P0表与结论保留，统一CSV已追加实际Brain-Diffuser值。

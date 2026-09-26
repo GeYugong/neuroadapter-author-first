@@ -1,0 +1,22 @@
+{
+  "feature_batch": 16,
+  "negative_pool": "all requested IDs; unchanged original formula",
+  "method": "brain-diffuser",
+  "n_eval": 982,
+  "K": 1,
+  "selection": "none",
+  "eval_ids_hash": "4c438772ffa978ab8c5f781b8a3fc73df0159ae4892dc39d896f05a413d36441",
+  "mean": {
+    "PixCorr": 0.3444836344075664,
+    "SSIM": 0.3728370124009039,
+    "Alex(2)": 94.68817927589579,
+    "Alex(5)": 92.11422319383978,
+    "Incep": 72.62851614483745,
+    "CLIP": 71.26835537119736,
+    "Eff": 0.9329788106607166,
+    "SwAV": 0.626845034871439
+  },
+  "metric_sha256": "646ee1f3673b033cd6ee485058db16a3d24fae7624d793fe5174008ad2e15f7d",
+  "GT": "original NSD425x425 RGB uint8/255",
+  "prediction_resize": "author resize_images bilinear align_corners=False to425 before metric-specific preprocessing"
+}
