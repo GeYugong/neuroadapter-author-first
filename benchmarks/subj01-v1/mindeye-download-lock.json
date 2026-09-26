@@ -1,0 +1,36 @@
+{
+  "repo": "pscotti/naturalscenesdataset",
+  "revision": "421fb80ea4ca5600c7364ed400f9a5941380c387",
+  "files": [
+    {
+      "path": "mindeye_models/autoencoder_subj01_4x_locont_no_reconst/epoch120.pth",
+      "size": 2472955835,
+      "lfs_sha256": "7504598dc3e3f6f72aead033b97c021c0fef458da25e2722885fa7248b913ec0"
+    },
+    {
+      "path": "mindeye_models/prior_257_final_subj01_bimixco_softclip_byol/last.pth",
+      "size": 12044416180,
+      "lfs_sha256": "9323bfc19cd39bb4511200f65fc9f193f1239e98df07a8e78f11c6cbdafe14e4"
+    },
+    {
+      "path": "webdataset_avg_new/metadata_subj01.json",
+      "size": 89,
+      "lfs_sha256": null
+    },
+    {
+      "path": "webdataset_avg_split/metadata_subj01.json",
+      "size": 88,
+      "lfs_sha256": null
+    },
+    {
+      "path": "webdataset_avg_split/test/test_subj01_0.tar",
+      "size": 2182819840,
+      "lfs_sha256": "680ab0104569def39cc5d7597610e453750851a8f7213f4246de904f99ccaa1c"
+    },
+    {
+      "path": "webdataset_avg_split/test/test_subj01_1.tar",
+      "size": 2104299520,
+      "lfs_sha256": "a1a1920d050fda3330b7315e47882f4883d9fd5dafc3c2fce356954e7cca48e1"
+    }
+  ]
+}

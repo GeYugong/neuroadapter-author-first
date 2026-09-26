@@ -1,0 +1,7 @@
+{
+  "source_commit": "8ff1b25b29a641d58e11d92f10463c24980a08fd",
+  "metric_sha256": "646ee1f3673b033cd6ee485058db16a3d24fae7624d793fe5174008ad2e15f7d",
+  "gpu_initial": "both idle; no active benchmark",
+  "free_disk_initial": "454GiB",
+  "test_status": "not yet locked; awaiting official ID verification"
+}

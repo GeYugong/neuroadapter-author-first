@@ -1,0 +1,6 @@
+{
+  "test_n": 1000,
+  "test_shared": 1000,
+  "train_overlap": 0,
+  "val_overlap": 0
+}

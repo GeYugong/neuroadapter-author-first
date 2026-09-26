@@ -1,0 +1,141 @@
+{
+  "repo": "shi-labs/versatile-diffusion",
+  "revision": "2926f8e11ea526b562cd592b099fcf9c2985d0b7",
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 1477,
+      "sha256": null
+    },
+    {
+      "path": "README.md",
+      "bytes": 7217,
+      "sha256": null
+    },
+    {
+      "path": "assets/figures/VD_framework.png",
+      "bytes": 436992,
+      "sha256": null
+    },
+    {
+      "path": "assets/figures/vd_combined.png",
+      "bytes": 491562,
+      "sha256": null
+    },
+    {
+      "path": "image_encoder/config.json",
+      "bytes": 579,
+      "sha256": null
+    },
+    {
+      "path": "image_encoder/pytorch_model.bin",
+      "bytes": 1215993967,
+      "sha256": "89d2aa29b5fdf64f3ad4f45fb4227ea98bc45156bbae673b85be1af7783dbabb"
+    },
+    {
+      "path": "image_feature_extractor/preprocessor_config.json",
+      "bytes": 518,
+      "sha256": null
+    },
+    {
+      "path": "image_unet/config.json",
+      "bytes": 748,
+      "sha256": null
+    },
+    {
+      "path": "image_unet/diffusion_pytorch_model.bin",
+      "bytes": 3438354725,
+      "sha256": "3899338e2c2a00a02e6ad0e33933da4fed163bf7a16187522c1019c82519cff2"
+    },
+    {
+      "path": "model_index.json",
+      "bytes": 649,
+      "sha256": null
+    },
+    {
+      "path": "pretrained_pth/kl-f8.pth",
+      "bytes": 334701031,
+      "sha256": "845b3a472ba352727aa0f7bd8b8ee3ef95f54001215fbd80874f32c236efdb1a"
+    },
+    {
+      "path": "pretrained_pth/optimus-vae.pth",
+      "bytes": 1016873389,
+      "sha256": "5f82e8759f7ecf1e20397f0c70b6b0b5d84149cdc1875be1016142c0de053d69"
+    },
+    {
+      "path": "pretrained_pth/vd-four-flow-v1-0-deprecated.pth",
+      "bytes": 13328086079,
+      "sha256": "cf3261e4b14eaedf842dcb69bc345532abecc8ca8212d28d86aef241fbb13114"
+    },
+    {
+      "path": "pretrained_pth/vd-four-flow-v1-0-fp16-deprecated.pth",
+      "bytes": 6664692139,
+      "sha256": "b7814655665a98a74d723025c7453503db926741e785486741f4b4f06af6664b"
+    },
+    {
+      "path": "pretrained_pth/vd-four-flow-v1-0-fp16.pth",
+      "bytes": 5133104945,
+      "sha256": "47eae01cad5ab095c15e12cfec7c0365bad653d00ff5e228c9f558ba817f786d"
+    },
+    {
+      "path": "pretrained_pth/vd-four-flow-v1-0.pth",
+      "bytes": 10265764113,
+      "sha256": "05313cbe0467e6543d0151b7c6f5adcac4478647162743374904cdfa6a63376d"
+    },
+    {
+      "path": "scheduler/scheduler_config.json",
+      "bytes": 307,
+      "sha256": null
+    },
+    {
+      "path": "text_encoder/config.json",
+      "bytes": 631,
+      "sha256": null
+    },
+    {
+      "path": "text_encoder/pytorch_model.bin",
+      "bytes": 494664885,
+      "sha256": "85f5bcf101dde33d8ab9f7e5e1678339fa4258ea07bc65e6ca66e01f9de99622"
+    },
+    {
+      "path": "text_unet/config.json",
+      "bytes": 820,
+      "sha256": null
+    },
+    {
+      "path": "text_unet/diffusion_pytorch_model.bin",
+      "bytes": 6835669073,
+      "sha256": "dab7a69b6d6f52cd90717966d93ca30d13004d0eaf2994e1f0fe526473ac827c"
+    },
+    {
+      "path": "tokenizer/merges.txt",
+      "bytes": 524619,
+      "sha256": null
+    },
+    {
+      "path": "tokenizer/special_tokens_map.json",
+      "bytes": 472,
+      "sha256": null
+    },
+    {
+      "path": "tokenizer/tokenizer_config.json",
+      "bytes": 806,
+      "sha256": null
+    },
+    {
+      "path": "tokenizer/vocab.json",
+      "bytes": 1059962,
+      "sha256": null
+    },
+    {
+      "path": "vae/config.json",
+      "bytes": 552,
+      "sha256": null
+    },
+    {
+      "path": "vae/diffusion_pytorch_model.bin",
+      "bytes": 334707217,
+      "sha256": "1b134cded8eb78b184aefb8805b6b572f36fa77b255c483665dda931fa0130c5"
+    }
+  ]
+}

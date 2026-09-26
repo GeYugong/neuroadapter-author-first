@@ -1,0 +1,8 @@
+/assets/
+/envs/
+/cache/
+/outputs/
+/logs/
+/upstream/
+*.tar
+*.pth

@@ -1,0 +1,14 @@
+{
+  "implementation": "metric_brain_adapter.py",
+  "sha256": "646ee1f3673b033cd6ee485058db16a3d24fae7624d793fe5174008ad2e15f7d",
+  "GT": "original NSD imgBrick RGB uint8/255 at425x425",
+  "predictions": "lossless RGB uint8/255, author resize_images bilinear align_corners=False to425x425; no dynamic minmax",
+  "PixCorr": "per-image Pearson at425; NaN->0 per original",
+  "SSIM": "rgb2gray at425; gaussian_weights=True sigma1.5 use_sample_covariance=False data_range1; original exceptions->0 (must report exceptions)",
+  "AN2": "AlexNet features.4",
+  "AN5": "AlexNet features.11",
+  "Eff": "EfficientNet-B1 avgpool correlation distance; lower better",
+  "SwAV": "ResNet50 avgpool correlation distance; lower better",
+  "identification": "original full-pool two-way correlation identification scaled100; no per-batch negative-pool averaging",
+  "test100_and_full": "separate complete pools"
+}
