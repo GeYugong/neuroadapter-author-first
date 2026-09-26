@@ -1,0 +1,19 @@
+{
+  "exits": {
+    "mindeye1-testfull.exit": 0,
+    "mindeye1-scorefull.exit": 0,
+    "neuroadapter-testfull.exit": 0,
+    "neuroadapter-scorefull.exit": 0
+  },
+  "protected_checks": {
+    "reports/best_so_far.json": true,
+    "runs/subject01-author-fp32-seed42-lr5e-5-from100/exports/epoch-120/inference.pt": true,
+    "runs/subject01-author-fp32-seed42-lr5e-5-from100/exports/epoch-120/metadata.json": true,
+    "runs/subject01-author-fp32-seed42-lr5e-5-from100/exports/epoch-120/parcel_vertices.pt": true
+  },
+  "n_eval_per_method": 982,
+  "K": 1,
+  "new_NeuroAdapter_training_updates": 0,
+  "fixed32_review": "AI_REVIEW.md; same outputs as first100",
+  "GPU_processes_at_check": ""
+}

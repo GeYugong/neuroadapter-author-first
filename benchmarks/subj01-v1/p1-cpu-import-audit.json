@@ -1,0 +1,36 @@
+[
+  {
+    "name": "vdvae",
+    "modules": [
+      "vae",
+      "model_utils"
+    ],
+    "returncode": 0,
+    "stdout": "",
+    "stderr": ""
+  },
+  {
+    "name": "vd",
+    "modules": [
+      "lib.model_zoo.vd",
+      "lib.model_zoo.ddim_vd",
+      "lib.model_zoo.optimus",
+      "lib.model_zoo.clip",
+      "lib.model_zoo.autoencoder"
+    ],
+    "returncode": 0,
+    "stdout": "",
+    "stderr": ""
+  },
+  {
+    "name": "takagi_sd14",
+    "modules": [
+      "ldm.models.diffusion.ddpm",
+      "ldm.models.diffusion.ddim",
+      "ldm.modules.encoders.modules"
+    ],
+    "returncode": 0,
+    "stdout": "",
+    "stderr": ""
+  }
+]
