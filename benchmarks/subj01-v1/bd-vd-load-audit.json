@@ -1,0 +1,32 @@
+{
+  "utc": "2026-09-26T13:50:36.258623+00:00",
+  "pid": 2121423,
+  "source_sha256": "89ada0a307a8a9122fc8b7e49a4074d9e461f7eb066e502b412793f8ff9eb954",
+  "full_checkpoint_sha256": "b7814655665a98a74d723025c7453503db926741e785486741f4b4f06af6664b",
+  "state_dict_audit": {
+    "missing": [],
+    "unexpected": [],
+    "checkpoint_tensor_count": 2583,
+    "model_tensor_count": 2583
+  },
+  "all_state_tensors_equal": true,
+  "full_architecture_retained": true,
+  "devices": {
+    "clip": "cuda:0",
+    "autokl": "cuda:0",
+    "diffusion_model": "cuda:1",
+    "optimus": "cpu"
+  },
+  "protocol": {
+    "steps": 50,
+    "cfg": 7.5,
+    "strength": 0.75,
+    "mixing": 0.4,
+    "K": 1,
+    "seed": 0,
+    "rng": "torch.manual_seed(0) once before full author row order; no T100 reorder"
+  },
+  "asset_path_only_changes": true,
+  "test_gt_input": false,
+  "software": "p1-author310 torch2.0.1, compatible environment differs from author torch1.12.1"
+}

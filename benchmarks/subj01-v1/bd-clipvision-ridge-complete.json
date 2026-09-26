@@ -1,0 +1,15 @@
+{
+  "source_sha256": "29a9caf61b00ee8051a6e8404b7bdbfef283be33c0aad116fdb0593b5d53aebe",
+  "changes": "I/O paths only; original per-token Ridge fit/predict/full982 calibration and diagnostic score unchanged",
+  "kind": "vision",
+  "start_unix": 1790427047.5318923,
+  "pid": 2109069,
+  "threads": "8",
+  "exit_status": 0,
+  "elapsed_seconds": 2515.742411375046,
+  "prediction_shape": [
+    982,
+    257,
+    768
+  ]
+}
