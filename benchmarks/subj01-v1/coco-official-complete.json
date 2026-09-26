@@ -1,0 +1,6 @@
+{
+  "url": "http://images.cocodataset.org/annotations/annotations_trainval2017.zip",
+  "zip_sha256": "113a836d90195ee1f884e704da6304dfaaecff1f023f49b6ca93c4aaae470268",
+  "bytes": 252907541,
+  "purpose": "Takagi original NSDAccess caption order; no curated substitution"
+}
