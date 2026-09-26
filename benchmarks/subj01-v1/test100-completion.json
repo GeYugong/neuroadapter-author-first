@@ -1,0 +1,13 @@
+{
+  "n": 100,
+  "K": 1,
+  "exit_codes": {
+    "neuroadapter-test100": 0,
+    "neuroadapter-score100": 0,
+    "mindeye1-test100": 0,
+    "mindeye1-score100": 0
+  },
+  "AI_fixed32_review_complete": true,
+  "new_NeuroAdapter_training_updates": 0,
+  "full_test_pending": true
+}

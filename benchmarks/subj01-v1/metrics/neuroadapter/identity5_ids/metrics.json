@@ -1,0 +1,22 @@
+{
+  "feature_batch": 0,
+  "negative_pool": "all requested IDs; unchanged original formula",
+  "method": "neuroadapter",
+  "n_eval": 5,
+  "K": 1,
+  "selection": "none",
+  "eval_ids_hash": "1d2f42e74837325c7af9a8fd65df71f01c5e31222c212f0148444a34041e7abf",
+  "mean": {
+    "PixCorr": 0.22157495339741087,
+    "SSIM": 0.3995682502429957,
+    "Alex(2)": 85.0,
+    "Alex(5)": 95.0,
+    "Incep": 95.0,
+    "CLIP": 100.0,
+    "Eff": 0.7337058149312216,
+    "SwAV": 0.43818893241311485
+  },
+  "metric_sha256": "646ee1f3673b033cd6ee485058db16a3d24fae7624d793fe5174008ad2e15f7d",
+  "GT": "original NSD425x425 RGB uint8/255",
+  "prediction_resize": "author resize_images bilinear align_corners=False to425 before metric-specific preprocessing"
+}

@@ -144,6 +144,8 @@ def main():
 
     low, low_audit = load_model(Voxel2StableDiffusionModel(in_dim=15724, use_cont=True), args.low_checkpoint)
     brain = BrainNetwork(in_dim=15724, out_dim=257 * 768)
+    # Official checkpoint retains a training temperature parameter; author forward never reads it.
+    brain.register_parameter("temp", torch.nn.Parameter(torch.tensor(.006), requires_grad=False))
     net = VersatileDiffusionPriorNetwork(dim=768, depth=6, dim_head=64, heads=12,
                                        causal=False, learned_query_mode="pos_emb")
     prior = BrainDiffusionPrior(net=net, image_embed_dim=768,

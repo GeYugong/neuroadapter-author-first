@@ -33,6 +33,15 @@
     "seed_rule": "author seed42 independently each image",
     "upstream_commit": "6b30ea53c0f98b0a79b8f6828b6787a5913fd08d",
     "result_source": "local_inference_official_weights",
-    "asset_status": "downloads in progress; high+generator not yet loaded"
+    "asset_status": "full high+low strict load passed; five K1 images completed",
+    "weights": {
+      "high_sha256": "9323bfc19cd39bb4511200f65fc9f193f1239e98df07a8e78f11c6cbdafe14e4",
+      "low_sha256": "7504598dc3e3f6f72aead033b97c021c0fef458da25e2722885fa7248b913ec0"
+    },
+    "high_epoch": 239,
+    "low_epoch": 119,
+    "checkpoint_epoch_indexing": "zero based author checkpoint field",
+    "native_precision": "brain FP32; VD FP16 as author",
+    "gpu_peak_identity_bytes": 9866886144
   }
 }

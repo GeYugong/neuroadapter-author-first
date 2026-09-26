@@ -1,0 +1,30 @@
+{
+  "ids": [
+    6489,
+    65010,
+    6514,
+    18483,
+    66278
+  ],
+  "n": 5,
+  "K": 1,
+  "exit_code": 0,
+  "load_audit": {
+    "low": {
+      "path": "/data1/matengyu/geyugong/neuroadapter-author-first/benchmarks/subj01-v1/assets/mindeye/mindeye_models/autoencoder_subj01_4x_locont_no_reconst/epoch120.pth",
+      "epoch": 119,
+      "missing_keys": [],
+      "unexpected_keys": []
+    },
+    "high": {
+      "path": "/data1/matengyu/geyugong/neuroadapter-author-first/benchmarks/subj01-v1/assets/mindeye/mindeye_models/prior_257_final_subj01_bimixco_softclip_byol/last.pth",
+      "epoch": 239,
+      "missing_keys": [],
+      "unexpected_keys": []
+    },
+    "dual_attention_modules": 16,
+    "low_level_loaded": true,
+    "torch_version": "2.0.1+cu117",
+    "cuda_name": "NVIDIA GeForce RTX 4090"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "feature_batch": 0,
+  "negative_pool": "all requested IDs; unchanged original formula",
+  "method": "mindeye1",
+  "n_eval": 100,
+  "K": 1,
+  "selection": "none",
+  "eval_ids_hash": "63380f171be2852c280fc7c0c2737195e25c808adf4bf9c10c23981b4961732a",
+  "mean": {
+    "PixCorr": 0.382117904498739,
+    "SSIM": 0.28852812720879906,
+    "Alex(2)": 97.48484848484848,
+    "Alex(5)": 98.29292929292929,
+    "Incep": 94.96969696969695,
+    "CLIP": 93.93939393939395,
+    "Eff": 0.6087398782881548,
+    "SwAV": 0.3442767114280183
+  },
+  "metric_sha256": "646ee1f3673b033cd6ee485058db16a3d24fae7624d793fe5174008ad2e15f7d",
+  "GT": "original NSD425x425 RGB uint8/255",
+  "prediction_resize": "author resize_images bilinear align_corners=False to425 before metric-specific preprocessing"
+}

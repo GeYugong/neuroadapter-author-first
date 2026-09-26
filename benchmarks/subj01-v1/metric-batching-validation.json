@@ -1,0 +1,21 @@
+{
+  "n": 5,
+  "ids_file": "identity5_ids.txt",
+  "reference_batch": "whole pool",
+  "check_batch": 2,
+  "max_abs_per_image_difference": {
+    "PixCorr": 0.0,
+    "SSIM": 0.0,
+    "Alex(2)": 0.0,
+    "Alex(5)": 0.0,
+    "Incep": 0.0,
+    "CLIP": 0.0,
+    "Eff": 0.00010971751442245825,
+    "SwAV": 0.0001252261777077157
+  },
+  "bitwise_equivalent": false,
+  "initial_1e-5_tolerance_passed": false,
+  "interpretation": "Pixel/SSIM and all four identification vectors identical. Eff/SwAV differ up to0.000126 from GPU batch-dependent floating point; reported explicitly. Same frozen formulas/full pool; all methods use same feature batch for full982.",
+  "identification_full_pool_unchanged": true,
+  "implementation_sha256": "08272975f6690413812cfb28b783faa9baf43ab02d1b88e921ea70b0a1822425"
+}

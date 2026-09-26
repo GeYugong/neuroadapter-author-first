@@ -42,4 +42,13 @@ lines+=['','Eff 使用冻结实现的 EfficientNet-B1。所有识别指标在同
 for n in range(1,5):lines.append(f'![固定32图第{n}页](comparison_grid/fixed32-page-{n}.jpg)')
 lines+=['','其他方法状态见 [resource_status.csv](resource_status.csv)。未完成方法没有实测分数；Cortex2Image 官方资产链接当前返回404，不能用论文拼图代替。','', '逐图分数保存在 `metrics/<method>/<pool>/per-image.csv`；原始输出、模型和随机协议独立保存。']
 (B/'RESULTS_ZH.md').write_text('\n'.join(lines)+'\n')
+
+manifest=[]
+for method,key in [('NeuroAdapter','neuroadapter'),('MindEye1','mindeye1')]:
+ for i in ids:
+  path=B/'outputs'/key/(f'image_{i:06d}.npz' if key=='neuroadapter' else f'{i}.png')
+  manifest.append(dict(method=method,nsd_id0=i,candidate=0,prediction_path=str(path.relative_to(B)),prediction_sha256=hashlib.sha256(path.read_bytes()).hexdigest(),model_sha=rows[0 if key=='neuroadapter' else 1]['model_sha'],code_sha=rows[0 if key=='neuroadapter' else 1]['code_sha'],native_protocol=json.dumps(models[method],sort_keys=True)))
+with (B/('predictions-'+a.ids.stem+'.csv')).open('w') as f:
+ w=csv.DictWriter(f,fieldnames=list(manifest[0]));w.writeheader();w.writerows(manifest)
+
 print('REPORT',name)

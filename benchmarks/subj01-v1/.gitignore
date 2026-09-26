@@ -6,3 +6,6 @@
 /upstream/
 *.tar
 *.pth
+
+/nsd-func1pt8-download.log
+__pycache__/

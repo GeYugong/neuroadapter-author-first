@@ -11,3 +11,5 @@
 2026-09-26: tmux inherited lowercase proxy variables pointing at stale port17897, overriding newly provided uppercase values. Download-only adapters now pass explicit proxies at19876; verified HTTP206 exact8MiB range. Existing verified segments and partial prefixes retained. No inference protocol changes.
 
 Five-ID identity check: predetermined NSD18483 zebra pair is visually the same image/FOV, but raw425 vs JPEG256-upsampled pixel correlation is0.9072 due detail/resampling. Removed arbitrary0.98 automatic threshold; keep all five correlations and require actual visual identity/FOV review. No ID, GT, evaluation resize or scientific setting changed.
+
+MindEye high strict loading rejected one extra official checkpoint parameter voxel2clip.temp (author models.py line177 comments out its registration; forward does not reference it). Retain/register the scalar training temperature parameter to load all keys strictly, rather than silently ignore unexpected state. First attempt produced zero images and exited1; its protocol and logs preserved. Retry uses unchanged author forward/prior/reconstruction.
