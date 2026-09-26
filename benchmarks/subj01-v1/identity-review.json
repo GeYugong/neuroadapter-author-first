@@ -1,0 +1,19 @@
+{
+  "reviewer": "AI",
+  "ids": [
+    6489,
+    65010,
+    6514,
+    18483,
+    66278
+  ],
+  "identity_and_FOV_match": true,
+  "observations": {
+    "6489": "same dining room/table/window",
+    "65010": "same street church and dog at window",
+    "18483": "same zebras; fine stripes differ after downsampling",
+    "6514": "same tennis player pose and court",
+    "66278": "same four aircraft and smoke trails"
+  },
+  "GT_for_all_metrics": "original425 NSD RGB; official256JPEG identity only"
+}

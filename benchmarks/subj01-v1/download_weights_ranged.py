@@ -11,24 +11,32 @@ for f in l['files']:
  prefix=prefixes[0] if prefixes else None;offset=prefix.stat().st_size if prefix else 0
  parts=B/'assets/range-parts'/dst.parent.name;parts.mkdir(parents=True,exist_ok=True)
  url=f"https://huggingface.co/datasets/{l['repo']}/resolve/{l['revision']}/{f['path']}"
+ with requests.get(url,proxies={'http':os.environ['HTTP_PROXY'],'https':os.environ['HTTPS_PROXY']},headers={'Range':'bytes=0-0'},stream=True,timeout=(20,90)) as resolved:
+  resolved.raise_for_status();url=resolved.url
+ direct=requests.Session();direct.trust_env=False
  size=128*1024*1024
  ranges=[(n,start,min(start+size,f['size'])-1) for n,start in enumerate(range(offset,f['size'],size))]
  def fetch(item):
   n,start,end=item;p=parts/f'{start}-{end}.part'
   if p.exists() and p.stat().st_size==end-start+1:return p
-  for attempt in range(4):
+  tmp=p.with_suffix('.tmp')
+  failures=0
+  while (tmp.stat().st_size if tmp.exists() else 0)<end-start+1:
+   position=start+(tmp.stat().st_size if tmp.exists() else 0)
+   last=min(end,position+8*1024*1024-1)
    try:
-    with requests.get(url,headers={'Range':f'bytes={start}-{end}'},stream=True,timeout=(20,120)) as response:
-     assert response.status_code==206,(response.status_code,start)
-     assert response.headers['Content-Range'].startswith(f'bytes {start}-{end}/'),response.headers.get('Content-Range')
-     with p.with_suffix('.tmp').open('wb') as stream:
+    with direct.get(url,headers={'Range':f'bytes={position}-{last}'},stream=True,timeout=(20,90)) as response:
+     assert response.status_code==206,(response.status_code,position)
+     assert response.headers['Content-Range'].startswith(f'bytes {position}-{last}/'),response.headers.get('Content-Range')
+     with tmp.open('ab') as stream:
       for chunk in response.iter_content(1024*1024):stream.write(chunk)
-    assert p.with_suffix('.tmp').stat().st_size==end-start+1
-    p.with_suffix('.tmp').replace(p);print('PART',dst.name,start,end,flush=True);return p
+    failures=0
    except Exception as exc:
-    print('RETRY',start,type(exc).__name__,str(exc)[:100],flush=True)
-    if attempt==3:raise
-    time.sleep(2**attempt)
+    failures+=1;print('RESUME_RETRY',position,type(exc).__name__,flush=True)
+    if failures>=8:raise
+    time.sleep(min(2**failures,20))
+  assert tmp.stat().st_size==end-start+1
+  tmp.replace(p);print('PART',dst.name,start,end,flush=True);return p
  print('RANGED_RESUME',f['path'],'prefix',offset,'remaining',f['size']-offset,flush=True)
  with concurrent.futures.ThreadPoolExecutor(max_workers=8) as pool:files=list(pool.map(fetch,ranges))
  tmp=dst.with_suffix('.assembling')

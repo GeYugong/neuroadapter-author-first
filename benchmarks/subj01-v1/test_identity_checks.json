@@ -1,0 +1,63 @@
+{
+  "official_test_n": 982,
+  "intersection_n": 982,
+  "excluded_na_test": [
+    5427,
+    5890,
+    6640,
+    8318,
+    9680,
+    12495,
+    29660,
+    39047,
+    39095,
+    43429,
+    46480,
+    49923,
+    52990,
+    53489,
+    54824,
+    59091,
+    60119,
+    64771
+  ],
+  "five_checks": [
+    {
+      "nsd_id0": 6489,
+      "coco_id": 10903,
+      "jpeg_vs_original_pixel_corr": 0.9911761450221948,
+      "canonical_gt": "original NSD imgBrick uint8",
+      "jpeg_only_for_identity_check": true
+    },
+    {
+      "nsd_id0": 65010,
+      "coco_id": 224869,
+      "jpeg_vs_original_pixel_corr": 0.9818811064451619,
+      "canonical_gt": "original NSD imgBrick uint8",
+      "jpeg_only_for_identity_check": true
+    },
+    {
+      "nsd_id0": 6514,
+      "coco_id": 273120,
+      "jpeg_vs_original_pixel_corr": 0.9848952941817886,
+      "canonical_gt": "original NSD imgBrick uint8",
+      "jpeg_only_for_identity_check": true
+    },
+    {
+      "nsd_id0": 18483,
+      "coco_id": 309135,
+      "jpeg_vs_original_pixel_corr": 0.9072192305913185,
+      "canonical_gt": "original NSD imgBrick uint8",
+      "jpeg_only_for_identity_check": true
+    },
+    {
+      "nsd_id0": 66278,
+      "coco_id": 356810,
+      "jpeg_vs_original_pixel_corr": 0.9965158377610223,
+      "canonical_gt": "original NSD imgBrick uint8",
+      "jpeg_only_for_identity_check": true
+    }
+  ],
+  "mean_precision": "torch mean float16 then float32, matching author Reconstructions.py",
+  "test_full_ids_sha256": "4c438772ffa978ab8c5f781b8a3fc73df0159ae4892dc39d896f05a413d36441"
+}

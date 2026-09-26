@@ -1,0 +1,14 @@
+{
+  "checkpoint_epoch_field": 119,
+  "missing_keys": [],
+  "unexpected_keys": [],
+  "author_use_cont_true_for_full_projector_loading": true,
+  "projector_not_used_by_default_forward_exact_check": true,
+  "output_shape": [
+    1,
+    4,
+    64,
+    64
+  ],
+  "finite": true
+}

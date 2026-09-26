@@ -1,0 +1,18 @@
+{
+  "repo": "openai/clip-vit-large-patch14",
+  "revision": "32bd64288804d66eefd0ccbe215aa642df71cc41",
+  "files": [
+    {
+      "path": "config.json",
+      "bytes": 4519,
+      "sha256": null,
+      "actual_sha256": "8a09b467700c58138c29d53c605b34ebc69beaadd13274a8a2af8ad2c2f4032a"
+    },
+    {
+      "path": "pytorch_model.bin",
+      "bytes": 1710671599,
+      "sha256": "f1a17cdbe0f36fec524f5cafb1c261ea3bbbc13e346e0f74fc9eb0460dedd0d3",
+      "actual_sha256": "f1a17cdbe0f36fec524f5cafb1c261ea3bbbc13e346e0f74fc9eb0460dedd0d3"
+    }
+  ]
+}

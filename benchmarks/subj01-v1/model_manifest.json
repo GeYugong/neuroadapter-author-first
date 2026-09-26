@@ -1,0 +1,38 @@
+{
+  "NeuroAdapter": {
+    "variant": "project seed42 L120 reproduction; not official author checkpoint",
+    "epoch": 120,
+    "updates": 63840,
+    "weight_sha256": "bed56671f4e48ccf031e41c1daa36d473a4e325e94e3264aa1b21e08080fd798",
+    "train_subjects": [
+      1
+    ],
+    "n_train_images": 8500,
+    "brain_space": "fsaverage subject1 parcels; repetition mean;200 parcels padded626",
+    "K": 1,
+    "selection": false,
+    "denoising_steps": 50,
+    "CFG": 4,
+    "seed_rule": "sha256(42:image_id:0), existing decoder",
+    "result_source": "local_train_official_code"
+  },
+  "MindEye1": {
+    "variant": "official Subject1 high257+low4x full pathway",
+    "train_subjects": [
+      1
+    ],
+    "n_train_images": 8859,
+    "train_count_source": "pinned Train_MindEye.py train8559+val300",
+    "brain_space": "func1pt8mm nsdgeneral15724; official averaged test repeats",
+    "K": 1,
+    "selection": false,
+    "denoising_steps": 20,
+    "CFG": 3.5,
+    "img2img_strength": 0.85,
+    "prior_timesteps": 100,
+    "seed_rule": "author seed42 independently each image",
+    "upstream_commit": "6b30ea53c0f98b0a79b8f6828b6787a5913fd08d",
+    "result_source": "local_inference_official_weights",
+    "asset_status": "downloads in progress; high+generator not yet loaded"
+  }
+}

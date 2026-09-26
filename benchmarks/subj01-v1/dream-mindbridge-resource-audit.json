@@ -1,0 +1,170 @@
+{
+  "checked_utc": "2026-09-26T10:51:51.946557+00:00",
+  "official_sources": {
+    "DREAM": {
+      "repo": "https://github.com/weihaox/DREAM",
+      "commit": "da04c44465eea612fc448932c489851163cd023f",
+      "README_sha256": "da264d0dc5e59d02ccc5181db49c273584451dd792fb71145f2f55dc2c18dad5",
+      "tree_paths": [
+        ".gitignore",
+        "LICENSE",
+        "README.md",
+        "docs",
+        "docs/images",
+        "docs/images/RPKM_result.png",
+        "docs/images/color_significance.png",
+        "docs/images/method_overview.png",
+        "docs/images/recon_comparison.png",
+        "docs/images/supmat_more_reconstruction_result.png",
+        "docs/images/supmat_other_subject.png",
+        "docs/images/teaser_cycle.png",
+        "docs/index.html",
+        "docs/install.md",
+        "docs/static",
+        "docs/static/css",
+        "docs/static/css/bulma-carousel.min.css",
+        "docs/static/css/bulma-slider.min.css",
+        "docs/static/css/bulma.css.map.txt",
+        "docs/static/css/bulma.min.css",
+        "docs/static/css/fontawesome.all.min.css",
+        "docs/static/css/index.css",
+        "docs/static/js",
+        "docs/static/js/bulma-carousel.js",
+        "docs/static/js/bulma-carousel.min.js",
+        "docs/static/js/bulma-slider.js",
+        "docs/static/js/bulma-slider.min.js",
+        "docs/static/js/fontawesome.all.min.js",
+        "docs/static/js/index.js",
+        "environment.yaml",
+        "setup.sh",
+        "src",
+        "src/evaluation",
+        "src/evaluation/cal_color_metric.py",
+        "src/evaluation/cal_depth_metric.py",
+        "src/r-pkm",
+        "src/r-pkm/scripts",
+        "src/r-pkm/scripts/vdvae_depth_regression.py",
+        "src/r-pkm/scripts/vdvae_extract_depth_features.py",
+        "src/r-pkm/scripts/vdvae_reconstruct_depth.py",
+        "src/r-pkm/utils",
+        "src/r-pkm/utils/save_img_from_npy.py",
+        "src/r-pkm/utils/save_img_to_npy.py",
+        "src/r-pkm/utils/save_train_images.py",
+        "src/r-vac",
+        "src/r-vac/README.md",
+        "src/r-vac/models.py",
+        "src/r-vac/train_dream_rvac.py",
+        "src/r-vac/utils.py"
+      ]
+    },
+    "MindBridge": {
+      "repo": "https://github.com/littlepure2333/MindBridge",
+      "commit": "2a3943ff5b619db6f85f16a5e7ff1331d25def55",
+      "README_sha256": "2f08307bb7e4e1d52c2030f87bacf625beeba8a2ea6279961aae9053430c2166",
+      "tree_paths": [
+        ".gitignore",
+        "README.md",
+        "assets",
+        "assets/MindBridge_method.png",
+        "assets/MindBridge_teaser.png",
+        "assets/galaxy_brain.gif",
+        "requirements.txt",
+        "scripts",
+        "scripts/adapt_bridge.sh",
+        "scripts/inference.sh",
+        "scripts/train_bridge.sh",
+        "scripts/train_single.sh",
+        "src",
+        "src/__init__.py",
+        "src/data.py",
+        "src/eval.py",
+        "src/main.py",
+        "src/models.py",
+        "src/nsd_access.py",
+        "src/options.py",
+        "src/recon.py",
+        "src/trainer.py",
+        "src/utils.py"
+      ]
+    }
+  },
+  "DREAM": {
+    "status": "blocked_full_brain_path_assets_and_original_RPKM_training_code",
+    "brain_weights_found": false,
+    "R_VAC": {
+      "code_present": "src/r-vac/train_dream_rvac.py",
+      "default_epochs": 240,
+      "default_batch_size": 2048,
+      "default_max_lr": 0.0003,
+      "multi_process_caution": "Script multiplies epochs, batch_size and max_lr by accelerator.num_processes; default is not a fully specified two-GPU budget.",
+      "pretrained_Subject1_checkpoint": "No official link identified in README/tree or issue7 comments."
+    },
+    "R_PKM": {
+      "original_path": "README describes supervised encoder, supervised/self-supervised decoder and additional natural-image/depth training stages.",
+      "missing_files": [
+        "train_encoder.py",
+        "train_decoder.py",
+        "scripts/train_enc_rgbd.sh",
+        "scripts/train_dec_rgbd.sh"
+      ],
+      "available_alternative": "src/r-pkm/scripts contains VDVAE depth extraction/regression/reconstruction only; this is README regression alternative, not complete original R-PKM.",
+      "original_training_budget": "NA: original training scripts/config and complete brain weights missing; do not invent epoch/runtime budget."
+    },
+    "GIR": "README pre-trained DREAM (GIR) points to T2I-Adapter CoAdapter color/depth plus SD. It does not establish pretrained R-VAC or R-PKM.",
+    "test_policy": "Do not tune color/depth weights on test, use GT color/depth/captions as brain predictions, or label regression substitute as original DREAM.",
+    "issues": [
+      "https://github.com/weihaox/DREAM/issues/7",
+      "https://github.com/weihaox/DREAM/issues/3"
+    ],
+    "next_step": "Request official Subject1 R-VAC/R-PKM weights, original training configs and generation settings; no message sent. Remain blocked while P0/P1 proceed."
+  },
+  "MindBridge_single": {
+    "status": "single_subject_weights_not_found_original_training_required",
+    "official_hf": "https://huggingface.co/littlepure2333/MindBridge",
+    "hf_revision": "1f2d5151fd96b42c6381146c21455402971e2432",
+    "hf_files": [
+      {
+        "path": "mindbridge_subj1257",
+        "size": 0,
+        "type": "directory"
+      },
+      {
+        "path": ".gitattributes",
+        "size": 1519,
+        "type": "file"
+      },
+      {
+        "path": "README.md",
+        "size": 460,
+        "type": "file"
+      },
+      {
+        "path": "mindbridge_subj1257/last.pth",
+        "size": 3814945315,
+        "type": "file"
+      }
+    ],
+    "available_weight": "mindbridge_subj1257/last.pth is multi-subject, not Subject1 Vanilla",
+    "native_training": {
+      "script": "scripts/train_single.sh",
+      "subject": 1,
+      "num_processes": 2,
+      "gpu_ids": "0,1",
+      "epochs": 600,
+      "batch_size_argument": 50,
+      "val_batch_size_argument": 50,
+      "h_size": 2048,
+      "n_blocks": 4,
+      "pool_type": "max",
+      "pool_num": 8192,
+      "mse_mult": 10000,
+      "max_lr": 0.0003,
+      "eval_interval": 10,
+      "ckpt_interval": 10,
+      "num_workers": 4
+    },
+    "runtime_budget": "Not measured: must measure one actual original-config epoch after P0/P1 first result; do not launch long training silently or shorten recipe.",
+    "next_step": "P0/P1 first. Then original-config Subject1 Vanilla throughput/memory estimate and explicit 600-epoch budget. Public subj1257 can only be a separate multi-subject row."
+  },
+  "execution": "Only official API/raw text metadata requests; no model weights, GPU use or training; no author contacted."
+}

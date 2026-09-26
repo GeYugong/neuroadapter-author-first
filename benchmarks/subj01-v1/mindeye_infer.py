@@ -133,7 +133,7 @@ def main():
     utils.seed_everything(42)
 
     def load_model(model, path):
-        checkpoint = torch.load(path, map_location="cpu")
+        checkpoint = torch.load(path, map_location="cpu", weights_only=True)
         state = checkpoint["model_state_dict"]
         result = model.load_state_dict(state, strict=True)
         audit = dict(path=str(path.resolve()), epoch=checkpoint.get("epoch"),
@@ -142,7 +142,7 @@ def main():
         gc.collect()
         return model.eval().requires_grad_(False), audit
 
-    low, low_audit = load_model(Voxel2StableDiffusionModel(in_dim=15724), args.low_checkpoint)
+    low, low_audit = load_model(Voxel2StableDiffusionModel(in_dim=15724, use_cont=True), args.low_checkpoint)
     brain = BrainNetwork(in_dim=15724, out_dim=257 * 768)
     net = VersatileDiffusionPriorNetwork(dim=768, depth=6, dim_head=64, heads=12,
                                        causal=False, learned_query_mode="pos_emb")

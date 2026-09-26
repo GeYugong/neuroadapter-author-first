@@ -1,0 +1,399 @@
+{
+  "checked_utc": "2026-09-26T10:40:47.362724+00:00",
+  "source": "official NSD public S3; paths read from author Brain-Diffuser prepare_nsddata.py and Takagi make_subjmri.py/nsd_access",
+  "code_commits": {
+    "brain-diffuser": "31d52c01b7f204b9887024eb670065a0197f5bcc",
+    "takagi": "e187d4b3db1d647ee3e1b4256a2068ffd15df683"
+  },
+  "assets": [
+    {
+      "path": "nsddata_betas/ppdata/subj01/func1pt8mm/betas_fithrf_GLMdenoise_RR/betas_session01.nii.gz",
+      "url": "https://natural-scenes-dataset.s3.amazonaws.com/nsddata_betas/ppdata/subj01/func1pt8mm/betas_fithrf_GLMdenoise_RR/betas_session01.nii.gz",
+      "method": "HEAD",
+      "status": 200,
+      "bytes": 489526755,
+      "etag": "\"f537adc2b0a435d3d287c7c0e7bd891e-4\"",
+      "last_modified": "Mon, 21 Dec 2020 10:23:13 GMT"
+    },
+    {
+      "path": "nsddata_betas/ppdata/subj01/func1pt8mm/betas_fithrf_GLMdenoise_RR/betas_session02.nii.gz",
+      "url": "https://natural-scenes-dataset.s3.amazonaws.com/nsddata_betas/ppdata/subj01/func1pt8mm/betas_fithrf_GLMdenoise_RR/betas_session02.nii.gz",
+      "method": "HEAD",
+      "status": 200,
+      "bytes": 486552515,
+      "etag": "\"7c0d0767c5ff87e28783a1094e285252-4\"",
+      "last_modified": "Mon, 21 Dec 2020 10:30:18 GMT"
+    },
+    {
+      "path": "nsddata_betas/ppdata/subj01/func1pt8mm/betas_fithrf_GLMdenoise_RR/betas_session03.nii.gz",
+      "url": "https://natural-scenes-dataset.s3.amazonaws.com/nsddata_betas/ppdata/subj01/func1pt8mm/betas_fithrf_GLMdenoise_RR/betas_session03.nii.gz",
+      "method": "HEAD",
+      "status": 200,
+      "bytes": 487090365,
+      "etag": "\"54b6d32555d6d0d5a5d72104f0b9794d-4\"",
+      "last_modified": "Mon, 21 Dec 2020 10:37:55 GMT"
+    },
+    {
+      "path": "nsddata_betas/ppdata/subj01/func1pt8mm/betas_fithrf_GLMdenoise_RR/betas_session04.nii.gz",
+      "url": "https://natural-scenes-dataset.s3.amazonaws.com/nsddata_betas/ppdata/subj01/func1pt8mm/betas_fithrf_GLMdenoise_RR/betas_session04.nii.gz",
+      "method": "HEAD",
+      "status": 200,
+      "bytes": 486142835,
+      "etag": "\"e26da3bfca01599d2c98f61b53283eec-4\"",
+      "last_modified": "Mon, 21 Dec 2020 10:45:12 GMT"
+    },
+    {
+      "path": "nsddata_betas/ppdata/subj01/func1pt8mm/betas_fithrf_GLMdenoise_RR/betas_session05.nii.gz",
+      "url": "https://natural-scenes-dataset.s3.amazonaws.com/nsddata_betas/ppdata/subj01/func1pt8mm/betas_fithrf_GLMdenoise_RR/betas_session05.nii.gz",
+      "method": "HEAD",
+      "status": 200,
+      "bytes": 490609560,
+      "etag": "\"e7af7aa1c397030b79cbfc104b418912-4\"",
+      "last_modified": "Mon, 21 Dec 2020 10:52:58 GMT"
+    },
+    {
+      "path": "nsddata_betas/ppdata/subj01/func1pt8mm/betas_fithrf_GLMdenoise_RR/betas_session06.nii.gz",
+      "url": "https://natural-scenes-dataset.s3.amazonaws.com/nsddata_betas/ppdata/subj01/func1pt8mm/betas_fithrf_GLMdenoise_RR/betas_session06.nii.gz",
+      "method": "HEAD",
+      "status": 200,
+      "bytes": 490475077,
+      "etag": "\"d559fae9eae55b57d2434194f3d8e9e1-4\"",
+      "last_modified": "Mon, 21 Dec 2020 10:59:49 GMT"
+    },
+    {
+      "path": "nsddata_betas/ppdata/subj01/func1pt8mm/betas_fithrf_GLMdenoise_RR/betas_session07.nii.gz",
+      "url": "https://natural-scenes-dataset.s3.amazonaws.com/nsddata_betas/ppdata/subj01/func1pt8mm/betas_fithrf_GLMdenoise_RR/betas_session07.nii.gz",
+      "method": "HEAD",
+      "status": 200,
+      "bytes": 488137870,
+      "etag": "\"56ddecd4f688d9acae9458e7ebf09ad0-4\"",
+      "last_modified": "Mon, 21 Dec 2020 11:07:18 GMT"
+    },
+    {
+      "path": "nsddata_betas/ppdata/subj01/func1pt8mm/betas_fithrf_GLMdenoise_RR/betas_session08.nii.gz",
+      "url": "https://natural-scenes-dataset.s3.amazonaws.com/nsddata_betas/ppdata/subj01/func1pt8mm/betas_fithrf_GLMdenoise_RR/betas_session08.nii.gz",
+      "method": "HEAD",
+      "status": 200,
+      "bytes": 491164451,
+      "etag": "\"82a3438040084397d54190430d1a6a6a-4\"",
+      "last_modified": "Mon, 21 Dec 2020 11:14:37 GMT"
+    },
+    {
+      "path": "nsddata_betas/ppdata/subj01/func1pt8mm/betas_fithrf_GLMdenoise_RR/betas_session09.nii.gz",
+      "url": "https://natural-scenes-dataset.s3.amazonaws.com/nsddata_betas/ppdata/subj01/func1pt8mm/betas_fithrf_GLMdenoise_RR/betas_session09.nii.gz",
+      "method": "HEAD",
+      "status": 200,
+      "bytes": 491687455,
+      "etag": "\"3aec29e21763c63ada6007e8156613f8-4\"",
+      "last_modified": "Mon, 21 Dec 2020 11:21:49 GMT"
+    },
+    {
+      "path": "nsddata_betas/ppdata/subj01/func1pt8mm/betas_fithrf_GLMdenoise_RR/betas_session10.nii.gz",
+      "url": "https://natural-scenes-dataset.s3.amazonaws.com/nsddata_betas/ppdata/subj01/func1pt8mm/betas_fithrf_GLMdenoise_RR/betas_session10.nii.gz",
+      "method": "HEAD",
+      "status": 200,
+      "bytes": 492352712,
+      "etag": "\"f44afdb6f17c50ce6f0e1f3605d56b63-4\"",
+      "last_modified": "Mon, 21 Dec 2020 11:28:32 GMT"
+    },
+    {
+      "path": "nsddata_betas/ppdata/subj01/func1pt8mm/betas_fithrf_GLMdenoise_RR/betas_session11.nii.gz",
+      "url": "https://natural-scenes-dataset.s3.amazonaws.com/nsddata_betas/ppdata/subj01/func1pt8mm/betas_fithrf_GLMdenoise_RR/betas_session11.nii.gz",
+      "method": "HEAD",
+      "status": 200,
+      "bytes": 492977329,
+      "etag": "\"e6a5d2aae585d56de7ef270d4612c8bc-4\"",
+      "last_modified": "Mon, 21 Dec 2020 11:34:21 GMT"
+    },
+    {
+      "path": "nsddata_betas/ppdata/subj01/func1pt8mm/betas_fithrf_GLMdenoise_RR/betas_session12.nii.gz",
+      "url": "https://natural-scenes-dataset.s3.amazonaws.com/nsddata_betas/ppdata/subj01/func1pt8mm/betas_fithrf_GLMdenoise_RR/betas_session12.nii.gz",
+      "method": "HEAD",
+      "status": 200,
+      "bytes": 491121755,
+      "etag": "\"8da3000a361f0632d9dd2832dc13ed64-4\"",
+      "last_modified": "Mon, 21 Dec 2020 11:40:57 GMT"
+    },
+    {
+      "path": "nsddata_betas/ppdata/subj01/func1pt8mm/betas_fithrf_GLMdenoise_RR/betas_session13.nii.gz",
+      "url": "https://natural-scenes-dataset.s3.amazonaws.com/nsddata_betas/ppdata/subj01/func1pt8mm/betas_fithrf_GLMdenoise_RR/betas_session13.nii.gz",
+      "method": "HEAD",
+      "status": 200,
+      "bytes": 490994592,
+      "etag": "\"e24a54aec155f1ac4356eb6077ad0f49-4\"",
+      "last_modified": "Mon, 21 Dec 2020 11:48:57 GMT"
+    },
+    {
+      "path": "nsddata_betas/ppdata/subj01/func1pt8mm/betas_fithrf_GLMdenoise_RR/betas_session14.nii.gz",
+      "url": "https://natural-scenes-dataset.s3.amazonaws.com/nsddata_betas/ppdata/subj01/func1pt8mm/betas_fithrf_GLMdenoise_RR/betas_session14.nii.gz",
+      "method": "HEAD",
+      "status": 200,
+      "bytes": 490938426,
+      "etag": "\"4ae1086ffd65b6e7ec5b2d0ca3451475-4\"",
+      "last_modified": "Mon, 21 Dec 2020 11:55:27 GMT"
+    },
+    {
+      "path": "nsddata_betas/ppdata/subj01/func1pt8mm/betas_fithrf_GLMdenoise_RR/betas_session15.nii.gz",
+      "url": "https://natural-scenes-dataset.s3.amazonaws.com/nsddata_betas/ppdata/subj01/func1pt8mm/betas_fithrf_GLMdenoise_RR/betas_session15.nii.gz",
+      "method": "HEAD",
+      "status": 200,
+      "bytes": 489571357,
+      "etag": "\"2303eab5f6c521442ed4d64b006eb00a-4\"",
+      "last_modified": "Mon, 21 Dec 2020 12:01:56 GMT"
+    },
+    {
+      "path": "nsddata_betas/ppdata/subj01/func1pt8mm/betas_fithrf_GLMdenoise_RR/betas_session16.nii.gz",
+      "url": "https://natural-scenes-dataset.s3.amazonaws.com/nsddata_betas/ppdata/subj01/func1pt8mm/betas_fithrf_GLMdenoise_RR/betas_session16.nii.gz",
+      "method": "HEAD",
+      "status": 200,
+      "bytes": 491135077,
+      "etag": "\"d2ebf3d1ca47a94318683c5406892a98-4\"",
+      "last_modified": "Mon, 21 Dec 2020 12:10:22 GMT"
+    },
+    {
+      "path": "nsddata_betas/ppdata/subj01/func1pt8mm/betas_fithrf_GLMdenoise_RR/betas_session17.nii.gz",
+      "url": "https://natural-scenes-dataset.s3.amazonaws.com/nsddata_betas/ppdata/subj01/func1pt8mm/betas_fithrf_GLMdenoise_RR/betas_session17.nii.gz",
+      "method": "HEAD",
+      "status": 200,
+      "bytes": 490218944,
+      "etag": "\"987595e75e311c153881380b4eda6809-4\"",
+      "last_modified": "Mon, 21 Dec 2020 12:17:35 GMT"
+    },
+    {
+      "path": "nsddata_betas/ppdata/subj01/func1pt8mm/betas_fithrf_GLMdenoise_RR/betas_session18.nii.gz",
+      "url": "https://natural-scenes-dataset.s3.amazonaws.com/nsddata_betas/ppdata/subj01/func1pt8mm/betas_fithrf_GLMdenoise_RR/betas_session18.nii.gz",
+      "method": "HEAD",
+      "status": 200,
+      "bytes": 490227775,
+      "etag": "\"106c6a962aa9aaa0ca827e42b4d2fa35-4\"",
+      "last_modified": "Mon, 21 Dec 2020 12:25:05 GMT"
+    },
+    {
+      "path": "nsddata_betas/ppdata/subj01/func1pt8mm/betas_fithrf_GLMdenoise_RR/betas_session19.nii.gz",
+      "url": "https://natural-scenes-dataset.s3.amazonaws.com/nsddata_betas/ppdata/subj01/func1pt8mm/betas_fithrf_GLMdenoise_RR/betas_session19.nii.gz",
+      "method": "HEAD",
+      "status": 200,
+      "bytes": 487038914,
+      "etag": "\"1dde3eb3737fe270906443135994f2a8-4\"",
+      "last_modified": "Mon, 21 Dec 2020 12:33:37 GMT"
+    },
+    {
+      "path": "nsddata_betas/ppdata/subj01/func1pt8mm/betas_fithrf_GLMdenoise_RR/betas_session20.nii.gz",
+      "url": "https://natural-scenes-dataset.s3.amazonaws.com/nsddata_betas/ppdata/subj01/func1pt8mm/betas_fithrf_GLMdenoise_RR/betas_session20.nii.gz",
+      "method": "HEAD",
+      "status": 200,
+      "bytes": 487658891,
+      "etag": "\"1bb76fe43d91fa7121af1a1db5f91bea-4\"",
+      "last_modified": "Mon, 21 Dec 2020 12:43:01 GMT"
+    },
+    {
+      "path": "nsddata_betas/ppdata/subj01/func1pt8mm/betas_fithrf_GLMdenoise_RR/betas_session21.nii.gz",
+      "url": "https://natural-scenes-dataset.s3.amazonaws.com/nsddata_betas/ppdata/subj01/func1pt8mm/betas_fithrf_GLMdenoise_RR/betas_session21.nii.gz",
+      "method": "HEAD",
+      "status": 200,
+      "bytes": 489754068,
+      "etag": "\"902b98c1820f25f4dc5cc403d7cba936-4\"",
+      "last_modified": "Mon, 21 Dec 2020 12:50:21 GMT"
+    },
+    {
+      "path": "nsddata_betas/ppdata/subj01/func1pt8mm/betas_fithrf_GLMdenoise_RR/betas_session22.nii.gz",
+      "url": "https://natural-scenes-dataset.s3.amazonaws.com/nsddata_betas/ppdata/subj01/func1pt8mm/betas_fithrf_GLMdenoise_RR/betas_session22.nii.gz",
+      "method": "HEAD",
+      "status": 200,
+      "bytes": 491566834,
+      "etag": "\"24ff17cdbac0812ee20d856f1a4c591b-4\"",
+      "last_modified": "Mon, 21 Dec 2020 12:57:12 GMT"
+    },
+    {
+      "path": "nsddata_betas/ppdata/subj01/func1pt8mm/betas_fithrf_GLMdenoise_RR/betas_session23.nii.gz",
+      "url": "https://natural-scenes-dataset.s3.amazonaws.com/nsddata_betas/ppdata/subj01/func1pt8mm/betas_fithrf_GLMdenoise_RR/betas_session23.nii.gz",
+      "method": "HEAD",
+      "status": 200,
+      "bytes": 487589450,
+      "etag": "\"212cd6d3822790015cad652c691e146a-4\"",
+      "last_modified": "Mon, 21 Dec 2020 13:03:50 GMT"
+    },
+    {
+      "path": "nsddata_betas/ppdata/subj01/func1pt8mm/betas_fithrf_GLMdenoise_RR/betas_session24.nii.gz",
+      "url": "https://natural-scenes-dataset.s3.amazonaws.com/nsddata_betas/ppdata/subj01/func1pt8mm/betas_fithrf_GLMdenoise_RR/betas_session24.nii.gz",
+      "method": "HEAD",
+      "status": 200,
+      "bytes": 488127736,
+      "etag": "\"617375490488ea2fcdb9b4a47853f92a-4\"",
+      "last_modified": "Mon, 21 Dec 2020 13:10:49 GMT"
+    },
+    {
+      "path": "nsddata_betas/ppdata/subj01/func1pt8mm/betas_fithrf_GLMdenoise_RR/betas_session25.nii.gz",
+      "url": "https://natural-scenes-dataset.s3.amazonaws.com/nsddata_betas/ppdata/subj01/func1pt8mm/betas_fithrf_GLMdenoise_RR/betas_session25.nii.gz",
+      "method": "HEAD",
+      "status": 200,
+      "bytes": 490839856,
+      "etag": "\"7b70502284cb1bcf029610696c2c9498-4\"",
+      "last_modified": "Mon, 21 Dec 2020 14:25:14 GMT"
+    },
+    {
+      "path": "nsddata_betas/ppdata/subj01/func1pt8mm/betas_fithrf_GLMdenoise_RR/betas_session26.nii.gz",
+      "url": "https://natural-scenes-dataset.s3.amazonaws.com/nsddata_betas/ppdata/subj01/func1pt8mm/betas_fithrf_GLMdenoise_RR/betas_session26.nii.gz",
+      "method": "HEAD",
+      "status": 200,
+      "bytes": 488327376,
+      "etag": "\"5a95f073d39b37371393000e85acd6b1-4\"",
+      "last_modified": "Mon, 21 Dec 2020 14:32:08 GMT"
+    },
+    {
+      "path": "nsddata_betas/ppdata/subj01/func1pt8mm/betas_fithrf_GLMdenoise_RR/betas_session27.nii.gz",
+      "url": "https://natural-scenes-dataset.s3.amazonaws.com/nsddata_betas/ppdata/subj01/func1pt8mm/betas_fithrf_GLMdenoise_RR/betas_session27.nii.gz",
+      "method": "HEAD",
+      "status": 200,
+      "bytes": 487851341,
+      "etag": "\"b84b868fd8d9f5f8cfd3c2290f203006-4\"",
+      "last_modified": "Mon, 21 Dec 2020 14:39:13 GMT"
+    },
+    {
+      "path": "nsddata_betas/ppdata/subj01/func1pt8mm/betas_fithrf_GLMdenoise_RR/betas_session28.nii.gz",
+      "url": "https://natural-scenes-dataset.s3.amazonaws.com/nsddata_betas/ppdata/subj01/func1pt8mm/betas_fithrf_GLMdenoise_RR/betas_session28.nii.gz",
+      "method": "HEAD",
+      "status": 200,
+      "bytes": 490801938,
+      "etag": "\"57519e4dc90b7bb50efa21cea76b5841-4\"",
+      "last_modified": "Mon, 21 Dec 2020 15:20:29 GMT"
+    },
+    {
+      "path": "nsddata_betas/ppdata/subj01/func1pt8mm/betas_fithrf_GLMdenoise_RR/betas_session29.nii.gz",
+      "url": "https://natural-scenes-dataset.s3.amazonaws.com/nsddata_betas/ppdata/subj01/func1pt8mm/betas_fithrf_GLMdenoise_RR/betas_session29.nii.gz",
+      "method": "HEAD",
+      "status": 200,
+      "bytes": 488958339,
+      "etag": "\"652e99184a230ff4bd180c33e96bd0ef-4\"",
+      "last_modified": "Mon, 21 Dec 2020 15:28:25 GMT"
+    },
+    {
+      "path": "nsddata_betas/ppdata/subj01/func1pt8mm/betas_fithrf_GLMdenoise_RR/betas_session30.nii.gz",
+      "url": "https://natural-scenes-dataset.s3.amazonaws.com/nsddata_betas/ppdata/subj01/func1pt8mm/betas_fithrf_GLMdenoise_RR/betas_session30.nii.gz",
+      "method": "HEAD",
+      "status": 200,
+      "bytes": 490920534,
+      "etag": "\"66b5c6f1514180148ce0503a94f24ee6-4\"",
+      "last_modified": "Mon, 21 Dec 2020 15:36:54 GMT"
+    },
+    {
+      "path": "nsddata_betas/ppdata/subj01/func1pt8mm/betas_fithrf_GLMdenoise_RR/betas_session31.nii.gz",
+      "url": "https://natural-scenes-dataset.s3.amazonaws.com/nsddata_betas/ppdata/subj01/func1pt8mm/betas_fithrf_GLMdenoise_RR/betas_session31.nii.gz",
+      "method": "HEAD",
+      "status": 200,
+      "bytes": 489459923,
+      "etag": "\"901c09ef6330679fe6e91874edb925b6-4\"",
+      "last_modified": "Mon, 21 Dec 2020 15:45:00 GMT"
+    },
+    {
+      "path": "nsddata_betas/ppdata/subj01/func1pt8mm/betas_fithrf_GLMdenoise_RR/betas_session32.nii.gz",
+      "url": "https://natural-scenes-dataset.s3.amazonaws.com/nsddata_betas/ppdata/subj01/func1pt8mm/betas_fithrf_GLMdenoise_RR/betas_session32.nii.gz",
+      "method": "HEAD",
+      "status": 200,
+      "bytes": 488980902,
+      "etag": "\"86b747e8c1793bd8026db13220624895-4\"",
+      "last_modified": "Mon, 21 Dec 2020 15:52:31 GMT"
+    },
+    {
+      "path": "nsddata_betas/ppdata/subj01/func1pt8mm/betas_fithrf_GLMdenoise_RR/betas_session33.nii.gz",
+      "url": "https://natural-scenes-dataset.s3.amazonaws.com/nsddata_betas/ppdata/subj01/func1pt8mm/betas_fithrf_GLMdenoise_RR/betas_session33.nii.gz",
+      "method": "HEAD",
+      "status": 200,
+      "bytes": 491628935,
+      "etag": "\"359ada84519cc130ff1eef5a6f41aa8a-4\"",
+      "last_modified": "Mon, 21 Dec 2020 15:58:54 GMT"
+    },
+    {
+      "path": "nsddata_betas/ppdata/subj01/func1pt8mm/betas_fithrf_GLMdenoise_RR/betas_session34.nii.gz",
+      "url": "https://natural-scenes-dataset.s3.amazonaws.com/nsddata_betas/ppdata/subj01/func1pt8mm/betas_fithrf_GLMdenoise_RR/betas_session34.nii.gz",
+      "method": "HEAD",
+      "status": 200,
+      "bytes": 491657224,
+      "etag": "\"58fa645398ed4fdad92130b7adafbc42-4\"",
+      "last_modified": "Mon, 21 Dec 2020 16:07:37 GMT"
+    },
+    {
+      "path": "nsddata_betas/ppdata/subj01/func1pt8mm/betas_fithrf_GLMdenoise_RR/betas_session35.nii.gz",
+      "url": "https://natural-scenes-dataset.s3.amazonaws.com/nsddata_betas/ppdata/subj01/func1pt8mm/betas_fithrf_GLMdenoise_RR/betas_session35.nii.gz",
+      "method": "HEAD",
+      "status": 200,
+      "bytes": 492807035,
+      "etag": "\"21bd2f5e6cd7e3e380559d96db306e6b-4\"",
+      "last_modified": "Mon, 21 Dec 2020 16:15:48 GMT"
+    },
+    {
+      "path": "nsddata_betas/ppdata/subj01/func1pt8mm/betas_fithrf_GLMdenoise_RR/betas_session36.nii.gz",
+      "url": "https://natural-scenes-dataset.s3.amazonaws.com/nsddata_betas/ppdata/subj01/func1pt8mm/betas_fithrf_GLMdenoise_RR/betas_session36.nii.gz",
+      "method": "HEAD",
+      "status": 200,
+      "bytes": 490883455,
+      "etag": "\"36c0fedc81cb8600c972a85e80196be9-4\"",
+      "last_modified": "Mon, 21 Dec 2020 16:22:50 GMT"
+    },
+    {
+      "path": "nsddata_betas/ppdata/subj01/func1pt8mm/betas_fithrf_GLMdenoise_RR/betas_session37.nii.gz",
+      "url": "https://natural-scenes-dataset.s3.amazonaws.com/nsddata_betas/ppdata/subj01/func1pt8mm/betas_fithrf_GLMdenoise_RR/betas_session37.nii.gz",
+      "method": "HEAD",
+      "status": 200,
+      "bytes": 491580670,
+      "etag": "\"99ca23edcbdbfc3387f3a483c46bdd22-4\"",
+      "last_modified": "Mon, 21 Dec 2020 16:29:52 GMT"
+    },
+    {
+      "path": "nsddata/ppdata/subj01/func1pt8mm/roi/nsdgeneral.nii.gz",
+      "url": "https://natural-scenes-dataset.s3.amazonaws.com/nsddata/ppdata/subj01/func1pt8mm/roi/nsdgeneral.nii.gz",
+      "method": "HEAD",
+      "status": 200,
+      "bytes": 65118,
+      "etag": "\"03eb5468779b195cffb17796a32e5cb4\"",
+      "last_modified": "Sat, 19 Dec 2020 20:13:28 GMT"
+    },
+    {
+      "path": "nsddata/ppdata/subj01/func1pt8mm/roi/streams.nii.gz",
+      "url": "https://natural-scenes-dataset.s3.amazonaws.com/nsddata/ppdata/subj01/func1pt8mm/roi/streams.nii.gz",
+      "method": "HEAD",
+      "status": 200,
+      "bytes": 68115,
+      "etag": "\"5cf97dacf70e201a00e4d35ad07420da\"",
+      "last_modified": "Sat, 19 Dec 2020 20:13:29 GMT"
+    },
+    {
+      "path": "nsddata/freesurfer/fsaverage/label/streams.mgz.ctab",
+      "url": "https://natural-scenes-dataset.s3.amazonaws.com/nsddata/freesurfer/fsaverage/label/streams.mgz.ctab",
+      "method": "HEAD",
+      "status": 200,
+      "bytes": 89,
+      "etag": "\"b60748a9511bf23a5ebcf98bd4bfac58\"",
+      "last_modified": "Sat, 19 Dec 2020 19:02:14 GMT"
+    },
+    {
+      "path": "nsddata/ppdata/subj01/behav/responses.tsv",
+      "url": "https://natural-scenes-dataset.s3.amazonaws.com/nsddata/ppdata/subj01/behav/responses.tsv",
+      "method": "HEAD",
+      "status": 200,
+      "bytes": 2735837,
+      "etag": "\"5d822608ff871a44798eac6f1b39b928\"",
+      "last_modified": "Sat, 19 Dec 2020 19:59:26 GMT"
+    }
+  ],
+  "known_total_bytes": 18130227430,
+  "budget_complete": true,
+  "shared_between_methods": "The same 37 func1pt8mm session betas serve both methods; do not double-count downloads. Existing stimuli and expdesign may be read-only reused. Generator/model/CLIP feature budgets are additional.",
+  "brain_diffuser": {
+    "sessions": "1-37, exactly 37*750 trials",
+    "ordering": "subjectim[sub-1,masterordering[trial]-1]-1; masterordering>1000 training; preserve first-occurrence dict order; average repeats",
+    "regression": "VDVAE alpha50000; CLIP-Vision alpha60000; CLIP-Text alpha100000",
+    "full_test_calibration": "ALL three regressions normalize predictions by mean/std across their fixed native full test pool then rescale using train feature mean/std. Compute once over full native test before selecting benchmark subsets. Test true features never calibrate predictions."
+  },
+  "takagi": {
+    "variant": "CVPR original only",
+    "roi": "streams early->init_latent, ventral->c",
+    "ordering": "behavior responses.tsv SESSION1-37, 73KID-1; sharedix-1 split; atlas transpose[2,1,0]",
+    "training": "Unaveraged single-trial training betas; repeated test trials averaged per image. Not the Brain-Diffuser averaged-training matrix. RidgeCV alpha[1e-6,1e-5,1e-4,1e-3,1e-2,0.1,1], training-side CV only."
+  },
+  "execution": "HEAD only; no beta/ROI/behavior download; no GPU or training",
+  "upstream_worktrees": {
+    "brain-diffuser": "",
+    "takagi": ""
+  }
+}
