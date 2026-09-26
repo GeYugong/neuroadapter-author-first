@@ -1,0 +1,14 @@
+{
+  "study": "seed43-HL-content-replication",
+  "mode": "check",
+  "batch": 1,
+  "allowed_conditions": [
+    "AA",
+    "BB"
+  ],
+  "target_ids": "/data1/matengyu/geyugong/neuroadapter-author-first/reports/seed43-hl-replication/evaluation/check_ids.txt",
+  "mapping_path": "/data1/matengyu/geyugong/neuroadapter-author-first/reports/hl-content-replication-l120/donor-1/map.json",
+  "mapping_sha256": "35d8299fbb41216512234630dd1a640f27ce70bbfed5bbaa39a9f4762080498a",
+  "model_sha256": "b94725fa36a75df7d9777c7479c0b7a2892c53999568e9c63a085c698e6dc14e",
+  "reference_root": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed43-lrhalf-at100/comparison/hl-content-replication/checks/reference"
+}

@@ -1,0 +1,15 @@
+{"time": "2026-09-25T01:19:21+0800", "action": "controller_start", "pid": 1764367, "resume": null}
+{"time": "2026-09-25T01:19:21+0800", "action": "launch", "label": "seed43-train-to-100", "command": ["/data1/matengyu/geyugong/neuroadapter-author-first/runtime/env/bin/python", "scripts/run_train.py", "--seed43-replication", "--target", "100"], "parent_pid": 1764367}
+{"time": "2026-09-25T01:19:21+0800", "action": "running", "label": "seed43-train-to-100", "pid": 1764370}
+{"time": "2026-09-26T01:52:41+0800", "action": "exit", "label": "seed43-train-to-100", "pid": 1764370, "exit_code": 0}
+{"time": "2026-09-26T01:52:41+0800", "action": "training_milestone", "epoch": 100, "updates": 53200}
+{"time": "2026-09-26T01:52:41+0800", "action": "launch", "label": "seed43-train-to-120", "command": ["/data1/matengyu/geyugong/neuroadapter-author-first/runtime/env/bin/python", "scripts/run_train.py", "--seed43-replication", "--target", "120", "--resume", "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed43-lrhalf-at100/checkpoint-100"], "parent_pid": 1764367}
+{"time": "2026-09-26T01:52:41+0800", "action": "running", "label": "seed43-train-to-120", "pid": 1948157}
+{"time": "2026-09-26T05:06:37+0800", "action": "exit", "label": "seed43-train-to-120", "pid": 1948157, "exit_code": 1}
+{"time": "2026-09-26T05:06:37+0800", "action": "controller_failed", "error": "RuntimeError('seed43-train-to-120 failed with exit 1; see logs/seed43-train-to-120.log')"}
+{"time": "2026-09-26T09:02:50+0800", "action": "controller_start", "pid": 2000536, "resume": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed43-lrhalf-at100/checkpoint-113"}
+{"time": "2026-09-26T09:02:50+0800", "action": "launch", "label": "seed43-train-to-120", "command": ["/data1/matengyu/geyugong/neuroadapter-author-first/runtime/env/bin/python", "scripts/run_train.py", "--seed43-replication", "--target", "120", "--resume", "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed43-lrhalf-at100/checkpoint-113"], "parent_pid": 2000536}
+{"time": "2026-09-26T09:02:50+0800", "action": "running", "label": "seed43-train-to-120", "pid": 2000540}
+{"time": "2026-09-26T10:45:54+0800", "action": "exit", "label": "seed43-train-to-120", "pid": 2000540, "exit_code": 0}
+{"time": "2026-09-26T10:45:54+0800", "action": "training_milestone", "epoch": 120, "updates": 63840}
+{"time": "2026-09-26T10:45:54+0800", "action": "training_controller_complete", "exit_code": 0, "evaluation_pending": true}

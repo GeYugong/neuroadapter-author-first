@@ -1,0 +1,22 @@
+{
+  "training_endpoint_epochs": 120,
+  "retained_global_optimizer_updates": 63840,
+  "formal_candidates": 2000,
+  "check_candidates": 8,
+  "atlas_pages_reviewed": 24,
+  "reviewer": "AI non-blind",
+  "gpu_compute_processes": [],
+  "model_sha256": "b94725fa36a75df7d9777c7479c0b7a2892c53999568e9c63a085c698e6dc14e",
+  "complete_checkpoints": [
+    100,
+    110,
+    120
+  ],
+  "historical_and_input_hashes_rechecked": true,
+  "training_final_exit": 0,
+  "evaluation_final_exit": 0,
+  "interruption": "2026-09-26 05:06 rank1 SIGSEGV; launcher exit1; resumed own COMPLETE113/60116 at09:02 with both-rank exact state audits; incomplete epoch114 work discarded/replayed, not mid-step recovery",
+  "prepare_failure": "Missing comparison parent; final mkdir repaired, original failure retained; zero candidates before repair",
+  "training_complete_time": "2026-09-26T10:45:54+0800",
+  "evaluation_complete_time": "2026-09-26T12:10:22+0800"
+}

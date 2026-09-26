@@ -1,0 +1,18 @@
+{
+  "passed": true,
+  "new_candidates": 8,
+  "checks": [
+    {
+      "condition": "AA",
+      "image_id": 14274,
+      "both_candidates_pixel_exact": true,
+      "gt_and_seed_exact": true
+    },
+    {
+      "condition": "BB",
+      "image_id": 14274,
+      "both_candidates_pixel_exact": true,
+      "gt_and_seed_exact": true
+    }
+  ]
+}

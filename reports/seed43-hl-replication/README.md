@@ -1,3 +1,5 @@
+本实验已完成训练、评价及24页AI审阅：[最终结果与交付](evaluation/README.md)。以下启动记录保留。
+
 # Seed43固定HL内容复核（正在训练）
 
 用户已授权启动，预算沿用[冻结计划](../evidence-freeze-seed43-plan/PLAN.md)。新训练seed43；100轮LR1e-4完整保存并退出后，完整恢复模型/AdamW/双rank RNG/DataLoader，再仅改LR至5e-5，固定120轮结束。预计63840更新，以实际日志核实，不按分数选epoch。不使用seed42权重继续训练；原主线与L支线保持停止。

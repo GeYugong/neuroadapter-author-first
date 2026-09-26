@@ -1,0 +1,22 @@
+{
+  "source": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed43-lrhalf-at100/checkpoint-113",
+  "completed_epochs": 113,
+  "global_optimizer_updates": 60116,
+  "model_exact": true,
+  "adamw_before_exact": true,
+  "adamw_after_only_authorized_lr_change": true,
+  "adamw_state_entries": 38,
+  "lr_before": [
+    5e-05
+  ],
+  "lr_after": [
+    5e-05
+  ],
+  "lr_change_location": "after full Accelerate load and exact state audit; before next training epoch",
+  "dual_rank_rng_exact": true,
+  "loader_generator_exact": true,
+  "seed_not_reset_after_load": true,
+  "rank": 0,
+  "run_id": "subject01-author-fp32-seed43-lrhalf-at100",
+  "source_commit": "faa932af252906b8956b980d1da72179c1874163"
+}
