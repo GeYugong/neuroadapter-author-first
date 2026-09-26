@@ -10,7 +10,8 @@ export MAX_JOBS=4
 export PIP_CACHE_DIR="$PWD/benchmarks/subj01-v1/cache/mindbridge-pip"
 PY="$PWD/benchmarks/subj01-v1/envs/mindbridge/bin/python"
 # Old DeepSpeed build needs a preinstalled torch; no shared environment edits.
-"$PY" -m pip install --disable-pip-version-check 'setuptools<70' wheel torch==2.0.1 torchvision==0.15.2
+# gpustat's source build also requires setuptools-scm with build isolation off.
+"$PY" -m pip install --disable-pip-version-check 'setuptools<70' 'setuptools-scm<9' wheel torch==2.0.1 torchvision==0.15.2
 rc=$?
 if [ "$rc" -eq 0 ]; then
   "$PY" -m pip install --disable-pip-version-check --no-build-isolation -r benchmarks/subj01-v1/mindbridge-requirements.txt
