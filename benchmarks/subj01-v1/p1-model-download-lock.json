@@ -1,0 +1,62 @@
+{
+  "created_utc": "2026-09-26T11:51:13.170953+00:00",
+  "files": [
+    {
+      "name": "kl-f8.pth",
+      "url": "https://huggingface.co/shi-labs/versatile-diffusion/resolve/2926f8e11ea526b562cd592b099fcf9c2985d0b7/pretrained_pth/kl-f8.pth",
+      "revision": "2926f8e11ea526b562cd592b099fcf9c2985d0b7",
+      "bytes": 334701031,
+      "sha256": "845b3a472ba352727aa0f7bd8b8ee3ef95f54001215fbd80874f32c236efdb1a",
+      "destination": "brain-diffuser/versatile_diffusion/kl-f8.pth",
+      "source": "author README pinned VD official HF"
+    },
+    {
+      "name": "optimus-vae.pth",
+      "url": "https://huggingface.co/shi-labs/versatile-diffusion/resolve/2926f8e11ea526b562cd592b099fcf9c2985d0b7/pretrained_pth/optimus-vae.pth",
+      "revision": "2926f8e11ea526b562cd592b099fcf9c2985d0b7",
+      "bytes": 1016873389,
+      "sha256": "5f82e8759f7ecf1e20397f0c70b6b0b5d84149cdc1875be1016142c0de053d69",
+      "destination": "brain-diffuser/versatile_diffusion/optimus-vae.pth",
+      "source": "author README pinned VD official HF"
+    },
+    {
+      "name": "vd-four-flow-v1-0-fp16-deprecated.pth",
+      "url": "https://huggingface.co/shi-labs/versatile-diffusion/resolve/2926f8e11ea526b562cd592b099fcf9c2985d0b7/pretrained_pth/vd-four-flow-v1-0-fp16-deprecated.pth",
+      "revision": "2926f8e11ea526b562cd592b099fcf9c2985d0b7",
+      "bytes": 6664692139,
+      "sha256": "b7814655665a98a74d723025c7453503db926741e785486741f4b4f06af6664b",
+      "destination": "brain-diffuser/versatile_diffusion/vd-four-flow-v1-0-fp16-deprecated.pth",
+      "source": "author README pinned VD official HF"
+    },
+    {
+      "name": "COCO_73k_annots_curated.npy",
+      "url": "https://huggingface.co/datasets/pscotti/naturalscenesdataset/resolve/421fb80ea4ca5600c7364ed400f9a5941380c387/COCO_73k_annots_curated.npy",
+      "revision": "421fb80ea4ca5600c7364ed400f9a5941380c387",
+      "bytes": 365000128,
+      "sha256": "da4f7b5730da9ea9d1ff9cf6fa7c4afe4c4d4bec8153819ba68be93b4179d5cd",
+      "destination": "brain-diffuser/COCO_73k_annots_curated.npy",
+      "source": "author README official NSD HF"
+    },
+    {
+      "name": "sd-v1-4.ckpt",
+      "url": "https://huggingface.co/CompVis/stable-diffusion-v-1-4-original/resolve/f0bb45b49990512c454cf2c5670b0952ef2f9c71/sd-v1-4.ckpt",
+      "revision": "f0bb45b49990512c454cf2c5670b0952ef2f9c71",
+      "bytes": 4265380512,
+      "sha256": "fe4efff1e174c627256e44ec2991ba279b3816e364b49f9be2abc0b3ff3f8556",
+      "destination": "takagi/sd-v1-4.ckpt",
+      "source": "official CompVis SD1.4; not SD1.5"
+    },
+    {
+      "name": "imagenet64-iter-1600000-model-ema.th",
+      "url": "https://openaipublic.blob.core.windows.net/very-deep-vaes-assets/vdvae-assets-2/imagenet64-iter-1600000-model-ema.th",
+      "bytes": 500977841,
+      "etag": "0x8D88A5A7E4F51A2",
+      "sha256": null,
+      "destination": "brain-diffuser/vdvae/imagenet64-iter-1600000-model-ema.th",
+      "source": "author load_vaes only uses restore_ema_path; no optimizer/plain model downloaded"
+    }
+  ],
+  "total_bytes": 13147625040,
+  "policy": "No GPU/training; official weights only; HEAD/metadata lock; download computes SHA and validates HF LFS SHA or Azure length/ETag",
+  "vdvae_needed": "load_vaes(H) only restores H.restore_ema_path. No optimizer/log/plain checkpoint needed."
+}

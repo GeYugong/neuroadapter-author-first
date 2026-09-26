@@ -1,0 +1,105 @@
+{
+  "utc": "2026-09-26T11:25:19.850492+00:00",
+  "official_Takagi_HDF5_url": "https://natural-scenes-dataset.s3.amazonaws.com/nsddata_betas/ppdata/subj01/func1pt8mm/betas_fithrf_GLMdenoise_RR/betas_session01.hdf5",
+  "official_HDF5_etag": "\"1506b13685ff6bc9d501248600c0699d-7\"",
+  "range_bytes_read": 70008,
+  "HDF5_nifti_exact_checks": [
+    {
+      "roi": "early",
+      "zyx": [
+        31,
+        9,
+        34
+      ],
+      "n_trials": 750,
+      "exact": true,
+      "reference_sha256": "e946d6ccbf152bed6d0e962f98bf883b5d3e43342b0f1b5dc73f0592bedb568d"
+    },
+    {
+      "roi": "early",
+      "zyx": [
+        42,
+        15,
+        43
+      ],
+      "n_trials": 750,
+      "exact": true,
+      "reference_sha256": "90983bde53412d1f6bf9b1de9b093e67232491ce9e591e8eeff28f1d6c4c6591"
+    },
+    {
+      "roi": "early",
+      "zyx": [
+        60,
+        15,
+        48
+      ],
+      "n_trials": 750,
+      "exact": true,
+      "reference_sha256": "f67fde3252e450865d8b2cae6ce11ac946a1956af23fa3d980c95b5437da1981"
+    },
+    {
+      "roi": "ventral",
+      "zyx": [
+        15,
+        57,
+        57
+      ],
+      "n_trials": 750,
+      "exact": true,
+      "reference_sha256": "1f546edf00857174f6f71f2fc7cc63c754990ca75c1736b9bdb8884c2ab594c6"
+    },
+    {
+      "roi": "ventral",
+      "zyx": [
+        31,
+        30,
+        18
+      ],
+      "n_trials": 750,
+      "exact": true,
+      "reference_sha256": "ee010a9cccdd70732deb3e9262172e57b08fd94d466aedfef27970b82435365d"
+    },
+    {
+      "roi": "ventral",
+      "zyx": [
+        44,
+        33,
+        66
+      ],
+      "n_trials": 750,
+      "exact": true,
+      "reference_sha256": "11b4ddc396b31fa9bb2b33df6a21faefdf54b2706dda90c8734994a3a1399228"
+    }
+  ],
+  "BrainDiffuser_full_first_session_ROI_float32_exact": true,
+  "BrainDiffuser_mean_checks": [
+    {
+      "trial_indices": [
+        0
+      ],
+      "float32_mean_exact": true
+    },
+    {
+      "trial_indices": [
+        0,
+        1
+      ],
+      "float32_mean_exact": true
+    },
+    {
+      "trial_indices": [
+        0,
+        1,
+        2
+      ],
+      "float32_mean_exact": true
+    }
+  ],
+  "raw_dtype": "int16",
+  "slope": 1,
+  "inter": 0,
+  "brain_diffuser_mask_order": "C-order boolean selection x,y,z",
+  "takagi_mask_order": "C-order boolean selection z,y,x after transpose(3,2,1,0)",
+  "brain_diffuser_scaling": "No /300 here; author regression performs /300 then train std(ddof1)",
+  "takagi_scaling": "Raw int16 as original HDF5; Ridge later casts float32 and StandardScaler"
+}

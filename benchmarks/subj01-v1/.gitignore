@@ -9,3 +9,9 @@
 
 /nsd-func1pt8-download.log
 __pycache__/
+
+/processed/
+
+/regression-brain-prepare.log
+
+/p1-model-download.log

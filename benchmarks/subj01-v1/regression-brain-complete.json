@@ -1,0 +1,116 @@
+{
+  "utc": "2026-09-26T11:27:48.960583+00:00",
+  "exit_status": 0,
+  "n_train_unique": 8859,
+  "n_test_unique": 982,
+  "n_train_trials": 24980,
+  "n_test_trials": 2770,
+  "outputs": [
+    {
+      "path": "/data1/matengyu/geyugong/neuroadapter-author-first/benchmarks/subj01-v1/processed/regression-brain/nsd_train_fmriavg_nsdgeneral_sub1.npy",
+      "shape": [
+        8859,
+        15724
+      ],
+      "dtype": "float64",
+      "sha256": "26b874870b202e820f290617dcb15fe88af5908cdbf23b25c5a743bcf404aa12"
+    },
+    {
+      "path": "/data1/matengyu/geyugong/neuroadapter-author-first/benchmarks/subj01-v1/processed/regression-brain/nsd_test_fmriavg_nsdgeneral_sub1.npy",
+      "shape": [
+        982,
+        15724
+      ],
+      "dtype": "float64",
+      "sha256": "81de38cf4fcd0917a6703115865878cf98d8d9216640cd6e3fb7d24ade50b434"
+    },
+    {
+      "path": "/data1/matengyu/geyugong/neuroadapter-author-first/benchmarks/subj01-v1/processed/regression-brain/subj01_early_betas_tr.npy",
+      "shape": [
+        24980,
+        5917
+      ],
+      "dtype": "int16",
+      "sha256": "1cc6615957ac7d330582fef22b1555c97d6f8028cf3638da3e811d308393306d"
+    },
+    {
+      "path": "/data1/matengyu/geyugong/neuroadapter-author-first/benchmarks/subj01-v1/processed/regression-brain/subj01_early_betas_ave_te.npy",
+      "shape": [
+        982,
+        5917
+      ],
+      "dtype": "float64",
+      "sha256": "69d7fdad9dc326d6104774388a74be078854f437e3d81bf19e67f6f8aacd04ef"
+    },
+    {
+      "path": "/data1/matengyu/geyugong/neuroadapter-author-first/benchmarks/subj01-v1/processed/regression-brain/subj01_ventral_betas_tr.npy",
+      "shape": [
+        24980,
+        7604
+      ],
+      "dtype": "int16",
+      "sha256": "f0e92fa91f9e3e8dcd3ddca7ccfb978a182b1792d36462a7f9127d565476ce2a"
+    },
+    {
+      "path": "/data1/matengyu/geyugong/neuroadapter-author-first/benchmarks/subj01-v1/processed/regression-brain/subj01_ventral_betas_ave_te.npy",
+      "shape": [
+        982,
+        7604
+      ],
+      "dtype": "float64",
+      "sha256": "6560bb0f69325ae2dc681141251a03e1037511e43b94f1e4e1d757bf187c4283"
+    },
+    {
+      "path": "/data1/matengyu/geyugong/neuroadapter-author-first/benchmarks/subj01-v1/processed/regression-brain/train_unique_ids.npy",
+      "shape": [
+        8859
+      ],
+      "dtype": "int64",
+      "sha256": "eee40be396a723782e7df183ca235e2a577324a8f5118260b2366fcac08fdde3"
+    },
+    {
+      "path": "/data1/matengyu/geyugong/neuroadapter-author-first/benchmarks/subj01-v1/processed/regression-brain/all_trial_ids.npy",
+      "shape": [
+        27750
+      ],
+      "dtype": "int64",
+      "sha256": "932d4a0303f126326c3f233517bc21e7c7a77487f40a758b434f1573afd313f8"
+    },
+    {
+      "path": "/data1/matengyu/geyugong/neuroadapter-author-first/benchmarks/subj01-v1/processed/regression-brain/test_trial_ids.npy",
+      "shape": [
+        2770
+      ],
+      "dtype": "int64",
+      "sha256": "a4f81502b3abf4bebf43ff6d55ec9a319e208ef1f8946b14d78c28c129aa5ee8"
+    },
+    {
+      "path": "/data1/matengyu/geyugong/neuroadapter-author-first/benchmarks/subj01-v1/processed/regression-brain/test_unique_ids.npy",
+      "shape": [
+        982
+      ],
+      "dtype": "int64",
+      "sha256": "2175a1e5ae45a3a6680220f0c028aad4ea788bbb90a37d2039f7d998b72f9410"
+    },
+    {
+      "path": "/data1/matengyu/geyugong/neuroadapter-author-first/benchmarks/subj01-v1/processed/regression-brain/train_trial_ids.npy",
+      "shape": [
+        24980
+      ],
+      "dtype": "int64",
+      "sha256": "c897230c74faa61211f3bc467243c06af3201e514ee3eeacb13131c272b3f75c"
+    }
+  ],
+  "source_expdesign_sha256": "4cf4901ecf736c525ce534c4466030ec8d13c2fc0c8b31ddf86f17c55faadf89",
+  "code_sources": {
+    "brain_diffuser_prepare_sha256": "8e44790d330a12ab348abe2fc60dfd14e4ef24bfa507d2ca84b5e0ffe4322f7e",
+    "takagi_make_subjmri_sha256": "740d60f05d826aaf863b45a815accc187e89c55f36bac3db4723d3ca50057192",
+    "takagi_embedded_nsda_sha256": "374f2e1e3a130a9f17a6e95aba48f060d690c0c47419611603c68d3565d4316e"
+  },
+  "IO_changes_only": [
+    "Sequential per-session ROI extraction instead of all-volume concatenation",
+    "Official HDF5 equivalence checked against actual byte-range values; NIfTI int16 transpose used",
+    "Memory-mapped trial arrays and rowwise author means; no images loaded",
+    "No training, normalization, target-feature extraction or GPU work performed"
+  ]
+}
