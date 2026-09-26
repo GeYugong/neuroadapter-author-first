@@ -1,0 +1,10 @@
+{
+  "published_test100_commit": "492bc71b6e4f53d6e78eb5310ef424cbf1e5ec9c",
+  "verified_three_way_tree": "4243270d9cf3b3c391cfd1c1cf864e75897ee976",
+  "n_full": 982,
+  "reuse_per_method": 100,
+  "new_per_method": 882,
+  "K": 1,
+  "start_utc": "2026-09-26T11:17:11.493748+00:00",
+  "no_test_based_changes": true
+}

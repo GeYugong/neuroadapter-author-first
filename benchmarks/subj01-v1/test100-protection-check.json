@@ -1,0 +1,6 @@
+{
+  "reports/best_so_far.json": true,
+  "runs/subject01-author-fp32-seed42-lr5e-5-from100/exports/epoch-120/inference.pt": true,
+  "runs/subject01-author-fp32-seed42-lr5e-5-from100/exports/epoch-120/metadata.json": true,
+  "runs/subject01-author-fp32-seed42-lr5e-5-from100/exports/epoch-120/parcel_vertices.pt": true
+}
