@@ -22,4 +22,6 @@ scikit-image==0.20.0
 tqdm
 urllib3
 gpustat
-clip-retrieval==2.44.0
+# clip-retrieval is unused by all pinned src/*.py modules; excluded from this
+# training/reconstruction environment. Its optional retrieval-server dependencies
+# conflict with the retained logging package and are not part of Vanilla.
