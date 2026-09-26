@@ -1,0 +1,16 @@
+{
+  "utc": "2026-09-26T23:23:48.831255+00:00",
+  "data_session": "bench-mindbridge-data",
+  "environment_session": "bench-mindbridge-env",
+  "upstream_commit": "2a3943ff5b619db6f85f16a5e7ff1331d25def55",
+  "formal_training_started": false,
+  "new_training_updates": 0,
+  "scheduling": "CPU/network preparation concurrent with Takagi; two-GPU training waits for verified availability.",
+  "environment_attempt1": {
+    "exit_code": 1,
+    "cause": "tmux inherited obsolete proxy17897; HTTP request failed before installation; failed logs preserved.",
+    "repair": "Unset proxy variables only for this isolated install process; retry after prior process/session exit."
+  },
+  "dependency_install_status": "running_retry",
+  "data_status": "downloading_SHA_locked_official_shards"
+}

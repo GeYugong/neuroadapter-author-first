@@ -13,3 +13,7 @@ One metric implementation: metric_brain_adapter.py (hash recorded separately), E
 Parallel Cortex2Image official assets and Brain-Diffuser preparation. Then author-code Brain-Diffuser/Takagi regression modules (frozen generators). MindBridge single-subject600epochs requires measured budget after first delivery; DREAM full brain pathways must be verified; MindFormer missing assets remains blocked, no guessed implementation or unsolicited emails.
 
 All new assets/environments under this workspace; old project read-only. GPU0 MindEye1, GPU1 NeuroAdapter when available; no other tasks killed. Exact upstream commits/download revisions/hashes and exit records retained. Only engineering adapters, no scientific replacements. Report completed methods immediately. Scope follows supplied CODEX_NSD_SUBJECT1_BASELINE_BENCHMARK_ZH.md.
+
+## Parallel MindBridge preparation (2026-09-27)
+
+User authorized preparation alongside Takagi. See [MINDBRIDGE_PREPARATION.md](MINDBRIDGE_PREPARATION.md): official Subject1 data downloads and isolated environment installation are CPU/network only. Original two-GPU600epoch training waits for both GPUs to be available and first-epoch budget measurement; no automatic single-GPU recipe substitution. No new NeuroAdapter work.
