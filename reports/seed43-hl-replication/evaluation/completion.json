@@ -1454,7 +1454,8 @@
     "scripts/evaluate_stage.py": true
   },
   "compute_complete": true,
-  "AI_review_and_publication_pending": true,
+  "AI_review_and_publication_pending": false,
   "AI_review_completed": true,
-  "AI_review_pages": 24
+  "AI_review_pages": 24,
+  "published_results_commit": "ae27030518c7e3cd6646e62d40da1d9e7195123c"
 }
