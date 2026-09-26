@@ -58,7 +58,7 @@ def prepare():
     for i in protocol['permutation']:files.append(GT/f'image_{i:06d}.npz')
     old.save(REPORT/'input-lock.json',{str(p.relative_to(ROOT)):old.sha(p) for p in files})
     old.save(REPORT/'model-lock.json',dict(metadata=m,sha256=digest))
-    WORK.mkdir()
+    WORK.mkdir(parents=True)
 
 def command(label,m=None,check=False,raw=False):
     batch=0 if m is None else m

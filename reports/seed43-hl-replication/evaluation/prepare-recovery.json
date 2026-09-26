@@ -1,0 +1,6 @@
+{
+  "reason": "prepare failed only at final WORK.mkdir because comparison parent was absent",
+  "all_input_hashes_verified": true,
+  "generated_candidates_before_recovery": 0,
+  "repair": "mkdir(parents=True); prior prepare products preserved; complete final directory operation"
+}
