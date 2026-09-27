@@ -1,0 +1,8 @@
+{
+  "expected_rejection": true,
+  "actual_returncode": 1,
+  "stderr": "Traceback (most recent call last):\n  File \"/data1/matengyu/geyugong/neuroadapter-author-first/benchmarks/subj01-v1/mindbridge_reconstruct_k1.py\", line 254, in <module>\n    generate(args.pool, args.resume)\n  File \"/data1/matengyu/geyugong/neuroadapter-author-first/benchmarks/subj01-v1/mindbridge_reconstruct_k1.py\", line 148, in generate\n    checkpoint_sha, physical = readiness()\n  File \"/data1/matengyu/geyugong/neuroadapter-author-first/benchmarks/subj01-v1/mindbridge_reconstruct_k1.py\", line 93, in readiness\n    assert receipt.exists(), 'Full600 training audit receipt missing; training is not inference-ready.'\nAssertionError: Full600 training audit receipt missing; training is not inference-ready.\n",
+  "no_output_created": true,
+  "cuda_model_not_loaded": true,
+  "reason": "Training still live; final full600 audit absent"
+}

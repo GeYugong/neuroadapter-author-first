@@ -42,3 +42,8 @@ Original prepare_VD loaded fully on CPU in the isolated MindBridge environment (
 ## MindBridge K1 generation-prefix adapter preparation
 
 mindbridge_k1_native.py now compiles the pinned original generation prefix into a GT-free function, statically preserving the frozen Vanilla branch. test_mindbridge_k1_native.py passed CPU synthetic-module differential tests against the original prefix, including both predicted conditions, local RNG and forbidden CLIP selector checks; see mindbridge-k1-adapter-cpu-test.json. No real model or GPU candidate was generated. The full guarded checkpoint/ID/output runner remains to be integrated after reading these reusable preparations; actual600 completion and GPU prefix identity are still required before benchmark outputs.
+
+
+## MindBridge guarded runner CPU ready
+
+mindbridge_reconstruct_k1.py and launch-mindbridge-test100.sh/testfull.sh now integrate the prepared original generation function and strict MindSingle load. Both CPU ID/brain/SHA preflights pass; live-training rejection was exercised without creating outputs. Generation requires a real independently checked mindbridge-training-complete.json (600epochs/51600updates/exit0/full_state_verified/checkpoint_sha256), final599 last metadata and a free selected GPU. No completion receipt exists while training is live. Actual first-target native-prefix versus GT-free GPU tensor identity is mandatory; one additional check, no candidate selection. Evaluate original FP32 tensor, retain PNG only for atlas. Full982 additionally requires actual first100 scores/32atlas review/publication receipt; see protocol for schema. No actual GPU reconstruction has run yet.

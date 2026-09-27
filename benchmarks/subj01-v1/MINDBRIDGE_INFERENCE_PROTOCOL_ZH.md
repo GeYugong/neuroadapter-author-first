@@ -35,3 +35,13 @@ mindbridge_k1_native.py已从固定SHA的原utils.reconstruction直接编译生�
 CPU测试实际退出0：用轻量合成模块，将适配函数输出与未经改写的原函数生成前缀作逐元素比较；参考前缀分别传全零/全一合成占位图，两次均完全一致，CLIP编码函数一旦被调用会直接报错。两路预测条件均进入334-token条件，20次去噪调用、全局CPU RNG不变和重复调用一致均已验证，CUDA未初始化。见[mindbridge-k1-adapter-cpu-test.json](mindbridge-k1-adapter-cpu-test.json)。合成模块只验证代码适配，不是实际模型结果，也不替代后续GPU接入检查。
 
 当前只有生成函数适配，不是可启动完整评价的控制器。后续仍须在600轮完整退出后检查最终last及双rank恢复状态，接入实际模型和锁定ID，首个固定目标比较原生成前缀与适配路径的实际GPU输出，保留候选记录与SHA、断点和退出码，再评分/图册。不得将本CPU测试写成MindBridge重建完成。
+
+## 完整推理入口预检（仍未启动GPU）
+
+mindbridge_reconstruct_k1.py及launch-mindbridge-test100.sh/testfull.sh已接好原模型/ID/逐图记录与统一评分。默认仅CPU预检：100/982的原始脑重复、文件SHA、ID映射、上游源码及无GT生成函数均已通过。实际--generate在当前训练未完成时明确拒绝，未创建输出或加载GPU模型；不是训练故障，见mindbridge-decoder-guard-test.json。
+
+入口必须读取真实的mindbridge-training-complete.json，要求completed_epochs=600、global_steps=51600、resume_exit_code=0、full_state_verified=true及最终last.pth的checkpoint_sha256；这份记录尚不存在，必须训练完全退出并实际检查完整双rank状态后才填写，不能只为通过检查伪造。最新last的trainer-recovery.json也必须为599/next600，并要求指定GPU无计算进程。严格加载完整MindSingle权重，不改用best。
+
+首个固定目标用实际完整模型比较原生成前缀（仅合成零占位图）与无GT适配函数的FP32输出，完全相同才接收正式结果；多一次身份检查不参与挑图。正式每图只保留一个候选，保留作者原始FP32张量给统一评价，PNG只供图册，避免额外uint8量化改变原生输出。逐图保存脑输入、模型、代码及输出SHA。发生故障保留所有记录和孤立产物，显式--resume会校验已完成图，禁止盲覆盖。
+
+完整982还要求首100先真实评分、全部32图册审阅和发布；mindbridge-test100-publication.json须记录n_eval=100、atlas_images_reviewed=32、同一checkpoint_sha256和真实published_commit。当前这些结果均未产生，实际GPU接入、显存及重建分数仍未验证。
