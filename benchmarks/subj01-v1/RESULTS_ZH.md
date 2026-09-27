@@ -33,3 +33,7 @@ Eff 使用冻结实现的 EfficientNet-B1。所有识别指标在同一完整评
 ## 新增基线实测
 
 [Brain-Diffuser完整982图结果及四列图册](BRAIN_DIFFUSER_test_full_ids_ZH.md)；[首100图结果](BRAIN_DIFFUSER_test100_ids_ZH.md)。旧P0表与结论保留，统一CSV已追加实际Brain-Diffuser值。
+
+## 尚在执行的方法（2026-09-28）
+
+MindBridge(s)已实际训练421/600轮；保存best的双rank同步故障已从完整状态恢复，继续第422轮。恢复审计、原调度器实际行为及限制见[故障恢复记录](MINDBRIDGE_RECOVERY_ZH.md)。训练未完成，重建八指标仍为NA。Takagi原版特征和两套RidgeCV已完成exit0；图像生成与评价等待GPU释放，未用特征相关性充当重建指标。

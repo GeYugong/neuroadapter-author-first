@@ -1,0 +1,8 @@
+{
+  "two_process_backend": "gloo",
+  "rank_disagreement_cases": 2,
+  "rank0_true_rank1_false": "both save last and best",
+  "rank0_false_rank1_true": "both save last only",
+  "passed": true,
+  "limit": "CPU collective control-flow test; actual GPU state audit separately required"
+}

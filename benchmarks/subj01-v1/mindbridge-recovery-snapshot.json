@@ -1,0 +1,61 @@
+{
+  "created": "2026-09-28T02:08:52.389987+08:00",
+  "snapshot": "benchmarks/subj01-v1/processed/mindbridge-recovery-epoch420",
+  "epoch_zero_based": 420,
+  "completed_epochs": 421,
+  "global_steps": 36206,
+  "files": [
+    {
+      "path": "best.pth",
+      "bytes": 2245139483,
+      "sha256": "6f4b4b0ffd73898e13256b170bf1bcb0406ec5c59fe031557799af1bffab0c99"
+    },
+    {
+      "path": "last/latest",
+      "bytes": 13,
+      "sha256": "68d0ca762047fd48fdd6a06a5e6465209289c028bfd63f5557a110ff1ebc15ac"
+    },
+    {
+      "path": "last/pytorch_model/mp_rank_00_model_states.pt",
+      "bytes": 2245142439,
+      "sha256": "a0aa3890d89d8a91940d704cb23f8d005d0a233a9476d8728ab87d753016a099"
+    },
+    {
+      "path": "last/pytorch_model/zero_pp_rank_0_mp_rank_00_optim_states.pt",
+      "bytes": 3367708165,
+      "sha256": "4a6e3ae1b81bd6b70154cfbbac136145cfdecd2522b295af21fc66d52038bb52"
+    },
+    {
+      "path": "last/pytorch_model/zero_pp_rank_1_mp_rank_00_optim_states.pt",
+      "bytes": 3367706949,
+      "sha256": "db9109144c1e57ce2ada509a84c569288878cd6da83fcd725b3bd0da0334e0a2"
+    },
+    {
+      "path": "last/random_states_0.pkl",
+      "bytes": 15691,
+      "sha256": "d47037e351152fe73a61b794f9008264d912b427eca452f6a30019d0c285000b"
+    },
+    {
+      "path": "last/random_states_1.pkl",
+      "bytes": 15691,
+      "sha256": "c72f3bacdf2e646a94da8a768d34d1aa39c240c2791755614ac150faca3ad396"
+    },
+    {
+      "path": "last/scheduler.bin",
+      "bytes": 3367706147,
+      "sha256": "349ead7583b27b7c5c4b68112762c4f1cf2441e1f987b18936827cd0d0a6cf18"
+    },
+    {
+      "path": "last/zero_to_fp32.py",
+      "bytes": 23607,
+      "sha256": "c3d9f6d855fce9b344e825d0e57822d9798e94d25fe4f284a8a0d3945efa4723"
+    },
+    {
+      "path": "last.pth",
+      "bytes": 2245139483,
+      "sha256": "6ce29c230b1da022238d40486b5ae62bd6cee342fe57b1fd1e002f1a4eac3eae"
+    }
+  ],
+  "failure": "NCCL SeqNum1176 rank0 ALLREDUCE versus rank1 BROADCAST during conditional best save; attempt2 exit1; all ranks exited automatically",
+  "partial_best": "Original best/ retained, not a valid resume checkpoint"
+}

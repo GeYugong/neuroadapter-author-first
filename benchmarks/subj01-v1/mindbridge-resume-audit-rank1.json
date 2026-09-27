@@ -1,0 +1,21 @@
+{
+  "rank": 1,
+  "resume_next_epoch_zero_based": 421,
+  "completed_epochs": 421,
+  "global_steps": 36206,
+  "model_all_tensors_equal": true,
+  "optimizer_moments_and_fp32_partitions_equal": true,
+  "scheduler_numeric_state_equal": true,
+  "scheduler_last_epoch": 51600,
+  "learning_rates": [
+    2.4000055952305e-07,
+    2.4000055952305e-07
+  ],
+  "rng_all_equal": true,
+  "loader_generator_sha256": "ff9125d6f5b0acbdde3df69c1032602513253a9d164db570559fc10ece2cb763",
+  "loader_recovery": "421 exhausted original BatchSamplerShard iterations; indices only",
+  "rank_native_validation_similarity": 1.111934055884679,
+  "rank0_best_similarity": 1.1183711489041646,
+  "best_threshold_recovery": "Reevaluated saved epoch420 on original validation; restored RNG afterwards",
+  "limitation": "Restart recovery verified at state level; no claim of bitwise future CUDA trajectory"
+}
