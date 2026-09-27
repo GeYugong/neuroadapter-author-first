@@ -1,0 +1,19 @@
+{
+  "utc": "2026-09-27T23:53:09.039582+00:00",
+  "n_eval": 100,
+  "atlas_images_reviewed": 32,
+  "reviewer": "AI, non-blind; all four pages actually viewed",
+  "generation_exit": 0,
+  "scoring_exit": 0,
+  "checkpoint_sha256": "5bd75a992755d70183633df514754b9084b0a4a681284afc83621b2387aac9ad",
+  "atlas_sha256": {
+    "fixed32-page-1.jpg": "40ca3d116bae977bc1f0d08f9e28315fe99f5090424216858842d0a59ca14c08",
+    "fixed32-page-2.jpg": "ae3751b87864c6e1bb98ebfc3c075f426d5de8b44b0363e3f77ca20c84ff79c3",
+    "fixed32-page-3.jpg": "b10b91af6ba8cb255c8182e1fdf98260ccf0600c691539d1d46b73e2ca0dc254",
+    "fixed32-page-4.jpg": "d7442eaa25f523c5dc98b1d770334037cbe19252a3a841fcc613640e95058701"
+  },
+  "published_commit": "fc60df654ca3d202017ac7270cfadffd5a864cc6",
+  "published_repository": "GeYugong/neuroadapter-author-first",
+  "publication_verified_utc": "2026-09-27T23:53:54.830626+00:00",
+  "github_atlas_pages_verified": 4
+}

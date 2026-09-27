@@ -56,3 +56,5 @@ MindBridge full600 exited0; final export equals both ZeRO partitions,51600 updat
 ## Live transition 2026-09-28 07:51 +0800
 
 Takagi test100 published d83e69c; full982 is running in bench-takagi-testfull onGPU0, reusing existing100. MindBridge600 last actual test100 generation/scoring both exit0; all32 atlas AI reviewed with failures retained. Publish MINDBRIDGE_test100_ids_ZH.md and review, then create a real publication receipt with that commit and launch existing launch-mindbridge-testfull.sh onGPU1. No retraining or scientific parameter changes.
+
+MindBridge test100 published fc60df6 (GitHub private repository and all4 atlas files verified). Actual publication receipt written; existing launch-mindbridge-testfull.sh started in bench-mindbridge-testfull onGPU1. It reuses verified100 FP32 tensors and generates remaining882, then scores the entire982 negative pool. Takagi full982 remains onGPU0. Do not duplicate either controller.
