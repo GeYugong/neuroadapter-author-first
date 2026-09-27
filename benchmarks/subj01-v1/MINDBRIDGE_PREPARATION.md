@@ -28,3 +28,9 @@ Isolated `envs/mindbridge`, Python3.10.12. Retain author's pinned torch2.0.1, to
 Logs: `logs/mindbridge-data-prepare.log`, `logs/mindbridge-env-install.log`, and corresponding `.exit` files. Preserve failed-attempt logs; fix only engineering transport/dependency issues. Download can resume `.part` files, checks full source SHA, and refuses mismatching existing extracted files. Do not remove completed or historical outputs. Watch actual state before retrying to prevent duplicate processes.
 
 Before training: original modules and frozen CLIP assets must load, training/validation IDs must pass the locked test exclusion check, full-size model must fit, and source/settings must be recorded. Final inference follows the benchmark's K1 and common test protocol; original multi-candidate selection remains a separate table. All existing NeuroAdapter weights, best and prior results remain unchanged.
+
+## Ready launcher (2026-09-27)
+
+Data completed with 8559 train and 300 validation samples; exact hashes and disjointness from the 982 standard-test IDs passed. CPU loading of the complete frozen CLIP and original MindSingle passed. See mindbridge-data-complete.json and mindbridge-model-cpu-check.json.
+
+launch_mindbridge_training.py --check-only validates source/data/environment and prints the unchanged two-rank 600-epoch command without training. The normal invocation refuses any active GPU compute process, existing training output or prior launch record, and holds a lock throughout the run. Once Takagi has exited and both GPUs are verified free, run it in a dedicated tmux with runtime/env/bin/python. mindbridge_author_train.py only redirects official asset locations before running original main.py; external WAndB logging is disabled. The first original epoch still supplies actual throughput and GPU feasibility; readiness is not a training result.
