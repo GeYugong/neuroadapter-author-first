@@ -1,0 +1,10 @@
+{
+  "utc": "2026-09-27T23:34:39.916276+00:00",
+  "first_id": 6489,
+  "cold_sha256": "3f0a3659912d9dcc4e8a0c2a872bf442f8c874150ffec079f52621e66b410765",
+  "cached_sha256": "3f0a3659912d9dcc4e8a0c2a872bf442f8c874150ffec079f52621e66b410765",
+  "pixel_identical": true,
+  "extra_identity_candidates": 1,
+  "source_sha256": "23cfc426025e1a9ccd1c00ba994758d70e685ac9de65a0068340353cffd08d8b",
+  "adapter_sha256": "fed13a4060e18a3d319948b7e34e5252bea6d4df21548017eb308d0a98ff450c"
+}

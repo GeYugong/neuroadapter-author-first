@@ -15,6 +15,9 @@ import subprocess
 import sys
 from types import SimpleNamespace
 
+# Set before importing torch or creating any CUDA context; local process only.
+os.environ['CUBLAS_WORKSPACE_CONFIG'] = ':4096:8'
+
 from mindbridge_k1_native import compile_native
 
 B = Path(__file__).resolve().parent
@@ -84,7 +87,8 @@ def preflight(pool):
                   preprocessing='Original NSDDataset float32/maxpool each repeat8192, then mean3',
                   scheduler='Original UniPC', cfg=5, steps=20, seed=42, text_image_ratio=.5,
                   precision='FP32, original VD default and no autocast', lowlevel=False,
-                  gt_access=False, real_model_inference=False)
+                  gt_access=False, real_model_inference=False,
+                  numerical_runtime='torch.use_deterministic_algorithms(True); CUBLAS_WORKSPACE_CONFIG=:4096:8; differs from upstream default to eliminate verified native CUDA nondeterminism')
     return ids, rows, result
 
 
@@ -172,6 +176,7 @@ def generate(pool, resume):
         import numpy as np
         from PIL import Image
         torch.set_num_threads(4)
+        torch.use_deterministic_algorithms(True)
         sys.path.insert(0, str(SOURCE))
         import utils
         import data
@@ -250,7 +255,7 @@ def generate(pool, resume):
             print(json.dumps(dict(utc=now(), generated_id=image_id)), flush=True)
         savej(B / f'mindbridge-{pool}-complete.json', dict(attempt, utc_complete=now(),
             real_model_inference=True, generated_or_verified=len(ids),
-            extra_identity_candidates=1, status='Generation only; scoring, atlas and publication still required'))
+            extra_identity_candidates=1, prior_failed_and_diagnostic_candidates=11, status='Generation only; scoring, atlas and publication still required'))
 
 
 if __name__ == '__main__':

@@ -1,0 +1,9 @@
+{
+  "utc": "2026-09-27T23:42:56.150855+00:00",
+  "nsd_id0": 6489,
+  "checkpoint_sha256": "5bd75a992755d70183633df514754b9084b0a4a681284afc83621b2387aac9ad",
+  "generation_module_sha256": "a0846cdb610311ea13f617c464a4da4f13c9bf899d9ca9a73f69f44ab75010d8",
+  "tensor_identical": true,
+  "placeholder": "Synthetic zero tensor only, no GT loaded",
+  "extra_identity_candidates": 1
+}

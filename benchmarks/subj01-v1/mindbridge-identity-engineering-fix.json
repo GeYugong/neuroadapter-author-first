@@ -1,0 +1,29 @@
+{
+  "utc": "2026-09-27T23:42:37.804386+00:00",
+  "original_failure_exit": 1,
+  "formal_outputs_before_fix": 0,
+  "diagnostic_candidates_before_formal": 11,
+  "diagnostic_count_detail": {
+    "failed_identity": 2,
+    "native_repeat_and_adapter": 3,
+    "reset_rng_scheduler": 2,
+    "cublas_only": 2,
+    "deterministic_native_adapter": 2
+  },
+  "fix": "Process-local deterministic algorithms and CUBLAS workspace; same weights,FP32,seed,steps,CFG,mix and native operators",
+  "not_claiming_upstream_default_numerical_equivalence": true,
+  "preserved_attempts": [
+    {
+      "source": "benchmarks/subj01-v1/outputs/mindbridge-records/test100.started.json",
+      "preserved_as": "benchmarks/subj01-v1/outputs/mindbridge-records/test100.attempt1-failed-identity.json"
+    },
+    {
+      "source": "benchmarks/subj01-v1/logs/mindbridge-test100.log",
+      "preserved_as": "benchmarks/subj01-v1/logs/mindbridge-test100.attempt1.log"
+    },
+    {
+      "source": "benchmarks/subj01-v1/logs/mindbridge-test100.exit",
+      "preserved_as": "benchmarks/subj01-v1/logs/mindbridge-test100.attempt1.exit"
+    }
+  ]
+}

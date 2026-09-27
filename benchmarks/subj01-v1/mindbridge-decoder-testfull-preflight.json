@@ -1,10 +1,10 @@
 {
-  "utc": "2026-09-27T20:08:13.917936+00:00",
+  "utc": "2026-09-27T23:45:27.724712+00:00",
   "pool": "testfull",
   "n_eval": 982,
   "ids_sha256": "4c438772ffa978ab8c5f781b8a3fc73df0159ae4892dc39d896f05a413d36441",
   "mapping_sha256": "b5bfd7f30f94c1a717961675e40965c915df21034a3ef3aa85e8df58e3bf63d6",
-  "runner_sha256": "1765472d7ee78c3463c3a4f8fb5e6c02a8824f7f09a3a0dd6cfc1b5f3d000878",
+  "runner_sha256": "70e3aaccdc5df1b9ec3d1c7eb750e292790c6ccd64b937616f7b1c74d3886cd8",
   "generation_module_sha256": "a0846cdb610311ea13f617c464a4da4f13c9bf899d9ca9a73f69f44ab75010d8",
   "generation_audit": {
     "source_sha256": "cdf5f71c5a0c8d30b3dc3deb16e43f0b019f7abbda524bff4825c2c840021a99",
@@ -38,5 +38,6 @@
   "precision": "FP32, original VD default and no autocast",
   "lowlevel": false,
   "gt_access": false,
-  "real_model_inference": false
+  "real_model_inference": false,
+  "numerical_runtime": "torch.use_deterministic_algorithms(True); CUBLAS_WORKSPACE_CONFIG=:4096:8; differs from upstream default to eliminate verified native CUDA nondeterminism"
 }

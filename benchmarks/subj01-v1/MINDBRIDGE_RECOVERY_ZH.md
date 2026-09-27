@@ -30,3 +30,7 @@ CPU双进程Gloo测试覆盖rank0判断真/rank1假及反向情形，两rank的�
 tmux bench-mindbridge-resume；logs/mindbridge-resume.log及结束后的mindbridge-resume.exit。只允许先查实际进程、日志、最新完整状态；不能重复运行这次固定epoch420恢复启动器。若再次故障，读取堆栈和最新checkpoint附加的trainer-recovery.json/loader_generator文件后另做明确恢复。
 
 600轮完整结束、确认双GPU退出后，再开展单被试完整推理及Takagi原CVPR重建。同100图K1八指标/32图册先发布，再完整982；旧NeuroAdapter、MindEye1、Brain-Diffuser结果不重跑。
+
+## 完成更新
+
+2026-09-28 07:12完成零基599/600轮并退出0，51600更新/0 skipped；最终导出和双rankFP32分片重建完全一致。见mindbridge-training-complete.json。AdamW内部step为51601，已核实DeepSpeed0.9.5 initialize_optimizer_states在零梯度上调用一次step进行初始化；未把该初始化计作训练批次。模型选择仍为完整600 last，而非验证best590。

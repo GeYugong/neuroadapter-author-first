@@ -45,3 +45,11 @@ mindbridge_reconstruct_k1.py及launch-mindbridge-test100.sh/testfull.sh已接好
 首个固定目标用实际完整模型比较原生成前缀（仅合成零占位图）与无GT适配函数的FP32输出，完全相同才接收正式结果；多一次身份检查不参与挑图。正式每图只保留一个候选，保留作者原始FP32张量给统一评价，PNG只供图册，避免额外uint8量化改变原生输出。逐图保存脑输入、模型、代码及输出SHA。发生故障保留所有记录和孤立产物，显式--resume会校验已完成图，禁止盲覆盖。
 
 完整982还要求首100先真实评分、全部32图册审阅和发布；mindbridge-test100-publication.json须记录n_eval=100、atlas_images_reviewed=32、同一checkpoint_sha256和真实published_commit。当前这些结果均未产生，实际GPU接入、显存及重建分数仍未验证。
+
+## 实际训练完成与GPU非确定性修复
+
+2026-09-28 07:12完整600轮退出0，engine记录51600次更新、0 skipped。final last.pth SHA为5bd75a992755d70183633df514754b9084b0a4a681284afc83621b2387aac9ad；28个FP32张量共561283712参数与完整模型状态及双rank ZeRO分片重建逐项相等。AdamW、scheduler、双rank RNG和loader文件均读取检查，保护文件未变，见mindbridge-training-complete.json。CPU完整性审计不冒充新的双GPU恢复实验。
+
+首次实际GPU接入退出1：原函数连续调用也不相等。固定随机状态、全新scheduler仍在第一次UNet输出出现差异；不是GT截断专属差异。仅CUBLAS workspace不足，进一步启用torch.use_deterministic_algorithms(True)及CUBLAS_WORKSPACE_CONFIG=:4096:8后，原生成前缀与适配输出FP32逐元素完全一致（max_abs=0）。这是一项明确偏离上游默认数值运行方式的可重复性设置，不宣称与作者历史默认CUDA输出数值等价；权重、预处理、FP32、CFG5、20步、seed42和mix0.5均未改。
+
+原失败日志及exit1、started记录均另名保留，修复前没有任何正式输出。首次失败2个候选、原重复/适配诊断3个、重置RNG/scheduler诊断2个、仅CUBLAS诊断2个、确定性诊断2个，共11个诊断候选不参与结果选择；修复后首图再多1个身份检查，正式仍每图仅一个固定候选。详见mindbridge-identity-engineering-fix.json和四份mindbridge-gpu-identity诊断记录。第二次接入严格身份检查已通过并开始正式100图，评分仍待完成。

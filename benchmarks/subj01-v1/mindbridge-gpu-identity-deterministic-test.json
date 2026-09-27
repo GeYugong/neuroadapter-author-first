@@ -1,0 +1,8 @@
+{
+  "cublas_workspace_config": ":4096:8",
+  "torch_deterministic_algorithms": true,
+  "original_vs_adapter_equal": true,
+  "max_abs": 0.0,
+  "pixels_equal": true,
+  "diagnostic_candidates": 2
+}

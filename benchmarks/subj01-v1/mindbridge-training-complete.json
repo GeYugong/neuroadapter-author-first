@@ -1,0 +1,114 @@
+{
+  "utc": "2026-09-27T23:35:35.205958+00:00",
+  "completed_epochs": 600,
+  "global_steps": 51600,
+  "global_samples": 5160000,
+  "skipped_steps": 0,
+  "resume_exit_code": 0,
+  "checkpoint_path": "benchmarks/subj01-v1/upstream/mindbridge/train_logs/benchmark-subj01-vanilla-seed42/last.pth",
+  "checkpoint_sha256": "5bd75a992755d70183633df514754b9084b0a4a681284afc83621b2387aac9ad",
+  "full_state_verified": true,
+  "state_verification": "CPU deserialize all final states; export equals model state and FP32 reconstruction from both ZeRO partitions; finite moments and readable RNG/loader/scheduler",
+  "tensor_count": 28,
+  "parameters": 561283712,
+  "export_equals_engine_module": true,
+  "export_equals_both_zero_partitions": true,
+  "optimizer_steps": {
+    "0": [
+      51601.0,
+      51601.0
+    ],
+    "1": [
+      51601.0,
+      51601.0
+    ]
+  },
+  "optimizer_step_offset": "DS0.9.5 initializes optimizer states with one zero-gradient step; engine records51600 actual training updates",
+  "scheduler_last_epoch": 51600,
+  "learning_rates": [
+    2.4000055952305e-07,
+    2.4000055952305e-07
+  ],
+  "loader_generator_sha256": [
+    "0d8e155239915d2ee182a891488c08cff4b2f1337a674a0542c9f6148dcc2592",
+    "0d8e155239915d2ee182a891488c08cff4b2f1337a674a0542c9f6148dcc2592"
+  ],
+  "trainer_metadata": {
+    "completed_epoch_zero_based": 599,
+    "next_epoch": 600,
+    "best_sim": 1.1191627979278564,
+    "best_epoch": 590,
+    "selection": "Original rank0 native validation similarity; shared decision across ranks"
+  },
+  "protected_files_unchanged": {
+    "reports/best_so_far.json": "087e8b96b417c312076172bac5913b412c050a52fc0ea86ce5fcfad12246365a",
+    "runs/subject01-author-fp32-seed42-lr5e-5-from100/exports/epoch-120/inference.pt": "bed56671f4e48ccf031e41c1daa36d473a4e325e94e3264aa1b21e08080fd798",
+    "runs/subject01-author-fp32-seed42-lr5e-5-from100/exports/epoch-120/metadata.json": "fa5e25f16c0942ba521b17f43a224f55557bdcd6b4e7d1db10f947e46cbd17ca",
+    "runs/subject01-author-fp32-seed42-lr5e-5-from100/exports/epoch-120/parcel_vertices.pt": "a5aceb7d1ec1ad6c8193cbe6f0fd2db23d298a6d4182e74aeac3a980a7b86ad3"
+  },
+  "files": [
+    {
+      "path": "benchmarks/subj01-v1/upstream/mindbridge/train_logs/benchmark-subj01-vanilla-seed42/last.pth",
+      "bytes": 2245139483,
+      "sha256": "5bd75a992755d70183633df514754b9084b0a4a681284afc83621b2387aac9ad"
+    },
+    {
+      "path": "benchmarks/subj01-v1/upstream/mindbridge/train_logs/benchmark-subj01-vanilla-seed42/last/latest",
+      "bytes": 13,
+      "sha256": "68d0ca762047fd48fdd6a06a5e6465209289c028bfd63f5557a110ff1ebc15ac"
+    },
+    {
+      "path": "benchmarks/subj01-v1/upstream/mindbridge/train_logs/benchmark-subj01-vanilla-seed42/last/loader_generator_0.pt",
+      "bytes": 5836,
+      "sha256": "8a8d0ffe7f977021d8bbab829be3e81514024b5e0436b281d7978abcc657a804"
+    },
+    {
+      "path": "benchmarks/subj01-v1/upstream/mindbridge/train_logs/benchmark-subj01-vanilla-seed42/last/loader_generator_1.pt",
+      "bytes": 5836,
+      "sha256": "b5f95a5a1f254705729732d66913dba93ff8e02afd8431ae9833af5acf4b6b64"
+    },
+    {
+      "path": "benchmarks/subj01-v1/upstream/mindbridge/train_logs/benchmark-subj01-vanilla-seed42/last/pytorch_model/mp_rank_00_model_states.pt",
+      "bytes": 2245142439,
+      "sha256": "2dd470d7aef409b429573205269d4ac5701289da2df37800c7ba21500463cc5d"
+    },
+    {
+      "path": "benchmarks/subj01-v1/upstream/mindbridge/train_logs/benchmark-subj01-vanilla-seed42/last/pytorch_model/zero_pp_rank_0_mp_rank_00_optim_states.pt",
+      "bytes": 3367708165,
+      "sha256": "8c6808035f597c14f9a8d266436bd23be7dd9e6acb81fcb24e8ae28d7229c616"
+    },
+    {
+      "path": "benchmarks/subj01-v1/upstream/mindbridge/train_logs/benchmark-subj01-vanilla-seed42/last/pytorch_model/zero_pp_rank_1_mp_rank_00_optim_states.pt",
+      "bytes": 3367706949,
+      "sha256": "14063a2d9f516dcb14668fb2c65edfc6ef6d040a664b98982237e390fefcfc08"
+    },
+    {
+      "path": "benchmarks/subj01-v1/upstream/mindbridge/train_logs/benchmark-subj01-vanilla-seed42/last/random_states_0.pkl",
+      "bytes": 15691,
+      "sha256": "4482b25bb68d69282a5af4b74b1410aef834f6be4523c382f5345556c362c823"
+    },
+    {
+      "path": "benchmarks/subj01-v1/upstream/mindbridge/train_logs/benchmark-subj01-vanilla-seed42/last/random_states_1.pkl",
+      "bytes": 15691,
+      "sha256": "35e407acc231a0778dc7191e61f2cb68780eb14bab5a53a66e9c67c35688c4ae"
+    },
+    {
+      "path": "benchmarks/subj01-v1/upstream/mindbridge/train_logs/benchmark-subj01-vanilla-seed42/last/scheduler.bin",
+      "bytes": 3367706147,
+      "sha256": "349ead7583b27b7c5c4b68112762c4f1cf2441e1f987b18936827cd0d0a6cf18"
+    },
+    {
+      "path": "benchmarks/subj01-v1/upstream/mindbridge/train_logs/benchmark-subj01-vanilla-seed42/last/trainer-recovery.json",
+      "bytes": 208,
+      "sha256": "94c8fc6b7ba0aae1c8c83f3ef4e2fcdb614a8c14ebfd2e6e4c58de5686fc7cf9"
+    },
+    {
+      "path": "benchmarks/subj01-v1/upstream/mindbridge/train_logs/benchmark-subj01-vanilla-seed42/last/zero_to_fp32.py",
+      "bytes": 23607,
+      "sha256": "c3d9f6d855fce9b344e825d0e57822d9798e94d25fe4f284a8a0d3945efa4723"
+    }
+  ],
+  "cuda_initialized": false,
+  "inference_selection": "Fixed complete600 last, not best",
+  "limitation": "Completion audit is CPU state integrity/reconstruction, not a new distributed resume run or completed image benchmark"
+}

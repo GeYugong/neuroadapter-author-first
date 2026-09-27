@@ -47,3 +47,8 @@ mindbridge_k1_native.py now compiles the pinned original generation prefix into 
 ## MindBridge guarded runner CPU ready
 
 mindbridge_reconstruct_k1.py and launch-mindbridge-test100.sh/testfull.sh now integrate the prepared original generation function and strict MindSingle load. Both CPU ID/brain/SHA preflights pass; live-training rejection was exercised without creating outputs. Generation requires a real independently checked mindbridge-training-complete.json (600epochs/51600updates/exit0/full_state_verified/checkpoint_sha256), final599 last metadata and a free selected GPU. No completion receipt exists while training is live. Actual first-target native-prefix versus GT-free GPU tensor identity is mandatory; one additional check, no candidate selection. Evaluate original FP32 tensor, retain PNG only for atlas. Full982 additionally requires actual first100 scores/32atlas review/publication receipt; see protocol for schema. No actual GPU reconstruction has run yet.
+
+
+## Live transition 2026-09-28 07:44 +0800
+
+MindBridge full600 exited0; final export equals both ZeRO partitions,51600 updates and protected inputs unchanged. See mindbridge-training-complete.json. GPU identity initially failed due native repeated-forward nondeterminism; failed attempt retained. Process-local deterministic algorithms plus CUBLAS workspace yielded exact original-prefix/adapter FP32 equality; numerical-runtime deviation explicitly disclosed, no science parameter changes. Retry is now generating fixed100 onGPU1. Takagi test100 generation/scoring exit0; all32 atlas AI reviewed and texture/semantic failures disclosed in TAKAGI_test100_ids_ZH.md. Publish this real result then continue locked full982, retaining existing100 and settings.
