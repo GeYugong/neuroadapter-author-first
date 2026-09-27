@@ -16,7 +16,8 @@ EXPECTED_SOURCE = '2a3943ff5b619db6f85f16a5e7ff1331d25def55'
 MODEL_NAME = 'benchmark-subj01-vanilla-seed42'
 OUT = SOURCE / 'train_logs' / MODEL_NAME
 PY = B / 'envs/mindbridge/bin/python'
-CMD = [str(PY), '-m', 'accelerate.commands.launch', '--multi_gpu',
+CMD = [str(PY), '-m', 'accelerate.commands.launch',
+       '--config_file', str(B / 'mindbridge-accelerate.yaml'), '--multi_gpu',
        '--num_processes', '2', '--gpu_ids', '0,1', '--main_process_port', '29501',
        '--mixed_precision', 'no', str(B / 'mindbridge_author_train.py'),
        '--model_name', MODEL_NAME, '--subj_list', '1',

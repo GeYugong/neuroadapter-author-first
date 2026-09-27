@@ -1,0 +1,15 @@
+{
+  "utc": "2026-09-27T05:37:30.061723+00:00",
+  "checkpoint": "/data1/matengyu/geyugong/neuroadapter-author-first/benchmarks/subj01-v1/upstream/mindbridge/train_logs/benchmark-subj01-vanilla-seed42/last/pytorch_model/mp_rank_00_model_states.pt",
+  "global_steps": 86,
+  "global_samples": 8600,
+  "skipped_steps": 0,
+  "dp_world_size": 2,
+  "first_training_and_validation_elapsed_s": 85,
+  "first_logged_train_loss": 6.95,
+  "epoch_budget": 600,
+  "author_scheduler_total_steps": 51600,
+  "measurement_limits": "First epoch includes validation but excludes subsequent checkpoint I/O; stable epoch timing pending. No change to original scheduler or LR scaling.",
+  "attempt1": "Exited1 before ranks/updates: shared default Accelerate config had unsupported debug key. Retained logs; fixed by explicit workspace-local compatible config.",
+  "source_commit": "2a3943ff5b619db6f85f16a5e7ff1331d25def55"
+}

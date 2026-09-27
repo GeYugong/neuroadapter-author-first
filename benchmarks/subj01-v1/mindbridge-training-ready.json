@@ -4,6 +4,8 @@
     "/data1/matengyu/geyugong/neuroadapter-author-first/benchmarks/subj01-v1/envs/mindbridge/bin/python",
     "-m",
     "accelerate.commands.launch",
+    "--config_file",
+    "/data1/matengyu/geyugong/neuroadapter-author-first/benchmarks/subj01-v1/mindbridge-accelerate.yaml",
     "--multi_gpu",
     "--num_processes",
     "2",

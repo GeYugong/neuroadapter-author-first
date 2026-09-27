@@ -17,3 +17,9 @@ All new assets/environments under this workspace; old project read-only. GPU0 Mi
 ## Parallel MindBridge preparation (2026-09-27)
 
 User authorized preparation alongside Takagi. See [MINDBRIDGE_PREPARATION.md](MINDBRIDGE_PREPARATION.md): official Subject1 data downloads and isolated environment installation are CPU/network only. Original two-GPU600epoch training waits for both GPUs to be available and first-epoch budget measurement; no automatic single-GPU recipe substitution. No new NeuroAdapter work.
+
+## Live transition 2026-09-27 13:37 +0800
+
+Takagi original SD1.4 extraction finished 9841/9841 with exit0; see takagi-feature-complete.json. CPU-only original RidgeCV assembly/early-latent/ventral-caption stages are now sequentially running in bench-takagi-regression, with unchanged author alphas and StandardScaler. himalaya0.4.11 is installed only in the P1 environment (upstream requirement is unpinned). No Takagi reconstruction scores yet.
+
+MindBridge original two-GPU Subject1 Vanilla600epoch training has actually started in bench-mindbridge-training. Its first complete checkpoint records86 optimizer steps,8600 global samples including distributed batching,0 skipped steps,2 ranks. Epoch1 (second actual epoch) is running. Original seed42/batch50 per rank/FP32/DeepSpeedZeRO2/clipping1/OneCycleLR remain. First attempt exited before any rank/update because a newer shared Accelerate default config had an unsupported debug key; preserved attempt1 logs and fixed only explicit workspace config selection. See mindbridge-first-epoch.json and mindbridge-training-start.json. No source training loop changes.

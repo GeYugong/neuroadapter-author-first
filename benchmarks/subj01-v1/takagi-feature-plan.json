@@ -1,0 +1,23 @@
+{
+  "utc": "2026-09-26T22:40:03.402629+00:00",
+  "source_sha256": "23c5ab1b3ee89fd68fc5a1689db1ade074c0f62272d221a0b2248cd104e8a3ce",
+  "scope": "Author frozen SD1.4 feature-target extraction; GT allowed only here, never reconstruction conditioning",
+  "n_ids": 9841,
+  "train_unique": 8859,
+  "test_unique": 982,
+  "order": "Ascending NSD ID0 union of needed train/test IDs; outputs named by ID and regression keeps native order",
+  "seed": 42,
+  "rng_disclosure": "Author main seeds42 once per contiguous requested range. This adapter seeds42 once for ascending selected9841 IDs, omitting unrelated73k IDs; stochastic posterior/decode history differs from a full contiguous73k execution. No numerical identity with unknown historical range schedule claimed. Original extra sampler.decode is retained even though output unused.",
+  "caption_source": "Original NSDAccess/pycocotools annotations trainval2017, no curated captions; native list order unchanged",
+  "caption_sha256": "76cd9e7f52baa9a4d20e34566cda2f2900009632764da6b7e3c8c5755895ee93",
+  "resolution": 320,
+  "latent_dim": 6400,
+  "caption_mean": true,
+  "steps": 50,
+  "strength": 0.8,
+  "scale": 5.0,
+  "batch": 1,
+  "precision": "author autocast inside no_grad/ema scope; original latent encode outside autocast retained",
+  "cpu_imports_pass": true,
+  "gpu_started": false
+}

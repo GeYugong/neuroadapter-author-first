@@ -1,0 +1,14 @@
+{
+  "utc": "2026-09-27T05:38:08.982700+00:00",
+  "command": "bash benchmarks/subj01-v1/launch-takagi-regression.sh",
+  "tmux": "bench-takagi-regression",
+  "GPU": "none",
+  "stages": [
+    "assemble original feature rows",
+    "author early/init_latent RidgeCV",
+    "author ventral/c RidgeCV"
+  ],
+  "training_scope": "Brain-side regressors only; frozen SD1.4 unchanged",
+  "himalaya": "0.4.11",
+  "status": "running; no reconstruction metrics yet"
+}
