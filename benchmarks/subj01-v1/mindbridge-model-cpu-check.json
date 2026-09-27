@@ -1,0 +1,21 @@
+{
+  "utc": "2026-09-27T00:34:48.526454+00:00",
+  "scope": "CPU-only complete author model and frozen CLIP load; no images, scores, gradients, or training updates",
+  "source_commit": "2a3943ff5b619db6f85f16a5e7ff1331d25def55",
+  "variant": "MindSingle Subject1 Vanilla",
+  "h_size": 2048,
+  "n_blocks": 4,
+  "pool_num": 8192,
+  "trainable_parameter_count": 561283712,
+  "dtype": "float32",
+  "full_author_Clipper_loaded": true,
+  "CLIP_frozen": true,
+  "openai_CLIP_url": "https://openaipublic.azureedge.net/clip/models/b8cca3fd41ae0c99ba7e8951adf17d267cdb84cd88be6f7c2e0eca1737a03836/ViT-L-14.pt",
+  "openai_CLIP_sha256": "b8cca3fd41ae0c99ba7e8951adf17d267cdb84cd88be6f7c2e0eca1737a03836",
+  "HF_CLIP_sha256": "f1a17cdbe0f36fec524f5cafb1c261ea3bbbc13e346e0f74fc9eb0460dedd0d3",
+  "engineering_adaptation": "Exact official model-name resolution redirected to existing local assets; no model/preprocessing methods replaced.",
+  "CPU_initialization_is_discarded": true,
+  "training_initialization": "Original main.py seed42 during actual training; CPU probe weights will never be resumed.",
+  "new_training_updates": 0,
+  "GPU_memory_or_DeepSpeed_not_yet_validated": true
+}
