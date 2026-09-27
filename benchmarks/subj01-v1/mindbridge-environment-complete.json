@@ -1,0 +1,30 @@
+{
+  "utc": "2026-09-27T00:03:52.635142+00:00",
+  "install_exit": 0,
+  "author_CPU_imports": true,
+  "pip_check": "No broken requirements found.",
+  "environment_sha256": "95c5d72b1688976caa3475f7186c9c2dee9cfe62a5278c6cc6d5e9c209c4e696",
+  "CUDA_visible_during_check": false,
+  "GPU_training_validated": false,
+  "formal_training_started": false,
+  "new_training_updates": 0,
+  "data_preparation": "still downloading; no DATA_COMPLETE yet",
+  "failed_attempts_preserved": [
+    {
+      "attempt": 1,
+      "exit": 1,
+      "reason": "obsolete inherited proxy17897"
+    },
+    {
+      "attempt": 2,
+      "exit": 1,
+      "reason": "gpustat setuptools-scm build dependency missing"
+    },
+    {
+      "attempt": 3,
+      "exit": 1,
+      "reason": "optional unused clip-retrieval/img2dataset conflicts with pinned wandb"
+    }
+  ],
+  "repair_scope": "isolated environment transport/build prerequisites; exclude retrieval-server package unused by original src modules; no author scientific source changes"
+}
