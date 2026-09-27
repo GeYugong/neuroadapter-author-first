@@ -37,3 +37,8 @@ MindBridge has passed the next real synchronized checkpoint (zero-based430) and 
 ## MindBridge inference CPU preparation 2026-09-28
 
 Original prepare_VD loaded fully on CPU in the isolated MindBridge environment (16 dual transformers, UniPC,FP32,mix0.5), and all982 native test brain repeats/ID mappings were prepared and validated without extracting GT JPG. See mindbridge-inference-cpu-ready.json and MINDBRIDGE_INFERENCE_PROTOCOL_ZH.md. Preserve max-pool EACH repeat before mean; do not pool a pre-averaged brain vector. The future K1 row freezes full600 last.pth, original inference.sh CFG5/default20steps/seed42/mix0.5, with both predicted image/text pathways and no optional AE added. IMPORTANT: original utils.reconstruction uses GT CLIP for native best-of8 selection. K1 adapter must omit that selector/plotting and not accept GT; the GT-dependent native-selected row remains NA under the user prohibition, no invented replacement selector. GPU generation remains pending, do not interrupt or duplicate training.
+
+
+## MindBridge K1 generation-prefix adapter preparation
+
+mindbridge_k1_native.py now compiles the pinned original generation prefix into a GT-free function, statically preserving the frozen Vanilla branch. test_mindbridge_k1_native.py passed CPU synthetic-module differential tests against the original prefix, including both predicted conditions, local RNG and forbidden CLIP selector checks; see mindbridge-k1-adapter-cpu-test.json. No real model or GPU candidate was generated. The full guarded checkpoint/ID/output runner remains to be integrated after reading these reusable preparations; actual600 completion and GPU prefix identity are still required before benchmark outputs.

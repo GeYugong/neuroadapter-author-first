@@ -1,0 +1,31 @@
+{
+  "source_sha256": "cdf5f71c5a0c8d30b3dc3deb16e43f0b019f7abbda524bff4825c2c840021a99",
+  "changes": {
+    "image_slice": 1,
+    "memory_branch": 4,
+    "clip_device": 1,
+    "lowlevel_branch": 1
+  },
+  "adapter_ast_sha256": "110e08dd3ee033b97dca004ac015ef8e413f73422ee196945306a4453ff7204d",
+  "protocol": {
+    "steps": 20,
+    "cfg": 5,
+    "seed": 42,
+    "K": 1,
+    "lowlevel": false,
+    "memory_efficient": false
+  },
+  "gt_argument": false,
+  "selector_and_plotting_removed": true,
+  "cpu_stub_differential_equal": [
+    true,
+    true
+  ],
+  "both_predicted_conditions_present": true,
+  "native_global_rng_unchanged": true,
+  "repeat_call_identical": true,
+  "cuda_initialized": false,
+  "real_model_inference": false,
+  "benchmark_candidates": 0,
+  "limitation": "Synthetic modules verify adapter control flow only; full600 weights, actual GPU identity and benchmark remain pending"
+}

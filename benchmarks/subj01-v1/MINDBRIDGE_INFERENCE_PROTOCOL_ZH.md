@@ -27,3 +27,11 @@
 本次K1无选图，因此后续适配必须截去这一GT选择和绘图部分，生成模块不接收真图；保留此前原生脑条件、随机数、去噪和VAE解码。不能仅因K1的argmax必为0就继续让GT进入生成入口。原生8候选的这个GT选择设置不纳入用户要求的无GT选择B表，明确NA及原因；不临时发明选择器，也不把它与K1实测或文献数值混为一行。
 
 下一步：等待MindBridge完整600轮退出，实际运行该K1路径，与固定NA/MindEye1/Brain-Diffuser/Takagi按同100/982池评价；首100八指标与全部固定32图册先发布。当前没有MindBridge重建分数。
+
+## K1生成函数适配与CPU差分验证
+
+mindbridge_k1_native.py已从固定SHA的原utils.reconstruction直接编译生成部分。函数签名仅接收脑向量、脑模型、UNet、VAE、scheduler和device，无GT或CLIP选择参数；在原best_picks之前截断，保留原两路脑预测条件归一化、CFG、私有seed42生成器、20步去噪和VAE解码。对原Vanilla已固定的mem_efficient=False和无可选AE分支做静态展开，没有新增替代生成算法。
+
+CPU测试实际退出0：用轻量合成模块，将适配函数输出与未经改写的原函数生成前缀作逐元素比较；参考前缀分别传全零/全一合成占位图，两次均完全一致，CLIP编码函数一旦被调用会直接报错。两路预测条件均进入334-token条件，20次去噪调用、全局CPU RNG不变和重复调用一致均已验证，CUDA未初始化。见[mindbridge-k1-adapter-cpu-test.json](mindbridge-k1-adapter-cpu-test.json)。合成模块只验证代码适配，不是实际模型结果，也不替代后续GPU接入检查。
+
+当前只有生成函数适配，不是可启动完整评价的控制器。后续仍须在600轮完整退出后检查最终last及双rank恢复状态，接入实际模型和锁定ID，首个固定目标比较原生成前缀与适配路径的实际GPU输出，保留候选记录与SHA、断点和退出码，再评分/图册。不得将本CPU测试写成MindBridge重建完成。
