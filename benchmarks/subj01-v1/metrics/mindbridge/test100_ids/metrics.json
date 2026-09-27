@@ -1,0 +1,23 @@
+{
+  "feature_batch": 16,
+  "negative_pool": "all requested IDs; unchanged original formula",
+  "method": "mindbridge",
+  "n_eval": 100,
+  "K": 1,
+  "selection": "none",
+  "eval_ids_hash": "63380f171be2852c280fc7c0c2737195e25c808adf4bf9c10c23981b4961732a",
+  "mean": {
+    "PixCorr": 0.1626665508362284,
+    "SSIM": 0.25419611830167893,
+    "Alex(2)": 88.0909090909091,
+    "Alex(5)": 96.34343434343435,
+    "Incep": 90.87878787878788,
+    "CLIP": 89.40404040404039,
+    "Eff": 0.7612495817380923,
+    "SwAV": 0.4443046612623553
+  },
+  "metric_sha256": "646ee1f3673b033cd6ee485058db16a3d24fae7624d793fe5174008ad2e15f7d",
+  "GT": "original NSD425x425 RGB uint8/255",
+  "prediction_serialization": "Original FP32 tensor; PNG is atlas-only",
+  "prediction_resize": "author resize_images bilinear align_corners=False to425 before metric-specific preprocessing"
+}

@@ -36,8 +36,8 @@ Eff 使用冻结实现的 EfficientNet-B1。所有识别指标在同一完整评
 
 ## 尚在执行的方法（2026-09-28）
 
-MindBridge(s)已实际训练421/600轮；保存best的双rank同步故障已从完整状态恢复，继续第422轮。恢复审计、原调度器实际行为及限制见[故障恢复记录](MINDBRIDGE_RECOVERY_ZH.md)。训练未完成，重建八指标仍为NA。Takagi原版特征和两套RidgeCV已完成exit0；图像生成与评价等待GPU释放，未用特征相关性充当重建指标。
+MindBridge(s)已完成600轮/51600更新，最终状态审计通过；原保存best故障、恢复及调度器实际行为见[故障恢复记录](MINDBRIDGE_RECOVERY_ZH.md)。以下首100图结果已经实际完成，完整982图继续执行。
 
 ## 2026-09-28新增进度
 
-[Takagi原CVPR首100八指标与固定32图册](TAKAGI_test100_ids_ZH.md)已实际完成。该运行呈现广泛纹理化和主体失败，未达到论文视觉质量，不能把流程跑通称为论文结果复现成功；全部失败观察保留。MindBridge已完成600轮及最终状态审计，首100正式生成进行中；尚无MindBridge重建分数。
+[Takagi原CVPR首100八指标与固定32图册](TAKAGI_test100_ids_ZH.md)已实际完成。该运行呈现广泛纹理化和主体失败，未达到论文视觉质量，不能把流程跑通称为论文结果复现成功；全部失败观察保留。[MindBridge(s)首100八指标与固定32图册](MINDBRIDGE_test100_ids_ZH.md)也已生成、评分exit0，全部32图已AI非盲审阅。相对NeuroAdapter七项更好、SSIM较低，MindEye1八项均更好。推理确定性数值运行设置差异已披露。Takagi已发布首100并运行完整982；MindBridge随后复用首100继续完整982。

@@ -52,3 +52,7 @@ mindbridge_reconstruct_k1.py and launch-mindbridge-test100.sh/testfull.sh now in
 ## Live transition 2026-09-28 07:44 +0800
 
 MindBridge full600 exited0; final export equals both ZeRO partitions,51600 updates and protected inputs unchanged. See mindbridge-training-complete.json. GPU identity initially failed due native repeated-forward nondeterminism; failed attempt retained. Process-local deterministic algorithms plus CUBLAS workspace yielded exact original-prefix/adapter FP32 equality; numerical-runtime deviation explicitly disclosed, no science parameter changes. Retry is now generating fixed100 onGPU1. Takagi test100 generation/scoring exit0; all32 atlas AI reviewed and texture/semantic failures disclosed in TAKAGI_test100_ids_ZH.md. Publish this real result then continue locked full982, retaining existing100 and settings.
+
+## Live transition 2026-09-28 07:51 +0800
+
+Takagi test100 published d83e69c; full982 is running in bench-takagi-testfull onGPU0, reusing existing100. MindBridge600 last actual test100 generation/scoring both exit0; all32 atlas AI reviewed with failures retained. Publish MINDBRIDGE_test100_ids_ZH.md and review, then create a real publication receipt with that commit and launch existing launch-mindbridge-testfull.sh onGPU1. No retraining or scientific parameter changes.
