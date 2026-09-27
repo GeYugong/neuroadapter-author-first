@@ -1,0 +1,12 @@
+{
+  "utc": "2026-09-27T05:41:56.686769+00:00",
+  "source_sha256": "b4e7626028f90d9d856984e612e6f7be9e9464ce05bed3574d9086551ac9fb5e",
+  "himalaya_version": "0.4.11",
+  "source_requirement": "himalaya (unpinned upstream)",
+  "brain_train": "24980 single trials, raw original int16 cast float32 by author",
+  "brain_test": "982 original repeat means cast float32 by author",
+  "feature_order": "train_trial_ids/test_unique_ids from already verified native brain preparation",
+  "IO_adaptation": "Load per-ID author features into flattened memory-mapped rows; identical flatten order to make_subjstim.py stack then ridge.py reshape. Paths only changed in original ridge.py; fitted pipeline saved additionally.",
+  "fit": "Original StandardScaler and himalaya RidgeCV, original seven alphas, original default CV; early->init_latent and ventral->c sequentially",
+  "test_use": "Original final correlation print only, not parameter or model selection"
+}

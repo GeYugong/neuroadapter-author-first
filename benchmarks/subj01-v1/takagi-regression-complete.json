@@ -1,0 +1,58 @@
+{
+  "utc": "2026-09-27T06:33:58.662372+00:00",
+  "exit_code": 0,
+  "completed_regressions": [
+    {
+      "start_utc": "2026-09-27T05:41:56.951201+00:00",
+      "complete_utc": "2026-09-27T05:51:35.535499+00:00",
+      "target": "init_latent",
+      "roi": "early",
+      "shape": [
+        982,
+        6400
+      ],
+      "finite": true,
+      "original_script_completed": true,
+      "source_sha256": "b4e7626028f90d9d856984e612e6f7be9e9464ce05bed3574d9086551ac9fb5e",
+      "pipeline": "/data1/matengyu/geyugong/neuroadapter-author-first/benchmarks/subj01-v1/processed/takagi-regression/init_latent.joblib"
+    },
+    {
+      "start_utc": "2026-09-27T05:51:35.788315+00:00",
+      "complete_utc": "2026-09-27T06:25:27.553315+00:00",
+      "target": "c",
+      "roi": "ventral",
+      "shape": [
+        982,
+        59136
+      ],
+      "finite": true,
+      "original_script_completed": true,
+      "source_sha256": "b4e7626028f90d9d856984e612e6f7be9e9464ce05bed3574d9086551ac9fb5e",
+      "pipeline": "/data1/matengyu/geyugong/neuroadapter-author-first/benchmarks/subj01-v1/processed/takagi-regression/c.joblib"
+    }
+  ],
+  "artifacts": [
+    {
+      "path": "processed/takagi-regression/init_latent.joblib",
+      "bytes": 151669595,
+      "sha256": "2308f46290d1a58318378dc709c555abe6aac2ddc5985cbb4fbbdc34a50c1ec7"
+    },
+    {
+      "path": "processed/takagi-regression/c.joblib",
+      "bytes": 1799337371,
+      "sha256": "4c98f62d273b49d41a018c054fa8b5bb8c09495728545025e41fe9e78a8195d9"
+    },
+    {
+      "path": "processed/takagi-regression/subj01_early_scores_init_latent.npy",
+      "bytes": 25139328,
+      "sha256": "7efc06496bae6a4ee4059891719afd639fdbb17ec9f4a72dd5de0e31b8f254ff"
+    },
+    {
+      "path": "processed/takagi-regression/subj01_ventral_scores_c.npy",
+      "bytes": 232286336,
+      "sha256": "42beb788bd74a6ee09f09da0ca3f6262f06bcf8e5d720f5bf98c33828df1625a"
+    }
+  ],
+  "reconstruction_status": "Not started. Both GPUs are occupied by the already authorized MindBridge run; retain all predictions and run original frozen SD1.4 CVPR reconstruction when capacity is available.",
+  "benchmark_metrics": "NA until actual images are generated and scored. Feature correlations are not reconstruction scores."
+}
