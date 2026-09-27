@@ -1,0 +1,10 @@
+{
+  "utc": "2026-09-27T18:39:31.593160+00:00",
+  "test": "Occupied-GPU guard rejects before model loading/output creation",
+  "expected_nonzero_exit": 1,
+  "guard_passed": true,
+  "generation_started": false,
+  "python_compile_passed": true,
+  "bash_syntax_passed": true,
+  "GPU_inference_and_pixel_identity": "Not tested until training releases GPU"
+}

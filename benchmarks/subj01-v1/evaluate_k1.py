@@ -1,6 +1,6 @@
 from pathlib import Path
 import argparse,os,sys,json,hashlib
-p=argparse.ArgumentParser();p.add_argument('--method',choices=['neuroadapter','mindeye1','brain-diffuser'],required=True);p.add_argument('--ids',type=Path,required=True);p.add_argument('--feature-batch',type=int,default=0);p.add_argument('--output-tag',default=None);a=p.parse_args()
+p=argparse.ArgumentParser();p.add_argument('--method',choices=['neuroadapter','mindeye1','brain-diffuser','takagi'],required=True);p.add_argument('--ids',type=Path,required=True);p.add_argument('--feature-batch',type=int,default=0);p.add_argument('--output-tag',default=None);a=p.parse_args()
 B=Path(__file__).resolve().parent;R=B.parents[1];sys.path.insert(0,str(R))
 os.environ['TORCH_HOME']=str(R/'runtime/torch');os.environ['AUTHOR_SWAV_SOURCE']=str(R/'runtime/swav');os.environ['AUTHOR_CLIP_PATH']=str(R.parent/'neuroadapter-subject1-research/models/evaluation/clip/ViT-L-14.pt')
 import numpy as np,torch
@@ -19,7 +19,7 @@ for i in ids:
    assert int(d['image_id'])==i and d['candidate_images'].shape[0]==1
    img=d['candidate_images'][0].copy()
  else:
-  image_dir='mindeye1' if a.method=='mindeye1' else 'brain-diffuser-full982'
+  image_dir={'mindeye1':'mindeye1','brain-diffuser':'brain-diffuser-full982','takagi':'takagi'}[a.method]
   img=np.array(Image.open(B/'outputs'/image_dir/f'{i}.png').convert('RGB'))
  imgs.append(torch.from_numpy(img).permute(2,0,1).float()/255)
 pred=torch.stack(imgs);pred=m.resize_images(pred,gt.shape[2:])
