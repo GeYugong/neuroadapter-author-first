@@ -1,0 +1,21 @@
+{
+  "utc": "2026-09-27T19:08:31.233855+00:00",
+  "native_test_inputs": 982,
+  "input_mapping_sha256": "b5bfd7f30f94c1a717961675e40965c915df21034a3ef3aa85e8df58e3bf63d6",
+  "train_val_disjoint": true,
+  "original_prepare_VD_cpu_loaded": true,
+  "recon_source_sha256": "25d51784be7fcdda765df60ec30c11ba7ea272162be129cf98a21705b07deb5c",
+  "scheduler": "UniPCMultistepScheduler",
+  "dual_transformers": 16,
+  "image_text_mix": 0.5,
+  "precision": "FP32, original from_pretrained default",
+  "image_unet_parameters": 1126760324,
+  "cuda_initialized": false,
+  "training_updates": 0,
+  "generated_candidates": 0,
+  "checkpoint_policy": "Original inference.sh last.pth, after full600 training and complete exit; never select by test",
+  "native_sampling": "inference.sh CFG5, options.py20steps, seed42; K1 benchmark replaces native8",
+  "lowlevel_policy": "Original inference.sh does not supply autoencoder_name; no optional MindEye autoencoder grafted into Vanilla",
+  "ground_truth_policy": "Original utils.reconstruction selects native candidates using CLIP of GT image; this selector/plotting must be omitted for K1 and is disallowed in a GT-free native-selection table",
+  "status": "CPU assets and input mapping ready;600epoch checkpoint and actual GPU K1 identity/generation/evaluation still pending"
+}
