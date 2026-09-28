@@ -1,0 +1,21 @@
+{
+  "utc": "2026-09-28T06:06:39.968834+00:00",
+  "A_five_methods_complete": true,
+  "B_mindeye_native16_complete": true,
+  "B_brain_diffuser_reused_original_K1": true,
+  "all_eight_methods_reproduced": false,
+  "native_blocked": [
+    "Takagi five-candidate correlation aggregation incompatible with frozen single-output metrics",
+    "MindBridge GT-dependent selector",
+    "NeuroAdapter matching selector assets unverified"
+  ],
+  "asset_blocked": [
+    "Cortex2Image",
+    "DREAM",
+    "MindFormer"
+  ],
+  "author_outputs_rescored": "NA: reliable mapped assets unavailable",
+  "literature_reference": "NA: no unverified numbers inserted",
+  "K1_tables_and_atlases_unchanged_since": "ecd81a8",
+  "next_experiment_authorized": false
+}

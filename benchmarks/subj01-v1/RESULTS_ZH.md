@@ -45,3 +45,7 @@ MindBridge(s)已完成600轮/51600更新，最终状态审计通过；原保存b
 ## 完整五方法K1汇总（2026-09-28）
 
 [完整982图八项汇总、模型SHA、全部固定图册及限制](RESULTS_K1_FULL_ZH.md)已完成。Takagi与MindBridge生成评分均exit0，逐输出SHA/保护检查通过，GPU已释放。上文原P0表与早期进度为历史记录，最新状态以本节和resource_status.csv为准。独立B表原生多候选尚待后补，不混入K1。
+
+## 本轮后续完整交付索引
+
+五方法统一K1同100/982及MindEye1原生16候选B表同100/982已完成，历史结果保留。查看[交付与剩余缺口](DELIVERY_ZH.md)、[完整K1表](RESULTS_K1_FULL_ZH.md)及[原生16完整982](MINDEYE_NATIVE16_test_full_ids_ZH.md)。原生不可接入行、三项资源缺口、C表和文献未实测状态明确列出；不表示八种方法全部复现。

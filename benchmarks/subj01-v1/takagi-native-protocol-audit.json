@@ -1,0 +1,13 @@
+{
+  "utc": "2026-09-28T06:05:23.241771+00:00",
+  "upstream_commit": "e187d4b3db1d647ee3e1b4256a2068ffd15df683",
+  "source_sha256": {
+    "codes/utils/identification.py": "d9a5caf61442cf6ff78cb0f7d2c7262984d14685ca151ea8c76c3b790bb8d13c",
+    "codes/diffusion_sd1/diffusion_decoding.py": "23cfc426025e1a9ccd1c00ba994758d70e685ac9de65a0068340353cffd08d8b"
+  },
+  "K": 5,
+  "selector": null,
+  "aggregation": "mean of five Pearson correlations before pairwise identification comparison",
+  "native5_generated": false,
+  "frozen_eight_metric_compatibility": false
+}

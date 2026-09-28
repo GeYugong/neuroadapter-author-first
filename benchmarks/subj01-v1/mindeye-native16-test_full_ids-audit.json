@@ -1,0 +1,25 @@
+{
+  "utc": "2026-09-28T06:04:00.221961+00:00",
+  "n_eval": 982,
+  "formal_candidates": 15712,
+  "K": 16,
+  "generation_exit": 0,
+  "scoring_exit": 0,
+  "all_candidate_sha_shape_range_finite_passed": true,
+  "all_selected_png_sha_passed": true,
+  "atlas_sha256": {
+    "fixed32-page-1.jpg": "af971fd8df2cebfdc95990341c083b3286ae82c4c5e11c06ee995ac3eb720404",
+    "fixed32-page-2.jpg": "1168ca71a3705c31da7eb42beb9660f9b0e8993eeb6cdbe6fbda624505abc360",
+    "fixed32-page-3.jpg": "09d1c9a308bf47e10eee57c728e6aa2ad53b070d7fe15083fea84fa358a2910e",
+    "fixed32-page-4.jpg": "e9972060e3e09af58ec4dd2608d127d2616c018feed5e85db62d7d2007c2009c"
+  },
+  "review_status": "All four atlas pages byte-identical to actually reviewed test100 atlas; reused existing nonblind AI review, no new review claimed",
+  "protected_original_sha256": {
+    "reports/best_so_far.json": "087e8b96b417c312076172bac5913b412c050a52fc0ea86ce5fcfad12246365a",
+    "runs/subject01-author-fp32-seed42-lr5e-5-from100/exports/epoch-120/inference.pt": "bed56671f4e48ccf031e41c1daa36d473a4e325e94e3264aa1b21e08080fd798",
+    "runs/subject01-author-fp32-seed42-lr5e-5-from100/exports/epoch-120/metadata.json": "fa5e25f16c0942ba521b17f43a224f55557bdcd6b4e7d1db10f947e46cbd17ca",
+    "runs/subject01-author-fp32-seed42-lr5e-5-from100/exports/epoch-120/parcel_vertices.pt": "a5aceb7d1ec1ad6c8193cbe6f0fd2db23d298a6d4182e74aeac3a980a7b86ad3"
+  },
+  "protected_unchanged": true,
+  "metric_sha256": "646ee1f3673b033cd6ee485058db16a3d24fae7624d793fe5174008ad2e15f7d"
+}

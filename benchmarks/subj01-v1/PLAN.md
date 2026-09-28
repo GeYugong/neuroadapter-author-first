@@ -70,3 +70,5 @@ MindEye native16 fixed target probe exited0; raw candidates and author brain-onl
 MindEye native16首100生成与全100负例池八指标评分均exit0，1600原候选逐SHA/形状/范围核验通过；全部固定32图四页已实际AI非盲查看，见MINDEYE_NATIVE16_test100_ids_ZH.md。七项优于K1、SwAV略差，序列化差异已披露，不能称纯K消融。先发布此独立B结果，再原配置复用100推进982；A表不变。
 
 MindEye native16首100已发布3f5d4d7，私有GitHub和四页图册可见核实；真实回执mindeye-native16-test100-publication.json。2026-09-28 10:11+0800在GPU0/tmux bench-mindeye-native16-testfull启动原入口完整982，复用100后生成882，再独立全982负例池评分；启动可用空间约179GiB。查看logs/mindeye1-native16-testfull.log/.exit及mindeye1-native16-scorefull.log/.exit，不重复启动。尚无全982原生16指标。
+
+2026-09-28：MindEye native16完整982生成和全池评分exit0，15712候选SHA/范围/形状通过，固定32图册逐字节相同复用原审阅，保护SHA不变。见MINDEYE_NATIVE16_test_full_ids_ZH.md。B表含MindEye100/982实测及Brain-Diffuser原生K1相同产物100/982复用。Takagi官方identification.py已核实五候选相关系数先均值再比较，无单图选择器，与冻结单输出八指标不兼容；B明确NA，详见TAKAGI_NATIVE_PROTOCOL_AUDIT_ZH.md。MB GT选择、NA选择器资产与另外三个模型资源缺口保留，不自写替代协议。

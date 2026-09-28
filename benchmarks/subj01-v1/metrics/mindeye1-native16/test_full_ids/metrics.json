@@ -1,0 +1,23 @@
+{
+  "feature_batch": 16,
+  "negative_pool": "all requested IDs; unchanged original formula",
+  "method": "mindeye1-native16",
+  "n_eval": 982,
+  "K": 16,
+  "selection": "author brain-predicted CLIP similarity; no GT",
+  "eval_ids_hash": "4c438772ffa978ab8c5f781b8a3fc73df0159ae4892dc39d896f05a413d36441",
+  "mean": {
+    "PixCorr": 0.37840468803255095,
+    "SSIM": 0.2900999530275603,
+    "Alex(2)": 97.25165102320878,
+    "Alex(5)": 98.79637761044364,
+    "Incep": 94.65143220164802,
+    "CLIP": 94.59828389087156,
+    "Eff": 0.635289392008305,
+    "SwAV": 0.3524842583585921
+  },
+  "metric_sha256": "646ee1f3673b033cd6ee485058db16a3d24fae7624d793fe5174008ad2e15f7d",
+  "GT": "original NSD425x425 RGB uint8/255",
+  "prediction_serialization": "Original candidate tensor selected by native brain-only selector; FP32 cast for metrics; PNG is atlas-only",
+  "prediction_resize": "author resize_images bilinear align_corners=False to425 before metric-specific preprocessing"
+}
