@@ -1,0 +1,86 @@
+{
+  "utc": "2026-09-28T01:04:48.135623+00:00",
+  "n_eval": 982,
+  "methods": {
+    "takagi": {
+      "generation_exit": 0,
+      "score_exit": 0,
+      "n_outputs": 982,
+      "all_output_sha_verified": true,
+      "fixed32_atlas_unchanged": {
+        "fixed32-page-3.jpg": "17a6d6fc69f01058145f09f90a5f7b3f95ace9650ca16f358c4ffe7871922a0d",
+        "fixed32-page-4.jpg": "d2c72de02edfd47346f20599a55f7986e81ebb26c3c4aef9ad1317e8575ae5b6",
+        "fixed32-page-1.jpg": "fefb32cd8df68246da236c0f9869ce4c70ff1556605ea238d06ed73f23ea7a6c",
+        "fixed32-page-2.jpg": "aaff4f1aa9d7c8a81a721af35b27ebabc0f6527926e8af221d89d210bea2b2ad"
+      },
+      "AI_review_reused": "AI_REVIEW_TAKAGI_ZH.md",
+      "metrics": {
+        "feature_batch": 16,
+        "negative_pool": "all requested IDs; unchanged original formula",
+        "method": "takagi",
+        "n_eval": 982,
+        "K": 1,
+        "selection": "none",
+        "eval_ids_hash": "4c438772ffa978ab8c5f781b8a3fc73df0159ae4892dc39d896f05a413d36441",
+        "mean": {
+          "PixCorr": 0.27996229278635076,
+          "SSIM": 0.22373896276521554,
+          "Alex(2)": 78.06012817877765,
+          "Alex(5)": 76.55848078875415,
+          "Incep": 66.98597175250326,
+          "CLIP": 69.9965329031642,
+          "Eff": 0.9444053131545502,
+          "SwAV": 0.6748598762040576
+        },
+        "metric_sha256": "646ee1f3673b033cd6ee485058db16a3d24fae7624d793fe5174008ad2e15f7d",
+        "GT": "original NSD425x425 RGB uint8/255",
+        "prediction_serialization": "Existing method-native exported uint8 outputs",
+        "prediction_resize": "author resize_images bilinear align_corners=False to425 before metric-specific preprocessing"
+      }
+    },
+    "mindbridge": {
+      "generation_exit": 0,
+      "score_exit": 0,
+      "n_outputs": 982,
+      "all_output_sha_verified": true,
+      "fixed32_atlas_unchanged": {
+        "fixed32-page-3.jpg": "b10b91af6ba8cb255c8182e1fdf98260ccf0600c691539d1d46b73e2ca0dc254",
+        "fixed32-page-4.jpg": "d7442eaa25f523c5dc98b1d770334037cbe19252a3a841fcc613640e95058701",
+        "fixed32-page-1.jpg": "40ca3d116bae977bc1f0d08f9e28315fe99f5090424216858842d0a59ca14c08",
+        "fixed32-page-2.jpg": "ae3751b87864c6e1bb98ebfc3c075f426d5de8b44b0363e3f77ca20c84ff79c3"
+      },
+      "AI_review_reused": "AI_REVIEW_MINDBRIDGE_ZH.md",
+      "metrics": {
+        "feature_batch": 16,
+        "negative_pool": "all requested IDs; unchanged original formula",
+        "method": "mindbridge",
+        "n_eval": 982,
+        "K": 1,
+        "selection": "none",
+        "eval_ids_hash": "4c438772ffa978ab8c5f781b8a3fc73df0159ae4892dc39d896f05a413d36441",
+        "mean": {
+          "PixCorr": 0.1574088622129944,
+          "SSIM": 0.2527197881406127,
+          "Alex(2)": 85.61704981200862,
+          "Alex(5)": 95.64671736517249,
+          "Incep": 91.35769020763135,
+          "CLIP": 91.1286957279969,
+          "Eff": 0.7617074244548709,
+          "SwAV": 0.4383945680863273
+        },
+        "metric_sha256": "646ee1f3673b033cd6ee485058db16a3d24fae7624d793fe5174008ad2e15f7d",
+        "GT": "original NSD425x425 RGB uint8/255",
+        "prediction_serialization": "Original FP32 tensor; PNG is atlas-only",
+        "prediction_resize": "author resize_images bilinear align_corners=False to425 before metric-specific preprocessing"
+      }
+    }
+  },
+  "protected": {
+    "reports/best_so_far.json": "087e8b96b417c312076172bac5913b412c050a52fc0ea86ce5fcfad12246365a",
+    "runs/subject01-author-fp32-seed42-lr5e-5-from100/exports/epoch-120/inference.pt": "bed56671f4e48ccf031e41c1daa36d473a4e325e94e3264aa1b21e08080fd798",
+    "runs/subject01-author-fp32-seed42-lr5e-5-from100/exports/epoch-120/metadata.json": "fa5e25f16c0942ba521b17f43a224f55557bdcd6b4e7d1db10f947e46cbd17ca",
+    "runs/subject01-author-fp32-seed42-lr5e-5-from100/exports/epoch-120/parcel_vertices.pt": "a5aceb7d1ec1ad6c8193cbe6f0fd2db23d298a6d4182e74aeac3a980a7b86ad3"
+  },
+  "gpu_compute_processes": [],
+  "all_passed": true
+}

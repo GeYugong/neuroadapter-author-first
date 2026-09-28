@@ -1,0 +1,23 @@
+{
+  "feature_batch": 16,
+  "negative_pool": "all requested IDs; unchanged original formula",
+  "method": "takagi",
+  "n_eval": 982,
+  "K": 1,
+  "selection": "none",
+  "eval_ids_hash": "4c438772ffa978ab8c5f781b8a3fc73df0159ae4892dc39d896f05a413d36441",
+  "mean": {
+    "PixCorr": 0.27996229278635076,
+    "SSIM": 0.22373896276521554,
+    "Alex(2)": 78.06012817877765,
+    "Alex(5)": 76.55848078875415,
+    "Incep": 66.98597175250326,
+    "CLIP": 69.9965329031642,
+    "Eff": 0.9444053131545502,
+    "SwAV": 0.6748598762040576
+  },
+  "metric_sha256": "646ee1f3673b033cd6ee485058db16a3d24fae7624d793fe5174008ad2e15f7d",
+  "GT": "original NSD425x425 RGB uint8/255",
+  "prediction_serialization": "Existing method-native exported uint8 outputs",
+  "prediction_resize": "author resize_images bilinear align_corners=False to425 before metric-specific preprocessing"
+}

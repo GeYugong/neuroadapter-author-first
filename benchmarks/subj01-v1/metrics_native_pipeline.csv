@@ -1,2 +1,6 @@
-method,result_source,value,reason
-NA,not_evaluated,NA,Native multiselection not executed; not mixed with K1
+method,K,selection,GT_selection,result_source,value,reason
+MindEye1,16,pinned utils.py compares reconstructed CLIP to brain-predicted proj_embeddings,false,not_evaluated,NA,Separate B-table follow-up pending exact native configuration and memory audit; K1 already complete
+MindBridge(s),8,original GT CLIP similarity,true,blocked,NA,GT-dependent selection forbidden; do not invent replacement; K1 complete
+NeuroAdapter,8,author brain-encoder selector not validated,unknown,blocked,NA,Matching selector asset/preprocessing not verified; K1 complete
+Brain-Diffuser,NA,native protocol audit pending,unknown,not_evaluated,NA,Complete K1 only; no additional native row claimed
+Takagi CVPR2023,NA,native protocol audit pending,unknown,not_evaluated,NA,Complete K1 native first candidate only; no additional native row claimed

@@ -41,3 +41,7 @@ MindBridge(s)已完成600轮/51600更新，最终状态审计通过；原保存b
 ## 2026-09-28新增进度
 
 [Takagi原CVPR首100八指标与固定32图册](TAKAGI_test100_ids_ZH.md)已实际完成。该运行呈现广泛纹理化和主体失败，未达到论文视觉质量，不能把流程跑通称为论文结果复现成功；全部失败观察保留。[MindBridge(s)首100八指标与固定32图册](MINDBRIDGE_test100_ids_ZH.md)也已生成、评分exit0，全部32图已AI非盲审阅。相对NeuroAdapter七项更好、SSIM较低，MindEye1八项均更好。推理确定性数值运行设置差异已披露。Takagi已发布首100并运行完整982；MindBridge首100已发布fc60df6，现也已复用首100继续完整982。
+
+## 完整五方法K1汇总（2026-09-28）
+
+[完整982图八项汇总、模型SHA、全部固定图册及限制](RESULTS_K1_FULL_ZH.md)已完成。Takagi与MindBridge生成评分均exit0，逐输出SHA/保护检查通过，GPU已释放。上文原P0表与早期进度为历史记录，最新状态以本节和resource_status.csv为准。独立B表原生多候选尚待后补，不混入K1。
