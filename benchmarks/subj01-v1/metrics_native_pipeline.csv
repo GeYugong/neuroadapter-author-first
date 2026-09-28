@@ -1,6 +1,6 @@
-method,K,selection,GT_selection,result_source,value,reason
-MindEye1,16,pinned utils.py compares reconstructed CLIP to brain-predicted proj_embeddings,false,not_evaluated,NA,Separate B-table follow-up pending exact native configuration and memory audit; K1 already complete
-MindBridge(s),8,original GT CLIP similarity,true,blocked,NA,GT-dependent selection forbidden; do not invent replacement; K1 complete
-NeuroAdapter,8,author brain-encoder selector not validated,unknown,blocked,NA,Matching selector asset/preprocessing not verified; K1 complete
-Brain-Diffuser,NA,native protocol audit pending,unknown,not_evaluated,NA,Complete K1 only; no additional native row claimed
-Takagi CVPR2023,NA,native protocol audit pending,unknown,not_evaluated,NA,Complete K1 native first candidate only; no additional native row claimed
+method,K,selection,GT_selection,result_source,value,reason,pool,n_eval,PixCorr,SSIM,Alex(2),Alex(5),Incep,CLIP,Eff,SwAV
+MindEye1,16,pinned utils.py compares reconstructed CLIP to brain-predicted proj_embeddings,false,metrics/mindeye1-native16/test100_ids/metrics.json,measured,"Original16 brain-only selection; raw tensor evaluation versus A PNG, not pure K ablation",test100_ids,100,0.3943884853870221,0.29243060079644667,97.95959595959597,98.96969696969695,95.27272727272728,95.18181818181819,0.6010387518903866,0.3460234405401201
+MindBridge(s),8,original GT CLIP similarity,true,blocked,NA,GT-dependent selection forbidden; do not invent replacement; K1 complete,,,,,,,,,,
+NeuroAdapter,8,author brain-encoder selector not validated,unknown,blocked,NA,Matching selector asset/preprocessing not verified; K1 complete,,,,,,,,,,
+Brain-Diffuser,1,original n_samples=1; no selector,false,RESULTS_K1_FULL_ZH.md,reuse_completed_K1,Identical native single-candidate outputs; no new generation claimed,,,,,,,,,,
+Takagi CVPR2023,NA,native protocol audit pending,unknown,not_evaluated,NA,Complete K1 native first candidate only; no additional native row claimed,,,,,,,,,,

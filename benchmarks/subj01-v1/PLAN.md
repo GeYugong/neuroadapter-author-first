@@ -66,3 +66,5 @@ Takagi and MindBridge982 generation/scoring exit0; all PNG and MindBridge origin
 Native B-table fixed first-target MindEye16 GPU probe started under bench-mindeye-native16-probe after K1 publication. See NATIVE_PIPELINE_PLAN_ZH.md and mindeye-native16-plan.json. No K1 rerun or overwrites.
 
 MindEye native16 fixed target probe exited0; raw candidates and author brain-only selected index retained. See mindeye-native16-probe-complete.json for real peak memory and one-target time estimate. Native100 started bench-mindeye-native16-test100 onGPU0, reuses target6489 and chains separate B scoring. GPU1 idle; K1 remains immutable. Full982 B must follow real100 B publication; do not mix native results into K1.
+
+MindEye native16首100生成与全100负例池八指标评分均exit0，1600原候选逐SHA/形状/范围核验通过；全部固定32图四页已实际AI非盲查看，见MINDEYE_NATIVE16_test100_ids_ZH.md。七项优于K1、SwAV略差，序列化差异已披露，不能称纯K消融。先发布此独立B结果，再原配置复用100推进982；A表不变。

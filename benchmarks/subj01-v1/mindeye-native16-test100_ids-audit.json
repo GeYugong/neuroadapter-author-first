@@ -1,0 +1,17 @@
+{
+  "utc": "2026-09-28T02:04:55.370397+00:00",
+  "n_eval": 100,
+  "formal_candidates": 1600,
+  "K": 16,
+  "generation_exit": 0,
+  "scoring_exit": 0,
+  "all_candidate_sha_shape_range_finite_passed": true,
+  "all_selected_png_sha_passed": true,
+  "atlas_sha256": {
+    "fixed32-page-1.jpg": "af971fd8df2cebfdc95990341c083b3286ae82c4c5e11c06ee995ac3eb720404",
+    "fixed32-page-2.jpg": "1168ca71a3705c31da7eb42beb9660f9b0e8993eeb6cdbe6fbda624505abc360",
+    "fixed32-page-3.jpg": "09d1c9a308bf47e10eee57c728e6aa2ad53b070d7fe15083fea84fa358a2910e",
+    "fixed32-page-4.jpg": "e9972060e3e09af58ec4dd2608d127d2616c018feed5e85db62d7d2007c2009c"
+  },
+  "review_status": "Requires real AI review for initial100; full atlas must match prior reviewed bytes"
+}
