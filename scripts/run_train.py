@@ -25,7 +25,7 @@ if args.seed43_replication:
     assert args.target in (100,120) and not args.smoke and not args.run_dir
     assert args.target==100 or args.resume
 elif args.branch_lr_half:
-    assert args.target in (110,120,130,140) and args.resume and not args.smoke and not args.run_dir
+    assert args.target in (110,120,130,140,300) and args.resume and not args.smoke and not args.run_dir
 elif args.stage6:
     assert args.target in (110,120) and args.resume and not args.smoke and not args.run_dir
     checkpoint=root/args.resume

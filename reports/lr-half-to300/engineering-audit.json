@@ -1,0 +1,10 @@
+{
+  "changed_trainer_functions": [
+    "training_loop",
+    "cleanup_checkpoints"
+  ],
+  "all_other_trainer_functions_ast_identical": true,
+  "trainer_source_sha_before": "0ea40f80f226f4f189d86a129ddb491f5e0873b6f65307197b40a9a2b5c53faa",
+  "trainer_source_sha_after": "06adc7bcd58a661a162cf117e1919f69b479067d596536d1acdb6fb96fd394ff",
+  "scope": "Only target admission, loader-state verification, checkpoint retention and export frequency"
+}

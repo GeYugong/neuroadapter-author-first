@@ -1,0 +1,9 @@
+{
+  "valid_140_to300": true,
+  "reject_130": true,
+  "reject_lr": true,
+  "reject_roi": true,
+  "reject_target": true,
+  "retains_all_existing_and_200_250_300_and_last_two": true,
+  "no_real_deletions_in_test": true
+}
