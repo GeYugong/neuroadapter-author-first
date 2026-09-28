@@ -1,0 +1,16 @@
+{
+  "utc": "2026-09-28T18:05:54.748439+00:00",
+  "tmux": "author-lr-half-to300",
+  "training_code_commit": "13415e092e1fdd6f306dfa8ccbec998b7f67c153",
+  "source_epoch": 140,
+  "source_updates": 74480,
+  "dual_rank_exact_resume": true,
+  "next_epoch_order_sha256": "0a575fb6c07b8a505462e793df81e18d75d446ab8727f94f73cedacbfc325433",
+  "active_zero_based_epoch": 140,
+  "completed_microbatches_at_check": 10,
+  "gpu_processes": [
+    "2674490, /data1/matengyu/geyugong/neuroadapter-author-first/runtime/env/bin/python, 15370 MiB",
+    "2674491, /data1/matengyu/geyugong/neuroadapter-author-first/runtime/env/bin/python, 15370 MiB"
+  ],
+  "completion_claim": false
+}
