@@ -1,0 +1,14 @@
+{
+  "utc": "2026-09-28T02:11:54.911549+00:00",
+  "tmux_session": "bench-mindeye-native16-testfull",
+  "pid": 2542123,
+  "status": "started; initial asset and existing-output SHA validation",
+  "gpu": 0,
+  "total_targets": 982,
+  "reuse_targets": 100,
+  "new_targets": 882,
+  "generation_log": "logs/mindeye1-native16-testfull.log",
+  "scoring_log": "logs/mindeye1-native16-scorefull.log",
+  "scientific_protocol_changed": false,
+  "completion_claimed": false
+}

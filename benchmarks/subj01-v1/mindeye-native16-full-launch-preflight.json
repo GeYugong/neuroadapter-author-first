@@ -1,0 +1,11 @@
+{
+  "utc": "2026-09-28T02:11:23.029133+00:00",
+  "free_bytes": 191925465088,
+  "reuse_targets": 100,
+  "remaining_targets": 882,
+  "K": 16,
+  "publication_commit": "3f5d4d7ba4cff25be7120fbb77764d6c684b90f6",
+  "protocol_sha256": "465120968d6178640a3d9bd199da7db61dc93d0e7a941db83c9daef3ba80af24",
+  "launcher_sha256": "2e0910806d9b0fb63f2a3347fa06dd736872f88eaaa933dd93904021d845a8cd",
+  "launcher_sha256_after_trailing_whitespace_cleanup": "1f87c7c9b0badc6910accba1ef2ddcfdfdfdbf9d417ca64ef1bc4f6074e91b68"
+}

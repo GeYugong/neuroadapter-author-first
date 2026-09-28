@@ -11,3 +11,5 @@ MindBridge原生8选1使用GT CLIP，禁止执行该选择行；NeuroAdapter作�
 MindEye原batch16接入只按固定首图检查身份、运行和显存，不看效果调参数。全部K1保护仍以protected-before及ecd81a8跟踪文件为准。最终必须分清：A表完成；B表已执行/不适用/阻塞/尚未执行，不能以A表完成伪称附件全部完成。
 
 MindEye native16首100生成与全100负例池八指标评分均exit0，1600原候选逐SHA/形状/范围核验通过；全部固定32图四页已实际AI非盲查看，见MINDEYE_NATIVE16_test100_ids_ZH.md。七项优于K1、SwAV略差，序列化差异已披露，不能称纯K消融。先发布此独立B结果，再原配置复用100推进982；A表不变。
+
+MindEye native16首100已发布3f5d4d7，私有GitHub和四页图册可见核实；真实回执mindeye-native16-test100-publication.json。2026-09-28 10:11+0800在GPU0/tmux bench-mindeye-native16-testfull启动原入口完整982，复用100后生成882，再独立全982负例池评分；启动可用空间约179GiB。查看logs/mindeye1-native16-testfull.log/.exit及mindeye1-native16-scorefull.log/.exit，不重复启动。尚无全982原生16指标。
