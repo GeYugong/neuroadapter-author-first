@@ -1,0 +1,15 @@
+{
+  "utc": "2026-09-28T01:10:25.850706+00:00",
+  "phase": "fixed first-target GPU budget probe; no native scores yet",
+  "method": "MindEye1 full official high+low",
+  "upstream_commit": "6b30ea53c0f98b0a79b8f6828b6787a5913fd08d",
+  "K": 16,
+  "sampling": "Original20steps CFG3.5 img2img.85 prior100 seed42",
+  "selector": "unchanged utils.reconstruction best_picks: CLIP(reconstruction) vs proj_embeddings from diffusion_prior.voxel2clip(voxel); no GT",
+  "gt": "synthetic zero placeholder used only by disabled plotting; no GT asset opened",
+  "code_sha256": "7babfbe9eba4ceb809224e19bb9828879346116de904ccf737caa7a459d7bf36",
+  "base_adapter_sha256": "0a108b6ce8c19cbc0095f84f79d31cd6ed7b473de1ce5cc4fe6575abb62c0d1a",
+  "scope": "one predetermined first T100 target6489; no quality-based tuning; measure memory/time before scheduling full native16",
+  "A_table": "all prior K1 outputs protected; separate outputs/mindeye1-native16",
+  "estimated_output_storage": "up to ~50GiB if full982 raw16 FP32 candidates plus selected PNG; observed free182GiB before probe"
+}

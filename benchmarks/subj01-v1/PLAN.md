@@ -62,3 +62,5 @@ MindBridge test100 published fc60df6 (GitHub private repository and all4 atlas f
 ## Full K1 completion 2026-09-28
 
 Takagi and MindBridge982 generation/scoring exit0; all PNG and MindBridge original FP32 output SHA verified; fixed32 atlas byte-identical; protected files unchanged; GPUs released. Publish independent full reports, unified100/982 CSV and completed model manifest. Main K1 comparison covers5 real methods with3 explicit asset blocks. Native multi-candidate B table remains a separate follow-up: MindEye pinned selector uses brain-predicted proj_embeddings, not GT. Audit exact16-candidate requirements and resource budget before execution; never mix with K1 or modify existing outputs. MindBridge native GT selector disallowed. No new NeuroAdapter training.
+
+Native B-table fixed first-target MindEye16 GPU probe started under bench-mindeye-native16-probe after K1 publication. See NATIVE_PIPELINE_PLAN_ZH.md and mindeye-native16-plan.json. No K1 rerun or overwrites.
