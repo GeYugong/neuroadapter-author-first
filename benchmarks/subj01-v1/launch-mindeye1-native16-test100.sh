@@ -1,0 +1,11 @@
+#!/bin/bash
+set -u
+cd /data1/matengyu/geyugong/neuroadapter-author-first
+env -u HF_TOKEN -u HUGGING_FACE_HUB_TOKEN -u HUGGINGFACE_HUB_TOKEN HOME=/data1/matengyu/geyugong/neuroadapter-author-first/benchmarks/subj01-v1/cache/inference-home HF_HOME=/data1/matengyu/geyugong/neuroadapter-author-first/benchmarks/subj01-v1/cache/hf-inference HF_HUB_OFFLINE=1 TRANSFORMERS_OFFLINE=1 PYTHONUNBUFFERED=1 CUDA_VISIBLE_DEVICES=0 /data1/matengyu/geyugong/neuroadapter-author-first/benchmarks/subj01-v1/envs/mindeye1/bin/python /data1/matengyu/geyugong/neuroadapter-author-first/benchmarks/subj01-v1/mindeye_native16.py --ids /data1/matengyu/geyugong/neuroadapter-author-first/benchmarks/subj01-v1/test100_ids.txt --brain-inputs /data1/matengyu/geyugong/neuroadapter-author-first/benchmarks/subj01-v1/assets/subject1_test_brain.npz --output /data1/matengyu/geyugong/neuroadapter-author-first/benchmarks/subj01-v1/outputs/mindeye1-native16 --upstream /data1/matengyu/geyugong/neuroadapter-author-first/benchmarks/subj01-v1/upstream/mindeye1 --high-checkpoint /data1/matengyu/geyugong/neuroadapter-author-first/benchmarks/subj01-v1/assets/mindeye/mindeye_models/prior_257_final_subj01_bimixco_softclip_byol/last.pth --low-checkpoint /data1/matengyu/geyugong/neuroadapter-author-first/benchmarks/subj01-v1/assets/mindeye/mindeye_models/autoencoder_subj01_4x_locont_no_reconst/epoch120.pth --vd /data1/matengyu/geyugong/neuroadapter-author-first/benchmarks/subj01-v1/assets/versatile-diffusion --clip-vision /data1/matengyu/geyugong/neuroadapter-author-first/benchmarks/subj01-v1/assets/clip-vit-large-patch14 --openai-clip /data1/matengyu/geyugong/neuroadapter-subject1-research/models/evaluation/clip/ViT-L-14.pt > /data1/matengyu/geyugong/neuroadapter-author-first/benchmarks/subj01-v1/logs/mindeye1-native16-test100.log 2>&1
+status=$?
+printf "%s\n" "$status" > /data1/matengyu/geyugong/neuroadapter-author-first/benchmarks/subj01-v1/logs/mindeye1-native16-test100.exit
+[ "$status" -eq 0 ] || exit "$status"
+CUDA_VISIBLE_DEVICES=0 runtime/env/bin/python -u benchmarks/subj01-v1/evaluate_native16.py --method mindeye1-native16 --ids benchmarks/subj01-v1/test100_ids.txt --feature-batch 16 > benchmarks/subj01-v1/logs/mindeye1-native16-score100.log 2>&1
+status=$?
+printf '%s\n' "$status" > benchmarks/subj01-v1/logs/mindeye1-native16-score100.exit
+exit "$status" 

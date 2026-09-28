@@ -1,0 +1,16 @@
+{
+  "utc": "2026-09-28T01:13:46.192867+00:00",
+  "probe_n_targets": 1,
+  "nsd_id0": 6489,
+  "K": 16,
+  "exit_code": 0,
+  "cuda_peak_allocated_bytes": 20086608896,
+  "post_load_target_wall_seconds": 16.832947254180908,
+  "timing_method": "record file mtime minus load_audit file mtime; includes one target inference and output I/O",
+  "estimated_100_seconds_excluding_reload": 1683.2947254180908,
+  "estimated_982_seconds_excluding_reload": 16529.954203605652,
+  "estimate_limit": "one-target estimate only; actual throughput varies",
+  "candidate_tensor_sha256": "0762b5f7b6ccad9ee014c11bdbd12a174a8b248a3ef9d753ea9c1e28e3385be2",
+  "selection": "unchanged author brain-only selector",
+  "preserve_probe_as_first_formal_target": true
+}
