@@ -1,0 +1,15 @@
+{
+  "selected_epoch": 300,
+  "selection_rule": "max S=(Alex(5)+Incep+CLIP)/3; exact ties earlier epoch; val500 two fixed candidates averaged after full-pool scoring",
+  "scores": {
+    "120": 82.81903807615231,
+    "200": 84.18009352037409,
+    "250": 84.3816967267869,
+    "300": 85.55110220440883
+  },
+  "weight": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42-lr5e-5-from100/exports/epoch-300/inference.pt",
+  "sha256": "91111867b35471f3f63d85c9223584912863023ea5204a10272a453e585461d5",
+  "standard_test_used_for_selection": false,
+  "old_best_modified": false,
+  "utc": "2026-09-30T14:21:36.192627+00:00"
+}
