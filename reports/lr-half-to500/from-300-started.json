@@ -1,0 +1,50 @@
+{
+  "source": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42-lr5e-5-from100/checkpoint-300",
+  "completed_epochs": 300,
+  "optimizer_updates": 159600,
+  "target_epochs": 500,
+  "target_optimizer_updates": 266000,
+  "learning_rate": 5e-05,
+  "code_commit": "60a130b431c17c8a0d80b7f56c47596e5580b5f6",
+  "command": [
+    "/data1/matengyu/geyugong/neuroadapter-author-first/runtime/env/bin/python",
+    "scripts/run_train.py",
+    "--branch-lr-half",
+    "--target",
+    "500",
+    "--resume",
+    "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42-lr5e-5-from100/checkpoint-300"
+  ],
+  "disk_free_bytes": 141952647168,
+  "protected_existing_checkpoints": [
+    105,
+    110,
+    115,
+    120,
+    130,
+    139,
+    140,
+    200,
+    250,
+    299,
+    300
+  ],
+  "milestones": [
+    400,
+    450,
+    500
+  ],
+  "controller_pid": 2993313,
+  "utc": "2026-09-30T16:13:14.219605+00:00",
+  "source_files_sha256": {
+    "custom_checkpoint_1.pkl": "0f8caad44f24124be9fee7a2185105225dd03d5f1c4bacb55b793a84bbfdc0fd",
+    "COMPLETE": "bfc3546c1e2fc4e95580920dcb3038127b787f502804ab83348567d06fa511d6",
+    "custom_checkpoint_0.pkl": "212f9074c692d0af0a9a7984caea6659db7b3a8d5a2309e7600e2b80caac3e5b",
+    "optimizer.bin": "9fd96ed7ad6575cdebb85b1c20b3937dc767021ff75a07e36a6b4f8f2354870f",
+    "random_states_0.pkl": "e017b4a47bea2d772be455a5a34bf15afa940f87ed8fa6831d1c2f1e80d396b3",
+    "pytorch_model_1.bin": "91c265a1b27e047f3f8f4e007e616e955d0d7efd5672e4105ced0f1ce053a85f",
+    "pytorch_model.bin": "01724dca7491527840a9865f144c7a904e89dfaffcc6a37c13cb2c6f12f5e368",
+    "random_states_1.pkl": "fc5aa1f47bc4f4c064800c5f03796bef86f5b609aaea200bc327e187045bc40c",
+    "progress.json": "1742b3c7f9d43403f2113fb96eb855c17aa07ada5ff5fba84f81f05e515b6dce"
+  }
+}

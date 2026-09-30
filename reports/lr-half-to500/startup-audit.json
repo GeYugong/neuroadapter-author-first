@@ -1,0 +1,18 @@
+{
+  "utc": "2026-09-30T16:15:50.467544+00:00",
+  "training_code_commit": "60a130b431c17c8a0d80b7f56c47596e5580b5f6",
+  "dual_rank_full_restore_passed": true,
+  "next_epoch_order_sha256": "293bd31283c2f7d9e2fab0a1522a131531e8fcb7384ecaca0e5476ca5ae5f0e5",
+  "restored_completed_epochs": 300,
+  "restored_optimizer_updates": 159600,
+  "observed_current_epoch_one_based": 301,
+  "observed_completed_microbatches_per_rank": 159,
+  "first_resumed_epoch_checkpoint_pending": true,
+  "note": "Epoch 300 in tqdm is zero based, i.e. one-based epoch301. Progress occurs after optimizer.step/zero_grad; first resumed epoch update totals will be audited in its COMPLETE checkpoint. This is startup evidence, not training completion.",
+  "gpu_snapshot": "0, 72 %, 15946 MiB\n1, 100 %, 15907 MiB\n",
+  "training_processes": {
+    "2993355": "/data1/matengyu/geyugong/neuroadapter-author-first/runtime/env/bin/python -u /data1/matengyu/geyugong/neuroadapter-author-first/train_brain_adapter.py --run_id subject01-author-fp32-seed42-lr5e-5-from100 --data_dir /data1/matengyu/geyugong/neuroadapter-author-first/data --imgs_dir /data1/matengyu/geyugong/neuroadapter-subject1-research/data/raw/nsd/stimuli --parcel_dir /data1/matengyu/geyugong/neuroadapter-subject1-research/data/derived/parcels/schaefer --pretrained_model_name_or_path /data1/matengyu/geyugong/neuroadapter-subject1-research/models/stable-diffusion-v1-5 --output_dir /data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42-lr5e-5-from100 --seed 42 --subject_id 1 --topk 100 --condition_dim 768 --num_decoder_queries 50 --sub_approach linear_projection --gen_img_resolution 512 --learning_rate 5e-05 --weight_decay 1e-06 --clip_max_norm 1.0 --mixed_precision no --train_batch_size 4 --gradient_accumulation_steps 2 --dataloader_num_workers 0 --save_epochs 1 --resume_from /data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42-lr5e-5-from100/checkpoint-300 --branch_lr_half --num_train_epochs 500 ",
+    "2993356": "/data1/matengyu/geyugong/neuroadapter-author-first/runtime/env/bin/python -u /data1/matengyu/geyugong/neuroadapter-author-first/train_brain_adapter.py --run_id subject01-author-fp32-seed42-lr5e-5-from100 --data_dir /data1/matengyu/geyugong/neuroadapter-author-first/data --imgs_dir /data1/matengyu/geyugong/neuroadapter-subject1-research/data/raw/nsd/stimuli --parcel_dir /data1/matengyu/geyugong/neuroadapter-subject1-research/data/derived/parcels/schaefer --pretrained_model_name_or_path /data1/matengyu/geyugong/neuroadapter-subject1-research/models/stable-diffusion-v1-5 --output_dir /data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42-lr5e-5-from100 --seed 42 --subject_id 1 --topk 100 --condition_dim 768 --num_decoder_queries 50 --sub_approach linear_projection --gen_img_resolution 512 --learning_rate 5e-05 --weight_decay 1e-06 --clip_max_norm 1.0 --mixed_precision no --train_batch_size 4 --gradient_accumulation_steps 2 --dataloader_num_workers 0 --save_epochs 1 --resume_from /data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42-lr5e-5-from100/checkpoint-300 --branch_lr_half --num_train_epochs 500 "
+  },
+  "no_exit_records_yet": true
+}

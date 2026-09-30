@@ -1,0 +1,8 @@
+{
+  "automation_id": "neuroadapter-l300-l500",
+  "status": "ACTIVE",
+  "interval_hours": 2,
+  "notification": "completion, failure, important change or required input only",
+  "tool_result": "Created automation in the app.",
+  "utc": "2026-09-30T16:15:50.496548+00:00"
+}
