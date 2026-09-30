@@ -10,7 +10,7 @@ def main():
  ids=B/'test_full_ids.txt';assert sha(ids)=='4c438772ffa978ab8c5f781b8a3fc73df0159ae4892dc39d896f05a413d36441'
  assert not O.exists(),'Existing output: inspect before explicit recovery'
  assert not subprocess.check_output(['nvidia-smi','--query-compute-apps=pid','--format=csv,noheader'],text=True).strip()
- O.mkdir();env=os.environ.copy();env.update(CUDA_VISIBLE_DEVICES='0',CUBLAS_WORKSPACE_CONFIG=':4096:8',HF_HUB_OFFLINE='1',TRANSFORMERS_OFFLINE='1',OMP_NUM_THREADS='4',PYTHONUNBUFFERED='1')
+ O.mkdir();env=os.environ.copy();env.update(PYTHONPATH=str(B),CUDA_VISIBLE_DEVICES='0',CUBLAS_WORKSPACE_CONFIG=':4096:8',HF_HUB_OFFLINE='1',TRANSFORMERS_OFFLINE='1',OMP_NUM_THREADS='4',PYTHONUNBUFFERED='1')
  run=R/'runs/subject01-author-fp32-seed42-lr5e-5-from100';c=json.loads((R/'configs/stage1.json').read_text())
  cmd=[str(PY),str(B/'neuroadapter_k1.py'),'--no_selection','--split','test','--image_ids',str(ids),'--decoded_stimuli_dir',str(O/'decoded'),'--model_weights_dir',str(run),'--saved_epochs','300','--num_predictions','1','--noise_factor','4','--precision','fp32','--batch_size','1','--denoising_steps','50','--seed','42','--num_workers','0','--export_path',sel['weight']]
  for k in ['data_dir','imgs_dir','parcel_dir','pretrained_model_name_or_path','subject_id','topk','condition_dim','num_decoder_queries','sub_approach']:cmd+=['--'+k,str(c[k])]

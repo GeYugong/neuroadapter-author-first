@@ -1,0 +1,11 @@
+{
+  "old_report_files_verified": 1424,
+  "old_reports_unchanged": true,
+  "selected_weight_unchanged": true,
+  "atlas_sha256": {
+    "reports/lr-half-to300/test982/atlas32/atlas-4.jpg": "fa328e66e5549e6e957cac5e65b5ae1377ab11c47df3f262fb44a0a25964e136",
+    "reports/lr-half-to300/test982/atlas32/atlas-1.jpg": "38272d6c2f79a8ef139735aa1a414726b35cd4c34567f17f9017d43afd9a95f2",
+    "reports/lr-half-to300/test982/atlas32/atlas-3.jpg": "9eb9228d195b17fca82473f77663dbd06e49c026a0696393df8c20638627fa33",
+    "reports/lr-half-to300/test982/atlas32/atlas-2.jpg": "d7a5c92fa375516ce8d862d946755b6e8383312008dd91e22bd3d104e8278b18"
+  }
+}

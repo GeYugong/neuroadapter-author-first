@@ -1,0 +1,8 @@
+{
+  "reason": "isolated wrapper omitted original evaluator directory from sys.path; metric_feature_batches import failed before scoring",
+  "fix": "set PYTHONPATH to existing benchmarks/subj01-v1; no metrics or model changes",
+  "generation_exit": 0,
+  "all982_output_sha_verified": true,
+  "failed_logs_preserved": true,
+  "utc": "2026-09-30T15:46:37.561200+00:00"
+}
