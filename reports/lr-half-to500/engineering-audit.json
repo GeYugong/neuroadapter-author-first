@@ -1,0 +1,30 @@
+{
+  "utc": "2026-09-30T16:11:53.671239+00:00",
+  "scope": "Only target admission, export milestones and checkpoint retention; science unchanged",
+  "functions": {
+    "train_brain_adapter.py": {
+      "changed_functions": [
+        "training_loop",
+        "cleanup_checkpoints"
+      ],
+      "before_sha256": "06adc7bcd58a661a162cf117e1919f69b479067d596536d1acdb6fb96fd394ff",
+      "after_sha256": "77ccc1f3938e42685b74630f6cff6abe447f8feef87e60f4fa280532f7da93fa"
+    },
+    "branch_lr_resume.py": {
+      "changed_functions": [
+        "validate"
+      ],
+      "before_sha256": "d3d1ff4f493f0bd4fcd35ea2270fe49e14cb81a0d1ea9526355e391c954eabf5",
+      "after_sha256": "d819faf052f5cddc5aea71d035f5248f5af46ac32df6b7df97d35d0709f3aa34"
+    },
+    "scripts/run_train.py": {
+      "changed_functions": [],
+      "before_sha256": "8f223e336a037b82999d275e8245dd69210e4b9cbc0198d53ab8b2b63b2dc312",
+      "after_sha256": "33a7c474b56928ff4cb8911dee58271fe1c4ede652a73b845099b74967ee131b"
+    }
+  },
+  "baseline_commit": "84941976eee204b3f89251951ceabd6bb4b3fbdb",
+  "disk_free_bytes": 141952737280,
+  "training_not_started": true,
+  "real_dual_rank_resume_audit_pending": true
+}

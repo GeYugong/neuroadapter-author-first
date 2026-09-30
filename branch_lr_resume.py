@@ -20,14 +20,14 @@ def equal(a,b):
 def validate(args):
     source=Path(args.resume_from).resolve();out=Path(args.output_dir).resolve()
     assert args.run_id==BRANCH and out==ROOT/'runs'/BRANCH
-    assert args.num_train_epochs in (110,120,130,140,300) and args.learning_rate==5e-5
+    assert args.num_train_epochs in (110,120,130,140,300,500) and args.learning_rate==5e-5
     if args.num_train_epochs>=120: assert source.parent==out, "L continuation requires own checkpoint"
     assert source==ROOT/'runs'/MAIN/'checkpoint-100' or source.parent==out
     baseline=json.loads((ROOT/'configs/stage1.json').read_text())
     for key,value in baseline.items():
         if key not in ('run_id','output_dir','learning_rate'): assert getattr(args,key)==value, f'Branch science changed: {key}'
     state=json.loads((source/'progress.json').read_text())
-    lower = 140 if args.num_train_epochs == 300 else args.num_train_epochs - 10
+    lower = {300: 140, 500: 300}.get(args.num_train_epochs, args.num_train_epochs - 10)
     assert (source/'COMPLETE').exists() and lower<=state['completed_epochs']<args.num_train_epochs
     assert source.name == f"checkpoint-{state['completed_epochs']}"
     assert state['skipped_updates'] == 0

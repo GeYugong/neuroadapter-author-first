@@ -526,7 +526,7 @@ def training_loop(args, accelerator, neuro_adapter, guidance_generator, train_da
             (temporary/'COMPLETE').write_text('epoch boundary\n')
             temporary.rename(save_path)
             # Long continuation retains full rolling states every epoch; export only fixed milestones.
-            if not (args.branch_lr_half and args.num_train_epochs == 300) or epoch+1 in (200,250,300):
+            if not (args.branch_lr_half and args.num_train_epochs in (300,500)) or epoch+1 in {300: (200,250,300), 500: (400,450,500)}.get(args.num_train_epochs, ()):
                 export_inference(args, accelerator, neuro_adapter, guidance_generator, train_dataset, epoch+1)
             cleanup_checkpoints(args.output_dir, keep_last_n=2)
         accelerator.wait_for_everyone()
@@ -544,7 +544,7 @@ def cleanup_checkpoints(output_dir, keep_last_n=3):
     )
     # Delete older checkpoints, keep only the last N
     for checkpoint in checkpoints[:-keep_last_n]:
-        if int(checkpoint.rsplit("-",1)[1]) in (1,5,10,20,30,40,49,50,59,60,70,79,80,90,99,100,105,110,115,120,130,139,140,200,250,300):
+        if int(checkpoint.rsplit("-",1)[1]) in (1,5,10,20,30,40,49,50,59,60,70,79,80,90,99,100,105,110,115,120,130,139,140,200,250,299,300,400,450,500):
             continue
         try:
             if os.path.exists(checkpoint):

@@ -1,0 +1,54 @@
+{
+  "complete300_accepted": true,
+  "stale140_rejected": true,
+  "stale250_rejected": true,
+  "stale299_rejected": true,
+  "changed_learning_rate_rejected": true,
+  "changed_train_batch_size_rejected": true,
+  "changed_seed_rejected": true,
+  "changed_num_train_epochs_rejected": true,
+  "retention_preserves_history_milestones_last2": true,
+  "controller_dry_run": {
+    "source": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42-lr5e-5-from100/checkpoint-300",
+    "completed_epochs": 300,
+    "optimizer_updates": 159600,
+    "target_epochs": 500,
+    "target_optimizer_updates": 266000,
+    "learning_rate": 5e-05,
+    "code_commit": "84941976eee204b3f89251951ceabd6bb4b3fbdb",
+    "command": [
+      "/data1/matengyu/geyugong/neuroadapter-author-first/runtime/env/bin/python",
+      "scripts/run_train.py",
+      "--branch-lr-half",
+      "--target",
+      "500",
+      "--resume",
+      "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42-lr5e-5-from100/checkpoint-300"
+    ],
+    "disk_free_bytes": 141952733184,
+    "protected_existing_checkpoints": [
+      105,
+      110,
+      115,
+      120,
+      130,
+      139,
+      140,
+      200,
+      250,
+      299,
+      300
+    ],
+    "milestones": [
+      400,
+      450,
+      500
+    ],
+    "controller_pid": 2993197,
+    "utc": "2026-09-30T16:12:40.992396+00:00"
+  },
+  "controller_stale299_rejected": true,
+  "trainer_only_two_engineering_expressions_changed": true,
+  "syntax_pass": true,
+  "utc": "2026-09-30T16:12:41.033870+00:00"
+}
