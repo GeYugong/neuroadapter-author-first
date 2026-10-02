@@ -1,0 +1,12 @@
+{
+  "utc": "2026-10-02T18:38:34.315700+00:00",
+  "tmux": "author-lr-half-to500-eval",
+  "epochs": [
+    400,
+    450,
+    500
+  ],
+  "training_final_audit_passed": true,
+  "entry": "scripts/lr_half_to500_evaluate.py",
+  "completion_pending": true
+}
