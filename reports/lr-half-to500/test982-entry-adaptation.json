@@ -1,0 +1,9 @@
+{
+  "source_sha256": "6412620d8969508c8a4bb184b220c8f6a2730f02d135c6264b26c329f554cc1b",
+  "changes": [
+    "isolated report/log prefix to500",
+    "assert validation-selected epoch400",
+    "saved_epochs from selection"
+  ],
+  "science_changes": false
+}

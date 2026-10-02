@@ -1,0 +1,28 @@
+{
+  "all_six_generation_scoring_exit0": true,
+  "verified_npz_count": 1500,
+  "protected_files_verified": 1524,
+  "atlas_pages": {
+    "400": {
+      "atlas-1.jpg": "d7d1a9e22267262fb03560fd096be08e91470eda7002b25019798476d757e07c",
+      "atlas-2.jpg": "f09e4ab4cdd624254265c34f20a5fe1040e8e1ffdce9c26b17beb3e284538982",
+      "atlas-3.jpg": "be8b13d9f258439c0056e1a4de83ceff89dea4ef5ac8affbd528f091a21e1aad",
+      "atlas-4.jpg": "11623aa689577f29a9940f7744b7168a82192adbebebd324f4a644b20f5616e0"
+    },
+    "450": {
+      "atlas-1.jpg": "b173b0bf703e0cdb33bbeab0be69ec07b0e8a4828e505f05d60914630496ecb1",
+      "atlas-2.jpg": "4a075de265dfa21644fe2894227c52a919077e63dbaf05a74a9afc05d8a20c38",
+      "atlas-3.jpg": "7d4f0b2c1081824ea317d0d4b09a224ba37026f264c16793c02e1032ddb9b6f0",
+      "atlas-4.jpg": "32122eff0054035aae0bc0945db36d8ff00413821391820136dd4e1d4b21fa60"
+    },
+    "500": {
+      "atlas-1.jpg": "571cd9688f73a4798e1fde3d438865f634a196f3690029929553e6b1c280aaa7",
+      "atlas-2.jpg": "38b9eef732aa689fe368613a7be3a1476d2ed6f5fdbf17d187ac783b424ebadd",
+      "atlas-3.jpg": "21e8e042b37337494b820ce037146de88b41ed3220da8da434ada119c8261bf1",
+      "atlas-4.jpg": "5aa5f1d6d26ad4a1d6e2d10e9e5b53a82957a43483a31a398b894014984e84a7"
+    }
+  },
+  "actual_ai_nonblind_review_pages": 12,
+  "selected_epoch": 400,
+  "test_pending": true
+}

@@ -1,0 +1,11 @@
+{
+  "epochs": [
+    400,
+    450,
+    500
+  ],
+  "all_generation_scoring_exit0": true,
+  "old_reports_unchanged": true,
+  "ai_review_and_selection_pending": true,
+  "utc": "2026-10-02T21:13:23.087719+00:00"
+}
