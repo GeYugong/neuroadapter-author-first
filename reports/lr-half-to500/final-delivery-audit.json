@@ -1,0 +1,20 @@
+{
+  "utc": "2026-10-03T00:42:58.722745+00:00",
+  "training_epochs": 500,
+  "optimizer_updates": 266000,
+  "skipped_updates": 0,
+  "selected_epoch": 400,
+  "test982_all_exit0": true,
+  "test_npz_sha_verified": 982,
+  "protected_files_verified": 1524,
+  "atlas32_ids_sha256": "35c0fc9ff8d549ad9e4f34ed309f5b199d3cbc71a6c7c9e54c899fff6f73d9ab",
+  "test_atlas_sha256": {
+    "atlas-4.jpg": "6c2e0ece314c379e0e15230c881618c2c282aafce110c678a43cd06e80d2afa6",
+    "atlas-1.jpg": "a7c6f28e4da60b936f09949aa84885ef8b04a3fa63781917876ee4b2e2e37ed9",
+    "atlas-3.jpg": "bc9c90d3345d9ca9f6500f8bd4630b403a7e5190e6db3fe5c424aedc23e6a06e",
+    "atlas-2.jpg": "dfbbd1c000d64e705eaac51e528435869f5da8c70679fee016a09502db8d8dad"
+  },
+  "actual_ai_nonblind_review_pages": 4,
+  "validation_review_pages": 12,
+  "no_further_training_authorized": true
+}
