@@ -1,0 +1,200 @@
+{
+  "revision": "d8a978abb212eb2965b5d01673f96536b77e2ea0",
+  "matched_file_count": 32,
+  "checkpoint_count": 16,
+  "validation_correlation_count": 16,
+  "files": [
+    {
+      "path": "/data1/matengyu/geyugong/neuroadapter-subject1-research/models/brain-encoder/dinov2_q_transformer/schaefer/subj_01/enc_1/run_1/lh/checkpoint_nonavg.pth",
+      "official_path": "dinov2_q_transformer/schaefer/subj_01/enc_1/run_1/lh/checkpoint_nonavg.pth",
+      "sha256": "4f3b41d591a68038797897a77d1e571a16d749f5c361c06f57ae42a5eca5347e",
+      "lfs_sha256_match": true
+    },
+    {
+      "path": "/data1/matengyu/geyugong/neuroadapter-subject1-research/models/brain-encoder/dinov2_q_transformer/schaefer/subj_01/enc_1/run_1/lh/lh_val_corr_nonavg.npy",
+      "official_path": "dinov2_q_transformer/schaefer/subj_01/enc_1/run_1/lh/lh_val_corr_nonavg.npy",
+      "sha256": "7c649fe2785bf5f03c4e8f2efd1a4a2c732587ec911cc9b28b242913dce706a3",
+      "lfs_sha256_match": true
+    },
+    {
+      "path": "/data1/matengyu/geyugong/neuroadapter-subject1-research/models/brain-encoder/dinov2_q_transformer/schaefer/subj_01/enc_1/run_1/rh/checkpoint_nonavg.pth",
+      "official_path": "dinov2_q_transformer/schaefer/subj_01/enc_1/run_1/rh/checkpoint_nonavg.pth",
+      "sha256": "1d7db17076bb1ae6cedc45450dd4c9ea6a7dad81ea3126c6dd6a3830202f4064",
+      "lfs_sha256_match": true
+    },
+    {
+      "path": "/data1/matengyu/geyugong/neuroadapter-subject1-research/models/brain-encoder/dinov2_q_transformer/schaefer/subj_01/enc_1/run_1/rh/rh_val_corr_nonavg.npy",
+      "official_path": "dinov2_q_transformer/schaefer/subj_01/enc_1/run_1/rh/rh_val_corr_nonavg.npy",
+      "sha256": "a07fc09feb8e61256874e4804657257308a5fae0adc14f5311be5c5db986b73e",
+      "lfs_sha256_match": true
+    },
+    {
+      "path": "/data1/matengyu/geyugong/neuroadapter-subject1-research/models/brain-encoder/dinov2_q_transformer/schaefer/subj_01/enc_1/run_2/lh/checkpoint_nonavg.pth",
+      "official_path": "dinov2_q_transformer/schaefer/subj_01/enc_1/run_2/lh/checkpoint_nonavg.pth",
+      "sha256": "01d70d681de44019ddc5df692630d44be79a4c94c33ffcc69630da5d43d91a0e",
+      "lfs_sha256_match": true
+    },
+    {
+      "path": "/data1/matengyu/geyugong/neuroadapter-subject1-research/models/brain-encoder/dinov2_q_transformer/schaefer/subj_01/enc_1/run_2/lh/lh_val_corr_nonavg.npy",
+      "official_path": "dinov2_q_transformer/schaefer/subj_01/enc_1/run_2/lh/lh_val_corr_nonavg.npy",
+      "sha256": "e79dcb8c5f0374f5ca7b66ff5e5d151d500b7d66101af2c55dd0154f4fefa99a",
+      "lfs_sha256_match": true
+    },
+    {
+      "path": "/data1/matengyu/geyugong/neuroadapter-subject1-research/models/brain-encoder/dinov2_q_transformer/schaefer/subj_01/enc_1/run_2/rh/checkpoint_nonavg.pth",
+      "official_path": "dinov2_q_transformer/schaefer/subj_01/enc_1/run_2/rh/checkpoint_nonavg.pth",
+      "sha256": "4afdb5e7dc89c9fc62f254331625f7b1c17d9af72a8e1119668b9e5065de44a8",
+      "lfs_sha256_match": true
+    },
+    {
+      "path": "/data1/matengyu/geyugong/neuroadapter-subject1-research/models/brain-encoder/dinov2_q_transformer/schaefer/subj_01/enc_1/run_2/rh/rh_val_corr_nonavg.npy",
+      "official_path": "dinov2_q_transformer/schaefer/subj_01/enc_1/run_2/rh/rh_val_corr_nonavg.npy",
+      "sha256": "a6db89c0eecf1ad382514dba14c38c68d8768efc4ef115cacfbf9bb19261868e",
+      "lfs_sha256_match": true
+    },
+    {
+      "path": "/data1/matengyu/geyugong/neuroadapter-subject1-research/models/brain-encoder/dinov2_q_transformer/schaefer/subj_01/enc_3/run_1/lh/checkpoint_nonavg.pth",
+      "official_path": "dinov2_q_transformer/schaefer/subj_01/enc_3/run_1/lh/checkpoint_nonavg.pth",
+      "sha256": "4237c9bf2a8186a235860e923e30a092c3b041ab13086aa9461313d79d1c0a52",
+      "lfs_sha256_match": true
+    },
+    {
+      "path": "/data1/matengyu/geyugong/neuroadapter-subject1-research/models/brain-encoder/dinov2_q_transformer/schaefer/subj_01/enc_3/run_1/lh/lh_val_corr_nonavg.npy",
+      "official_path": "dinov2_q_transformer/schaefer/subj_01/enc_3/run_1/lh/lh_val_corr_nonavg.npy",
+      "sha256": "52c1af0bd0983b29f07a65a88c405d2e767c9b88a96436816d6851716c6c38fa",
+      "lfs_sha256_match": true
+    },
+    {
+      "path": "/data1/matengyu/geyugong/neuroadapter-subject1-research/models/brain-encoder/dinov2_q_transformer/schaefer/subj_01/enc_3/run_1/rh/checkpoint_nonavg.pth",
+      "official_path": "dinov2_q_transformer/schaefer/subj_01/enc_3/run_1/rh/checkpoint_nonavg.pth",
+      "sha256": "aaa0bceef24f9dc1bd239021cbe4d30bbf40f6ac3290ba6eca7e1862502a745d",
+      "lfs_sha256_match": true
+    },
+    {
+      "path": "/data1/matengyu/geyugong/neuroadapter-subject1-research/models/brain-encoder/dinov2_q_transformer/schaefer/subj_01/enc_3/run_1/rh/rh_val_corr_nonavg.npy",
+      "official_path": "dinov2_q_transformer/schaefer/subj_01/enc_3/run_1/rh/rh_val_corr_nonavg.npy",
+      "sha256": "26824e86f7da1dffc27d6073cb12e26f5ac45dea29f82359d1a45b2bf8e8d0dc",
+      "lfs_sha256_match": true
+    },
+    {
+      "path": "/data1/matengyu/geyugong/neuroadapter-subject1-research/models/brain-encoder/dinov2_q_transformer/schaefer/subj_01/enc_3/run_2/lh/checkpoint_nonavg.pth",
+      "official_path": "dinov2_q_transformer/schaefer/subj_01/enc_3/run_2/lh/checkpoint_nonavg.pth",
+      "sha256": "449b0c7afbbe54f60b8a3d79ab73b7cdd28c710731f0c3267b88ef2dc39d09d2",
+      "lfs_sha256_match": true
+    },
+    {
+      "path": "/data1/matengyu/geyugong/neuroadapter-subject1-research/models/brain-encoder/dinov2_q_transformer/schaefer/subj_01/enc_3/run_2/lh/lh_val_corr_nonavg.npy",
+      "official_path": "dinov2_q_transformer/schaefer/subj_01/enc_3/run_2/lh/lh_val_corr_nonavg.npy",
+      "sha256": "c58b00a13313b3c834ab58d5636704226202c7316258df9838a202cd5ad653ac",
+      "lfs_sha256_match": true
+    },
+    {
+      "path": "/data1/matengyu/geyugong/neuroadapter-subject1-research/models/brain-encoder/dinov2_q_transformer/schaefer/subj_01/enc_3/run_2/rh/checkpoint_nonavg.pth",
+      "official_path": "dinov2_q_transformer/schaefer/subj_01/enc_3/run_2/rh/checkpoint_nonavg.pth",
+      "sha256": "a2a227d53c12476cb1b11d1405c8922f1670d35020098a18c4f1a22d05f69b3a",
+      "lfs_sha256_match": true
+    },
+    {
+      "path": "/data1/matengyu/geyugong/neuroadapter-subject1-research/models/brain-encoder/dinov2_q_transformer/schaefer/subj_01/enc_3/run_2/rh/rh_val_corr_nonavg.npy",
+      "official_path": "dinov2_q_transformer/schaefer/subj_01/enc_3/run_2/rh/rh_val_corr_nonavg.npy",
+      "sha256": "535cda5d699b191b744bacbf4bf05336368b203db3de5f148cbd536b7d577917",
+      "lfs_sha256_match": true
+    },
+    {
+      "path": "/data1/matengyu/geyugong/neuroadapter-subject1-research/models/brain-encoder/dinov2_q_transformer/schaefer/subj_01/enc_5/run_1/lh/checkpoint_nonavg.pth",
+      "official_path": "dinov2_q_transformer/schaefer/subj_01/enc_5/run_1/lh/checkpoint_nonavg.pth",
+      "sha256": "0d7a7e7b8ba4f1c6864c0d2baa7dcda16645e7217c8bcead3853915049409e70",
+      "lfs_sha256_match": true
+    },
+    {
+      "path": "/data1/matengyu/geyugong/neuroadapter-subject1-research/models/brain-encoder/dinov2_q_transformer/schaefer/subj_01/enc_5/run_1/lh/lh_val_corr_nonavg.npy",
+      "official_path": "dinov2_q_transformer/schaefer/subj_01/enc_5/run_1/lh/lh_val_corr_nonavg.npy",
+      "sha256": "4888821111c75f09c5332a4f49969841bb5e9cfefc662a7101118ea43d754abf",
+      "lfs_sha256_match": true
+    },
+    {
+      "path": "/data1/matengyu/geyugong/neuroadapter-subject1-research/models/brain-encoder/dinov2_q_transformer/schaefer/subj_01/enc_5/run_1/rh/checkpoint_nonavg.pth",
+      "official_path": "dinov2_q_transformer/schaefer/subj_01/enc_5/run_1/rh/checkpoint_nonavg.pth",
+      "sha256": "48dc4cce4033ac15a081e5e8a2b79340bccbdf6a2fa35ed2dca0331e3ee4bae7",
+      "lfs_sha256_match": true
+    },
+    {
+      "path": "/data1/matengyu/geyugong/neuroadapter-subject1-research/models/brain-encoder/dinov2_q_transformer/schaefer/subj_01/enc_5/run_1/rh/rh_val_corr_nonavg.npy",
+      "official_path": "dinov2_q_transformer/schaefer/subj_01/enc_5/run_1/rh/rh_val_corr_nonavg.npy",
+      "sha256": "d8dbf082a631eb82ef35e163c5b71094787b2f18a56633159461caa83e0f0392",
+      "lfs_sha256_match": true
+    },
+    {
+      "path": "/data1/matengyu/geyugong/neuroadapter-subject1-research/models/brain-encoder/dinov2_q_transformer/schaefer/subj_01/enc_5/run_2/lh/checkpoint_nonavg.pth",
+      "official_path": "dinov2_q_transformer/schaefer/subj_01/enc_5/run_2/lh/checkpoint_nonavg.pth",
+      "sha256": "4e532fc4e476e40c2523093f3fa6c1d78c03e7cdc4087f4aff4a3ec41b6260b5",
+      "lfs_sha256_match": true
+    },
+    {
+      "path": "/data1/matengyu/geyugong/neuroadapter-subject1-research/models/brain-encoder/dinov2_q_transformer/schaefer/subj_01/enc_5/run_2/lh/lh_val_corr_nonavg.npy",
+      "official_path": "dinov2_q_transformer/schaefer/subj_01/enc_5/run_2/lh/lh_val_corr_nonavg.npy",
+      "sha256": "53255fb1e943dba8ea66150cd7209d34414a11f6b674a634f326dac9cd562b07",
+      "lfs_sha256_match": true
+    },
+    {
+      "path": "/data1/matengyu/geyugong/neuroadapter-subject1-research/models/brain-encoder/dinov2_q_transformer/schaefer/subj_01/enc_5/run_2/rh/checkpoint_nonavg.pth",
+      "official_path": "dinov2_q_transformer/schaefer/subj_01/enc_5/run_2/rh/checkpoint_nonavg.pth",
+      "sha256": "ec93ea674190c1d1c22457e52f2378b25fa9b921b809f4166fed534eb2e76128",
+      "lfs_sha256_match": true
+    },
+    {
+      "path": "/data1/matengyu/geyugong/neuroadapter-subject1-research/models/brain-encoder/dinov2_q_transformer/schaefer/subj_01/enc_5/run_2/rh/rh_val_corr_nonavg.npy",
+      "official_path": "dinov2_q_transformer/schaefer/subj_01/enc_5/run_2/rh/rh_val_corr_nonavg.npy",
+      "sha256": "c90e2394bdeb76b72fa3d2849a7af71bf083e68fbbcd7f892c4c93345d6bbe00",
+      "lfs_sha256_match": true
+    },
+    {
+      "path": "/data1/matengyu/geyugong/neuroadapter-subject1-research/models/brain-encoder/dinov2_q_transformer/schaefer/subj_01/enc_7/run_1/lh/checkpoint_nonavg.pth",
+      "official_path": "dinov2_q_transformer/schaefer/subj_01/enc_7/run_1/lh/checkpoint_nonavg.pth",
+      "sha256": "7871f4712843363632d89b9e6543d77490a051f4d7840d93f3da43702d84849b",
+      "lfs_sha256_match": true
+    },
+    {
+      "path": "/data1/matengyu/geyugong/neuroadapter-subject1-research/models/brain-encoder/dinov2_q_transformer/schaefer/subj_01/enc_7/run_1/lh/lh_val_corr_nonavg.npy",
+      "official_path": "dinov2_q_transformer/schaefer/subj_01/enc_7/run_1/lh/lh_val_corr_nonavg.npy",
+      "sha256": "83f6ec279d5d51e2e6840c7523601000ebb57d95e43aff97e368a9c9987b3ac8",
+      "lfs_sha256_match": true
+    },
+    {
+      "path": "/data1/matengyu/geyugong/neuroadapter-subject1-research/models/brain-encoder/dinov2_q_transformer/schaefer/subj_01/enc_7/run_1/rh/checkpoint_nonavg.pth",
+      "official_path": "dinov2_q_transformer/schaefer/subj_01/enc_7/run_1/rh/checkpoint_nonavg.pth",
+      "sha256": "e68a263dab39bcba13d994d595dac58634c643f03fde5aca08ee0c9a6d519552",
+      "lfs_sha256_match": true
+    },
+    {
+      "path": "/data1/matengyu/geyugong/neuroadapter-subject1-research/models/brain-encoder/dinov2_q_transformer/schaefer/subj_01/enc_7/run_1/rh/rh_val_corr_nonavg.npy",
+      "official_path": "dinov2_q_transformer/schaefer/subj_01/enc_7/run_1/rh/rh_val_corr_nonavg.npy",
+      "sha256": "c6aeaf99bd89e8bbe37ab4f6303e7d0142f6759761dbc71572485670a3839695",
+      "lfs_sha256_match": true
+    },
+    {
+      "path": "/data1/matengyu/geyugong/neuroadapter-subject1-research/models/brain-encoder/dinov2_q_transformer/schaefer/subj_01/enc_7/run_2/lh/checkpoint_nonavg.pth",
+      "official_path": "dinov2_q_transformer/schaefer/subj_01/enc_7/run_2/lh/checkpoint_nonavg.pth",
+      "sha256": "3c6d59dae283b22ff3aae22263fd0a3449e1542da8464ff23cd9c8f5aeb26961",
+      "lfs_sha256_match": true
+    },
+    {
+      "path": "/data1/matengyu/geyugong/neuroadapter-subject1-research/models/brain-encoder/dinov2_q_transformer/schaefer/subj_01/enc_7/run_2/lh/lh_val_corr_nonavg.npy",
+      "official_path": "dinov2_q_transformer/schaefer/subj_01/enc_7/run_2/lh/lh_val_corr_nonavg.npy",
+      "sha256": "39bea618fceea427e02290db73a4beffaff4400f778298818d1339e8f1ccaaee",
+      "lfs_sha256_match": true
+    },
+    {
+      "path": "/data1/matengyu/geyugong/neuroadapter-subject1-research/models/brain-encoder/dinov2_q_transformer/schaefer/subj_01/enc_7/run_2/rh/checkpoint_nonavg.pth",
+      "official_path": "dinov2_q_transformer/schaefer/subj_01/enc_7/run_2/rh/checkpoint_nonavg.pth",
+      "sha256": "0418d86cd8fd4e2758af38d01526c0c5dc6e2121855150b5ba322a959a638ebe",
+      "lfs_sha256_match": true
+    },
+    {
+      "path": "/data1/matengyu/geyugong/neuroadapter-subject1-research/models/brain-encoder/dinov2_q_transformer/schaefer/subj_01/enc_7/run_2/rh/rh_val_corr_nonavg.npy",
+      "official_path": "dinov2_q_transformer/schaefer/subj_01/enc_7/run_2/rh/rh_val_corr_nonavg.npy",
+      "sha256": "caef33512ff99f2d8edca9bfa50d145e575b54ea867b711c93983f92237966ea",
+      "lfs_sha256_match": true
+    }
+  ]
+}

@@ -1,0 +1,368 @@
+{
+  "started_utc": "2026-10-05T07:17:21Z",
+  "status": "public_encoder_forward_passed_formal_retrieval_not_started",
+  "training_updates": 0,
+  "formal_candidates_scanned": 0,
+  "nsd_gt_images_loaded": 0,
+  "diagnostic_candidate_count": 2,
+  "encoder_commit": "767f25afc2240f568f4db8c0ce09604e6f83aa72",
+  "dino_commit": "7764ea0f912e53c92e82eb78a2a1631e92725fc8",
+  "dino_weight_sha256": "0b8b82f85de91b424aded121c7e1dcc2b7bc6d0adeea651bf73a13307fad8c73",
+  "device": "cuda:0",
+  "dtype": "float32",
+  "tf32": false,
+  "members": [
+    {
+      "layer": 1,
+      "run": 1,
+      "hemisphere": "lh",
+      "checkpoint_sha256": "4f3b41d591a68038797897a77d1e571a16d749f5c361c06f57ae42a5eca5347e",
+      "full_state_keys": 200,
+      "checkpoint_keys": 25,
+      "backbone_keys": 175,
+      "strict_load": true,
+      "all_loaded_tensors_exact": true,
+      "missing_keys": [],
+      "unexpected_keys": [],
+      "finite_full_vertex_outputs": true,
+      "batch_vs_single_max_abs": 4.112720489501953e-06,
+      "elapsed_seconds": 1.8863961780443788
+    },
+    {
+      "layer": 1,
+      "run": 1,
+      "hemisphere": "rh",
+      "checkpoint_sha256": "1d7db17076bb1ae6cedc45450dd4c9ea6a7dad81ea3126c6dd6a3830202f4064",
+      "full_state_keys": 200,
+      "checkpoint_keys": 25,
+      "backbone_keys": 175,
+      "strict_load": true,
+      "all_loaded_tensors_exact": true,
+      "missing_keys": [],
+      "unexpected_keys": [],
+      "finite_full_vertex_outputs": true,
+      "batch_vs_single_max_abs": 4.5299530029296875e-06,
+      "elapsed_seconds": 1.400559786008671
+    },
+    {
+      "layer": 1,
+      "run": 2,
+      "hemisphere": "lh",
+      "checkpoint_sha256": "01d70d681de44019ddc5df692630d44be79a4c94c33ffcc69630da5d43d91a0e",
+      "full_state_keys": 200,
+      "checkpoint_keys": 25,
+      "backbone_keys": 175,
+      "strict_load": true,
+      "all_loaded_tensors_exact": true,
+      "missing_keys": [],
+      "unexpected_keys": [],
+      "finite_full_vertex_outputs": true,
+      "batch_vs_single_max_abs": 4.023313522338867e-06,
+      "elapsed_seconds": 1.3217061799950898
+    },
+    {
+      "layer": 1,
+      "run": 2,
+      "hemisphere": "rh",
+      "checkpoint_sha256": "4afdb5e7dc89c9fc62f254331625f7b1c17d9af72a8e1119668b9e5065de44a8",
+      "full_state_keys": 200,
+      "checkpoint_keys": 25,
+      "backbone_keys": 175,
+      "strict_load": true,
+      "all_loaded_tensors_exact": true,
+      "missing_keys": [],
+      "unexpected_keys": [],
+      "finite_full_vertex_outputs": true,
+      "batch_vs_single_max_abs": 3.159046173095703e-06,
+      "elapsed_seconds": 1.3245422958862036
+    },
+    {
+      "layer": 3,
+      "run": 1,
+      "hemisphere": "lh",
+      "checkpoint_sha256": "4237c9bf2a8186a235860e923e30a092c3b041ab13086aa9461313d79d1c0a52",
+      "full_state_keys": 200,
+      "checkpoint_keys": 25,
+      "backbone_keys": 175,
+      "strict_load": true,
+      "all_loaded_tensors_exact": true,
+      "missing_keys": [],
+      "unexpected_keys": [],
+      "finite_full_vertex_outputs": true,
+      "batch_vs_single_max_abs": 3.2782554626464844e-06,
+      "elapsed_seconds": 1.3215194600634277
+    },
+    {
+      "layer": 3,
+      "run": 1,
+      "hemisphere": "rh",
+      "checkpoint_sha256": "aaa0bceef24f9dc1bd239021cbe4d30bbf40f6ac3290ba6eca7e1862502a745d",
+      "full_state_keys": 200,
+      "checkpoint_keys": 25,
+      "backbone_keys": 175,
+      "strict_load": true,
+      "all_loaded_tensors_exact": true,
+      "missing_keys": [],
+      "unexpected_keys": [],
+      "finite_full_vertex_outputs": true,
+      "batch_vs_single_max_abs": 3.3974647521972656e-06,
+      "elapsed_seconds": 1.3171278848312795
+    },
+    {
+      "layer": 3,
+      "run": 2,
+      "hemisphere": "lh",
+      "checkpoint_sha256": "449b0c7afbbe54f60b8a3d79ab73b7cdd28c710731f0c3267b88ef2dc39d09d2",
+      "full_state_keys": 200,
+      "checkpoint_keys": 25,
+      "backbone_keys": 175,
+      "strict_load": true,
+      "all_loaded_tensors_exact": true,
+      "missing_keys": [],
+      "unexpected_keys": [],
+      "finite_full_vertex_outputs": true,
+      "batch_vs_single_max_abs": 2.384185791015625e-06,
+      "elapsed_seconds": 1.3154769609682262
+    },
+    {
+      "layer": 3,
+      "run": 2,
+      "hemisphere": "rh",
+      "checkpoint_sha256": "a2a227d53c12476cb1b11d1405c8922f1670d35020098a18c4f1a22d05f69b3a",
+      "full_state_keys": 200,
+      "checkpoint_keys": 25,
+      "backbone_keys": 175,
+      "strict_load": true,
+      "all_loaded_tensors_exact": true,
+      "missing_keys": [],
+      "unexpected_keys": [],
+      "finite_full_vertex_outputs": true,
+      "batch_vs_single_max_abs": 4.291534423828125e-06,
+      "elapsed_seconds": 1.3182696551084518
+    },
+    {
+      "layer": 5,
+      "run": 1,
+      "hemisphere": "lh",
+      "checkpoint_sha256": "0d7a7e7b8ba4f1c6864c0d2baa7dcda16645e7217c8bcead3853915049409e70",
+      "full_state_keys": 200,
+      "checkpoint_keys": 25,
+      "backbone_keys": 175,
+      "strict_load": true,
+      "all_loaded_tensors_exact": true,
+      "missing_keys": [],
+      "unexpected_keys": [],
+      "finite_full_vertex_outputs": true,
+      "batch_vs_single_max_abs": 4.589557647705078e-06,
+      "elapsed_seconds": 1.31885170401074
+    },
+    {
+      "layer": 5,
+      "run": 1,
+      "hemisphere": "rh",
+      "checkpoint_sha256": "48dc4cce4033ac15a081e5e8a2b79340bccbdf6a2fa35ed2dca0331e3ee4bae7",
+      "full_state_keys": 200,
+      "checkpoint_keys": 25,
+      "backbone_keys": 175,
+      "strict_load": true,
+      "all_loaded_tensors_exact": true,
+      "missing_keys": [],
+      "unexpected_keys": [],
+      "finite_full_vertex_outputs": true,
+      "batch_vs_single_max_abs": 4.76837158203125e-06,
+      "elapsed_seconds": 1.3182195918634534
+    },
+    {
+      "layer": 5,
+      "run": 2,
+      "hemisphere": "lh",
+      "checkpoint_sha256": "4e532fc4e476e40c2523093f3fa6c1d78c03e7cdc4087f4aff4a3ec41b6260b5",
+      "full_state_keys": 200,
+      "checkpoint_keys": 25,
+      "backbone_keys": 175,
+      "strict_load": true,
+      "all_loaded_tensors_exact": true,
+      "missing_keys": [],
+      "unexpected_keys": [],
+      "finite_full_vertex_outputs": true,
+      "batch_vs_single_max_abs": 6.616115570068359e-06,
+      "elapsed_seconds": 1.31983561697416
+    },
+    {
+      "layer": 5,
+      "run": 2,
+      "hemisphere": "rh",
+      "checkpoint_sha256": "ec93ea674190c1d1c22457e52f2378b25fa9b921b809f4166fed534eb2e76128",
+      "full_state_keys": 200,
+      "checkpoint_keys": 25,
+      "backbone_keys": 175,
+      "strict_load": true,
+      "all_loaded_tensors_exact": true,
+      "missing_keys": [],
+      "unexpected_keys": [],
+      "finite_full_vertex_outputs": true,
+      "batch_vs_single_max_abs": 4.373490810394287e-06,
+      "elapsed_seconds": 1.3180434820242226
+    },
+    {
+      "layer": 7,
+      "run": 1,
+      "hemisphere": "lh",
+      "checkpoint_sha256": "7871f4712843363632d89b9e6543d77490a051f4d7840d93f3da43702d84849b",
+      "full_state_keys": 200,
+      "checkpoint_keys": 25,
+      "backbone_keys": 175,
+      "strict_load": true,
+      "all_loaded_tensors_exact": true,
+      "missing_keys": [],
+      "unexpected_keys": [],
+      "finite_full_vertex_outputs": true,
+      "batch_vs_single_max_abs": 9.417533874511719e-06,
+      "elapsed_seconds": 1.3157740738242865
+    },
+    {
+      "layer": 7,
+      "run": 1,
+      "hemisphere": "rh",
+      "checkpoint_sha256": "e68a263dab39bcba13d994d595dac58634c643f03fde5aca08ee0c9a6d519552",
+      "full_state_keys": 200,
+      "checkpoint_keys": 25,
+      "backbone_keys": 175,
+      "strict_load": true,
+      "all_loaded_tensors_exact": true,
+      "missing_keys": [],
+      "unexpected_keys": [],
+      "finite_full_vertex_outputs": true,
+      "batch_vs_single_max_abs": 6.258487701416016e-06,
+      "elapsed_seconds": 1.319568174192682
+    },
+    {
+      "layer": 7,
+      "run": 2,
+      "hemisphere": "lh",
+      "checkpoint_sha256": "3c6d59dae283b22ff3aae22263fd0a3449e1542da8464ff23cd9c8f5aeb26961",
+      "full_state_keys": 200,
+      "checkpoint_keys": 25,
+      "backbone_keys": 175,
+      "strict_load": true,
+      "all_loaded_tensors_exact": true,
+      "missing_keys": [],
+      "unexpected_keys": [],
+      "finite_full_vertex_outputs": true,
+      "batch_vs_single_max_abs": 6.407499313354492e-06,
+      "elapsed_seconds": 1.3196404408663511
+    },
+    {
+      "layer": 7,
+      "run": 2,
+      "hemisphere": "rh",
+      "checkpoint_sha256": "0418d86cd8fd4e2758af38d01526c0c5dc6e2121855150b5ba322a959a638ebe",
+      "full_state_keys": 200,
+      "checkpoint_keys": 25,
+      "backbone_keys": 175,
+      "strict_load": true,
+      "all_loaded_tensors_exact": true,
+      "missing_keys": [],
+      "unexpected_keys": [],
+      "finite_full_vertex_outputs": true,
+      "batch_vs_single_max_abs": 8.52346420288086e-06,
+      "elapsed_seconds": 1.3191977280657738
+    }
+  ],
+  "roi": {
+    "public_asset_sha256": "2186ea0302cdd5b118aaade9ef34f035162e542fb455130ca0ebc96380120256",
+    "lh": {
+      "canonical_roi_count": 24,
+      "individual_masks_exact_in_original_order": true,
+      "union_vertices": 16236,
+      "union_sha256": "9ef14d069eff69df3c60a2fba21ca24590b1d8e47126fc476b2f774abc9eba67",
+      "mapping_sha256": "a2f0eacd4e4a84be91e463d93c9060add1286529304a3d8723467586a5672ee6",
+      "reference_files": [
+        {
+          "path": "/data1/matengyu/geyugong/neuroadapter-author-first/runtime/ibbi-roi-l120-assets/lh.prf-visualrois.mgz",
+          "sha256": "37134b4e6c852b365d0fc8162acb9608e437c7adab88ec76d1e6a8fad7ba6cff"
+        },
+        {
+          "path": "/data1/matengyu/geyugong/neuroadapter-author-first/runtime/ibbi-roi-l120-assets/lh.floc-bodies.mgz",
+          "sha256": "31ecb363d8ffdacdda9f513439e2ebf916e3424743e30b80d1d8de00e87c5bb1"
+        },
+        {
+          "path": "/data1/matengyu/geyugong/neuroadapter-author-first/runtime/ibbi-roi-l120-assets/lh.floc-faces.mgz",
+          "sha256": "bbacfb5a7e4f7e0dd444ad117cd6e93c8a5df307a5f01c59a2b80845ab89cd6d"
+        },
+        {
+          "path": "/data1/matengyu/geyugong/neuroadapter-author-first/runtime/ibbi-roi-l120-assets/lh.floc-places.mgz",
+          "sha256": "bf05b90eff7c3e33217fe0906cef5efcc779d1e6b147a2b2081cfc506393753c"
+        },
+        {
+          "path": "/data1/matengyu/geyugong/neuroadapter-author-first/runtime/ibbi-roi-l120-assets/lh.floc-words.mgz",
+          "sha256": "17c4aeb62ef31973d91821eb8e39bc9663ba9913e8f52595c39107f1bc916526"
+        }
+      ]
+    },
+    "rh": {
+      "canonical_roi_count": 24,
+      "individual_masks_exact_in_original_order": true,
+      "union_vertices": 17380,
+      "union_sha256": "d84184597b8c8073a2245400e9cda7ca092fd6d54a3afa4626560fd865ae69a4",
+      "mapping_sha256": "ce346d6f9ea27490158c11315dceed337ded832c24b991448975e4ce2d89cfca",
+      "reference_files": [
+        {
+          "path": "/data1/matengyu/geyugong/neuroadapter-author-first/runtime/ibbi-roi-l120-assets/rh.prf-visualrois.mgz",
+          "sha256": "2af899525083c82bc264e872c58ece39c2183d41641c03667a8fca515e8a6cfa"
+        },
+        {
+          "path": "/data1/matengyu/geyugong/neuroadapter-author-first/runtime/ibbi-roi-l120-assets/rh.floc-bodies.mgz",
+          "sha256": "84e07afa8713847a10b197ae9271379a5aab5379eea3b84bb8afb4606d0340b3"
+        },
+        {
+          "path": "/data1/matengyu/geyugong/neuroadapter-author-first/runtime/ibbi-roi-l120-assets/rh.floc-faces.mgz",
+          "sha256": "5ee859d0af00bb5428a43e078990b8e156ab80a43cf8f2e443072174c029af55"
+        },
+        {
+          "path": "/data1/matengyu/geyugong/neuroadapter-author-first/runtime/ibbi-roi-l120-assets/rh.floc-places.mgz",
+          "sha256": "08454c68cfebae6a6a50949a831315e86fcb8dc3904a0e34ef76e15d95e3cfab"
+        },
+        {
+          "path": "/data1/matengyu/geyugong/neuroadapter-author-first/runtime/ibbi-roi-l120-assets/rh.floc-words.mgz",
+          "sha256": "38d528d13365553f93bc50e32dd446d61d4026e2a6d6b09a8a14c28f88a8bccc"
+        }
+      ]
+    },
+    "recovered_union_file": "/data1/matengyu/geyugong/neuroadapter-author-first/runtime/imagenet-retrieval-assets/public-canonical-roi-union.npz",
+    "recovered_union_file_sha256": "838bdab02355084ead2f69301f2d8dfb3fa166b65308cb6ff701dcde404276ad"
+  },
+  "images": [
+    {
+      "path": "/data1/matengyu/data/ImageNet/ImageNet/train/n01440764/n01440764_10026.JPEG",
+      "mode": "RGB",
+      "sha256": "1278bc934896315c902cc4b9972ee43797840e98aecb724a10c01646c3ae416d"
+    },
+    {
+      "path": "/data1/matengyu/data/ImageNet/ImageNet/train_gray/unpacked_gray/n01440764_15560.JPEG",
+      "mode": "L",
+      "sha256": "1d58741849dc67811dc396befcdb00c23ccb6a5241c01b8158ff1dc94e896c66"
+    }
+  ],
+  "limits": [
+    "No checkpoint training/validation ID provenance established",
+    "No beta normalization recipe established for these checkpoints",
+    "48 canonical ROI masks recovered; streams inclusion in the historical retrieval producer is unconfirmed",
+    "Forward checks on two candidates are not formal baseline metrics"
+  ],
+  "ensemble": {
+    "lh": {
+      "members": 8,
+      "weight_formula": "softmax(20 * val_corr, axis=model)",
+      "weights_finite": true,
+      "batch_vs_single_max_abs": 2.7492642402648926e-06
+    },
+    "rh": {
+      "members": 8,
+      "weight_formula": "softmax(20 * val_corr, axis=model)",
+      "weights_finite": true,
+      "batch_vs_single_max_abs": 2.682209014892578e-06
+    }
+  },
+  "finished_utc": "2026-10-05T07:17:46Z"
+}

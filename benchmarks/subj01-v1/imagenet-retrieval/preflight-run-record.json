@@ -1,0 +1,31 @@
+{
+  "command": [
+    "/data1/matengyu/geyugong/neuroadapter-author-first/runtime/env/bin/python",
+    "-B",
+    "/data1/matengyu/geyugong/neuroadapter-author-first/benchmarks/subj01-v1/imagenet-retrieval/audit_public_encoder.py",
+    "--encoder-source",
+    "/data1/matengyu/geyugong/neuroadapter-subject1-research/repo/vendor/whole_brain_encoder",
+    "--dino-source",
+    "/data1/matengyu/geyugong/neuroadapter-subject1-research/repo/vendor/dinov2",
+    "--dino-weight",
+    "/data1/matengyu/geyugong/neuroadapter-author-first/runtime/torch/hub/checkpoints/dinov2_vitb14_pretrain.pth",
+    "--weights",
+    "/data1/matengyu/geyugong/neuroadapter-subject1-research/models/brain-encoder/dinov2_q_transformer/schaefer/subj_01",
+    "--roi-reference",
+    "/data1/matengyu/geyugong/neuroadapter-author-first/runtime/ibbi-roi-l120-assets",
+    "--images",
+    "/data1/matengyu/data/ImageNet/ImageNet/train/n01440764/n01440764_10026.JPEG",
+    "/data1/matengyu/data/ImageNet/ImageNet/train_gray/unpacked_gray/n01440764_15560.JPEG",
+    "--output",
+    "/data1/matengyu/geyugong/neuroadapter-author-first/benchmarks/subj01-v1/imagenet-retrieval/public-asset-audit.json"
+  ],
+  "exit_code": 0,
+  "log": "/data1/matengyu/geyugong/neuroadapter-author-first/logs/imagenet-retrieval-public-preflight-20261005.log",
+  "log_sha256": "75ac94f557a00952fe1f58059bd897ed71074b39a6a14e57e9682226b243e188",
+  "exit_file": "/data1/matengyu/geyugong/neuroadapter-author-first/logs/imagenet-retrieval-public-preflight-20261005.exit",
+  "code_sha256": "c1dcac516f2a420684a72e683e0feb266b9a08a420779f60f50020b5dc9a4d36",
+  "training_updates": 0,
+  "formal_candidates_scanned": 0,
+  "gpu_compute_processes_after": "",
+  "preflight_only": true
+}

@@ -1,0 +1,77 @@
+{
+  "checked_utc": "2026-10-05T07:23:43Z",
+  "sources": [
+    {
+      "url": "https://github.com/kriegeskorte-lab/whole_brain_encoder",
+      "revision": "767f25afc2240f568f4db8c0ce09604e6f83aa72",
+      "also_checked": [
+        "7c7cd1336fe6b68860c412a14a7324a332cdad7d",
+        "397e7b5",
+        "83a12a3",
+        "6e6703b",
+        "7c96710",
+        "ef79580"
+      ],
+      "finding": "History contains released canonical ROI masks and readers, but no checkpoint split IDs or beta preparation recipe located"
+    },
+    {
+      "url": "https://github.com/HosseinAdeli/whole_brain_encoder",
+      "revision": "6c3dd5480b77317c6dcf169a27675c26d5fdf94b",
+      "finding": "Also reads external metadata train_img_num/val_img_num/test_img_num; does not supply those arrays"
+    },
+    {
+      "url": "https://github.com/HosseinAdeli/transformer_brain_encoder",
+      "revision": "d4de87029ae490708461f464fb2650c0976c7aa2",
+      "finding": "Algonauts ROI/model lineage; different development split, not evidence of current checkpoint membership"
+    },
+    {
+      "url": "https://arxiv.org/html/2505.17329v1",
+      "section": "3.1 and 4",
+      "finding": "Earlier related architecture uses Algonauts split and tenfold validation; not transferable to current weights"
+    },
+    {
+      "url": "https://arxiv.org/html/2510.21142v1",
+      "section": "4.1",
+      "finding": "Centering/scaling to unit variance and canonical pRF/fLoc ROI sources stated; normalization axes and exact IDs not supplied here"
+    },
+    {
+      "url": "https://arxiv.org/html/2509.23566v2",
+      "section": "6.1",
+      "finding": "Method reference only; paper baseline values never used as measured results"
+    },
+    {
+      "url": "https://github.com/aluo-x/BrainDiVE/blob/1a42c6e2e2b534b8a28ef2a968fd6ffe1ea4cd37/data_maker/Z_score.ipynb",
+      "finding": "Session-wise vertex normalization then repeat averaging is a sourced candidate recipe for another pipeline, not proof for current encoder"
+    },
+    {
+      "url": "https://github.com/kriegeskorte-lab/NeuroAdapter/issues/1",
+      "finding": "Dataset preparation issue has no comments at time of check"
+    },
+    {
+      "url": "https://github.com/kriegeskorte-lab/NeuroAdapter/issues/2",
+      "finding": "ROI metadata issue has no comments at time of check; not modified"
+    },
+    {
+      "url": "https://huggingface.co/ehwang/brain_encoder_weights/tree/d8a978abb212eb2965b5d01673f96536b77e2ea0",
+      "finding": "Actual 32 Subject1 files match official LFS SHA256; see official-weight-verification.json"
+    },
+    {
+      "url": "https://github.com/cvnlab/nsdcode/blob/bfd36a503cc90a3eb3ebfd69b269403f7e186924/nsdcode/transform_data.py",
+      "finding": "Existing project native-to-fsaverage nearest-neighbor mapping verified against public canonical ROI files"
+    }
+  ],
+  "source_files_sha256": {
+    "brain_encoder_wrapper.py": "36b524c3132c2345a89e5bc2cb6bd6f20685ab9f5429d2eab4272119fecf6e37",
+    "fetch.py": "0d72997301aab275cf079baa17e94931c4e9f2a7ca6e1466000b92c36f106fc1",
+    "datasets/nsd.py": "ebbcc1436798166ea6e0170c75f75fce6c13db117d9c1e1fbafde30755c52c81",
+    "models/brain_encoder.py": "7a0fc94832634ebaf6784f2c7b329a072335eee869bc4ec9cb3581e086684cb5",
+    "models/dino.py": "36af6e7b1acd273e3339286653d0b65351ce4d5a82aa275fd2b43454e4ba19d7",
+    "img_gen/roi_selection.py": "8cf6fd8dd078a2b02858e0605a33edfb0d1ff8355641921391a365d8a71b99ad",
+    "parcels/nsd_labels/labels_s01.pt": "2186ea0302cdd5b118aaade9ef34f035162e542fb455130ca0ebc96380120256",
+    "parcels/schaefer/lh_labels_s01.pt": "95013670928b86f4e4989346f5f86faf33a2cfbba065308ad14e0c23c0bed048",
+    "parcels/schaefer/rh_labels_s01.pt": "6f71fef01ce5303232c7e063243701b99a368af92aa240ad9826fa240ff1313c"
+  },
+  "public_parcel_limit": "Public LH/RH Schaefer memberships are identical. Original released files retained, not replaced by newly generated parcels. Complete coverage and forward compatibility checked; no claim of byte identity with internal experimental assets.",
+  "outbound_messages_sent": 0,
+  "formal_scan_started": false
+}
