@@ -1,5 +1,5 @@
 {
-  "status": "execution_complete_publication_pending",
+  "status": "completed",
   "execution_complete": true,
   "scanned_candidates": 1281167,
   "encoder_split_verified": false,
@@ -10,5 +10,9 @@
   "disclosure": "本地固定协议；encoder开发集划分未核实；标准化及mask与作者历史实验的一致性未确认。",
   "training_updates": 0,
   "outbound_messages_sent": 0,
-  "final_audit": "final-audit.json"
+  "final_audit": "final-audit.json",
+  "publication_status": "delivery_commit_verified_server_local_private_github",
+  "verified_delivery_commit": "525ad3190b1e436efae853b554ee15ce37f6f659",
+  "verified_delivery_tree": "beef7ec75b59be0107a59a82f224b462b8ff117a",
+  "verified_tracked_index_sha256": "1cb3f91a87b1623f14340443263c99ee5b7134e67661973bdace6240d6260845"
 }

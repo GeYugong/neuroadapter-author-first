@@ -22,7 +22,7 @@
   "relative_plot_actually_reviewed": true,
   "protected_strict_reports_unchanged": true,
   "protocol_sha256": "ba1ad14d15cf51c41c93b7f1938aa16d51b3727b1d9824b8b0e0f2a409a2d48d",
-  "publication_status": "pending_separate_git_consistency_check",
+  "publication_status": "delivery_commit_verified_server_local_private_github",
   "stage_snapshot_note": "retrieval-complete和delivery-artifacts中的false是当时阶段快照；当前计算及审阅完成状态以本文件和run-status为准。",
   "artifact_sha256": {
     "relative-change.png": "58d31a2d5f115c8479cbc5f2655373c7c9be60f8a438fecf93d8f371392d6ad6",
@@ -36,5 +36,8 @@
     "atlas32/page-03.jpg": "e43f9f875f37bf5ae60062474f48c60601f4c55bf9199b7b2abe52bab7dcd548",
     "atlas32/page-04.jpg": "3b605526c7d266eaf2204887775defc1ff8f813613487ddeb1f389c4c9b1f0e0",
     "atlas32/page-02.jpg": "f57ddcde443989067dba0d5f33a1c8ae480126498a869aef4add80b6a03eba6d"
-  }
+  },
+  "verified_delivery_commit": "525ad3190b1e436efae853b554ee15ce37f6f659",
+  "verified_delivery_tree": "beef7ec75b59be0107a59a82f224b462b8ff117a",
+  "verified_tracked_index_sha256": "1cb3f91a87b1623f14340443263c99ee5b7134e67661973bdace6240d6260845"
 }

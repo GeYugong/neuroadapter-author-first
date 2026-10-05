@@ -23,7 +23,7 @@ AN2/AN5/Incep/CLIP单位为%；Eff与SwAV为相关距离，越低越好。完整
 
 右半球session11原始10个顶点共7500个NaN全部位于固定mask外；已记录而未填零，参与检索的全部查询均有限。
 
-全部4页32目标已实际AI非盲审阅，详见[审阅记录](VISUAL_REVIEW_ZH.md)。本地计算及审阅已完成；发布一致性另行核验。
+全部4页32目标已实际AI非盲审阅，详见[审阅记录](VISUAL_REVIEW_ZH.md)。本地计算及审阅已完成；交付提交525ad31已核对服务器、本地和私有GitHub的HEAD、tree及跟踪文件一致。
 
 
 L400相对本地baseline：PixCorr -31.63%、SSIM +12.07%、AN2 +85.93%、AN5 +118.66%、Incep +92.11%、CLIP +71.47%、Eff +10.71%、SwAV +11.24%。七项方向改善，不能声称全部改善。baseline的AN2、AN5、Incep低于50，CLIP约50；巨大相对变化受低baseline分母影响，不是无泄漏泛化证据。
