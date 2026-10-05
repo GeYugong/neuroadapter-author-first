@@ -1,0 +1,46 @@
+{
+  "expected": 1281167,
+  "unique_ids": 1281167,
+  "parts": [
+    {
+      "path": "/data1/matengyu/data/ImageNet/ImageNet/train",
+      "n_files": 1261125,
+      "duplicate_ids_with_previous": 0
+    },
+    {
+      "path": "/data1/matengyu/data/ImageNet/ImageNet/train_gray/unpacked_gray",
+      "n_files": 20042,
+      "duplicate_ids_with_previous": 0
+    }
+  ],
+  "total_bytes": 146907888532,
+  "sorted_path_size_inventory_sha256": "3ab482df0cc95fe0ecb67cdf8799b1d53f87e12030394379384b2e0b5d61c02d",
+  "gray_samples": [
+    {
+      "id": "n01440764_15560.JPEG",
+      "mode": "L",
+      "size": [
+        500,
+        333
+      ]
+    },
+    {
+      "id": "n01484850_14287.JPEG",
+      "mode": "L",
+      "size": [
+        500,
+        333
+      ]
+    },
+    {
+      "id": "n01484850_14797.JPEG",
+      "mode": "L",
+      "size": [
+        500,
+        333
+      ]
+    }
+  ],
+  "status": "count_and_unique_filename_verified; full image decode and original-file hashes pending",
+  "read_only": true
+}

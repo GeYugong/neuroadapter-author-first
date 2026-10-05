@@ -1,0 +1,26 @@
+{
+  "status": "blocked",
+  "existing_test_ids_sha256": "4c438772ffa978ab8c5f781b8a3fc73df0159ae4892dc39d896f05a413d36441",
+  "existing_n": 982,
+  "local_metadata_sha256": "daf88dfecec3829288c853c3c65873f40f36f1cb8c2302f65541c5d9a50d08c9",
+  "local_metadata_keys": [
+    "img_presentation_order",
+    "train_img_num",
+    "test_img_num",
+    "val_img_num",
+    "lh_ncsnr",
+    "rh_ncsnr"
+  ],
+  "local_metadata_provenance": "project-generated NSD metadata; NOT established encoder checkpoint training metadata",
+  "local_train_overlap": 0,
+  "local_val_overlap": 0,
+  "encoder_train_overlap": null,
+  "encoder_val_and_ensemble_fit_overlap": null,
+  "eligible_ids": null,
+  "missing": [
+    "official encoder train/val/test global NSD IDs and mapping",
+    "lh_rois and rh_rois used by fetch.nsd_labeled_area_mask",
+    "encoder-compatible beta centering/scaling definition and statistics"
+  ],
+  "query_ids_frozen": false
+}
