@@ -1,0 +1,168 @@
+{
+  "methods": [
+    {
+      "method": "NeuroAdapter L400",
+      "status": "same982_and_frozen_metric_verified",
+      "metrics_path": "/data1/matengyu/geyugong/neuroadapter-author-first/reports/lr-half-to500/test982/metrics/metrics.json",
+      "metrics_sha256": "11a6b676cf8790fb888c28fea05480bacb9564095563249c5a2bd8f2c531f7e5",
+      "per_image_path": "/data1/matengyu/geyugong/neuroadapter-author-first/reports/lr-half-to500/test982/metrics/per-image.csv",
+      "per_image_sha256": "1c98d899440ad8380292cc054c913f910d43c042855713a8ef8eae5c759108a1",
+      "original_record": {
+        "feature_batch": 16,
+        "negative_pool": "all requested IDs; unchanged original formula",
+        "method": "neuroadapter",
+        "n_eval": 982,
+        "K": 1,
+        "selection": "none",
+        "eval_ids_hash": "4c438772ffa978ab8c5f781b8a3fc73df0159ae4892dc39d896f05a413d36441",
+        "mean": {
+          "PixCorr": 0.09638262284496864,
+          "SSIM": 0.27738699436619657,
+          "Alex(2)": 78.06604508056328,
+          "Alex(5)": 88.0575122853566,
+          "Incep": 85.07850794421918,
+          "CLIP": 86.39870367948247,
+          "Eff": 0.7711424411537112,
+          "SwAV": 0.45501704818033034
+        },
+        "metric_sha256": "646ee1f3673b033cd6ee485058db16a3d24fae7624d793fe5174008ad2e15f7d",
+        "GT": "original NSD425x425 RGB uint8/255",
+        "prediction_serialization": "Existing method-native exported uint8 outputs",
+        "prediction_resize": "author resize_images bilinear align_corners=False to425 before metric-specific preprocessing"
+      }
+    },
+    {
+      "method": "MindEye1 K1",
+      "status": "same982_and_frozen_metric_verified",
+      "metrics_path": "/data1/matengyu/geyugong/neuroadapter-author-first/benchmarks/subj01-v1/metrics/mindeye1/test_full_ids/metrics.json",
+      "metrics_sha256": "8fdfda3b95e94b6f18f69d0485c46235b6cf37bc295f2c728afe6889911c8b6b",
+      "per_image_path": "/data1/matengyu/geyugong/neuroadapter-author-first/benchmarks/subj01-v1/metrics/mindeye1/test_full_ids/per-image.csv",
+      "per_image_sha256": "7c7904a2392bc0f0ac75f3e0da9a3224fc3e2f45e6aedd0e1703578fcddf9452",
+      "original_record": {
+        "feature_batch": 16,
+        "negative_pool": "all requested IDs; unchanged original formula",
+        "method": "mindeye1",
+        "n_eval": 982,
+        "K": 1,
+        "selection": "none",
+        "eval_ids_hash": "4c438772ffa978ab8c5f781b8a3fc73df0159ae4892dc39d896f05a413d36441",
+        "mean": {
+          "PixCorr": 0.3650328357166992,
+          "SSIM": 0.28835477329093356,
+          "Alex(2)": 96.55532510780179,
+          "Alex(5)": 98.30133016104354,
+          "Incep": 94.26423845321807,
+          "CLIP": 94.3076290663129,
+          "Eff": 0.6373557675139835,
+          "SwAV": 0.3577351476741931
+        },
+        "metric_sha256": "646ee1f3673b033cd6ee485058db16a3d24fae7624d793fe5174008ad2e15f7d",
+        "GT": "original NSD425x425 RGB uint8/255",
+        "prediction_resize": "author resize_images bilinear align_corners=False to425 before metric-specific preprocessing"
+      }
+    },
+    {
+      "method": "Brain-Diffuser K1",
+      "status": "same982_and_frozen_metric_verified",
+      "metrics_path": "/data1/matengyu/geyugong/neuroadapter-author-first/benchmarks/subj01-v1/metrics/brain-diffuser/test_full_ids/metrics.json",
+      "metrics_sha256": "c760b67ce58dfd7a0cbf5386a1c8e8982cb21037d05c60e78ad810cd4446d1ff",
+      "per_image_path": "/data1/matengyu/geyugong/neuroadapter-author-first/benchmarks/subj01-v1/metrics/brain-diffuser/test_full_ids/per-image.csv",
+      "per_image_sha256": "a5ac700aba45134284dd576c65896665d9ac18d7ecda55e29e634ff4aa1296fd",
+      "original_record": {
+        "feature_batch": 16,
+        "negative_pool": "all requested IDs; unchanged original formula",
+        "method": "brain-diffuser",
+        "n_eval": 982,
+        "K": 1,
+        "selection": "none",
+        "eval_ids_hash": "4c438772ffa978ab8c5f781b8a3fc73df0159ae4892dc39d896f05a413d36441",
+        "mean": {
+          "PixCorr": 0.3444836344075664,
+          "SSIM": 0.3728370124009039,
+          "Alex(2)": 94.68817927589579,
+          "Alex(5)": 92.11422319383978,
+          "Incep": 72.62851614483745,
+          "CLIP": 71.26835537119736,
+          "Eff": 0.9329788106607166,
+          "SwAV": 0.626845034871439
+        },
+        "metric_sha256": "646ee1f3673b033cd6ee485058db16a3d24fae7624d793fe5174008ad2e15f7d",
+        "GT": "original NSD425x425 RGB uint8/255",
+        "prediction_resize": "author resize_images bilinear align_corners=False to425 before metric-specific preprocessing"
+      }
+    },
+    {
+      "method": "Takagi K1",
+      "status": "same982_and_frozen_metric_verified",
+      "metrics_path": "/data1/matengyu/geyugong/neuroadapter-author-first/benchmarks/subj01-v1/metrics/takagi/test_full_ids/metrics.json",
+      "metrics_sha256": "4cd04890deff7de692593c5df5e04048e8bb5879b0cdeeee63a3c57e0dcc051e",
+      "per_image_path": "/data1/matengyu/geyugong/neuroadapter-author-first/benchmarks/subj01-v1/metrics/takagi/test_full_ids/per-image.csv",
+      "per_image_sha256": "14361abd4bb802c119d6901fc659a732363423c30e5e5d8f63b0b4abc7ad122c",
+      "original_record": {
+        "feature_batch": 16,
+        "negative_pool": "all requested IDs; unchanged original formula",
+        "method": "takagi",
+        "n_eval": 982,
+        "K": 1,
+        "selection": "none",
+        "eval_ids_hash": "4c438772ffa978ab8c5f781b8a3fc73df0159ae4892dc39d896f05a413d36441",
+        "mean": {
+          "PixCorr": 0.27996229278635076,
+          "SSIM": 0.22373896276521554,
+          "Alex(2)": 78.06012817877765,
+          "Alex(5)": 76.55848078875415,
+          "Incep": 66.98597175250326,
+          "CLIP": 69.9965329031642,
+          "Eff": 0.9444053131545502,
+          "SwAV": 0.6748598762040576
+        },
+        "metric_sha256": "646ee1f3673b033cd6ee485058db16a3d24fae7624d793fe5174008ad2e15f7d",
+        "GT": "original NSD425x425 RGB uint8/255",
+        "prediction_serialization": "Existing method-native exported uint8 outputs",
+        "prediction_resize": "author resize_images bilinear align_corners=False to425 before metric-specific preprocessing"
+      }
+    },
+    {
+      "method": "MindBridge(s) K1",
+      "status": "same982_and_frozen_metric_verified",
+      "metrics_path": "/data1/matengyu/geyugong/neuroadapter-author-first/benchmarks/subj01-v1/metrics/mindbridge/test_full_ids/metrics.json",
+      "metrics_sha256": "e6814f8776936e1d17a9194eb3a482ecdb07879d63f0de1d9378ccc320528658",
+      "per_image_path": "/data1/matengyu/geyugong/neuroadapter-author-first/benchmarks/subj01-v1/metrics/mindbridge/test_full_ids/per-image.csv",
+      "per_image_sha256": "d2079952257cc88c705333e7ba2db161a1ed285f102820d1c62f3ff14e2b77e1",
+      "original_record": {
+        "feature_batch": 16,
+        "negative_pool": "all requested IDs; unchanged original formula",
+        "method": "mindbridge",
+        "n_eval": 982,
+        "K": 1,
+        "selection": "none",
+        "eval_ids_hash": "4c438772ffa978ab8c5f781b8a3fc73df0159ae4892dc39d896f05a413d36441",
+        "mean": {
+          "PixCorr": 0.1574088622129944,
+          "SSIM": 0.2527197881406127,
+          "Alex(2)": 85.61704981200862,
+          "Alex(5)": 95.64671736517249,
+          "Incep": 91.35769020763135,
+          "CLIP": 91.1286957279969,
+          "Eff": 0.7617074244548709,
+          "SwAV": 0.4383945680863273
+        },
+        "metric_sha256": "646ee1f3673b033cd6ee485058db16a3d24fae7624d793fe5174008ad2e15f7d",
+        "GT": "original NSD425x425 RGB uint8/255",
+        "prediction_serialization": "Original FP32 tensor; PNG is atlas-only",
+        "prediction_resize": "author resize_images bilinear align_corners=False to425 before metric-specific preprocessing"
+      }
+    }
+  ],
+  "l400_generation_audit_sha256": "a7cb55da9c4bfc5f0ce1713e0428da3922c8de8a5b5435156edf6a22f910f8a2",
+  "l400_all982_output_hashes_matched": true,
+  "old_benchmark_neuroadapter_is_L120_not_used": true,
+  "encoder_split_verified": false,
+  "encoder_development_overlap": "unknown",
+  "historical_beta_recipe_verified": false,
+  "historical_retrieval_mask_verified": false,
+  "result_scope": "local_fixed_exploratory",
+  "disclosure": "本地固定协议；encoder开发集划分未核实；标准化及mask与作者历史实验的一致性未确认。",
+  "training_updates": 0,
+  "outbound_messages_sent": 0
+}

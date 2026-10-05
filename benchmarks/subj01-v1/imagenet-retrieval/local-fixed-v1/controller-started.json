@@ -1,0 +1,14 @@
+{
+  "pid": 3507223,
+  "utc": "2026-10-05T08:07:22Z",
+  "log_prefix": "imagenet-local-fixed-v1-20261005T080722",
+  "resume": false,
+  "encoder_split_verified": false,
+  "encoder_development_overlap": "unknown",
+  "historical_beta_recipe_verified": false,
+  "historical_retrieval_mask_verified": false,
+  "result_scope": "local_fixed_exploratory",
+  "disclosure": "本地固定协议；encoder开发集划分未核实；标准化及mask与作者历史实验的一致性未确认。",
+  "training_updates": 0,
+  "outbound_messages_sent": 0
+}

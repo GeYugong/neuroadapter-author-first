@@ -1,0 +1,24 @@
+{
+  "n_candidates": 1281167,
+  "root_counts": [
+    1261125,
+    20042
+  ],
+  "roots": [
+    "/data1/matengyu/data/ImageNet/ImageNet/train",
+    "/data1/matengyu/data/ImageNet/ImageNet/train_gray/unpacked_gray"
+  ],
+  "manifest": "/data1/matengyu/geyugong/neuroadapter-author-first/runtime/imagenet-retrieval-local-fixed-v1/candidates.sqlite",
+  "manifest_sha256": "5ec00bc002df4b43976a004b8bc75b5bc76f80a468e599a217fb5f0c692e4248",
+  "total_bytes": 146907888532,
+  "ordering": "lexicographic unique original filename; idx zero-based",
+  "source_sha_and_decode_audit": "recorded during scan for every candidate",
+  "encoder_split_verified": false,
+  "encoder_development_overlap": "unknown",
+  "historical_beta_recipe_verified": false,
+  "historical_retrieval_mask_verified": false,
+  "result_scope": "local_fixed_exploratory",
+  "disclosure": "本地固定协议；encoder开发集划分未核实；标准化及mask与作者历史实验的一致性未确认。",
+  "training_updates": 0,
+  "outbound_messages_sent": 0
+}

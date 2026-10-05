@@ -1,0 +1,2000 @@
+{
+  "started_utc": "2026-10-05T08:01:18Z",
+  "encoder_split_verified": false,
+  "encoder_development_overlap": "unknown",
+  "historical_beta_recipe_verified": false,
+  "historical_retrieval_mask_verified": false,
+  "result_scope": "local_fixed_exploratory",
+  "disclosure": "本地固定协议；encoder开发集划分未核实；标准化及mask与作者历史实验的一致性未确认。",
+  "training_updates": 0,
+  "outbound_messages_sent": 0,
+  "nsd_gt_images_loaded": 0,
+  "eval_ids_sha256": "4c438772ffa978ab8c5f781b8a3fc73df0159ae4892dc39d896f05a413d36441",
+  "design_sha256": "4cf4901ecf736c525ce534c4466030ec8d13c2fc0c8b31ddf86f17c55faadf89",
+  "metadata_order_exact": true,
+  "fixed_five_ids": [
+    6489,
+    65010,
+    6514,
+    18483,
+    66278
+  ],
+  "session_records": [
+    {
+      "hemisphere": "lh",
+      "session1": 1,
+      "path": "/data1/matengyu/geyugong/neuroadapter-subject1-research/data/raw/nsd/betas/subj01/fsaverage/betas_fithrf_GLMdenoise_RR/lh.betas_session01.mgh",
+      "sha256": "4e5d0342924fa9c5a73d3cba72f4d3a769a3ccf2b2814cc1329a3d21869c0377",
+      "shape": [
+        750,
+        163842
+      ],
+      "nonfinite_count": 0,
+      "nonfinite_vertices0": [],
+      "selected_nonfinite_vertices0": [],
+      "constant_selected_vertices": 0,
+      "statistics_sha256": "36650ba9f4b1aec203ee3ccdc8989983e95b76048aed08dca92f8fdcafef7cf4"
+    },
+    {
+      "hemisphere": "lh",
+      "session1": 2,
+      "path": "/data1/matengyu/geyugong/neuroadapter-subject1-research/data/raw/nsd/betas/subj01/fsaverage/betas_fithrf_GLMdenoise_RR/lh.betas_session02.mgh",
+      "sha256": "cc42c3880bc25022e4fdfb1d443bd1869a158707d2f14adc5ea06b5f0fcc6625",
+      "shape": [
+        750,
+        163842
+      ],
+      "nonfinite_count": 0,
+      "nonfinite_vertices0": [],
+      "selected_nonfinite_vertices0": [],
+      "constant_selected_vertices": 0,
+      "statistics_sha256": "8aa66367e022550b89038787fdcf4aac71376c948b737326e4652766df3169aa"
+    },
+    {
+      "hemisphere": "lh",
+      "session1": 3,
+      "path": "/data1/matengyu/geyugong/neuroadapter-subject1-research/data/raw/nsd/betas/subj01/fsaverage/betas_fithrf_GLMdenoise_RR/lh.betas_session03.mgh",
+      "sha256": "d3fd3855afdf410e2d85dc9f015e5408fc6993c04c2f2b172dc75b2365c190d8",
+      "shape": [
+        750,
+        163842
+      ],
+      "nonfinite_count": 0,
+      "nonfinite_vertices0": [],
+      "selected_nonfinite_vertices0": [],
+      "constant_selected_vertices": 0,
+      "statistics_sha256": "7b08058df245542284e0e5d087834cfa19f530a363321b159cfebffbc2a31d56"
+    },
+    {
+      "hemisphere": "lh",
+      "session1": 4,
+      "path": "/data1/matengyu/geyugong/neuroadapter-subject1-research/data/raw/nsd/betas/subj01/fsaverage/betas_fithrf_GLMdenoise_RR/lh.betas_session04.mgh",
+      "sha256": "29630d0ea7c02ed21ffb24204203f82ed21b55dc7885daac983a9830c9ef2807",
+      "shape": [
+        750,
+        163842
+      ],
+      "nonfinite_count": 0,
+      "nonfinite_vertices0": [],
+      "selected_nonfinite_vertices0": [],
+      "constant_selected_vertices": 0,
+      "statistics_sha256": "c0a6f8089e0b6e8c2f77782eb6b1e0dfb105f6c92cd771feda87040d86da4609"
+    },
+    {
+      "hemisphere": "lh",
+      "session1": 5,
+      "path": "/data1/matengyu/geyugong/neuroadapter-subject1-research/data/raw/nsd/betas/subj01/fsaverage/betas_fithrf_GLMdenoise_RR/lh.betas_session05.mgh",
+      "sha256": "a441e653b4877ada6311360d16ffffda649ba3db6c128a927054e98edd1c296a",
+      "shape": [
+        750,
+        163842
+      ],
+      "nonfinite_count": 0,
+      "nonfinite_vertices0": [],
+      "selected_nonfinite_vertices0": [],
+      "constant_selected_vertices": 0,
+      "statistics_sha256": "9ca2b74c8ed51d702704242f4dda6f428e03722c8b0b81c9c4f7a56d1ad99e1c"
+    },
+    {
+      "hemisphere": "lh",
+      "session1": 6,
+      "path": "/data1/matengyu/geyugong/neuroadapter-subject1-research/data/raw/nsd/betas/subj01/fsaverage/betas_fithrf_GLMdenoise_RR/lh.betas_session06.mgh",
+      "sha256": "3f8cbb914dcdbf9e2d23237ddc2a274cd0f2b22f9f8f891834e643e1f17e9fed",
+      "shape": [
+        750,
+        163842
+      ],
+      "nonfinite_count": 0,
+      "nonfinite_vertices0": [],
+      "selected_nonfinite_vertices0": [],
+      "constant_selected_vertices": 0,
+      "statistics_sha256": "ab806229b11693fb4794522557ce8d7bc766c2b7b33a8e2fc3ebaa15cb12c2c0"
+    },
+    {
+      "hemisphere": "lh",
+      "session1": 7,
+      "path": "/data1/matengyu/geyugong/neuroadapter-subject1-research/data/raw/nsd/betas/subj01/fsaverage/betas_fithrf_GLMdenoise_RR/lh.betas_session07.mgh",
+      "sha256": "a381edafd081b040694f17be9ebb0c986e2be310736fa9843f8d71d2b71718b4",
+      "shape": [
+        750,
+        163842
+      ],
+      "nonfinite_count": 0,
+      "nonfinite_vertices0": [],
+      "selected_nonfinite_vertices0": [],
+      "constant_selected_vertices": 0,
+      "statistics_sha256": "34962a5e5c30f60d0ccb9a7c35ae3dce859d4a33d551565d27f5b347fb2e817a"
+    },
+    {
+      "hemisphere": "lh",
+      "session1": 8,
+      "path": "/data1/matengyu/geyugong/neuroadapter-subject1-research/data/raw/nsd/betas/subj01/fsaverage/betas_fithrf_GLMdenoise_RR/lh.betas_session08.mgh",
+      "sha256": "09b5178bf498d5847b338091033e7a37ac8fb8f253d6323026b5f4bd13d67c35",
+      "shape": [
+        750,
+        163842
+      ],
+      "nonfinite_count": 0,
+      "nonfinite_vertices0": [],
+      "selected_nonfinite_vertices0": [],
+      "constant_selected_vertices": 0,
+      "statistics_sha256": "30592f132118ee062b49c7a18a772feda1f178cab59f1eed89a74e1f903a0268"
+    },
+    {
+      "hemisphere": "lh",
+      "session1": 9,
+      "path": "/data1/matengyu/geyugong/neuroadapter-subject1-research/data/raw/nsd/betas/subj01/fsaverage/betas_fithrf_GLMdenoise_RR/lh.betas_session09.mgh",
+      "sha256": "d52674ad02b820c3cbb4f12a1ce828822d281a528aa9e7a08518ad8cba2de889",
+      "shape": [
+        750,
+        163842
+      ],
+      "nonfinite_count": 0,
+      "nonfinite_vertices0": [],
+      "selected_nonfinite_vertices0": [],
+      "constant_selected_vertices": 0,
+      "statistics_sha256": "e42af12848f731d4c864bad0acaeb4d0a9e67e192873c37cfbdd35efcb886085"
+    },
+    {
+      "hemisphere": "lh",
+      "session1": 10,
+      "path": "/data1/matengyu/geyugong/neuroadapter-subject1-research/data/raw/nsd/betas/subj01/fsaverage/betas_fithrf_GLMdenoise_RR/lh.betas_session10.mgh",
+      "sha256": "1f7a14d061db9dbcc76e02b3cb255c3a60ddf032052923fc6ffa5ca2ccf56202",
+      "shape": [
+        750,
+        163842
+      ],
+      "nonfinite_count": 0,
+      "nonfinite_vertices0": [],
+      "selected_nonfinite_vertices0": [],
+      "constant_selected_vertices": 0,
+      "statistics_sha256": "c1c43ebe501cd73937473fe7004ec07bb0f9222581308c165eff0c64ef1dc5d0"
+    },
+    {
+      "hemisphere": "lh",
+      "session1": 11,
+      "path": "/data1/matengyu/geyugong/neuroadapter-subject1-research/data/raw/nsd/betas/subj01/fsaverage/betas_fithrf_GLMdenoise_RR/lh.betas_session11.mgh",
+      "sha256": "d9a60abd79ed6c6d218cc87d2b60259bc5b3a445057d3c8a4bc922712da061cf",
+      "shape": [
+        750,
+        163842
+      ],
+      "nonfinite_count": 0,
+      "nonfinite_vertices0": [],
+      "selected_nonfinite_vertices0": [],
+      "constant_selected_vertices": 0,
+      "statistics_sha256": "ac72659ed543b9b46143ef05b9f76b4c3ec9bc152d94c8c07b41007cf32d748f"
+    },
+    {
+      "hemisphere": "lh",
+      "session1": 12,
+      "path": "/data1/matengyu/geyugong/neuroadapter-subject1-research/data/raw/nsd/betas/subj01/fsaverage/betas_fithrf_GLMdenoise_RR/lh.betas_session12.mgh",
+      "sha256": "95ca5fb260089163b632ddd7702f4417c6ef82dac4ee42183222baffccb6efea",
+      "shape": [
+        750,
+        163842
+      ],
+      "nonfinite_count": 0,
+      "nonfinite_vertices0": [],
+      "selected_nonfinite_vertices0": [],
+      "constant_selected_vertices": 0,
+      "statistics_sha256": "987c503ad8ac9b768196b7e8ae2db417d19525f7e96d5a06cda3244f0ba4bfef"
+    },
+    {
+      "hemisphere": "lh",
+      "session1": 13,
+      "path": "/data1/matengyu/geyugong/neuroadapter-subject1-research/data/raw/nsd/betas/subj01/fsaverage/betas_fithrf_GLMdenoise_RR/lh.betas_session13.mgh",
+      "sha256": "dab8dc88b243e181b43559540e3026131f5581e6f7df85e925cbe82b4b44445f",
+      "shape": [
+        750,
+        163842
+      ],
+      "nonfinite_count": 0,
+      "nonfinite_vertices0": [],
+      "selected_nonfinite_vertices0": [],
+      "constant_selected_vertices": 0,
+      "statistics_sha256": "881c34c058367e57893185ff9c671672a9f9f1e62f1341928d14e274b82df46e"
+    },
+    {
+      "hemisphere": "lh",
+      "session1": 14,
+      "path": "/data1/matengyu/geyugong/neuroadapter-subject1-research/data/raw/nsd/betas/subj01/fsaverage/betas_fithrf_GLMdenoise_RR/lh.betas_session14.mgh",
+      "sha256": "b9738bd298375df61d0d00df80a81174ed6beb7428e994653690e2cfe52a3f25",
+      "shape": [
+        750,
+        163842
+      ],
+      "nonfinite_count": 0,
+      "nonfinite_vertices0": [],
+      "selected_nonfinite_vertices0": [],
+      "constant_selected_vertices": 0,
+      "statistics_sha256": "cf3eda5b8e74ea334c6c25725962ddcb727bc5eaa12a2fdbb492fef439ab28dd"
+    },
+    {
+      "hemisphere": "lh",
+      "session1": 15,
+      "path": "/data1/matengyu/geyugong/neuroadapter-subject1-research/data/raw/nsd/betas/subj01/fsaverage/betas_fithrf_GLMdenoise_RR/lh.betas_session15.mgh",
+      "sha256": "2aca5185fc76fc9b8b5304c708b3b9e962fb5742784c2bdc2dca59e83603a228",
+      "shape": [
+        750,
+        163842
+      ],
+      "nonfinite_count": 0,
+      "nonfinite_vertices0": [],
+      "selected_nonfinite_vertices0": [],
+      "constant_selected_vertices": 0,
+      "statistics_sha256": "b2e5f696edd366cd88e608648e75c0abf81eac1254b8afbc6b4ec69c23749e0a"
+    },
+    {
+      "hemisphere": "lh",
+      "session1": 16,
+      "path": "/data1/matengyu/geyugong/neuroadapter-subject1-research/data/raw/nsd/betas/subj01/fsaverage/betas_fithrf_GLMdenoise_RR/lh.betas_session16.mgh",
+      "sha256": "6d3c77fad6206fa0e9d4d9ccdd8d521f1f246d27dbb098a9099cfc14c9fd1658",
+      "shape": [
+        750,
+        163842
+      ],
+      "nonfinite_count": 0,
+      "nonfinite_vertices0": [],
+      "selected_nonfinite_vertices0": [],
+      "constant_selected_vertices": 0,
+      "statistics_sha256": "e16fab37265b34e6a2c1a094fdba397b0f50e143a3b71234ef13877ce6452a7d"
+    },
+    {
+      "hemisphere": "lh",
+      "session1": 17,
+      "path": "/data1/matengyu/geyugong/neuroadapter-subject1-research/data/raw/nsd/betas/subj01/fsaverage/betas_fithrf_GLMdenoise_RR/lh.betas_session17.mgh",
+      "sha256": "f6ef45b4e409a3433a0a772d63c7eb5951c8322f163a5bf2dd08a31f5d4b2317",
+      "shape": [
+        750,
+        163842
+      ],
+      "nonfinite_count": 0,
+      "nonfinite_vertices0": [],
+      "selected_nonfinite_vertices0": [],
+      "constant_selected_vertices": 0,
+      "statistics_sha256": "f2c38258284d81f8996364e55d6981b0961220896a082cb68770a30abd68412d"
+    },
+    {
+      "hemisphere": "lh",
+      "session1": 18,
+      "path": "/data1/matengyu/geyugong/neuroadapter-subject1-research/data/raw/nsd/betas/subj01/fsaverage/betas_fithrf_GLMdenoise_RR/lh.betas_session18.mgh",
+      "sha256": "04efc0bef8dd70024aa730fcdf4d77d957581a763a581a37996d8ea3a475af2d",
+      "shape": [
+        750,
+        163842
+      ],
+      "nonfinite_count": 0,
+      "nonfinite_vertices0": [],
+      "selected_nonfinite_vertices0": [],
+      "constant_selected_vertices": 0,
+      "statistics_sha256": "9e066cae30677245a4183f6aa08542450c71da8cb48e81b7f6111b9c3cc3c83a"
+    },
+    {
+      "hemisphere": "lh",
+      "session1": 19,
+      "path": "/data1/matengyu/geyugong/neuroadapter-subject1-research/data/raw/nsd/betas/subj01/fsaverage/betas_fithrf_GLMdenoise_RR/lh.betas_session19.mgh",
+      "sha256": "510ea05a22afaefc64577fe344e6a9cbca4efefc15e3ee84ce89b065fdf83f78",
+      "shape": [
+        750,
+        163842
+      ],
+      "nonfinite_count": 0,
+      "nonfinite_vertices0": [],
+      "selected_nonfinite_vertices0": [],
+      "constant_selected_vertices": 0,
+      "statistics_sha256": "acc772e5f58cd72fc94ac9c29253b95acf1796a20805be4725dc14808fd0f799"
+    },
+    {
+      "hemisphere": "lh",
+      "session1": 20,
+      "path": "/data1/matengyu/geyugong/neuroadapter-subject1-research/data/raw/nsd/betas/subj01/fsaverage/betas_fithrf_GLMdenoise_RR/lh.betas_session20.mgh",
+      "sha256": "7743465348efae5deb99aa0a7972473000d820a728b1a94ff8b5822127693b18",
+      "shape": [
+        750,
+        163842
+      ],
+      "nonfinite_count": 0,
+      "nonfinite_vertices0": [],
+      "selected_nonfinite_vertices0": [],
+      "constant_selected_vertices": 0,
+      "statistics_sha256": "248b5a2ce47bf04e39b169b388e0f926f885a5aae4ef3620f09ad4c23d11ee22"
+    },
+    {
+      "hemisphere": "lh",
+      "session1": 21,
+      "path": "/data1/matengyu/geyugong/neuroadapter-subject1-research/data/raw/nsd/betas/subj01/fsaverage/betas_fithrf_GLMdenoise_RR/lh.betas_session21.mgh",
+      "sha256": "551fc2012e66d20c7cfa705b957d0c4f5e351cb407bae4cf96314741ab1e41a7",
+      "shape": [
+        750,
+        163842
+      ],
+      "nonfinite_count": 0,
+      "nonfinite_vertices0": [],
+      "selected_nonfinite_vertices0": [],
+      "constant_selected_vertices": 0,
+      "statistics_sha256": "7a0467211ba99962fab43f745fb3bc83f85a3a1ddc86572b9d8ca967d4ad2957"
+    },
+    {
+      "hemisphere": "lh",
+      "session1": 22,
+      "path": "/data1/matengyu/geyugong/neuroadapter-subject1-research/data/raw/nsd/betas/subj01/fsaverage/betas_fithrf_GLMdenoise_RR/lh.betas_session22.mgh",
+      "sha256": "7198eefaf277df718d062c3fcfa761a98903438eb8741176991fcda26fd98eb4",
+      "shape": [
+        750,
+        163842
+      ],
+      "nonfinite_count": 0,
+      "nonfinite_vertices0": [],
+      "selected_nonfinite_vertices0": [],
+      "constant_selected_vertices": 0,
+      "statistics_sha256": "f1eaf6feb2b7354608c791c912b03897e7ccc7153ae80acc723dae3a1d08720d"
+    },
+    {
+      "hemisphere": "lh",
+      "session1": 23,
+      "path": "/data1/matengyu/geyugong/neuroadapter-subject1-research/data/raw/nsd/betas/subj01/fsaverage/betas_fithrf_GLMdenoise_RR/lh.betas_session23.mgh",
+      "sha256": "aaff69bcd6ef870ffa8a4e43188148f994b640e3a30302e7d02c72dcef6d55f2",
+      "shape": [
+        750,
+        163842
+      ],
+      "nonfinite_count": 0,
+      "nonfinite_vertices0": [],
+      "selected_nonfinite_vertices0": [],
+      "constant_selected_vertices": 0,
+      "statistics_sha256": "d8281d14b998048ab827f86e88d0262b49d4ff25b6367d05b6c6d1cd004bc285"
+    },
+    {
+      "hemisphere": "lh",
+      "session1": 24,
+      "path": "/data1/matengyu/geyugong/neuroadapter-subject1-research/data/raw/nsd/betas/subj01/fsaverage/betas_fithrf_GLMdenoise_RR/lh.betas_session24.mgh",
+      "sha256": "9de21fc64b7d5e587f0c16f9e7075e21b25f9ac17d50ca5ca107fe525aba4ee4",
+      "shape": [
+        750,
+        163842
+      ],
+      "nonfinite_count": 0,
+      "nonfinite_vertices0": [],
+      "selected_nonfinite_vertices0": [],
+      "constant_selected_vertices": 0,
+      "statistics_sha256": "9ca08facf5e977a7b6d384ee668f1bdc1d7121bbf31d318be99ebc1625b235c5"
+    },
+    {
+      "hemisphere": "lh",
+      "session1": 25,
+      "path": "/data1/matengyu/geyugong/neuroadapter-subject1-research/data/raw/nsd/betas/subj01/fsaverage/betas_fithrf_GLMdenoise_RR/lh.betas_session25.mgh",
+      "sha256": "6e644cc8734618b6e7b2cede3434feee2c60056f6a04442b9516aba0dab86308",
+      "shape": [
+        750,
+        163842
+      ],
+      "nonfinite_count": 0,
+      "nonfinite_vertices0": [],
+      "selected_nonfinite_vertices0": [],
+      "constant_selected_vertices": 0,
+      "statistics_sha256": "df9fda9135b13370657552b1d2b47b9ea7cd3ba5a66a5cc56d41a195e702f298"
+    },
+    {
+      "hemisphere": "lh",
+      "session1": 26,
+      "path": "/data1/matengyu/geyugong/neuroadapter-subject1-research/data/raw/nsd/betas/subj01/fsaverage/betas_fithrf_GLMdenoise_RR/lh.betas_session26.mgh",
+      "sha256": "d33f3bd3966f56c837a07f45e4f95b43efe5adf34330b46b4709921f9443a57d",
+      "shape": [
+        750,
+        163842
+      ],
+      "nonfinite_count": 0,
+      "nonfinite_vertices0": [],
+      "selected_nonfinite_vertices0": [],
+      "constant_selected_vertices": 0,
+      "statistics_sha256": "4522d2000965ede0649ce1004c2466f81c3568d64c4b5f2d16f75ad4cd951c2e"
+    },
+    {
+      "hemisphere": "lh",
+      "session1": 27,
+      "path": "/data1/matengyu/geyugong/neuroadapter-subject1-research/data/raw/nsd/betas/subj01/fsaverage/betas_fithrf_GLMdenoise_RR/lh.betas_session27.mgh",
+      "sha256": "c0dfdadf0e25a00b7dace02cc462556d0504fad4924e66e20b2b5be2c53ae59f",
+      "shape": [
+        750,
+        163842
+      ],
+      "nonfinite_count": 0,
+      "nonfinite_vertices0": [],
+      "selected_nonfinite_vertices0": [],
+      "constant_selected_vertices": 0,
+      "statistics_sha256": "20d912b4116ce2ff4374466a3ae62a561a6c44ea18a15c5a51091808c3cb498c"
+    },
+    {
+      "hemisphere": "lh",
+      "session1": 28,
+      "path": "/data1/matengyu/geyugong/neuroadapter-subject1-research/data/raw/nsd/betas/subj01/fsaverage/betas_fithrf_GLMdenoise_RR/lh.betas_session28.mgh",
+      "sha256": "0a0fa11e511363e5c10b90ec87433fa53fd4726ee13ce96ca00b32c260c62468",
+      "shape": [
+        750,
+        163842
+      ],
+      "nonfinite_count": 0,
+      "nonfinite_vertices0": [],
+      "selected_nonfinite_vertices0": [],
+      "constant_selected_vertices": 0,
+      "statistics_sha256": "da4efa4b799bdfa42993c465388d851553a69bab559ff73970bf68d64e358d36"
+    },
+    {
+      "hemisphere": "lh",
+      "session1": 29,
+      "path": "/data1/matengyu/geyugong/neuroadapter-subject1-research/data/raw/nsd/betas/subj01/fsaverage/betas_fithrf_GLMdenoise_RR/lh.betas_session29.mgh",
+      "sha256": "1f608e7578375c0a964c454916a20e9a7bf93c58770932f7a73c4695e294cb91",
+      "shape": [
+        750,
+        163842
+      ],
+      "nonfinite_count": 0,
+      "nonfinite_vertices0": [],
+      "selected_nonfinite_vertices0": [],
+      "constant_selected_vertices": 0,
+      "statistics_sha256": "ac2c9b38290f89df04a205d6609bb50272ce41cf809988d160928b27f3a1e279"
+    },
+    {
+      "hemisphere": "lh",
+      "session1": 30,
+      "path": "/data1/matengyu/geyugong/neuroadapter-subject1-research/data/raw/nsd/betas/subj01/fsaverage/betas_fithrf_GLMdenoise_RR/lh.betas_session30.mgh",
+      "sha256": "b74148eccc06a76421dd1373c91d301155c51ad35da7ce9f74d543fd29a90ae3",
+      "shape": [
+        750,
+        163842
+      ],
+      "nonfinite_count": 0,
+      "nonfinite_vertices0": [],
+      "selected_nonfinite_vertices0": [],
+      "constant_selected_vertices": 0,
+      "statistics_sha256": "229a14d1afd2ac2a2a9d4ac63a48f7b8728c99e41e42347552295e61dceb14f5"
+    },
+    {
+      "hemisphere": "lh",
+      "session1": 31,
+      "path": "/data1/matengyu/geyugong/neuroadapter-subject1-research/data/raw/nsd/betas/subj01/fsaverage/betas_fithrf_GLMdenoise_RR/lh.betas_session31.mgh",
+      "sha256": "1f1a09988a2e6665eefd807946c23bfa235744c44121d6feefa17e2b83dab7ff",
+      "shape": [
+        750,
+        163842
+      ],
+      "nonfinite_count": 0,
+      "nonfinite_vertices0": [],
+      "selected_nonfinite_vertices0": [],
+      "constant_selected_vertices": 0,
+      "statistics_sha256": "3833775c42d87d9d5b7ba8631a37db669ff5a64b97ce5f1651e021dfed3fb9e2"
+    },
+    {
+      "hemisphere": "lh",
+      "session1": 32,
+      "path": "/data1/matengyu/geyugong/neuroadapter-subject1-research/data/raw/nsd/betas/subj01/fsaverage/betas_fithrf_GLMdenoise_RR/lh.betas_session32.mgh",
+      "sha256": "431476d1e23e405603205689019dab1f41394539dba9543bbb5c1ce63031bb0c",
+      "shape": [
+        750,
+        163842
+      ],
+      "nonfinite_count": 0,
+      "nonfinite_vertices0": [],
+      "selected_nonfinite_vertices0": [],
+      "constant_selected_vertices": 0,
+      "statistics_sha256": "bf7f98780c7de20643c2e5e41d5bba73970b6f52597ed1d7fc71297e38f65e49"
+    },
+    {
+      "hemisphere": "lh",
+      "session1": 33,
+      "path": "/data1/matengyu/geyugong/neuroadapter-subject1-research/data/raw/nsd/betas/subj01/fsaverage/betas_fithrf_GLMdenoise_RR/lh.betas_session33.mgh",
+      "sha256": "c352fa3220325138afa7b6f793fd6c7c81723bab315367aa08f9f3f6d841e62d",
+      "shape": [
+        750,
+        163842
+      ],
+      "nonfinite_count": 0,
+      "nonfinite_vertices0": [],
+      "selected_nonfinite_vertices0": [],
+      "constant_selected_vertices": 0,
+      "statistics_sha256": "25f1001b071464a9472d1cdbd2b1ba4637126373e5aa07bc31182e9c97c61425"
+    },
+    {
+      "hemisphere": "lh",
+      "session1": 34,
+      "path": "/data1/matengyu/geyugong/neuroadapter-subject1-research/data/raw/nsd/betas/subj01/fsaverage/betas_fithrf_GLMdenoise_RR/lh.betas_session34.mgh",
+      "sha256": "43f786cd94a03159f1d3b8dd7d07daa8a074184ca9cc93099e5baeabe7007669",
+      "shape": [
+        750,
+        163842
+      ],
+      "nonfinite_count": 0,
+      "nonfinite_vertices0": [],
+      "selected_nonfinite_vertices0": [],
+      "constant_selected_vertices": 0,
+      "statistics_sha256": "18f07bdc6ba75b1513b585b88e2056acec12c6cf1939481278d1c9aac39da7fe"
+    },
+    {
+      "hemisphere": "lh",
+      "session1": 35,
+      "path": "/data1/matengyu/geyugong/neuroadapter-subject1-research/data/raw/nsd/betas/subj01/fsaverage/betas_fithrf_GLMdenoise_RR/lh.betas_session35.mgh",
+      "sha256": "9e03d75b4a771dbe53e410b3b11388a947bf0cd8560c3806df3a6ac169617397",
+      "shape": [
+        750,
+        163842
+      ],
+      "nonfinite_count": 0,
+      "nonfinite_vertices0": [],
+      "selected_nonfinite_vertices0": [],
+      "constant_selected_vertices": 0,
+      "statistics_sha256": "602b1d43164885b3506972b569c70cf01d6656043fd7ae3fa626bac732cd92bd"
+    },
+    {
+      "hemisphere": "lh",
+      "session1": 36,
+      "path": "/data1/matengyu/geyugong/neuroadapter-subject1-research/data/raw/nsd/betas/subj01/fsaverage/betas_fithrf_GLMdenoise_RR/lh.betas_session36.mgh",
+      "sha256": "1f51d4eacf18519bc230d3e386ebb25d19742e74fc38265df3185b48f3b65c39",
+      "shape": [
+        750,
+        163842
+      ],
+      "nonfinite_count": 0,
+      "nonfinite_vertices0": [],
+      "selected_nonfinite_vertices0": [],
+      "constant_selected_vertices": 0,
+      "statistics_sha256": "7e1acb100c15b9c8141b64893d4fd42ff9817ed19415501ca645bf767ce55621"
+    },
+    {
+      "hemisphere": "lh",
+      "session1": 37,
+      "path": "/data1/matengyu/geyugong/neuroadapter-subject1-research/data/raw/nsd/betas/subj01/fsaverage/betas_fithrf_GLMdenoise_RR/lh.betas_session37.mgh",
+      "sha256": "20f27162bc54c3fea3070bcf1d34dc7bdf7df1851762ecc8c656ba205c423ef5",
+      "shape": [
+        750,
+        163842
+      ],
+      "nonfinite_count": 0,
+      "nonfinite_vertices0": [],
+      "selected_nonfinite_vertices0": [],
+      "constant_selected_vertices": 0,
+      "statistics_sha256": "798977c12b66cc22122ea250dea587dd5f8d1377c587a7a1a0c4cb83fbe424e6"
+    },
+    {
+      "hemisphere": "lh",
+      "session1": 38,
+      "path": "/data1/matengyu/geyugong/neuroadapter-subject1-research/data/raw/nsd/betas/subj01/fsaverage/betas_fithrf_GLMdenoise_RR/lh.betas_session38.mgh",
+      "sha256": "e62c9f80760ca422a54a651f3a3222ae8c60c35277e9ae129d3e397732e6a600",
+      "shape": [
+        750,
+        163842
+      ],
+      "nonfinite_count": 0,
+      "nonfinite_vertices0": [],
+      "selected_nonfinite_vertices0": [],
+      "constant_selected_vertices": 0,
+      "statistics_sha256": "9e9c0fa167aa6b377ae4e41a461fcb6ee0138a60ddb1793e7d1ea23ef35945a2"
+    },
+    {
+      "hemisphere": "lh",
+      "session1": 39,
+      "path": "/data1/matengyu/geyugong/neuroadapter-subject1-research/data/raw/nsd/betas/subj01/fsaverage/betas_fithrf_GLMdenoise_RR/lh.betas_session39.mgh",
+      "sha256": "fc5d8218369810bc75de63a7970a14e777624cc813841808a0154af19d01fe81",
+      "shape": [
+        750,
+        163842
+      ],
+      "nonfinite_count": 0,
+      "nonfinite_vertices0": [],
+      "selected_nonfinite_vertices0": [],
+      "constant_selected_vertices": 0,
+      "statistics_sha256": "1f62c5134c989516a30aa3c0b038873c2169cc40572a8ba869e9340acace1d55"
+    },
+    {
+      "hemisphere": "lh",
+      "session1": 40,
+      "path": "/data1/matengyu/geyugong/neuroadapter-subject1-research/data/raw/nsd/betas/subj01/fsaverage/betas_fithrf_GLMdenoise_RR/lh.betas_session40.mgh",
+      "sha256": "e093afbd365d87dfe375eacf9b0fcf352dd88be04e2e2cb904958664a012d94d",
+      "shape": [
+        750,
+        163842
+      ],
+      "nonfinite_count": 0,
+      "nonfinite_vertices0": [],
+      "selected_nonfinite_vertices0": [],
+      "constant_selected_vertices": 0,
+      "statistics_sha256": "48d43c551c85e32d804e07b961fec3b4a1436f960b2f56b86608881946017fee"
+    },
+    {
+      "hemisphere": "rh",
+      "session1": 1,
+      "path": "/data1/matengyu/geyugong/neuroadapter-subject1-research/data/raw/nsd/betas/subj01/fsaverage/betas_fithrf_GLMdenoise_RR/rh.betas_session01.mgh",
+      "sha256": "0dbbefc01dea7ecb46831835dd410db43c2e32a72c55abb001cb0dfcdb9f09df",
+      "shape": [
+        750,
+        163842
+      ],
+      "nonfinite_count": 0,
+      "nonfinite_vertices0": [],
+      "selected_nonfinite_vertices0": [],
+      "constant_selected_vertices": 0,
+      "statistics_sha256": "854de50e12c3c0967941563b272dc18c0cbb64f71389969fefcdccb04e1abd43"
+    },
+    {
+      "hemisphere": "rh",
+      "session1": 2,
+      "path": "/data1/matengyu/geyugong/neuroadapter-subject1-research/data/raw/nsd/betas/subj01/fsaverage/betas_fithrf_GLMdenoise_RR/rh.betas_session02.mgh",
+      "sha256": "bf1f66a9a2666b910d8e960d78e47bb254b483e605470e05d426ae052296fbb8",
+      "shape": [
+        750,
+        163842
+      ],
+      "nonfinite_count": 0,
+      "nonfinite_vertices0": [],
+      "selected_nonfinite_vertices0": [],
+      "constant_selected_vertices": 0,
+      "statistics_sha256": "e87d34dc6c2d84c38698bd373372cfacffd37394f940a2a74a6ad6dbe6218036"
+    },
+    {
+      "hemisphere": "rh",
+      "session1": 3,
+      "path": "/data1/matengyu/geyugong/neuroadapter-subject1-research/data/raw/nsd/betas/subj01/fsaverage/betas_fithrf_GLMdenoise_RR/rh.betas_session03.mgh",
+      "sha256": "55116c41f7c5e1981d07d58e5f313a4ac43f16f396fd7f27e2313f5dc19e7688",
+      "shape": [
+        750,
+        163842
+      ],
+      "nonfinite_count": 0,
+      "nonfinite_vertices0": [],
+      "selected_nonfinite_vertices0": [],
+      "constant_selected_vertices": 0,
+      "statistics_sha256": "fda3eb306392c357f20dcee12437ff6d10ac498a3f48b1860a2f3d10330380b4"
+    },
+    {
+      "hemisphere": "rh",
+      "session1": 4,
+      "path": "/data1/matengyu/geyugong/neuroadapter-subject1-research/data/raw/nsd/betas/subj01/fsaverage/betas_fithrf_GLMdenoise_RR/rh.betas_session04.mgh",
+      "sha256": "3529fdbe6f2bf351e16736d6cf791a1617e6be84ed58fce2a2677a2f86056ca3",
+      "shape": [
+        750,
+        163842
+      ],
+      "nonfinite_count": 0,
+      "nonfinite_vertices0": [],
+      "selected_nonfinite_vertices0": [],
+      "constant_selected_vertices": 0,
+      "statistics_sha256": "11706f04a46b8262f7d773f9988a4b17793117636de50c570d2ed0b148d8fa57"
+    },
+    {
+      "hemisphere": "rh",
+      "session1": 5,
+      "path": "/data1/matengyu/geyugong/neuroadapter-subject1-research/data/raw/nsd/betas/subj01/fsaverage/betas_fithrf_GLMdenoise_RR/rh.betas_session05.mgh",
+      "sha256": "28d78756938dae1ea8474163d4474ee4497123bd9e9804a2e7f50919cb66a653",
+      "shape": [
+        750,
+        163842
+      ],
+      "nonfinite_count": 0,
+      "nonfinite_vertices0": [],
+      "selected_nonfinite_vertices0": [],
+      "constant_selected_vertices": 0,
+      "statistics_sha256": "823cb8016f100d3fe6544402c7f346a446266afd69f808177eb0d966019fbcc6"
+    },
+    {
+      "hemisphere": "rh",
+      "session1": 6,
+      "path": "/data1/matengyu/geyugong/neuroadapter-subject1-research/data/raw/nsd/betas/subj01/fsaverage/betas_fithrf_GLMdenoise_RR/rh.betas_session06.mgh",
+      "sha256": "8ee87a088a0491cb2f0ecda08401cd2bcfa18ea8b2484ffa6d3ad44ee7a4a616",
+      "shape": [
+        750,
+        163842
+      ],
+      "nonfinite_count": 0,
+      "nonfinite_vertices0": [],
+      "selected_nonfinite_vertices0": [],
+      "constant_selected_vertices": 0,
+      "statistics_sha256": "c77ae2ca1e6cd8dc00d1139928d36621308683fb62d5f4cd46b31e2b643b0844"
+    },
+    {
+      "hemisphere": "rh",
+      "session1": 7,
+      "path": "/data1/matengyu/geyugong/neuroadapter-subject1-research/data/raw/nsd/betas/subj01/fsaverage/betas_fithrf_GLMdenoise_RR/rh.betas_session07.mgh",
+      "sha256": "a3aee0c2917e98751bd2fc8af6bc646b83e08bedb5ee6d23626561dea47e4bc5",
+      "shape": [
+        750,
+        163842
+      ],
+      "nonfinite_count": 0,
+      "nonfinite_vertices0": [],
+      "selected_nonfinite_vertices0": [],
+      "constant_selected_vertices": 0,
+      "statistics_sha256": "f112ff291947f1050d2be6ca0b83cbcad8fb9965f28c2e7209f89299b6cf9c4b"
+    },
+    {
+      "hemisphere": "rh",
+      "session1": 8,
+      "path": "/data1/matengyu/geyugong/neuroadapter-subject1-research/data/raw/nsd/betas/subj01/fsaverage/betas_fithrf_GLMdenoise_RR/rh.betas_session08.mgh",
+      "sha256": "51707ea41ade2255df857c24d2e42fb35059ac0cdc07b6ec91a53bcb0f7554e0",
+      "shape": [
+        750,
+        163842
+      ],
+      "nonfinite_count": 0,
+      "nonfinite_vertices0": [],
+      "selected_nonfinite_vertices0": [],
+      "constant_selected_vertices": 0,
+      "statistics_sha256": "1ab4d0d6cbc342a6633a2c397243593521be80e5f898e56e721f64c87c55afe1"
+    },
+    {
+      "hemisphere": "rh",
+      "session1": 9,
+      "path": "/data1/matengyu/geyugong/neuroadapter-subject1-research/data/raw/nsd/betas/subj01/fsaverage/betas_fithrf_GLMdenoise_RR/rh.betas_session09.mgh",
+      "sha256": "61feed0dadccdfe1319c28925edb9479229d98d7ad19b48259504dfe4ba8d93a",
+      "shape": [
+        750,
+        163842
+      ],
+      "nonfinite_count": 0,
+      "nonfinite_vertices0": [],
+      "selected_nonfinite_vertices0": [],
+      "constant_selected_vertices": 0,
+      "statistics_sha256": "7d8ca55bbd47ac8c7aca82b7814ddb3e0c46e1be0f8485006cca388f55ceb0c2"
+    },
+    {
+      "hemisphere": "rh",
+      "session1": 10,
+      "path": "/data1/matengyu/geyugong/neuroadapter-subject1-research/data/raw/nsd/betas/subj01/fsaverage/betas_fithrf_GLMdenoise_RR/rh.betas_session10.mgh",
+      "sha256": "96140982d621dc12d661270e3cf79000e7d996994acb313f424cfe525111f931",
+      "shape": [
+        750,
+        163842
+      ],
+      "nonfinite_count": 0,
+      "nonfinite_vertices0": [],
+      "selected_nonfinite_vertices0": [],
+      "constant_selected_vertices": 0,
+      "statistics_sha256": "b37e98007f6a57e551c1a57dde3166019fd823ac957f4bbba32b9bedd5d4a5a2"
+    },
+    {
+      "hemisphere": "rh",
+      "session1": 11,
+      "path": "/data1/matengyu/geyugong/neuroadapter-subject1-research/data/raw/nsd/betas/subj01/fsaverage/betas_fithrf_GLMdenoise_RR/rh.betas_session11.mgh",
+      "sha256": "889d4f4d9cde71be4a1daaa2f98d143840fb95b5633ae8d4cb568ae882edfa71",
+      "shape": [
+        750,
+        163842
+      ],
+      "nonfinite_count": 7500,
+      "nonfinite_vertices0": [
+        6706,
+        31007,
+        84758,
+        84759,
+        84760,
+        110759,
+        110760,
+        134628,
+        134629,
+        134632
+      ],
+      "selected_nonfinite_vertices0": [],
+      "constant_selected_vertices": 0,
+      "statistics_sha256": "d7c5ea1a302f5ac5ef43529e10be2bdb2612437c43315a5235a715f652c803e5"
+    },
+    {
+      "hemisphere": "rh",
+      "session1": 12,
+      "path": "/data1/matengyu/geyugong/neuroadapter-subject1-research/data/raw/nsd/betas/subj01/fsaverage/betas_fithrf_GLMdenoise_RR/rh.betas_session12.mgh",
+      "sha256": "ee2a531068d05a0604d5765a33e8c0bcdd2e3aece1008fda999c677fdd187c1b",
+      "shape": [
+        750,
+        163842
+      ],
+      "nonfinite_count": 0,
+      "nonfinite_vertices0": [],
+      "selected_nonfinite_vertices0": [],
+      "constant_selected_vertices": 0,
+      "statistics_sha256": "cce2edf7a091a3bd17c2a1cc92cece11e36c4fc0a43693024c5d828b9105a326"
+    },
+    {
+      "hemisphere": "rh",
+      "session1": 13,
+      "path": "/data1/matengyu/geyugong/neuroadapter-subject1-research/data/raw/nsd/betas/subj01/fsaverage/betas_fithrf_GLMdenoise_RR/rh.betas_session13.mgh",
+      "sha256": "298ae085e390f265aaa5421b12d4ca96505d45c51b37057d0e1ffcb1b888e89a",
+      "shape": [
+        750,
+        163842
+      ],
+      "nonfinite_count": 0,
+      "nonfinite_vertices0": [],
+      "selected_nonfinite_vertices0": [],
+      "constant_selected_vertices": 0,
+      "statistics_sha256": "d709dc1a3076eb2d8e260890c76a034476ddf1fc3f878f32d1034b5c1f040858"
+    },
+    {
+      "hemisphere": "rh",
+      "session1": 14,
+      "path": "/data1/matengyu/geyugong/neuroadapter-subject1-research/data/raw/nsd/betas/subj01/fsaverage/betas_fithrf_GLMdenoise_RR/rh.betas_session14.mgh",
+      "sha256": "5dd7b6a5c8fad5437560c63a1110d08031b56633e83b397dd4b7526ae6bb48c0",
+      "shape": [
+        750,
+        163842
+      ],
+      "nonfinite_count": 0,
+      "nonfinite_vertices0": [],
+      "selected_nonfinite_vertices0": [],
+      "constant_selected_vertices": 0,
+      "statistics_sha256": "7f49e00192307fc7d103555949af2fe868c2a85252fc6ec91f6a20558ce7d271"
+    },
+    {
+      "hemisphere": "rh",
+      "session1": 15,
+      "path": "/data1/matengyu/geyugong/neuroadapter-subject1-research/data/raw/nsd/betas/subj01/fsaverage/betas_fithrf_GLMdenoise_RR/rh.betas_session15.mgh",
+      "sha256": "526e44e71b3636a13cc8c9908299af6a8588bb44b7e3cd32cbc880396fa54a70",
+      "shape": [
+        750,
+        163842
+      ],
+      "nonfinite_count": 0,
+      "nonfinite_vertices0": [],
+      "selected_nonfinite_vertices0": [],
+      "constant_selected_vertices": 0,
+      "statistics_sha256": "7aa88ccbdeed736d08aaf80ddee41f58e37b4f561754b8fb05c3cdd11727f0d5"
+    },
+    {
+      "hemisphere": "rh",
+      "session1": 16,
+      "path": "/data1/matengyu/geyugong/neuroadapter-subject1-research/data/raw/nsd/betas/subj01/fsaverage/betas_fithrf_GLMdenoise_RR/rh.betas_session16.mgh",
+      "sha256": "3b65dcbfee491c76e66d8bf0b979b66ee6d6cb32e7f82c915c5e5c1f5b700ce0",
+      "shape": [
+        750,
+        163842
+      ],
+      "nonfinite_count": 0,
+      "nonfinite_vertices0": [],
+      "selected_nonfinite_vertices0": [],
+      "constant_selected_vertices": 0,
+      "statistics_sha256": "edeadb5e9ec52b155146f4d8a3f766dddd1683b9f70651ddd8e01e066a24d827"
+    },
+    {
+      "hemisphere": "rh",
+      "session1": 17,
+      "path": "/data1/matengyu/geyugong/neuroadapter-subject1-research/data/raw/nsd/betas/subj01/fsaverage/betas_fithrf_GLMdenoise_RR/rh.betas_session17.mgh",
+      "sha256": "528babe5a148519676d121fd15516315893425ec1acc4d4ac470eb0d24938306",
+      "shape": [
+        750,
+        163842
+      ],
+      "nonfinite_count": 0,
+      "nonfinite_vertices0": [],
+      "selected_nonfinite_vertices0": [],
+      "constant_selected_vertices": 0,
+      "statistics_sha256": "614391db465498548757495cfd84dffc56a90d8c31d5aa8186d5e238c61a5a0a"
+    },
+    {
+      "hemisphere": "rh",
+      "session1": 18,
+      "path": "/data1/matengyu/geyugong/neuroadapter-subject1-research/data/raw/nsd/betas/subj01/fsaverage/betas_fithrf_GLMdenoise_RR/rh.betas_session18.mgh",
+      "sha256": "429a5bd3db935ed840a8f5a68966e3cc797397e2ecd203b33d3a0a828b290a7f",
+      "shape": [
+        750,
+        163842
+      ],
+      "nonfinite_count": 0,
+      "nonfinite_vertices0": [],
+      "selected_nonfinite_vertices0": [],
+      "constant_selected_vertices": 0,
+      "statistics_sha256": "cb5ea16660e0f2cb669c6b58dca9ca8fa264d2e5bf66836d94fc777a6aee095d"
+    },
+    {
+      "hemisphere": "rh",
+      "session1": 19,
+      "path": "/data1/matengyu/geyugong/neuroadapter-subject1-research/data/raw/nsd/betas/subj01/fsaverage/betas_fithrf_GLMdenoise_RR/rh.betas_session19.mgh",
+      "sha256": "339aa9448a54929b28afaf650ecef1f8450f795fcf8a311f9990f47ed9d16307",
+      "shape": [
+        750,
+        163842
+      ],
+      "nonfinite_count": 0,
+      "nonfinite_vertices0": [],
+      "selected_nonfinite_vertices0": [],
+      "constant_selected_vertices": 0,
+      "statistics_sha256": "fe8a391bb962d4155f7e113448fb806765298b101293a076a6a2b08ad0478f3e"
+    },
+    {
+      "hemisphere": "rh",
+      "session1": 20,
+      "path": "/data1/matengyu/geyugong/neuroadapter-subject1-research/data/raw/nsd/betas/subj01/fsaverage/betas_fithrf_GLMdenoise_RR/rh.betas_session20.mgh",
+      "sha256": "ccbab47350861985fc8a275f3ec7332bf47758066359e55429f9af3529b6a53c",
+      "shape": [
+        750,
+        163842
+      ],
+      "nonfinite_count": 0,
+      "nonfinite_vertices0": [],
+      "selected_nonfinite_vertices0": [],
+      "constant_selected_vertices": 0,
+      "statistics_sha256": "33df69b11749c90a754afb14600ef9498f767c330f5f9fc5c71183472e6067f5"
+    },
+    {
+      "hemisphere": "rh",
+      "session1": 21,
+      "path": "/data1/matengyu/geyugong/neuroadapter-subject1-research/data/raw/nsd/betas/subj01/fsaverage/betas_fithrf_GLMdenoise_RR/rh.betas_session21.mgh",
+      "sha256": "334a65a340888433a8d9ac331700677e5a8a6bd50fddf3f78e787f916a7b0c87",
+      "shape": [
+        750,
+        163842
+      ],
+      "nonfinite_count": 0,
+      "nonfinite_vertices0": [],
+      "selected_nonfinite_vertices0": [],
+      "constant_selected_vertices": 0,
+      "statistics_sha256": "aff3177998fa330631b650799bf059e346a7c2934dad62bc74d97b84b4434e4b"
+    },
+    {
+      "hemisphere": "rh",
+      "session1": 22,
+      "path": "/data1/matengyu/geyugong/neuroadapter-subject1-research/data/raw/nsd/betas/subj01/fsaverage/betas_fithrf_GLMdenoise_RR/rh.betas_session22.mgh",
+      "sha256": "6fc9cd3bb65a9e3223103b12fcebabf72e31fed94cac5190bfdf031638972a5d",
+      "shape": [
+        750,
+        163842
+      ],
+      "nonfinite_count": 0,
+      "nonfinite_vertices0": [],
+      "selected_nonfinite_vertices0": [],
+      "constant_selected_vertices": 0,
+      "statistics_sha256": "bd16295902184f299a65a9e7dfe0a35842fee74a5618a60a294e8540dd5dc4c2"
+    },
+    {
+      "hemisphere": "rh",
+      "session1": 23,
+      "path": "/data1/matengyu/geyugong/neuroadapter-subject1-research/data/raw/nsd/betas/subj01/fsaverage/betas_fithrf_GLMdenoise_RR/rh.betas_session23.mgh",
+      "sha256": "45c523a9d2203dc659b167465124d468fcd78b282122f03eaa50ef570f4932d4",
+      "shape": [
+        750,
+        163842
+      ],
+      "nonfinite_count": 0,
+      "nonfinite_vertices0": [],
+      "selected_nonfinite_vertices0": [],
+      "constant_selected_vertices": 0,
+      "statistics_sha256": "71b0b9558818cfaee454000943dc7a68c205923e7ca5be7b05fdaafadad46fac"
+    },
+    {
+      "hemisphere": "rh",
+      "session1": 24,
+      "path": "/data1/matengyu/geyugong/neuroadapter-subject1-research/data/raw/nsd/betas/subj01/fsaverage/betas_fithrf_GLMdenoise_RR/rh.betas_session24.mgh",
+      "sha256": "b39d11499d05839676ada44d3645b57f1d6586eef348d7c38b8161b3ab2a4592",
+      "shape": [
+        750,
+        163842
+      ],
+      "nonfinite_count": 0,
+      "nonfinite_vertices0": [],
+      "selected_nonfinite_vertices0": [],
+      "constant_selected_vertices": 0,
+      "statistics_sha256": "6c627d9fbe2afe9d4f9890118a5ee83939b10d6203539afa21cab3f8e4cae547"
+    },
+    {
+      "hemisphere": "rh",
+      "session1": 25,
+      "path": "/data1/matengyu/geyugong/neuroadapter-subject1-research/data/raw/nsd/betas/subj01/fsaverage/betas_fithrf_GLMdenoise_RR/rh.betas_session25.mgh",
+      "sha256": "b9e0588a9f388b2d2bd857003e3217efb94ea1573d1ca87c8898a9d6a4d921d9",
+      "shape": [
+        750,
+        163842
+      ],
+      "nonfinite_count": 0,
+      "nonfinite_vertices0": [],
+      "selected_nonfinite_vertices0": [],
+      "constant_selected_vertices": 0,
+      "statistics_sha256": "a2ab31c67ed7cb595a17bc0abd8e40def2f4fea91ea837d48a07ce1b3e35e900"
+    },
+    {
+      "hemisphere": "rh",
+      "session1": 26,
+      "path": "/data1/matengyu/geyugong/neuroadapter-subject1-research/data/raw/nsd/betas/subj01/fsaverage/betas_fithrf_GLMdenoise_RR/rh.betas_session26.mgh",
+      "sha256": "b8b57e01eca8acee1d050060260d6bbee1f32d90ad8136a497440d182f3f51fb",
+      "shape": [
+        750,
+        163842
+      ],
+      "nonfinite_count": 0,
+      "nonfinite_vertices0": [],
+      "selected_nonfinite_vertices0": [],
+      "constant_selected_vertices": 0,
+      "statistics_sha256": "f3dbbca0e0889525a12fc7703c03c9b41af2b58b1437e0f430331ee6efee8bc6"
+    },
+    {
+      "hemisphere": "rh",
+      "session1": 27,
+      "path": "/data1/matengyu/geyugong/neuroadapter-subject1-research/data/raw/nsd/betas/subj01/fsaverage/betas_fithrf_GLMdenoise_RR/rh.betas_session27.mgh",
+      "sha256": "48fca69f9cbe0563fef4f11bdf4264baf253329edd4b56c82d872343db867d1f",
+      "shape": [
+        750,
+        163842
+      ],
+      "nonfinite_count": 0,
+      "nonfinite_vertices0": [],
+      "selected_nonfinite_vertices0": [],
+      "constant_selected_vertices": 0,
+      "statistics_sha256": "ae2ce9d12c9892abcda8c2d0e775c1e4f79e320990ca25786125d2ab256745ac"
+    },
+    {
+      "hemisphere": "rh",
+      "session1": 28,
+      "path": "/data1/matengyu/geyugong/neuroadapter-subject1-research/data/raw/nsd/betas/subj01/fsaverage/betas_fithrf_GLMdenoise_RR/rh.betas_session28.mgh",
+      "sha256": "c02cf688144406616fb8826bff5de9296278b4075d7c5fa84b133f2d9a699709",
+      "shape": [
+        750,
+        163842
+      ],
+      "nonfinite_count": 0,
+      "nonfinite_vertices0": [],
+      "selected_nonfinite_vertices0": [],
+      "constant_selected_vertices": 0,
+      "statistics_sha256": "1806abd80c15428792a2b25345e3ad3c166e6c6b705c3130f3e6e5aeb1276550"
+    },
+    {
+      "hemisphere": "rh",
+      "session1": 29,
+      "path": "/data1/matengyu/geyugong/neuroadapter-subject1-research/data/raw/nsd/betas/subj01/fsaverage/betas_fithrf_GLMdenoise_RR/rh.betas_session29.mgh",
+      "sha256": "d25e9734cf0ddac04666cd7754988c37d6646d5d5ae20236bfbbd43ea2a82aae",
+      "shape": [
+        750,
+        163842
+      ],
+      "nonfinite_count": 0,
+      "nonfinite_vertices0": [],
+      "selected_nonfinite_vertices0": [],
+      "constant_selected_vertices": 0,
+      "statistics_sha256": "8c0bf11f4f47dace6b28f0d7afe64e6877edf163b31e57af871bc7e81948d453"
+    },
+    {
+      "hemisphere": "rh",
+      "session1": 30,
+      "path": "/data1/matengyu/geyugong/neuroadapter-subject1-research/data/raw/nsd/betas/subj01/fsaverage/betas_fithrf_GLMdenoise_RR/rh.betas_session30.mgh",
+      "sha256": "be8d9aaa6199a88954b0e3c7e17337d65e9bcc9aff25b9c0acc061f677586569",
+      "shape": [
+        750,
+        163842
+      ],
+      "nonfinite_count": 0,
+      "nonfinite_vertices0": [],
+      "selected_nonfinite_vertices0": [],
+      "constant_selected_vertices": 0,
+      "statistics_sha256": "49e52bab04ade328fec285bb9a1bb37f4b23b5804bb739cf473639fd143d5310"
+    },
+    {
+      "hemisphere": "rh",
+      "session1": 31,
+      "path": "/data1/matengyu/geyugong/neuroadapter-subject1-research/data/raw/nsd/betas/subj01/fsaverage/betas_fithrf_GLMdenoise_RR/rh.betas_session31.mgh",
+      "sha256": "2309b7b72fd125330797064fa469732a8b72bf3f6075a437028e9e54cbdaefd4",
+      "shape": [
+        750,
+        163842
+      ],
+      "nonfinite_count": 0,
+      "nonfinite_vertices0": [],
+      "selected_nonfinite_vertices0": [],
+      "constant_selected_vertices": 0,
+      "statistics_sha256": "d0699e5bd17831916f9fa2370d374a861944dc7f08f7721105a226b466141006"
+    },
+    {
+      "hemisphere": "rh",
+      "session1": 32,
+      "path": "/data1/matengyu/geyugong/neuroadapter-subject1-research/data/raw/nsd/betas/subj01/fsaverage/betas_fithrf_GLMdenoise_RR/rh.betas_session32.mgh",
+      "sha256": "7fbfe0a061486f30afd91134698bb8c0dcf5465792b33fb81757c064e14caf9a",
+      "shape": [
+        750,
+        163842
+      ],
+      "nonfinite_count": 0,
+      "nonfinite_vertices0": [],
+      "selected_nonfinite_vertices0": [],
+      "constant_selected_vertices": 0,
+      "statistics_sha256": "57f2e9c16ef196344ae709100c418dfdb45e95ece9965b01454ce7d6b06c0a25"
+    },
+    {
+      "hemisphere": "rh",
+      "session1": 33,
+      "path": "/data1/matengyu/geyugong/neuroadapter-subject1-research/data/raw/nsd/betas/subj01/fsaverage/betas_fithrf_GLMdenoise_RR/rh.betas_session33.mgh",
+      "sha256": "88522c828937b871801e13d45bc51d0af4b8a9129244fec2191e28eb2da3379d",
+      "shape": [
+        750,
+        163842
+      ],
+      "nonfinite_count": 0,
+      "nonfinite_vertices0": [],
+      "selected_nonfinite_vertices0": [],
+      "constant_selected_vertices": 0,
+      "statistics_sha256": "eab5d619089d9a492e31a88bb839b1a8670f76f80972a280dcb04e86b98c3826"
+    },
+    {
+      "hemisphere": "rh",
+      "session1": 34,
+      "path": "/data1/matengyu/geyugong/neuroadapter-subject1-research/data/raw/nsd/betas/subj01/fsaverage/betas_fithrf_GLMdenoise_RR/rh.betas_session34.mgh",
+      "sha256": "5c9b0f37b8bbd0aa3a46d88b6e2042ac0c998d66a0a19dbb5403ccd6071308a7",
+      "shape": [
+        750,
+        163842
+      ],
+      "nonfinite_count": 0,
+      "nonfinite_vertices0": [],
+      "selected_nonfinite_vertices0": [],
+      "constant_selected_vertices": 0,
+      "statistics_sha256": "9d6587d5177b6019370063939fb2ae1ae83ae0a31f68f5c2bfb47f45bd75e070"
+    },
+    {
+      "hemisphere": "rh",
+      "session1": 35,
+      "path": "/data1/matengyu/geyugong/neuroadapter-subject1-research/data/raw/nsd/betas/subj01/fsaverage/betas_fithrf_GLMdenoise_RR/rh.betas_session35.mgh",
+      "sha256": "4dbbb71882d521d80dbfdea1c55f42be5ed855a4ae2282545533400eb90a477d",
+      "shape": [
+        750,
+        163842
+      ],
+      "nonfinite_count": 0,
+      "nonfinite_vertices0": [],
+      "selected_nonfinite_vertices0": [],
+      "constant_selected_vertices": 0,
+      "statistics_sha256": "c3846eceba2ec610b6ee00db96555bde59a43950eeeb2a4fd79412de1b82cea4"
+    },
+    {
+      "hemisphere": "rh",
+      "session1": 36,
+      "path": "/data1/matengyu/geyugong/neuroadapter-subject1-research/data/raw/nsd/betas/subj01/fsaverage/betas_fithrf_GLMdenoise_RR/rh.betas_session36.mgh",
+      "sha256": "f379fda488506275a204f80c123e6f9fc616a01b0a065b1142e3140365c8388c",
+      "shape": [
+        750,
+        163842
+      ],
+      "nonfinite_count": 0,
+      "nonfinite_vertices0": [],
+      "selected_nonfinite_vertices0": [],
+      "constant_selected_vertices": 0,
+      "statistics_sha256": "bd4cfcca81b19b210d230795fda2f0c5db62fa0f08c9e04efafb4c2960488e34"
+    },
+    {
+      "hemisphere": "rh",
+      "session1": 37,
+      "path": "/data1/matengyu/geyugong/neuroadapter-subject1-research/data/raw/nsd/betas/subj01/fsaverage/betas_fithrf_GLMdenoise_RR/rh.betas_session37.mgh",
+      "sha256": "8decee268849db8fa2846a0285334a994ddf98a18b138e185ca24355c492bf39",
+      "shape": [
+        750,
+        163842
+      ],
+      "nonfinite_count": 0,
+      "nonfinite_vertices0": [],
+      "selected_nonfinite_vertices0": [],
+      "constant_selected_vertices": 0,
+      "statistics_sha256": "d81e8433f8057f7392cb7b75ecad7de82f1f852a16fb41865986c167151b69b3"
+    },
+    {
+      "hemisphere": "rh",
+      "session1": 38,
+      "path": "/data1/matengyu/geyugong/neuroadapter-subject1-research/data/raw/nsd/betas/subj01/fsaverage/betas_fithrf_GLMdenoise_RR/rh.betas_session38.mgh",
+      "sha256": "90bdcc670c84ca2aa77aba9d749421651291725e70e49bcaffdf1df2d2bff605",
+      "shape": [
+        750,
+        163842
+      ],
+      "nonfinite_count": 0,
+      "nonfinite_vertices0": [],
+      "selected_nonfinite_vertices0": [],
+      "constant_selected_vertices": 0,
+      "statistics_sha256": "cd1dd7148a1e6416068b190f99d8341f49812758b4f651cb72310c9f79e36dbe"
+    },
+    {
+      "hemisphere": "rh",
+      "session1": 39,
+      "path": "/data1/matengyu/geyugong/neuroadapter-subject1-research/data/raw/nsd/betas/subj01/fsaverage/betas_fithrf_GLMdenoise_RR/rh.betas_session39.mgh",
+      "sha256": "aea61893edadfef4dbb08116350c5abd6a93fb31ee08a4ce34516754a2d6f34d",
+      "shape": [
+        750,
+        163842
+      ],
+      "nonfinite_count": 0,
+      "nonfinite_vertices0": [],
+      "selected_nonfinite_vertices0": [],
+      "constant_selected_vertices": 0,
+      "statistics_sha256": "e7dc010e454da0a039f173636febb895ea3e554ad6f7d0627914c49e9caaaae6"
+    },
+    {
+      "hemisphere": "rh",
+      "session1": 40,
+      "path": "/data1/matengyu/geyugong/neuroadapter-subject1-research/data/raw/nsd/betas/subj01/fsaverage/betas_fithrf_GLMdenoise_RR/rh.betas_session40.mgh",
+      "sha256": "5fd24f7e2361d0012baeca2fc67bb7fe2bcd279c8c9b61d2b3830e5a2de8ace9",
+      "shape": [
+        750,
+        163842
+      ],
+      "nonfinite_count": 0,
+      "nonfinite_vertices0": [],
+      "selected_nonfinite_vertices0": [],
+      "constant_selected_vertices": 0,
+      "statistics_sha256": "be749e216c3831e08c6cec6a260338ac478d66c8b0f4f226e0f6828fa76e8130"
+    }
+  ],
+  "nonfinite_policy": "Report all raw anomalies; fail if any selected vertex is nonfinite. No imputation.",
+  "formula": "float32 x=raw/300; per-session vertex mean/std over all750 trials ddof0; (x-mean)/(std+1e-6); chronological repeat arithmetic mean",
+  "normalization_includes_evaluation_trials": true,
+  "query_sha256": "214d8a43df41785433a4848755ae0df03b8185a43a24f64252385a1330382527",
+  "query_shape": [
+    982,
+    33616
+  ],
+  "fixed_five_checks": {
+    "6489": {
+      "lh": [
+        {
+          "session1": 18,
+          "trial0": 45,
+          "global_trial0": 12795,
+          "vertex_id0": 7,
+          "scalar_z": 0.6399620175361633,
+          "block_z": 0.6399623155593872
+        },
+        {
+          "session1": 18,
+          "trial0": 45,
+          "global_trial0": 12795,
+          "vertex_id0": 87179,
+          "scalar_z": 0.4896802306175232,
+          "block_z": 0.4896804392337799
+        },
+        {
+          "session1": 18,
+          "trial0": 45,
+          "global_trial0": 12795,
+          "vertex_id0": 163717,
+          "scalar_z": 1.3785264492034912,
+          "block_z": 1.3785263299942017
+        },
+        {
+          "session1": 25,
+          "trial0": 406,
+          "global_trial0": 18406,
+          "vertex_id0": 7,
+          "scalar_z": 0.6101986169815063,
+          "block_z": 0.6101985573768616
+        },
+        {
+          "session1": 25,
+          "trial0": 406,
+          "global_trial0": 18406,
+          "vertex_id0": 87179,
+          "scalar_z": -0.5664321184158325,
+          "block_z": -0.5664317011833191
+        },
+        {
+          "session1": 25,
+          "trial0": 406,
+          "global_trial0": 18406,
+          "vertex_id0": 163717,
+          "scalar_z": -0.5665320754051208,
+          "block_z": -0.5665323138237
+        },
+        {
+          "session1": 26,
+          "trial0": 296,
+          "global_trial0": 19046,
+          "vertex_id0": 7,
+          "scalar_z": 0.3553910553455353,
+          "block_z": 0.3553908169269562
+        },
+        {
+          "session1": 26,
+          "trial0": 296,
+          "global_trial0": 19046,
+          "vertex_id0": 87179,
+          "scalar_z": 0.2769433856010437,
+          "block_z": 0.2769434452056885
+        },
+        {
+          "session1": 26,
+          "trial0": 296,
+          "global_trial0": 19046,
+          "vertex_id0": 163717,
+          "scalar_z": -1.2489967346191406,
+          "block_z": -1.2489969730377197
+        }
+      ],
+      "rh": [
+        {
+          "session1": 18,
+          "trial0": 45,
+          "global_trial0": 12795,
+          "vertex_id0": 6,
+          "scalar_z": -0.006458986084908247,
+          "block_z": -0.006459358148276806
+        },
+        {
+          "session1": 18,
+          "trial0": 45,
+          "global_trial0": 12795,
+          "vertex_id0": 87643,
+          "scalar_z": -0.48733314871788025,
+          "block_z": -0.4873332381248474
+        },
+        {
+          "session1": 18,
+          "trial0": 45,
+          "global_trial0": 12795,
+          "vertex_id0": 163096,
+          "scalar_z": -1.4049915075302124,
+          "block_z": -1.404991626739502
+        },
+        {
+          "session1": 25,
+          "trial0": 406,
+          "global_trial0": 18406,
+          "vertex_id0": 6,
+          "scalar_z": 0.49597659707069397,
+          "block_z": 0.49597635865211487
+        },
+        {
+          "session1": 25,
+          "trial0": 406,
+          "global_trial0": 18406,
+          "vertex_id0": 87643,
+          "scalar_z": -1.7341234683990479,
+          "block_z": -1.734123945236206
+        },
+        {
+          "session1": 25,
+          "trial0": 406,
+          "global_trial0": 18406,
+          "vertex_id0": 163096,
+          "scalar_z": 0.20923566818237305,
+          "block_z": 0.20923566818237305
+        },
+        {
+          "session1": 26,
+          "trial0": 296,
+          "global_trial0": 19046,
+          "vertex_id0": 6,
+          "scalar_z": 0.5613305568695068,
+          "block_z": 0.5613307952880859
+        },
+        {
+          "session1": 26,
+          "trial0": 296,
+          "global_trial0": 19046,
+          "vertex_id0": 87643,
+          "scalar_z": -1.518852710723877,
+          "block_z": -1.5188521146774292
+        },
+        {
+          "session1": 26,
+          "trial0": 296,
+          "global_trial0": 19046,
+          "vertex_id0": 163096,
+          "scalar_z": 0.2575390338897705,
+          "block_z": 0.2575390040874481
+        }
+      ]
+    },
+    "65010": {
+      "lh": [
+        {
+          "session1": 4,
+          "trial0": 334,
+          "global_trial0": 2584,
+          "vertex_id0": 7,
+          "scalar_z": 0.3636414706707001,
+          "block_z": 0.363641619682312
+        },
+        {
+          "session1": 4,
+          "trial0": 334,
+          "global_trial0": 2584,
+          "vertex_id0": 87179,
+          "scalar_z": -0.10060834884643555,
+          "block_z": -0.10060790181159973
+        },
+        {
+          "session1": 4,
+          "trial0": 334,
+          "global_trial0": 2584,
+          "vertex_id0": 163717,
+          "scalar_z": 0.8072254061698914,
+          "block_z": 0.8072255849838257
+        },
+        {
+          "session1": 18,
+          "trial0": 234,
+          "global_trial0": 12984,
+          "vertex_id0": 7,
+          "scalar_z": 1.304858684539795,
+          "block_z": 1.3048590421676636
+        },
+        {
+          "session1": 18,
+          "trial0": 234,
+          "global_trial0": 12984,
+          "vertex_id0": 87179,
+          "scalar_z": 0.9541207551956177,
+          "block_z": 0.954120934009552
+        },
+        {
+          "session1": 18,
+          "trial0": 234,
+          "global_trial0": 12984,
+          "vertex_id0": 163717,
+          "scalar_z": -1.04604172706604,
+          "block_z": -1.04604172706604
+        },
+        {
+          "session1": 33,
+          "trial0": 324,
+          "global_trial0": 24324,
+          "vertex_id0": 7,
+          "scalar_z": -1.8286769390106201,
+          "block_z": -1.8286772966384888
+        },
+        {
+          "session1": 33,
+          "trial0": 324,
+          "global_trial0": 24324,
+          "vertex_id0": 87179,
+          "scalar_z": -1.2697399854660034,
+          "block_z": -1.2697397470474243
+        },
+        {
+          "session1": 33,
+          "trial0": 324,
+          "global_trial0": 24324,
+          "vertex_id0": 163717,
+          "scalar_z": 0.2348901629447937,
+          "block_z": 0.2348901629447937
+        }
+      ],
+      "rh": [
+        {
+          "session1": 4,
+          "trial0": 334,
+          "global_trial0": 2584,
+          "vertex_id0": 6,
+          "scalar_z": -0.46018514037132263,
+          "block_z": -0.46018481254577637
+        },
+        {
+          "session1": 4,
+          "trial0": 334,
+          "global_trial0": 2584,
+          "vertex_id0": 87643,
+          "scalar_z": -0.0587262324988842,
+          "block_z": -0.05872657150030136
+        },
+        {
+          "session1": 4,
+          "trial0": 334,
+          "global_trial0": 2584,
+          "vertex_id0": 163096,
+          "scalar_z": -0.34957465529441833,
+          "block_z": -0.3495747148990631
+        },
+        {
+          "session1": 18,
+          "trial0": 234,
+          "global_trial0": 12984,
+          "vertex_id0": 6,
+          "scalar_z": -1.2959283590316772,
+          "block_z": -1.2959282398223877
+        },
+        {
+          "session1": 18,
+          "trial0": 234,
+          "global_trial0": 12984,
+          "vertex_id0": 87643,
+          "scalar_z": -0.4051763415336609,
+          "block_z": -0.40517640113830566
+        },
+        {
+          "session1": 18,
+          "trial0": 234,
+          "global_trial0": 12984,
+          "vertex_id0": 163096,
+          "scalar_z": -0.35165664553642273,
+          "block_z": -0.3516567051410675
+        },
+        {
+          "session1": 33,
+          "trial0": 324,
+          "global_trial0": 24324,
+          "vertex_id0": 6,
+          "scalar_z": 0.2035111039876938,
+          "block_z": 0.20351074635982513
+        },
+        {
+          "session1": 33,
+          "trial0": 324,
+          "global_trial0": 24324,
+          "vertex_id0": 87643,
+          "scalar_z": 1.877996563911438,
+          "block_z": 1.8779964447021484
+        },
+        {
+          "session1": 33,
+          "trial0": 324,
+          "global_trial0": 24324,
+          "vertex_id0": 163096,
+          "scalar_z": -0.5551379323005676,
+          "block_z": -0.5551379919052124
+        }
+      ]
+    },
+    "6514": {
+      "lh": [
+        {
+          "session1": 19,
+          "trial0": 42,
+          "global_trial0": 13542,
+          "vertex_id0": 7,
+          "scalar_z": -0.9809973239898682,
+          "block_z": -0.9809969067573547
+        },
+        {
+          "session1": 19,
+          "trial0": 42,
+          "global_trial0": 13542,
+          "vertex_id0": 87179,
+          "scalar_z": 0.0915633887052536,
+          "block_z": 0.09156405925750732
+        },
+        {
+          "session1": 19,
+          "trial0": 42,
+          "global_trial0": 13542,
+          "vertex_id0": 163717,
+          "scalar_z": 1.280131220817566,
+          "block_z": 1.2801311016082764
+        },
+        {
+          "session1": 26,
+          "trial0": 589,
+          "global_trial0": 19339,
+          "vertex_id0": 7,
+          "scalar_z": 0.16429170966148376,
+          "block_z": 0.16429148614406586
+        },
+        {
+          "session1": 26,
+          "trial0": 589,
+          "global_trial0": 19339,
+          "vertex_id0": 87179,
+          "scalar_z": -1.7533200979232788,
+          "block_z": -1.753320336341858
+        },
+        {
+          "session1": 26,
+          "trial0": 589,
+          "global_trial0": 19339,
+          "vertex_id0": 163717,
+          "scalar_z": -0.35649222135543823,
+          "block_z": -0.3564923107624054
+        },
+        {
+          "session1": 35,
+          "trial0": 641,
+          "global_trial0": 26141,
+          "vertex_id0": 7,
+          "scalar_z": -0.4010876417160034,
+          "block_z": -0.4010874629020691
+        },
+        {
+          "session1": 35,
+          "trial0": 641,
+          "global_trial0": 26141,
+          "vertex_id0": 87179,
+          "scalar_z": -1.190758466720581,
+          "block_z": -1.1907589435577393
+        },
+        {
+          "session1": 35,
+          "trial0": 641,
+          "global_trial0": 26141,
+          "vertex_id0": 163717,
+          "scalar_z": -1.3700225353240967,
+          "block_z": -1.3700226545333862
+        }
+      ],
+      "rh": [
+        {
+          "session1": 19,
+          "trial0": 42,
+          "global_trial0": 13542,
+          "vertex_id0": 6,
+          "scalar_z": -1.4001545906066895,
+          "block_z": -1.4001559019088745
+        },
+        {
+          "session1": 19,
+          "trial0": 42,
+          "global_trial0": 13542,
+          "vertex_id0": 87643,
+          "scalar_z": -1.4927598237991333,
+          "block_z": -1.4927598237991333
+        },
+        {
+          "session1": 19,
+          "trial0": 42,
+          "global_trial0": 13542,
+          "vertex_id0": 163096,
+          "scalar_z": -1.1313918828964233,
+          "block_z": -1.1313915252685547
+        },
+        {
+          "session1": 26,
+          "trial0": 589,
+          "global_trial0": 19339,
+          "vertex_id0": 6,
+          "scalar_z": -1.7566472291946411,
+          "block_z": -1.756646990776062
+        },
+        {
+          "session1": 26,
+          "trial0": 589,
+          "global_trial0": 19339,
+          "vertex_id0": 87643,
+          "scalar_z": -0.31611067056655884,
+          "block_z": -0.3161103427410126
+        },
+        {
+          "session1": 26,
+          "trial0": 589,
+          "global_trial0": 19339,
+          "vertex_id0": 163096,
+          "scalar_z": -0.8297913074493408,
+          "block_z": -0.829791247844696
+        },
+        {
+          "session1": 35,
+          "trial0": 641,
+          "global_trial0": 26141,
+          "vertex_id0": 6,
+          "scalar_z": -1.8932604789733887,
+          "block_z": -1.893259882926941
+        },
+        {
+          "session1": 35,
+          "trial0": 641,
+          "global_trial0": 26141,
+          "vertex_id0": 87643,
+          "scalar_z": -0.10312098264694214,
+          "block_z": -0.10312077403068542
+        },
+        {
+          "session1": 35,
+          "trial0": 641,
+          "global_trial0": 26141,
+          "vertex_id0": 163096,
+          "scalar_z": -1.6029239892959595,
+          "block_z": -1.6029236316680908
+        }
+      ]
+    },
+    "18483": {
+      "lh": [
+        {
+          "session1": 6,
+          "trial0": 508,
+          "global_trial0": 4258,
+          "vertex_id0": 7,
+          "scalar_z": -0.5999327898025513,
+          "block_z": -0.5999329686164856
+        },
+        {
+          "session1": 6,
+          "trial0": 508,
+          "global_trial0": 4258,
+          "vertex_id0": 87179,
+          "scalar_z": -1.6847842931747437,
+          "block_z": -1.6847857236862183
+        },
+        {
+          "session1": 6,
+          "trial0": 508,
+          "global_trial0": 4258,
+          "vertex_id0": 163717,
+          "scalar_z": -0.3990066349506378,
+          "block_z": -0.39900660514831543
+        },
+        {
+          "session1": 22,
+          "trial0": 354,
+          "global_trial0": 16104,
+          "vertex_id0": 7,
+          "scalar_z": -1.4960001707077026,
+          "block_z": -1.4959995746612549
+        },
+        {
+          "session1": 22,
+          "trial0": 354,
+          "global_trial0": 16104,
+          "vertex_id0": 87179,
+          "scalar_z": -0.8346701860427856,
+          "block_z": -0.8346697092056274
+        },
+        {
+          "session1": 22,
+          "trial0": 354,
+          "global_trial0": 16104,
+          "vertex_id0": 163717,
+          "scalar_z": -1.6072462797164917,
+          "block_z": -1.6072462797164917
+        },
+        {
+          "session1": 40,
+          "trial0": 29,
+          "global_trial0": 29279,
+          "vertex_id0": 7,
+          "scalar_z": -0.9215181469917297,
+          "block_z": -0.9215179085731506
+        },
+        {
+          "session1": 40,
+          "trial0": 29,
+          "global_trial0": 29279,
+          "vertex_id0": 87179,
+          "scalar_z": 1.482982873916626,
+          "block_z": 1.4829827547073364
+        },
+        {
+          "session1": 40,
+          "trial0": 29,
+          "global_trial0": 29279,
+          "vertex_id0": 163717,
+          "scalar_z": -0.9664666652679443,
+          "block_z": -0.9664667248725891
+        }
+      ],
+      "rh": [
+        {
+          "session1": 6,
+          "trial0": 508,
+          "global_trial0": 4258,
+          "vertex_id0": 6,
+          "scalar_z": 0.44104281067848206,
+          "block_z": 0.44104260206222534
+        },
+        {
+          "session1": 6,
+          "trial0": 508,
+          "global_trial0": 4258,
+          "vertex_id0": 87643,
+          "scalar_z": 0.7851914167404175,
+          "block_z": 0.7851913571357727
+        },
+        {
+          "session1": 6,
+          "trial0": 508,
+          "global_trial0": 4258,
+          "vertex_id0": 163096,
+          "scalar_z": -0.16339419782161713,
+          "block_z": -0.16339416801929474
+        },
+        {
+          "session1": 22,
+          "trial0": 354,
+          "global_trial0": 16104,
+          "vertex_id0": 6,
+          "scalar_z": -0.3459473252296448,
+          "block_z": -0.3459467589855194
+        },
+        {
+          "session1": 22,
+          "trial0": 354,
+          "global_trial0": 16104,
+          "vertex_id0": 87643,
+          "scalar_z": -0.709001362323761,
+          "block_z": -0.7090014219284058
+        },
+        {
+          "session1": 22,
+          "trial0": 354,
+          "global_trial0": 16104,
+          "vertex_id0": 163096,
+          "scalar_z": 0.4559919834136963,
+          "block_z": 0.455992192029953
+        },
+        {
+          "session1": 40,
+          "trial0": 29,
+          "global_trial0": 29279,
+          "vertex_id0": 6,
+          "scalar_z": -0.7608751058578491,
+          "block_z": -0.7608754634857178
+        },
+        {
+          "session1": 40,
+          "trial0": 29,
+          "global_trial0": 29279,
+          "vertex_id0": 87643,
+          "scalar_z": 0.1311362087726593,
+          "block_z": 0.13113608956336975
+        },
+        {
+          "session1": 40,
+          "trial0": 29,
+          "global_trial0": 29279,
+          "vertex_id0": 163096,
+          "scalar_z": 0.321374773979187,
+          "block_z": 0.3213748633861542
+        }
+      ]
+    },
+    "66278": {
+      "lh": [
+        {
+          "session1": 10,
+          "trial0": 166,
+          "global_trial0": 6916,
+          "vertex_id0": 7,
+          "scalar_z": 0.2800661325454712,
+          "block_z": 0.28006625175476074
+        },
+        {
+          "session1": 10,
+          "trial0": 166,
+          "global_trial0": 6916,
+          "vertex_id0": 87179,
+          "scalar_z": 0.4795392155647278,
+          "block_z": 0.4795389473438263
+        },
+        {
+          "session1": 10,
+          "trial0": 166,
+          "global_trial0": 6916,
+          "vertex_id0": 163717,
+          "scalar_z": 0.40554261207580566,
+          "block_z": 0.4055427014827728
+        },
+        {
+          "session1": 10,
+          "trial0": 205,
+          "global_trial0": 6955,
+          "vertex_id0": 7,
+          "scalar_z": 0.5782449841499329,
+          "block_z": 0.5782451033592224
+        },
+        {
+          "session1": 10,
+          "trial0": 205,
+          "global_trial0": 6955,
+          "vertex_id0": 87179,
+          "scalar_z": 0.026399338617920876,
+          "block_z": 0.026399055495858192
+        },
+        {
+          "session1": 10,
+          "trial0": 205,
+          "global_trial0": 6955,
+          "vertex_id0": 163717,
+          "scalar_z": 1.0079669952392578,
+          "block_z": 1.007967233657837
+        },
+        {
+          "session1": 18,
+          "trial0": 28,
+          "global_trial0": 12778,
+          "vertex_id0": 7,
+          "scalar_z": 0.896433413028717,
+          "block_z": 0.8964337706565857
+        },
+        {
+          "session1": 18,
+          "trial0": 28,
+          "global_trial0": 12778,
+          "vertex_id0": 87179,
+          "scalar_z": 0.24800653755664825,
+          "block_z": 0.24800677597522736
+        },
+        {
+          "session1": 18,
+          "trial0": 28,
+          "global_trial0": 12778,
+          "vertex_id0": 163717,
+          "scalar_z": 0.6570079922676086,
+          "block_z": 0.6570079326629639
+        }
+      ],
+      "rh": [
+        {
+          "session1": 10,
+          "trial0": 166,
+          "global_trial0": 6916,
+          "vertex_id0": 6,
+          "scalar_z": -1.4052702188491821,
+          "block_z": -1.405269742012024
+        },
+        {
+          "session1": 10,
+          "trial0": 166,
+          "global_trial0": 6916,
+          "vertex_id0": 87643,
+          "scalar_z": 0.244210883975029,
+          "block_z": 0.2442111074924469
+        },
+        {
+          "session1": 10,
+          "trial0": 166,
+          "global_trial0": 6916,
+          "vertex_id0": 163096,
+          "scalar_z": 0.3262913227081299,
+          "block_z": 0.3262912929058075
+        },
+        {
+          "session1": 10,
+          "trial0": 205,
+          "global_trial0": 6955,
+          "vertex_id0": 6,
+          "scalar_z": 0.27958229184150696,
+          "block_z": 0.2795828580856323
+        },
+        {
+          "session1": 10,
+          "trial0": 205,
+          "global_trial0": 6955,
+          "vertex_id0": 87643,
+          "scalar_z": 0.8089336156845093,
+          "block_z": 0.8089340329170227
+        },
+        {
+          "session1": 10,
+          "trial0": 205,
+          "global_trial0": 6955,
+          "vertex_id0": 163096,
+          "scalar_z": 1.9854615926742554,
+          "block_z": 1.9854613542556763
+        },
+        {
+          "session1": 18,
+          "trial0": 28,
+          "global_trial0": 12778,
+          "vertex_id0": 6,
+          "scalar_z": -0.5027155876159668,
+          "block_z": -0.5027157664299011
+        },
+        {
+          "session1": 18,
+          "trial0": 28,
+          "global_trial0": 12778,
+          "vertex_id0": 87643,
+          "scalar_z": -0.4108054041862488,
+          "block_z": -0.41080546379089355
+        },
+        {
+          "session1": 18,
+          "trial0": 28,
+          "global_trial0": 12778,
+          "vertex_id0": 163096,
+          "scalar_z": 0.4539204239845276,
+          "block_z": 0.45392048358917236
+        }
+      ]
+    }
+  },
+  "minimum_spatial_norm": 85.88614578522261,
+  "finished_utc": "2026-10-05T08:05:07Z",
+  "status": "passed",
+  "all_982_repeat_counts": 3,
+  "query_manifest_sha256": "2141f909ecd542a791f8bb388044c12d3cfe9f605ecb59a13a4f9024450ed8d2"
+}

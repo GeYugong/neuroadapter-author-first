@@ -1,0 +1,45 @@
+{
+  "utc": "2026-10-05T08:14:20Z",
+  "status": "full_scan_running",
+  "encoder_split_verified": false,
+  "encoder_development_overlap": "unknown",
+  "historical_beta_recipe_verified": false,
+  "historical_retrieval_mask_verified": false,
+  "result_scope": "local_fixed_exploratory",
+  "disclosure": "本地固定协议；encoder开发集划分未核实；标准化及mask与作者历史实验的一致性未确认。",
+  "training_updates": 0,
+  "outbound_messages_sent": 0,
+  "preflight_max_masked_readout_abs": 2.5033950805664062e-06,
+  "preserved_strict_records": {
+    "research-evidence.json": "6c4aedaa10afd77f32af05b3835bc46c8238dd03a36e0ee30d61866274e58463",
+    "encoder_manifest.json": "5748d602e2b80a12ad0a340945b76dfc990f5fca84f05c2258f5434bbbfa3c2b",
+    "REMEDIATION_ZH.md": "94a1eb5043246b32bdac025aa35380e4fc9c08bbb829bfaf33a0e6919941b4d9",
+    "preflight-run-record.json": "31c8d6a1dbf3610f460c83caee93431b75b2c9c07a45ec4354db584b4889f55a",
+    "hf-public-file-inventory.json": "a73ede7fbddf962eedcc2730d53577bac84a4220856b53f465d820a7a78fdded",
+    "corpus_manifest_index.json": "7a9c23a32b36e88a9fa62d393c28dc663393a15edb61f1f287b37574a56e0b74",
+    "README_ZH.md": "03a82fe68a26d8c3a1233c813b400bcf2136f400fb3dab333216663d8fc5f80f",
+    "upstream_request_draft.md": "1e8dd1c1aae995911872f97b09bde6bee54f17ee38e60a9f9c666eada935a95b",
+    "official-weight-verification.json": "55e13eb51fac989c5c8dcc8f475ad5ad1e03bd814fd181bdfd655c8782dc276c",
+    "BLOCKED_ZH.md": "e21ef040c678164b9216de9a9e3a18a8a0b62bc02529a5d9efd8c6b77e1f791f",
+    "public-asset-audit.partial.json": "e5208ece4c763756b8fcd01badb40f4ef1600b729dc0c6adbdbdb3fe921f1769",
+    "run_status.json": "b2fb6d998cb80dbfbd8a98a0357e7a808d5940701d7656030009ed7b77061584",
+    "split_verification.json": "0123751831f7d98f087e1c5e0965720e93bdee97055253233a89e7018c0bd09b",
+    "public-asset-audit.json": "88dd57844cdc5e7f46ddda7ea59a26116410b4db952dfaadb17df5528144a909"
+  },
+  "framework_versions": {
+    "torch": "2.11.0+cu128",
+    "torchvision": "0.26.0+cu128",
+    "numpy": "1.26.4",
+    "pillow": "11.1.0"
+  },
+  "compared_methods_verified": [
+    "NeuroAdapter L400",
+    "MindEye1 K1",
+    "Brain-Diffuser K1",
+    "Takagi K1",
+    "MindBridge(s) K1"
+  ],
+  "query_preparation_exit_note": "Initial tmux shell did not persist an exit file; completed query-audit and all data assertions verified. No synthetic exit code created.",
+  "scan_protocol_sha256": "ba1ad14d15cf51c41c93b7f1938aa16d51b3727b1d9824b8b0e0f2a409a2d48d",
+  "io_boundary": "New local-fixed-v1 report directory, project runtime/imagenet-retrieval-local-fixed-v1 and project logs only; old source/data read-only"
+}
