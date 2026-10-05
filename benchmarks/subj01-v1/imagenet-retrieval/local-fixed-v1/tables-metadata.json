@@ -1,0 +1,33 @@
+{
+  "encoder_split_verified": false,
+  "encoder_development_overlap": "unknown",
+  "historical_beta_recipe_verified": false,
+  "historical_retrieval_mask_verified": false,
+  "result_scope": "local_fixed_exploratory",
+  "disclosure": "本地固定协议；encoder开发集划分未核实；标准化及mask与作者历史实验的一致性未确认。",
+  "training_updates": 0,
+  "outbound_messages_sent": 0,
+  "n_eval": 982,
+  "identification_unit": "AN2/AN5/Incep/CLIP are percentages",
+  "higher_is_better": [
+    "PixCorr",
+    "SSIM",
+    "AN2",
+    "AN5",
+    "Incep",
+    "CLIP"
+  ],
+  "lower_is_better": [
+    "Eff",
+    "SwAV"
+  ],
+  "relative_formula_first_six": "100*(method-baseline)/baseline",
+  "relative_formula_eff_swav": "100*(baseline-method)/baseline",
+  "nonpositive_denominator": "NA; retain raw method-baseline difference",
+  "relative_values": "descriptive, not leakage-verified generalization or exact Figure5 reproduction",
+  "excluded_protocols": [
+    "100k 50 images best-of8",
+    "MindEye best-of16",
+    "paper cited values"
+  ]
+}

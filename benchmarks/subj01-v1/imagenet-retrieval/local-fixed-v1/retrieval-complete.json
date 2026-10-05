@@ -1,0 +1,19 @@
+{
+  "retrieval_complete": true,
+  "execution_complete": false,
+  "scanned_candidates": 1281167,
+  "source_hash_and_decode_records": 1281167,
+  "concatenated_candidate_audit_sha256": "5bddfdae6dfb991f41b9b332cf45bcc21f7d0c82be989a8a9c02846eb90f3bb6",
+  "protocol_sha256": "ba1ad14d15cf51c41c93b7f1938aa16d51b3727b1d9824b8b0e0f2a409a2d48d",
+  "top1_sha256": "62fa87f28e77b5350e02121086bd41d7805815df9707abad2d548d6cfc46a9fb",
+  "finished_utc": "2026-10-05T13:06:12Z",
+  "remaining": "Independent metrics, comparison tables, plots and atlas review",
+  "encoder_split_verified": false,
+  "encoder_development_overlap": "unknown",
+  "historical_beta_recipe_verified": false,
+  "historical_retrieval_mask_verified": false,
+  "result_scope": "local_fixed_exploratory",
+  "disclosure": "本地固定协议；encoder开发集划分未核实；标准化及mask与作者历史实验的一致性未确认。",
+  "training_updates": 0,
+  "outbound_messages_sent": 0
+}

@@ -1,0 +1,26 @@
+{
+  "status": "metrics_tables_plots_and_atlas_generated",
+  "execution_complete": false,
+  "pending": [
+    "actual_AI_nonblind_atlas_review",
+    "server_local_private_GitHub_sync"
+  ],
+  "baseline_metrics_sha256": "b781624ad8a7a02b5a35be8da5f3aeef134339614e970b8533df4f28742f2193",
+  "top1_csv_sha256": "e68f176f539b7a1fabe185d8d075df956abd8cedde6f7c955a1a3845c656420d",
+  "files": {
+    "raw-metrics.csv": "347cf190a12fde07adc71b7cd07180f1f5abc2a7c3b2b7211c71b47430bb5b99",
+    "relative-change-percent.csv": "682333262b009f42d10d05fb9a019074d5b132cd8772ab50a0c3d89e870f2e1b",
+    "absolute-difference.csv": "339a37c6f6352b838bc766344b210fa5c91e259eae4804cc0eccef9a1f5790f2",
+    "relative-change.png": "58d31a2d5f115c8479cbc5f2655373c7c9be60f8a438fecf93d8f371392d6ad6",
+    "relative-change.pdf": "de08c73b2bc84a426bac36718bec95bc06bf8467da16ca9d655654c0ef658f57"
+  },
+  "finished_utc": "2026-10-05T13:08:58Z",
+  "encoder_split_verified": false,
+  "encoder_development_overlap": "unknown",
+  "historical_beta_recipe_verified": false,
+  "historical_retrieval_mask_verified": false,
+  "result_scope": "local_fixed_exploratory",
+  "disclosure": "本地固定协议；encoder开发集划分未核实；标准化及mask与作者历史实验的一致性未确认。",
+  "training_updates": 0,
+  "outbound_messages_sent": 0
+}

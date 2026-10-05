@@ -1,0 +1,19 @@
+{
+  "utc": "2026-10-05T13:06:13Z",
+  "exit_code": 0,
+  "command": [
+    "/data1/matengyu/geyugong/neuroadapter-author-first/runtime/env/bin/python",
+    "-B",
+    "/data1/matengyu/geyugong/neuroadapter-author-first/benchmarks/subj01-v1/imagenet-retrieval/local-fixed-v1/scan.py"
+  ],
+  "log": "/data1/matengyu/geyugong/neuroadapter-author-first/logs/imagenet-local-fixed-v1-20261005T080722-scan.log",
+  "log_sha256": "99ed913a1a1159ea30560cd0a16f2dfd1fba663ac6e4ad895c1963d5648e6975",
+  "encoder_split_verified": false,
+  "encoder_development_overlap": "unknown",
+  "historical_beta_recipe_verified": false,
+  "historical_retrieval_mask_verified": false,
+  "result_scope": "local_fixed_exploratory",
+  "disclosure": "本地固定协议；encoder开发集划分未核实；标准化及mask与作者历史实验的一致性未确认。",
+  "training_updates": 0,
+  "outbound_messages_sent": 0
+}

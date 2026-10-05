@@ -1,0 +1,30 @@
+{
+  "n_eval": 982,
+  "K": 1,
+  "selection": "full-corpus measured-fMRI Pearson top1",
+  "eval_ids_hash": "4c438772ffa978ab8c5f781b8a3fc73df0159ae4892dc39d896f05a413d36441",
+  "metric_sha256": "646ee1f3673b033cd6ee485058db16a3d24fae7624d793fe5174008ad2e15f7d",
+  "feature_batch": 16,
+  "negative_pool": "all982, extract features in batches then evaluate whole pool",
+  "prediction_serialization": "float32 encoder425x425 field of view before Normalize; PNG preview not used for scores",
+  "GT": "original NSD425x425 RGB uint8/255",
+  "encoder_split_verified": false,
+  "encoder_development_overlap": "unknown",
+  "historical_beta_recipe_verified": false,
+  "historical_retrieval_mask_verified": false,
+  "result_scope": "local_fixed_exploratory",
+  "disclosure": "本地固定协议；encoder开发集划分未核实；标准化及mask与作者历史实验的一致性未确认。",
+  "training_updates": 0,
+  "outbound_messages_sent": 0,
+  "mean": {
+    "PixCorr": 0.1409821882521064,
+    "SSIM": 0.24752111163400997,
+    "Alex(2)": 41.986957902800874,
+    "Alex(5)": 40.27053735848743,
+    "Incep": 44.28572614917651,
+    "CLIP": 50.38605189019061,
+    "Eff": 0.863654437388276,
+    "SwAV": 0.5126612816932599
+  },
+  "finished_utc": "2026-10-05T13:08:36Z"
+}

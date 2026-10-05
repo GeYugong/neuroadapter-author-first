@@ -1,0 +1,72 @@
+{
+  "pages": [
+    {
+      "path": "/data1/matengyu/geyugong/neuroadapter-author-first/benchmarks/subj01-v1/imagenet-retrieval/local-fixed-v1/atlas32/page-01.jpg",
+      "sha256": "ddee8a51a4344eb4d39e2f223810a4f6a2c835363cbc553882a19d272404c8d4",
+      "nsd_ids0": [
+        6489,
+        65010,
+        6514,
+        18483,
+        66278,
+        28751,
+        16616,
+        14931
+      ]
+    },
+    {
+      "path": "/data1/matengyu/geyugong/neuroadapter-author-first/benchmarks/subj01-v1/imagenet-retrieval/local-fixed-v1/atlas32/page-02.jpg",
+      "sha256": "f57ddcde443989067dba0d5f33a1c8ae480126498a869aef4add80b6a03eba6d",
+      "nsd_ids0": [
+        65232,
+        59079,
+        61133,
+        3847,
+        23993,
+        31049,
+        68278,
+        42563
+      ]
+    },
+    {
+      "path": "/data1/matengyu/geyugong/neuroadapter-author-first/benchmarks/subj01-v1/imagenet-retrieval/local-fixed-v1/atlas32/page-03.jpg",
+      "sha256": "e43f9f875f37bf5ae60062474f48c60601f4c55bf9199b7b2abe52bab7dcd548",
+      "nsd_ids0": [
+        43675,
+        23715,
+        18796,
+        28325,
+        41653,
+        13662,
+        22138,
+        7859
+      ]
+    },
+    {
+      "path": "/data1/matengyu/geyugong/neuroadapter-author-first/benchmarks/subj01-v1/imagenet-retrieval/local-fixed-v1/atlas32/page-04.jpg",
+      "sha256": "3b605526c7d266eaf2204887775defc1ff8f813613487ddeb1f389c4c9b1f0e0",
+      "nsd_ids0": [
+        55969,
+        41814,
+        48374,
+        4667,
+        7366,
+        9978,
+        38494,
+        25318
+      ]
+    }
+  ],
+  "fixed_ids_source": "/data1/matengyu/geyugong/neuroadapter-author-first/benchmarks/subj01-v1/atlas32_ids.txt",
+  "ids_sha256": "35c0fc9ff8d549ad9e4f34ed309f5b199d3cbc71a6c7c9e54c899fff6f73d9ab",
+  "reviewer_status": "actual_AI_nonblind_visual_review_completed",
+  "encoder_split_verified": false,
+  "encoder_development_overlap": "unknown",
+  "historical_beta_recipe_verified": false,
+  "historical_retrieval_mask_verified": false,
+  "result_scope": "local_fixed_exploratory",
+  "disclosure": "本地固定协议；encoder开发集划分未核实；标准化及mask与作者历史实验的一致性未确认。",
+  "training_updates": 0,
+  "outbound_messages_sent": 0,
+  "review_report": "VISUAL_REVIEW_ZH.md"
+}

@@ -1,0 +1,14 @@
+{
+  "status": "execution_complete_publication_pending",
+  "execution_complete": true,
+  "scanned_candidates": 1281167,
+  "encoder_split_verified": false,
+  "encoder_development_overlap": "unknown",
+  "historical_beta_recipe_verified": false,
+  "historical_retrieval_mask_verified": false,
+  "result_scope": "local_fixed_exploratory",
+  "disclosure": "本地固定协议；encoder开发集划分未核实；标准化及mask与作者历史实验的一致性未确认。",
+  "training_updates": 0,
+  "outbound_messages_sent": 0,
+  "final_audit": "final-audit.json"
+}
