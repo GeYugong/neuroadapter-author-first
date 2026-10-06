@@ -146,6 +146,13 @@ def atlas(top1, image_dir):
 
 
 def main():
+    # Refuse to overwrite historical tensors/tables before checking old caches.
+    existing_metrics = HERE / 'baseline-metrics/metrics.json'
+    if existing_metrics.exists():
+        existing = json.loads(existing_metrics.read_text())
+        if existing.get('input_range_policy') != 'known_unit_float32_validate_epsilon_then_clamp':
+            raise RuntimeError(
+                'Legacy scoring artifacts are preserved; use the separate scoring correction directory.')
     complete = json.loads((HERE / 'retrieval-complete.json').read_text())
     assert complete['retrieval_complete'] and complete['scanned_candidates'] == 1281167
     assert sha(HERE / 'protocol.json') == complete['protocol_sha256']
@@ -179,6 +186,11 @@ def main():
         with Image.open(source) as im:
             x = crop(im.convert('RGB'))
         assert x.shape == (3, 425, 425) and torch.isfinite(x).all()
+        # Tensor resize can exceed 1 by a few float32 ULPs. The frozen
+        # identification metric otherwise mistakes the entire pool for uint8.
+        if float(x.min()) < -1e-6 or float(x.max()) > 1.0 + 1e-6:
+            raise ValueError(f"Unexpected retrieval image range for {i}")
+        x = x.clamp(0, 1)
         view = views / f'{i}.npy'; np.save(view, x.numpy())
         png = previews / f'{i}.png'
         Image.fromarray((x.clamp(0, 1).permute(1, 2, 0).numpy()*255).round().astype(np.uint8)).save(png)
@@ -191,6 +203,7 @@ def main():
     pd.DataFrame(result_rows).to_csv(HERE / 'top1.csv', index=False)
     metadata = dict(n_eval=982, K=1, selection='full-corpus measured-fMRI Pearson top1',
         eval_ids_hash=sha(BENCH / 'test_full_ids.txt'), metric_sha256=METRIC_SHA,
+        input_range_policy='known_unit_float32_validate_epsilon_then_clamp',
         feature_batch=16, negative_pool='all982, extract features in batches then evaluate whole pool',
         prediction_serialization='float32 encoder425x425 field of view before Normalize; PNG preview not used for scores',
         GT='original NSD425x425 RGB uint8/255', **limitations())

@@ -1,0 +1,70 @@
+{
+  "status": "completed",
+  "exit_code": 0,
+  "scope": "All existing 982 predictions for each method; read-only CPU; no generation or metric rerun",
+  "preprocessing": "L400 NPZ and MindEye1/Brain-Diffuser/Takagi PNG: uint8/255; MindBridge(s): original float32 tensor. All use original F.interpolate(size=(425,425), mode=bilinear, align_corners=False).",
+  "methods": [
+    {
+      "method": "NeuroAdapter L400",
+      "n": 982,
+      "min": 0.0,
+      "max": 1.0,
+      "images_outside_unit_interval": 0,
+      "pixels_outside_unit_interval": 0,
+      "all_finite": true,
+      "triggers_divide_by_255": false
+    },
+    {
+      "method": "MindEye1 K1",
+      "n": 982,
+      "min": 0.0,
+      "max": 1.0,
+      "images_outside_unit_interval": 0,
+      "pixels_outside_unit_interval": 0,
+      "all_finite": true,
+      "triggers_divide_by_255": false
+    },
+    {
+      "method": "Brain-Diffuser K1",
+      "n": 982,
+      "min": 0.0,
+      "max": 1.0,
+      "images_outside_unit_interval": 0,
+      "pixels_outside_unit_interval": 0,
+      "all_finite": true,
+      "triggers_divide_by_255": false
+    },
+    {
+      "method": "Takagi K1",
+      "n": 982,
+      "min": 0.0,
+      "max": 1.0,
+      "images_outside_unit_interval": 0,
+      "pixels_outside_unit_interval": 0,
+      "all_finite": true,
+      "triggers_divide_by_255": false
+    },
+    {
+      "method": "MindBridge(s) K1",
+      "n": 982,
+      "min": 0.0,
+      "max": 1.0,
+      "images_outside_unit_interval": 0,
+      "pixels_outside_unit_interval": 0,
+      "all_finite": true,
+      "triggers_divide_by_255": false
+    }
+  ],
+  "conclusion": "All five existing comparison scores are unaffected by this input-range bug.",
+  "provenance": {
+    "reported_date_client": "2026-10-06",
+    "exact_start_utc": null,
+    "exact_end_utc": null,
+    "source": "subagent metric_audit actual exec session72917 stdout",
+    "first_chunk": "49d23b",
+    "final_chunk": "18dcd5",
+    "exit_code": 0
+  },
+  "actual_script": "audit-comparison-inputs.py",
+  "stdout": "comparison-input-range-stdout.jsonl"
+}

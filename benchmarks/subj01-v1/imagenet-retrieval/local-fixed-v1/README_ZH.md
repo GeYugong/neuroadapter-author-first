@@ -1,5 +1,7 @@
 # ImageNet 脑响应检索：本地固定协议 v1
 
+**2026-10-06评分更正：** 当前指标与相对比较以[更正报告](scoring-correction-20261006/REPORT_ZH.md)为准。旧baseline-metrics及本目录根部旧CSV/柱状图为错误评分历史记录，已被更正目录取代。完整检索top1及图册未改变。
+
 本地固定协议；encoder开发集划分未核实；标准化及mask与作者历史实验的一致性未确认。
 
 本目录执行用户在 `AUTHORIZATION_ZH.md` 中批准的独立配置。保留父目录严格复现的 BLOCKED/REMEDIATION 历史记录；这些未知项不阻止本轮已授权的探索性执行。新增训练更新为0，不联系作者。

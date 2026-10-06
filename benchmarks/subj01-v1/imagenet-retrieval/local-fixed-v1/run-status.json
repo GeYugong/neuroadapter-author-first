@@ -14,5 +14,14 @@
   "publication_status": "delivery_commit_verified_server_local_private_github",
   "verified_delivery_commit": "525ad3190b1e436efae853b554ee15ce37f6f659",
   "verified_delivery_tree": "beef7ec75b59be0107a59a82f224b462b8ff117a",
-  "verified_tracked_index_sha256": "1cb3f91a87b1623f14340443263c99ee5b7134e67661973bdace6240d6260845"
+  "verified_tracked_index_sha256": "1cb3f91a87b1623f14340443263c99ee5b7134e67661973bdace6240d6260845",
+  "scoring_correction": {
+    "date": "2026-10-06",
+    "status": "rescored_and_verified",
+    "current_metrics": "scoring-correction-20261006/metrics.json",
+    "current_report": "scoring-correction-20261006/REPORT_ZH.md",
+    "old_scores_superseded": true,
+    "old_artifact_hashes_are_historical": true
+  },
+  "correction_publication_status": "pending_three_endpoint_verification"
 }

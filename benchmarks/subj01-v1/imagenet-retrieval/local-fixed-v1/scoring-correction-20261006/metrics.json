@@ -1,0 +1,27 @@
+{
+  "n_eval": 982,
+  "mean": {
+    "PixCorr": 0.1409821882555062,
+    "SSIM": 0.24752111362545853,
+    "Alex(2)": 85.1973650064048,
+    "Alex(5)": 91.26436924788912,
+    "Incep": 75.77402417832919,
+    "CLIP": 79.43326461422839,
+    "Eff": 0.863654437388276,
+    "SwAV": 0.5126612761398734
+  },
+  "input_audit": {
+    "n": 982,
+    "old_min": 0.0,
+    "old_max": 1.0000003576278687,
+    "above_one_pixels": 85269,
+    "images_above_one": 45,
+    "gt_min": 0.0,
+    "gt_max": 1.0,
+    "old_identification_would_divide_all_predictions_by_255": true,
+    "correction": "Clamp existing float32 retrieval views to [0,1]; no quantization, no retrieval rerun, no changed query, mask or ensemble",
+    "max_abs_correction": 3.5762786865234375e-07,
+    "metric_sha256": "646ee1f3673b033cd6ee485058db16a3d24fae7624d793fe5174008ad2e15f7d"
+  },
+  "finished_utc": "2026-10-06T15:09:25Z"
+}

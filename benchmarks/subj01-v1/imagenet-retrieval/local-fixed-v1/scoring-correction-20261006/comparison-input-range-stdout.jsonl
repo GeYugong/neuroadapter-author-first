@@ -1,0 +1,5 @@
+{"method": "L400", "n": 982, "min": 0.0, "max": 1.0, "outside_images": 0, "outside_pixels": 0, "outside_ids": []}
+{"method": "mindeye1", "n": 982, "min": 0.0, "max": 1.0, "outside_images": 0, "outside_pixels": 0, "outside_ids": []}
+{"method": "brain-diffuser", "n": 982, "min": 0.0, "max": 1.0, "outside_images": 0, "outside_pixels": 0, "outside_ids": []}
+{"method": "takagi", "n": 982, "min": 0.0, "max": 1.0, "outside_images": 0, "outside_pixels": 0, "outside_ids": []}
+{"method": "mindbridge", "n": 982, "min": 0.0, "max": 1.0, "outside_images": 0, "outside_pixels": 0, "outside_ids": []}

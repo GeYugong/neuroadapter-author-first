@@ -1,0 +1,13 @@
+{
+  "n": 982,
+  "old_min": 0.0,
+  "old_max": 1.0000003576278687,
+  "above_one_pixels": 85269,
+  "images_above_one": 45,
+  "gt_min": 0.0,
+  "gt_max": 1.0,
+  "old_identification_would_divide_all_predictions_by_255": true,
+  "correction": "Clamp existing float32 retrieval views to [0,1]; no quantization, no retrieval rerun, no changed query, mask or ensemble",
+  "max_abs_correction": 3.5762786865234375e-07,
+  "metric_sha256": "646ee1f3673b033cd6ee485058db16a3d24fae7624d793fe5174008ad2e15f7d"
+}
