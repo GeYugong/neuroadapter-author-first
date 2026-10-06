@@ -21,7 +21,15 @@
     "current_metrics": "scoring-correction-20261006/metrics.json",
     "current_report": "scoring-correction-20261006/REPORT_ZH.md",
     "old_scores_superseded": true,
-    "old_artifact_hashes_are_historical": true
+    "old_artifact_hashes_are_historical": true,
+    "publication": {
+      "verified_artifact_commit": "2d6b7904e39454992231a409922b06dc3d8a1a34",
+      "verified_tree": "0ba383d49fad897cc12ae2cd14fe93b24a92c258",
+      "verified_tracked_index_sha256": "1ec5ec435b145389071acba081b7f92951a5863eea0676b5062fadbe083dba19",
+      "github_private": true,
+      "github_recursive_tree_entries_matched": 1730,
+      "server_local_github_match": true
+    }
   },
-  "correction_publication_status": "pending_three_endpoint_verification"
+  "correction_publication_status": "verified_server_local_private_github"
 }

@@ -1,5 +1,5 @@
 {
-  "status": "rescore_and_visual_verification_complete_publication_pending",
+  "status": "completed",
   "exit_code": 0,
   "training_updates": 0,
   "retrieval_rerun": false,
@@ -16,7 +16,7 @@
   "old_scores_retained": true,
   "range_correction_only": true,
   "plot_review_pending": false,
-  "publication_pending": true,
+  "publication_pending": false,
   "original_delivery_commit": "1de142e33000fd6111980f8442b44de591a8c20d",
   "rescore_finished_utc": "2026-10-06T15:09:25Z",
   "atlas_hashes": {
@@ -52,5 +52,15 @@
     "original_images_preserved": true
   },
   "code_parse_passed": true,
-  "deliver_code_sha256": "1b4f6d574a42c3eafbad53f4f7ffa4b2c7f4795c7cb133de96607d6f326f3447"
+  "deliver_code_sha256": "1b4f6d574a42c3eafbad53f4f7ffa4b2c7f4795c7cb133de96607d6f326f3447",
+  "execution_complete": true,
+  "publication": {
+    "verified_artifact_commit": "2d6b7904e39454992231a409922b06dc3d8a1a34",
+    "verified_tree": "0ba383d49fad897cc12ae2cd14fe93b24a92c258",
+    "verified_tracked_index_sha256": "1ec5ec435b145389071acba081b7f92951a5863eea0676b5062fadbe083dba19",
+    "github_private": true,
+    "github_recursive_tree_entries_matched": 1730,
+    "server_local_github_match": true
+  },
+  "verification_recorded_utc": "2026-10-06T15:20:29.370357+00:00"
 }
