@@ -1,5 +1,5 @@
 {
-  "status": "visual_and_document_verification_complete_publication_pending",
+  "status": "completed",
   "created_utc": "2026-10-06T15:26:40.562911+00:00",
   "n": 24,
   "all_in_existing_982": true,
@@ -18,7 +18,7 @@
   "paper_baseline_source": "Cropped directly from user supplied figure; original candidate IDs/Pearson not provided and not inferred",
   "display_disclosure": "本地固定协议；encoder开发集划分未核实；标准化及mask与作者历史实验的一致性未确认。",
   "visual_review_pending": false,
-  "publication_pending": true,
+  "publication_pending": false,
   "four_pages_actually_viewed": true,
   "feishu_document": "https://my.feishu.cn/docx/FMTndW7avodh4BxO5VQcmKHMnkb",
   "feishu_image_blocks": [
@@ -44,5 +44,12 @@
   "protected_top1_and_metrics_unchanged": true,
   "feishu_section": "https://my.feishu.cn/docx/FMTndW7avodh4BxO5VQcmKHMnkb#doxcn9o6gZkdiTPZ7dvsqD788zf",
   "feishu_verified_revision": 20,
-  "all_four_feishu_image_tokens_verified": true
+  "all_four_feishu_image_tokens_verified": true,
+  "publication": {
+    "server_local_private_github_verified": true,
+    "artifact_commit": "52a47d7c30bf45ef9e0e5432f23dd0151d6481be",
+    "artifact_tree": "f52bc5462a03680559e253b0a61d437d853f159a",
+    "tracked_index_sha256": "f6898bbab0b0b20a3d6e9dd6cefbb337d65a2d3fc7860afcfba137420868f0b0",
+    "tracked_entries": 1742
+  }
 }
