@@ -1,0 +1,109 @@
+{
+  "created_utc": "2026-10-06T16:41:21.557011+00:00",
+  "status": "plan_only_not_started",
+  "new_training_updates_this_turn": 0,
+  "new_model_forward_this_turn": 0,
+  "objective": "balanced_semantics_and_structure",
+  "git_head": "8f2b17c6bc26e03ba023dd9bf9a8edf1f998a4b5",
+  "git_tree": "34f4fd189617ca4c2a7fd14ce0a0fb4e5120b34d",
+  "tracked_status": "",
+  "sources": {
+    "reports/training-diagnostics-20261006/REPORT_ZH.md": "4284d5b9769f4c3f4fcda87d0c1c64992bf7ee48d308d10bb9b9e9d6b7e0e295",
+    "reports/training-diagnostics-20261006/training_epochs.csv": "123adb239d19e9d6ca4492a8d9b7d0d41d12b99c193fb8ef085f4df820911d34",
+    "reports/training-diagnostics-20261006/validation_metrics.csv": "346d8aceb14d3658398681128eb619c2687eeaab87c457efb764683496cee681",
+    "reports/lr-half-to500/training-final-audit.json": "d7ca4cd6e102c6551a09dfd5bda1312e39f399321c6d948abef884f7ec6e0e80",
+    "reports/lr-half-to500/selection.json": "3b55746400f5d5c3e0017eb5f719195de9c024094e5718d1e22d0cd57bf0b3be",
+    "reports/brain-correspondence-l120/README.md": "62a9937308660d34f2e13c14f6bd064fcecd3389374087a8ca7daa4560fdd33c",
+    "reports/lr-half-from100/README.md": "c38e89649196e61f1c73e953fdf1425d9c1fb01cdb392fe08c03b04ded28f71d",
+    "train_brain_adapter.py": "77ccc1f3938e42685b74630f6cff6abe447f8feef87e60f4fa280532f7da93fa",
+    "brain_adapter/model.py": "58067595896351becc340f29f41244866adc567263a20d0cf3800c017ab3e56a",
+    "brain_adapter/loss.py": "d81ba97a28aabf24a4d7a6bba551ecb3a87d1e41741f7c0d8660e99fd7902ede",
+    "brain_adapter/ip_adapter/attention_processor.py": "43e48e8d589442aa4615d525c98a2fdde3043ebdc3c3a06aaa900e620837de4a",
+    "brain_adapter/ip_adapter/ip_adapter.py": "51b3bd8787052bb76f22d3aedfe0b5eef5b210e7e396d6df1ff1d90472d00bbd",
+    "branch_lr_resume.py": "d819faf052f5cddc5aea71d035f5248f5af46ac32df6b7df97d35d0709f3aa34"
+  },
+  "existing_checkpoint_inventory": {
+    "400": {
+      "complete": true,
+      "bytes": 5216536098,
+      "small_files": [
+        "custom_checkpoint_1.pkl",
+        "COMPLETE",
+        "random_states_0.pkl",
+        "random_states_1.pkl",
+        "progress.json"
+      ]
+    },
+    "450": {
+      "complete": true,
+      "bytes": 5216536098,
+      "small_files": [
+        "custom_checkpoint_1.pkl",
+        "COMPLETE",
+        "random_states_0.pkl",
+        "random_states_1.pkl",
+        "progress.json"
+      ]
+    },
+    "500": {
+      "complete": true,
+      "bytes": 5216536098,
+      "small_files": [
+        "custom_checkpoint_1.pkl",
+        "COMPLETE",
+        "random_states_0.pkl",
+        "random_states_1.pkl",
+        "progress.json"
+      ]
+    }
+  },
+  "raw_val500_l400": {
+    "epoch": "400",
+    "optimizer_updates": "212800",
+    "loss_last20_epochs": "0.11033186750652517",
+    "PixCorr": "0.07744738876070636",
+    "SSIM": "0.27592317018032264",
+    "Alex(2)": "75.57434869739478",
+    "Alex(5)": "86.48276553106211",
+    "Incep": "85.01402805611222",
+    "CLIP": "87.39799599198398",
+    "Eff": "0.7866366951128877",
+    "SwAV": "0.46442263345062207",
+    "S": "86.29826319305278",
+    "source": "reports/lr-half-to500/epoch-400/val500/metrics.json"
+  },
+  "mean_seconds_epochs_301_to_500": 878.2183948208473,
+  "estimated_training_loop_hours_50_epochs": 12.197477705845102,
+  "estimated_training_loop_hours_100_epochs": 24.394955411690205,
+  "disk_usage": {
+    "total": 7936973479936,
+    "used": 7442086043648,
+    "free": 94809174016
+  },
+  "gpu_snapshot": "0, NVIDIA GeForce RTX 4090, 55 MiB, 24564 MiB, 0 %\n1, NVIDIA GeForce RTX 4090, 6257 MiB, 24564 MiB, 72 %",
+  "gpu_compute_processes": "3766928, /data1/matengyu/code/@submit/@@AAAI/valen_evidence_agent_20261005/runtime310/bin/python, 6234 MiB",
+  "paper": "https://arxiv.org/html/2509.23566v2",
+  "proposed_lr": 1e-05,
+  "initial_new_epochs": 50,
+  "conditional_max_new_epochs": 100,
+  "updates_per_epoch": 532,
+  "balanced_gate": {
+    "all_non_decreasing": [
+      "S",
+      "PixCorr",
+      "SSIM"
+    ],
+    "meaningful_gain_any_of": [
+      {
+        "S_pp": 0.3
+      },
+      {
+        "PixCorr_absolute": 0.005,
+        "SSIM_absolute": 0.005
+      }
+    ],
+    "identification_max_decline_pp": 0.5,
+    "Eff_SwAV_max_increase_absolute": 0.005,
+    "statistical_significance_test": false
+  }
+}
