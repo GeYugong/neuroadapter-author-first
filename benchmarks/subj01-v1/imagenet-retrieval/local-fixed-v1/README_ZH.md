@@ -15,3 +15,5 @@
 检索程序不加载GT图片；独立交付程序只在完整扫描完成后评分。检索图保留encoder实际看到的425×425浮点视野；PNG仅供查看。沿用冻结八指标与全982负例池，核对已有方法ID及指标源码指纹后引用L400和四个K1方法。相对变化为描述性比较，保留负数，不作无泄漏泛化或论文Figure5精确复现声明。
 
 当前执行状态以 `run-status.json` 为准；只有完整扫描后才产生 `retrieval-complete.json`，只有评分、图表与图册交付完成后才置 `execution_complete=true`。
+
+[与论文相同GT的24例对照](paper-matched-24/README_ZH.md)：按用户所附论文图完整匹配同ID，新增四页GT／论文baseline／本地baseline图册，既有指标不变。

@@ -1,0 +1,727 @@
+{
+  "source_sha256": "8173d3699010b4b230058eb7ac645dd552737702f8c1c96d6fec2530d82f47ff",
+  "ordered_nsd_ids0": [
+    3449,
+    5301,
+    3434,
+    4667,
+    10006,
+    7007,
+    3809,
+    10064,
+    3049,
+    4835,
+    5602,
+    8394,
+    9147,
+    11617,
+    3847,
+    11521,
+    16917,
+    7859,
+    12796,
+    11837,
+    10046,
+    12922,
+    17374,
+    15506
+  ],
+  "records": [
+    {
+      "paper_position": 1,
+      "nsd_id0": 3449,
+      "match_method": "64px RGB MSE shortlist over all982 followed by actual visual identity confirmation",
+      "automatic_rank": 1,
+      "thumbnail_mse": 0.0039295232854783535,
+      "visual_identity_verified": true,
+      "gt_box": [
+        249,
+        24,
+        425,
+        200
+      ],
+      "paper_baseline_box": [
+        249,
+        200,
+        425,
+        378
+      ],
+      "gt_path": "/data1/matengyu/geyugong/neuroadapter-author-first/benchmarks/subj01-v1/assets/gt/3449.png",
+      "gt_png_sha256": "51ab8bac61e673d262f7351fc472098baec3c34730aa2a597807c84162bdb2b9",
+      "retrieved_preview_path": "/data1/matengyu/geyugong/neuroadapter-author-first/runtime/imagenet-retrieval-local-fixed-v1/retrieved-views/3449.png",
+      "retrieved_preview_sha256": "15858ba72f01b9ae24e99c846ab42a0010c23911e695033166e796198229b087",
+      "candidate_index0": 1026562,
+      "candidate_id": "n04251144_1507.JPEG",
+      "candidate_path": "/data1/matengyu/data/ImageNet/ImageNet/train/n04251144/n04251144_1507.JPEG",
+      "pearson": 0.690636568851389,
+      "source_sha256": "d80c1857ef7577f0a60ad7bab4a70d849c47992871130eb627fb93f907e10715"
+    },
+    {
+      "paper_position": 2,
+      "nsd_id0": 5301,
+      "match_method": "64px RGB MSE shortlist over all982 followed by actual visual identity confirmation",
+      "automatic_rank": 1,
+      "thumbnail_mse": 0.005814445670694113,
+      "visual_identity_verified": true,
+      "gt_box": [
+        425,
+        24,
+        601,
+        200
+      ],
+      "paper_baseline_box": [
+        425,
+        200,
+        601,
+        378
+      ],
+      "gt_path": "/data1/matengyu/geyugong/neuroadapter-author-first/benchmarks/subj01-v1/assets/gt/5301.png",
+      "gt_png_sha256": "6c068b0e71562e5bdc1144eae663c810ab63894ebcaa76bc8753d1ad5f34275c",
+      "retrieved_preview_path": "/data1/matengyu/geyugong/neuroadapter-author-first/runtime/imagenet-retrieval-local-fixed-v1/retrieved-views/5301.png",
+      "retrieved_preview_sha256": "e81b968d75406e4631e7f04c53b16e1d0effb313b989a1ac2ff86c0bcbfb49cb",
+      "candidate_index0": 1148517,
+      "candidate_id": "n04554684_12218.JPEG",
+      "candidate_path": "/data1/matengyu/data/ImageNet/ImageNet/train/n04554684/n04554684_12218.JPEG",
+      "pearson": 0.6909373768805176,
+      "source_sha256": "7331324c9d79fdbe66c6b51dbeda8aa83233389407c31379d69140462a471f6d"
+    },
+    {
+      "paper_position": 3,
+      "nsd_id0": 3434,
+      "match_method": "64px RGB MSE shortlist over all982 followed by actual visual identity confirmation",
+      "automatic_rank": 1,
+      "thumbnail_mse": 0.0066473763436079025,
+      "visual_identity_verified": true,
+      "gt_box": [
+        601,
+        24,
+        777,
+        200
+      ],
+      "paper_baseline_box": [
+        601,
+        200,
+        777,
+        378
+      ],
+      "gt_path": "/data1/matengyu/geyugong/neuroadapter-author-first/benchmarks/subj01-v1/assets/gt/3434.png",
+      "gt_png_sha256": "7d47d8447451856725000043dc00046f4b45fe80263b53797815502fe2f7e86c",
+      "retrieved_preview_path": "/data1/matengyu/geyugong/neuroadapter-author-first/runtime/imagenet-retrieval-local-fixed-v1/retrieved-views/3434.png",
+      "retrieved_preview_sha256": "d6342726cc423967e7a4d56481ad1f554eb35b2d5c4138893c04eb19f27f6234",
+      "candidate_index0": 519498,
+      "candidate_id": "n02690373_8804.JPEG",
+      "candidate_path": "/data1/matengyu/data/ImageNet/ImageNet/train/n02690373/n02690373_8804.JPEG",
+      "pearson": 0.6210146223805646,
+      "source_sha256": "c612a48d5a2b73963325d3cb1c4256d758f8a81f016861f445b35c6677927d23"
+    },
+    {
+      "paper_position": 4,
+      "nsd_id0": 4667,
+      "match_method": "64px RGB MSE shortlist over all982 followed by actual visual identity confirmation",
+      "automatic_rank": 1,
+      "thumbnail_mse": 0.01358694676309824,
+      "visual_identity_verified": true,
+      "gt_box": [
+        777,
+        24,
+        954,
+        200
+      ],
+      "paper_baseline_box": [
+        777,
+        200,
+        954,
+        378
+      ],
+      "gt_path": "/data1/matengyu/geyugong/neuroadapter-author-first/benchmarks/subj01-v1/assets/gt/4667.png",
+      "gt_png_sha256": "c34735b93bb46948a07ea039ab764f1338cdea918caa99494a3b169da026ed86",
+      "retrieved_preview_path": "/data1/matengyu/geyugong/neuroadapter-author-first/runtime/imagenet-retrieval-local-fixed-v1/retrieved-views/4667.png",
+      "retrieved_preview_sha256": "419eaf564f74a928f507fd9bf9130fc204a7d0bcbded2304cafdb7af9a351194",
+      "candidate_index0": 961092,
+      "candidate_id": "n04033995_276.JPEG",
+      "candidate_path": "/data1/matengyu/data/ImageNet/ImageNet/train/n04033995/n04033995_276.JPEG",
+      "pearson": 0.560467514466212,
+      "source_sha256": "596577d3412884cf364380fe4876e9264504b622dd94a14a52a52c5055f8862d"
+    },
+    {
+      "paper_position": 5,
+      "nsd_id0": 10006,
+      "match_method": "64px RGB MSE shortlist over all982 followed by actual visual identity confirmation",
+      "automatic_rank": 1,
+      "thumbnail_mse": 0.0295158252120018,
+      "visual_identity_verified": true,
+      "gt_box": [
+        954,
+        24,
+        1130,
+        200
+      ],
+      "paper_baseline_box": [
+        954,
+        200,
+        1130,
+        378
+      ],
+      "gt_path": "/data1/matengyu/geyugong/neuroadapter-author-first/benchmarks/subj01-v1/assets/gt/10006.png",
+      "gt_png_sha256": "91faa21149cdefe022f1dad4d571c187039f0eacfd6a8f92889a5db5fed8e80b",
+      "retrieved_preview_path": "/data1/matengyu/geyugong/neuroadapter-author-first/runtime/imagenet-retrieval-local-fixed-v1/retrieved-views/10006.png",
+      "retrieved_preview_sha256": "99d85438ce9a7cff4466b43069d119048de9478d098f5fb6a6e4b76e3aca1dcc",
+      "candidate_index0": 1256613,
+      "candidate_id": "n09835506_12684.JPEG",
+      "candidate_path": "/data1/matengyu/data/ImageNet/ImageNet/train/n09835506/n09835506_12684.JPEG",
+      "pearson": 0.6944666672610492,
+      "source_sha256": "20bd7a962d4746e2efa6dd336eb533e843ebbfc2404d310acbb469d4df9a21f6"
+    },
+    {
+      "paper_position": 6,
+      "nsd_id0": 7007,
+      "match_method": "64px RGB MSE shortlist over all982 followed by actual visual identity confirmation",
+      "automatic_rank": 1,
+      "thumbnail_mse": 0.010264426469802856,
+      "visual_identity_verified": true,
+      "gt_box": [
+        1130,
+        24,
+        1306,
+        200
+      ],
+      "paper_baseline_box": [
+        1130,
+        200,
+        1306,
+        378
+      ],
+      "gt_path": "/data1/matengyu/geyugong/neuroadapter-author-first/benchmarks/subj01-v1/assets/gt/7007.png",
+      "gt_png_sha256": "e20e31786e0c954136633da53ce9021ae18d4055443c6c3bc43576d82607cead",
+      "retrieved_preview_path": "/data1/matengyu/geyugong/neuroadapter-author-first/runtime/imagenet-retrieval-local-fixed-v1/retrieved-views/7007.png",
+      "retrieved_preview_sha256": "e264e00e0997a44da39ecb3eb0fbe126cd868aff541893a373cee230a492d7ba",
+      "candidate_index0": 48792,
+      "candidate_id": "n01669191_4517.JPEG",
+      "candidate_path": "/data1/matengyu/data/ImageNet/ImageNet/train/n01669191/n01669191_4517.JPEG",
+      "pearson": 0.589389148265501,
+      "source_sha256": "d605e0622af38502705ebfb760480093ffd1b864557bc96f09b75e1ec2041499"
+    },
+    {
+      "paper_position": 7,
+      "nsd_id0": 3809,
+      "match_method": "64px RGB MSE shortlist over all982 followed by actual visual identity confirmation",
+      "automatic_rank": 1,
+      "thumbnail_mse": 0.011836943216621876,
+      "visual_identity_verified": true,
+      "gt_box": [
+        1306,
+        24,
+        1482,
+        200
+      ],
+      "paper_baseline_box": [
+        1306,
+        200,
+        1482,
+        378
+      ],
+      "gt_path": "/data1/matengyu/geyugong/neuroadapter-author-first/benchmarks/subj01-v1/assets/gt/3809.png",
+      "gt_png_sha256": "48f23ccbe96e71733fdb4809fde0c4ee16715db8ee9d4cda1071fd0b9938d34c",
+      "retrieved_preview_path": "/data1/matengyu/geyugong/neuroadapter-author-first/runtime/imagenet-retrieval-local-fixed-v1/retrieved-views/3809.png",
+      "retrieved_preview_sha256": "3c2147977f98bab66b730015c2ed78820e31fe05d2efb70100ceca3c1a4ea6de",
+      "candidate_index0": 496055,
+      "candidate_id": "n02504458_460.JPEG",
+      "candidate_path": "/data1/matengyu/data/ImageNet/ImageNet/train/n02504458/n02504458_460.JPEG",
+      "pearson": 0.6457746854695653,
+      "source_sha256": "5aed7beb3358b8f985fa3b47f97528ffeb83dc99a3cf8e83e4a9c42ad52c761f"
+    },
+    {
+      "paper_position": 8,
+      "nsd_id0": 10064,
+      "match_method": "64px RGB MSE shortlist over all982 followed by actual visual identity confirmation",
+      "automatic_rank": 1,
+      "thumbnail_mse": 0.058950018137693405,
+      "visual_identity_verified": true,
+      "gt_box": [
+        1482,
+        24,
+        1658,
+        200
+      ],
+      "paper_baseline_box": [
+        1482,
+        200,
+        1658,
+        378
+      ],
+      "gt_path": "/data1/matengyu/geyugong/neuroadapter-author-first/benchmarks/subj01-v1/assets/gt/10064.png",
+      "gt_png_sha256": "8796a3444b85caaca4bc3e29ac87dcb8c21ae5db0194132624d6f1bb3e169da2",
+      "retrieved_preview_path": "/data1/matengyu/geyugong/neuroadapter-author-first/runtime/imagenet-retrieval-local-fixed-v1/retrieved-views/10064.png",
+      "retrieved_preview_sha256": "dde01774ba24d149d1831e523f17c6e63c41376ea6ed00df4cc5d7ce537d1da9",
+      "candidate_index0": 1165477,
+      "candidate_id": "n04597913_3529.JPEG",
+      "candidate_path": "/data1/matengyu/data/ImageNet/ImageNet/train/n04597913/n04597913_3529.JPEG",
+      "pearson": 0.6541388420300849,
+      "source_sha256": "beca942875d003fcce2c9d0357d12275ceaa39584fe57cc8b8d8eaf5656085fb"
+    },
+    {
+      "paper_position": 9,
+      "nsd_id0": 3049,
+      "match_method": "64px RGB MSE shortlist over all982 followed by actual visual identity confirmation",
+      "automatic_rank": 1,
+      "thumbnail_mse": 0.006056316662579775,
+      "visual_identity_verified": true,
+      "gt_box": [
+        249,
+        435,
+        425,
+        611
+      ],
+      "paper_baseline_box": [
+        249,
+        611,
+        425,
+        789
+      ],
+      "gt_path": "/data1/matengyu/geyugong/neuroadapter-author-first/benchmarks/subj01-v1/assets/gt/3049.png",
+      "gt_png_sha256": "b38c82f87728226a7bbf6ecf57a2ce6a9a61b8f000d9594f6b3a1e7e089b1396",
+      "retrieved_preview_path": "/data1/matengyu/geyugong/neuroadapter-author-first/runtime/imagenet-retrieval-local-fixed-v1/retrieved-views/3049.png",
+      "retrieved_preview_sha256": "77565b25a53a24e1b0cbf0074c926a98b5de01bd1170236d12c385e6cf5b076c",
+      "candidate_index0": 861837,
+      "candidate_id": "n03792782_5421.JPEG",
+      "candidate_path": "/data1/matengyu/data/ImageNet/ImageNet/train/n03792782/n03792782_5421.JPEG",
+      "pearson": 0.5567023404481424,
+      "source_sha256": "c03c384881ba7907e60700564d6650462485f8df17d85136bd1ce1bef1d34d63"
+    },
+    {
+      "paper_position": 10,
+      "nsd_id0": 4835,
+      "match_method": "64px RGB MSE shortlist over all982 followed by actual visual identity confirmation",
+      "automatic_rank": 1,
+      "thumbnail_mse": 0.003861239179968834,
+      "visual_identity_verified": true,
+      "gt_box": [
+        425,
+        435,
+        601,
+        611
+      ],
+      "paper_baseline_box": [
+        425,
+        611,
+        601,
+        789
+      ],
+      "gt_path": "/data1/matengyu/geyugong/neuroadapter-author-first/benchmarks/subj01-v1/assets/gt/4835.png",
+      "gt_png_sha256": "8f9d98b04daeb34400401858b980548d4259a62c87c28dbab73ad366720c4f3d",
+      "retrieved_preview_path": "/data1/matengyu/geyugong/neuroadapter-author-first/runtime/imagenet-retrieval-local-fixed-v1/retrieved-views/4835.png",
+      "retrieved_preview_sha256": "6e654d791b25d4d1c4f2b9e043a0c744a27faf982ce01aaec42b128f1685b04f",
+      "candidate_index0": 998997,
+      "candidate_id": "n04146614_7893.JPEG",
+      "candidate_path": "/data1/matengyu/data/ImageNet/ImageNet/train/n04146614/n04146614_7893.JPEG",
+      "pearson": 0.6912943434858492,
+      "source_sha256": "565dbf54dec83a6eceea1bf1cf3d3a048a002f199aa76ad89f6260250eae4563"
+    },
+    {
+      "paper_position": 11,
+      "nsd_id0": 5602,
+      "match_method": "64px RGB MSE shortlist over all982 followed by actual visual identity confirmation",
+      "automatic_rank": 1,
+      "thumbnail_mse": 0.0038728583604097366,
+      "visual_identity_verified": true,
+      "gt_box": [
+        601,
+        435,
+        777,
+        611
+      ],
+      "paper_baseline_box": [
+        601,
+        611,
+        777,
+        789
+      ],
+      "gt_path": "/data1/matengyu/geyugong/neuroadapter-author-first/benchmarks/subj01-v1/assets/gt/5602.png",
+      "gt_png_sha256": "6e2c74cbb98c6bdb222ebc8bf5c13e04b82a81879e8dea1112d676312b72cf18",
+      "retrieved_preview_path": "/data1/matengyu/geyugong/neuroadapter-author-first/runtime/imagenet-retrieval-local-fixed-v1/retrieved-views/5602.png",
+      "retrieved_preview_sha256": "3a87cc356a7d21510b7227fb392d7ea03ec70794b522ccf68eebfb1a9c819b63",
+      "candidate_index0": 1249531,
+      "candidate_id": "n09332890_36312.JPEG",
+      "candidate_path": "/data1/matengyu/data/ImageNet/ImageNet/train/n09332890/n09332890_36312.JPEG",
+      "pearson": 0.7517232379058659,
+      "source_sha256": "ff9035fd5c754d8f75c83d3e4dd0e1d5f404182f137a065e131a67def0f0169a"
+    },
+    {
+      "paper_position": 12,
+      "nsd_id0": 8394,
+      "match_method": "64px RGB MSE shortlist over all982 followed by actual visual identity confirmation",
+      "automatic_rank": 1,
+      "thumbnail_mse": 0.0024185047950595617,
+      "visual_identity_verified": true,
+      "gt_box": [
+        777,
+        435,
+        954,
+        611
+      ],
+      "paper_baseline_box": [
+        777,
+        611,
+        954,
+        789
+      ],
+      "gt_path": "/data1/matengyu/geyugong/neuroadapter-author-first/benchmarks/subj01-v1/assets/gt/8394.png",
+      "gt_png_sha256": "790163b55cb22d30030ae074affe75e99e1ece0a3ff4b1f108835b1180d72d58",
+      "retrieved_preview_path": "/data1/matengyu/geyugong/neuroadapter-author-first/runtime/imagenet-retrieval-local-fixed-v1/retrieved-views/8394.png",
+      "retrieved_preview_sha256": "c665ec99993af3b019397cbd86d3877afb8ba1a16752d77c56c4fed632320487",
+      "candidate_index0": 606843,
+      "candidate_id": "n02951358_2216.JPEG",
+      "candidate_path": "/data1/matengyu/data/ImageNet/ImageNet/train/n02951358/n02951358_2216.JPEG",
+      "pearson": 0.36689852840644066,
+      "source_sha256": "030701060d799dfbe2e69848d2d51b3ab8826e456e7a0fc3a6e76c36c3820e3e"
+    },
+    {
+      "paper_position": 13,
+      "nsd_id0": 9147,
+      "match_method": "64px RGB MSE shortlist over all982 followed by actual visual identity confirmation",
+      "automatic_rank": 1,
+      "thumbnail_mse": 0.002060683211311698,
+      "visual_identity_verified": true,
+      "gt_box": [
+        954,
+        435,
+        1130,
+        611
+      ],
+      "paper_baseline_box": [
+        954,
+        611,
+        1130,
+        789
+      ],
+      "gt_path": "/data1/matengyu/geyugong/neuroadapter-author-first/benchmarks/subj01-v1/assets/gt/9147.png",
+      "gt_png_sha256": "f4a0e099bd189d1d00aa6a92469d5c7d1c27b69f8593a7a5a3cf0d5d592f6cf8",
+      "retrieved_preview_path": "/data1/matengyu/geyugong/neuroadapter-author-first/runtime/imagenet-retrieval-local-fixed-v1/retrieved-views/9147.png",
+      "retrieved_preview_sha256": "30423527b8e2c5b942d6edea4591a050bef2e05cf3b7fa1423d21038b986db9a",
+      "candidate_index0": 111094,
+      "candidate_id": "n01806567_6308.JPEG",
+      "candidate_path": "/data1/matengyu/data/ImageNet/ImageNet/train/n01806567/n01806567_6308.JPEG",
+      "pearson": 0.6929236702709137,
+      "source_sha256": "95356a8cc076b67c870627cc00615a7d1291f256355630037db2a94fb03198ba"
+    },
+    {
+      "paper_position": 14,
+      "nsd_id0": 11617,
+      "match_method": "64px RGB MSE shortlist over all982 followed by actual visual identity confirmation",
+      "automatic_rank": 1,
+      "thumbnail_mse": 0.004983657505363226,
+      "visual_identity_verified": true,
+      "gt_box": [
+        1130,
+        435,
+        1306,
+        611
+      ],
+      "paper_baseline_box": [
+        1130,
+        611,
+        1306,
+        789
+      ],
+      "gt_path": "/data1/matengyu/geyugong/neuroadapter-author-first/benchmarks/subj01-v1/assets/gt/11617.png",
+      "gt_png_sha256": "546bd744288f1e5535b819a5633ecf4a403217387677fb2d2214d8624aee3bd4",
+      "retrieved_preview_path": "/data1/matengyu/geyugong/neuroadapter-author-first/runtime/imagenet-retrieval-local-fixed-v1/retrieved-views/11617.png",
+      "retrieved_preview_sha256": "3ec09a0473676520ba02bb29af92c4bf969be51e5da729d5e696ab6127d355ef",
+      "candidate_index0": 598117,
+      "candidate_id": "n02916936_5496.JPEG",
+      "candidate_path": "/data1/matengyu/data/ImageNet/ImageNet/train/n02916936/n02916936_5496.JPEG",
+      "pearson": 0.6994099036401665,
+      "source_sha256": "3ec3854371ce08d452bbe6b62bc745ff6184e9d834748b3d6e55393a759686a4"
+    },
+    {
+      "paper_position": 15,
+      "nsd_id0": 3847,
+      "match_method": "64px RGB MSE shortlist over all982 followed by actual visual identity confirmation",
+      "automatic_rank": 2,
+      "thumbnail_mse": 0.024505985900759697,
+      "visual_identity_verified": true,
+      "gt_box": [
+        1306,
+        435,
+        1482,
+        611
+      ],
+      "paper_baseline_box": [
+        1306,
+        611,
+        1482,
+        789
+      ],
+      "gt_path": "/data1/matengyu/geyugong/neuroadapter-author-first/benchmarks/subj01-v1/assets/gt/3847.png",
+      "gt_png_sha256": "407c102a0a18be3840b1ae0fa42c6cc8dff00e1873c4d61bd2f389e9d365d23d",
+      "retrieved_preview_path": "/data1/matengyu/geyugong/neuroadapter-author-first/runtime/imagenet-retrieval-local-fixed-v1/retrieved-views/3847.png",
+      "retrieved_preview_sha256": "270d3461532d04f07584cce6cf52d703b2b7ace3d0ed02a69344531ed5f5f597",
+      "candidate_index0": 1149377,
+      "candidate_id": "n04554684_51862.JPEG",
+      "candidate_path": "/data1/matengyu/data/ImageNet/ImageNet/train/n04554684/n04554684_51862.JPEG",
+      "pearson": 0.5742595132459907,
+      "source_sha256": "b2a805e48cf7c8020a27277b2d1fb6636574ae283f193a1b4dd1c68c46ce5004"
+    },
+    {
+      "paper_position": 16,
+      "nsd_id0": 11521,
+      "match_method": "64px RGB MSE shortlist over all982 followed by actual visual identity confirmation",
+      "automatic_rank": 1,
+      "thumbnail_mse": 0.004492864478379488,
+      "visual_identity_verified": true,
+      "gt_box": [
+        1482,
+        435,
+        1658,
+        611
+      ],
+      "paper_baseline_box": [
+        1482,
+        611,
+        1658,
+        789
+      ],
+      "gt_path": "/data1/matengyu/geyugong/neuroadapter-author-first/benchmarks/subj01-v1/assets/gt/11521.png",
+      "gt_png_sha256": "d32077f4d40104482a1acabc9a42ea7cfdd73c0f5437a6b88a4f6008945af948",
+      "retrieved_preview_path": "/data1/matengyu/geyugong/neuroadapter-author-first/runtime/imagenet-retrieval-local-fixed-v1/retrieved-views/11521.png",
+      "retrieved_preview_sha256": "772697a21feb9ca77367a0a91ef678317191b7da72d59e26e9cf5573716394e5",
+      "candidate_index0": 631016,
+      "candidate_id": "n03000684_1139.JPEG",
+      "candidate_path": "/data1/matengyu/data/ImageNet/ImageNet/train/n03000684/n03000684_1139.JPEG",
+      "pearson": 0.640324381536924,
+      "source_sha256": "11ff7be29ae0790729abefa8a820bd64b547a61bfb86ee78962f69326a76f731"
+    },
+    {
+      "paper_position": 17,
+      "nsd_id0": 16917,
+      "match_method": "64px RGB MSE shortlist over all982 followed by actual visual identity confirmation",
+      "automatic_rank": 1,
+      "thumbnail_mse": 0.015256557613611221,
+      "visual_identity_verified": true,
+      "gt_box": [
+        249,
+        846,
+        425,
+        1022
+      ],
+      "paper_baseline_box": [
+        249,
+        1022,
+        425,
+        1200
+      ],
+      "gt_path": "/data1/matengyu/geyugong/neuroadapter-author-first/benchmarks/subj01-v1/assets/gt/16917.png",
+      "gt_png_sha256": "ac44ed6a8ad2b54d523830fadf3b4315c01eb82c7c358c260b54f6c84b46e696",
+      "retrieved_preview_path": "/data1/matengyu/geyugong/neuroadapter-author-first/runtime/imagenet-retrieval-local-fixed-v1/retrieved-views/16917.png",
+      "retrieved_preview_sha256": "879bfbb124abc68b95e8918338a1ce005b8ad815687742e55bc29133e462ad13",
+      "candidate_index0": 573428,
+      "candidate_id": "n02840245_4644.JPEG",
+      "candidate_path": "/data1/matengyu/data/ImageNet/ImageNet/train/n02840245/n02840245_4644.JPEG",
+      "pearson": 0.6725939976187615,
+      "source_sha256": "d29f28136c8dfa9b5164503fe34e634476d2e5a37f9baccfd49272f2f9eae907"
+    },
+    {
+      "paper_position": 18,
+      "nsd_id0": 7859,
+      "match_method": "64px RGB MSE shortlist over all982 followed by actual visual identity confirmation",
+      "automatic_rank": 1,
+      "thumbnail_mse": 0.0034073672723025084,
+      "visual_identity_verified": true,
+      "gt_box": [
+        425,
+        846,
+        601,
+        1022
+      ],
+      "paper_baseline_box": [
+        425,
+        1022,
+        601,
+        1200
+      ],
+      "gt_path": "/data1/matengyu/geyugong/neuroadapter-author-first/benchmarks/subj01-v1/assets/gt/7859.png",
+      "gt_png_sha256": "3bcdd64e202542848820753967ed1ba1024a06d9ed79a609fdbcad99e5cd66dc",
+      "retrieved_preview_path": "/data1/matengyu/geyugong/neuroadapter-author-first/runtime/imagenet-retrieval-local-fixed-v1/retrieved-views/7859.png",
+      "retrieved_preview_sha256": "1b9ea2fe08208fbc7006e26f4b20ca1a28034cb11eb69f7dde0142d7beecedec",
+      "candidate_index0": 621482,
+      "candidate_id": "n02980441_5477.JPEG",
+      "candidate_path": "/data1/matengyu/data/ImageNet/ImageNet/train/n02980441/n02980441_5477.JPEG",
+      "pearson": 0.5840303411833064,
+      "source_sha256": "f2d787ecc20314b18e6566b0551f5120b1d48d8d430524567e5ef1b667022aed"
+    },
+    {
+      "paper_position": 19,
+      "nsd_id0": 12796,
+      "match_method": "64px RGB MSE shortlist over all982 followed by actual visual identity confirmation",
+      "automatic_rank": 1,
+      "thumbnail_mse": 0.004173280205577612,
+      "visual_identity_verified": true,
+      "gt_box": [
+        601,
+        846,
+        777,
+        1022
+      ],
+      "paper_baseline_box": [
+        601,
+        1022,
+        777,
+        1200
+      ],
+      "gt_path": "/data1/matengyu/geyugong/neuroadapter-author-first/benchmarks/subj01-v1/assets/gt/12796.png",
+      "gt_png_sha256": "55ba233d927c0a1a2f6be3852faee5e7adcd8cb3737c6219b1ff2cd2b01a09f8",
+      "retrieved_preview_path": "/data1/matengyu/geyugong/neuroadapter-author-first/runtime/imagenet-retrieval-local-fixed-v1/retrieved-views/12796.png",
+      "retrieved_preview_sha256": "ff5e397fb6e5d85cfbd2f41bd879f2464f270f8d970d3d125b79ffdd9c819c03",
+      "candidate_index0": 1018800,
+      "candidate_id": "n04228054_13679.JPEG",
+      "candidate_path": "/data1/matengyu/data/ImageNet/ImageNet/train/n04228054/n04228054_13679.JPEG",
+      "pearson": 0.5200122102285963,
+      "source_sha256": "3c0c416931ec118cb038fb98b93889f23f430e7ff662a6ada8fdbd3aba02c1e9"
+    },
+    {
+      "paper_position": 20,
+      "nsd_id0": 11837,
+      "match_method": "64px RGB MSE shortlist over all982 followed by actual visual identity confirmation",
+      "automatic_rank": 1,
+      "thumbnail_mse": 0.013557546772062778,
+      "visual_identity_verified": true,
+      "gt_box": [
+        777,
+        846,
+        954,
+        1022
+      ],
+      "paper_baseline_box": [
+        777,
+        1022,
+        954,
+        1200
+      ],
+      "gt_path": "/data1/matengyu/geyugong/neuroadapter-author-first/benchmarks/subj01-v1/assets/gt/11837.png",
+      "gt_png_sha256": "0a3d899c6279a4a28dadd15e9d0223de97034c2fcaad12e5e2ce9201f8f2c524",
+      "retrieved_preview_path": "/data1/matengyu/geyugong/neuroadapter-author-first/runtime/imagenet-retrieval-local-fixed-v1/retrieved-views/11837.png",
+      "retrieved_preview_sha256": "c73fd9c499076562c5f5285a6ada58203b9566bcb37f2b18ff2eb4b16ebd6267",
+      "candidate_index0": 745867,
+      "candidate_id": "n03457902_62332.JPEG",
+      "candidate_path": "/data1/matengyu/data/ImageNet/ImageNet/train/n03457902/n03457902_62332.JPEG",
+      "pearson": 0.4509613689107003,
+      "source_sha256": "6124790fd7e063ff0d47fc09c1a341f8200071a9a5014d466aa195da9fd95e10"
+    },
+    {
+      "paper_position": 21,
+      "nsd_id0": 10046,
+      "match_method": "64px RGB MSE shortlist over all982 followed by actual visual identity confirmation",
+      "automatic_rank": 1,
+      "thumbnail_mse": 0.003152328310534358,
+      "visual_identity_verified": true,
+      "gt_box": [
+        954,
+        846,
+        1130,
+        1022
+      ],
+      "paper_baseline_box": [
+        954,
+        1022,
+        1130,
+        1200
+      ],
+      "gt_path": "/data1/matengyu/geyugong/neuroadapter-author-first/benchmarks/subj01-v1/assets/gt/10046.png",
+      "gt_png_sha256": "e564b3f1bf2fa49b37fe61c62635073268f88d0dc0e521c7b4acc00cc12367c6",
+      "retrieved_preview_path": "/data1/matengyu/geyugong/neuroadapter-author-first/runtime/imagenet-retrieval-local-fixed-v1/retrieved-views/10046.png",
+      "retrieved_preview_sha256": "3d92f5ed93cac61aa41fb5830bc3349d5a0f5601f567637908db0eb57932c7b3",
+      "candidate_index0": 319258,
+      "candidate_id": "n02110063_416.JPEG",
+      "candidate_path": "/data1/matengyu/data/ImageNet/ImageNet/train/n02110063/n02110063_416.JPEG",
+      "pearson": 0.5685097341862101,
+      "source_sha256": "ed5d16ccd4b64338970425e20a92b3734675a8e4575a5349412f44e7f103f2ca"
+    },
+    {
+      "paper_position": 22,
+      "nsd_id0": 12922,
+      "match_method": "64px RGB MSE shortlist over all982 followed by actual visual identity confirmation",
+      "automatic_rank": 1,
+      "thumbnail_mse": 0.006480006035417318,
+      "visual_identity_verified": true,
+      "gt_box": [
+        1130,
+        846,
+        1306,
+        1022
+      ],
+      "paper_baseline_box": [
+        1130,
+        1022,
+        1306,
+        1200
+      ],
+      "gt_path": "/data1/matengyu/geyugong/neuroadapter-author-first/benchmarks/subj01-v1/assets/gt/12922.png",
+      "gt_png_sha256": "d4d196947b5a0ac3c038b2b076453123b8f19bfb944513c31834ac0a6aa2f977",
+      "retrieved_preview_path": "/data1/matengyu/geyugong/neuroadapter-author-first/runtime/imagenet-retrieval-local-fixed-v1/retrieved-views/12922.png",
+      "retrieved_preview_sha256": "99e443e9780da1bcf33696934b926a4073507fa48ee0674bf5003a2e946596ee",
+      "candidate_index0": 671146,
+      "candidate_id": "n03134739_569.JPEG",
+      "candidate_path": "/data1/matengyu/data/ImageNet/ImageNet/train/n03134739/n03134739_569.JPEG",
+      "pearson": 0.6540163224835074,
+      "source_sha256": "6f7f6f44456139bdd00bf85d30b914215bab069f3e940299c93c9d680e39e5da"
+    },
+    {
+      "paper_position": 23,
+      "nsd_id0": 17374,
+      "match_method": "64px RGB MSE shortlist over all982 followed by actual visual identity confirmation",
+      "automatic_rank": 1,
+      "thumbnail_mse": 0.008082661777734756,
+      "visual_identity_verified": true,
+      "gt_box": [
+        1306,
+        846,
+        1482,
+        1022
+      ],
+      "paper_baseline_box": [
+        1306,
+        1022,
+        1482,
+        1200
+      ],
+      "gt_path": "/data1/matengyu/geyugong/neuroadapter-author-first/benchmarks/subj01-v1/assets/gt/17374.png",
+      "gt_png_sha256": "e5ceb94ece675143f5f532b0cd5dca9c905cbe3fb6e5b992280510432dc2456c",
+      "retrieved_preview_path": "/data1/matengyu/geyugong/neuroadapter-author-first/runtime/imagenet-retrieval-local-fixed-v1/retrieved-views/17374.png",
+      "retrieved_preview_sha256": "b9151febeb0d0a042dfe62c596370cb5c273143ea8319e36f093d9adc4dd9af5",
+      "candidate_index0": 1000871,
+      "candidate_id": "n04149813_26969.JPEG",
+      "candidate_path": "/data1/matengyu/data/ImageNet/ImageNet/train/n04149813/n04149813_26969.JPEG",
+      "pearson": 0.5972574321204911,
+      "source_sha256": "ecacb7c96f6e1eb9021d86a9962998b62bf8965ccf31ff170a6a78dc6bc5f051"
+    },
+    {
+      "paper_position": 24,
+      "nsd_id0": 15506,
+      "match_method": "64px RGB MSE shortlist over all982 followed by actual visual identity confirmation",
+      "automatic_rank": 1,
+      "thumbnail_mse": 0.0027491003274917603,
+      "visual_identity_verified": true,
+      "gt_box": [
+        1482,
+        846,
+        1658,
+        1022
+      ],
+      "paper_baseline_box": [
+        1482,
+        1022,
+        1658,
+        1200
+      ],
+      "gt_path": "/data1/matengyu/geyugong/neuroadapter-author-first/benchmarks/subj01-v1/assets/gt/15506.png",
+      "gt_png_sha256": "6173aa02f5eb63292014210d2acd5b5ec4d3ab7c312b696eddfe5c61d832e184",
+      "retrieved_preview_path": "/data1/matengyu/geyugong/neuroadapter-author-first/runtime/imagenet-retrieval-local-fixed-v1/retrieved-views/15506.png",
+      "retrieved_preview_sha256": "c4aaa3233a760a3c63ab5c31ee4a592d24896bbbc79b9a7a7a1cf4bd024cc615",
+      "candidate_index0": 731396,
+      "candidate_id": "n03417042_5105.JPEG",
+      "candidate_path": "/data1/matengyu/data/ImageNet/ImageNet/train/n03417042/n03417042_5105.JPEG",
+      "pearson": 0.5425831355598769,
+      "source_sha256": "4b40cb406751eef809f3a9039099d6420fa714c14a04aebc0d1069bf0769402b"
+    }
+  ]
+}
