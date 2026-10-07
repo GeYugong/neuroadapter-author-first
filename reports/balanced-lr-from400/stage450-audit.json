@@ -1,0 +1,14 @@
+{
+  "completed_epochs": 450,
+  "optimizer_updates": 239400,
+  "new_epochs": 50,
+  "skipped": 0,
+  "export_sha256": "a3b7de590bf3ef3798935fcce53fdf2d13caed9467d2664ee7fdc9c11d19e596",
+  "protected_unchanged": true,
+  "diagnostics_complete": [
+    425,
+    450
+  ],
+  "validation_complete": false,
+  "decoded_files_observed": 498
+}
