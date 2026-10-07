@@ -1,0 +1,22 @@
+{
+  "epoch": 450,
+  "passed": true,
+  "checks": {
+    "non_degrading": true,
+    "material": true,
+    "recognition": true,
+    "distances": true
+  },
+  "delta_S_pp": 0.326252505010018,
+  "delta": {
+    "PixCorr": 6.395405417977673e-05,
+    "SSIM": 0.005464939072493458,
+    "Alex(2)": -0.1973947895791497,
+    "Alex(5)": 0.4961923847695573,
+    "Incep": 0.798196392785556,
+    "CLIP": -0.31563126252504503,
+    "Eff": -0.005906394192236486,
+    "SwAV": -0.0024342476360197374
+  },
+  "budget_rule_not_significance": true
+}

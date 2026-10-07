@@ -1,0 +1,8 @@
+{
+  "epoch": 450,
+  "n": 500,
+  "negative_pool": 500,
+  "candidate_selection": false,
+  "ai_review_pending": true,
+  "utc": "2026-10-07T11:25:39.072313+00:00"
+}
