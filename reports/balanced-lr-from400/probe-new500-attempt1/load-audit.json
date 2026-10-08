@@ -1,0 +1,20 @@
+{
+  "strict_complete_model": true,
+  "strict_guidance": true,
+  "parcel_identity": true,
+  "query_manifest_sha256": "95c03ccf0e34d3378bca3fd9be5942a7558c6f11a5abe76e678b9013dd072837",
+  "checkpoint_model_sha256": "e59442664166d470281fd00b7cd7f8cca7976f435fd343f731a0794b5e27eea8",
+  "guidance_sha256": "00960072e9862c8a13f319d66b40fe90cf06a1ef64e377800a90305687808687",
+  "new_training_updates": 0,
+  "timesteps": [
+    50,
+    250,
+    500,
+    900
+  ],
+  "seeds": [
+    42,
+    43
+  ],
+  "backend": "FP32 original TF32 enabled; deterministic algorithms"
+}
