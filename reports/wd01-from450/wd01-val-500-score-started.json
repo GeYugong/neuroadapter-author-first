@@ -1,0 +1,11 @@
+{
+  "pid": 87438,
+  "command": [
+    "/data1/matengyu/geyugong/neuroadapter-author-first/runtime/env/bin/python",
+    "-B",
+    "scripts/wd01_evaluate.py",
+    "--phase",
+    "score"
+  ],
+  "unix_time": 1791484724.0817242
+}

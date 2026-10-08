@@ -1,0 +1,20 @@
+{
+  "reviewer": "AI",
+  "blind": false,
+  "all_four_pages_viewed": true,
+  "fixed_images": 32,
+  "candidate_selection": false,
+  "pages": {
+    "atlas-1.jpg": "d8b3be544657ba7caa9f424182db615f3af630d20f6fd450ce62aed7d9a1030e",
+    "atlas-2.jpg": "d877868a7ea8032e94f30177d6ba630951fb0edb3e9f73eb5ee4b519350a93b8",
+    "atlas-3.jpg": "3c6a73f834850cd0b163e1ebe9f7417096e2cada969e054bd4ced536d5ca8333",
+    "atlas-4.jpg": "4638b85a165f3aab396ee1e265c82447c323516cf058461bbd122afc46568f09"
+  },
+  "observations_zh": [
+    "第1页：60784保留STOP标志，27648保留猫；868大象群变为坐着的人，38887甜点变为其他食物。",
+    "第2页：20520保留网球，34854保留浴室；61868斑马变羊或牛，67261多个STOP标志未保留。",
+    "第3页：50850保留客机，15068保留卫生间；6315狗变猫，19331厨房变厕所，53659牛与雪山未保留。",
+    "第4页：36992保留模糊夜间街景，59470保留滑板主题；44279火车变飞机或卡车，39490水果形态类别不稳定，66437雨伞场景未保留。"
+  ],
+  "limitations_zh": "固定32图非盲定性检查，不能据此估计全验证集改善率；选优依据完整500图K2预定门槛。"
+}

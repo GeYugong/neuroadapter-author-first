@@ -1,0 +1,42 @@
+{
+  "execution_complete": true,
+  "unix_time": 1791487860.3076434,
+  "winner": "subject01-author-fp32-seed42-lr1e-5-from400/epoch-450",
+  "new_winner": false,
+  "k2_gate": {
+    "passed": false,
+    "checks": {
+      "non_degrading": false,
+      "material": false,
+      "recognition": false,
+      "distances": true
+    },
+    "delta_S_pp": -0.40594522378090403,
+    "delta": {
+      "PixCorr": 0.0016035961215616068,
+      "SSIM": 0.004418091933275803,
+      "Alex(2)": 0.8971943887775495,
+      "Alex(5)": -0.2885771543086264,
+      "Incep": -0.24649298597192626,
+      "CLIP": -0.682765531062131,
+      "Eff": -0.0012870365475614598,
+      "SwAV": -0.0005349256732333219
+    },
+    "budget_rule_not_significance": true
+  },
+  "k4_executed": false,
+  "k4_reason": "K2 gate failed",
+  "new_test_executed": false,
+  "test_reference": "reports/balanced-lr-from400/test982/metrics/metrics.json",
+  "test_reference_sha256": "0792c1b4a15a7d87b9ff8cb6f25495ac092d852707491773b5584c7e4d309514",
+  "protected_unchanged": true,
+  "same_500_ids": true,
+  "per_candidate_csv_means_verified": true,
+  "atlas_review": "atlas-review.json",
+  "limitations": [
+    "Validation reused for development",
+    "Test historically viewed",
+    "Single training seed; gate is not significance test"
+  ],
+  "diagnosis_zh": "WD0.1相对同预算原WD L500仅SSIM略升，其余七项均变差。固定噪声验证正确脑条件相对错误条件的收益在四个时间步均低于L450，未证实脑条件泛化增强。"
+}

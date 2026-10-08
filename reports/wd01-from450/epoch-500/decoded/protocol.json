@@ -1,0 +1,14 @@
+{
+  "split": "val",
+  "image_ids": "/data1/matengyu/geyugong/neuroadapter-author-first/configs/val_ids.txt",
+  "candidate_batch": 1,
+  "num_predictions": 2,
+  "denoising_steps": 50,
+  "cfg": 4.0,
+  "seed": 42,
+  "selection": false,
+  "gt_initialization": false,
+  "weight_dtype": "torch.float32",
+  "vae_decode_autocast": "author CUDA default float16",
+  "export_path": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42-lr1e-5-wd01-from450/exports/epoch-500/inference.pt"
+}
