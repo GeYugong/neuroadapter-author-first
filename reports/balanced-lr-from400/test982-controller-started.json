@@ -1,0 +1,6 @@
+{
+  "utc": "2026-10-08T01:36:31.335985+00:00",
+  "tmux": "author-balanced-test982",
+  "command": "cd /data1/matengyu/geyugong/neuroadapter-author-first && runtime/env/bin/python -B scripts/balanced_test982.py > logs/balanced-test982-controller.log 2>&1; rc=$?; printf \"%s\\n\" \"$rc\" > /data1/matengyu/geyugong/neuroadapter-author-first/logs/balanced-test982-controller.exit",
+  "selection_sha256": "047b643e66b40e43406205709196a4bc9cf376f1d7f9a463fac4c85ac77a922f"
+}

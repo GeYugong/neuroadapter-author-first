@@ -1,0 +1,17 @@
+{
+  "utc": "2026-10-08T01:36:20.610194+00:00",
+  "selected_epoch": 450,
+  "run": "subject01-author-fp32-seed42-lr1e-5-from400",
+  "weight": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42-lr1e-5-from400/exports/epoch-450/inference.pt",
+  "sha256": "a3b7de590bf3ef3798935fcce53fdf2d13caed9467d2664ee7fdc9c11d19e596",
+  "selection_pool": "val500 K2",
+  "eligible_new_epochs": [
+    450
+  ],
+  "excluded_new_epochs": [
+    500
+  ],
+  "reason": "New450 passes frozen balanced gate and dominates old400 in S/PixCorr/SSIM; new500 fails material benefit and CLIP guard. No test result used.",
+  "old_best_unchanged": true,
+  "execution_complete": false
+}
