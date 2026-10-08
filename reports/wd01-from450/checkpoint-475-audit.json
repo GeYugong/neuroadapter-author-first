@@ -1,0 +1,91 @@
+{
+  "progress": {
+    "completed_epochs": 475,
+    "global_optimizer_updates": 252700,
+    "actual_samples_processed": 4039400,
+    "skipped_updates": 0,
+    "run_id": "subject01-author-fp32-seed42-lr1e-5-wd01-from450",
+    "current_lr": [
+      1e-05
+    ],
+    "code_commit": "657889bd44744482874a220e96283281804dffb1",
+    "config": {
+      "data_dir": "/data1/matengyu/geyugong/neuroadapter-author-first/data",
+      "imgs_dir": "/data1/matengyu/geyugong/neuroadapter-subject1-research/data/raw/nsd/stimuli",
+      "parcel_dir": "/data1/matengyu/geyugong/neuroadapter-subject1-research/data/derived/parcels/schaefer",
+      "run_id": "subject01-author-fp32-seed42-lr1e-5-wd01-from450",
+      "resume_from": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42-lr1e-5-from400/checkpoint-450",
+      "branch_lr_half": true,
+      "seed43_replication": false,
+      "stage2": false,
+      "stage3": false,
+      "stage4": false,
+      "stage5": false,
+      "stage6": false,
+      "train_ids": null,
+      "audit": false,
+      "pretrained_model_name_or_path": "/data1/matengyu/geyugong/neuroadapter-subject1-research/models/stable-diffusion-v1-5",
+      "pretrained_ip_adapter_path": null,
+      "dataset_path": "/engram/nklab/coco/images/train2017/",
+      "output_dir": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42-lr1e-5-wd01-from450",
+      "logging_dir": "logs",
+      "training_subjects": null,
+      "learning_rate": 1e-05,
+      "weight_decay": 0.1,
+      "num_train_epochs": 475,
+      "train_batch_size": 4,
+      "dataloader_num_workers": 0,
+      "save_epochs": 1,
+      "clip_max_norm": 1.0,
+      "mixed_precision": "no",
+      "gradient_accumulation_steps": 2,
+      "local_rank": 0,
+      "subject_id": 1,
+      "topk": 100,
+      "num_decoder_queries": 50,
+      "condition_dim": 768,
+      "encoder_resolution": 224,
+      "make_square": 224,
+      "gen_img_resolution": 512,
+      "sub_approach": "linear_projection",
+      "wandb": false,
+      "time": "subject01-author-fp32-seed42-lr1e-5-wd01-from450",
+      "seed": 42
+    },
+    "branch_provenance": {
+      "source_run": "subject01-author-fp32-seed42-lr1e-5-from400",
+      "source_checkpoint": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42-lr1e-5-from400/checkpoint-450",
+      "resume_source": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42-lr1e-5-from400/checkpoint-450",
+      "branch_run_id": "subject01-author-fp32-seed42-lr1e-5-wd01-from450",
+      "rank": 0,
+      "completed_epochs": 450,
+      "global_optimizer_updates": 239400,
+      "model_exact": true,
+      "adamw_before_exact": true,
+      "adamw_after_only_weight_decay_changed": true,
+      "rng_exact": true,
+      "loader_restored": true,
+      "optimizer_lr": [
+        1e-05
+      ],
+      "optimizer_weight_decay": [
+        0.1
+      ],
+      "next_epoch_order_sha256": "e4f4733e96414c728b435a8fe7db2f3d75bf8279bf287516c5ddf0f128bfe17a",
+      "order_matches_historical": true,
+      "continuation_target": 475
+    }
+  },
+  "checkpoint_sha256": {
+    "custom_checkpoint_1.pkl": "dfaad058764127d371689821a7106144651280d156455d2b51e20f46521f99ea",
+    "COMPLETE": "bfc3546c1e2fc4e95580920dcb3038127b787f502804ab83348567d06fa511d6",
+    "custom_checkpoint_0.pkl": "32f51994f58671796798fb8d331de1518a2e9d29ecd87e9ac6fd276ae5850fb4",
+    "optimizer.bin": "36c9433f136880311a39d139ed4732430b2ba3511aaf7c30dbd522f6a2bd6c14",
+    "random_states_0.pkl": "d00fc575a4d3567986a860052fbec413912cf3596d60c3ca7b8e8a283e397bce",
+    "pytorch_model_1.bin": "91b57226579454f3c6600d2d36dee0c040d9d59dc0d04215e7c81499178d6ca0",
+    "pytorch_model.bin": "09281b6a47fac9a4b74ca48d91df2ae73fbcc10104ad98fbfd0f943ad33ea2dd",
+    "random_states_1.pkl": "37626e61f6fcfebbdf9070136218391f87c3552d3844e574f8d0615837ab238f",
+    "progress.json": "2344ec7a98d6002968139cea5b5b9b7514324a6cd6e6ca549d71112d85e2bba3"
+  },
+  "protected_unchanged": true
+}

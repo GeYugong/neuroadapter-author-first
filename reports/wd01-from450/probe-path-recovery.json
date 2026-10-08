@@ -1,0 +1,14 @@
+{
+  "unix_time": 1791458600.026011,
+  "failure": "probe output root restricted to previous experiment directory; failed before model load or inference",
+  "training_exit_code": 0,
+  "completed_epoch": 475,
+  "updates_added": 13300,
+  "skipped": 0,
+  "all_child_processes_confirmed_exited": true,
+  "recovery_checkpoint": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42-lr1e-5-wd01-from450/checkpoint-475",
+  "science_changed": false,
+  "old_probe_sha256": "2b83d70a051567e7f9ec17986db71781287907488b314637d52dd176d1a3d443",
+  "new_probe_sha256": "fc9d10ebf9ef85a8a44e3852369831d033394816b46b1a23bf91bcbabb36b164",
+  "old_attempt_preserved": true
+}

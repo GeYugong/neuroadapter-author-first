@@ -21,10 +21,12 @@ def seed_for(image,seed,kind):
 
 def main():
     p=argparse.ArgumentParser();p.add_argument('--checkpoint',required=True);p.add_argument('--output',required=True)
-    p.add_argument('--budget-seconds',type=int,default=14400);a=p.parse_args()
+    p.add_argument('--budget-seconds',type=int,default=14400)
+    p.add_argument('--output-root',choices=['balanced-lr-from400','wd01-from450'],default='balanced-lr-from400')
+    a=p.parse_args()
     cp=Path(a.checkpoint).resolve();out=Path(a.output).resolve()
     assert cp.is_relative_to(ROOT/'runs') and (cp/'COMPLETE').exists()
-    assert out.is_relative_to(ROOT/'reports/balanced-lr-from400')
+    assert out.is_relative_to(ROOT/'reports'/a.output_root)
     out.mkdir(parents=True,exist_ok=True)
     assert not (out/'started.json').exists(),'Existing attempt must be inspected, not overwritten'
     started=time.monotonic();save(out/'started.json',dict(checkpoint=str(cp),pid=os.getpid(),wall_time=time.time()))

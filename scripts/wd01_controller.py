@@ -9,19 +9,45 @@ RUN=ROOT/'runs/subject01-author-fp32-seed42-lr1e-5-wd01-from450'
 base.REPORT=REPORT
 read,save,sha,status=base.read,base.save,base.sha,base.status
 
+def probe(cp,tag):
+    base.execute(tag,[sys.executable,'-B','scripts/fixed_noise_probe.py','--checkpoint',str(cp),'--output',str(REPORT/tag),'--output-root','wd01-from450','--budget-seconds','7200'])
+    result=read(REPORT/tag/'summary.json')
+    assert result.get('complete') or result.get('budget_hit'),result
+
 def main():
+    import argparse
+    ap=argparse.ArgumentParser()
+    ap.add_argument('--resume-from',type=Path)
+    options=ap.parse_args()
     lock=(ROOT/'runtime/wd01-from450.lock').open('a');fcntl.flock(lock,fcntl.LOCK_EX|fcntl.LOCK_NB)
-    assert not RUN.exists(),'Existing branch requires explicit inspection'
-    assert shutil.disk_usage(ROOT).free>=50*2**30,'Need 50 GiB including 25 GiB reserve'
-    save(REPORT/'controller-started.json',dict(pid=os.getpid(),unix_time=time.time(),maximum_epoch=500))
-    protected={str(p.relative_to(ROOT)):sha(p) for p in (SOURCE/'checkpoint-450').iterdir() if p.is_file()}
-    tracked=subprocess.check_output(['git','ls-files','-z','reports','benchmarks/subj01-v1','configs','train_brain_adapter.py','metric_brain_adapter.py'],cwd=ROOT).decode().split('\0')
-    for rel in tracked:
-        if rel and not rel.startswith('reports/wd01-from450/'):protected[rel]=sha(ROOT/rel)
-    save(REPORT/'protected-before.json',protected)
+    if options.resume_from is None:
+        assert not RUN.exists(),'Existing branch requires explicit inspection'
+        assert shutil.disk_usage(ROOT).free>=50*2**30,'Need 50 GiB including 25 GiB reserve'
+        save(REPORT/'controller-started.json',dict(pid=os.getpid(),unix_time=time.time(),maximum_epoch=500))
+        protected={str(p.relative_to(ROOT)):sha(p) for p in (SOURCE/'checkpoint-450').iterdir() if p.is_file()}
+        tracked=subprocess.check_output(['git','ls-files','-z','reports','benchmarks/subj01-v1','configs','train_brain_adapter.py','metric_brain_adapter.py'],cwd=ROOT).decode().split('\0')
+        for rel in tracked:
+            if rel and not rel.startswith('reports/wd01-from450/'):protected[rel]=sha(ROOT/rel)
+        save(REPORT/'protected-before.json',protected)
+        source=SOURCE/'checkpoint-450';targets=[475,500]
+    else:
+        source=options.resume_from.resolve()
+        complete=sorted([p for p in RUN.glob('checkpoint-*') if (p/'COMPLETE').exists()],key=lambda p:int(p.name.split('-')[-1]))
+        assert source==RUN/'checkpoint-475' and source==complete[-1],'Recovery requires latest complete 475'
+        assert read(REPORT/'wd01-train-to-475-exit.json')['exit_code']==0
+        assert read(REPORT/'wd01-probe-475-attempt1-exit.json')['exit_code']==1
+        assert not (REPORT/'wd01-train-to-500-started.json').exists()
+        state=read(source/'progress.json')
+        assert state['completed_epochs']==475 and state['global_optimizer_updates']==252700 and state['skipped_updates']==0
+        for name,h in read(REPORT/'checkpoint-475-audit.json')['checkpoint_sha256'].items():assert sha(source/name)==h,name
+        protected=read(REPORT/'protected-before.json')
+        for rel,h in protected.items():assert sha(ROOT/rel)==h,rel
+        assert shutil.disk_usage(ROOT).free>=40*2**30
+        save(REPORT/'controller-resume-475-started.json',dict(pid=os.getpid(),unix_time=time.time(),source=str(source),maximum_epoch=500,previous_status=read(REPORT/'controller-status.json')))
+        probe(source,'wd01-probe-475-attempt2')
+        targets=[500]
     baseline=read(ROOT/'reports/balanced-lr-from400/epoch-450/val500/metrics.json')
-    source=SOURCE/'checkpoint-450'
-    for target in [475,500]:
+    for target in targets:
         config=read(ROOT/'configs/stage1.json');config.update(run_id=RUN.name,output_dir=str(RUN),learning_rate=1e-5,weight_decay=0.1,num_train_epochs=target,resume_from=str(source),branch_lr_half=True)
         cmd=[sys.executable,'-B','-m','accelerate.commands.launch','--config_file',str(ROOT/'acc_config.yaml'),'--main_process_port','29627','--mixed_precision','no',str(ROOT/'scripts/wd01_train.py')]
         for k,v in config.items():cmd+=['--'+k] if v is True else ['--'+k,str(v)]
@@ -37,7 +63,7 @@ def main():
         for x in map(json.loads,(RUN/'epochs.jsonl').read_text().splitlines()):assert x['image_order_sha256']==ref[x['epoch']]['image_order_sha256']
         for rel,h in protected.items():assert sha(ROOT/rel)==h,rel
         save(REPORT/f'checkpoint-{target}-audit.json',dict(progress=state,checkpoint_sha256={p.name:sha(p) for p in cp.iterdir() if p.is_file()},protected_unchanged=True))
-        base.probe(cp,f'wd01-probe-{target}-attempt1')
+        probe(cp,f'wd01-probe-{target}-attempt1')
         source=cp
     for phase in ['decode','score']:
         base.execute(f'wd01-val-500-{phase}',[sys.executable,'-B','scripts/wd01_evaluate.py','--phase',phase])
