@@ -1,0 +1,53 @@
+{
+  "authorized": true,
+  "unix_time": 1791432914.5724323,
+  "source_run": "subject01-author-fp32-seed42-lr1e-5-from400",
+  "source_epoch": 450,
+  "run_id": "subject01-author-fp32-seed42-lr1e-5-wd01-from450",
+  "only_scientific_change": {
+    "weight_decay": [
+      1e-06,
+      0.1
+    ]
+  },
+  "learning_rate": 1e-05,
+  "maximum_added_epochs": 50,
+  "maximum_added_updates": 26600,
+  "targets": [
+    475,
+    500
+  ],
+  "validation": "val500 K2 full negative pool; 50 steps CFG4 original fixed noise",
+  "selection_reference": "balanced-lr-from400/epoch-450",
+  "matched_control": "balanced-lr-from400/epoch-500",
+  "gate": {
+    "non_degrading": [
+      "S",
+      "PixCorr",
+      "SSIM"
+    ],
+    "material_S_pp": 0.3,
+    "alternative_both_structure_absolute": 0.005,
+    "max_recognition_drop_pp": 0.5,
+    "max_distance_increase": 0.005
+  },
+  "conditional_confirmation": {
+    "required_after_k2_pass": true,
+    "candidates": 4,
+    "additional_seeds": [
+      142,
+      143
+    ],
+    "methods": [
+      "current-best-L450",
+      "new-wd01-L500"
+    ],
+    "no_candidate_selection": true,
+    "rule": "same balance gate against L450 using all four candidates; no retry or seed replacement"
+  },
+  "test": "Only final confirmed new winner standard982 K1 once; otherwise reference L450",
+  "no_more_human_documents": true,
+  "no_feishu_writes": true,
+  "review_fixed_atlas": true,
+  "training_seed_replications": 1
+}

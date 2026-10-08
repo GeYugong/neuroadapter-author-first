@@ -1,0 +1,8 @@
+{
+  "config_positive": true,
+  "config_negative_checks": 4,
+  "imports": true,
+  "syntax": true,
+  "new_training_updates": 0,
+  "source_complete": true
+}
