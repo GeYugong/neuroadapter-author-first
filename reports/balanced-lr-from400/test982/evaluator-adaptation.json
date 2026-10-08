@@ -1,0 +1,7 @@
+{
+  "source_sha256": "59de0e1c9783197bff7470530e93c9047c7e6b96ad821f4b35ed915626f43788",
+  "path_only_replacements": {
+    "B/'outputs/neuroadapter'": "Path('/data1/matengyu/geyugong/neuroadapter-author-first/reports/balanced-lr-from400/test982/decoded')",
+    "out=B/'metrics'/a.method/(a.output_tag or a.ids.stem)": "out=Path('/data1/matengyu/geyugong/neuroadapter-author-first/reports/balanced-lr-from400/test982/metrics')"
+  }
+}

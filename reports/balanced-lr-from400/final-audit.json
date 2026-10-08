@@ -1,0 +1,20 @@
+{
+  "utc": "2026-10-08T02:40:57.125986+00:00",
+  "protected_files_verified": 1676,
+  "protected_unchanged": true,
+  "test_generation_files_verified": 982,
+  "metric_means_verified": true,
+  "atlas_pages_actually_reviewed": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "selected_epoch": 450,
+  "selection_sha256": "047b643e66b40e43406205709196a4bc9cf376f1d7f9a463fac4c85ac77a922f",
+  "test_metrics_sha256": "0792c1b4a15a7d87b9ff8cb6f25495ac092d852707491773b5584c7e4d309514",
+  "scientific_execution_complete": true,
+  "publication_pending": false,
+  "feishu_document": "https://my.feishu.cn/docx/FMTndW7avodh4BxO5VQcmKHMnkb",
+  "feishu_report_revision": 45
+}

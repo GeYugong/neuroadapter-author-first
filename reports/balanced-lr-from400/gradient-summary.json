@@ -1,0 +1,31 @@
+{
+  "mapper": {
+    "grad_min": 0.00035745915374718606,
+    "grad_median": 0.0022762742592021823,
+    "grad_max": 0.016605013981461525,
+    "update_ratio_min": 6.254647669843171e-05,
+    "update_ratio_median": 7.860298935896975e-05,
+    "update_ratio_max": 0.00010945940085648265,
+    "sampled_update_count": 536
+  },
+  "projection": {
+    "grad_min": 0.000937942648306489,
+    "grad_median": 0.006435413379222155,
+    "grad_max": 0.05145629495382309,
+    "update_ratio_min": 3.714582073176019e-05,
+    "update_ratio_median": 4.6270366293112e-05,
+    "update_ratio_max": 6.594545124252056e-05,
+    "sampled_update_count": 536
+  },
+  "ip_kv": {
+    "grad_min": 0.0006086566136218607,
+    "grad_median": 0.003697335720062256,
+    "grad_max": 0.021412814036011696,
+    "update_ratio_min": 3.353970792625057e-05,
+    "update_ratio_median": 4.166170485964699e-05,
+    "update_ratio_max": 5.7027467389886866e-05,
+    "sampled_update_count": 536
+  },
+  "clip_fraction": 0.0,
+  "updates": 53200
+}

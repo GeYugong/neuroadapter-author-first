@@ -1,0 +1,11 @@
+{
+  "utc": "2026-10-08T02:42:52.119948+00:00",
+  "execution_complete": true,
+  "selected_epoch": 450,
+  "training_end_epoch": 500,
+  "test_n": 982,
+  "atlas_review_complete": true,
+  "report": "FINAL_REPORT_ZH.md",
+  "feishu_report_appended": true,
+  "no_more_experiments": true
+}
