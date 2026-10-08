@@ -1,0 +1,91 @@
+{
+  "progress": {
+    "completed_epochs": 500,
+    "global_optimizer_updates": 266000,
+    "actual_samples_processed": 4252000,
+    "skipped_updates": 0,
+    "run_id": "subject01-author-fp32-seed42-lr1e-5-wd01-from450",
+    "current_lr": [
+      1e-05
+    ],
+    "code_commit": "657889bd44744482874a220e96283281804dffb1",
+    "config": {
+      "data_dir": "/data1/matengyu/geyugong/neuroadapter-author-first/data",
+      "imgs_dir": "/data1/matengyu/geyugong/neuroadapter-subject1-research/data/raw/nsd/stimuli",
+      "parcel_dir": "/data1/matengyu/geyugong/neuroadapter-subject1-research/data/derived/parcels/schaefer",
+      "run_id": "subject01-author-fp32-seed42-lr1e-5-wd01-from450",
+      "resume_from": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42-lr1e-5-wd01-from450/checkpoint-475",
+      "branch_lr_half": true,
+      "seed43_replication": false,
+      "stage2": false,
+      "stage3": false,
+      "stage4": false,
+      "stage5": false,
+      "stage6": false,
+      "train_ids": null,
+      "audit": false,
+      "pretrained_model_name_or_path": "/data1/matengyu/geyugong/neuroadapter-subject1-research/models/stable-diffusion-v1-5",
+      "pretrained_ip_adapter_path": null,
+      "dataset_path": "/engram/nklab/coco/images/train2017/",
+      "output_dir": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42-lr1e-5-wd01-from450",
+      "logging_dir": "logs",
+      "training_subjects": null,
+      "learning_rate": 1e-05,
+      "weight_decay": 0.1,
+      "num_train_epochs": 500,
+      "train_batch_size": 4,
+      "dataloader_num_workers": 0,
+      "save_epochs": 1,
+      "clip_max_norm": 1.0,
+      "mixed_precision": "no",
+      "gradient_accumulation_steps": 2,
+      "local_rank": 0,
+      "subject_id": 1,
+      "topk": 100,
+      "num_decoder_queries": 50,
+      "condition_dim": 768,
+      "encoder_resolution": 224,
+      "make_square": 224,
+      "gen_img_resolution": 512,
+      "sub_approach": "linear_projection",
+      "wandb": false,
+      "time": "subject01-author-fp32-seed42-lr1e-5-wd01-from450",
+      "seed": 42
+    },
+    "branch_provenance": {
+      "source_run": "subject01-author-fp32-seed42-lr1e-5-from400",
+      "source_checkpoint": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42-lr1e-5-from400/checkpoint-450",
+      "resume_source": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42-lr1e-5-wd01-from450/checkpoint-475",
+      "branch_run_id": "subject01-author-fp32-seed42-lr1e-5-wd01-from450",
+      "rank": 0,
+      "completed_epochs": 475,
+      "global_optimizer_updates": 252700,
+      "model_exact": true,
+      "adamw_before_exact": true,
+      "adamw_after_only_weight_decay_changed": true,
+      "rng_exact": true,
+      "loader_restored": true,
+      "optimizer_lr": [
+        1e-05
+      ],
+      "optimizer_weight_decay": [
+        0.1
+      ],
+      "next_epoch_order_sha256": "ddf42d303f089d121bc41c5a75962ddc504096fbeedbe533d920e051855bc49a",
+      "order_matches_historical": true,
+      "continuation_target": 500
+    }
+  },
+  "checkpoint_sha256": {
+    "custom_checkpoint_1.pkl": "93825052f1d93e9040857b14243a91d05dde61404d7c814377550256a10422c9",
+    "COMPLETE": "bfc3546c1e2fc4e95580920dcb3038127b787f502804ab83348567d06fa511d6",
+    "custom_checkpoint_0.pkl": "c119145a73fd75d63dfe3baee2d4dc7cc79fd06923e3ae346be20da2451b76ab",
+    "optimizer.bin": "d85151240f8b515572a82a298c3da351e2ab05d58eba5faac5be3d1fc056ab26",
+    "random_states_0.pkl": "7e1818ff67fc6b807eff757675399de47a5a359d41dda5bfb55ec0090e147e49",
+    "pytorch_model_1.bin": "282de23bac14fbb5f0477e1cd25197149d9a17fb36d2b705d92cd9d8597b2b4b",
+    "pytorch_model.bin": "eaa141d28826b6b2fb12479408398de47ca875cd5ef9e49025a0eaad5a731ab2",
+    "random_states_1.pkl": "e415cb2088d7d2a376ae0b08929e6f6ac28295e737f6d27192f3eefd706265c4",
+    "progress.json": "6ffc3061b9225f622acfc29546bc63224d60c59bf06833843816f0f09bdd0aeb"
+  },
+  "protected_unchanged": true
+}

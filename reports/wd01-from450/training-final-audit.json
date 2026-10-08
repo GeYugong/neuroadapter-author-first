@@ -1,0 +1,31 @@
+{
+  "training_exit_code": 0,
+  "completed_epochs": 500,
+  "global_optimizer_updates": 266000,
+  "skipped_updates": 0,
+  "added_updates_per_rank": 26600,
+  "ranks": [
+    {
+      "rank": 0,
+      "continuous_updates": true,
+      "finite_loss_and_gradients": true,
+      "all_group_gradients_positive": true
+    },
+    {
+      "rank": 1,
+      "continuous_updates": true,
+      "finite_loss_and_gradients": true,
+      "all_group_gradients_positive": true
+    }
+  ],
+  "all_50_sampling_hashes_match": true,
+  "checkpoint_audit": "checkpoint-500-audit.json",
+  "protected_unchanged_at_training_end": true,
+  "validation_complete": false,
+  "unix_time": 1791484047.9657712,
+  "export_sha256": {
+    "runs/subject01-author-fp32-seed42-lr1e-5-wd01-from450/exports/epoch-500/metadata.json": "93d2547c8c53e9d003473c79cc52302db3bca5e65ccb62f7a9de413cca1e34c7",
+    "runs/subject01-author-fp32-seed42-lr1e-5-wd01-from450/exports/epoch-500/parcel_vertices.pt": "a5aceb7d1ec1ad6c8193cbe6f0fd2db23d298a6d4182e74aeac3a980a7b86ad3",
+    "runs/subject01-author-fp32-seed42-lr1e-5-wd01-from450/exports/epoch-500/inference.pt": "84270621467a4299710e30e1a94fd9bd4371f48abcab3646ecb6049740f7df1d"
+  }
+}
