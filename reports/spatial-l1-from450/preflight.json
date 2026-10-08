@@ -1,0 +1,33 @@
+{
+  "passed": true,
+  "new_optimizer_updates": 0,
+  "train_only_ids": [
+    52243,
+    41333,
+    20034,
+    13835
+  ],
+  "lambda_zero_exact_loss_rng_gradients": true,
+  "strict_source_loaded": true,
+  "parcel_identity": true,
+  "frozen_parameters_no_grad": true,
+  "all_eligible_batch4_stress": {
+    "epsilon_loss": 0.2063221037387848,
+    "spatial_loss": 0.04524466395378113,
+    "aux_group_grad_norm": {
+      "mapper": 0.002908080558343933,
+      "projection": 0.00901884719930978,
+      "ip_kv": 0.004872065718891423
+    },
+    "max_allocated_bytes": 17392293376,
+    "combined_group_grad_norm": {
+      "mapper": 0.007581350183757014,
+      "projection": 0.02331488739058705,
+      "ip_kv": 0.011885799615388031
+    }
+  },
+  "seconds": 11.090591148938984,
+  "lambda_fixed": 0.05,
+  "tmax": 250,
+  "size": 64
+}

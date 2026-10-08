@@ -1,0 +1,5 @@
+{
+  "new_updates": 0,
+  "failed": "adaptive_avg_pool2d CUDA backward lacks deterministic implementation",
+  "fix": "Use exactly equivalent non-overlapping avg_pool2d kernel8 stride8 for fixed512 to64; deterministic backend preserved"
+}

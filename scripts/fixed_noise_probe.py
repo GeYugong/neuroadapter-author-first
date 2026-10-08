@@ -22,7 +22,7 @@ def seed_for(image,seed,kind):
 def main():
     p=argparse.ArgumentParser();p.add_argument('--checkpoint',required=True);p.add_argument('--output',required=True)
     p.add_argument('--budget-seconds',type=int,default=14400)
-    p.add_argument('--output-root',choices=['balanced-lr-from400','wd01-from450'],default='balanced-lr-from400')
+    p.add_argument('--output-root',choices=['balanced-lr-from400','wd01-from450','spatial-l1-from450'],default='balanced-lr-from400')
     a=p.parse_args()
     cp=Path(a.checkpoint).resolve();out=Path(a.output).resolve()
     assert cp.is_relative_to(ROOT/'runs') and (cp/'COMPLETE').exists()

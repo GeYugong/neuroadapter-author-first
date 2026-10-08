@@ -1,0 +1,62 @@
+{
+  "authorized": true,
+  "unix_time": 1791489534.213032,
+  "source": "subject01-author-fp32-seed42-lr1e-5-from400/checkpoint-450",
+  "run_id": "subject01-author-fp32-seed42-lr1e-5-spatiall1-from450",
+  "only_scientific_change": "Add low-noise decoded-image spatial L1 auxiliary loss",
+  "objective": {
+    "base": "original MinSNR gamma5 weighted epsilon MSE",
+    "auxiliary": "mean_i 1[t_i<=250] * mean_abs(area64(VAE_decode(x0_hat/scaling_factor))-area64(training_image))",
+    "lambda": 0.05,
+    "timestep_inclusive_max": 250,
+    "spatial_size": 64,
+    "normalization": "sum eligible per-image losses divided by full microbatch size",
+    "prediction": "x0_hat=(noisy_latent-sqrt(1-alpha_bar)*epsilon_pred)/sqrt(alpha_bar)",
+    "clip_x0_or_pixels": false,
+    "vae": "frozen FP32; per-image non-reentrant activation checkpoint; gradient to input enabled"
+  },
+  "learning_rate": 1e-05,
+  "weight_decay": 1e-06,
+  "seed": 42,
+  "maximum_added_epochs": 50,
+  "maximum_added_updates": 26600,
+  "targets": [
+    475,
+    500
+  ],
+  "gate475_required_for500": true,
+  "reference": "reports/balanced-lr-from400/epoch-450/val500/metrics.json",
+  "matched_control500": "reports/balanced-lr-from400/epoch-500/val500/metrics.json",
+  "gate": {
+    "non_degrading": [
+      "S",
+      "PixCorr",
+      "SSIM"
+    ],
+    "material_S_pp": 0.3,
+    "alternative_both_structure_absolute": 0.005,
+    "max_recognition_drop_pp": 0.5,
+    "max_distance_increase": 0.005
+  },
+  "validation": "val500 K2 original noise and full 500 negative pools; no selection",
+  "confirmation": {
+    "K4": true,
+    "additional_seeds": [
+      142,
+      143
+    ],
+    "reference": "lowLR L450",
+    "same_gate": true,
+    "only_after_final_K2_candidate_pass": true,
+    "no_retries": true
+  },
+  "test": "Only final confirmed new winner standard982 K1 once; otherwise reference L450",
+  "no_feishu": true,
+  "no_human_reports": true,
+  "limitations": [
+    "One training seed",
+    "Validation reused for development; test historically viewed",
+    "Custom objective, not exact paper reproduction",
+    "Fixed lambda and timestep restriction are unvalidated hypotheses, no tuning from test"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "config_positive": true,
+  "config_negative_checks": 4,
+  "source_code_unchanged": true,
+  "probe_computation_unchanged": true,
+  "t250_included_t251_excluded": true,
+  "perfect_epsilon_x0_reconstruction": true,
+  "new_training_updates": 0
+}
