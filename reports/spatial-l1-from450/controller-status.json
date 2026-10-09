@@ -1,0 +1,10 @@
+{
+  "phase": "complete",
+  "pid": 99244,
+  "unix_time": 1791541815.095806,
+  "execution_complete": true,
+  "k4_confirmation_pending": false,
+  "candidate_epoch": null,
+  "maximum_epoch": 500,
+  "winner": "lowLR L450"
+}

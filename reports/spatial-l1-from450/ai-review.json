@@ -1,0 +1,29 @@
+{
+  "reviewer": "AI",
+  "blind": false,
+  "fixed_images": 32,
+  "all_candidates_reviewed": true,
+  "pages": [
+    {
+      "path": "epoch-475/val-atlas/atlas-1.jpg",
+      "sha256": "cb6f1d0c068cb67b49b91e6ce0442777d148e3a706eb63176eb19fe658499c20",
+      "observation_zh": "STOP牌与餐盘语义部分保留；牧群变成坐着的人，棒球场变风筝场，布局与类别仍错。"
+    },
+    {
+      "path": "epoch-475/val-atlas/atlas-2.jpg",
+      "sha256": "63db83074629e21ac5251ddadad953f238745e76714c55e7cb44778773402504",
+      "observation_zh": "网球和浴室大类可辨；斑马变羊牛，海滩变牛群，街道和人物构图不一致。"
+    },
+    {
+      "path": "epoch-475/val-atlas/atlas-3.jpg",
+      "sha256": "494b4e794e1817eae7fa3fd513b8dea6bf2e3a4e6f011b7c094d1bb0904c7d51",
+      "observation_zh": "飞机和卫生间保留大类；狗变猫，炉灶变马桶，雪山动物消失，森林变草地。"
+    },
+    {
+      "path": "epoch-475/val-atlas/atlas-4.jpg",
+      "sha256": "480d99509785bce78dd2094b0e5376cf4d9553165af3ec19b9c799be7eb14620",
+      "observation_zh": "滑板和街景保留部分语义；火车变飞机或卡车，水果种类错，人抱猫变抱玩偶，小飞机变客机。"
+    }
+  ],
+  "limitations": "固定32张非盲定性检查，不能代替全500指标或统计检验；未据图选候选。"
+}

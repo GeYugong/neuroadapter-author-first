@@ -1,0 +1,9 @@
+{
+  "epoch": 475,
+  "n": 500,
+  "negative_pool": 500,
+  "candidate_selection": false,
+  "ai_review_pending": false,
+  "utc": "2026-10-09T08:10:25.088886+00:00",
+  "ai_review": "reports/spatial-l1-from450/ai-review.json"
+}

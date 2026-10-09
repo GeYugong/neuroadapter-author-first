@@ -1,0 +1,13 @@
+{
+  "pid": 186300,
+  "command": [
+    "/data1/matengyu/geyugong/neuroadapter-author-first/runtime/env/bin/python",
+    "-B",
+    "scripts/spatial_evaluate.py",
+    "--epoch",
+    "475",
+    "--phase",
+    "decode"
+  ],
+  "unix_time": 1791530306.0861278
+}

@@ -1,0 +1,96 @@
+{
+  "progress": {
+    "completed_epochs": 475,
+    "global_optimizer_updates": 252700,
+    "actual_samples_processed": 4039400,
+    "skipped_updates": 0,
+    "run_id": "subject01-author-fp32-seed42-lr1e-5-spatiall1-from450",
+    "current_lr": [
+      1e-05
+    ],
+    "code_commit": "40be7cec6a1cfdc77fc38950a65f8f7639e4682b",
+    "config": {
+      "data_dir": "/data1/matengyu/geyugong/neuroadapter-author-first/data",
+      "imgs_dir": "/data1/matengyu/geyugong/neuroadapter-subject1-research/data/raw/nsd/stimuli",
+      "parcel_dir": "/data1/matengyu/geyugong/neuroadapter-subject1-research/data/derived/parcels/schaefer",
+      "run_id": "subject01-author-fp32-seed42-lr1e-5-spatiall1-from450",
+      "resume_from": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42-lr1e-5-from400/checkpoint-450",
+      "branch_lr_half": true,
+      "seed43_replication": false,
+      "stage2": false,
+      "stage3": false,
+      "stage4": false,
+      "stage5": false,
+      "stage6": false,
+      "train_ids": null,
+      "audit": false,
+      "pretrained_model_name_or_path": "/data1/matengyu/geyugong/neuroadapter-subject1-research/models/stable-diffusion-v1-5",
+      "pretrained_ip_adapter_path": null,
+      "dataset_path": "/engram/nklab/coco/images/train2017/",
+      "output_dir": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42-lr1e-5-spatiall1-from450",
+      "logging_dir": "logs",
+      "training_subjects": null,
+      "learning_rate": 1e-05,
+      "weight_decay": 1e-06,
+      "num_train_epochs": 475,
+      "train_batch_size": 4,
+      "dataloader_num_workers": 0,
+      "save_epochs": 1,
+      "clip_max_norm": 1.0,
+      "mixed_precision": "no",
+      "gradient_accumulation_steps": 2,
+      "local_rank": 0,
+      "subject_id": 1,
+      "topk": 100,
+      "num_decoder_queries": 50,
+      "condition_dim": 768,
+      "encoder_resolution": 224,
+      "make_square": 224,
+      "gen_img_resolution": 512,
+      "sub_approach": "linear_projection",
+      "wandb": false,
+      "time": "subject01-author-fp32-seed42-lr1e-5-spatiall1-from450",
+      "seed": 42,
+      "spatial_objective": {
+        "weight": 0.05,
+        "tmax": 250,
+        "size": 64
+      }
+    },
+    "branch_provenance": {
+      "source_run": "subject01-author-fp32-seed42-lr1e-5-from400",
+      "source_checkpoint": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42-lr1e-5-from400/checkpoint-450",
+      "resume_source": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42-lr1e-5-from400/checkpoint-450",
+      "branch_run_id": "subject01-author-fp32-seed42-lr1e-5-spatiall1-from450",
+      "rank": 0,
+      "completed_epochs": 450,
+      "global_optimizer_updates": 239400,
+      "model_exact": true,
+      "adamw_before_exact": true,
+      "adamw_unchanged": true,
+      "rng_exact": true,
+      "loader_restored": true,
+      "optimizer_lr": [
+        1e-05
+      ],
+      "optimizer_weight_decay": [
+        1e-06
+      ],
+      "next_epoch_order_sha256": "e4f4733e96414c728b435a8fe7db2f3d75bf8279bf287516c5ddf0f128bfe17a",
+      "order_matches_historical": true,
+      "continuation_target": 475
+    }
+  },
+  "checkpoint_sha256": {
+    "custom_checkpoint_1.pkl": "00b89f5ed91d650439e08e175912ffd7a4b2bd3e03ed9781d5d2ee2c7d11dc7b",
+    "COMPLETE": "bfc3546c1e2fc4e95580920dcb3038127b787f502804ab83348567d06fa511d6",
+    "custom_checkpoint_0.pkl": "e8594ffe8f82e0eba401e6b77b6bd539ce7d704687ef787b8954f01759dd4f39",
+    "optimizer.bin": "a2db9b8121f2b1935fef99bc9fd2e7a4fca4a4a2980702fd3c1f272089e544bd",
+    "random_states_0.pkl": "d00fc575a4d3567986a860052fbec413912cf3596d60c3ca7b8e8a283e397bce",
+    "pytorch_model_1.bin": "19d5e3e7cf2dcbcb067eac5bad77daab889e2c0980c7e7484913f7f1d96b6dfe",
+    "pytorch_model.bin": "42d90dd3f1cebe1ef9d02c6a37d70c9017500475b1ccc44091b2e0a14ac1ba7c",
+    "random_states_1.pkl": "37626e61f6fcfebbdf9070136218391f87c3552d3844e574f8d0615837ab238f",
+    "progress.json": "e09f4bc7c439066a1d74602cf4565dc0820448fa770433e3dfa9f4f775170dac"
+  },
+  "export_sha256": "dae201fb03b42f865962cc4c7cc3920350ede46a06182fc09ce69527e06122b0"
+}

@@ -1,0 +1,76 @@
+{
+  "execution_complete": true,
+  "unix_time": 1791541815.095719,
+  "completed_epochs": 475,
+  "added_epochs": 25,
+  "added_updates": 13300,
+  "total_updates": 252700,
+  "skipped_updates": 0,
+  "both_rank_updates_verified": true,
+  "all_25_sampling_sha_match": true,
+  "checkpoint_export_hashes_verified": true,
+  "protected_files_verified": 1802,
+  "generation_hashes_verified": 500,
+  "per_candidate_full500_csv_means_verified": true,
+  "same_validation_ids": true,
+  "gate": {
+    "passed": false,
+    "checks": {
+      "non_degrading": true,
+      "material": false,
+      "recognition": true,
+      "distances": true
+    },
+    "delta_S_pp": 0.037007348029376885,
+    "delta": {
+      "PixCorr": 0.0012015973624207033,
+      "SSIM": 0.0023245013302266027,
+      "Alex(2)": 0.9376753507013973,
+      "Alex(5)": -0.07915831663326856,
+      "Incep": -0.25290581162323633,
+      "CLIP": 0.4430861723446782,
+      "Eff": -0.0007814525914850989,
+      "SwAV": -0.0019495906458193435
+    },
+    "budget_rule_not_significance": true
+  },
+  "winner": "lowLR L450",
+  "continue500": false,
+  "k4_executed": false,
+  "test982_reused": "reports/balanced-lr-from400/test982/metrics/metrics.json",
+  "validation_metrics": {
+    "PixCorr": 0.07871294017730684,
+    "SSIM": 0.2837126105830427,
+    "Alex(2)": 76.31462925851703,
+    "Alex(5)": 86.8997995991984,
+    "Incep": 85.55931863727454,
+    "CLIP": 87.52545090180361,
+    "Eff": 0.7799488483291661,
+    "SwAV": 0.460038795168783
+  },
+  "S": 86.66152304609217,
+  "correct_vs_wrong_brain_mse_benefit": {
+    "50": {
+      "L450": 0.00016485934611409903,
+      "spatial475": 0.00015746639110147953
+    },
+    "250": {
+      "L450": 0.0006860713474452496,
+      "spatial475": 0.0006875212129671127
+    },
+    "500": {
+      "L450": 0.0016835428541526198,
+      "spatial475": 0.0016745839093346149
+    },
+    "900": {
+      "L450": 0.00021837562144355616,
+      "spatial475": 0.0002138841055057128
+    }
+  },
+  "conclusion_zh": "空间L1带来小幅结构改善，但未达到预定继续门槛。正确脑条件收益四时间步中三个略降，一个略升，未显示一致增强。保留原低LR L450。",
+  "limitations": [
+    "单训练seed，验证反复开发，标准test历史已看",
+    "未做同预算原损失475的图像指标对照，不能把全部变化归因于L1",
+    "非显著性检验；非论文精确复现"
+  ]
+}
