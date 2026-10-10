@@ -1,0 +1,12 @@
+{
+  "phase": "delivery_complete",
+  "pid": 375956,
+  "unix_time": 1791668367.3460972,
+  "execution_complete": true,
+  "k4_confirmation_pending": false,
+  "candidate_epoch": null,
+  "maximum_epoch": 500,
+  "selected_epoch": 450,
+  "new_winner": false,
+  "final_verification_unix": 1791671414.6031008
+}

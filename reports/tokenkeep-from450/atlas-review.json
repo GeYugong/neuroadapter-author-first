@@ -1,0 +1,32 @@
+{
+  "ai_nonblind": true,
+  "all_four_pages_actually_viewed": true,
+  "fixed_images": 32,
+  "both_candidates_viewed": true,
+  "selection_used": false,
+  "pages": [
+    {
+      "page": 1,
+      "observations_zh": "猫和STOP牌有类别对应；牛群被生成人群，货车变公交，食物细节和棒球场布局错误。"
+    },
+    {
+      "page": 2,
+      "observations_zh": "网球与卫生间大类可辨；斑马变牛，多STOP牌变其他设施，人物数量和街道布局不一致。"
+    },
+    {
+      "page": 3,
+      "observations_zh": "狗变猫、灶台变马桶；客机和聚餐大类可辨，但位置和人物数量不符；山地牛与候选偏差大。"
+    },
+    {
+      "page": 4,
+      "observations_zh": "滑板和飞机大类部分保留；小飞机变客机、水果变玩具或其他物件，夜景时段及人物动作不一致。"
+    }
+  ],
+  "atlas_sha256": {
+    "atlas-1.jpg": "2a1e8edc3e3c3a03b319310786e2e88d07f791adf7442ff1e40bb0f2e5c6eb50",
+    "atlas-2.jpg": "2da230903839c44f756cf9c46e2f7cda487b2afaaeda929824af47d41f5e29aa",
+    "atlas-3.jpg": "fae640931c44e86ba411aac1a526b6a7d2454abbc0f736ad4edb9039ef5163be",
+    "atlas-4.jpg": "70f81d0a123cb66befd14fb02e80252ec9cb7b1af552e847a666df849dc2ed89"
+  },
+  "limitations_zh": "固定图册非盲AI描述，不作统计显著性检验，也不据图册挑选候选或修改门槛。"
+}

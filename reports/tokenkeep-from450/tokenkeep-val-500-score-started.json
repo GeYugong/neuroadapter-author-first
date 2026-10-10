@@ -1,0 +1,13 @@
+{
+  "pid": 498135,
+  "command": [
+    "/data1/matengyu/geyugong/neuroadapter-author-first/runtime/env/bin/python",
+    "-B",
+    "scripts/tokenkeep_evaluate.py",
+    "--epoch",
+    "500",
+    "--phase",
+    "score"
+  ],
+  "unix_time": 1791668284.5180342
+}

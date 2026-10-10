@@ -1,0 +1,143 @@
+{
+  "unix_time": 1791671414.6029272,
+  "execution_complete": true,
+  "training_complete": true,
+  "validation_complete": true,
+  "ai_atlas_review_complete": true,
+  "all_generation_hashes_verified": true,
+  "candidate_csv_means_verified": true,
+  "same_500_ids_and_full_negative_pools": true,
+  "protected_unchanged": true,
+  "selected_run": "subject01-author-fp32-seed42-lr1e-5-from400",
+  "selected_epoch": 450,
+  "new_winner": false,
+  "k2_gate_passed": false,
+  "k4_run": false,
+  "standard_test_rerun": false,
+  "standard_test_reference": "reports/balanced-lr-from400/test982/metrics/metrics.json",
+  "standard_test_reference_sha256": "0792c1b4a15a7d87b9ff8cb6f25495ac092d852707491773b5584c7e4d309514",
+  "metrics": {
+    "L450": {
+      "PixCorr": 0.07751134281488614,
+      "SSIM": 0.2813881092528161,
+      "Alex(2)": 75.37695390781563,
+      "Alex(5)": 86.97895791583167,
+      "Incep": 85.81222444889778,
+      "CLIP": 87.08236472945893,
+      "Eff": 0.7807303009206512,
+      "SwAV": 0.46198838581460233
+    },
+    "original_L500": {
+      "PixCorr": 0.07997764144783082,
+      "SSIM": 0.2844393602274794,
+      "Alex(2)": 76.70981963927856,
+      "Alex(5)": 87.06993987975952,
+      "Incep": 85.74829659318637,
+      "CLIP": 86.83306613226452,
+      "Eff": 0.7782322935568191,
+      "SwAV": 0.4605133026762267
+    },
+    "tokenkeep_L500": {
+      "PixCorr": 0.08055835510821083,
+      "SSIM": 0.28139363405557216,
+      "Alex(2)": 76.111623246493,
+      "Alex(5)": 86.9054108216433,
+      "Incep": 86.23346693386773,
+      "CLIP": 86.33106212424849,
+      "Eff": 0.779544705708127,
+      "SwAV": 0.46020124030280085
+    }
+  },
+  "S": {
+    "L450": 86.6245156980628,
+    "original_L500": 86.55043420173679,
+    "tokenkeep_L500": 86.48997995991984
+  },
+  "fixed_probe_comparison": {
+    "50": {
+      "L450": {
+        "val_true_mse": 0.501641136361286,
+        "val_brain_gain": 0.00016485934611409903,
+        "train_true_mse": 0.5106702281627804,
+        "train_brain_gain": 0.004448823048733175
+      },
+      "original_L500": {
+        "val_true_mse": 0.501799235586077,
+        "val_brain_gain": 0.00012903485912829638,
+        "train_true_mse": 0.5105939107015729,
+        "train_brain_gain": 0.004702291917055845
+      },
+      "tokenkeep_L500": {
+        "val_true_mse": 0.5020168286282569,
+        "val_brain_gain": 0.00011616316623985767,
+        "train_true_mse": 0.5105309170903638,
+        "train_brain_gain": 0.0049739067908376455
+      }
+    },
+    "250": {
+      "L450": {
+        "val_true_mse": 0.229487268748926,
+        "val_brain_gain": 0.0006860713474452496,
+        "train_true_mse": 0.23240716589498334,
+        "train_brain_gain": 0.00906038426910527
+      },
+      "original_L500": {
+        "val_true_mse": 0.22969800716964528,
+        "val_brain_gain": 0.0006647906557191163,
+        "train_true_mse": 0.23210357732023112,
+        "train_brain_gain": 0.00958260238985531
+      },
+      "tokenkeep_L500": {
+        "val_true_mse": 0.22989577514817938,
+        "val_brain_gain": 0.0006498631264548749,
+        "train_true_mse": 0.23188041109824553,
+        "train_brain_gain": 0.009971293213311583
+      }
+    },
+    "500": {
+      "L450": {
+        "val_true_mse": 0.08972923454712145,
+        "val_brain_gain": 0.0016835428541526198,
+        "train_true_mse": 0.08934145065722987,
+        "train_brain_gain": 0.006308158306637779
+      },
+      "original_L500": {
+        "val_true_mse": 0.08981300685263705,
+        "val_brain_gain": 0.0016624787385808304,
+        "train_true_mse": 0.08914483706757892,
+        "train_brain_gain": 0.006576648462214507
+      },
+      "tokenkeep_L500": {
+        "val_true_mse": 0.08990260364953429,
+        "val_brain_gain": 0.001651977130677551,
+        "train_true_mse": 0.08903404242300894,
+        "train_brain_gain": 0.006772178923711181
+      }
+    },
+    "900": {
+      "L450": {
+        "val_true_mse": 0.006744300824720995,
+        "val_brain_gain": 0.00021837562144355616,
+        "train_true_mse": 0.006779555752473243,
+        "train_brain_gain": 0.00047489901498920517
+      },
+      "original_L500": {
+        "val_true_mse": 0.006750516310603416,
+        "val_brain_gain": 0.00021628611011692556,
+        "train_true_mse": 0.006765809033822734,
+        "train_brain_gain": 0.0004947734478264465
+      },
+      "tokenkeep_L500": {
+        "val_true_mse": 0.006755683366463927,
+        "val_brain_gain": 0.00020987363677704707,
+        "train_true_mse": 0.006756311638127954,
+        "train_brain_gain": 0.000513471780323016
+      }
+    }
+  },
+  "limitations": [
+    "Repeated validation development; test historically viewed",
+    "Single training seed; budget gate is not significance",
+    "No K4 because K2 gate failed; no extra configuration"
+  ]
+}
