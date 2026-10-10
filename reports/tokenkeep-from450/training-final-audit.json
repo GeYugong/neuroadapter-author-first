@@ -1,0 +1,32 @@
+{
+  "unix_time": 1791667745.474107,
+  "training_exit_code": 0,
+  "completed_epochs": 500,
+  "global_optimizer_updates": 266000,
+  "added_updates": 26600,
+  "skipped_updates": 0,
+  "rank_updates": [
+    {
+      "rank": 0,
+      "added_updates": 26600,
+      "final_update": 266000,
+      "skipped": 0,
+      "mean_kept_tokens": 149.97813909774436
+    },
+    {
+      "rank": 1,
+      "added_updates": 26600,
+      "final_update": 266000,
+      "skipped": 0,
+      "mean_kept_tokens": 149.97813909774436
+    }
+  ],
+  "all_50_epoch_orders_match": true,
+  "checkpoint_and_export_hashes_verified": true,
+  "export_sha256": "7b7df646c0210d80cd002690d46fa7e67d74b8a0ff428ceadd402a3e634b9afd",
+  "protected_count": 1839,
+  "protected_unchanged": true,
+  "fixed_probe_complete": true,
+  "validation_complete": false,
+  "execution_complete": false
+}

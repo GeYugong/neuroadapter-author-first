@@ -1,0 +1,17 @@
+{
+  "pid": 490456,
+  "command": [
+    "/data1/matengyu/geyugong/neuroadapter-author-first/runtime/env/bin/python",
+    "-B",
+    "scripts/fixed_noise_probe.py",
+    "--checkpoint",
+    "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42-lr1e-5-tokenkeep-from450/checkpoint-500",
+    "--output",
+    "/data1/matengyu/geyugong/neuroadapter-author-first/reports/tokenkeep-from450/tokenkeep-probe-500-attempt1",
+    "--output-root",
+    "tokenkeep-from450",
+    "--budget-seconds",
+    "7200"
+  ],
+  "unix_time": 1791664844.312487
+}
