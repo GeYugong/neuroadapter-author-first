@@ -1,0 +1,24 @@
+{
+  "unix_time": 1791616731.2414908,
+  "controller_pid": 375956,
+  "controller_process_verified": true,
+  "controller_status": {
+    "phase": "waiting_two_gpus",
+    "pid": 375956,
+    "unix_time": 1791616703.5454767,
+    "busy_gpu_uuids": [
+      "GPU-f89ddc6b-9540-d783-e54d-b13aa8db4b2a",
+      "GPU-f7df3790-bc2d-bf5c-f796-1b3fd85fceb5"
+    ]
+  },
+  "actual_training_started": false,
+  "new_training_updates": 0,
+  "gpu_preflight_pending": true,
+  "protected_file_count": 1839,
+  "protected_unchanged": true,
+  "free_disk_GiB": 38.085365295410156,
+  "code_commit": "7455e51f4ad6de1c7d8c4068ceea911b3bdac11a",
+  "automation_id": "neuroadapter-token",
+  "automation_schedule": "hourly",
+  "automation_active": true
+}
