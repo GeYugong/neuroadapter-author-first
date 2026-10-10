@@ -1,0 +1,30 @@
+{
+  "unix_time": 1791624088.125619,
+  "actual_training_started": true,
+  "preflight_passed": true,
+  "both_rank_restore_exact": true,
+  "completed_epoch_order_checks": [
+    451,
+    452,
+    453
+  ],
+  "rank_updates": [
+    {
+      "rank": 0,
+      "count": 2123,
+      "latest_update": 241523,
+      "mean_kept_tokens": 149.81247056052754,
+      "skipped": 0
+    },
+    {
+      "rank": 1,
+      "count": 2123,
+      "latest_update": 241523,
+      "mean_kept_tokens": 149.81247056052754,
+      "skipped": 0
+    }
+  ],
+  "protected_count": 1839,
+  "protected_unchanged": true,
+  "validation_not_started": true
+}

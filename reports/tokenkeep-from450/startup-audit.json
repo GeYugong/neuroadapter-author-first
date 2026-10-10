@@ -1,0 +1,114 @@
+{
+  "actual_training_started": true,
+  "unix_time": 1791620576.7916453,
+  "resume_audits": [
+    {
+      "source_run": "subject01-author-fp32-seed42-lr1e-5-from400",
+      "source_checkpoint": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42-lr1e-5-from400/checkpoint-450",
+      "resume_source": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42-lr1e-5-from400/checkpoint-450",
+      "branch_run_id": "subject01-author-fp32-seed42-lr1e-5-tokenkeep-from450",
+      "rank": 0,
+      "completed_epochs": 450,
+      "global_optimizer_updates": 239400,
+      "model_exact": true,
+      "adamw_before_exact": true,
+      "adamw_unchanged": true,
+      "rng_exact": true,
+      "loader_restored": true,
+      "optimizer_lr": [
+        1e-05
+      ],
+      "optimizer_weight_decay": [
+        1e-06
+      ],
+      "next_epoch_order_sha256": "e4f4733e96414c728b435a8fe7db2f3d75bf8279bf287516c5ddf0f128bfe17a",
+      "order_matches_historical": true,
+      "continuation_target": 500
+    },
+    {
+      "source_run": "subject01-author-fp32-seed42-lr1e-5-from400",
+      "source_checkpoint": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42-lr1e-5-from400/checkpoint-450",
+      "resume_source": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42-lr1e-5-from400/checkpoint-450",
+      "branch_run_id": "subject01-author-fp32-seed42-lr1e-5-tokenkeep-from450",
+      "rank": 1,
+      "completed_epochs": 450,
+      "global_optimizer_updates": 239400,
+      "model_exact": true,
+      "adamw_before_exact": true,
+      "adamw_unchanged": true,
+      "rng_exact": true,
+      "loader_restored": true,
+      "optimizer_lr": [
+        1e-05
+      ],
+      "optimizer_weight_decay": [
+        1e-06
+      ],
+      "next_epoch_order_sha256": "e4f4733e96414c728b435a8fe7db2f3d75bf8279bf287516c5ddf0f128bfe17a",
+      "order_matches_historical": true,
+      "continuation_target": 500
+    }
+  ],
+  "first_real_updates": [
+    {
+      "update": 239401,
+      "rank": 0,
+      "mean_loss": 0.1284310519695282,
+      "microbatches": 2,
+      "lr": [
+        1e-05
+      ],
+      "skipped": false,
+      "preclip_grad_norm": 0.006020577158778906,
+      "clip_active": false,
+      "group_preclip_grad_norm": {
+        "mapper": 0.002173811662942171,
+        "projection": 0.004304392263293266,
+        "ip_kv": 0.003604732919484377
+      },
+      "update_to_weight_norm": {
+        "mapper": 6.782555797714688e-05,
+        "projection": 4.2162406594080514e-05,
+        "ip_kv": 3.866215775671454e-05
+      },
+      "mean_kept_tokens": 161.125,
+      "timestep_counts": [
+        2,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "update": 239401,
+      "rank": 1,
+      "mean_loss": 0.10166222602128983,
+      "microbatches": 2,
+      "lr": [
+        1e-05
+      ],
+      "skipped": false,
+      "preclip_grad_norm": 0.006020577158778906,
+      "clip_active": false,
+      "group_preclip_grad_norm": {
+        "mapper": 0.002173811662942171,
+        "projection": 0.004304392263293266,
+        "ip_kv": 0.003604732919484377
+      },
+      "update_to_weight_norm": {
+        "mapper": 6.782555797714688e-05,
+        "projection": 4.2162406594080514e-05,
+        "ip_kv": 3.866215775671454e-05
+      },
+      "mean_kept_tokens": 161.125,
+      "timestep_counts": [
+        2,
+        1,
+        2,
+        3
+      ]
+    }
+  ],
+  "keep_min": 0.5,
+  "code_commit": "b6a6f2e7e8b81fc073cd881a6015761ab9f31608"
+}

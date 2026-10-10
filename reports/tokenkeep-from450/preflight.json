@@ -1,0 +1,25 @@
+{
+  "passed": true,
+  "new_optimizer_updates": 0,
+  "train_only_ids": [
+    52243,
+    41333,
+    20034,
+    13835
+  ],
+  "keep_min_zero_exact_loss_rng_gradients": true,
+  "keep_min_half_same_rng_consumption": true,
+  "strict_source_loaded": true,
+  "parcel_identity": true,
+  "frozen_parameters_no_grad": true,
+  "base_loss": 0.15061423182487488,
+  "new_loss": 0.14996148645877838,
+  "group_grad_norms": {
+    "mapper": 0.004500827444737206,
+    "projection": 0.009930830981979206,
+    "ip_kv": 0.007649781344519816
+  },
+  "max_allocated_bytes": 11495181824,
+  "keep_min": 0.5,
+  "seconds": 5.41794622130692
+}
