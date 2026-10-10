@@ -1,0 +1,63 @@
+{
+  "authorized": true,
+  "unix_time": 1791616186.5732577,
+  "user_request": "分析本轮损失并启动下一轮训练；沿用每小时检查。",
+  "source": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42-lr1e-5-from400/checkpoint-450",
+  "run_id": "subject01-author-fp32-seed42-lr1e-5-tokenkeep-from450",
+  "only_scientific_change": "Token retention probability U(0,1) -> U(0.5,1), with unchanged CPU RNG draw count and mask uniforms",
+  "keep_probability_min": 0.5,
+  "expected_kept_tokens": 150,
+  "base_objective": "original MinSNR gamma5 epsilon MSE; no spatial L1",
+  "learning_rate": 1e-05,
+  "weight_decay": 1e-06,
+  "seed": 42,
+  "maximum_added_epochs": 50,
+  "maximum_added_updates": 26600,
+  "targets": [
+    500
+  ],
+  "reference": "reports/balanced-lr-from400/epoch-450/val500/metrics.json",
+  "same_budget_control500": "reports/balanced-lr-from400/epoch-500/val500/metrics.json",
+  "gate": {
+    "non_degrading": [
+      "S",
+      "PixCorr",
+      "SSIM"
+    ],
+    "material_S_pp": 0.3,
+    "alternative_both_structure_absolute": 0.005,
+    "max_recognition_drop_pp": 0.5,
+    "max_distance_increase": 0.005
+  },
+  "validation": "same val500 K2 full pools fixed seed42; no candidate selection",
+  "confirmation": {
+    "K4": true,
+    "additional_seeds": [
+      142,
+      143
+    ],
+    "reference": "lowLR L450",
+    "same_gate": true,
+    "only_after_final_K2_candidate_pass": true,
+    "no_retries": true
+  },
+  "test": "Only confirmed final new winner standard982 K1 once, otherwise reuse L450",
+  "resource_policy": "Wait for both GPUs without compute processes, do not terminate any jobs",
+  "no_feishu": true,
+  "no_human_reports": true,
+  "limitations": [
+    "one training seed",
+    "validation reused for development and test historically viewed",
+    "custom dropout protocol not exact paper reproduction",
+    "hypothesis may increase overfitting"
+  ],
+  "disk_policy": {
+    "start_free_GiB": 32,
+    "post_checkpoint_free_GiB": 15,
+    "maximum_training_epochs": 50
+  },
+  "no_continuation_beyond500": true,
+  "no_interim_checkpoint_selection": true,
+  "old475_control_limit": "Original full checkpoint475 no longer exists; only fixed probe records remain. No fabricated image metrics.",
+  "diagnostic_protocol": "Frozen common probe: full correct/wrong/zero brain and original U(0,1) mask for all checkpoints; masked probe is a common stress test, not this run training distribution."
+}

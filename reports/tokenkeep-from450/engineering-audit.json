@@ -1,0 +1,55 @@
+{
+  "passed": true,
+  "new_optimizer_updates": 0,
+  "new_gpu_contexts": 0,
+  "keep_min_zero_original_exact": true,
+  "same_rng_draw_consumption": true,
+  "half_mask_superset_of_original_same_uniforms": true,
+  "cpu_batch": 4096,
+  "mean_kept_tokens": 150.49267578125,
+  "original_mean_kept_tokens": 100.858642578125,
+  "scientific_change": "only retention floor 0 to 0.5",
+  "gpu_preflight_pending": true,
+  "syntax_files": [
+    "tokenkeep_resume.py",
+    "scripts/tokenkeep_objective.py",
+    "scripts/tokenkeep_train.py",
+    "scripts/tokenkeep_preflight.py",
+    "scripts/tokenkeep_evaluate.py",
+    "scripts/tokenkeep_controller.py",
+    "scripts/fixed_noise_probe.py"
+  ],
+  "source450_configuration_valid": true,
+  "rejected_invalid_configurations": [
+    [
+      "learning_rate",
+      5e-05
+    ],
+    [
+      "weight_decay",
+      0.1
+    ],
+    [
+      "num_train_epochs",
+      501
+    ],
+    [
+      "num_train_epochs",
+      475
+    ],
+    [
+      "run_id",
+      "wrong"
+    ],
+    [
+      "train_batch_size",
+      2
+    ],
+    [
+      "seed",
+      43
+    ]
+  ],
+  "telemetry_mask_exact_without_rng_effect": true,
+  "unix_time": 1791616601.3768973
+}
