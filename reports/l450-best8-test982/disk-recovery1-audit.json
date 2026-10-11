@@ -1,0 +1,21 @@
+{
+  "unix_time": 1791708635.7199242,
+  "reason": "Shared filesystem exhausted during first two samples; both children exited1 on disk reserve checks; no models or scientific protocol changed",
+  "initial_failure_controller": "{\n  \"utc\": \"2026-10-11T08:47:28Z\",\n  \"status\": \"failed\",\n  \"traceback\": \"Traceback (most recent call last):\\n  File \\\"/data1/matengyu/geyugong/neuroadapter-author-first/scripts/evaluate_best8.py\\\", line 376, in controller\\n    raise RuntimeError('Pipeline child failed; existing outputs preserved')\\nRuntimeError: Pipeline child failed; existing outputs preserved\\n\"\n}",
+  "all_initial_children_confirmed_exited": true,
+  "base_script_sha256": "a240e70ae48205eb1d95f6baed140606f7bbf21ab498b93583a61b7b3c6d6155",
+  "recovery_script_sha256": "b49a5f29a23dd0235d19348bf443e69d07ae46a9fac92b76897c1654f90aadd3",
+  "queue_sha256": {
+    "image_002950.npz": "fa4008d301cae69728efa2ec66d1112340107ba662537045cdf3a68016a4b0fd",
+    "image_002990.npz": "fedfc4cd02d4c669f3dd056ed3342bd856c4b3143c143ab6be896106b6c199d9"
+  },
+  "resume_skip_image_ids": [
+    2950,
+    2990
+  ],
+  "spool_checks": "Both 8x512x512x3 uint8, eight unique pixel SHA/seeds, seed hashes match, candidate0 pixel-identical old K1, finite brain arrays",
+  "initial_completed_selection_count": 0,
+  "protected_original_logs": true,
+  "resource_gate": "4GiB available and both GPUs idle; retain production2GiB reserve",
+  "science_changes": null
+}
