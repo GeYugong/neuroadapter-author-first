@@ -1,0 +1,18 @@
+{
+  "utc": "2026-10-11T08:42:57Z",
+  "passed": true,
+  "checks": [
+    {
+      "image_id": 2950,
+      "bitwise_equal": true,
+      "pixel_sha256": "571501fb0edc3bfde3d117aa8a9868c5942649c0cce49ca6287e39fc4380943f"
+    },
+    {
+      "image_id": 2990,
+      "bitwise_equal": true,
+      "pixel_sha256": "b0ed144e4ecfc888f30d7830a67903cadfbedecf117202b52a327d70a6896a2c"
+    }
+  ],
+  "max_gpu_bytes": 6136777216,
+  "training_updates": 0
+}

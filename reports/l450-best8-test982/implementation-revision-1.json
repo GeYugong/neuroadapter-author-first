@@ -1,0 +1,6 @@
+{
+  "unix_time": 1791708148.1478558,
+  "old_hash": "c90f16a8b3d9492ca4927339607ea95c5b9eb46b9c963ebc77d38a101f98514e",
+  "new_hash": "a240e70ae48205eb1d95f6baed140606f7bbf21ab498b93583a61b7b3c6d6155",
+  "reason": "Pass required existing data paths to decoder argument parser before zero-update generation preflight; no scientific config changes"
+}
