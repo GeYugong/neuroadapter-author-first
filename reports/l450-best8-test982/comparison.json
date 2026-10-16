@@ -1,0 +1,42 @@
+{
+  "utc": "2026-10-15T19:00:22Z",
+  "K1": {
+    "PixCorr": 0.10214363863118602,
+    "SSIM": 0.2847691507742575,
+    "Alex(2)": 78.31829194616242,
+    "Alex(5)": 88.45249143087295,
+    "Incep": 85.69012873932623,
+    "CLIP": 86.77780061494256,
+    "Eff": 0.7623267301407157,
+    "SwAV": 0.44938805365825074
+  },
+  "best8": {
+    "PixCorr": 0.09694788219474408,
+    "SSIM": 0.265392571756641,
+    "Alex(2)": 79.05188396228961,
+    "Alex(5)": 89.33327935458021,
+    "Incep": 86.38697368120563,
+    "CLIP": 86.94119014846233,
+    "Eff": 0.7573734110501886,
+    "SwAV": 0.44315322894654224
+  },
+  "delta": {
+    "PixCorr": -0.005195756436441934,
+    "SSIM": -0.019376579017616524,
+    "Alex(2)": 0.73359201612719,
+    "Alex(5)": 0.8807879237072598,
+    "Incep": 0.6968449418794052,
+    "CLIP": 0.16338953351976215,
+    "Eff": -0.004953319090527097,
+    "SwAV": -0.006234824711708498
+  },
+  "same_weight": true,
+  "candidate0_matches_K1": true,
+  "training_updates": 0,
+  "atlas_review_pending": true,
+  "limitations": [
+    "Repeatedly viewed test; not independent blind testing",
+    "Official brain encoder development split remains unverified",
+    "Authors exact historical random streams unknown; fixed existing per-ID seeds"
+  ]
+}

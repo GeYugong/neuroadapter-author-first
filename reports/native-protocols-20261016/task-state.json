@@ -1,0 +1,52 @@
+{
+  "task": "L450 best8 eight metrics, native baseline candidate protocols, update existing PPT",
+  "source_ppt": "D:/0code/Research/x_neuroadapter/results-ppt-20261013/output/NeuroAdapter_结果对比_20261016_精选优势案例.pptx",
+  "source_preserved": true,
+  "selected_ids": [
+    54257,
+    43500,
+    48530,
+    69614,
+    41814,
+    42563,
+    34238,
+    44729,
+    32772,
+    28788
+  ],
+  "training_authorized": false,
+  "method_protocols": {
+    "L450": "8 candidates, brain response correlation argmax; score existing982 only",
+    "MindEye1": "existing native16 brain-predicted CLIP selector; reverify hashes and per-image means",
+    "Brain-Diffuser": "official single candidate; preserve existing full-pipeline metrics",
+    "MindBridge(s)": "8 candidates; original GT hidden-token CLIP argmax; must disclose GT access",
+    "Takagi": "5 candidates; mean five correlations BEFORE identification; no selector",
+    "ImageNet": "existing brain-response retrieval Top1; preserve corrected metrics"
+  },
+  "pending": [
+    "Three-end code/audit sync"
+  ],
+  "gpu_policy": "Never evict other users. Serialized L450 then MindBridge then Takagi; controllers wait for a free GPU.",
+  "limitation": "Current Python3.11 runtime differs from original library versions; CPU compatibility checks do not prove GPU output equivalence.",
+  "timer_policy": "No heartbeat recreated",
+  "deliverable_complete": false,
+  "updated_utc": "2026-10-16T05:13:48.406321+00:00",
+  "completed_this_turn": [
+    "L450 best8 metrics and per-image means verified",
+    "MindEye native16 all982 SHA reverified and10 images retrieved",
+    "MindBridge free-GPU guard and absent encoder_attention_mask compatibility fixed; recovery2 is generating",
+    "15-slide local PPT working draft built;6 changed pages visually inspected; original preserved"
+  ],
+  "local_working_ppt": "D:/0code/Research/x_neuroadapter/results-ppt-20261013/.build/protocol-update/native-protocol-working.pptx",
+  "local_ppt_builder": "D:/0code/Research/x_neuroadapter/results-ppt-20261013/.build/protocol-update/update-deck.mjs",
+  "delivery": "pptx",
+  "document_id": "FGnudJsJ5ohqY5xh2LncIw3xnfe",
+  "document_url": "https://my.feishu.cn/docx/FGnudJsJ5ohqY5xh2LncIw3xnfe",
+  "ppt_updates_cancelled": false,
+  "document_image_policy": "Historical Feishu originals retained; final delivery restored to PPT using original source PNG assets.",
+  "feishu_updates_cancelled": true,
+  "feishu_document_preserved": true,
+  "evaluations_complete": true,
+  "ppt_complete": true,
+  "final_ppt": "D:/0code/Research/x_neuroadapter/results-ppt-20261013/output/NeuroAdapter_结果对比_20261016_原生协议_交付版.pptx"
+}

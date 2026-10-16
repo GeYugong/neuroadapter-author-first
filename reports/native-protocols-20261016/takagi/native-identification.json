@@ -1,0 +1,36 @@
+{
+  "n": 982,
+  "K": 5,
+  "negative_pool": 982,
+  "mean": {
+    "Incep": 75.79333196310345,
+    "AN2": 85.06355998181331,
+    "AN5": 83.07101735416913,
+    "CLIP": 77.2866749295681
+  },
+  "selection": "none",
+  "aggregation": "Mean of five Pearson correlations BEFORE strict pairwise comparison",
+  "original_formula_error": {
+    "Incep": 2.7755575615628914e-17,
+    "AN2": 1.6653345369377348e-16,
+    "AN5": 6.245004513516506e-17,
+    "CLIP": 3.3306690738754696e-16
+  },
+  "feature_input": "Original PIL Resize299/CenterCrop299 for AlexNet and Inception; original HF CLIPProcessor",
+  "source_sha256": {
+    "img2feat_decoded.py": "8ccb58e7bf19784a3dd3731682570ed8b467aad5f58e47840889e1b5c27fd03f",
+    "identification.py": "d9a5caf61442cf6ff78cb0f7d2c7262984d14685ca151ea8c76c3b790bb8d13c"
+  },
+  "undefined_table_metrics": [
+    "PixCorr",
+    "SSIM",
+    "Eff",
+    "SwAV"
+  ],
+  "feature_files": {
+    "Incep": "725b2bdd1eeda47a9018b012e24020201837ddb2ae3a8caaf56482847d6f94e1",
+    "AN2": "2101a4b5072668f7b270f334a3c889ee42c1b85ebbb035945d172bf76acb58b9",
+    "AN5": "f5585c55779c24ac4c9a8bbf4a3c9c8f443cafad83b937135faccbecca442db0",
+    "CLIP": "8a2c24b223c7003b520e7c8a1989c02dd94d659ef56d5354749fe3640316fbc9"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "n": 982,
+  "MindBridge": {
+    "K": 8,
+    "selection": "GT CLIP argmax",
+    "all_candidate_and_selected_hashes": "pass",
+    "ordered_ids_and_per_image_means": "pass",
+    "generation_exit": 0,
+    "score_exit": 0
+  },
+  "Takagi": {
+    "n": 982,
+    "K": 5,
+    "all_candidate_hashes": "pass",
+    "ids_and_per_image_means": "pass",
+    "selection": "none",
+    "display_candidate": 0
+  },
+  "L450": {
+    "n": 982,
+    "seeds": 7856,
+    "records_selected_and_K1_hashes": "pass",
+    "protected_files": 987,
+    "protected_hashes": "pass",
+    "fixed32_candidates_hashes": "pass",
+    "visual_review": "Four comparison pages and four candidate pages reviewed"
+  },
+  "visual_review": {
+    "L450_comparison_pages": 4,
+    "L450_candidate_pages": 4,
+    "ppt_pages": 15,
+    "result": "reviewed; mixed reconstruction outcomes, not universal improvement"
+  },
+  "script_ast_parse": "pass",
+  "script_sha256": {
+    "scripts/mindbridge_native8.py": "eb3ca1220e95359804b3a6d459defc6be449574858431fb2f32430cdc5a395f0",
+    "scripts/takagi_native5.py": "182ca5194167357227bce226d7359b22bf69ae9792ed082bd99785a6439b1b66",
+    "scripts/score_takagi_native5.py": "4429a0fd8646e57b2cccfe6b432c938f70dc499ca1ebd6bcae850e7749a81aa4",
+    "scripts/score_l450_completed.py": "2d3730a307dac0f63c09e71769c2262760cb3d3ed12ac2b4cb50ec603761531b"
+  }
+}

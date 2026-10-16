@@ -1,0 +1,16 @@
+{
+  "sha256": "85e6cc1195d78c7e85e72261ffa0ccbe7160715e6355fd26bb8a6f72b90c60a5",
+  "slides": 15,
+  "original_png_bytes_verified": 70,
+  "original_ppt_unchanged": true,
+  "all_pages_visually_reviewed": true,
+  "fixed_ids_preserved": true,
+  "chart_workbook_numeric_values": 28,
+  "layout_warnings": 0,
+  "native_powerpoint_application_opened": false,
+  "l450_atlas_review": {
+    "comparison_pages": 4,
+    "candidate_pages": 4,
+    "observations": "Mixed outcomes: IDs3077 and4058 recover windsurfing/giraffe semantics; ID3449 loses surfing action; ID4325 becomes a framed surreal bird image. No claim of universal improvement."
+  }
+}

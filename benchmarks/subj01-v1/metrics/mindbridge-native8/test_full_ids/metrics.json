@@ -1,0 +1,23 @@
+{
+  "feature_batch": 16,
+  "negative_pool": "all requested IDs; unchanged original formula",
+  "method": "mindbridge-native8",
+  "n_eval": 982,
+  "K": 8,
+  "selection": "author GT hidden-token CLIP similarity",
+  "eval_ids_hash": "4c438772ffa978ab8c5f781b8a3fc73df0159ae4892dc39d896f05a413d36441",
+  "mean": {
+    "PixCorr": 0.16415232701226734,
+    "SSIM": 0.25662854176568467,
+    "Alex(2)": 87.58114978896383,
+    "Alex(5)": 96.24640055141373,
+    "Incep": 91.8004197886109,
+    "CLIP": 92.99802147108711,
+    "Eff": 0.7388825120014395,
+    "SwAV": 0.4266216946233416
+  },
+  "metric_sha256": "646ee1f3673b033cd6ee485058db16a3d24fae7624d793fe5174008ad2e15f7d",
+  "GT": "original NSD425x425 RGB uint8/255",
+  "prediction_serialization": "Original candidate tensor selected by native GT-CLIP selector; FP32 cast for metrics; PNG is atlas-only",
+  "prediction_resize": "author resize_images bilinear align_corners=False to425 before metric-specific preprocessing"
+}

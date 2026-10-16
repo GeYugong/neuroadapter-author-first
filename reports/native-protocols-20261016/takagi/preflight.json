@@ -1,0 +1,64 @@
+{
+  "n": 982,
+  "K": 5,
+  "selection": "none; average candidate feature correlations before pairwise identification",
+  "native_parameters": {
+    "ddim_steps": 50,
+    "strength": 0.8,
+    "cfg": 5,
+    "eta": 0,
+    "seed": 42
+  },
+  "source_sha256": "23cfc426025e1a9ccd1c00ba994758d70e685ac9de65a0068340353cffd08d8b",
+  "checkpoint_sha256": "fe4efff1e174c627256e44ec2991ba279b3816e364b49f9be2abc0b3ff3f8556",
+  "ast_adaptations": {
+    "outdir": 1,
+    "scores_latent": 1,
+    "scores_c": 1,
+    "GT_save": 1
+  },
+  "input_audit": {
+    "utc": "2026-10-15T18:52:53.081559+00:00",
+    "pool": "testfull",
+    "n_eval": 982,
+    "ids_sha256": "4c438772ffa978ab8c5f781b8a3fc73df0159ae4892dc39d896f05a413d36441",
+    "source_sha256": "23cfc426025e1a9ccd1c00ba994758d70e685ac9de65a0068340353cffd08d8b",
+    "adapter_sha256": "fed13a4060e18a3d319948b7e34e5252bea6d4df21548017eb308d0a98ff450c",
+    "model_sha256": "fe4efff1e174c627256e44ec2991ba279b3816e364b49f9be2abc0b3ff3f8556",
+    "prediction_sha256": {
+      "processed/takagi-regression/subj01_early_scores_init_latent.npy": "7efc06496bae6a4ee4059891719afd639fdbb17ec9f4a72dd5de0e31b8f254ff",
+      "processed/takagi-regression/subj01_ventral_scores_c.npy": "42beb788bd74a6ee09f09da0ca3f6262f06bcf8e5d720f5bf98c33828df1625a"
+    },
+    "variant": "Original Takagi CVPR SD1.4; predicted early z and ventral c",
+    "K": 1,
+    "selection": "none; native first candidate",
+    "ddim_steps": 50,
+    "t_enc": 40,
+    "strength": 0.8,
+    "CFG": 5.0,
+    "eta": 0.0,
+    "resolution": 512,
+    "seed": 42,
+    "precision": "Original autocast/EMA scopes; original posterior encoding outside autocast",
+    "gt_access": false,
+    "ast_adaptations": {
+      "K": 1,
+      "output": 1,
+      "predicted_z": 1,
+      "predicted_c": 1,
+      "remove_GT_save": 1
+    },
+    "randomness": "Seed42 before author model construction; cold first image then restore exact post-load Python/NumPy/CPU/CUDA RNG for cached-model images",
+    "cache_validation": "First target cold and cached outputs must be pixel-identical; extra check is not candidate selection",
+    "gpu_inference_verified": false
+  },
+  "missing_keys": [],
+  "unexpected_keys": [
+    "model_ema.decay",
+    "model_ema.num_updates",
+    "cond_stage_model.transformer.text_model.embeddings.position_ids"
+  ],
+  "runtime_compatibility": "Python3.11 runtime; Lightning2.5.5 base module and relocated rank_zero_only; original diffusion code",
+  "gpu_forward_verified": false,
+  "metric_note": "Original paper identification is not best-of-five; unspecified eight-table metrics remain separate"
+}
