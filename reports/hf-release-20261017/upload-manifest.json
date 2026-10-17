@@ -1,0 +1,245 @@
+{
+  "created_unix": 1792252742.6198616,
+  "server_head": "5a8b2e62a32a00b136c620fdb3f30ea797744c8e",
+  "packages": [
+    {
+      "repo": "gugabobo/neuroadapter-subject01-l450",
+      "method": "NeuroAdapter L450",
+      "selection": "Selected on development validation; later single-variable branches did not replace L450.",
+      "files": [
+        {
+          "source": "runs/subject01-author-fp32-seed42-lr1e-5-from400/exports/epoch-450/inference.pt",
+          "path": "inference.pt",
+          "size": 464288905,
+          "sha256": "a3b7de590bf3ef3798935fcce53fdf2d13caed9467d2664ee7fdc9c11d19e596"
+        },
+        {
+          "source": "runs/subject01-author-fp32-seed42-lr1e-5-from400/exports/epoch-450/parcel_vertices.pt",
+          "path": "parcel_vertices.pt",
+          "size": 472799,
+          "sha256": "a5aceb7d1ec1ad6c8193cbe6f0fd2db23d298a6d4182e74aeac3a980a7b86ad3"
+        }
+      ],
+      "metrics": {
+        "k1": {
+          "feature_batch": 16,
+          "negative_pool": "all requested IDs; unchanged original formula",
+          "method": "neuroadapter",
+          "n_eval": 982,
+          "K": 1,
+          "selection": "none",
+          "eval_ids_hash": "4c438772ffa978ab8c5f781b8a3fc73df0159ae4892dc39d896f05a413d36441",
+          "mean": {
+            "PixCorr": 0.10214363863118602,
+            "SSIM": 0.2847691507742575,
+            "Alex(2)": 78.31829194616242,
+            "Alex(5)": 88.45249143087295,
+            "Incep": 85.69012873932623,
+            "CLIP": 86.77780061494256,
+            "Eff": 0.7623267301407157,
+            "SwAV": 0.44938805365825074
+          },
+          "metric_sha256": "646ee1f3673b033cd6ee485058db16a3d24fae7624d793fe5174008ad2e15f7d",
+          "GT": "original NSD425x425 RGB uint8/255",
+          "prediction_serialization": "Existing method-native exported uint8 outputs",
+          "prediction_resize": "author resize_images bilinear align_corners=False to425 before metric-specific preprocessing"
+        },
+        "brain_encoder_best8": {
+          "utc": "2026-10-15T19:00:22Z",
+          "K1": {
+            "PixCorr": 0.10214363863118602,
+            "SSIM": 0.2847691507742575,
+            "Alex(2)": 78.31829194616242,
+            "Alex(5)": 88.45249143087295,
+            "Incep": 85.69012873932623,
+            "CLIP": 86.77780061494256,
+            "Eff": 0.7623267301407157,
+            "SwAV": 0.44938805365825074
+          },
+          "best8": {
+            "PixCorr": 0.09694788219474408,
+            "SSIM": 0.265392571756641,
+            "Alex(2)": 79.05188396228961,
+            "Alex(5)": 89.33327935458021,
+            "Incep": 86.38697368120563,
+            "CLIP": 86.94119014846233,
+            "Eff": 0.7573734110501886,
+            "SwAV": 0.44315322894654224
+          },
+          "delta": {
+            "PixCorr": -0.005195756436441934,
+            "SSIM": -0.019376579017616524,
+            "Alex(2)": 0.73359201612719,
+            "Alex(5)": 0.8807879237072598,
+            "Incep": 0.6968449418794052,
+            "CLIP": 0.16338953351976215,
+            "Eff": -0.004953319090527097,
+            "SwAV": -0.006234824711708498
+          },
+          "same_weight": true,
+          "candidate0_matches_K1": true,
+          "training_updates": 0,
+          "atlas_review_pending": true,
+          "limitations": [
+            "Repeatedly viewed test; not independent blind testing",
+            "Official brain encoder development split remains unverified",
+            "Authors exact historical random streams unknown; fixed existing per-ID seeds"
+          ]
+        }
+      }
+    },
+    {
+      "repo": "gugabobo/mindbridge-subject01-reproduction",
+      "method": "MindBridge single-subject",
+      "selection": "last.pth: fixed 600-epoch endpoint used in reported inference; best.pth: native validation-selected checkpoint, not separately test-selected.",
+      "files": [
+        {
+          "source": "benchmarks/subj01-v1/upstream/mindbridge/train_logs/benchmark-subj01-vanilla-seed42/last.pth",
+          "path": "last.pth",
+          "size": 2245139483,
+          "sha256": "5bd75a992755d70183633df514754b9084b0a4a681284afc83621b2387aac9ad"
+        },
+        {
+          "source": "benchmarks/subj01-v1/upstream/mindbridge/train_logs/benchmark-subj01-vanilla-seed42/best.pth",
+          "path": "best.pth",
+          "size": 2245139483,
+          "sha256": "7c6e51d23f48a2cc4b8f21a14f0d78bd200e4b8773b41bf13c3530fb6a55cd3b"
+        }
+      ],
+      "metrics": {
+        "native8_gt_clip": {
+          "feature_batch": 16,
+          "negative_pool": "all requested IDs; unchanged original formula",
+          "method": "mindbridge-native8",
+          "n_eval": 982,
+          "K": 8,
+          "selection": "author GT hidden-token CLIP similarity",
+          "eval_ids_hash": "4c438772ffa978ab8c5f781b8a3fc73df0159ae4892dc39d896f05a413d36441",
+          "mean": {
+            "PixCorr": 0.16415232701226734,
+            "SSIM": 0.25662854176568467,
+            "Alex(2)": 87.58114978896383,
+            "Alex(5)": 96.24640055141373,
+            "Incep": 91.8004197886109,
+            "CLIP": 92.99802147108711,
+            "Eff": 0.7388825120014395,
+            "SwAV": 0.4266216946233416
+          },
+          "metric_sha256": "646ee1f3673b033cd6ee485058db16a3d24fae7624d793fe5174008ad2e15f7d",
+          "GT": "original NSD425x425 RGB uint8/255",
+          "prediction_serialization": "Original candidate tensor selected by native GT-CLIP selector; FP32 cast for metrics; PNG is atlas-only",
+          "prediction_resize": "author resize_images bilinear align_corners=False to425 before metric-specific preprocessing"
+        }
+      }
+    },
+    {
+      "repo": "gugabobo/takagi-subject01-regression",
+      "method": "Takagi 2023 regression",
+      "selection": "Original RidgeCV fitted pipelines for early visual ROI -> initial latent and ventral ROI -> text conditioning; no checkpoint sweep.",
+      "files": [
+        {
+          "source": "benchmarks/subj01-v1/processed/takagi-regression/init_latent.joblib",
+          "path": "init_latent.joblib",
+          "size": 151669595,
+          "sha256": "2308f46290d1a58318378dc709c555abe6aac2ddc5985cbb4fbbdc34a50c1ec7"
+        },
+        {
+          "source": "benchmarks/subj01-v1/processed/takagi-regression/c.joblib",
+          "path": "c.joblib",
+          "size": 1799337371,
+          "sha256": "4c98f62d273b49d41a018c054fa8b5bb8c09495728545025e41fe9e78a8195d9"
+        }
+      ],
+      "metrics": {}
+    },
+    {
+      "repo": "gugabobo/brain-diffuser-subject01-regression",
+      "method": "Brain-Diffuser regression",
+      "selection": "Author fixed-alpha regressions; VDVAE alpha50000, CLIP vision60000, CLIP text100000. Not selected on test scores.",
+      "files": [
+        {
+          "source": "benchmarks/subj01-v1/processed/brain-diffuser-regression/vdvae/vdvae_regression_weights.pkl",
+          "path": "vdvae/regression_weights.pkl",
+          "size": 11468934634,
+          "sha256": "63edf0f89d32857a996b2bdcc3cce0d296769773fc8b44731f87ecfd4d3ec3fb"
+        },
+        {
+          "source": "benchmarks/subj01-v1/processed/brain-diffuser-regression/vdvae/normalization.npz",
+          "path": "vdvae/normalization.npz",
+          "size": 2441284,
+          "sha256": "f4a8c8d5e69be6ae1465124b7b02777cc5264c47657165ae4288bc44bf13fc2a"
+        },
+        {
+          "source": "benchmarks/subj01-v1/processed/brain-diffuser-regression/clipvision/clipvision_regression_weights.pkl",
+          "path": "clipvision/regression_weights.pkl",
+          "size": 12414950636,
+          "sha256": "5ce0e46741326efae0da9f220486fc791d447cf960ee1470171fa4ab770f3044"
+        },
+        {
+          "source": "benchmarks/subj01-v1/processed/brain-diffuser-regression/clipvision/brain-normalization.npz",
+          "path": "clipvision/brain-normalization.npz",
+          "size": 252096,
+          "sha256": "449e1193d30ac39bfd6b668b0c04e1259b1df929cf86fe26f119065564c218c6"
+        },
+        {
+          "source": "reports/hf-release-20261017/clipvision-target-normalization.npz",
+          "path": "clipvision/target-normalization.npz",
+          "size": 3158834,
+          "sha256": "ffd8040853e6cca0165727295c7ef4bf7beead46abd435d903ff9821d94d1e6c"
+        },
+        {
+          "source": "benchmarks/subj01-v1/processed/brain-diffuser-regression/cliptext/cliptext_regression_weights.pkl",
+          "path": "cliptext/regression_weights.pkl",
+          "size": 3719654630,
+          "sha256": "9118ce34137be2ccf069e0b996348ebddcdcc6e01d4a963f6e904a3ad24034b4"
+        },
+        {
+          "source": "benchmarks/subj01-v1/processed/brain-diffuser-regression/cliptext/brain-normalization.npz",
+          "path": "cliptext/brain-normalization.npz",
+          "size": 252096,
+          "sha256": "449e1193d30ac39bfd6b668b0c04e1259b1df929cf86fe26f119065564c218c6"
+        },
+        {
+          "source": "reports/hf-release-20261017/cliptext-target-normalization.npz",
+          "path": "cliptext/target-normalization.npz",
+          "size": 946994,
+          "sha256": "00988dbc2a57d60fc392d715b366b09d230d1cb4404de2c5c45d441f7f5ba326"
+        }
+      ],
+      "metrics": {
+        "single_candidate": {
+          "feature_batch": 16,
+          "negative_pool": "all requested IDs; unchanged original formula",
+          "method": "brain-diffuser",
+          "n_eval": 982,
+          "K": 1,
+          "selection": "none",
+          "eval_ids_hash": "4c438772ffa978ab8c5f781b8a3fc73df0159ae4892dc39d896f05a413d36441",
+          "mean": {
+            "PixCorr": 0.3444836344075664,
+            "SSIM": 0.3728370124009039,
+            "Alex(2)": 94.68817927589579,
+            "Alex(5)": 92.11422319383978,
+            "Incep": 72.62851614483745,
+            "CLIP": 71.26835537119736,
+            "Eff": 0.9329788106607166,
+            "SwAV": 0.626845034871439
+          },
+          "metric_sha256": "646ee1f3673b033cd6ee485058db16a3d24fae7624d793fe5174008ad2e15f7d",
+          "GT": "original NSD425x425 RGB uint8/255",
+          "prediction_resize": "author resize_images bilinear align_corners=False to425 before metric-specific preprocessing"
+        }
+      }
+    }
+  ],
+  "excluded": [
+    "Senior E750: user explicitly excluded",
+    "MindEye1: downloaded official pretrained weights",
+    "Frozen SD/VD/CLIP/VDVAE and official brain encoders: downloaded pretrained weights",
+    "Raw NSD images, brain responses, per-sample training features, credentials"
+  ],
+  "notes": [
+    "Inference weights, not full optimizer/RNG backups. Full final resume states remain on the server.",
+    "Existing historical L120 and selection-4090 Hub repositories are preserved."
+  ]
+}

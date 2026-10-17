@@ -1,0 +1,179 @@
+{
+  "phase": "old-recovery",
+  "unix_time": 1792253261.760403,
+  "files": [
+    {
+      "path": "benchmarks/subj01-v1/processed/mindbridge-recovery-epoch420/best.pth",
+      "size": 2245139483,
+      "allocated": 2245144576,
+      "mtime_ns": 1790530491298699226
+    },
+    {
+      "path": "benchmarks/subj01-v1/processed/mindbridge-recovery-epoch420/last/latest",
+      "size": 13,
+      "allocated": 4096,
+      "mtime_ns": 1790530466740834846
+    },
+    {
+      "path": "benchmarks/subj01-v1/processed/mindbridge-recovery-epoch420/last/pytorch_model/mp_rank_00_model_states.pt",
+      "size": 2245142439,
+      "allocated": 2245148672,
+      "mtime_ns": 1790530399534218938
+    },
+    {
+      "path": "benchmarks/subj01-v1/processed/mindbridge-recovery-epoch420/last/pytorch_model/zero_pp_rank_0_mp_rank_00_optim_states.pt",
+      "size": 3367708165,
+      "allocated": 3367714816,
+      "mtime_ns": 1790530416233121644
+    },
+    {
+      "path": "benchmarks/subj01-v1/processed/mindbridge-recovery-epoch420/last/pytorch_model/zero_pp_rank_1_mp_rank_00_optim_states.pt",
+      "size": 3367706949,
+      "allocated": 3367714816,
+      "mtime_ns": 1790530416225121690
+    },
+    {
+      "path": "benchmarks/subj01-v1/processed/mindbridge-recovery-epoch420/last/random_states_0.pkl",
+      "size": 15691,
+      "allocated": 16384,
+      "mtime_ns": 1790530489628708373
+    },
+    {
+      "path": "benchmarks/subj01-v1/processed/mindbridge-recovery-epoch420/last/random_states_1.pkl",
+      "size": 15691,
+      "allocated": 16384,
+      "mtime_ns": 1790530466749834796
+    },
+    {
+      "path": "benchmarks/subj01-v1/processed/mindbridge-recovery-epoch420/last/scheduler.bin",
+      "size": 3367706147,
+      "allocated": 3367710720,
+      "mtime_ns": 1790530469266820785
+    },
+    {
+      "path": "benchmarks/subj01-v1/processed/mindbridge-recovery-epoch420/last/zero_to_fp32.py",
+      "size": 23607,
+      "allocated": 24576,
+      "mtime_ns": 1790530466740834846
+    },
+    {
+      "path": "benchmarks/subj01-v1/processed/mindbridge-recovery-epoch420/last.pth",
+      "size": 2245139483,
+      "allocated": 2245144576,
+      "mtime_ns": 1790530388778282290
+    },
+    {
+      "path": "benchmarks/subj01-v1/upstream/mindbridge/train_logs/benchmark-subj01-vanilla-seed42/best-interrupted-epoch420/latest",
+      "size": 13,
+      "allocated": 4096,
+      "mtime_ns": 1790529529859190127
+    },
+    {
+      "path": "benchmarks/subj01-v1/upstream/mindbridge/train_logs/benchmark-subj01-vanilla-seed42/best-interrupted-epoch420/pytorch_model/mp_rank_00_model_states.pt",
+      "size": 6783,
+      "allocated": 8192,
+      "mtime_ns": 1790532311357367897
+    },
+    {
+      "path": "benchmarks/subj01-v1/upstream/mindbridge/train_logs/benchmark-subj01-vanilla-seed42/best-interrupted-epoch420/pytorch_model/zero_pp_rank_0_mp_rank_00_optim_states.pt",
+      "size": 3367708165,
+      "allocated": 3367714816,
+      "mtime_ns": 1790529497924290908
+    },
+    {
+      "path": "benchmarks/subj01-v1/upstream/mindbridge/train_logs/benchmark-subj01-vanilla-seed42/best-interrupted-epoch420/pytorch_model/zero_pp_rank_1_mp_rank_00_optim_states.pt",
+      "size": 3367706949,
+      "allocated": 3367714816,
+      "mtime_ns": 1790529497906290964
+    },
+    {
+      "path": "benchmarks/subj01-v1/upstream/mindbridge/train_logs/benchmark-subj01-vanilla-seed42/best-interrupted-epoch420/random_states_0.pkl",
+      "size": 15691,
+      "allocated": 16384,
+      "mtime_ns": 1790529546166138680
+    },
+    {
+      "path": "benchmarks/subj01-v1/upstream/mindbridge/train_logs/benchmark-subj01-vanilla-seed42/best-interrupted-epoch420/random_states_1.pkl",
+      "size": 15691,
+      "allocated": 16384,
+      "mtime_ns": 1790529529872190086
+    },
+    {
+      "path": "benchmarks/subj01-v1/upstream/mindbridge/train_logs/benchmark-subj01-vanilla-seed42/best-interrupted-epoch420/scheduler.bin",
+      "size": 3367706147,
+      "allocated": 3367710720,
+      "mtime_ns": 1790529532384182160
+    },
+    {
+      "path": "benchmarks/subj01-v1/upstream/mindbridge/train_logs/benchmark-subj01-vanilla-seed42/best-interrupted-epoch420/zero_to_fp32.py",
+      "size": 23607,
+      "allocated": 24576,
+      "mtime_ns": 1790529529859190127
+    }
+  ],
+  "verified_sources": [
+    {
+      "path": "benchmarks/subj01-v1/upstream/mindbridge/train_logs/benchmark-subj01-vanilla-seed42/last.pth",
+      "sha256": "5bd75a992755d70183633df514754b9084b0a4a681284afc83621b2387aac9ad"
+    },
+    {
+      "path": "benchmarks/subj01-v1/upstream/mindbridge/train_logs/benchmark-subj01-vanilla-seed42/best.pth",
+      "sha256": "7c6e51d23f48a2cc4b8f21a14f0d78bd200e4b8773b41bf13c3530fb6a55cd3b"
+    },
+    {
+      "path": "benchmarks/subj01-v1/upstream/mindbridge/train_logs/benchmark-subj01-vanilla-seed42/last.pth",
+      "sha256": "5bd75a992755d70183633df514754b9084b0a4a681284afc83621b2387aac9ad"
+    },
+    {
+      "path": "benchmarks/subj01-v1/upstream/mindbridge/train_logs/benchmark-subj01-vanilla-seed42/last/latest",
+      "sha256": "68d0ca762047fd48fdd6a06a5e6465209289c028bfd63f5557a110ff1ebc15ac"
+    },
+    {
+      "path": "benchmarks/subj01-v1/upstream/mindbridge/train_logs/benchmark-subj01-vanilla-seed42/last/loader_generator_0.pt",
+      "sha256": "8a8d0ffe7f977021d8bbab829be3e81514024b5e0436b281d7978abcc657a804"
+    },
+    {
+      "path": "benchmarks/subj01-v1/upstream/mindbridge/train_logs/benchmark-subj01-vanilla-seed42/last/loader_generator_1.pt",
+      "sha256": "b5f95a5a1f254705729732d66913dba93ff8e02afd8431ae9833af5acf4b6b64"
+    },
+    {
+      "path": "benchmarks/subj01-v1/upstream/mindbridge/train_logs/benchmark-subj01-vanilla-seed42/last/pytorch_model/mp_rank_00_model_states.pt",
+      "sha256": "2dd470d7aef409b429573205269d4ac5701289da2df37800c7ba21500463cc5d"
+    },
+    {
+      "path": "benchmarks/subj01-v1/upstream/mindbridge/train_logs/benchmark-subj01-vanilla-seed42/last/pytorch_model/zero_pp_rank_0_mp_rank_00_optim_states.pt",
+      "sha256": "8c6808035f597c14f9a8d266436bd23be7dd9e6acb81fcb24e8ae28d7229c616"
+    },
+    {
+      "path": "benchmarks/subj01-v1/upstream/mindbridge/train_logs/benchmark-subj01-vanilla-seed42/last/pytorch_model/zero_pp_rank_1_mp_rank_00_optim_states.pt",
+      "sha256": "14063a2d9f516dcb14668fb2c65edfc6ef6d040a664b98982237e390fefcfc08"
+    },
+    {
+      "path": "benchmarks/subj01-v1/upstream/mindbridge/train_logs/benchmark-subj01-vanilla-seed42/last/random_states_0.pkl",
+      "sha256": "4482b25bb68d69282a5af4b74b1410aef834f6be4523c382f5345556c362c823"
+    },
+    {
+      "path": "benchmarks/subj01-v1/upstream/mindbridge/train_logs/benchmark-subj01-vanilla-seed42/last/random_states_1.pkl",
+      "sha256": "35e407acc231a0778dc7191e61f2cb68780eb14bab5a53a66e9c67c35688c4ae"
+    },
+    {
+      "path": "benchmarks/subj01-v1/upstream/mindbridge/train_logs/benchmark-subj01-vanilla-seed42/last/scheduler.bin",
+      "sha256": "349ead7583b27b7c5c4b68112762c4f1cf2441e1f987b18936827cd0d0a6cf18"
+    },
+    {
+      "path": "benchmarks/subj01-v1/upstream/mindbridge/train_logs/benchmark-subj01-vanilla-seed42/last/trainer-recovery.json",
+      "sha256": "94c8fc6b7ba0aae1c8c83f3ef4e2fcdb614a8c14ebfd2e6e4c58de5686fc7cf9"
+    },
+    {
+      "path": "benchmarks/subj01-v1/upstream/mindbridge/train_logs/benchmark-subj01-vanilla-seed42/last/zero_to_fp32.py",
+      "sha256": "c3d9f6d855fce9b344e825d0e57822d9798e94d25fe4f284a8a0d3945efa4723"
+    }
+  ],
+  "targets": [
+    "benchmarks/subj01-v1/processed/mindbridge-recovery-epoch420",
+    "benchmarks/subj01-v1/upstream/mindbridge/train_logs/benchmark-subj01-vanilla-seed42/best-interrupted-epoch420"
+  ],
+  "allocated_bytes": 26941849600,
+  "free_before_bytes": 170305155072,
+  "execute": true
+}

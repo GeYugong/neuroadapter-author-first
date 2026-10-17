@@ -1,0 +1,50 @@
+{
+  "completed": true,
+  "unix_time": 1792254375.3518178,
+  "repositories": [
+    {
+      "repo": "gugabobo/neuroadapter-subject01-l450",
+      "url": "https://huggingface.co/gugabobo/neuroadapter-subject01-l450",
+      "revision": "9bf862b0cff103e7b90788cc9ffc014e7effc698",
+      "public": true,
+      "file_count": 2,
+      "bytes": 464761704,
+      "sha_verified": true
+    },
+    {
+      "repo": "gugabobo/mindbridge-subject01-reproduction",
+      "url": "https://huggingface.co/gugabobo/mindbridge-subject01-reproduction",
+      "revision": "d7ceae0e610fe3fd15c98a307abca78159d1029e",
+      "public": true,
+      "file_count": 2,
+      "bytes": 4490278966,
+      "sha_verified": true
+    },
+    {
+      "repo": "gugabobo/takagi-subject01-regression",
+      "url": "https://huggingface.co/gugabobo/takagi-subject01-regression",
+      "revision": "19cefe765cbd843edc68a31fb5626a4caa6f21f6",
+      "public": true,
+      "file_count": 2,
+      "bytes": 1951006966,
+      "sha_verified": true
+    },
+    {
+      "repo": "gugabobo/brain-diffuser-subject01-regression",
+      "url": "https://huggingface.co/gugabobo/brain-diffuser-subject01-regression",
+      "revision": "0766e81476ed5a820a2628c3bbff3895b79633aa",
+      "public": true,
+      "file_count": 8,
+      "bytes": 27610591204,
+      "sha_verified": true
+    }
+  ],
+  "all_public_and_sha_verified": true,
+  "server_weights_deleted": false,
+  "excluded": [
+    "Senior E750: user explicitly excluded",
+    "MindEye1: downloaded official pretrained weights",
+    "Frozen SD/VD/CLIP/VDVAE and official brain encoders: downloaded pretrained weights",
+    "Raw NSD images, brain responses, per-sample training features, credentials"
+  ]
+}

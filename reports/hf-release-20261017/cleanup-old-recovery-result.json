@@ -1,0 +1,11 @@
+{
+  "phase": "old-recovery",
+  "completed": true,
+  "unix_time": 1792253262.4436522,
+  "deleted_files": 18,
+  "freed_allocated_bytes": 26941849600,
+  "free_before_bytes": 170305155072,
+  "free_after_bytes": 197247016960,
+  "verified_source_count": 14,
+  "retained": "All final inference weights, final complete resume states, raw data, metrics, generated outputs, and tracked files."
+}

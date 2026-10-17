@@ -1,0 +1,89 @@
+{
+  "completed": true,
+  "unix_time": 1792254479.797072,
+  "scope": "Current NeuroAdapter comparison methods: self-trained artifacts only; senior E750 excluded by explicit user reply.",
+  "account": "gugabobo",
+  "repositories": [
+    {
+      "repo": "gugabobo/neuroadapter-subject01-l450",
+      "url": "https://huggingface.co/gugabobo/neuroadapter-subject01-l450",
+      "revision": "9bf862b0cff103e7b90788cc9ffc014e7effc698",
+      "public": true,
+      "file_count": 2,
+      "bytes": 464761704,
+      "sha_verified": true
+    },
+    {
+      "repo": "gugabobo/mindbridge-subject01-reproduction",
+      "url": "https://huggingface.co/gugabobo/mindbridge-subject01-reproduction",
+      "revision": "d7ceae0e610fe3fd15c98a307abca78159d1029e",
+      "public": true,
+      "file_count": 2,
+      "bytes": 4490278966,
+      "sha_verified": true
+    },
+    {
+      "repo": "gugabobo/takagi-subject01-regression",
+      "url": "https://huggingface.co/gugabobo/takagi-subject01-regression",
+      "revision": "19cefe765cbd843edc68a31fb5626a4caa6f21f6",
+      "public": true,
+      "file_count": 2,
+      "bytes": 1951006966,
+      "sha_verified": true
+    },
+    {
+      "repo": "gugabobo/brain-diffuser-subject01-regression",
+      "url": "https://huggingface.co/gugabobo/brain-diffuser-subject01-regression",
+      "revision": "0766e81476ed5a820a2628c3bbff3895b79633aa",
+      "public": true,
+      "file_count": 8,
+      "bytes": 27610591204,
+      "sha_verified": true
+    }
+  ],
+  "artifact_count": 14,
+  "artifact_bytes": 34516638840,
+  "verification": "Independent anonymous payload access plus pinned public SHA256/size checked for all 14 artifacts; original server files remain.",
+  "cleanup_freed_allocated_bytes": 57322528768,
+  "server_free_bytes": 197246971904,
+  "cleanup_plans": [
+    {
+      "path": "reports/hf-release-20261017/cleanup-caches-plan.json",
+      "sha256": "f1edfd6098c70e9dbb094dc69f5d0ca7d1346247b5714454ccd1546324f6d3d8",
+      "targets": [
+        "benchmarks/subj01-v1/assets/range-parts",
+        "benchmarks/subj01-v1/cache/mindbridge-pip",
+        "benchmarks/subj01-v1/assets/mindeye/.cache/huggingface/download/mindeye_models/autoencoder_subj01_4x_locont_no_reconst/AR5Lwym7-w1W--V4k3qWX9cL2Rs=.7504598dc3e3f6f72aead033b97c021c0fef458da25e2722885fa7248b913ec0.incomplete",
+        "benchmarks/subj01-v1/assets/mindeye/.cache/huggingface/download/mindeye_models/prior_257_final_subj01_bimixco_softclip_byol/CMlGHexMY7qozas8R22d1gjftoc=.9323bfc19cd39bb4511200f65fc9f193f1239e98df07a8e78f11c6cbdafe14e4.incomplete",
+        "benchmarks/subj01-v1/assets/mindeye/.cache/huggingface/download/webdataset_avg_split/test/r-1GvTOrM6HE08dE54BUwrTTw2M=.680ab0104569def39cc5d7597610e453750851a8f7213f4246de904f99ccaa1c.incomplete"
+      ]
+    },
+    {
+      "path": "reports/hf-release-20261017/cleanup-old-recovery-plan.json",
+      "sha256": "09d13b222319d620a4e467b565622d3c753dfb2e4f5f9571978d4ab63825f72b",
+      "targets": [
+        "benchmarks/subj01-v1/processed/mindbridge-recovery-epoch420",
+        "benchmarks/subj01-v1/upstream/mindbridge/train_logs/benchmark-subj01-vanilla-seed42/best-interrupted-epoch420"
+      ]
+    }
+  ],
+  "retained_full_resume_directories": [
+    "runs/subject01-author-fp32-seed42-lr1e-5-from400/checkpoint-450",
+    "benchmarks/subj01-v1/upstream/mindbridge/train_logs/benchmark-subj01-vanilla-seed42/last",
+    "benchmarks/subj01-v1/upstream/mindbridge/train_logs/benchmark-subj01-vanilla-seed42/best"
+  ],
+  "retained": "Final model parameters, full continuation states, all source data, metrics, generated images and existing tracked files.",
+  "excluded": [
+    "Senior E750: user explicitly excluded",
+    "MindEye1: downloaded official pretrained weights",
+    "Frozen SD/VD/CLIP/VDVAE and official brain encoders: downloaded pretrained weights",
+    "Raw NSD images, brain responses, per-sample training features, credentials"
+  ],
+  "existing_hf_repositories_preserved": [
+    "gugabobo/neuroadapter-subject1-selection-4090",
+    "gugabobo/neuroadapter-subject01-l120"
+  ],
+  "source_head": "5a8b2e62a32a00b136c620fdb3f30ea797744c8e",
+  "local_spool_recovery": "Large Brain-Diffuser files used the C-drive task spool after the D-drive free-space guard stopped the first uploader; completed public SHA matches were reused, no training or regeneration.",
+  "local_cache_cleanup": "Automatic approval review blocked the optional local upload-cache removal with policy rejection; approximately 64 MiB retained, no retry through another deletion mechanism."
+}

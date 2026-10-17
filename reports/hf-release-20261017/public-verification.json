@@ -1,0 +1,121 @@
+{
+  "completed": true,
+  "unix_time": 1792254397.36782,
+  "credential_used": false,
+  "all_public_and_sha_verified": true,
+  "repositories": [
+    {
+      "repo": "gugabobo/neuroadapter-subject01-l450",
+      "revision": "9bf862b0cff103e7b90788cc9ffc014e7effc698",
+      "public": true,
+      "files": [
+        {
+          "path": "inference.pt",
+          "size": 464288905,
+          "sha256": "a3b7de590bf3ef3798935fcce53fdf2d13caed9467d2664ee7fdc9c11d19e596",
+          "anonymous_payload_access": true
+        },
+        {
+          "path": "parcel_vertices.pt",
+          "size": 472799,
+          "sha256": "a5aceb7d1ec1ad6c8193cbe6f0fd2db23d298a6d4182e74aeac3a980a7b86ad3",
+          "anonymous_payload_access": true
+        }
+      ]
+    },
+    {
+      "repo": "gugabobo/mindbridge-subject01-reproduction",
+      "revision": "d7ceae0e610fe3fd15c98a307abca78159d1029e",
+      "public": true,
+      "files": [
+        {
+          "path": "last.pth",
+          "size": 2245139483,
+          "sha256": "5bd75a992755d70183633df514754b9084b0a4a681284afc83621b2387aac9ad",
+          "anonymous_payload_access": true
+        },
+        {
+          "path": "best.pth",
+          "size": 2245139483,
+          "sha256": "7c6e51d23f48a2cc4b8f21a14f0d78bd200e4b8773b41bf13c3530fb6a55cd3b",
+          "anonymous_payload_access": true
+        }
+      ]
+    },
+    {
+      "repo": "gugabobo/takagi-subject01-regression",
+      "revision": "19cefe765cbd843edc68a31fb5626a4caa6f21f6",
+      "public": true,
+      "files": [
+        {
+          "path": "init_latent.joblib",
+          "size": 151669595,
+          "sha256": "2308f46290d1a58318378dc709c555abe6aac2ddc5985cbb4fbbdc34a50c1ec7",
+          "anonymous_payload_access": true
+        },
+        {
+          "path": "c.joblib",
+          "size": 1799337371,
+          "sha256": "4c98f62d273b49d41a018c054fa8b5bb8c09495728545025e41fe9e78a8195d9",
+          "anonymous_payload_access": true
+        }
+      ]
+    },
+    {
+      "repo": "gugabobo/brain-diffuser-subject01-regression",
+      "revision": "0766e81476ed5a820a2628c3bbff3895b79633aa",
+      "public": true,
+      "files": [
+        {
+          "path": "vdvae/regression_weights.pkl",
+          "size": 11468934634,
+          "sha256": "63edf0f89d32857a996b2bdcc3cce0d296769773fc8b44731f87ecfd4d3ec3fb",
+          "anonymous_payload_access": true
+        },
+        {
+          "path": "vdvae/normalization.npz",
+          "size": 2441284,
+          "sha256": "f4a8c8d5e69be6ae1465124b7b02777cc5264c47657165ae4288bc44bf13fc2a",
+          "anonymous_payload_access": true
+        },
+        {
+          "path": "clipvision/regression_weights.pkl",
+          "size": 12414950636,
+          "sha256": "5ce0e46741326efae0da9f220486fc791d447cf960ee1470171fa4ab770f3044",
+          "anonymous_payload_access": true
+        },
+        {
+          "path": "clipvision/brain-normalization.npz",
+          "size": 252096,
+          "sha256": "449e1193d30ac39bfd6b668b0c04e1259b1df929cf86fe26f119065564c218c6",
+          "anonymous_payload_access": true
+        },
+        {
+          "path": "clipvision/target-normalization.npz",
+          "size": 3158834,
+          "sha256": "ffd8040853e6cca0165727295c7ef4bf7beead46abd435d903ff9821d94d1e6c",
+          "anonymous_payload_access": true
+        },
+        {
+          "path": "cliptext/regression_weights.pkl",
+          "size": 3719654630,
+          "sha256": "9118ce34137be2ccf069e0b996348ebddcdcc6e01d4a963f6e904a3ad24034b4",
+          "anonymous_payload_access": true
+        },
+        {
+          "path": "cliptext/brain-normalization.npz",
+          "size": 252096,
+          "sha256": "449e1193d30ac39bfd6b668b0c04e1259b1df929cf86fe26f119065564c218c6",
+          "anonymous_payload_access": true
+        },
+        {
+          "path": "cliptext/target-normalization.npz",
+          "size": 946994,
+          "sha256": "00988dbc2a57d60fc392d715b366b09d230d1cb4404de2c5c45d441f7f5ba326",
+          "anonymous_payload_access": true
+        }
+      ]
+    }
+  ],
+  "verification": "Pinned public API SHA256/size plus anonymous payload access; small non-LFS files fully hashed."
+}
