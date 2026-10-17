@@ -1,0 +1,23 @@
+{
+  "command": [
+    "/data1/matengyu/geyugong/neuroadapter-author-first/runtime/env/bin/python",
+    "-B",
+    "-m",
+    "torch.distributed.run",
+    "--nproc_per_node=2",
+    "--nnodes=1",
+    "--master_addr=127.0.0.1",
+    "--master_port=29632",
+    "--no_python",
+    "/bin/bash",
+    "/data1/matengyu/geyugong/neuroadapter-author-first/scripts/subject02_rank.sh",
+    "--config",
+    "/data1/matengyu/geyugong/neuroadapter-author-first/reports/subject02-bf16-seed42/effective-config.json",
+    "--target",
+    "500",
+    "--output",
+    "runs/subject02-author-bf16-seed42"
+  ],
+  "pid": 510249,
+  "time": 1792258354.9483578
+}

@@ -1,0 +1,23 @@
+{
+  "run_id": "subject02-author-bf16-seed42",
+  "data_dir": "/data1/matengyu/geyugong/neuroadapter-author-first/data/subject02",
+  "imgs_dir": "/data1/matengyu/geyugong/neuroadapter-subject1-research/data/raw/nsd/stimuli",
+  "parcel_dir": "/data1/matengyu/geyugong/neuroadapter-author-first/data/subject02/parcels",
+  "pretrained_model_name_or_path": "/data1/matengyu/geyugong/neuroadapter-subject1-research/models/stable-diffusion-v1-5",
+  "output_dir": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject02-author-bf16-seed42",
+  "seed": 42,
+  "subject_id": 2,
+  "topk": 100,
+  "condition_dim": 768,
+  "num_decoder_queries": 50,
+  "sub_approach": "linear_projection",
+  "gen_img_resolution": 512,
+  "learning_rate": 0.0001,
+  "weight_decay": 1e-06,
+  "clip_max_norm": 1.0,
+  "mixed_precision": "bf16",
+  "train_batch_size": 8,
+  "gradient_accumulation_steps": 2,
+  "dataloader_num_workers": 0,
+  "save_epochs": 1
+}

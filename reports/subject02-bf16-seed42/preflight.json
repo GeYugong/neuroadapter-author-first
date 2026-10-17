@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "microbatch": 8,
+  "accumulation": 2,
+  "effective_batch": 32,
+  "checks": {
+    "exact_model_optimizer_and_rank_rng": true,
+    "exact_loader": true,
+    "actual_updates_per_smoke": 4,
+    "frozen_gradient_checks_passed": true,
+    "first_update_three_groups_nonzero_both_ranks": true
+  },
+  "time": 1792258354.9012866,
+  "data_ready_sha256": "d29af65bebd0848f8c7b0503012ec500a8120fdf7e56232977b2b332199e098c"
+}
