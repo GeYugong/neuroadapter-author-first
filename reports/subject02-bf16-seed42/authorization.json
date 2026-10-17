@@ -1,0 +1,136 @@
+{
+  "launch_authorized": true,
+  "subject": 2,
+  "date": "2026-10-18",
+  "request": "Start the accepted Subject2 dual-GPU plan and monitor hourly; investigate sustained loss degradation and recover a previous complete checkpoint if justified.",
+  "upstream_commit": "7d86d8c59dc13d8c14a04709e66e4b2de1b7d3ae",
+  "sources": {
+    "repository": "https://github.com/kriegeskorte-lab/NeuroAdapter",
+    "subject2_script": "https://github.com/kriegeskorte-lab/NeuroAdapter/blob/7d86d8c59dc13d8c14a04709e66e4b2de1b7d3ae/bash/run_train_2.sh",
+    "paper": "https://arxiv.org/abs/2509.23566"
+  },
+  "source_head": "1da6e2fb0af6d39b6d7aefe770c7d620887a851a",
+  "source_sha256": {
+    "scripts/prepare_subject02.py": "04714dd3c70ac63b427249bc135910a79dc930997a9a1f8f3118881e71a5d129",
+    "scripts/subject02_train.py": "ad8f433f7f501318a6939a2018701804ab837a59c36f0371d2b8357f88573d4d",
+    "scripts/subject02_controller.py": "58368bcdd6047a912f672438abb0aca264d67f7d3f1af50655568516cdb3ec3e",
+    "scripts/subject02_rank.sh": "31e9b31ed28bd5a3427fdeea1ba75df67348a9577991b7126a6af392ae9df5ff",
+    "configs/subject02.json": "1228428f66692f171ae3e638cb09ef504521f3488902e2fefde9abff057478bb",
+    "train_brain_adapter.py": "77ccc1f3938e42685b74630f6cff6abe447f8feef87e60f4fa280532f7da93fa",
+    "brain_adapter/dataset.py": "71f79d18a14351ccac5ebe580713268a27c02e96e75b7a8f5569e66394aa118d",
+    "brain_adapter/model.py": "58067595896351becc340f29f41244866adc567263a20d0cf3800c017ab3e56a",
+    "brain_adapter/loss.py": "d81ba97a28aabf24a4d7a6bba551ecb3a87d1e41741f7c0d8660e99fd7902ede",
+    "brain_adapter/ip_adapter/attention_processor.py": "43e48e8d589442aa4615d525c98a2fdde3043ebdc3c3a06aaa900e620837de4a"
+  },
+  "configuration": {
+    "run_id": "subject02-author-bf16-seed42",
+    "data_dir": "/data1/matengyu/geyugong/neuroadapter-author-first/data/subject02",
+    "imgs_dir": "/data1/matengyu/geyugong/neuroadapter-subject1-research/data/raw/nsd/stimuli",
+    "parcel_dir": "/data1/matengyu/geyugong/neuroadapter-author-first/data/subject02/parcels",
+    "pretrained_model_name_or_path": "/data1/matengyu/geyugong/neuroadapter-subject1-research/models/stable-diffusion-v1-5",
+    "output_dir": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject02-author-bf16-seed42",
+    "seed": 42,
+    "subject_id": 2,
+    "topk": 100,
+    "condition_dim": 768,
+    "num_decoder_queries": 50,
+    "sub_approach": "linear_projection",
+    "gen_img_resolution": 512,
+    "learning_rate": 0.0001,
+    "weight_decay": 1e-06,
+    "clip_max_norm": 1.0,
+    "mixed_precision": "bf16",
+    "train_batch_size": 16,
+    "gradient_accumulation_steps": 1,
+    "dataloader_num_workers": 0,
+    "save_epochs": 1
+  },
+  "fixed_total_epochs": 500,
+  "paper_budget_reference_epoch": 300,
+  "memory_only_preflight_fallbacks": [
+    [
+      16,
+      1
+    ],
+    [
+      8,
+      2
+    ],
+    [
+      4,
+      4
+    ]
+  ],
+  "effective_batch": 32,
+  "tf32_matmul": false,
+  "tf32_cudnn": true,
+  "deterministic_algorithms": true,
+  "precision_resolution": "Explicit BF16 follows upstream accelerate configuration; CLI originally defaulted FP16. Not bitwise author execution.",
+  "data_policy": {
+    "subject": 2,
+    "train_nonshared": 8500,
+    "validation_nonshared": 500,
+    "excluded_shared_test_pool": 1000,
+    "split_seed": 42,
+    "stimuli_reused_read_only": "/data1/matengyu/geyugong/neuroadapter-subject1-research/data/raw/nsd/stimuli",
+    "independent_subject2_snr": true,
+    "repetition_mean": "author dataset, no added brain normalization",
+    "fixed_diagnostic_ids": "first32 sorted held-out Subject2 val IDs; never selected for visual performance"
+  },
+  "training_initialization": "fresh independent adapter; frozen SD1.5; no Subject1 checkpoint",
+  "scientific_objective": "original MinSNR gamma5 epsilon MSE and samplewise U(0,1) TokenDropout; no auxiliary loss",
+  "preflight_required": [
+    "64 real Subject2 train IDs",
+    "BF16 forward/backward, both ranks, three trainable groups nonzero update",
+    "frozen parameters no gradients",
+    "continuous2epochs versus split1+resume2: exact model, AdamW, both rank RNG and loader",
+    "fresh formal initialization after smoke"
+  ],
+  "monitoring": {
+    "finite_loss_grad_each_update": true,
+    "zero_skips_required": true,
+    "fixed_validation32_each_epoch": true,
+    "full_validation500_loss_at": [
+      300,
+      500
+    ],
+    "warmup_epochs": 10,
+    "window_epochs": 3,
+    "stop_if_both_exceeded": {
+      "train_multiplier": 1.2,
+      "train_absolute_margin": 0.005,
+      "fixed_probe_multiplier": 1.1,
+      "fixed_probe_absolute_margin": 0.002
+    },
+    "isolated_regression": "review without blind rollback",
+    "plateau": "review, no automatic parameter change",
+    "thresholds_are_engineering_guards_not_significance": true,
+    "rollback": "Investigate first. Preserve failed artifacts. Restore verified full stable state into separate recovery branch if earlier epoch; no fresh optimizer or repeated blind restarts.",
+    "hourly_automation": "neuroadapter-subject-2"
+  },
+  "retention": [
+    "latest2 complete",
+    "lowest fixed-probe-loss complete",
+    "epoch300",
+    "epoch500"
+  ],
+  "exports": [
+    0,
+    300,
+    500
+  ],
+  "disk_reserve_gib": 25,
+  "do_not_touch": [
+    "Subject1 artifacts",
+    "other users files",
+    "senior E750"
+  ],
+  "evaluation_plan": "Final fixed Subject2 test IDs verified before decoding; 8 candidates via official matching brain-response encoder plus candidate0 K1; no GT-image selection; encoding development split unknown.",
+  "limitations": [
+    "different GPU/software/explicit precision from author environment",
+    "500 script epochs versus300 paper epochs",
+    "fixed8500 training and500 validation split is registered reproduction decision",
+    "fixed32 validation diagnostic is not the final eight image metrics"
+  ],
+  "created": 1792256931.4336805
+}

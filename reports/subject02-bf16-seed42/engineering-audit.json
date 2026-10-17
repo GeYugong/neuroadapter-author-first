@@ -1,0 +1,17 @@
+{
+  "syntax": true,
+  "health_policy_cases": 4,
+  "exact_comparator_positive_negative": true,
+  "subject02_parcel_partition": {
+    "lh": {
+      "parcels": 501,
+      "vertices": 163842
+    },
+    "rh": {
+      "parcels": 501,
+      "vertices": 163842
+    }
+  },
+  "gpu_preflight": "pending real data",
+  "training_started": false
+}

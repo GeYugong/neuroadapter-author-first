@@ -1,0 +1,5 @@
+{
+  "time": 1792256439.6800601,
+  "session": "author-subject02-prepare",
+  "command": "cd /data1/matengyu/geyugong/neuroadapter-author-first && runtime/env/bin/python -B scripts/prepare_subject02.py > reports/subject02-bf16-seed42/prepare.log 2>&1"
+}
