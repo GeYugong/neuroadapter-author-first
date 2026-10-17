@@ -1,0 +1,32 @@
+{
+  "completed": true,
+  "utc": "2026-10-17T16:51:37Z",
+  "deleted_checkpoints": 14,
+  "deleted_paths": [
+    "runs/subject01-author-fp32-seed42/checkpoint-109",
+    "runs/subject01-author-fp32-seed42-lr5e-5-from100/checkpoint-110",
+    "runs/subject01-author-fp32-seed42-lr5e-5-from100/checkpoint-130",
+    "runs/subject01-author-fp32-seed42-lr5e-5-from100/checkpoint-140",
+    "runs/subject01-author-fp32-seed42-lr5e-5-from100/checkpoint-200",
+    "runs/subject01-author-fp32-seed42-lr5e-5-from100/checkpoint-250",
+    "runs/subject01-author-fp32-seed42-lr5e-5-from100/checkpoint-299",
+    "runs/subject01-author-fp32-seed42-lr5e-5-from100/checkpoint-450",
+    "runs/subject01-author-fp32-seed42-lr5e-5-from100/checkpoint-499",
+    "runs/subject01-author-fp32-seed42-lr1e-5-from400/checkpoint-499",
+    "runs/subject01-author-fp32-seed42-lr1e-5-spatiall1-from450/checkpoint-474",
+    "runs/subject01-author-fp32-seed42-lr1e-5-tokenkeep-from450/checkpoint-499",
+    "runs/subject01-author-fp32-seed42-lr1e-5-wd01-from450/checkpoint-499",
+    "runs/subject01-author-fp32-seed43-lrhalf-at100/checkpoint-119"
+  ],
+  "freed_allocated_bytes": 73031999488,
+  "free_before_bytes": 197246652416,
+  "free_after_bytes": 270278705152,
+  "retained_file_count": 206914,
+  "retained_metadata_sha256": "98330e40f623bd11fb1737f53cf24bc6bb5a7e0927fba77efc8379711b6f3965",
+  "all_retained_file_metadata_unchanged": true,
+  "l450_checkpoint_and_export_sha256_unchanged": true,
+  "retained_complete_checkpoints": 13,
+  "all_existing_inference_exports_retained": true,
+  "other_users_files_touched": false,
+  "training_or_evaluation_started": false
+}

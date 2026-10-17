@@ -1,0 +1,2775 @@
+{
+  "authorization": "User requested further cleanup of unused checkpoints after preserving best weights and important results.",
+  "utc": "2026-10-17T16:49:34Z",
+  "source_head": "4675f1319acee2280d07710d1cad80bea5be8d93",
+  "script_sha256": "d6adc8dd5c3b9db257813f27dd5fb19db24edb407d4fd81bf3692a029ce0c3ef",
+  "targets": [
+    {
+      "path": "runs/subject01-author-fp32-seed42/checkpoint-109",
+      "epoch": 109,
+      "progress": {
+        "completed_epochs": 109,
+        "global_optimizer_updates": 57988,
+        "actual_samples_processed": 926936,
+        "skipped_updates": 0,
+        "run_id": "subject01-author-fp32-seed42",
+        "current_lr": [
+          0.0001
+        ],
+        "code_commit": "657889bd44744482874a220e96283281804dffb1",
+        "config": {
+          "data_dir": "/data1/matengyu/geyugong/neuroadapter-author-first/data",
+          "imgs_dir": "/data1/matengyu/geyugong/neuroadapter-subject1-research/data/raw/nsd/stimuli",
+          "parcel_dir": "/data1/matengyu/geyugong/neuroadapter-subject1-research/data/derived/parcels/schaefer",
+          "run_id": "subject01-author-fp32-seed42",
+          "resume_from": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42/checkpoint-100",
+          "stage2": false,
+          "stage3": false,
+          "stage4": false,
+          "stage5": false,
+          "stage6": true,
+          "train_ids": null,
+          "audit": false,
+          "pretrained_model_name_or_path": "/data1/matengyu/geyugong/neuroadapter-subject1-research/models/stable-diffusion-v1-5",
+          "pretrained_ip_adapter_path": null,
+          "dataset_path": "/engram/nklab/coco/images/train2017/",
+          "output_dir": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42",
+          "logging_dir": "logs",
+          "training_subjects": null,
+          "learning_rate": 0.0001,
+          "weight_decay": 1e-06,
+          "num_train_epochs": 110,
+          "train_batch_size": 4,
+          "dataloader_num_workers": 0,
+          "save_epochs": 1,
+          "clip_max_norm": 1.0,
+          "mixed_precision": "no",
+          "gradient_accumulation_steps": 2,
+          "local_rank": 0,
+          "subject_id": 1,
+          "topk": 100,
+          "num_decoder_queries": 50,
+          "condition_dim": 768,
+          "encoder_resolution": 224,
+          "make_square": 224,
+          "gen_img_resolution": 512,
+          "sub_approach": "linear_projection",
+          "wandb": false,
+          "time": "subject01-author-fp32-seed42",
+          "seed": 42
+        }
+      },
+      "export_retained": true,
+      "files": [
+        {
+          "path": "runs/subject01-author-fp32-seed42/checkpoint-109/COMPLETE",
+          "metadata": [
+            15,
+            1790133881525073555,
+            135926491,
+            33204,
+            1,
+            1001
+          ],
+          "allocated_bytes": 4096
+        },
+        {
+          "path": "runs/subject01-author-fp32-seed42/checkpoint-109/custom_checkpoint_0.pkl",
+          "metadata": [
+            385230981,
+            1790133880224072531,
+            135926488,
+            33204,
+            1,
+            1001
+          ],
+          "allocated_bytes": 385236992
+        },
+        {
+          "path": "runs/subject01-author-fp32-seed42/checkpoint-109/custom_checkpoint_1.pkl",
+          "metadata": [
+            8509,
+            1790133880224072531,
+            135926489,
+            33204,
+            1,
+            1001
+          ],
+          "allocated_bytes": 12288
+        },
+        {
+          "path": "runs/subject01-author-fp32-seed42/checkpoint-109/optimizer.bin",
+          "metadata": [
+            928582219,
+            1790133879989072346,
+            135926486,
+            33204,
+            1,
+            1001
+          ],
+          "allocated_bytes": 928587776
+        },
+        {
+          "path": "runs/subject01-author-fp32-seed42/checkpoint-109/progress.json",
+          "metadata": [
+            1850,
+            1790133881525073555,
+            135926490,
+            33204,
+            1,
+            1001
+          ],
+          "allocated_bytes": 4096
+        },
+        {
+          "path": "runs/subject01-author-fp32-seed42/checkpoint-109/pytorch_model.bin",
+          "metadata": [
+            3517449387,
+            1790133879226071740,
+            135926483,
+            33204,
+            1,
+            1001
+          ],
+          "allocated_bytes": 3517456384
+        },
+        {
+          "path": "runs/subject01-author-fp32-seed42/checkpoint-109/pytorch_model_1.bin",
+          "metadata": [
+            385230885,
+            1790133879461071926,
+            135926485,
+            33204,
+            1,
+            1001
+          ],
+          "allocated_bytes": 385236992
+        },
+        {
+          "path": "runs/subject01-author-fp32-seed42/checkpoint-109/random_states_0.pkl",
+          "metadata": [
+            15017,
+            1790133879990072347,
+            135926487,
+            33204,
+            1,
+            1001
+          ],
+          "allocated_bytes": 16384
+        },
+        {
+          "path": "runs/subject01-author-fp32-seed42/checkpoint-109/random_states_1.pkl",
+          "metadata": [
+            15017,
+            1790133877762070568,
+            135926484,
+            33204,
+            1,
+            1001
+          ],
+          "allocated_bytes": 16384
+        }
+      ],
+      "reason": "Completed run; final and key selected/source full states retained. All existing inference exports and results retained."
+    },
+    {
+      "path": "runs/subject01-author-fp32-seed42-lr5e-5-from100/checkpoint-110",
+      "epoch": 110,
+      "progress": {
+        "completed_epochs": 110,
+        "global_optimizer_updates": 58520,
+        "actual_samples_processed": 935440,
+        "skipped_updates": 0,
+        "run_id": "subject01-author-fp32-seed42-lr5e-5-from100",
+        "current_lr": [
+          5e-05
+        ],
+        "code_commit": "657889bd44744482874a220e96283281804dffb1",
+        "config": {
+          "data_dir": "/data1/matengyu/geyugong/neuroadapter-author-first/data",
+          "imgs_dir": "/data1/matengyu/geyugong/neuroadapter-subject1-research/data/raw/nsd/stimuli",
+          "parcel_dir": "/data1/matengyu/geyugong/neuroadapter-subject1-research/data/derived/parcels/schaefer",
+          "run_id": "subject01-author-fp32-seed42-lr5e-5-from100",
+          "resume_from": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42/checkpoint-100",
+          "branch_lr_half": true,
+          "stage2": false,
+          "stage3": false,
+          "stage4": false,
+          "stage5": false,
+          "stage6": false,
+          "train_ids": null,
+          "audit": false,
+          "pretrained_model_name_or_path": "/data1/matengyu/geyugong/neuroadapter-subject1-research/models/stable-diffusion-v1-5",
+          "pretrained_ip_adapter_path": null,
+          "dataset_path": "/engram/nklab/coco/images/train2017/",
+          "output_dir": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42-lr5e-5-from100",
+          "logging_dir": "logs",
+          "training_subjects": null,
+          "learning_rate": 5e-05,
+          "weight_decay": 1e-06,
+          "num_train_epochs": 110,
+          "train_batch_size": 4,
+          "dataloader_num_workers": 0,
+          "save_epochs": 1,
+          "clip_max_norm": 1.0,
+          "mixed_precision": "no",
+          "gradient_accumulation_steps": 2,
+          "local_rank": 0,
+          "subject_id": 1,
+          "topk": 100,
+          "num_decoder_queries": 50,
+          "condition_dim": 768,
+          "encoder_resolution": 224,
+          "make_square": 224,
+          "gen_img_resolution": 512,
+          "sub_approach": "linear_projection",
+          "wandb": false,
+          "time": "subject01-author-fp32-seed42-lr5e-5-from100",
+          "seed": 42
+        },
+        "branch_provenance": {
+          "source_run": "subject01-author-fp32-seed42",
+          "source_checkpoint": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42/checkpoint-100",
+          "source_commit": "ddbac421b0a06e4dc3360dece3cf2afd8429dcdd",
+          "branch_run_id": "subject01-author-fp32-seed42-lr5e-5-from100",
+          "lr_change_location": "after accelerator.load_state; before training_loop",
+          "resume_source": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42/checkpoint-100",
+          "rank": 0,
+          "completed_epochs": 100,
+          "global_optimizer_updates": 53200,
+          "model_exact": true,
+          "adamw_before_exact": true,
+          "adamw_after_only_lr_changed": true,
+          "adamw_state_entries": 38,
+          "optimizer_lr": [
+            5e-05
+          ],
+          "rng_exact": true,
+          "loader_restored": true,
+          "next_epoch_order_sha256": "e20dbd6fdd51786a2c50cfe03d793465cfe279e1062877cceb0e5409a7c67bcf",
+          "order_matches_H": true
+        }
+      },
+      "export_retained": true,
+      "files": [
+        {
+          "path": "runs/subject01-author-fp32-seed42-lr5e-5-from100/checkpoint-110/COMPLETE",
+          "metadata": [
+            15,
+            1790155947227606680,
+            135926722,
+            33204,
+            1,
+            1001
+          ],
+          "allocated_bytes": 4096
+        },
+        {
+          "path": "runs/subject01-author-fp32-seed42-lr5e-5-from100/checkpoint-110/custom_checkpoint_0.pkl",
+          "metadata": [
+            385230981,
+            1790155945867610175,
+            135926719,
+            33204,
+            1,
+            1001
+          ],
+          "allocated_bytes": 385236992
+        },
+        {
+          "path": "runs/subject01-author-fp32-seed42-lr5e-5-from100/checkpoint-110/custom_checkpoint_1.pkl",
+          "metadata": [
+            9405,
+            1790155945868610172,
+            135926720,
+            33204,
+            1,
+            1001
+          ],
+          "allocated_bytes": 12288
+        },
+        {
+          "path": "runs/subject01-author-fp32-seed42-lr5e-5-from100/checkpoint-110/optimizer.bin",
+          "metadata": [
+            928582219,
+            1790155945632610779,
+            135926717,
+            33204,
+            1,
+            1001
+          ],
+          "allocated_bytes": 928587776
+        },
+        {
+          "path": "runs/subject01-author-fp32-seed42-lr5e-5-from100/checkpoint-110/progress.json",
+          "metadata": [
+            2914,
+            1790155947227606680,
+            135926721,
+            33204,
+            1,
+            1001
+          ],
+          "allocated_bytes": 4096
+        },
+        {
+          "path": "runs/subject01-author-fp32-seed42-lr5e-5-from100/checkpoint-110/pytorch_model.bin",
+          "metadata": [
+            3517449387,
+            1790155944869612738,
+            135926714,
+            33204,
+            1,
+            1001
+          ],
+          "allocated_bytes": 3517456384
+        },
+        {
+          "path": "runs/subject01-author-fp32-seed42-lr5e-5-from100/checkpoint-110/pytorch_model_1.bin",
+          "metadata": [
+            385230885,
+            1790155945104612135,
+            135926716,
+            33204,
+            1,
+            1001
+          ],
+          "allocated_bytes": 385236992
+        },
+        {
+          "path": "runs/subject01-author-fp32-seed42-lr5e-5-from100/checkpoint-110/random_states_0.pkl",
+          "metadata": [
+            15017,
+            1790155945633610776,
+            135926718,
+            33204,
+            1,
+            1001
+          ],
+          "allocated_bytes": 16384
+        },
+        {
+          "path": "runs/subject01-author-fp32-seed42-lr5e-5-from100/checkpoint-110/random_states_1.pkl",
+          "metadata": [
+            15017,
+            1790155942975617600,
+            135926715,
+            33204,
+            1,
+            1001
+          ],
+          "allocated_bytes": 16384
+        }
+      ],
+      "reason": "Completed run; final and key selected/source full states retained. All existing inference exports and results retained."
+    },
+    {
+      "path": "runs/subject01-author-fp32-seed42-lr5e-5-from100/checkpoint-130",
+      "epoch": 130,
+      "progress": {
+        "completed_epochs": 130,
+        "global_optimizer_updates": 69160,
+        "actual_samples_processed": 1105520,
+        "skipped_updates": 0,
+        "run_id": "subject01-author-fp32-seed42-lr5e-5-from100",
+        "current_lr": [
+          5e-05
+        ],
+        "code_commit": "657889bd44744482874a220e96283281804dffb1",
+        "config": {
+          "data_dir": "/data1/matengyu/geyugong/neuroadapter-author-first/data",
+          "imgs_dir": "/data1/matengyu/geyugong/neuroadapter-subject1-research/data/raw/nsd/stimuli",
+          "parcel_dir": "/data1/matengyu/geyugong/neuroadapter-subject1-research/data/derived/parcels/schaefer",
+          "run_id": "subject01-author-fp32-seed42-lr5e-5-from100",
+          "resume_from": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42-lr5e-5-from100/checkpoint-120",
+          "branch_lr_half": true,
+          "stage2": false,
+          "stage3": false,
+          "stage4": false,
+          "stage5": false,
+          "stage6": false,
+          "train_ids": null,
+          "audit": false,
+          "pretrained_model_name_or_path": "/data1/matengyu/geyugong/neuroadapter-subject1-research/models/stable-diffusion-v1-5",
+          "pretrained_ip_adapter_path": null,
+          "dataset_path": "/engram/nklab/coco/images/train2017/",
+          "output_dir": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42-lr5e-5-from100",
+          "logging_dir": "logs",
+          "training_subjects": null,
+          "learning_rate": 5e-05,
+          "weight_decay": 1e-06,
+          "num_train_epochs": 130,
+          "train_batch_size": 4,
+          "dataloader_num_workers": 0,
+          "save_epochs": 1,
+          "clip_max_norm": 1.0,
+          "mixed_precision": "no",
+          "gradient_accumulation_steps": 2,
+          "local_rank": 0,
+          "subject_id": 1,
+          "topk": 100,
+          "num_decoder_queries": 50,
+          "condition_dim": 768,
+          "encoder_resolution": 224,
+          "make_square": 224,
+          "gen_img_resolution": 512,
+          "sub_approach": "linear_projection",
+          "wandb": false,
+          "time": "subject01-author-fp32-seed42-lr5e-5-from100",
+          "seed": 42
+        },
+        "branch_provenance": {
+          "source_run": "subject01-author-fp32-seed42",
+          "source_checkpoint": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42/checkpoint-100",
+          "source_commit": "ddbac421b0a06e4dc3360dece3cf2afd8429dcdd",
+          "branch_run_id": "subject01-author-fp32-seed42-lr5e-5-from100",
+          "lr_change_location": "after accelerator.load_state; before training_loop",
+          "resume_source": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42-lr5e-5-from100/checkpoint-120",
+          "rank": 0,
+          "completed_epochs": 120,
+          "global_optimizer_updates": 63840,
+          "model_exact": true,
+          "adamw_before_exact": true,
+          "adamw_after_only_lr_changed": true,
+          "adamw_state_entries": 38,
+          "optimizer_lr": [
+            5e-05
+          ],
+          "rng_exact": true,
+          "loader_restored": true,
+          "next_epoch_order_sha256": "be9c106448ca1262e2882ecfb0613601ce40fb78bc6aab2751ccb80a1d1ae971",
+          "order_matches_H": null,
+          "continuation_target": 130,
+          "adamw_lr_unchanged": true
+        }
+      },
+      "export_retained": true,
+      "files": [
+        {
+          "path": "runs/subject01-author-fp32-seed42-lr5e-5-from100/checkpoint-130/COMPLETE",
+          "metadata": [
+            15,
+            1790190390519567919,
+            135928981,
+            33204,
+            1,
+            1001
+          ],
+          "allocated_bytes": 4096
+        },
+        {
+          "path": "runs/subject01-author-fp32-seed42-lr5e-5-from100/checkpoint-130/custom_checkpoint_0.pkl",
+          "metadata": [
+            385230981,
+            1790190389198570359,
+            135928978,
+            33204,
+            1,
+            1001
+          ],
+          "allocated_bytes": 385236992
+        },
+        {
+          "path": "runs/subject01-author-fp32-seed42-lr5e-5-from100/checkpoint-130/custom_checkpoint_1.pkl",
+          "metadata": [
+            9469,
+            1790190389198570359,
+            135928979,
+            33204,
+            1,
+            1001
+          ],
+          "allocated_bytes": 12288
+        },
+        {
+          "path": "runs/subject01-author-fp32-seed42-lr5e-5-from100/checkpoint-130/optimizer.bin",
+          "metadata": [
+            928582219,
+            1790190388962570795,
+            135928976,
+            33204,
+            1,
+            1001
+          ],
+          "allocated_bytes": 928587776
+        },
+        {
+          "path": "runs/subject01-author-fp32-seed42-lr5e-5-from100/checkpoint-130/progress.json",
+          "metadata": [
+            3009,
+            1790190390519567919,
+            135928980,
+            33204,
+            1,
+            1001
+          ],
+          "allocated_bytes": 4096
+        },
+        {
+          "path": "runs/subject01-author-fp32-seed42-lr5e-5-from100/checkpoint-130/pytorch_model.bin",
+          "metadata": [
+            3517449387,
+            1790190388196572207,
+            135928973,
+            33204,
+            1,
+            1001
+          ],
+          "allocated_bytes": 3517456384
+        },
+        {
+          "path": "runs/subject01-author-fp32-seed42-lr5e-5-from100/checkpoint-130/pytorch_model_1.bin",
+          "metadata": [
+            385230885,
+            1790190388433571770,
+            135928975,
+            33204,
+            1,
+            1001
+          ],
+          "allocated_bytes": 385236992
+        },
+        {
+          "path": "runs/subject01-author-fp32-seed42-lr5e-5-from100/checkpoint-130/random_states_0.pkl",
+          "metadata": [
+            15017,
+            1790190388963570793,
+            135928977,
+            33204,
+            1,
+            1001
+          ],
+          "allocated_bytes": 16384
+        },
+        {
+          "path": "runs/subject01-author-fp32-seed42-lr5e-5-from100/checkpoint-130/random_states_1.pkl",
+          "metadata": [
+            15017,
+            1790190386717574930,
+            135928974,
+            33204,
+            1,
+            1001
+          ],
+          "allocated_bytes": 16384
+        }
+      ],
+      "reason": "Completed run; final and key selected/source full states retained. All existing inference exports and results retained."
+    },
+    {
+      "path": "runs/subject01-author-fp32-seed42-lr5e-5-from100/checkpoint-140",
+      "epoch": 140,
+      "progress": {
+        "completed_epochs": 140,
+        "global_optimizer_updates": 74480,
+        "actual_samples_processed": 1190560,
+        "skipped_updates": 0,
+        "run_id": "subject01-author-fp32-seed42-lr5e-5-from100",
+        "current_lr": [
+          5e-05
+        ],
+        "code_commit": "657889bd44744482874a220e96283281804dffb1",
+        "config": {
+          "data_dir": "/data1/matengyu/geyugong/neuroadapter-author-first/data",
+          "imgs_dir": "/data1/matengyu/geyugong/neuroadapter-subject1-research/data/raw/nsd/stimuli",
+          "parcel_dir": "/data1/matengyu/geyugong/neuroadapter-subject1-research/data/derived/parcels/schaefer",
+          "run_id": "subject01-author-fp32-seed42-lr5e-5-from100",
+          "resume_from": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42-lr5e-5-from100/checkpoint-130",
+          "branch_lr_half": true,
+          "stage2": false,
+          "stage3": false,
+          "stage4": false,
+          "stage5": false,
+          "stage6": false,
+          "train_ids": null,
+          "audit": false,
+          "pretrained_model_name_or_path": "/data1/matengyu/geyugong/neuroadapter-subject1-research/models/stable-diffusion-v1-5",
+          "pretrained_ip_adapter_path": null,
+          "dataset_path": "/engram/nklab/coco/images/train2017/",
+          "output_dir": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42-lr5e-5-from100",
+          "logging_dir": "logs",
+          "training_subjects": null,
+          "learning_rate": 5e-05,
+          "weight_decay": 1e-06,
+          "num_train_epochs": 140,
+          "train_batch_size": 4,
+          "dataloader_num_workers": 0,
+          "save_epochs": 1,
+          "clip_max_norm": 1.0,
+          "mixed_precision": "no",
+          "gradient_accumulation_steps": 2,
+          "local_rank": 0,
+          "subject_id": 1,
+          "topk": 100,
+          "num_decoder_queries": 50,
+          "condition_dim": 768,
+          "encoder_resolution": 224,
+          "make_square": 224,
+          "gen_img_resolution": 512,
+          "sub_approach": "linear_projection",
+          "wandb": false,
+          "time": "subject01-author-fp32-seed42-lr5e-5-from100",
+          "seed": 42
+        },
+        "branch_provenance": {
+          "source_run": "subject01-author-fp32-seed42",
+          "source_checkpoint": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42/checkpoint-100",
+          "source_commit": "ddbac421b0a06e4dc3360dece3cf2afd8429dcdd",
+          "branch_run_id": "subject01-author-fp32-seed42-lr5e-5-from100",
+          "lr_change_location": "after accelerator.load_state; before training_loop",
+          "resume_source": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42-lr5e-5-from100/checkpoint-130",
+          "rank": 0,
+          "completed_epochs": 130,
+          "global_optimizer_updates": 69160,
+          "model_exact": true,
+          "adamw_before_exact": true,
+          "adamw_after_only_lr_changed": true,
+          "adamw_state_entries": 38,
+          "optimizer_lr": [
+            5e-05
+          ],
+          "rng_exact": true,
+          "loader_restored": true,
+          "next_epoch_order_sha256": "d1ea71c0e113da639aba2259f954d449008462f93064b8959cb06daf316f111f",
+          "order_matches_H": null,
+          "continuation_target": 140,
+          "adamw_lr_unchanged": true
+        }
+      },
+      "export_retained": true,
+      "files": [
+        {
+          "path": "runs/subject01-author-fp32-seed42-lr5e-5-from100/checkpoint-140/COMPLETE",
+          "metadata": [
+            15,
+            1790201565034144943,
+            135929206,
+            33204,
+            1,
+            1001
+          ],
+          "allocated_bytes": 4096
+        },
+        {
+          "path": "runs/subject01-author-fp32-seed42-lr5e-5-from100/checkpoint-140/custom_checkpoint_0.pkl",
+          "metadata": [
+            385230981,
+            1790201563638150755,
+            135929203,
+            33204,
+            1,
+            1001
+          ],
+          "allocated_bytes": 385236992
+        },
+        {
+          "path": "runs/subject01-author-fp32-seed42-lr5e-5-from100/checkpoint-140/custom_checkpoint_1.pkl",
+          "metadata": [
+            9469,
+            1790201563638150755,
+            135929204,
+            33204,
+            1,
+            1001
+          ],
+          "allocated_bytes": 12288
+        },
+        {
+          "path": "runs/subject01-author-fp32-seed42-lr5e-5-from100/checkpoint-140/optimizer.bin",
+          "metadata": [
+            928582219,
+            1790201563401151742,
+            135929201,
+            33204,
+            1,
+            1001
+          ],
+          "allocated_bytes": 928587776
+        },
+        {
+          "path": "runs/subject01-author-fp32-seed42-lr5e-5-from100/checkpoint-140/progress.json",
+          "metadata": [
+            3009,
+            1790201565034144943,
+            135929205,
+            33204,
+            1,
+            1001
+          ],
+          "allocated_bytes": 4096
+        },
+        {
+          "path": "runs/subject01-author-fp32-seed42-lr5e-5-from100/checkpoint-140/pytorch_model.bin",
+          "metadata": [
+            3517449387,
+            1790201562633154941,
+            135929198,
+            33204,
+            1,
+            1001
+          ],
+          "allocated_bytes": 3517456384
+        },
+        {
+          "path": "runs/subject01-author-fp32-seed42-lr5e-5-from100/checkpoint-140/pytorch_model_1.bin",
+          "metadata": [
+            385230885,
+            1790201562870153954,
+            135929200,
+            33204,
+            1,
+            1001
+          ],
+          "allocated_bytes": 385236992
+        },
+        {
+          "path": "runs/subject01-author-fp32-seed42-lr5e-5-from100/checkpoint-140/random_states_0.pkl",
+          "metadata": [
+            15017,
+            1790201563402151738,
+            135929202,
+            33204,
+            1,
+            1001
+          ],
+          "allocated_bytes": 16384
+        },
+        {
+          "path": "runs/subject01-author-fp32-seed42-lr5e-5-from100/checkpoint-140/random_states_1.pkl",
+          "metadata": [
+            15017,
+            1790201560730162869,
+            135929199,
+            33204,
+            1,
+            1001
+          ],
+          "allocated_bytes": 16384
+        }
+      ],
+      "reason": "Completed run; final and key selected/source full states retained. All existing inference exports and results retained."
+    },
+    {
+      "path": "runs/subject01-author-fp32-seed42-lr5e-5-from100/checkpoint-200",
+      "epoch": 200,
+      "progress": {
+        "completed_epochs": 200,
+        "global_optimizer_updates": 106400,
+        "actual_samples_processed": 1700800,
+        "skipped_updates": 0,
+        "run_id": "subject01-author-fp32-seed42-lr5e-5-from100",
+        "current_lr": [
+          5e-05
+        ],
+        "code_commit": "657889bd44744482874a220e96283281804dffb1",
+        "config": {
+          "data_dir": "/data1/matengyu/geyugong/neuroadapter-author-first/data",
+          "imgs_dir": "/data1/matengyu/geyugong/neuroadapter-subject1-research/data/raw/nsd/stimuli",
+          "parcel_dir": "/data1/matengyu/geyugong/neuroadapter-subject1-research/data/derived/parcels/schaefer",
+          "run_id": "subject01-author-fp32-seed42-lr5e-5-from100",
+          "resume_from": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42-lr5e-5-from100/checkpoint-140",
+          "branch_lr_half": true,
+          "seed43_replication": false,
+          "stage2": false,
+          "stage3": false,
+          "stage4": false,
+          "stage5": false,
+          "stage6": false,
+          "train_ids": null,
+          "audit": false,
+          "pretrained_model_name_or_path": "/data1/matengyu/geyugong/neuroadapter-subject1-research/models/stable-diffusion-v1-5",
+          "pretrained_ip_adapter_path": null,
+          "dataset_path": "/engram/nklab/coco/images/train2017/",
+          "output_dir": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42-lr5e-5-from100",
+          "logging_dir": "logs",
+          "training_subjects": null,
+          "learning_rate": 5e-05,
+          "weight_decay": 1e-06,
+          "num_train_epochs": 300,
+          "train_batch_size": 4,
+          "dataloader_num_workers": 0,
+          "save_epochs": 1,
+          "clip_max_norm": 1.0,
+          "mixed_precision": "no",
+          "gradient_accumulation_steps": 2,
+          "local_rank": 0,
+          "subject_id": 1,
+          "topk": 100,
+          "num_decoder_queries": 50,
+          "condition_dim": 768,
+          "encoder_resolution": 224,
+          "make_square": 224,
+          "gen_img_resolution": 512,
+          "sub_approach": "linear_projection",
+          "wandb": false,
+          "time": "subject01-author-fp32-seed42-lr5e-5-from100",
+          "seed": 42
+        },
+        "branch_provenance": {
+          "source_run": "subject01-author-fp32-seed42",
+          "source_checkpoint": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42/checkpoint-100",
+          "source_commit": "ddbac421b0a06e4dc3360dece3cf2afd8429dcdd",
+          "branch_run_id": "subject01-author-fp32-seed42-lr5e-5-from100",
+          "lr_change_location": "after accelerator.load_state; before training_loop",
+          "resume_source": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42-lr5e-5-from100/checkpoint-140",
+          "rank": 0,
+          "completed_epochs": 140,
+          "global_optimizer_updates": 74480,
+          "model_exact": true,
+          "adamw_before_exact": true,
+          "adamw_after_only_lr_changed": true,
+          "adamw_state_entries": 38,
+          "optimizer_lr": [
+            5e-05
+          ],
+          "rng_exact": true,
+          "loader_restored": true,
+          "next_epoch_order_sha256": "0a575fb6c07b8a505462e793df81e18d75d446ab8727f94f73cedacbfc325433",
+          "order_matches_H": null,
+          "continuation_target": 300,
+          "adamw_lr_unchanged": true
+        }
+      },
+      "export_retained": true,
+      "files": [
+        {
+          "path": "runs/subject01-author-fp32-seed42-lr5e-5-from100/checkpoint-200/COMPLETE",
+          "metadata": [
+            15,
+            1790672365287160780,
+            137767729,
+            33204,
+            1,
+            1001
+          ],
+          "allocated_bytes": 4096
+        },
+        {
+          "path": "runs/subject01-author-fp32-seed42-lr5e-5-from100/checkpoint-200/custom_checkpoint_0.pkl",
+          "metadata": [
+            385230981,
+            1790672363853169561,
+            137767726,
+            33204,
+            1,
+            1001
+          ],
+          "allocated_bytes": 385236992
+        },
+        {
+          "path": "runs/subject01-author-fp32-seed42-lr5e-5-from100/checkpoint-200/custom_checkpoint_1.pkl",
+          "metadata": [
+            9533,
+            1790672363854169555,
+            137767727,
+            33204,
+            1,
+            1001
+          ],
+          "allocated_bytes": 12288
+        },
+        {
+          "path": "runs/subject01-author-fp32-seed42-lr5e-5-from100/checkpoint-200/optimizer.bin",
+          "metadata": [
+            928582219,
+            1790672363616171013,
+            137767724,
+            33204,
+            1,
+            1001
+          ],
+          "allocated_bytes": 928587776
+        },
+        {
+          "path": "runs/subject01-author-fp32-seed42-lr5e-5-from100/checkpoint-200/progress.json",
+          "metadata": [
+            3043,
+            1790672365287160780,
+            137767728,
+            33204,
+            1,
+            1001
+          ],
+          "allocated_bytes": 4096
+        },
+        {
+          "path": "runs/subject01-author-fp32-seed42-lr5e-5-from100/checkpoint-200/pytorch_model.bin",
+          "metadata": [
+            3517449387,
+            1790672362845175734,
+            137767721,
+            33204,
+            1,
+            1001
+          ],
+          "allocated_bytes": 3517456384
+        },
+        {
+          "path": "runs/subject01-author-fp32-seed42-lr5e-5-from100/checkpoint-200/pytorch_model_1.bin",
+          "metadata": [
+            385230885,
+            1790672363084174271,
+            137767723,
+            33204,
+            1,
+            1001
+          ],
+          "allocated_bytes": 385236992
+        },
+        {
+          "path": "runs/subject01-author-fp32-seed42-lr5e-5-from100/checkpoint-200/random_states_0.pkl",
+          "metadata": [
+            15017,
+            1790672363616171013,
+            137767725,
+            33204,
+            1,
+            1001
+          ],
+          "allocated_bytes": 16384
+        },
+        {
+          "path": "runs/subject01-author-fp32-seed42-lr5e-5-from100/checkpoint-200/random_states_1.pkl",
+          "metadata": [
+            15017,
+            1790672360889187713,
+            137767722,
+            33204,
+            1,
+            1001
+          ],
+          "allocated_bytes": 16384
+        }
+      ],
+      "reason": "Completed run; final and key selected/source full states retained. All existing inference exports and results retained."
+    },
+    {
+      "path": "runs/subject01-author-fp32-seed42-lr5e-5-from100/checkpoint-250",
+      "epoch": 250,
+      "progress": {
+        "completed_epochs": 250,
+        "global_optimizer_updates": 133000,
+        "actual_samples_processed": 2126000,
+        "skipped_updates": 0,
+        "run_id": "subject01-author-fp32-seed42-lr5e-5-from100",
+        "current_lr": [
+          5e-05
+        ],
+        "code_commit": "657889bd44744482874a220e96283281804dffb1",
+        "config": {
+          "data_dir": "/data1/matengyu/geyugong/neuroadapter-author-first/data",
+          "imgs_dir": "/data1/matengyu/geyugong/neuroadapter-subject1-research/data/raw/nsd/stimuli",
+          "parcel_dir": "/data1/matengyu/geyugong/neuroadapter-subject1-research/data/derived/parcels/schaefer",
+          "run_id": "subject01-author-fp32-seed42-lr5e-5-from100",
+          "resume_from": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42-lr5e-5-from100/checkpoint-140",
+          "branch_lr_half": true,
+          "seed43_replication": false,
+          "stage2": false,
+          "stage3": false,
+          "stage4": false,
+          "stage5": false,
+          "stage6": false,
+          "train_ids": null,
+          "audit": false,
+          "pretrained_model_name_or_path": "/data1/matengyu/geyugong/neuroadapter-subject1-research/models/stable-diffusion-v1-5",
+          "pretrained_ip_adapter_path": null,
+          "dataset_path": "/engram/nklab/coco/images/train2017/",
+          "output_dir": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42-lr5e-5-from100",
+          "logging_dir": "logs",
+          "training_subjects": null,
+          "learning_rate": 5e-05,
+          "weight_decay": 1e-06,
+          "num_train_epochs": 300,
+          "train_batch_size": 4,
+          "dataloader_num_workers": 0,
+          "save_epochs": 1,
+          "clip_max_norm": 1.0,
+          "mixed_precision": "no",
+          "gradient_accumulation_steps": 2,
+          "local_rank": 0,
+          "subject_id": 1,
+          "topk": 100,
+          "num_decoder_queries": 50,
+          "condition_dim": 768,
+          "encoder_resolution": 224,
+          "make_square": 224,
+          "gen_img_resolution": 512,
+          "sub_approach": "linear_projection",
+          "wandb": false,
+          "time": "subject01-author-fp32-seed42-lr5e-5-from100",
+          "seed": 42
+        },
+        "branch_provenance": {
+          "source_run": "subject01-author-fp32-seed42",
+          "source_checkpoint": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42/checkpoint-100",
+          "source_commit": "ddbac421b0a06e4dc3360dece3cf2afd8429dcdd",
+          "branch_run_id": "subject01-author-fp32-seed42-lr5e-5-from100",
+          "lr_change_location": "after accelerator.load_state; before training_loop",
+          "resume_source": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42-lr5e-5-from100/checkpoint-140",
+          "rank": 0,
+          "completed_epochs": 140,
+          "global_optimizer_updates": 74480,
+          "model_exact": true,
+          "adamw_before_exact": true,
+          "adamw_after_only_lr_changed": true,
+          "adamw_state_entries": 38,
+          "optimizer_lr": [
+            5e-05
+          ],
+          "rng_exact": true,
+          "loader_restored": true,
+          "next_epoch_order_sha256": "0a575fb6c07b8a505462e793df81e18d75d446ab8727f94f73cedacbfc325433",
+          "order_matches_H": null,
+          "continuation_target": 300,
+          "adamw_lr_unchanged": true
+        }
+      },
+      "export_retained": true,
+      "files": [
+        {
+          "path": "runs/subject01-author-fp32-seed42-lr5e-5-from100/checkpoint-250/COMPLETE",
+          "metadata": [
+            15,
+            1790716733065410366,
+            137767719,
+            33204,
+            1,
+            1001
+          ],
+          "allocated_bytes": 4096
+        },
+        {
+          "path": "runs/subject01-author-fp32-seed42-lr5e-5-from100/checkpoint-250/custom_checkpoint_0.pkl",
+          "metadata": [
+            385230981,
+            1790716731639420034,
+            137767716,
+            33204,
+            1,
+            1001
+          ],
+          "allocated_bytes": 385236992
+        },
+        {
+          "path": "runs/subject01-author-fp32-seed42-lr5e-5-from100/checkpoint-250/custom_checkpoint_1.pkl",
+          "metadata": [
+            9533,
+            1790716731639420034,
+            137767717,
+            33204,
+            1,
+            1001
+          ],
+          "allocated_bytes": 12288
+        },
+        {
+          "path": "runs/subject01-author-fp32-seed42-lr5e-5-from100/checkpoint-250/optimizer.bin",
+          "metadata": [
+            928582219,
+            1790716731402421642,
+            137767714,
+            33204,
+            1,
+            1001
+          ],
+          "allocated_bytes": 928587776
+        },
+        {
+          "path": "runs/subject01-author-fp32-seed42-lr5e-5-from100/checkpoint-250/progress.json",
+          "metadata": [
+            3043,
+            1790716733065410366,
+            137767718,
+            33204,
+            1,
+            1001
+          ],
+          "allocated_bytes": 4096
+        },
+        {
+          "path": "runs/subject01-author-fp32-seed42-lr5e-5-from100/checkpoint-250/pytorch_model.bin",
+          "metadata": [
+            3517449387,
+            1790716730629426888,
+            137767711,
+            33204,
+            1,
+            1001
+          ],
+          "allocated_bytes": 3517456384
+        },
+        {
+          "path": "runs/subject01-author-fp32-seed42-lr5e-5-from100/checkpoint-250/pytorch_model_1.bin",
+          "metadata": [
+            385230885,
+            1790716730868425265,
+            137767713,
+            33204,
+            1,
+            1001
+          ],
+          "allocated_bytes": 385236992
+        },
+        {
+          "path": "runs/subject01-author-fp32-seed42-lr5e-5-from100/checkpoint-250/random_states_0.pkl",
+          "metadata": [
+            15017,
+            1790716731402421642,
+            137767715,
+            33204,
+            1,
+            1001
+          ],
+          "allocated_bytes": 16384
+        },
+        {
+          "path": "runs/subject01-author-fp32-seed42-lr5e-5-from100/checkpoint-250/random_states_1.pkl",
+          "metadata": [
+            15017,
+            1790716728700439999,
+            137767712,
+            33204,
+            1,
+            1001
+          ],
+          "allocated_bytes": 16384
+        }
+      ],
+      "reason": "Completed run; final and key selected/source full states retained. All existing inference exports and results retained."
+    },
+    {
+      "path": "runs/subject01-author-fp32-seed42-lr5e-5-from100/checkpoint-299",
+      "epoch": 299,
+      "progress": {
+        "completed_epochs": 299,
+        "global_optimizer_updates": 159068,
+        "actual_samples_processed": 2542696,
+        "skipped_updates": 0,
+        "run_id": "subject01-author-fp32-seed42-lr5e-5-from100",
+        "current_lr": [
+          5e-05
+        ],
+        "code_commit": "657889bd44744482874a220e96283281804dffb1",
+        "config": {
+          "data_dir": "/data1/matengyu/geyugong/neuroadapter-author-first/data",
+          "imgs_dir": "/data1/matengyu/geyugong/neuroadapter-subject1-research/data/raw/nsd/stimuli",
+          "parcel_dir": "/data1/matengyu/geyugong/neuroadapter-subject1-research/data/derived/parcels/schaefer",
+          "run_id": "subject01-author-fp32-seed42-lr5e-5-from100",
+          "resume_from": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42-lr5e-5-from100/checkpoint-140",
+          "branch_lr_half": true,
+          "seed43_replication": false,
+          "stage2": false,
+          "stage3": false,
+          "stage4": false,
+          "stage5": false,
+          "stage6": false,
+          "train_ids": null,
+          "audit": false,
+          "pretrained_model_name_or_path": "/data1/matengyu/geyugong/neuroadapter-subject1-research/models/stable-diffusion-v1-5",
+          "pretrained_ip_adapter_path": null,
+          "dataset_path": "/engram/nklab/coco/images/train2017/",
+          "output_dir": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42-lr5e-5-from100",
+          "logging_dir": "logs",
+          "training_subjects": null,
+          "learning_rate": 5e-05,
+          "weight_decay": 1e-06,
+          "num_train_epochs": 300,
+          "train_batch_size": 4,
+          "dataloader_num_workers": 0,
+          "save_epochs": 1,
+          "clip_max_norm": 1.0,
+          "mixed_precision": "no",
+          "gradient_accumulation_steps": 2,
+          "local_rank": 0,
+          "subject_id": 1,
+          "topk": 100,
+          "num_decoder_queries": 50,
+          "condition_dim": 768,
+          "encoder_resolution": 224,
+          "make_square": 224,
+          "gen_img_resolution": 512,
+          "sub_approach": "linear_projection",
+          "wandb": false,
+          "time": "subject01-author-fp32-seed42-lr5e-5-from100",
+          "seed": 42
+        },
+        "branch_provenance": {
+          "source_run": "subject01-author-fp32-seed42",
+          "source_checkpoint": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42/checkpoint-100",
+          "source_commit": "ddbac421b0a06e4dc3360dece3cf2afd8429dcdd",
+          "branch_run_id": "subject01-author-fp32-seed42-lr5e-5-from100",
+          "lr_change_location": "after accelerator.load_state; before training_loop",
+          "resume_source": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42-lr5e-5-from100/checkpoint-140",
+          "rank": 0,
+          "completed_epochs": 140,
+          "global_optimizer_updates": 74480,
+          "model_exact": true,
+          "adamw_before_exact": true,
+          "adamw_after_only_lr_changed": true,
+          "adamw_state_entries": 38,
+          "optimizer_lr": [
+            5e-05
+          ],
+          "rng_exact": true,
+          "loader_restored": true,
+          "next_epoch_order_sha256": "0a575fb6c07b8a505462e793df81e18d75d446ab8727f94f73cedacbfc325433",
+          "order_matches_H": null,
+          "continuation_target": 300,
+          "adamw_lr_unchanged": true
+        }
+      },
+      "export_retained": false,
+      "files": [
+        {
+          "path": "runs/subject01-author-fp32-seed42-lr5e-5-from100/checkpoint-299/COMPLETE",
+          "metadata": [
+            15,
+            1790760118778017314,
+            137767739,
+            33204,
+            1,
+            1001
+          ],
+          "allocated_bytes": 4096
+        },
+        {
+          "path": "runs/subject01-author-fp32-seed42-lr5e-5-from100/checkpoint-299/custom_checkpoint_0.pkl",
+          "metadata": [
+            385230981,
+            1790760117424023701,
+            137767736,
+            33204,
+            1,
+            1001
+          ],
+          "allocated_bytes": 385236992
+        },
+        {
+          "path": "runs/subject01-author-fp32-seed42-lr5e-5-from100/checkpoint-299/custom_checkpoint_1.pkl",
+          "metadata": [
+            9533,
+            1790760117425023696,
+            137767737,
+            33204,
+            1,
+            1001
+          ],
+          "allocated_bytes": 12288
+        },
+        {
+          "path": "runs/subject01-author-fp32-seed42-lr5e-5-from100/checkpoint-299/optimizer.bin",
+          "metadata": [
+            928582219,
+            1790760117188024814,
+            137767734,
+            33204,
+            1,
+            1001
+          ],
+          "allocated_bytes": 928587776
+        },
+        {
+          "path": "runs/subject01-author-fp32-seed42-lr5e-5-from100/checkpoint-299/progress.json",
+          "metadata": [
+            3043,
+            1790760118778017314,
+            137767738,
+            33204,
+            1,
+            1001
+          ],
+          "allocated_bytes": 4096
+        },
+        {
+          "path": "runs/subject01-author-fp32-seed42-lr5e-5-from100/checkpoint-299/pytorch_model.bin",
+          "metadata": [
+            3517449387,
+            1790760116419028444,
+            137767731,
+            33204,
+            1,
+            1001
+          ],
+          "allocated_bytes": 3517456384
+        },
+        {
+          "path": "runs/subject01-author-fp32-seed42-lr5e-5-from100/checkpoint-299/pytorch_model_1.bin",
+          "metadata": [
+            385230885,
+            1790760116657027321,
+            137767733,
+            33204,
+            1,
+            1001
+          ],
+          "allocated_bytes": 385236992
+        },
+        {
+          "path": "runs/subject01-author-fp32-seed42-lr5e-5-from100/checkpoint-299/random_states_0.pkl",
+          "metadata": [
+            15017,
+            1790760117188024814,
+            137767735,
+            33204,
+            1,
+            1001
+          ],
+          "allocated_bytes": 16384
+        },
+        {
+          "path": "runs/subject01-author-fp32-seed42-lr5e-5-from100/checkpoint-299/random_states_1.pkl",
+          "metadata": [
+            15017,
+            1790760114496037526,
+            137767732,
+            33204,
+            1,
+            1001
+          ],
+          "allocated_bytes": 16384
+        }
+      ],
+      "reason": "Completed run; final and key selected/source full states retained. All existing inference exports and results retained."
+    },
+    {
+      "path": "runs/subject01-author-fp32-seed42-lr5e-5-from100/checkpoint-450",
+      "epoch": 450,
+      "progress": {
+        "completed_epochs": 450,
+        "global_optimizer_updates": 239400,
+        "actual_samples_processed": 3826800,
+        "skipped_updates": 0,
+        "run_id": "subject01-author-fp32-seed42-lr5e-5-from100",
+        "current_lr": [
+          5e-05
+        ],
+        "code_commit": "657889bd44744482874a220e96283281804dffb1",
+        "config": {
+          "data_dir": "/data1/matengyu/geyugong/neuroadapter-author-first/data",
+          "imgs_dir": "/data1/matengyu/geyugong/neuroadapter-subject1-research/data/raw/nsd/stimuli",
+          "parcel_dir": "/data1/matengyu/geyugong/neuroadapter-subject1-research/data/derived/parcels/schaefer",
+          "run_id": "subject01-author-fp32-seed42-lr5e-5-from100",
+          "resume_from": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42-lr5e-5-from100/checkpoint-300",
+          "branch_lr_half": true,
+          "seed43_replication": false,
+          "stage2": false,
+          "stage3": false,
+          "stage4": false,
+          "stage5": false,
+          "stage6": false,
+          "train_ids": null,
+          "audit": false,
+          "pretrained_model_name_or_path": "/data1/matengyu/geyugong/neuroadapter-subject1-research/models/stable-diffusion-v1-5",
+          "pretrained_ip_adapter_path": null,
+          "dataset_path": "/engram/nklab/coco/images/train2017/",
+          "output_dir": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42-lr5e-5-from100",
+          "logging_dir": "logs",
+          "training_subjects": null,
+          "learning_rate": 5e-05,
+          "weight_decay": 1e-06,
+          "num_train_epochs": 500,
+          "train_batch_size": 4,
+          "dataloader_num_workers": 0,
+          "save_epochs": 1,
+          "clip_max_norm": 1.0,
+          "mixed_precision": "no",
+          "gradient_accumulation_steps": 2,
+          "local_rank": 0,
+          "subject_id": 1,
+          "topk": 100,
+          "num_decoder_queries": 50,
+          "condition_dim": 768,
+          "encoder_resolution": 224,
+          "make_square": 224,
+          "gen_img_resolution": 512,
+          "sub_approach": "linear_projection",
+          "wandb": false,
+          "time": "subject01-author-fp32-seed42-lr5e-5-from100",
+          "seed": 42
+        },
+        "branch_provenance": {
+          "source_run": "subject01-author-fp32-seed42",
+          "source_checkpoint": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42/checkpoint-100",
+          "source_commit": "ddbac421b0a06e4dc3360dece3cf2afd8429dcdd",
+          "branch_run_id": "subject01-author-fp32-seed42-lr5e-5-from100",
+          "lr_change_location": "after accelerator.load_state; before training_loop",
+          "resume_source": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42-lr5e-5-from100/checkpoint-300",
+          "rank": 0,
+          "completed_epochs": 300,
+          "global_optimizer_updates": 159600,
+          "model_exact": true,
+          "adamw_before_exact": true,
+          "adamw_after_only_lr_changed": true,
+          "adamw_state_entries": 38,
+          "optimizer_lr": [
+            5e-05
+          ],
+          "rng_exact": true,
+          "loader_restored": true,
+          "next_epoch_order_sha256": "293bd31283c2f7d9e2fab0a1522a131531e8fcb7384ecaca0e5476ca5ae5f0e5",
+          "order_matches_H": null,
+          "continuation_target": 500,
+          "adamw_lr_unchanged": true
+        }
+      },
+      "export_retained": true,
+      "files": [
+        {
+          "path": "runs/subject01-author-fp32-seed42-lr5e-5-from100/checkpoint-450/COMPLETE",
+          "metadata": [
+            15,
+            1790917248576709807,
+            137770326,
+            33204,
+            1,
+            1001
+          ],
+          "allocated_bytes": 4096
+        },
+        {
+          "path": "runs/subject01-author-fp32-seed42-lr5e-5-from100/checkpoint-450/custom_checkpoint_0.pkl",
+          "metadata": [
+            385230981,
+            1790917247183714656,
+            137770323,
+            33204,
+            1,
+            1001
+          ],
+          "allocated_bytes": 385236992
+        },
+        {
+          "path": "runs/subject01-author-fp32-seed42-lr5e-5-from100/checkpoint-450/custom_checkpoint_1.pkl",
+          "metadata": [
+            9533,
+            1790917247183714656,
+            137770324,
+            33204,
+            1,
+            1001
+          ],
+          "allocated_bytes": 12288
+        },
+        {
+          "path": "runs/subject01-author-fp32-seed42-lr5e-5-from100/checkpoint-450/optimizer.bin",
+          "metadata": [
+            928582219,
+            1790917246946715481,
+            137770321,
+            33204,
+            1,
+            1001
+          ],
+          "allocated_bytes": 928587776
+        },
+        {
+          "path": "runs/subject01-author-fp32-seed42-lr5e-5-from100/checkpoint-450/progress.json",
+          "metadata": [
+            3044,
+            1790917248576709807,
+            137770325,
+            33204,
+            1,
+            1001
+          ],
+          "allocated_bytes": 4096
+        },
+        {
+          "path": "runs/subject01-author-fp32-seed42-lr5e-5-from100/checkpoint-450/pytorch_model.bin",
+          "metadata": [
+            3517449387,
+            1790917246185718130,
+            137770318,
+            33204,
+            1,
+            1001
+          ],
+          "allocated_bytes": 3517456384
+        },
+        {
+          "path": "runs/subject01-author-fp32-seed42-lr5e-5-from100/checkpoint-450/pytorch_model_1.bin",
+          "metadata": [
+            385230885,
+            1790917246422717305,
+            137770320,
+            33204,
+            1,
+            1001
+          ],
+          "allocated_bytes": 385236992
+        },
+        {
+          "path": "runs/subject01-author-fp32-seed42-lr5e-5-from100/checkpoint-450/random_states_0.pkl",
+          "metadata": [
+            15017,
+            1790917246946715481,
+            137770322,
+            33204,
+            1,
+            1001
+          ],
+          "allocated_bytes": 16384
+        },
+        {
+          "path": "runs/subject01-author-fp32-seed42-lr5e-5-from100/checkpoint-450/random_states_1.pkl",
+          "metadata": [
+            15017,
+            1790917244274724783,
+            137770319,
+            33204,
+            1,
+            1001
+          ],
+          "allocated_bytes": 16384
+        }
+      ],
+      "reason": "Completed run; final and key selected/source full states retained. All existing inference exports and results retained."
+    },
+    {
+      "path": "runs/subject01-author-fp32-seed42-lr5e-5-from100/checkpoint-499",
+      "epoch": 499,
+      "progress": {
+        "completed_epochs": 499,
+        "global_optimizer_updates": 265468,
+        "actual_samples_processed": 4243496,
+        "skipped_updates": 0,
+        "run_id": "subject01-author-fp32-seed42-lr5e-5-from100",
+        "current_lr": [
+          5e-05
+        ],
+        "code_commit": "657889bd44744482874a220e96283281804dffb1",
+        "config": {
+          "data_dir": "/data1/matengyu/geyugong/neuroadapter-author-first/data",
+          "imgs_dir": "/data1/matengyu/geyugong/neuroadapter-subject1-research/data/raw/nsd/stimuli",
+          "parcel_dir": "/data1/matengyu/geyugong/neuroadapter-subject1-research/data/derived/parcels/schaefer",
+          "run_id": "subject01-author-fp32-seed42-lr5e-5-from100",
+          "resume_from": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42-lr5e-5-from100/checkpoint-300",
+          "branch_lr_half": true,
+          "seed43_replication": false,
+          "stage2": false,
+          "stage3": false,
+          "stage4": false,
+          "stage5": false,
+          "stage6": false,
+          "train_ids": null,
+          "audit": false,
+          "pretrained_model_name_or_path": "/data1/matengyu/geyugong/neuroadapter-subject1-research/models/stable-diffusion-v1-5",
+          "pretrained_ip_adapter_path": null,
+          "dataset_path": "/engram/nklab/coco/images/train2017/",
+          "output_dir": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42-lr5e-5-from100",
+          "logging_dir": "logs",
+          "training_subjects": null,
+          "learning_rate": 5e-05,
+          "weight_decay": 1e-06,
+          "num_train_epochs": 500,
+          "train_batch_size": 4,
+          "dataloader_num_workers": 0,
+          "save_epochs": 1,
+          "clip_max_norm": 1.0,
+          "mixed_precision": "no",
+          "gradient_accumulation_steps": 2,
+          "local_rank": 0,
+          "subject_id": 1,
+          "topk": 100,
+          "num_decoder_queries": 50,
+          "condition_dim": 768,
+          "encoder_resolution": 224,
+          "make_square": 224,
+          "gen_img_resolution": 512,
+          "sub_approach": "linear_projection",
+          "wandb": false,
+          "time": "subject01-author-fp32-seed42-lr5e-5-from100",
+          "seed": 42
+        },
+        "branch_provenance": {
+          "source_run": "subject01-author-fp32-seed42",
+          "source_checkpoint": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42/checkpoint-100",
+          "source_commit": "ddbac421b0a06e4dc3360dece3cf2afd8429dcdd",
+          "branch_run_id": "subject01-author-fp32-seed42-lr5e-5-from100",
+          "lr_change_location": "after accelerator.load_state; before training_loop",
+          "resume_source": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42-lr5e-5-from100/checkpoint-300",
+          "rank": 0,
+          "completed_epochs": 300,
+          "global_optimizer_updates": 159600,
+          "model_exact": true,
+          "adamw_before_exact": true,
+          "adamw_after_only_lr_changed": true,
+          "adamw_state_entries": 38,
+          "optimizer_lr": [
+            5e-05
+          ],
+          "rng_exact": true,
+          "loader_restored": true,
+          "next_epoch_order_sha256": "293bd31283c2f7d9e2fab0a1522a131531e8fcb7384ecaca0e5476ca5ae5f0e5",
+          "order_matches_H": null,
+          "continuation_target": 500,
+          "adamw_lr_unchanged": true
+        }
+      },
+      "export_retained": false,
+      "files": [
+        {
+          "path": "runs/subject01-author-fp32-seed42-lr5e-5-from100/checkpoint-499/COMPLETE",
+          "metadata": [
+            15,
+            1790960498420394197,
+            137770340,
+            33204,
+            1,
+            1001
+          ],
+          "allocated_bytes": 4096
+        },
+        {
+          "path": "runs/subject01-author-fp32-seed42-lr5e-5-from100/checkpoint-499/custom_checkpoint_0.pkl",
+          "metadata": [
+            385230981,
+            1790960497004436688,
+            137770337,
+            33204,
+            1,
+            1001
+          ],
+          "allocated_bytes": 385236992
+        },
+        {
+          "path": "runs/subject01-author-fp32-seed42-lr5e-5-from100/checkpoint-499/custom_checkpoint_1.pkl",
+          "metadata": [
+            9533,
+            1790960497004436688,
+            137770338,
+            33204,
+            1,
+            1001
+          ],
+          "allocated_bytes": 12288
+        },
+        {
+          "path": "runs/subject01-author-fp32-seed42-lr5e-5-from100/checkpoint-499/optimizer.bin",
+          "metadata": [
+            928582219,
+            1790960496767443816,
+            137770335,
+            33204,
+            1,
+            1001
+          ],
+          "allocated_bytes": 928587776
+        },
+        {
+          "path": "runs/subject01-author-fp32-seed42-lr5e-5-from100/checkpoint-499/progress.json",
+          "metadata": [
+            3044,
+            1790960498420394197,
+            137770339,
+            33204,
+            1,
+            1001
+          ],
+          "allocated_bytes": 4096
+        },
+        {
+          "path": "runs/subject01-author-fp32-seed42-lr5e-5-from100/checkpoint-499/pytorch_model.bin",
+          "metadata": [
+            3517449387,
+            1790960495997466977,
+            137770332,
+            33204,
+            1,
+            1001
+          ],
+          "allocated_bytes": 3517456384
+        },
+        {
+          "path": "runs/subject01-author-fp32-seed42-lr5e-5-from100/checkpoint-499/pytorch_model_1.bin",
+          "metadata": [
+            385230885,
+            1790960496235459818,
+            137770334,
+            33204,
+            1,
+            1001
+          ],
+          "allocated_bytes": 385236992
+        },
+        {
+          "path": "runs/subject01-author-fp32-seed42-lr5e-5-from100/checkpoint-499/random_states_0.pkl",
+          "metadata": [
+            15017,
+            1790960496767443816,
+            137770336,
+            33204,
+            1,
+            1001
+          ],
+          "allocated_bytes": 16384
+        },
+        {
+          "path": "runs/subject01-author-fp32-seed42-lr5e-5-from100/checkpoint-499/random_states_1.pkl",
+          "metadata": [
+            15017,
+            1790960494054525577,
+            137770333,
+            33204,
+            1,
+            1001
+          ],
+          "allocated_bytes": 16384
+        }
+      ],
+      "reason": "Completed run; final and key selected/source full states retained. All existing inference exports and results retained."
+    },
+    {
+      "path": "runs/subject01-author-fp32-seed42-lr1e-5-from400/checkpoint-499",
+      "epoch": 499,
+      "progress": {
+        "completed_epochs": 499,
+        "global_optimizer_updates": 265468,
+        "actual_samples_processed": 4243496,
+        "skipped_updates": 0,
+        "run_id": "subject01-author-fp32-seed42-lr1e-5-from400",
+        "current_lr": [
+          1e-05
+        ],
+        "code_commit": "657889bd44744482874a220e96283281804dffb1",
+        "config": {
+          "data_dir": "/data1/matengyu/geyugong/neuroadapter-author-first/data",
+          "imgs_dir": "/data1/matengyu/geyugong/neuroadapter-subject1-research/data/raw/nsd/stimuli",
+          "parcel_dir": "/data1/matengyu/geyugong/neuroadapter-subject1-research/data/derived/parcels/schaefer",
+          "run_id": "subject01-author-fp32-seed42-lr1e-5-from400",
+          "resume_from": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42-lr1e-5-from400/checkpoint-475",
+          "branch_lr_half": true,
+          "seed43_replication": false,
+          "stage2": false,
+          "stage3": false,
+          "stage4": false,
+          "stage5": false,
+          "stage6": false,
+          "train_ids": null,
+          "audit": false,
+          "pretrained_model_name_or_path": "/data1/matengyu/geyugong/neuroadapter-subject1-research/models/stable-diffusion-v1-5",
+          "pretrained_ip_adapter_path": null,
+          "dataset_path": "/engram/nklab/coco/images/train2017/",
+          "output_dir": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42-lr1e-5-from400",
+          "logging_dir": "logs",
+          "training_subjects": null,
+          "learning_rate": 1e-05,
+          "weight_decay": 1e-06,
+          "num_train_epochs": 500,
+          "train_batch_size": 4,
+          "dataloader_num_workers": 0,
+          "save_epochs": 1,
+          "clip_max_norm": 1.0,
+          "mixed_precision": "no",
+          "gradient_accumulation_steps": 2,
+          "local_rank": 0,
+          "subject_id": 1,
+          "topk": 100,
+          "num_decoder_queries": 50,
+          "condition_dim": 768,
+          "encoder_resolution": 224,
+          "make_square": 224,
+          "gen_img_resolution": 512,
+          "sub_approach": "linear_projection",
+          "wandb": false,
+          "time": "subject01-author-fp32-seed42-lr1e-5-from400",
+          "seed": 42
+        },
+        "branch_provenance": {
+          "source_run": "subject01-author-fp32-seed42-lr5e-5-from100",
+          "source_checkpoint": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42-lr5e-5-from100/checkpoint-400",
+          "resume_source": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42-lr1e-5-from400/checkpoint-475",
+          "branch_run_id": "subject01-author-fp32-seed42-lr1e-5-from400",
+          "rank": 0,
+          "completed_epochs": 475,
+          "global_optimizer_updates": 252700,
+          "model_exact": true,
+          "adamw_before_exact": true,
+          "adamw_after_only_lr_changed": true,
+          "rng_exact": true,
+          "loader_restored": true,
+          "optimizer_lr": [
+            1e-05
+          ],
+          "next_epoch_order_sha256": "ddf42d303f089d121bc41c5a75962ddc504096fbeedbe533d920e051855bc49a",
+          "order_matches_historical": true,
+          "continuation_target": 500
+        }
+      },
+      "export_retained": false,
+      "files": [
+        {
+          "path": "runs/subject01-author-fp32-seed42-lr1e-5-from400/checkpoint-499/COMPLETE",
+          "metadata": [
+            15,
+            1791416413579673855,
+            138417115,
+            33204,
+            1,
+            1001
+          ],
+          "allocated_bytes": 4096
+        },
+        {
+          "path": "runs/subject01-author-fp32-seed42-lr1e-5-from400/checkpoint-499/custom_checkpoint_0.pkl",
+          "metadata": [
+            385230981,
+            1791416412144678691,
+            138417112,
+            33204,
+            1,
+            1001
+          ],
+          "allocated_bytes": 385236992
+        },
+        {
+          "path": "runs/subject01-author-fp32-seed42-lr1e-5-from400/checkpoint-499/custom_checkpoint_1.pkl",
+          "metadata": [
+            9341,
+            1791416412144678691,
+            138417113,
+            33204,
+            1,
+            1001
+          ],
+          "allocated_bytes": 12288
+        },
+        {
+          "path": "runs/subject01-author-fp32-seed42-lr1e-5-from400/checkpoint-499/optimizer.bin",
+          "metadata": [
+            928582219,
+            1791416411899679517,
+            138417110,
+            33204,
+            1,
+            1001
+          ],
+          "allocated_bytes": 928587776
+        },
+        {
+          "path": "runs/subject01-author-fp32-seed42-lr1e-5-from400/checkpoint-499/progress.json",
+          "metadata": [
+            2875,
+            1791416413579673855,
+            138417114,
+            33204,
+            1,
+            1001
+          ],
+          "allocated_bytes": 4096
+        },
+        {
+          "path": "runs/subject01-author-fp32-seed42-lr1e-5-from400/checkpoint-499/pytorch_model.bin",
+          "metadata": [
+            3517449387,
+            1791416411123682132,
+            138417107,
+            33204,
+            1,
+            1001
+          ],
+          "allocated_bytes": 3517456384
+        },
+        {
+          "path": "runs/subject01-author-fp32-seed42-lr1e-5-from400/checkpoint-499/pytorch_model_1.bin",
+          "metadata": [
+            385230885,
+            1791416411363681323,
+            138417109,
+            33204,
+            1,
+            1001
+          ],
+          "allocated_bytes": 385236992
+        },
+        {
+          "path": "runs/subject01-author-fp32-seed42-lr1e-5-from400/checkpoint-499/random_states_0.pkl",
+          "metadata": [
+            15017,
+            1791416411900679513,
+            138417111,
+            33204,
+            1,
+            1001
+          ],
+          "allocated_bytes": 16384
+        },
+        {
+          "path": "runs/subject01-author-fp32-seed42-lr1e-5-from400/checkpoint-499/random_states_1.pkl",
+          "metadata": [
+            15017,
+            1791416409182688673,
+            138417108,
+            33204,
+            1,
+            1001
+          ],
+          "allocated_bytes": 16384
+        }
+      ],
+      "reason": "Completed run; final and key selected/source full states retained. All existing inference exports and results retained."
+    },
+    {
+      "path": "runs/subject01-author-fp32-seed42-lr1e-5-spatiall1-from450/checkpoint-474",
+      "epoch": 474,
+      "progress": {
+        "completed_epochs": 474,
+        "global_optimizer_updates": 252168,
+        "actual_samples_processed": 4030896,
+        "skipped_updates": 0,
+        "run_id": "subject01-author-fp32-seed42-lr1e-5-spatiall1-from450",
+        "current_lr": [
+          1e-05
+        ],
+        "code_commit": "40be7cec6a1cfdc77fc38950a65f8f7639e4682b",
+        "config": {
+          "data_dir": "/data1/matengyu/geyugong/neuroadapter-author-first/data",
+          "imgs_dir": "/data1/matengyu/geyugong/neuroadapter-subject1-research/data/raw/nsd/stimuli",
+          "parcel_dir": "/data1/matengyu/geyugong/neuroadapter-subject1-research/data/derived/parcels/schaefer",
+          "run_id": "subject01-author-fp32-seed42-lr1e-5-spatiall1-from450",
+          "resume_from": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42-lr1e-5-from400/checkpoint-450",
+          "branch_lr_half": true,
+          "seed43_replication": false,
+          "stage2": false,
+          "stage3": false,
+          "stage4": false,
+          "stage5": false,
+          "stage6": false,
+          "train_ids": null,
+          "audit": false,
+          "pretrained_model_name_or_path": "/data1/matengyu/geyugong/neuroadapter-subject1-research/models/stable-diffusion-v1-5",
+          "pretrained_ip_adapter_path": null,
+          "dataset_path": "/engram/nklab/coco/images/train2017/",
+          "output_dir": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42-lr1e-5-spatiall1-from450",
+          "logging_dir": "logs",
+          "training_subjects": null,
+          "learning_rate": 1e-05,
+          "weight_decay": 1e-06,
+          "num_train_epochs": 475,
+          "train_batch_size": 4,
+          "dataloader_num_workers": 0,
+          "save_epochs": 1,
+          "clip_max_norm": 1.0,
+          "mixed_precision": "no",
+          "gradient_accumulation_steps": 2,
+          "local_rank": 0,
+          "subject_id": 1,
+          "topk": 100,
+          "num_decoder_queries": 50,
+          "condition_dim": 768,
+          "encoder_resolution": 224,
+          "make_square": 224,
+          "gen_img_resolution": 512,
+          "sub_approach": "linear_projection",
+          "wandb": false,
+          "time": "subject01-author-fp32-seed42-lr1e-5-spatiall1-from450",
+          "seed": 42,
+          "spatial_objective": {
+            "weight": 0.05,
+            "tmax": 250,
+            "size": 64
+          }
+        },
+        "branch_provenance": {
+          "source_run": "subject01-author-fp32-seed42-lr1e-5-from400",
+          "source_checkpoint": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42-lr1e-5-from400/checkpoint-450",
+          "resume_source": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42-lr1e-5-from400/checkpoint-450",
+          "branch_run_id": "subject01-author-fp32-seed42-lr1e-5-spatiall1-from450",
+          "rank": 0,
+          "completed_epochs": 450,
+          "global_optimizer_updates": 239400,
+          "model_exact": true,
+          "adamw_before_exact": true,
+          "adamw_unchanged": true,
+          "rng_exact": true,
+          "loader_restored": true,
+          "optimizer_lr": [
+            1e-05
+          ],
+          "optimizer_weight_decay": [
+            1e-06
+          ],
+          "next_epoch_order_sha256": "e4f4733e96414c728b435a8fe7db2f3d75bf8279bf287516c5ddf0f128bfe17a",
+          "order_matches_historical": true,
+          "continuation_target": 475
+        }
+      },
+      "export_retained": false,
+      "files": [
+        {
+          "path": "runs/subject01-author-fp32-seed42-lr1e-5-spatiall1-from450/checkpoint-474/COMPLETE",
+          "metadata": [
+            15,
+            1791528276156869535,
+            138419322,
+            33204,
+            1,
+            1001
+          ],
+          "allocated_bytes": 4096
+        },
+        {
+          "path": "runs/subject01-author-fp32-seed42-lr1e-5-spatiall1-from450/checkpoint-474/custom_checkpoint_0.pkl",
+          "metadata": [
+            385230981,
+            1791528274866880267,
+            138419319,
+            33204,
+            1,
+            1001
+          ],
+          "allocated_bytes": 385236992
+        },
+        {
+          "path": "runs/subject01-author-fp32-seed42-lr1e-5-spatiall1-from450/checkpoint-474/custom_checkpoint_1.pkl",
+          "metadata": [
+            9469,
+            1791528274866880267,
+            138419320,
+            33204,
+            1,
+            1001
+          ],
+          "allocated_bytes": 12288
+        },
+        {
+          "path": "runs/subject01-author-fp32-seed42-lr1e-5-spatiall1-from450/checkpoint-474/optimizer.bin",
+          "metadata": [
+            928582219,
+            1791528274629882240,
+            138419317,
+            33204,
+            1,
+            1001
+          ],
+          "allocated_bytes": 928587776
+        },
+        {
+          "path": "runs/subject01-author-fp32-seed42-lr1e-5-spatiall1-from450/checkpoint-474/progress.json",
+          "metadata": [
+            3056,
+            1791528276156869535,
+            138419321,
+            33204,
+            1,
+            1001
+          ],
+          "allocated_bytes": 4096
+        },
+        {
+          "path": "runs/subject01-author-fp32-seed42-lr1e-5-spatiall1-from450/checkpoint-474/pytorch_model.bin",
+          "metadata": [
+            3517449387,
+            1791528273863888617,
+            138419314,
+            33204,
+            1,
+            1001
+          ],
+          "allocated_bytes": 3517456384
+        },
+        {
+          "path": "runs/subject01-author-fp32-seed42-lr1e-5-spatiall1-from450/checkpoint-474/pytorch_model_1.bin",
+          "metadata": [
+            385230885,
+            1791528274100886643,
+            138419316,
+            33204,
+            1,
+            1001
+          ],
+          "allocated_bytes": 385236992
+        },
+        {
+          "path": "runs/subject01-author-fp32-seed42-lr1e-5-spatiall1-from450/checkpoint-474/random_states_0.pkl",
+          "metadata": [
+            15017,
+            1791528274629882240,
+            138419318,
+            33204,
+            1,
+            1001
+          ],
+          "allocated_bytes": 16384
+        },
+        {
+          "path": "runs/subject01-author-fp32-seed42-lr1e-5-spatiall1-from450/checkpoint-474/random_states_1.pkl",
+          "metadata": [
+            15017,
+            1791528272380900971,
+            138419315,
+            33204,
+            1,
+            1001
+          ],
+          "allocated_bytes": 16384
+        }
+      ],
+      "reason": "Completed run; final and key selected/source full states retained. All existing inference exports and results retained."
+    },
+    {
+      "path": "runs/subject01-author-fp32-seed42-lr1e-5-tokenkeep-from450/checkpoint-499",
+      "epoch": 499,
+      "progress": {
+        "completed_epochs": 499,
+        "global_optimizer_updates": 265468,
+        "actual_samples_processed": 4243496,
+        "skipped_updates": 0,
+        "run_id": "subject01-author-fp32-seed42-lr1e-5-tokenkeep-from450",
+        "current_lr": [
+          1e-05
+        ],
+        "code_commit": "b6a6f2e7e8b81fc073cd881a6015761ab9f31608",
+        "config": {
+          "data_dir": "/data1/matengyu/geyugong/neuroadapter-author-first/data",
+          "imgs_dir": "/data1/matengyu/geyugong/neuroadapter-subject1-research/data/raw/nsd/stimuli",
+          "parcel_dir": "/data1/matengyu/geyugong/neuroadapter-subject1-research/data/derived/parcels/schaefer",
+          "run_id": "subject01-author-fp32-seed42-lr1e-5-tokenkeep-from450",
+          "resume_from": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42-lr1e-5-from400/checkpoint-450",
+          "branch_lr_half": true,
+          "seed43_replication": false,
+          "stage2": false,
+          "stage3": false,
+          "stage4": false,
+          "stage5": false,
+          "stage6": false,
+          "train_ids": null,
+          "audit": false,
+          "pretrained_model_name_or_path": "/data1/matengyu/geyugong/neuroadapter-subject1-research/models/stable-diffusion-v1-5",
+          "pretrained_ip_adapter_path": null,
+          "dataset_path": "/engram/nklab/coco/images/train2017/",
+          "output_dir": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42-lr1e-5-tokenkeep-from450",
+          "logging_dir": "logs",
+          "training_subjects": null,
+          "learning_rate": 1e-05,
+          "weight_decay": 1e-06,
+          "num_train_epochs": 500,
+          "train_batch_size": 4,
+          "dataloader_num_workers": 0,
+          "save_epochs": 1,
+          "clip_max_norm": 1.0,
+          "mixed_precision": "no",
+          "gradient_accumulation_steps": 2,
+          "local_rank": 0,
+          "subject_id": 1,
+          "topk": 100,
+          "num_decoder_queries": 50,
+          "condition_dim": 768,
+          "encoder_resolution": 224,
+          "make_square": 224,
+          "gen_img_resolution": 512,
+          "sub_approach": "linear_projection",
+          "wandb": false,
+          "time": "subject01-author-fp32-seed42-lr1e-5-tokenkeep-from450",
+          "seed": 42,
+          "token_keep_min": 0.5
+        },
+        "branch_provenance": {
+          "source_run": "subject01-author-fp32-seed42-lr1e-5-from400",
+          "source_checkpoint": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42-lr1e-5-from400/checkpoint-450",
+          "resume_source": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42-lr1e-5-from400/checkpoint-450",
+          "branch_run_id": "subject01-author-fp32-seed42-lr1e-5-tokenkeep-from450",
+          "rank": 0,
+          "completed_epochs": 450,
+          "global_optimizer_updates": 239400,
+          "model_exact": true,
+          "adamw_before_exact": true,
+          "adamw_unchanged": true,
+          "rng_exact": true,
+          "loader_restored": true,
+          "optimizer_lr": [
+            1e-05
+          ],
+          "optimizer_weight_decay": [
+            1e-06
+          ],
+          "next_epoch_order_sha256": "e4f4733e96414c728b435a8fe7db2f3d75bf8279bf287516c5ddf0f128bfe17a",
+          "order_matches_historical": true,
+          "continuation_target": 500
+        }
+      },
+      "export_retained": false,
+      "files": [
+        {
+          "path": "runs/subject01-author-fp32-seed42-lr1e-5-tokenkeep-from450/checkpoint-499/COMPLETE",
+          "metadata": [
+            15,
+            1791663944865954752,
+            138479189,
+            33204,
+            1,
+            1001
+          ],
+          "allocated_bytes": 4096
+        },
+        {
+          "path": "runs/subject01-author-fp32-seed42-lr1e-5-tokenkeep-from450/checkpoint-499/custom_checkpoint_0.pkl",
+          "metadata": [
+            385230981,
+            1791663943516960434,
+            138479182,
+            33204,
+            1,
+            1001
+          ],
+          "allocated_bytes": 385236992
+        },
+        {
+          "path": "runs/subject01-author-fp32-seed42-lr1e-5-tokenkeep-from450/checkpoint-499/custom_checkpoint_1.pkl",
+          "metadata": [
+            9405,
+            1791663943516960434,
+            138479185,
+            33204,
+            1,
+            1001
+          ],
+          "allocated_bytes": 12288
+        },
+        {
+          "path": "runs/subject01-author-fp32-seed42-lr1e-5-tokenkeep-from450/checkpoint-499/optimizer.bin",
+          "metadata": [
+            928582219,
+            1791663943358961100,
+            138479176,
+            33204,
+            1,
+            1001
+          ],
+          "allocated_bytes": 928587776
+        },
+        {
+          "path": "runs/subject01-author-fp32-seed42-lr1e-5-tokenkeep-from450/checkpoint-499/progress.json",
+          "metadata": [
+            2991,
+            1791663944865954752,
+            138479186,
+            33204,
+            1,
+            1001
+          ],
+          "allocated_bytes": 4096
+        },
+        {
+          "path": "runs/subject01-author-fp32-seed42-lr1e-5-tokenkeep-from450/checkpoint-499/pytorch_model.bin",
+          "metadata": [
+            3517449387,
+            1791663942664964023,
+            138479166,
+            33204,
+            1,
+            1001
+          ],
+          "allocated_bytes": 3517456384
+        },
+        {
+          "path": "runs/subject01-author-fp32-seed42-lr1e-5-tokenkeep-from450/checkpoint-499/pytorch_model_1.bin",
+          "metadata": [
+            385230885,
+            1791663942822963357,
+            138479175,
+            33204,
+            1,
+            1001
+          ],
+          "allocated_bytes": 385236992
+        },
+        {
+          "path": "runs/subject01-author-fp32-seed42-lr1e-5-tokenkeep-from450/checkpoint-499/random_states_0.pkl",
+          "metadata": [
+            15017,
+            1791663943358961100,
+            138479177,
+            33204,
+            1,
+            1001
+          ],
+          "allocated_bytes": 16384
+        },
+        {
+          "path": "runs/subject01-author-fp32-seed42-lr1e-5-tokenkeep-from450/checkpoint-499/random_states_1.pkl",
+          "metadata": [
+            15017,
+            1791663941182970269,
+            138479167,
+            33204,
+            1,
+            1001
+          ],
+          "allocated_bytes": 16384
+        }
+      ],
+      "reason": "Completed run; final and key selected/source full states retained. All existing inference exports and results retained."
+    },
+    {
+      "path": "runs/subject01-author-fp32-seed42-lr1e-5-wd01-from450/checkpoint-499",
+      "epoch": 499,
+      "progress": {
+        "completed_epochs": 499,
+        "global_optimizer_updates": 265468,
+        "actual_samples_processed": 4243496,
+        "skipped_updates": 0,
+        "run_id": "subject01-author-fp32-seed42-lr1e-5-wd01-from450",
+        "current_lr": [
+          1e-05
+        ],
+        "code_commit": "657889bd44744482874a220e96283281804dffb1",
+        "config": {
+          "data_dir": "/data1/matengyu/geyugong/neuroadapter-author-first/data",
+          "imgs_dir": "/data1/matengyu/geyugong/neuroadapter-subject1-research/data/raw/nsd/stimuli",
+          "parcel_dir": "/data1/matengyu/geyugong/neuroadapter-subject1-research/data/derived/parcels/schaefer",
+          "run_id": "subject01-author-fp32-seed42-lr1e-5-wd01-from450",
+          "resume_from": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42-lr1e-5-wd01-from450/checkpoint-475",
+          "branch_lr_half": true,
+          "seed43_replication": false,
+          "stage2": false,
+          "stage3": false,
+          "stage4": false,
+          "stage5": false,
+          "stage6": false,
+          "train_ids": null,
+          "audit": false,
+          "pretrained_model_name_or_path": "/data1/matengyu/geyugong/neuroadapter-subject1-research/models/stable-diffusion-v1-5",
+          "pretrained_ip_adapter_path": null,
+          "dataset_path": "/engram/nklab/coco/images/train2017/",
+          "output_dir": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42-lr1e-5-wd01-from450",
+          "logging_dir": "logs",
+          "training_subjects": null,
+          "learning_rate": 1e-05,
+          "weight_decay": 0.1,
+          "num_train_epochs": 500,
+          "train_batch_size": 4,
+          "dataloader_num_workers": 0,
+          "save_epochs": 1,
+          "clip_max_norm": 1.0,
+          "mixed_precision": "no",
+          "gradient_accumulation_steps": 2,
+          "local_rank": 0,
+          "subject_id": 1,
+          "topk": 100,
+          "num_decoder_queries": 50,
+          "condition_dim": 768,
+          "encoder_resolution": 224,
+          "make_square": 224,
+          "gen_img_resolution": 512,
+          "sub_approach": "linear_projection",
+          "wandb": false,
+          "time": "subject01-author-fp32-seed42-lr1e-5-wd01-from450",
+          "seed": 42
+        },
+        "branch_provenance": {
+          "source_run": "subject01-author-fp32-seed42-lr1e-5-from400",
+          "source_checkpoint": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42-lr1e-5-from400/checkpoint-450",
+          "resume_source": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed42-lr1e-5-wd01-from450/checkpoint-475",
+          "branch_run_id": "subject01-author-fp32-seed42-lr1e-5-wd01-from450",
+          "rank": 0,
+          "completed_epochs": 475,
+          "global_optimizer_updates": 252700,
+          "model_exact": true,
+          "adamw_before_exact": true,
+          "adamw_after_only_weight_decay_changed": true,
+          "rng_exact": true,
+          "loader_restored": true,
+          "optimizer_lr": [
+            1e-05
+          ],
+          "optimizer_weight_decay": [
+            0.1
+          ],
+          "next_epoch_order_sha256": "ddf42d303f089d121bc41c5a75962ddc504096fbeedbe533d920e051855bc49a",
+          "order_matches_historical": true,
+          "continuation_target": 500
+        }
+      },
+      "export_retained": false,
+      "files": [
+        {
+          "path": "runs/subject01-author-fp32-seed42-lr1e-5-wd01-from450/checkpoint-499/COMPLETE",
+          "metadata": [
+            15,
+            1791480380181570691,
+            138418705,
+            33204,
+            1,
+            1001
+          ],
+          "allocated_bytes": 4096
+        },
+        {
+          "path": "runs/subject01-author-fp32-seed42-lr1e-5-wd01-from450/checkpoint-499/custom_checkpoint_0.pkl",
+          "metadata": [
+            385230981,
+            1791480378761575468,
+            138418702,
+            33204,
+            1,
+            1001
+          ],
+          "allocated_bytes": 385236992
+        },
+        {
+          "path": "runs/subject01-author-fp32-seed42-lr1e-5-wd01-from450/checkpoint-499/custom_checkpoint_1.pkl",
+          "metadata": [
+            9405,
+            1791480378761575468,
+            138418703,
+            33204,
+            1,
+            1001
+          ],
+          "allocated_bytes": 12288
+        },
+        {
+          "path": "runs/subject01-author-fp32-seed42-lr1e-5-wd01-from450/checkpoint-499/optimizer.bin",
+          "metadata": [
+            928582219,
+            1791480378522576272,
+            138418700,
+            33204,
+            1,
+            1001
+          ],
+          "allocated_bytes": 928587776
+        },
+        {
+          "path": "runs/subject01-author-fp32-seed42-lr1e-5-wd01-from450/checkpoint-499/progress.json",
+          "metadata": [
+            2967,
+            1791480380181570691,
+            138418704,
+            33204,
+            1,
+            1001
+          ],
+          "allocated_bytes": 4096
+        },
+        {
+          "path": "runs/subject01-author-fp32-seed42-lr1e-5-wd01-from450/checkpoint-499/pytorch_model.bin",
+          "metadata": [
+            3517449387,
+            1791480377737578912,
+            138418697,
+            33204,
+            1,
+            1001
+          ],
+          "allocated_bytes": 3517456384
+        },
+        {
+          "path": "runs/subject01-author-fp32-seed42-lr1e-5-wd01-from450/checkpoint-499/pytorch_model_1.bin",
+          "metadata": [
+            385230885,
+            1791480377977578105,
+            138418699,
+            33204,
+            1,
+            1001
+          ],
+          "allocated_bytes": 385236992
+        },
+        {
+          "path": "runs/subject01-author-fp32-seed42-lr1e-5-wd01-from450/checkpoint-499/random_states_0.pkl",
+          "metadata": [
+            15017,
+            1791480378522576272,
+            138418701,
+            33204,
+            1,
+            1001
+          ],
+          "allocated_bytes": 16384
+        },
+        {
+          "path": "runs/subject01-author-fp32-seed42-lr1e-5-wd01-from450/checkpoint-499/random_states_1.pkl",
+          "metadata": [
+            15017,
+            1791480375784585481,
+            138418698,
+            33204,
+            1,
+            1001
+          ],
+          "allocated_bytes": 16384
+        }
+      ],
+      "reason": "Completed run; final and key selected/source full states retained. All existing inference exports and results retained."
+    },
+    {
+      "path": "runs/subject01-author-fp32-seed43-lrhalf-at100/checkpoint-119",
+      "epoch": 119,
+      "progress": {
+        "completed_epochs": 119,
+        "global_optimizer_updates": 63308,
+        "actual_samples_processed": 1011976,
+        "skipped_updates": 0,
+        "run_id": "subject01-author-fp32-seed43-lrhalf-at100",
+        "current_lr": [
+          5e-05
+        ],
+        "code_commit": "64df93e487ccac28eb69e9268655284690657d7d",
+        "config": {
+          "data_dir": "/data1/matengyu/geyugong/neuroadapter-author-first/data",
+          "imgs_dir": "/data1/matengyu/geyugong/neuroadapter-subject1-research/data/raw/nsd/stimuli",
+          "parcel_dir": "/data1/matengyu/geyugong/neuroadapter-subject1-research/data/derived/parcels/schaefer",
+          "run_id": "subject01-author-fp32-seed43-lrhalf-at100",
+          "resume_from": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed43-lrhalf-at100/checkpoint-113",
+          "branch_lr_half": false,
+          "seed43_replication": true,
+          "stage2": false,
+          "stage3": false,
+          "stage4": false,
+          "stage5": false,
+          "stage6": false,
+          "train_ids": null,
+          "audit": true,
+          "pretrained_model_name_or_path": "/data1/matengyu/geyugong/neuroadapter-subject1-research/models/stable-diffusion-v1-5",
+          "pretrained_ip_adapter_path": null,
+          "dataset_path": "/engram/nklab/coco/images/train2017/",
+          "output_dir": "/data1/matengyu/geyugong/neuroadapter-author-first/runs/subject01-author-fp32-seed43-lrhalf-at100",
+          "logging_dir": "logs",
+          "training_subjects": null,
+          "learning_rate": 5e-05,
+          "weight_decay": 1e-06,
+          "num_train_epochs": 120,
+          "train_batch_size": 4,
+          "dataloader_num_workers": 0,
+          "save_epochs": 1,
+          "clip_max_norm": 1.0,
+          "mixed_precision": "no",
+          "gradient_accumulation_steps": 2,
+          "local_rank": 0,
+          "subject_id": 1,
+          "topk": 100,
+          "num_decoder_queries": 50,
+          "condition_dim": 768,
+          "encoder_resolution": 224,
+          "make_square": 224,
+          "gen_img_resolution": 512,
+          "sub_approach": "linear_projection",
+          "wandb": false,
+          "time": "subject01-author-fp32-seed43-lrhalf-at100",
+          "seed": 43
+        }
+      },
+      "export_retained": true,
+      "files": [
+        {
+          "path": "runs/subject01-author-fp32-seed43-lrhalf-at100/checkpoint-119/COMPLETE",
+          "metadata": [
+            15,
+            1790389871237177370,
+            135935713,
+            33204,
+            1,
+            1001
+          ],
+          "allocated_bytes": 4096
+        },
+        {
+          "path": "runs/subject01-author-fp32-seed43-lrhalf-at100/checkpoint-119/custom_checkpoint_0.pkl",
+          "metadata": [
+            385230981,
+            1790389869843180954,
+            135935670,
+            33204,
+            1,
+            1001
+          ],
+          "allocated_bytes": 385236992
+        },
+        {
+          "path": "runs/subject01-author-fp32-seed43-lrhalf-at100/checkpoint-119/custom_checkpoint_1.pkl",
+          "metadata": [
+            8573,
+            1790389869843180954,
+            135935671,
+            33204,
+            1,
+            1001
+          ],
+          "allocated_bytes": 12288
+        },
+        {
+          "path": "runs/subject01-author-fp32-seed43-lrhalf-at100/checkpoint-119/optimizer.bin",
+          "metadata": [
+            928582219,
+            1790389869607181560,
+            135935668,
+            33204,
+            1,
+            1001
+          ],
+          "allocated_bytes": 928587776
+        },
+        {
+          "path": "runs/subject01-author-fp32-seed43-lrhalf-at100/checkpoint-119/progress.json",
+          "metadata": [
+            1975,
+            1790389871237177370,
+            135935688,
+            33204,
+            1,
+            1001
+          ],
+          "allocated_bytes": 4096
+        },
+        {
+          "path": "runs/subject01-author-fp32-seed43-lrhalf-at100/checkpoint-119/pytorch_model.bin",
+          "metadata": [
+            3517449387,
+            1790389868837183538,
+            135935665,
+            33204,
+            1,
+            1001
+          ],
+          "allocated_bytes": 3517456384
+        },
+        {
+          "path": "runs/subject01-author-fp32-seed43-lrhalf-at100/checkpoint-119/pytorch_model_1.bin",
+          "metadata": [
+            385230885,
+            1790389869077182922,
+            135935667,
+            33204,
+            1,
+            1001
+          ],
+          "allocated_bytes": 385236992
+        },
+        {
+          "path": "runs/subject01-author-fp32-seed43-lrhalf-at100/checkpoint-119/random_states_0.pkl",
+          "metadata": [
+            15017,
+            1790389869608181557,
+            135935669,
+            33204,
+            1,
+            1001
+          ],
+          "allocated_bytes": 16384
+        },
+        {
+          "path": "runs/subject01-author-fp32-seed43-lrhalf-at100/checkpoint-119/random_states_1.pkl",
+          "metadata": [
+            15017,
+            1790389866931188431,
+            135935666,
+            33204,
+            1,
+            1001
+          ],
+          "allocated_bytes": 16384
+        }
+      ],
+      "reason": "Completed run; final and key selected/source full states retained. All existing inference exports and results retained."
+    }
+  ],
+  "allocated_bytes": 73031999488,
+  "retained_complete_checkpoints": [
+    {
+      "path": "runs/subject01-author-fp32-seed42/checkpoint-100",
+      "epoch": 100,
+      "checkpoint_files": 9,
+      "archives_readable": true
+    },
+    {
+      "path": "runs/subject01-author-fp32-seed42/checkpoint-110",
+      "epoch": 110,
+      "checkpoint_files": 9,
+      "archives_readable": true
+    },
+    {
+      "path": "runs/subject01-author-fp32-seed42-lr5e-5-from100/checkpoint-120",
+      "epoch": 120,
+      "checkpoint_files": 9,
+      "archives_readable": true
+    },
+    {
+      "path": "runs/subject01-author-fp32-seed42-lr5e-5-from100/checkpoint-300",
+      "epoch": 300,
+      "checkpoint_files": 9,
+      "archives_readable": true
+    },
+    {
+      "path": "runs/subject01-author-fp32-seed42-lr5e-5-from100/checkpoint-400",
+      "epoch": 400,
+      "checkpoint_files": 9,
+      "archives_readable": true
+    },
+    {
+      "path": "runs/subject01-author-fp32-seed42-lr5e-5-from100/checkpoint-500",
+      "epoch": 500,
+      "checkpoint_files": 9,
+      "archives_readable": true
+    },
+    {
+      "path": "runs/subject01-author-fp32-seed42-lr1e-5-from400/checkpoint-450",
+      "epoch": 450,
+      "checkpoint_files": 9,
+      "archives_readable": true
+    },
+    {
+      "path": "runs/subject01-author-fp32-seed42-lr1e-5-from400/checkpoint-500",
+      "epoch": 500,
+      "checkpoint_files": 9,
+      "archives_readable": true
+    },
+    {
+      "path": "runs/subject01-author-fp32-seed42-lr1e-5-spatiall1-from450/checkpoint-475",
+      "epoch": 475,
+      "checkpoint_files": 9,
+      "archives_readable": true
+    },
+    {
+      "path": "runs/subject01-author-fp32-seed42-lr1e-5-tokenkeep-from450/checkpoint-500",
+      "epoch": 500,
+      "checkpoint_files": 9,
+      "archives_readable": true
+    },
+    {
+      "path": "runs/subject01-author-fp32-seed42-lr1e-5-wd01-from450/checkpoint-500",
+      "epoch": 500,
+      "checkpoint_files": 9,
+      "archives_readable": true
+    },
+    {
+      "path": "runs/subject01-author-fp32-seed43-lrhalf-at100/checkpoint-100",
+      "epoch": 100,
+      "checkpoint_files": 9,
+      "archives_readable": true
+    },
+    {
+      "path": "runs/subject01-author-fp32-seed43-lrhalf-at100/checkpoint-120",
+      "epoch": 120,
+      "checkpoint_files": 9,
+      "archives_readable": true
+    }
+  ],
+  "l450_sha256": {
+    "runs/subject01-author-fp32-seed42-lr1e-5-from400/checkpoint-450/custom_checkpoint_1.pkl": "703d2627d060f67e90359f5d9c70a12a7862d5433afba28936d61c2db849d887",
+    "runs/subject01-author-fp32-seed42-lr1e-5-from400/checkpoint-450/COMPLETE": "bfc3546c1e2fc4e95580920dcb3038127b787f502804ab83348567d06fa511d6",
+    "runs/subject01-author-fp32-seed42-lr1e-5-from400/checkpoint-450/custom_checkpoint_0.pkl": "88cfebaf37e7f60cc4a4c7635eb610796cb1f2e311732371c5ccf92e9db7cfe3",
+    "runs/subject01-author-fp32-seed42-lr1e-5-from400/checkpoint-450/optimizer.bin": "ecfba9845f4309294b02215d9b96595a378b3bce134a2074b9b3b52b14006d29",
+    "runs/subject01-author-fp32-seed42-lr1e-5-from400/checkpoint-450/random_states_0.pkl": "aa94f5b90dbcc4d3139972e7d965b1373158e856428936659f3ff94cbf4f9556",
+    "runs/subject01-author-fp32-seed42-lr1e-5-from400/checkpoint-450/pytorch_model_1.bin": "1deb9752c1983b9efd3ec40cdeb2a684b85d4abf33ef799a1ea62da9e25afcba",
+    "runs/subject01-author-fp32-seed42-lr1e-5-from400/checkpoint-450/pytorch_model.bin": "8c2099fe308f4ca41e1e1ecd6257d6b2df4763853b1074713cebc6b405a30a26",
+    "runs/subject01-author-fp32-seed42-lr1e-5-from400/checkpoint-450/random_states_1.pkl": "b9ef6a898d59a686edcc9c75c975d850d13901d70e2aa68a3c3bca08eb53c151",
+    "runs/subject01-author-fp32-seed42-lr1e-5-from400/checkpoint-450/progress.json": "efc083cecc7c20a9926740e494295d88da68b3065171ef62c1daf54732116380",
+    "runs/subject01-author-fp32-seed42-lr1e-5-from400/exports/epoch-450/inference.pt": "a3b7de590bf3ef3798935fcce53fdf2d13caed9467d2664ee7fdc9c11d19e596",
+    "runs/subject01-author-fp32-seed42-lr1e-5-from400/exports/epoch-450/parcel_vertices.pt": "a5aceb7d1ec1ad6c8193cbe6f0fd2db23d298a6d4182e74aeac3a980a7b86ad3"
+  },
+  "retained_file_count": 206914,
+  "retained_metadata_sha256": "98330e40f623bd11fb1737f53cf24bc6bb5a7e0927fba77efc8379711b6f3965",
+  "completion_evidence_sha256": {
+    "reports/lr-half-to500/training-complete.json": "96132284d47dae2e5a89e5179e8e2d438e3c03f8a1b00f7d51ca60d94e6b40da",
+    "reports/lr-half-to500/selection.json": "3b55746400f5d5c3e0017eb5f719195de9c024094e5718d1e22d0cd57bf0b3be",
+    "reports/balanced-lr-from400/train-to-500-exit.json": "3941e2479f7060321e700abd73f927655c6de4b28a3b6c4fceed408b0aecfc70",
+    "reports/balanced-lr-from400/selection.json": "047b643e66b40e43406205709196a4bc9cf376f1d7f9a463fac4c85ac77a922f",
+    "reports/spatial-l1-from450/final-audit.json": "da11e285e8ad28e79abd493e2dd76598e529758480a0df4bd4b331d867bafb9e",
+    "reports/tokenkeep-from450/final-selection.json": "ed358145bfed3dd3f3e6e3ed83eb55f818f75515264e1a63d22809aae2305f50",
+    "reports/wd01-from450/selection-final.json": "e7882aded64a1b502c828c47f3526bb3ace8559719ce8398ee9196f8be78dbd0",
+    "reports/seed43-hl-replication/TRAINING_COMPLETE": "2e016b3df7c095ad3ed542295371c0367d5d19fd237582c49e374e942faf64c7"
+  },
+  "removed_epoch_resume_limitation": "Deleted full states cannot be resumed at those exact epochs; all inference exports, final full states, selected L450 and key source states are retained."
+}
