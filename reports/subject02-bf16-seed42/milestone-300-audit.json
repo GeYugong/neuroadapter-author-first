@@ -1,0 +1,55 @@
+{
+  "milestone_epoch": 300,
+  "verified_at": 1792359803.117614,
+  "training_updates": 79800,
+  "skipped_updates": 0,
+  "training_epoch": {
+    "epoch": 300,
+    "global_optimizer_updates": 79800,
+    "actual_samples_processed": 2553600,
+    "epoch_samples": 8512,
+    "unique_samples": 8500,
+    "padding_samples": 12,
+    "microbatches_per_rank": 532,
+    "final_accumulation_microbatches": 2,
+    "final_local_batch": 8,
+    "mean_loss": 0.11144812054988137,
+    "seconds": 322.879068196984,
+    "image_order_sha256": "5a77d6db622f39c020a34438fffbe45187d42ce3ccbb19281de5c6d47835c8bb"
+  },
+  "fixed_validation32": {
+    "epoch": 300,
+    "loss": 0.1369779750239104,
+    "samples": 32,
+    "seed": 91742,
+    "protocol": "Fixed validation32, original U(0,1) dropout and MinSNR epsilon MSE; RNG restored"
+  },
+  "validation500_loss": {
+    "epoch": 300,
+    "loss": 0.1171714500207454,
+    "samples": 500,
+    "seed": 91742,
+    "protocol": "Fixed validation500, original U(0,1) dropout and MinSNR epsilon MSE; RNG restored"
+  },
+  "checkpoint_sha256": {
+    "COMPLETE": "bfc3546c1e2fc4e95580920dcb3038127b787f502804ab83348567d06fa511d6",
+    "custom_checkpoint_0.pkl": "e25a428aa43d6f8c451ca0d9ab9b34de29e33c9acd3bca26f471fdfc77a2fc86",
+    "custom_checkpoint_1.pkl": "f5dd1e74aa96098182c1b1aedc3e38494c6d077b37d02f50d57b6ab60968a0db",
+    "optimizer.bin": "a8f39ec840463c8033ea98d9ee05afcf4486673d62d3f1fd9dc9c59e5e12c150",
+    "progress.json": "4b498cef8fb6d2363d42c8c61a7914ed65ff6342ff3fd18dd9f52b4bb346a5c6",
+    "pytorch_model.bin": "ccf1fd60c316d76daebcae065510d28cca6ac12fdb5c296060bfa1e81fcdbdd5",
+    "pytorch_model_1.bin": "6b4ecbfc48625ce9dcefca4b9dbb25ac0c7232a1e82e729668d7faf37078353b",
+    "random_states_0.pkl": "235600dcda16d771a71f1a3c36b9d1aa4dcd037f085510ef13fde06be6d4b4ab",
+    "random_states_1.pkl": "f524d448044775ec60792ac7498d5fbff703475b7540a15ac75c276dd4e490f9"
+  },
+  "export_sha256": {
+    "inference.pt": "0ac36e87c224116095677766e9cacc331b362d708d39a4db4def90faacc62fe8",
+    "metadata.json": "27c0801c71ab07bd8e1162b979494d5d535dd881947b6633976050a202b153ea",
+    "parcel_vertices.pt": "20536951f247aa5d8a095374bbb8a4f058a5d8c9f6db4b4e06d9aab6596a351f"
+  },
+  "full_resume_state_preserved": true,
+  "eight_image_metrics_status": "not yet generated/scored; loss is not an image metric",
+  "comparison_caution": "validation500 loss and fixed32 loss have different samples/noise sequence; do not compare their magnitudes as improvement",
+  "training_continues_to_authorized_target": 500,
+  "source_hashes_unchanged": true
+}
