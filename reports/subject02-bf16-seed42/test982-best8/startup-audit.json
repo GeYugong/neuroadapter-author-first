@@ -1,0 +1,25 @@
+{
+  "actual_test_loader_count": 982,
+  "source_subject": 2,
+  "checks": [
+    {
+      "image_id": 46002,
+      "eight_seeds_and_pixels_verified": true,
+      "K1_exact_candidate0": true,
+      "selected_exact_argmax_candidate": true,
+      "test_brain_matches_source_dataset": true,
+      "selected_index": 1
+    },
+    {
+      "image_id": 48617,
+      "eight_seeds_and_pixels_verified": true,
+      "K1_exact_candidate0": true,
+      "selected_exact_argmax_candidate": true,
+      "test_brain_matches_source_dataset": true,
+      "selected_index": 7
+    }
+  ],
+  "generated_and_selected": 5,
+  "no_training": true,
+  "time": 1792386789.109998
+}
