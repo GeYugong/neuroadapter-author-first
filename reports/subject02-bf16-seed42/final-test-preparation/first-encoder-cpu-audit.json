@@ -1,0 +1,16 @@
+{
+  "file": "runtime/subject02-brain-encoder/dinov2_q_transformer/schaefer/subj_02/enc_1/run_1/lh/checkpoint_nonavg.pth",
+  "load_weights_only": true,
+  "args": {
+    "subj": "02",
+    "hemi": "lh",
+    "run": 1000,
+    "enc_output_layer": 1,
+    "backbone_arch": "dinov2_q",
+    "encoder_arch": "transformer",
+    "data_dir": "/engram/nklab/datasets/natural_scene_dataset/model_training_datasets/neural_data",
+    "output_path": "./checkpoints"
+  },
+  "model_tensors": 25,
+  "full_forward_pending": true
+}

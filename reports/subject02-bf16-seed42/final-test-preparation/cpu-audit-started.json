@@ -1,0 +1,5 @@
+{
+  "time": 1792382453.150346,
+  "session": "author-subject02-assets",
+  "command": "cd /data1/matengyu/geyugong/neuroadapter-author-first && runtime/env/bin/python -B scripts/audit_subject02_encoder_cpu.py > reports/subject02-bf16-seed42/final-test-preparation/cpu-audit.log 2>&1"
+}
