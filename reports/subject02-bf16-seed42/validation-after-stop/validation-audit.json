@@ -1,0 +1,101 @@
+{
+  "complete": true,
+  "n": 500,
+  "K": 2,
+  "epochs": [
+    109,
+    300,
+    372
+  ],
+  "decoded_files_verified": 1500,
+  "candidate_images_verified": 3000,
+  "same_ID_and_noise_across_epochs": true,
+  "per_image_means_verified": true,
+  "full500_negative_pool": true,
+  "all_stage_exit0": true,
+  "protected_files_unchanged": true,
+  "generation_manifest_sha256": {
+    "109": "df2ac73f93112447092a1e270e154e1a89f383121c1da0e66e346ce095bccbc3",
+    "300": "b6aa2f01d4b9a73eba397926a1b029481bdf589cc1dbb501512df23e62f001cf",
+    "372": "6c92a725bcd75df06b5d4ffadeb5bf9eb50a4aaafb6c8b944200087aae1e03fe"
+  },
+  "metrics": {
+    "109": {
+      "PixCorr": 0.042967847792941646,
+      "SSIM": 0.2936603698867516,
+      "Alex(2)": 67.887374749499,
+      "Alex(5)": 79.3444889779559,
+      "Incep": 78.06272545090181,
+      "CLIP": 80.0865731462926,
+      "Eff": 0.8424229272682962,
+      "SwAV": 0.5213890892015314
+    },
+    "300": {
+      "PixCorr": 0.05655270603686573,
+      "SSIM": 0.285006426309673,
+      "Alex(2)": 71.34228456913829,
+      "Alex(5)": 83.51382765531062,
+      "Incep": 80.06693386773547,
+      "CLIP": 81.76412825651303,
+      "Eff": 0.818308403888933,
+      "SwAV": 0.4906938089092044
+    },
+    "372": {
+      "PixCorr": 0.06301550523690069,
+      "SSIM": 0.2713881806227898,
+      "Alex(2)": 72.68436873747495,
+      "Alex(5)": 84.75911823647296,
+      "Incep": 81.66713426853707,
+      "CLIP": 83.43827655310622,
+      "Eff": 0.8134460932435815,
+      "SwAV": 0.48319619067937924
+    }
+  },
+  "gates": {
+    "300": {
+      "passed": false,
+      "checks": {
+        "non_degrading": false,
+        "material": true,
+        "recognition": true,
+        "distances": true
+      },
+      "delta_S_pp": 2.617034068136263,
+      "delta": {
+        "PixCorr": 0.01358485824392408,
+        "SSIM": -0.008653943577078604,
+        "Alex(2)": 3.4549098196392833,
+        "Alex(5)": 4.169338677354716,
+        "Incep": 2.004208416833663,
+        "CLIP": 1.677555110220439,
+        "Eff": -0.02411452337936315,
+        "SwAV": -0.030695280292326987
+      },
+      "budget_rule_not_significance": true
+    },
+    "372": {
+      "passed": false,
+      "checks": {
+        "non_degrading": false,
+        "material": true,
+        "recognition": true,
+        "distances": true
+      },
+      "delta_S_pp": 4.123580494321985,
+      "delta": {
+        "PixCorr": 0.020047657443959047,
+        "SSIM": -0.022272189263961795,
+        "Alex(2)": 4.796993987975952,
+        "Alex(5)": 5.414629258517053,
+        "Incep": 3.60440881763526,
+        "CLIP": 3.351703406813627,
+        "Eff": -0.028976834024714626,
+        "SwAV": -0.03819289852215213
+      },
+      "budget_rule_not_significance": true
+    }
+  },
+  "visual_review_sha256": "16a80315ba35455b95ffa20d7c839e53f4bfbea9ec277acae5f741cde5a7558d",
+  "test_not_used": true,
+  "time": 1792386527.1219184
+}

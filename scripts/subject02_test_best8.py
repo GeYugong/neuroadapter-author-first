@@ -44,6 +44,9 @@ def frozen():
     plan=json.loads((O/'plan.json').read_text())
     assert plan['selected_epoch'] in (109,300,372) and plan['n']==982 and plan['K']==8
     for name,known in plan['protected_sha256'].items():assert sha(R/name)==known,name
+    for item in plan.get('data_files',[]):
+        stat=Path(item['path']).stat()
+        assert stat.st_size==item['bytes'] and stat.st_mtime_ns==item['mtime_ns'],item['path']
     assert json.loads((P/'final-selection.json').read_text())['confirmed']
     assert shutil.disk_usage(R).free>=25*1024**3
     return plan

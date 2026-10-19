@@ -1,0 +1,297 @@
+{
+  "passed": true,
+  "subject": 2,
+  "source_encoder_sha256": "cbbae5f9dd659ec69140d02563762e86a2c462bc0a68c21d06cb8bc29bf983b6",
+  "native_wrapper_sha256": "36b524c3132c2345a89e5bc2cb6bd6f20685ab9f5429d2eab4272119fecf6e37",
+  "selector_source_sha256": "15a35e87dc5b297ef39880d94b828a5984e781365b91f82d87e1762badde53e7",
+  "patches": {
+    "for layer in [1, 3, 5, 7]:\n                for run in [1, 2]:": "for run in [1, 2]:\n                for layer in [1, 3, 5, 7]:",
+    "self.members, self.audit = [], []": "self.members, self.audit, self.reference = [], [], []",
+    "check_batch[:2].to(device)": "check_batch.to(device)",
+    "ENC / f'parcels/schaefer/{hemi}_labels_s01.pt'": "ROOT / 'data/subject02/parcels' / f'{hemi}_labels_s02.pt'",
+    "map_location='cpu', weights_only=False)": "map_location='cpu', weights_only=True)",
+    "assert cfg.enc_output_layer == layer and cfg.run == run and cfg.hemi == hemi": "assert cfg.enc_output_layer == layer and cfg.run == {1:1000,2:1001}[run] and cfg.hemi == hemi and int(cfg.subj) == 2",
+    "self.audit.append(dict(hemi=hemi": "self.reference.append(expected.cpu().clone())\n                    self.audit.append(dict(subject=2,checkpoint_args_run=cfg.run,hemi=hemi",
+    "corr.append(np.load(folder / f'{hemi}_val_corr_nonavg.npy'))": "corr.append(np.nan_to_num(np.load(folder / f'{hemi}_val_corr_nonavg.npy')).astype(np.float64))",
+    "self.weights = torch.softmax(20 * torch.from_numpy(np.stack(corr)), dim=0)[:, self.mask.cpu()].to(device)": "from scipy.special import softmax\n        self.weights = torch.from_numpy(softmax(20*np.stack(corr),axis=0))[:,self.mask.cpu()]",
+    "result = (torch.stack(parts) * self.weights[:, None, :]).sum(dim=0)": "result = (torch.stack(parts,dim=1).cpu() * self.weights[None,:,:]).sum(dim=1)",
+    "os.environ['MPLCONFIGDIR'] = str(ASSETS / 'mpl')": "os.environ['MPLCONFIGDIR'] = str(ROOT / 'runtime/subject02-selector-mpl')"
+  },
+  "preprocessing_exact": true,
+  "members": [
+    {
+      "subject": 2,
+      "checkpoint_args_run": 1000,
+      "hemi": "lh",
+      "layer": 1,
+      "run": 1,
+      "full_state_strict": true,
+      "original_full_forward_finite": true,
+      "masked_readout_max_abs": 3.0994415283203125e-06,
+      "active_parcels": 100,
+      "padded_vertices": 56400,
+      "selected_vertices": 26762
+    },
+    {
+      "subject": 2,
+      "checkpoint_args_run": 1000,
+      "hemi": "lh",
+      "layer": 3,
+      "run": 1,
+      "full_state_strict": true,
+      "original_full_forward_finite": true,
+      "masked_readout_max_abs": 3.0994415283203125e-06,
+      "active_parcels": 100,
+      "padded_vertices": 56400,
+      "selected_vertices": 26762
+    },
+    {
+      "subject": 2,
+      "checkpoint_args_run": 1000,
+      "hemi": "lh",
+      "layer": 5,
+      "run": 1,
+      "full_state_strict": true,
+      "original_full_forward_finite": true,
+      "masked_readout_max_abs": 3.5762786865234375e-06,
+      "active_parcels": 100,
+      "padded_vertices": 56400,
+      "selected_vertices": 26762
+    },
+    {
+      "subject": 2,
+      "checkpoint_args_run": 1000,
+      "hemi": "lh",
+      "layer": 7,
+      "run": 1,
+      "full_state_strict": true,
+      "original_full_forward_finite": true,
+      "masked_readout_max_abs": 3.0994415283203125e-06,
+      "active_parcels": 100,
+      "padded_vertices": 56400,
+      "selected_vertices": 26762
+    },
+    {
+      "subject": 2,
+      "checkpoint_args_run": 1001,
+      "hemi": "lh",
+      "layer": 1,
+      "run": 2,
+      "full_state_strict": true,
+      "original_full_forward_finite": true,
+      "masked_readout_max_abs": 2.384185791015625e-06,
+      "active_parcels": 100,
+      "padded_vertices": 56400,
+      "selected_vertices": 26762
+    },
+    {
+      "subject": 2,
+      "checkpoint_args_run": 1001,
+      "hemi": "lh",
+      "layer": 3,
+      "run": 2,
+      "full_state_strict": true,
+      "original_full_forward_finite": true,
+      "masked_readout_max_abs": 3.814697265625e-06,
+      "active_parcels": 100,
+      "padded_vertices": 56400,
+      "selected_vertices": 26762
+    },
+    {
+      "subject": 2,
+      "checkpoint_args_run": 1001,
+      "hemi": "lh",
+      "layer": 5,
+      "run": 2,
+      "full_state_strict": true,
+      "original_full_forward_finite": true,
+      "masked_readout_max_abs": 3.814697265625e-06,
+      "active_parcels": 100,
+      "padded_vertices": 56400,
+      "selected_vertices": 26762
+    },
+    {
+      "subject": 2,
+      "checkpoint_args_run": 1001,
+      "hemi": "lh",
+      "layer": 7,
+      "run": 2,
+      "full_state_strict": true,
+      "original_full_forward_finite": true,
+      "masked_readout_max_abs": 4.0531158447265625e-06,
+      "active_parcels": 100,
+      "padded_vertices": 56400,
+      "selected_vertices": 26762
+    },
+    {
+      "subject": 2,
+      "checkpoint_args_run": 1000,
+      "hemi": "rh",
+      "layer": 1,
+      "run": 1,
+      "full_state_strict": true,
+      "original_full_forward_finite": true,
+      "masked_readout_max_abs": 2.86102294921875e-06,
+      "active_parcels": 100,
+      "padded_vertices": 53500,
+      "selected_vertices": 25901
+    },
+    {
+      "subject": 2,
+      "checkpoint_args_run": 1000,
+      "hemi": "rh",
+      "layer": 3,
+      "run": 1,
+      "full_state_strict": true,
+      "original_full_forward_finite": true,
+      "masked_readout_max_abs": 5.0067901611328125e-06,
+      "active_parcels": 100,
+      "padded_vertices": 53500,
+      "selected_vertices": 25901
+    },
+    {
+      "subject": 2,
+      "checkpoint_args_run": 1000,
+      "hemi": "rh",
+      "layer": 5,
+      "run": 1,
+      "full_state_strict": true,
+      "original_full_forward_finite": true,
+      "masked_readout_max_abs": 3.0994415283203125e-06,
+      "active_parcels": 100,
+      "padded_vertices": 53500,
+      "selected_vertices": 25901
+    },
+    {
+      "subject": 2,
+      "checkpoint_args_run": 1000,
+      "hemi": "rh",
+      "layer": 7,
+      "run": 1,
+      "full_state_strict": true,
+      "original_full_forward_finite": true,
+      "masked_readout_max_abs": 2.86102294921875e-06,
+      "active_parcels": 100,
+      "padded_vertices": 53500,
+      "selected_vertices": 25901
+    },
+    {
+      "subject": 2,
+      "checkpoint_args_run": 1001,
+      "hemi": "rh",
+      "layer": 1,
+      "run": 2,
+      "full_state_strict": true,
+      "original_full_forward_finite": true,
+      "masked_readout_max_abs": 2.2649765014648438e-06,
+      "active_parcels": 100,
+      "padded_vertices": 53500,
+      "selected_vertices": 25901
+    },
+    {
+      "subject": 2,
+      "checkpoint_args_run": 1001,
+      "hemi": "rh",
+      "layer": 3,
+      "run": 2,
+      "full_state_strict": true,
+      "original_full_forward_finite": true,
+      "masked_readout_max_abs": 3.5762786865234375e-06,
+      "active_parcels": 100,
+      "padded_vertices": 53500,
+      "selected_vertices": 25901
+    },
+    {
+      "subject": 2,
+      "checkpoint_args_run": 1001,
+      "hemi": "rh",
+      "layer": 5,
+      "run": 2,
+      "full_state_strict": true,
+      "original_full_forward_finite": true,
+      "masked_readout_max_abs": 3.337860107421875e-06,
+      "active_parcels": 100,
+      "padded_vertices": 53500,
+      "selected_vertices": 25901
+    },
+    {
+      "subject": 2,
+      "checkpoint_args_run": 1001,
+      "hemi": "rh",
+      "layer": 7,
+      "run": 2,
+      "full_state_strict": true,
+      "original_full_forward_finite": true,
+      "masked_readout_max_abs": 3.337860107421875e-06,
+      "active_parcels": 100,
+      "padded_vertices": 53500,
+      "selected_vertices": 25901
+    }
+  ],
+  "ensemble_max_abs_errors": [
+    1.2197755321352588e-06,
+    1.45506999205125e-06
+  ],
+  "rank_checks": [
+    {
+      "image_id": 348,
+      "selected": 7,
+      "native_selected": 7,
+      "max_correlation_error": 1.4528177827433097e-09
+    },
+    {
+      "image_id": 445,
+      "selected": 7,
+      "native_selected": 7,
+      "max_correlation_error": 8.463920120327373e-10
+    },
+    {
+      "image_id": 533,
+      "selected": 7,
+      "native_selected": 7,
+      "max_correlation_error": 1.674303917731379e-09
+    },
+    {
+      "image_id": 743,
+      "selected": 7,
+      "native_selected": 7,
+      "max_correlation_error": 1.7481712605293964e-09
+    },
+    {
+      "image_id": 1025,
+      "selected": 7,
+      "native_selected": 7,
+      "max_correlation_error": 1.5365710891168671e-09
+    },
+    {
+      "image_id": 1317,
+      "selected": 7,
+      "native_selected": 7,
+      "max_correlation_error": 1.4835810913105263e-09
+    },
+    {
+      "image_id": 1359,
+      "selected": 7,
+      "native_selected": 7,
+      "max_correlation_error": 2.0324261995607884e-09
+    },
+    {
+      "image_id": 1536,
+      "selected": 7,
+      "native_selected": 7,
+      "max_correlation_error": 1.1292543566909785e-09
+    }
+  ],
+  "mask_vertices": {
+    "lh": 26762,
+    "rh": 25901
+  },
+  "candidate_source": "fixed first8 validation IDs, candidate0; no test inference",
+  "ensemble": "run1 layers1,3,5,7 then run2 layers1,3,5,7; scipy float64 softmax20",
+  "original_checkpoint_run_metadata_preserved": true,
+  "encoder_development_split_verified": false,
+  "candidate_ranking_uses_GT_image": false,
+  "training_updates": 0,
+  "peak_gpu_bytes": 10620416512,
+  "time": 1792386324.9238405
+}

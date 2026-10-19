@@ -1,0 +1,22 @@
+{
+  "selected_epoch": 109,
+  "confirmed": true,
+  "confirmation": "Reference retained under the predeclared conservative balanced gate after complete K2 and visual audits; K4 was not triggered.",
+  "K4_performed": false,
+  "selection_pool": "Subject2 fixed val500 K2; no test scores used",
+  "reference_109_is_global_best_claim": false,
+  "later_epochs_better_on_seven_metrics": [
+    300,
+    372
+  ],
+  "later_epoch_rejection_reason": "SSIM lower than109; other registered guards and material-benefit criteria pass",
+  "best_on_seven_metrics_epoch": 372,
+  "tradeoff": "372 has substantially better PixCorr and semantic identification and lower feature distances;109 retained only because the frozen policy forbids SSIM loss.",
+  "weight": "runs/subject02-author-bf16-seed42/exports/epoch-109/inference.pt",
+  "sha256": "e4ecadc0da2f648dbf314589b7a266917865224e21234998378b8f702061da3f",
+  "all_checkpoints_preserved": true,
+  "test_not_used": true,
+  "further_training_authorized": false,
+  "validation_audit_sha256": "89ab0ecbf6faad15497f81853fd4c8eb7350f717a42d5b2e33fbaac496d9e074",
+  "time": 1792386527.2943358
+}
