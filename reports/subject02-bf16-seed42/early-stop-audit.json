@@ -1,0 +1,58 @@
+{
+  "stopped_intentionally": true,
+  "epoch": 372,
+  "updates": 98952,
+  "exit_code": 0,
+  "all_training_pids_exited": true,
+  "user_authorization": "early-stop-authorization.json",
+  "stop_method": "Existing STOP_AFTER_EPOCH honored after complete checkpoint and fixed diagnostic",
+  "skipped_updates": 0,
+  "no_new_training_authorized": true,
+  "retained_checkpoints": [
+    "checkpoint-372",
+    "checkpoint-371",
+    "checkpoint-370",
+    "checkpoint-300",
+    "checkpoint-109"
+  ],
+  "checkpoint372_sha256": {
+    "COMPLETE": "bfc3546c1e2fc4e95580920dcb3038127b787f502804ab83348567d06fa511d6",
+    "custom_checkpoint_0.pkl": "9239536bbb8abd400bdc68190198ee7664c3c20cd40dddaf0b213c3a6fd0f1aa",
+    "custom_checkpoint_1.pkl": "513ed4bbbda4044b2ae183c4c9e2de6a8270b08f7ddfd51be89aafca9ab47387",
+    "optimizer.bin": "394b97268459b38e37ea66920979da25b5c28a9e752913a3b0f4780027e85750",
+    "progress.json": "f02b048d517f9c1379c22c16d8fa6f25c578a8828c4307da7f8d3866bf3429f7",
+    "pytorch_model.bin": "8ec897e09d89f37b997fae3548c752fa95426e6c4cdc73177ea96b74bd0ec6ab",
+    "pytorch_model_1.bin": "aac525a7a63d329f4ee0ad9e82fb98cb74a5908fbc9b6336542e74e25b97b88f",
+    "random_states_0.pkl": "42d7412a85ea390645260a8cca8c89008346f461ebf0c0a6f81f161a9fe40b83",
+    "random_states_1.pkl": "198eb0b5506353690dd14362a315c67e91db5602778a5fa60e395ef7506fa839"
+  },
+  "exports": {
+    "109": {
+      "weight": "runs/subject02-author-bf16-seed42/exports/epoch-109/inference.pt",
+      "sha256": "e4ecadc0da2f648dbf314589b7a266917865224e21234998378b8f702061da3f",
+      "parcel_sha256": "20536951f247aa5d8a095374bbb8a4f058a5d8c9f6db4b4e06d9aab6596a351f",
+      "source_model_sha256": "accfc38718fd30d4c131af596af240c563fb2e74607fd54d58a810223509cd54",
+      "source_guidance_sha256": "5d068f82b3526d5aef3374f75c0c1ddd635d3e272ee07f7c8fad1c6f274ab782",
+      "export_tensors_equal_checkpoint": true
+    },
+    "300": {
+      "weight": "runs/subject02-author-bf16-seed42/exports/epoch-300/inference.pt",
+      "sha256": "0ac36e87c224116095677766e9cacc331b362d708d39a4db4def90faacc62fe8",
+      "parcel_sha256": "20536951f247aa5d8a095374bbb8a4f058a5d8c9f6db4b4e06d9aab6596a351f",
+      "source_model_sha256": "ccf1fd60c316d76daebcae065510d28cca6ac12fdb5c296060bfa1e81fcdbdd5",
+      "source_guidance_sha256": "6b4ecbfc48625ce9dcefca4b9dbb25ac0c7232a1e82e729668d7faf37078353b",
+      "export_tensors_equal_checkpoint": true
+    },
+    "372": {
+      "weight": "runs/subject02-author-bf16-seed42/exports/epoch-372/inference.pt",
+      "sha256": "704d95195c3feb219ad752826f6a2bf976284d6cb0e571d7cbdab2adc01bbf2e",
+      "parcel_sha256": "20536951f247aa5d8a095374bbb8a4f058a5d8c9f6db4b4e06d9aab6596a351f",
+      "source_model_sha256": "8ec897e09d89f37b997fae3548c752fa95426e6c4cdc73177ea96b74bd0ec6ab",
+      "source_guidance_sha256": "aac525a7a63d329f4ee0ad9e82fb98cb74a5908fbc9b6336542e74e25b97b88f",
+      "export_tensors_equal_checkpoint": true
+    }
+  },
+  "saved_training_hours_estimate": 11.715555555555556,
+  "free_gib": 133.14336395263672,
+  "time": 1792381226.4578567
+}

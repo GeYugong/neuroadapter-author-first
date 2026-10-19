@@ -1,0 +1,17 @@
+{
+  "user_authorized": true,
+  "user_instruction": "Review how to proceed and stop if appropriate.",
+  "decision": "Stop at the next complete epoch boundary; do not continue to500 or automatically restart.",
+  "reason": "Training loss has largely plateaued; fixed32 validation loss has slowly worsened since roughly150; evaluate reconstruction quality before any further training.",
+  "known_best_probe_epoch": 109,
+  "preserve_epochs": [
+    109,
+    300
+  ],
+  "preserve_latest_complete": true,
+  "next_step": "Frozen validation500 reconstruction comparison of109,300 and actual stop epoch; do not select by test metrics.",
+  "budget_change": "Early stopping supersedes prior fixed500 target",
+  "requested_at": 1792381031.2759058,
+  "no_hyperparameter_or_loss_change": true,
+  "no_other_processes_signalled": true
+}

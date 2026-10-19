@@ -1,0 +1,38 @@
+{
+  "time": 1792380932.81287,
+  "request": "Assess whether Subject2 has entered a plateau",
+  "through_epoch": 371,
+  "windows": [
+    {
+      "epochs": [
+        101,
+        150
+      ],
+      "mean_training_loss": 0.11166721669239293,
+      "mean_fixed32_loss": 0.13651123606134205
+    },
+    {
+      "epochs": [
+        251,
+        300
+      ],
+      "mean_training_loss": 0.11082053458122046,
+      "mean_fixed32_loss": 0.13694788461376448
+    },
+    {
+      "epochs": [
+        322,
+        371
+      ],
+      "mean_training_loss": 0.11074845316137111,
+      "mean_fixed32_loss": 0.13714148530329112
+    }
+  ],
+  "best_probe_epoch": 109,
+  "best_probe_loss": 0.13641964265843853,
+  "latest_probe_loss": 0.1371718230075203,
+  "latest_vs_best_probe_relative_increase_percent": 0.5513724669144793,
+  "interpretation": "Training loss has largely plateaued; fixed32 validation loss has slowly risen after roughly150. Possible overfitting on this diagnostic, not numerical divergence. Image reconstruction metrics are not yet measured.",
+  "healthy_status_scope": "Engineering finite-loss/gradient and severe-regression guard only, not evidence of convergence or further generalization improvement",
+  "action": "Read-only curve analysis; no training interruption, rollback, hyperparameter or budget change"
+}

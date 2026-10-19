@@ -1,0 +1,91 @@
+{
+  "user_authorization": "User requested appropriate action after plateau review and allowed stopping; compare retained checkpoints on fixed validation before choosing final weight.",
+  "epochs": [
+    109,
+    300,
+    372
+  ],
+  "subject": 2,
+  "training_stopped_at": 372,
+  "training_updates_allowed": 0,
+  "validation_ids": "data/subject02/val_ids.txt",
+  "validation_count": 500,
+  "validation_disjoint_training_and_test": true,
+  "generation": {
+    "K": 2,
+    "candidate_selection": false,
+    "seed": 42,
+    "seed_formula": "int.from_bytes(sha256(f\"42:{image_id}:{candidate}\")[:8],little) % (2**63-1)",
+    "steps": 50,
+    "CFG": 4,
+    "candidate_batch": 1,
+    "weight_dtype": "fp32",
+    "vae_decode": "original CUDA autocast float16",
+    "TF32_matmul": true,
+    "TF32_cudnn": true,
+    "deterministic_algorithms": true,
+    "note": "Same established author-first inference recipe for all checkpoints; training was BF16. Not bitwise paper execution."
+  },
+  "metrics": {
+    "names": [
+      "PixCorr",
+      "SSIM",
+      "Alex(2)",
+      "Alex(5)",
+      "Incep",
+      "CLIP",
+      "Eff",
+      "SwAV"
+    ],
+    "negative_pool": 500,
+    "aggregation": "Compute each candidate separately over all500 negatives then average two metric values; never average images or pick images.",
+    "feature_batch": 16,
+    "S": "mean(Alex(5),Incep,CLIP), percentage points"
+  },
+  "selection": {
+    "reference_epoch": 109,
+    "reason_reference": "lowest fixed32 noise-loss checkpoint, not yet an image-quality winner",
+    "later_epoch_gate": "Reuse balanced_controller.gate: S/PixCorr/SSIM nondecreasing; S>=reference+0.3pp or both structural metrics>=reference+0.005; each identification decrease<=0.5pp; Eff/SwAV increase<=0.005",
+    "eligible_order": "Pareto over S/PixCorr/SSIM, then S,PixCorr,SSIM descending, earlier epoch",
+    "fallback": 109,
+    "review_required": true,
+    "K4_confirmation": "If a later candidate passes K2, compare only finalist and109 with original two candidates plus fixed seedbase142 candidate0 and seedbase143 candidate0. Same gate once, no seed retry; failure retains109.",
+    "test_use": "No test selection; final brain-only best8 test and K1 only after validation review/confirmation."
+  },
+  "atlases": "First32 fixed validation IDs; four pages; compare GT and candidate0 for all three epochs without cherry-picking",
+  "limitations": [
+    "posthoc checkpoint comparison after viewing fixed32 training diagnostics",
+    "validation reused for model development; not independent blind confirmation",
+    "one training seed",
+    "fixed32 lowest checkpoint does not establish best image reconstruction",
+    "Subject2 final encoder development split still to be audited"
+  ],
+  "protected_sha256": {
+    "scripts/subject02_validation.py": "f9dfc6b6b1b142b761f5e42145589c4d1fad9c5a30b5686ff2befaf059b9a03a",
+    "decode_brain_adapter.py": "61baab444f383566e4c5204b8560c1356bc9f72a5819ca2b0cd44ff1e2676549",
+    "metric_brain_adapter.py": "646ee1f3673b033cd6ee485058db16a3d24fae7624d793fe5174008ad2e15f7d",
+    "scripts/evaluate_stage.py": "cce42912155c8b4015e1eec1a2d15482b3acfc9ad50e90d56c8e545a451f3cab",
+    "scripts/balanced_controller.py": "7e1f86a3b2b1e244e4abfcab1b2814691912d503c9c6c139b7d22fd99167cf43",
+    "benchmarks/subj01-v1/metric_feature_batches.py": "08272975f6690413812cfb28b783faa9baf43ab02d1b88e921ea70b0a1822425",
+    "brain_adapter/dataset.py": "71f79d18a14351ccac5ebe580713268a27c02e96e75b7a8f5569e66394aa118d",
+    "brain_adapter/model.py": "58067595896351becc340f29f41244866adc567263a20d0cf3800c017ab3e56a",
+    "brain_adapter/ip_adapter/attention_processor.py": "43e48e8d589442aa4615d525c98a2fdde3043ebdc3c3a06aaa900e620837de4a",
+    "brain_adapter/ip_adapter/ip_adapter.py": "51b3bd8787052bb76f22d3aedfe0b5eef5b210e7e396d6df1ff1d90472d00bbd",
+    "data/subject02/metadata_sub-02.npy": "21ef16ff297b7c6a8e0f90774ae64905a680054dcee2c118a2d39db65758bd77",
+    "data/subject02/val_ids.txt": "5c1838006b29a573739264b5159fca37c4abf7af55ac017966377ccb3cc63714",
+    "data/subject02/probe_ids.txt": "7c10a718e0f4d95b8550a541d995a223624c6d56bdb11b7a2984f2b924cd349a",
+    "reports/subject02-bf16-seed42/effective-config.json": "c48572bbbd83b9016d95bfcc8ad81a79ea7212c108b38f22ec6f1924c5b7d4f4",
+    "reports/subject02-bf16-seed42/early-stop-audit.json": "3792f93014c0aa13817e707b2de29ec2990ce27eb17469e366a3a40891dc84a2",
+    "runs/subject02-author-bf16-seed42/exports/epoch-109/inference.pt": "e4ecadc0da2f648dbf314589b7a266917865224e21234998378b8f702061da3f",
+    "runs/subject02-author-bf16-seed42/exports/epoch-109/parcel_vertices.pt": "20536951f247aa5d8a095374bbb8a4f058a5d8c9f6db4b4e06d9aab6596a351f",
+    "runs/subject02-author-bf16-seed42/exports/epoch-109/metadata.json": "394791581431cd837d3d6b470c5084bf1a678448652f8e80d6c615332361ebae",
+    "runs/subject02-author-bf16-seed42/exports/epoch-300/inference.pt": "0ac36e87c224116095677766e9cacc331b362d708d39a4db4def90faacc62fe8",
+    "runs/subject02-author-bf16-seed42/exports/epoch-300/parcel_vertices.pt": "20536951f247aa5d8a095374bbb8a4f058a5d8c9f6db4b4e06d9aab6596a351f",
+    "runs/subject02-author-bf16-seed42/exports/epoch-300/metadata.json": "27c0801c71ab07bd8e1162b979494d5d535dd881947b6633976050a202b153ea",
+    "runs/subject02-author-bf16-seed42/exports/epoch-372/inference.pt": "704d95195c3feb219ad752826f6a2bf976284d6cb0e571d7cbdab2adc01bbf2e",
+    "runs/subject02-author-bf16-seed42/exports/epoch-372/parcel_vertices.pt": "20536951f247aa5d8a095374bbb8a4f058a5d8c9f6db4b4e06d9aab6596a351f",
+    "runs/subject02-author-bf16-seed42/exports/epoch-372/metadata.json": "1c2fe4b12166eccbeea8375eb84e95d6661b4923a6a459f0ad25de5067414f36"
+  },
+  "source_head": "502d574f6069138514437603ec4e00adc5490e50",
+  "created": 1792381405.876517
+}
