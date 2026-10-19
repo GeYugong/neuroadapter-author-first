@@ -1,0 +1,390 @@
+{
+  "subject": 2,
+  "complete": true,
+  "files": 32,
+  "total_bytes": 8505637712,
+  "repository": "ehwang/brain_encoder_weights",
+  "revision": "d8a978abb212eb2965b5d01673f96536b77e2ea0",
+  "members": [
+    {
+      "path": "dinov2_q_transformer/schaefer/subj_02/enc_1/run_1/lh/checkpoint_nonavg.pth",
+      "file_sha256": "e6a6f9c056951d9c9e8f5d3dceff635a03fbcbfdcfd92cac4f45a1e52188a7a2",
+      "model_tensors_sha256": "3105ff92f910fc5b90853ac23b94d569b9149ef21dd5bce58927b44e43b1e0ea",
+      "subject": 2,
+      "hemi": "lh",
+      "layer": 1,
+      "folder_run": 1,
+      "checkpoint_args_run": 1000,
+      "epoch": 0,
+      "safe_weights_only_load": true,
+      "tensor_count": 25
+    },
+    {
+      "path": "dinov2_q_transformer/schaefer/subj_02/enc_1/run_1/rh/checkpoint_nonavg.pth",
+      "file_sha256": "f018d78f147219b9b62ab7e3cbc43f62e07c86eb484d818f44162850c5c5ce47",
+      "model_tensors_sha256": "5b199fc2526118c0eb76c944a72f3dd6e17c092e245bd8444ee9726279c9ee02",
+      "subject": 2,
+      "hemi": "rh",
+      "layer": 1,
+      "folder_run": 1,
+      "checkpoint_args_run": 1000,
+      "epoch": 1,
+      "safe_weights_only_load": true,
+      "tensor_count": 25
+    },
+    {
+      "path": "dinov2_q_transformer/schaefer/subj_02/enc_1/run_2/lh/checkpoint_nonavg.pth",
+      "file_sha256": "ff79566d5f3baa7ccb561ef559a9defca27b3beef38869da24ae5e5d6f41195f",
+      "model_tensors_sha256": "19a3320687fe6a90c8e4694c6a5c810897dc5684989106a88996ee0d4aed6740",
+      "subject": 2,
+      "hemi": "lh",
+      "layer": 1,
+      "folder_run": 2,
+      "checkpoint_args_run": 1001,
+      "epoch": 0,
+      "safe_weights_only_load": true,
+      "tensor_count": 25
+    },
+    {
+      "path": "dinov2_q_transformer/schaefer/subj_02/enc_1/run_2/rh/checkpoint_nonavg.pth",
+      "file_sha256": "6eceece0f870d6fa6b3f9acd05f27f860776653f81cdf8fba8bf34dba1d6382a",
+      "model_tensors_sha256": "bb5d800e8592aa3269a0ae4a428e2034823f95eab11bd06cd679282311842030",
+      "subject": 2,
+      "hemi": "rh",
+      "layer": 1,
+      "folder_run": 2,
+      "checkpoint_args_run": 1001,
+      "epoch": 0,
+      "safe_weights_only_load": true,
+      "tensor_count": 25
+    },
+    {
+      "path": "dinov2_q_transformer/schaefer/subj_02/enc_3/run_1/lh/checkpoint_nonavg.pth",
+      "file_sha256": "d33d9c7b4c45d42acf2c907a0b17d8ada11be700e874544a6747fbe542f860e6",
+      "model_tensors_sha256": "4ff792ba0c3a728a2593ba0a76a63cca034f8fee10ccba064d4338d4adefa542",
+      "subject": 2,
+      "hemi": "lh",
+      "layer": 3,
+      "folder_run": 1,
+      "checkpoint_args_run": 1000,
+      "epoch": 8,
+      "safe_weights_only_load": true,
+      "tensor_count": 25
+    },
+    {
+      "path": "dinov2_q_transformer/schaefer/subj_02/enc_3/run_1/rh/checkpoint_nonavg.pth",
+      "file_sha256": "0775214898327c35e72c4c3831fd1a9b26760b82f8e4158fede36b5596b70f12",
+      "model_tensors_sha256": "3edc4fb83199f55030a06077fec0cf29f75115a59f2b4cbe05805313106bc435",
+      "subject": 2,
+      "hemi": "rh",
+      "layer": 3,
+      "folder_run": 1,
+      "checkpoint_args_run": 1000,
+      "epoch": 6,
+      "safe_weights_only_load": true,
+      "tensor_count": 25
+    },
+    {
+      "path": "dinov2_q_transformer/schaefer/subj_02/enc_3/run_2/lh/checkpoint_nonavg.pth",
+      "file_sha256": "93f0afbe4887e0638c3bb4c0e3fe1aaa0d51e69ffbaf3661ca48bffb7ad90a7c",
+      "model_tensors_sha256": "668d5b0ce1270b3af34ff2e72fa55200ae58c3508e0ecc34d1aa050529446e02",
+      "subject": 2,
+      "hemi": "lh",
+      "layer": 3,
+      "folder_run": 2,
+      "checkpoint_args_run": 1001,
+      "epoch": 7,
+      "safe_weights_only_load": true,
+      "tensor_count": 25
+    },
+    {
+      "path": "dinov2_q_transformer/schaefer/subj_02/enc_3/run_2/rh/checkpoint_nonavg.pth",
+      "file_sha256": "9b00c0f928a66bbf4127e8645f9ead7fe2833af0818df06c2984e09aa554f921",
+      "model_tensors_sha256": "f4d8adc03ae64cad45cf32557a2aeeb9ea78098910b205a558ab41c8a18eca08",
+      "subject": 2,
+      "hemi": "rh",
+      "layer": 3,
+      "folder_run": 2,
+      "checkpoint_args_run": 1001,
+      "epoch": 5,
+      "safe_weights_only_load": true,
+      "tensor_count": 25
+    },
+    {
+      "path": "dinov2_q_transformer/schaefer/subj_02/enc_5/run_1/lh/checkpoint_nonavg.pth",
+      "file_sha256": "1c24a562e27b87550921e2e85dda1b904bd1711d33167b7eb045dfa493760b91",
+      "model_tensors_sha256": "827c87b58f284729b857daa12c893d336c3953279f6acb9f6017e81547f93fec",
+      "subject": 2,
+      "hemi": "lh",
+      "layer": 5,
+      "folder_run": 1,
+      "checkpoint_args_run": 1000,
+      "epoch": 9,
+      "safe_weights_only_load": true,
+      "tensor_count": 25
+    },
+    {
+      "path": "dinov2_q_transformer/schaefer/subj_02/enc_5/run_1/rh/checkpoint_nonavg.pth",
+      "file_sha256": "7f5f558a9cbdf78be4dd94ce6350c5711e82f481ee4727817b2a554e7edd0ad9",
+      "model_tensors_sha256": "e0a9f864b7e3b71539ebefad1e2f816fbc18ea53fb1366b3e22d64efa65384e6",
+      "subject": 2,
+      "hemi": "rh",
+      "layer": 5,
+      "folder_run": 1,
+      "checkpoint_args_run": 1000,
+      "epoch": 9,
+      "safe_weights_only_load": true,
+      "tensor_count": 25
+    },
+    {
+      "path": "dinov2_q_transformer/schaefer/subj_02/enc_5/run_2/lh/checkpoint_nonavg.pth",
+      "file_sha256": "66abb7c200e2cfe8d9b470af4bc5c13de1dbfdf08d428489503ba5f854440c2a",
+      "model_tensors_sha256": "7b3c135104a1e01a75112d9803bb53b84a961febed8bb8cffb5cd5fe8b613a85",
+      "subject": 2,
+      "hemi": "lh",
+      "layer": 5,
+      "folder_run": 2,
+      "checkpoint_args_run": 1001,
+      "epoch": 9,
+      "safe_weights_only_load": true,
+      "tensor_count": 25
+    },
+    {
+      "path": "dinov2_q_transformer/schaefer/subj_02/enc_5/run_2/rh/checkpoint_nonavg.pth",
+      "file_sha256": "6c308dcb0357a180d808660b5929aa35d5f083f733f81497e1a8530829257684",
+      "model_tensors_sha256": "1f676c12252efe709f9cebfd4ef1a9fe8d3e131b4918f559fa19fed7f2b5ef2f",
+      "subject": 2,
+      "hemi": "rh",
+      "layer": 5,
+      "folder_run": 2,
+      "checkpoint_args_run": 1001,
+      "epoch": 11,
+      "safe_weights_only_load": true,
+      "tensor_count": 25
+    },
+    {
+      "path": "dinov2_q_transformer/schaefer/subj_02/enc_7/run_1/lh/checkpoint_nonavg.pth",
+      "file_sha256": "f4597a62e563cfc0cdb2de1f9e660a458c7f77b8202eead38f5b05d9950161a2",
+      "model_tensors_sha256": "e9a38d6822213c6eaad83d44a9c53b1443d8e4b7ec6e4d7952e8737e21afe9ef",
+      "subject": 2,
+      "hemi": "lh",
+      "layer": 7,
+      "folder_run": 1,
+      "checkpoint_args_run": 1000,
+      "epoch": 9,
+      "safe_weights_only_load": true,
+      "tensor_count": 25
+    },
+    {
+      "path": "dinov2_q_transformer/schaefer/subj_02/enc_7/run_1/rh/checkpoint_nonavg.pth",
+      "file_sha256": "da6112e2c1f87aa6eee99ffc6fa30e6f6bc8314b168ac56cdee8823fa4ecd72a",
+      "model_tensors_sha256": "57bdfe0b47e85d276ffe906d516b624a580c4e30fd5671e917e0a7a460be0e11",
+      "subject": 2,
+      "hemi": "rh",
+      "layer": 7,
+      "folder_run": 1,
+      "checkpoint_args_run": 1000,
+      "epoch": 8,
+      "safe_weights_only_load": true,
+      "tensor_count": 25
+    },
+    {
+      "path": "dinov2_q_transformer/schaefer/subj_02/enc_7/run_2/lh/checkpoint_nonavg.pth",
+      "file_sha256": "1078a6c5fb53352355a40ac73f69105fd6fe08fe365c14666635c147210524c4",
+      "model_tensors_sha256": "a33931e84ce08005fa16ec44c076a9b05a559982f334b348a126d69a15b3f988",
+      "subject": 2,
+      "hemi": "lh",
+      "layer": 7,
+      "folder_run": 2,
+      "checkpoint_args_run": 1001,
+      "epoch": 11,
+      "safe_weights_only_load": true,
+      "tensor_count": 25
+    },
+    {
+      "path": "dinov2_q_transformer/schaefer/subj_02/enc_7/run_2/rh/checkpoint_nonavg.pth",
+      "file_sha256": "6a74068c50209c41b51ddae0c39f33a0de3b7dcfed48fdb35b0505f8d6e2b544",
+      "model_tensors_sha256": "3a9780e744f716c54dbeb0c29eb60c23eac90de17817709e62a3f64fd7e1d53b",
+      "subject": 2,
+      "hemi": "rh",
+      "layer": 7,
+      "folder_run": 2,
+      "checkpoint_args_run": 1001,
+      "epoch": 0,
+      "safe_weights_only_load": true,
+      "tensor_count": 25
+    }
+  ],
+  "correlations": [
+    {
+      "path": "dinov2_q_transformer/schaefer/subj_02/enc_1/run_1/lh/lh_val_corr_nonavg.npy",
+      "sha256": "42c45800c45704232ffe410edb87943b53e9abeba4777140ff69ac2830951016",
+      "dtype": "float32",
+      "shape": [
+        163842
+      ],
+      "nan_count": 0,
+      "inf_count": 0
+    },
+    {
+      "path": "dinov2_q_transformer/schaefer/subj_02/enc_1/run_1/rh/rh_val_corr_nonavg.npy",
+      "sha256": "ebba0e8be0ba99d13496a7eaf2ea15d91cc01f561122d08d24aa2c2934692e7c",
+      "dtype": "float32",
+      "shape": [
+        163842
+      ],
+      "nan_count": 0,
+      "inf_count": 0
+    },
+    {
+      "path": "dinov2_q_transformer/schaefer/subj_02/enc_1/run_2/lh/lh_val_corr_nonavg.npy",
+      "sha256": "7a0f8493167cad199f83f72489db9157b15e0f350a7e57f546b38b963f750db0",
+      "dtype": "float32",
+      "shape": [
+        163842
+      ],
+      "nan_count": 0,
+      "inf_count": 0
+    },
+    {
+      "path": "dinov2_q_transformer/schaefer/subj_02/enc_1/run_2/rh/rh_val_corr_nonavg.npy",
+      "sha256": "fec99bb44d9ec96b2e03c866ba658698ed2311636d079e0c958994842f1fabee",
+      "dtype": "float32",
+      "shape": [
+        163842
+      ],
+      "nan_count": 0,
+      "inf_count": 0
+    },
+    {
+      "path": "dinov2_q_transformer/schaefer/subj_02/enc_3/run_1/lh/lh_val_corr_nonavg.npy",
+      "sha256": "61322fbaa9e303448568c2ca647a38c0c1e1e9c50724bfa025a7f8c8b6329536",
+      "dtype": "float32",
+      "shape": [
+        163842
+      ],
+      "nan_count": 0,
+      "inf_count": 0
+    },
+    {
+      "path": "dinov2_q_transformer/schaefer/subj_02/enc_3/run_1/rh/rh_val_corr_nonavg.npy",
+      "sha256": "6ff9c511880e6a7756ab048a5c652cc4ab252738be953c2c4f387548c79a758a",
+      "dtype": "float32",
+      "shape": [
+        163842
+      ],
+      "nan_count": 0,
+      "inf_count": 0
+    },
+    {
+      "path": "dinov2_q_transformer/schaefer/subj_02/enc_3/run_2/lh/lh_val_corr_nonavg.npy",
+      "sha256": "6848f3e2ebb825189f693d531a61319ea5ce47375964e524aab4adad4f09724e",
+      "dtype": "float32",
+      "shape": [
+        163842
+      ],
+      "nan_count": 0,
+      "inf_count": 0
+    },
+    {
+      "path": "dinov2_q_transformer/schaefer/subj_02/enc_3/run_2/rh/rh_val_corr_nonavg.npy",
+      "sha256": "457607ce75fa9ec42732b252a4ebfa7e374f137480118f1b99f14eb94c8060bc",
+      "dtype": "float32",
+      "shape": [
+        163842
+      ],
+      "nan_count": 0,
+      "inf_count": 0
+    },
+    {
+      "path": "dinov2_q_transformer/schaefer/subj_02/enc_5/run_1/lh/lh_val_corr_nonavg.npy",
+      "sha256": "52705597adee3d396691a3a2615a778906f313c57efede30671c665bfb0c5125",
+      "dtype": "float32",
+      "shape": [
+        163842
+      ],
+      "nan_count": 0,
+      "inf_count": 0
+    },
+    {
+      "path": "dinov2_q_transformer/schaefer/subj_02/enc_5/run_1/rh/rh_val_corr_nonavg.npy",
+      "sha256": "7d300a22bdd2fa77ee56101197393123189d7ff3e08935e2850530d80fcdbf95",
+      "dtype": "float32",
+      "shape": [
+        163842
+      ],
+      "nan_count": 0,
+      "inf_count": 0
+    },
+    {
+      "path": "dinov2_q_transformer/schaefer/subj_02/enc_5/run_2/lh/lh_val_corr_nonavg.npy",
+      "sha256": "26ec4509f25c16dcdcbe0fb9285a498e331906116bcdfe1cb368aaf6b7b1d846",
+      "dtype": "float32",
+      "shape": [
+        163842
+      ],
+      "nan_count": 0,
+      "inf_count": 0
+    },
+    {
+      "path": "dinov2_q_transformer/schaefer/subj_02/enc_5/run_2/rh/rh_val_corr_nonavg.npy",
+      "sha256": "5ba38a2590db06b414510c65667a93a234fd48e1ef44690a753c2abacc9fc7da",
+      "dtype": "float32",
+      "shape": [
+        163842
+      ],
+      "nan_count": 0,
+      "inf_count": 0
+    },
+    {
+      "path": "dinov2_q_transformer/schaefer/subj_02/enc_7/run_1/lh/lh_val_corr_nonavg.npy",
+      "sha256": "6227f978fc9cdd49e79536c6746be09f072bef575f4bb0703c0b2f2863215b47",
+      "dtype": "float32",
+      "shape": [
+        163842
+      ],
+      "nan_count": 0,
+      "inf_count": 0
+    },
+    {
+      "path": "dinov2_q_transformer/schaefer/subj_02/enc_7/run_1/rh/rh_val_corr_nonavg.npy",
+      "sha256": "39d2f67384925e9b1a4aa4eed31a6e96fb6d69c7e57850a6f13d1e7f60b3e2e5",
+      "dtype": "float32",
+      "shape": [
+        163842
+      ],
+      "nan_count": 0,
+      "inf_count": 0
+    },
+    {
+      "path": "dinov2_q_transformer/schaefer/subj_02/enc_7/run_2/lh/lh_val_corr_nonavg.npy",
+      "sha256": "53ecb947775adf0bea4d89a55fb979dfa745ddd77cfd682cfaab361bb67712a7",
+      "dtype": "float32",
+      "shape": [
+        163842
+      ],
+      "nan_count": 0,
+      "inf_count": 0
+    },
+    {
+      "path": "dinov2_q_transformer/schaefer/subj_02/enc_7/run_2/rh/rh_val_corr_nonavg.npy",
+      "sha256": "37853ec2997b1d930f59d97d957e0911799bd0c05aa09f80633657be86e98cd7",
+      "dtype": "float32",
+      "shape": [
+        163842
+      ],
+      "nan_count": 0,
+      "inf_count": 0
+    }
+  ],
+  "all_official_LFS_hashes_match": true,
+  "all_model_tensors_finite": true,
+  "ensemble_model_states_distinct": true,
+  "metadata_note": "Folder run1/2 identifies published ensemble members; checkpoint args.run is a different author experiment label. Preserve both; do not silently relabel it.",
+  "correlation_policy": "Preserve downloaded arrays; author inference uses nan_to_num then scipy float64 softmax20",
+  "full_forward_equivalence_pending": true,
+  "encoder_development_split_verified": false,
+  "training_updates": 0,
+  "gpu_used": false,
+  "time": 1792382676.2110639
+}
