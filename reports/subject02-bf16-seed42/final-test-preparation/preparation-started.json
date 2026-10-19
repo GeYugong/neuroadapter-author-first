@@ -1,0 +1,14 @@
+{
+  "time": 1792382299.8409383,
+  "subject2_test_ids_independently_verified": true,
+  "encoder_file_count": 32,
+  "encoder_bytes": 8505637712,
+  "source_pinned_revision": "d8a978abb212eb2965b5d01673f96536b77e2ea0",
+  "checksums": "Official HF LFS SHA256 per file, verified before rename",
+  "remote_direct_HF": "connection timeout; read-only query exited; no model download started there",
+  "transfer": "Local public HTTP stream piped directly to checked remote receiver; no local weight storage",
+  "gpu_usage": false,
+  "validation_jobs_untouched": true,
+  "download_complete": false,
+  "full_encoder_forward_audit_pending": true
+}

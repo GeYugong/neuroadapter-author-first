@@ -1,0 +1,19 @@
+{
+  "subject": 2,
+  "source_behavior": "https://natural-scenes-dataset.s3.amazonaws.com/nsddata/ppdata/subj02/behav/responses.tsv",
+  "behavior_sha256": "9080ef6c399e176fc63930040dfcdadd5c4a7b473513b354144bb33a252bc2af",
+  "expdesign_sha256": "4cf4901ecf736c525ce534c4466030ec8d13c2fc0c8b31ddf86f17c55faadf89",
+  "first37_sessions_behavior_matches_design": true,
+  "trials": 27750,
+  "standard_test_n": 982,
+  "test_ids_sha256": "1be9bfecffa666f2e71aaac1a94e3d03d7a7e754d00d28fa84b0a7aa9b6db966",
+  "order": "first occurrence in Subject2 official behavior sessions1..37, filtered shared1000",
+  "S1_ID_list_not_used_for_derivation": true,
+  "disjoint_train_val": true,
+  "brain_input_policy": "Existing author dataset averages all3 presentations from full40 sessions; standard37 only defines testID population/order.",
+  "all40_repeat_counts": [
+    3
+  ],
+  "test_generated": false,
+  "selection_uses_test": false
+}

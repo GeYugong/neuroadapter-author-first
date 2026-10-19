@@ -1,0 +1,173 @@
+{
+  "repository": "ehwang/brain_encoder_weights",
+  "revision": "d8a978abb212eb2965b5d01673f96536b77e2ea0",
+  "subject": 2,
+  "files": [
+    {
+      "path": "dinov2_q_transformer/schaefer/subj_02/enc_1/run_1/lh/lh_val_corr_nonavg.npy",
+      "bytes": 655496,
+      "sha256": "42c45800c45704232ffe410edb87943b53e9abeba4777140ff69ac2830951016"
+    },
+    {
+      "path": "dinov2_q_transformer/schaefer/subj_02/enc_1/run_1/rh/rh_val_corr_nonavg.npy",
+      "bytes": 655496,
+      "sha256": "ebba0e8be0ba99d13496a7eaf2ea15d91cc01f561122d08d24aa2c2934692e7c"
+    },
+    {
+      "path": "dinov2_q_transformer/schaefer/subj_02/enc_1/run_2/lh/lh_val_corr_nonavg.npy",
+      "bytes": 655496,
+      "sha256": "7a0f8493167cad199f83f72489db9157b15e0f350a7e57f546b38b963f750db0"
+    },
+    {
+      "path": "dinov2_q_transformer/schaefer/subj_02/enc_1/run_2/rh/rh_val_corr_nonavg.npy",
+      "bytes": 655496,
+      "sha256": "fec99bb44d9ec96b2e03c866ba658698ed2311636d079e0c958994842f1fabee"
+    },
+    {
+      "path": "dinov2_q_transformer/schaefer/subj_02/enc_3/run_1/lh/lh_val_corr_nonavg.npy",
+      "bytes": 655496,
+      "sha256": "61322fbaa9e303448568c2ca647a38c0c1e1e9c50724bfa025a7f8c8b6329536"
+    },
+    {
+      "path": "dinov2_q_transformer/schaefer/subj_02/enc_3/run_1/rh/rh_val_corr_nonavg.npy",
+      "bytes": 655496,
+      "sha256": "6ff9c511880e6a7756ab048a5c652cc4ab252738be953c2c4f387548c79a758a"
+    },
+    {
+      "path": "dinov2_q_transformer/schaefer/subj_02/enc_3/run_2/lh/lh_val_corr_nonavg.npy",
+      "bytes": 655496,
+      "sha256": "6848f3e2ebb825189f693d531a61319ea5ce47375964e524aab4adad4f09724e"
+    },
+    {
+      "path": "dinov2_q_transformer/schaefer/subj_02/enc_3/run_2/rh/rh_val_corr_nonavg.npy",
+      "bytes": 655496,
+      "sha256": "457607ce75fa9ec42732b252a4ebfa7e374f137480118f1b99f14eb94c8060bc"
+    },
+    {
+      "path": "dinov2_q_transformer/schaefer/subj_02/enc_5/run_1/lh/lh_val_corr_nonavg.npy",
+      "bytes": 655496,
+      "sha256": "52705597adee3d396691a3a2615a778906f313c57efede30671c665bfb0c5125"
+    },
+    {
+      "path": "dinov2_q_transformer/schaefer/subj_02/enc_5/run_1/rh/rh_val_corr_nonavg.npy",
+      "bytes": 655496,
+      "sha256": "7d300a22bdd2fa77ee56101197393123189d7ff3e08935e2850530d80fcdbf95"
+    },
+    {
+      "path": "dinov2_q_transformer/schaefer/subj_02/enc_5/run_2/lh/lh_val_corr_nonavg.npy",
+      "bytes": 655496,
+      "sha256": "26ec4509f25c16dcdcbe0fb9285a498e331906116bcdfe1cb368aaf6b7b1d846"
+    },
+    {
+      "path": "dinov2_q_transformer/schaefer/subj_02/enc_5/run_2/rh/rh_val_corr_nonavg.npy",
+      "bytes": 655496,
+      "sha256": "5ba38a2590db06b414510c65667a93a234fd48e1ef44690a753c2abacc9fc7da"
+    },
+    {
+      "path": "dinov2_q_transformer/schaefer/subj_02/enc_7/run_1/lh/lh_val_corr_nonavg.npy",
+      "bytes": 655496,
+      "sha256": "6227f978fc9cdd49e79536c6746be09f072bef575f4bb0703c0b2f2863215b47"
+    },
+    {
+      "path": "dinov2_q_transformer/schaefer/subj_02/enc_7/run_1/rh/rh_val_corr_nonavg.npy",
+      "bytes": 655496,
+      "sha256": "39d2f67384925e9b1a4aa4eed31a6e96fb6d69c7e57850a6f13d1e7f60b3e2e5"
+    },
+    {
+      "path": "dinov2_q_transformer/schaefer/subj_02/enc_7/run_2/lh/lh_val_corr_nonavg.npy",
+      "bytes": 655496,
+      "sha256": "53ecb947775adf0bea4d89a55fb979dfa745ddd77cfd682cfaab361bb67712a7"
+    },
+    {
+      "path": "dinov2_q_transformer/schaefer/subj_02/enc_7/run_2/rh/rh_val_corr_nonavg.npy",
+      "bytes": 655496,
+      "sha256": "37853ec2997b1d930f59d97d957e0911799bd0c05aa09f80633657be86e98cd7"
+    },
+    {
+      "path": "dinov2_q_transformer/schaefer/subj_02/enc_1/run_1/lh/checkpoint_nonavg.pth",
+      "bytes": 530946861,
+      "sha256": "e6a6f9c056951d9c9e8f5d3dceff635a03fbcbfdcfd92cac4f45a1e52188a7a2"
+    },
+    {
+      "path": "dinov2_q_transformer/schaefer/subj_02/enc_1/run_1/rh/checkpoint_nonavg.pth",
+      "bytes": 530946861,
+      "sha256": "f018d78f147219b9b62ab7e3cbc43f62e07c86eb484d818f44162850c5c5ce47"
+    },
+    {
+      "path": "dinov2_q_transformer/schaefer/subj_02/enc_1/run_2/lh/checkpoint_nonavg.pth",
+      "bytes": 530946861,
+      "sha256": "ff79566d5f3baa7ccb561ef559a9defca27b3beef38869da24ae5e5d6f41195f"
+    },
+    {
+      "path": "dinov2_q_transformer/schaefer/subj_02/enc_1/run_2/rh/checkpoint_nonavg.pth",
+      "bytes": 530946861,
+      "sha256": "6eceece0f870d6fa6b3f9acd05f27f860776653f81cdf8fba8bf34dba1d6382a"
+    },
+    {
+      "path": "dinov2_q_transformer/schaefer/subj_02/enc_3/run_1/lh/checkpoint_nonavg.pth",
+      "bytes": 530946861,
+      "sha256": "d33d9c7b4c45d42acf2c907a0b17d8ada11be700e874544a6747fbe542f860e6"
+    },
+    {
+      "path": "dinov2_q_transformer/schaefer/subj_02/enc_3/run_1/rh/checkpoint_nonavg.pth",
+      "bytes": 530946861,
+      "sha256": "0775214898327c35e72c4c3831fd1a9b26760b82f8e4158fede36b5596b70f12"
+    },
+    {
+      "path": "dinov2_q_transformer/schaefer/subj_02/enc_3/run_2/lh/checkpoint_nonavg.pth",
+      "bytes": 530946861,
+      "sha256": "93f0afbe4887e0638c3bb4c0e3fe1aaa0d51e69ffbaf3661ca48bffb7ad90a7c"
+    },
+    {
+      "path": "dinov2_q_transformer/schaefer/subj_02/enc_3/run_2/rh/checkpoint_nonavg.pth",
+      "bytes": 530946861,
+      "sha256": "9b00c0f928a66bbf4127e8645f9ead7fe2833af0818df06c2984e09aa554f921"
+    },
+    {
+      "path": "dinov2_q_transformer/schaefer/subj_02/enc_5/run_1/lh/checkpoint_nonavg.pth",
+      "bytes": 530946861,
+      "sha256": "1c24a562e27b87550921e2e85dda1b904bd1711d33167b7eb045dfa493760b91"
+    },
+    {
+      "path": "dinov2_q_transformer/schaefer/subj_02/enc_5/run_1/rh/checkpoint_nonavg.pth",
+      "bytes": 530946861,
+      "sha256": "7f5f558a9cbdf78be4dd94ce6350c5711e82f481ee4727817b2a554e7edd0ad9"
+    },
+    {
+      "path": "dinov2_q_transformer/schaefer/subj_02/enc_5/run_2/lh/checkpoint_nonavg.pth",
+      "bytes": 530946861,
+      "sha256": "66abb7c200e2cfe8d9b470af4bc5c13de1dbfdf08d428489503ba5f854440c2a"
+    },
+    {
+      "path": "dinov2_q_transformer/schaefer/subj_02/enc_5/run_2/rh/checkpoint_nonavg.pth",
+      "bytes": 530946861,
+      "sha256": "6c308dcb0357a180d808660b5929aa35d5f083f733f81497e1a8530829257684"
+    },
+    {
+      "path": "dinov2_q_transformer/schaefer/subj_02/enc_7/run_1/lh/checkpoint_nonavg.pth",
+      "bytes": 530946861,
+      "sha256": "f4597a62e563cfc0cdb2de1f9e660a458c7f77b8202eead38f5b05d9950161a2"
+    },
+    {
+      "path": "dinov2_q_transformer/schaefer/subj_02/enc_7/run_1/rh/checkpoint_nonavg.pth",
+      "bytes": 530946861,
+      "sha256": "da6112e2c1f87aa6eee99ffc6fa30e6f6bc8314b168ac56cdee8823fa4ecd72a"
+    },
+    {
+      "path": "dinov2_q_transformer/schaefer/subj_02/enc_7/run_2/lh/checkpoint_nonavg.pth",
+      "bytes": 530946861,
+      "sha256": "1078a6c5fb53352355a40ac73f69105fd6fe08fe365c14666635c147210524c4"
+    },
+    {
+      "path": "dinov2_q_transformer/schaefer/subj_02/enc_7/run_2/rh/checkpoint_nonavg.pth",
+      "bytes": 530946861,
+      "sha256": "6a74068c50209c41b51ddae0c39f33a0de3b7dcfed48fdb35b0505f8d6e2b544"
+    }
+  ],
+  "total_bytes": 8505637712,
+  "source_metadata_sha256": "731aab4c75fe6ca4cc4f358d5f5239ec73f20a681314acac7d1a97cf5b8ea039",
+  "transfer": "Anonymous public HF GET on local host streamed directly through SSH stdin; no local weights/cache; remote verifies authoritative LFS SHA256 and length before atomic publication",
+  "remote_root": "runtime/subject02-brain-encoder",
+  "local_stream_sha256": "81585a988b9d4804781f38e45bba66bbd31d9debdb0db0dab678cf016231985b",
+  "receiver_sha256": "159d60a3f92ad22dd1d6cad3d4bdc0a9458d9e1f0ce4e273d141b781c21158f7"
+}
