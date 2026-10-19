@@ -1,0 +1,13 @@
+{
+  "user_request": "Upload finalized NeuroAdapter Subject2 weight to gugabobo, then start MindEye1 Subject2 training.",
+  "validation_choice": "Human selected official independent8559train/300val; test excluded.",
+  "subject": 2,
+  "training_initialization": "Independent trainable high and low mappings; frozen pretrained backbones only",
+  "high_epochs": 240,
+  "low_epochs": 120,
+  "execution": "Two independent single-GPU training branches; high GPU0, low GPU1; preserve original single-rank hyperparameters",
+  "source_commit": "6b30ea53c0f98b0a79b8f6828b6787a5913fd08d",
+  "test_used_for_training_or_selection": false,
+  "training_started": false,
+  "time": 1792415615.1157873
+}

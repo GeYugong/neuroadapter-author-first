@@ -1,0 +1,23 @@
+{
+  "completed": true,
+  "unix_time": 1792415278.0591981,
+  "repositories": [
+    {
+      "repo": "gugabobo/neuroadapter-subject02-e109",
+      "url": "https://huggingface.co/gugabobo/neuroadapter-subject02-e109",
+      "revision": "1f042b06654b03280db9620279724dced78fb49d",
+      "public": true,
+      "file_count": 2,
+      "bytes": 426665128,
+      "sha_verified": true
+    }
+  ],
+  "all_public_and_sha_verified": true,
+  "server_weights_deleted": false,
+  "excluded": [
+    "Other checkpoints retained on server",
+    "Full optimizer and RNG state",
+    "Frozen downloaded backbone and brain encoder weights",
+    "Raw NSD images, fMRI, per-sample records and credentials"
+  ]
+}

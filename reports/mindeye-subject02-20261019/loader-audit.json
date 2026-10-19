@@ -1,0 +1,44 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "kind": "high",
+      "batch": 32,
+      "brain_shape": [
+        32,
+        3,
+        14278
+      ],
+      "image_shape": [
+        32,
+        3,
+        256,
+        256
+      ],
+      "original_decoder_pixels_and_brain_exact": true,
+      "epoch_order_replay_exact": true,
+      "different_epochs_have_different_order": true,
+      "epoch0_first_batch_ID_sha256": "9d83ea937fb549ebf54319f9f9c9f955ee9ffe32ee9b70cd533a209929b52d77"
+    },
+    {
+      "kind": "low",
+      "batch": 8,
+      "brain_shape": [
+        8,
+        3,
+        14278
+      ],
+      "image_shape": [
+        8,
+        3,
+        256,
+        256
+      ],
+      "original_decoder_pixels_and_brain_exact": true,
+      "epoch_order_replay_exact": true,
+      "different_epochs_have_different_order": true,
+      "epoch0_first_batch_ID_sha256": "d88326e2c14f10184d6503c1e0b00a9f798992863e2f2a1755494b86eef11821"
+    }
+  ],
+  "test_used": false
+}

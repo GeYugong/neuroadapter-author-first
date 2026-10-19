@@ -1,0 +1,21 @@
+{
+  "passed": true,
+  "purpose": "Fused AdamW avoids a full3GiB temporary tensor; same LR/betas/epsilon/weight decay/batch/loss.",
+  "steps": 3,
+  "parameter_max_abs_error": 1.430511474609375e-06,
+  "state_max_abs_errors": {
+    "exp_avg": 1.7881393432617188e-07,
+    "exp_avg_sq": 3.110617399215698e-07
+  },
+  "parameter_tolerance": {
+    "rtol": 2e-06,
+    "atol": 2e-07
+  },
+  "state_tolerance": {
+    "rtol": 5e-05,
+    "atol": 3e-08
+  },
+  "bitwise_equivalent": false,
+  "initial_absolute_1e-6_check_failed": "Largest difference1.43e-6 on a parameter near-4.395; three float32ULPs. Relative tolerances explicitly recorded, not a claim of exact historical arithmetic.",
+  "time": 1792417362.2680519
+}

@@ -1,0 +1,84 @@
+{
+  "created_unix": 1792415144.3199484,
+  "server_head": "3eb8337b77cc78b09b9e4b022fbbdca72ab88e32",
+  "packages": [
+    {
+      "repo": "gugabobo/neuroadapter-subject02-e109",
+      "method": "NeuroAdapter Subject 2 E109",
+      "selection": "Retained by the predeclared validation SSIM non-decrease gate; E372 was better on seven validation metrics. No test-based checkpoint switch.",
+      "files": [
+        {
+          "source": "runs/subject02-author-bf16-seed42/exports/epoch-109/inference.pt",
+          "path": "inference.pt",
+          "size": 426193737,
+          "sha256": "e4ecadc0da2f648dbf314589b7a266917865224e21234998378b8f702061da3f"
+        },
+        {
+          "source": "runs/subject02-author-bf16-seed42/exports/epoch-109/parcel_vertices.pt",
+          "path": "parcel_vertices.pt",
+          "size": 471391,
+          "sha256": "20536951f247aa5d8a095374bbb8a4f058a5d8c9f6db4b4e06d9aab6596a351f"
+        }
+      ],
+      "config": {
+        "run_id": "subject02-author-bf16-seed42",
+        "seed": 42,
+        "subject_id": 2,
+        "topk": 100,
+        "condition_dim": 768,
+        "num_decoder_queries": 50,
+        "sub_approach": "linear_projection",
+        "gen_img_resolution": 512,
+        "learning_rate": 0.0001,
+        "weight_decay": 1e-06,
+        "clip_max_norm": 1.0,
+        "mixed_precision": "bf16",
+        "train_batch_size": 8,
+        "gradient_accumulation_steps": 2,
+        "dataloader_num_workers": 0,
+        "save_epochs": 1,
+        "epoch": 109,
+        "training_stopped_epoch": 372,
+        "world_size": 2,
+        "global_batch": 32,
+        "num_parcels": 200,
+        "max_voxels": 564,
+        "base_model": "stable-diffusion-v1-5/stable-diffusion-v1-5",
+        "trainable_state_keys": [
+          "guidance_generator",
+          "image_proj",
+          "ip_adapter"
+        ],
+        "saved_inference_sha256": "e4ecadc0da2f648dbf314589b7a266917865224e21234998378b8f702061da3f"
+      },
+      "metrics": {
+        "K1": {
+          "PixCorr": 0.05958110559980199,
+          "SSIM": 0.315270576698274,
+          "Alex(2)": 69.38979095689797,
+          "Alex(5)": 79.48620531441587,
+          "Incep": 76.50304876149903,
+          "CLIP": 79.88159968111015,
+          "Eff": 0.8408332359597015,
+          "SwAV": 0.518535106328936
+        },
+        "best8": {
+          "PixCorr": 0.07061292862621647,
+          "SSIM": 0.2846366469764202,
+          "Alex(2)": 73.63771121782295,
+          "Alex(5)": 83.92658059131648,
+          "Incep": 80.48865304325982,
+          "CLIP": 81.55732854998537,
+          "Eff": 0.8186219650269465,
+          "SwAV": 0.5026784476236209
+        }
+      }
+    }
+  ],
+  "excluded": [
+    "Other checkpoints retained on server",
+    "Full optimizer and RNG state",
+    "Frozen downloaded backbone and brain encoder weights",
+    "Raw NSD images, fMRI, per-sample records and credentials"
+  ]
+}

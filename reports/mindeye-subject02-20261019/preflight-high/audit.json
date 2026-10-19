@@ -1,0 +1,170 @@
+{
+  "passed": true,
+  "config": {
+    "kind": "high",
+    "subject": 2,
+    "seed": 42,
+    "epochs": 240,
+    "batch_size": 32,
+    "world_size": 1,
+    "train_images": 8559,
+    "val_images": 300,
+    "train_steps_per_epoch": 267,
+    "max_lr": 0.0003,
+    "precision": "fp16_autocast_with_fp32_parameters",
+    "weight_decay": 0.01,
+    "optimizer": "AdamW; original groups; fused=True for high, foreach=False for low; same hyperparameters",
+    "gradient_clipping": false,
+    "loss_block_sha256": "824d965c70cfa9b3542a3a1e580c3d3116873db28fd29c24c8f3303fb88d80f8",
+    "source_patches": {
+      "from_pretrained(\"openai/clip-vit-large-patch14\")": "from_pretrained('/data1/matengyu/geyugong/neuroadapter-author-first/benchmarks/subj01-v1/assets/clip-vit-large-patch14', attn_implementation=\"eager\")",
+      "clip.load(clip_variant, device=device)": "clip.load('/data1/matengyu/geyugong/neuroadapter-subject1-research/models/evaluation/clip/ViT-L-14.pt', device=\"cpu\")",
+      "interpolation=transforms.InterpolationMode.BICUBIC),": "interpolation=transforms.InterpolationMode.BICUBIC, antialias=False),"
+    },
+    "activation_checkpointing": "Prior attention/feedforward and voxel projector; nonreentrant with RNG preservation",
+    "trainable_parameters": 997712272,
+    "source_files": {
+      "models.py": "28844196e1ad34a1bc33bafd7adb447c13ceaade601f1e7f393eb1930840b2ee",
+      "utils.py": "302241465b882365bea96dcb5f12f3ab931255dcecb95bda237f9dd4d5d9adc2",
+      "Train_MindEye.py": "6d4ac65e18ef50737240eaaa722ea65de3dfbcb2272dadd1e2d60594cc95eddc",
+      "train_autoencoder.py": "40099f368678b3418fd68bd706c58a72e9ec3de4139ad1af827240fe09ac5e92",
+      "convnext.py": "960e416c0cf60e7ecb08eb0f604561e18cc97a7bdb0773550342354eb633bec0"
+    },
+    "compatibility": "Pinned pure-Python author dependencies including diffusers0.13.0 with runtime torch2.11; not bit-exact historical execution",
+    "data_order": "Original resampled-shard and500-buffer shuffle; deterministic shard RNG based on seed/epoch; num_workers0",
+    "validation": "All300 held-out images; full300 high-level contrastive pool via chunked features; fixed RNG restored afterwards",
+    "primary_endpoint": "fixed last epoch; best held-out diagnostic inference state retained separately; no test-based switch",
+    "deterministic_algorithms": true
+  },
+  "actual_GPU": "NVIDIA GeForce RTX 4090",
+  "real_batch_shape": [
+    32,
+    3,
+    14278
+  ],
+  "source_shard_sha256": "a5d0ef591ebd9c867698dd7037f8d1534a76749c8e164c2b010a33437fae3453",
+  "initial_steps": [
+    {
+      "loss": 27.43871307373047,
+      "components": {
+        "nce": 3.357949733734131,
+        "prior": 0.8026921153068542
+      },
+      "gradient_norm": null,
+      "gradients_finite": false,
+      "skipped": true,
+      "scale_before": 65536.0,
+      "scale_after": 32768.0,
+      "lr": 1.200000000000002e-05,
+      "group_updates": null,
+      "batch_n": 32
+    },
+    {
+      "loss": 27.47351837158203,
+      "components": {
+        "nce": 3.622330665588379,
+        "prior": 0.7950395941734314
+      },
+      "gradient_norm": null,
+      "gradients_finite": false,
+      "skipped": true,
+      "scale_before": 32768.0,
+      "scale_after": 16384.0,
+      "lr": 1.200000000000002e-05,
+      "group_updates": null,
+      "batch_n": 32
+    },
+    {
+      "loss": 27.776836395263672,
+      "components": {
+        "nce": 3.74155855178833,
+        "prior": 0.8011759519577026
+      },
+      "gradient_norm": null,
+      "gradients_finite": false,
+      "skipped": true,
+      "scale_before": 16384.0,
+      "scale_after": 8192.0,
+      "lr": 1.200000000000002e-05,
+      "group_updates": null,
+      "batch_n": 32
+    },
+    {
+      "loss": 27.215389251708984,
+      "components": {
+        "nce": 3.7359771728515625,
+        "prior": 0.7826470732688904
+      },
+      "gradient_norm": 58.63022994995117,
+      "gradients_finite": true,
+      "skipped": false,
+      "scale_before": 8192.0,
+      "scale_after": 8192.0,
+      "lr": 1.2002501362106885e-05,
+      "group_updates": {
+        "net.": true,
+        "voxel2clip.lin0.": true,
+        "voxel2clip.lin1.": true,
+        "voxel2clip.projector.": true
+      },
+      "batch_n": 32
+    }
+  ],
+  "continuous_step": {
+    "loss": 25.995393753051758,
+    "components": {
+      "nce": 3.5708582401275635,
+      "prior": 0.7474845051765442
+    },
+    "gradient_norm": 56.11329650878906,
+    "gradients_finite": true,
+    "skipped": false,
+    "scale_before": 8192.0,
+    "scale_after": 8192.0,
+    "lr": 1.2010005361527481e-05,
+    "group_updates": {
+      "net.": true,
+      "voxel2clip.lin0.": true,
+      "voxel2clip.lin1.": true,
+      "voxel2clip.projector.": true
+    },
+    "batch_n": 32
+  },
+  "restored_step": {
+    "loss": 25.995393753051758,
+    "components": {
+      "nce": 3.5708582401275635,
+      "prior": 0.7474845051765442
+    },
+    "gradient_norm": 56.11329650878906,
+    "gradients_finite": true,
+    "skipped": false,
+    "scale_before": 8192.0,
+    "scale_after": 8192.0,
+    "lr": 1.2010005361527481e-05,
+    "group_updates": {
+      "net.": true,
+      "voxel2clip.lin0.": true,
+      "voxel2clip.lin1.": true,
+      "voxel2clip.projector.": true
+    },
+    "batch_n": 32
+  },
+  "activation_checkpoint_parity": {
+    "same_loss": true,
+    "all_parameter_gradients_exact": true,
+    "numerical_gradient_agreement": true,
+    "shared_embedding_gradient_tolerance": {
+      "max_abs": 1e-06,
+      "relative_L2": 1e-05
+    },
+    "gradient_differences": [],
+    "probe_batch": 4
+  },
+  "resumed_model_optimizer_RNG_scaler_scheduler_exact": true,
+  "frozen_no_gradients": true,
+  "checkpoint_sha256": "77fa0fc0e00e0f51ced537a08765441c84aeba992d7c636333079fc62a4ee044",
+  "checkpoint_bytes": 11972705963,
+  "peak_gpu_bytes": 18579253760,
+  "time": 1792417898.027615
+}

@@ -1,0 +1,13 @@
+{
+  "time": 1792416098.5537584,
+  "reason": "Long-lived streaming SSH clients disconnected while HTTP payload was still downloading; some receiver processes retained pipe locks. Stop only these owned receivers before bounded local-spool transfer.",
+  "terminated_receiver_pids": [
+    728211,
+    729808,
+    729847,
+    729896
+  ],
+  "partial_files_preserved": true,
+  "completed_files_preserved": true,
+  "training_started": false
+}

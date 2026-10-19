@@ -1,0 +1,40 @@
+{
+  "time": 1792418150.2850852,
+  "user_validation_choice": "8559train/300val; test excluded",
+  "formal_training_started": false,
+  "independent_branches": {
+    "high": {
+      "GPU": 0,
+      "epochs": 240,
+      "batch": 32,
+      "seed": 42,
+      "LR": 0.0003
+    },
+    "low": {
+      "GPU": 1,
+      "epochs": 120,
+      "batch": 8,
+      "seed": 0,
+      "LR": 0.0005
+    }
+  },
+  "engineering_changes": [
+    "Official JPEG256 retained without conversion; corrected erroneous425audit assumption",
+    "Pinned official data and original pure-Python models/loss definitions; isolated compatibility modules, no global environment changes",
+    "Original diffusers0.13 VAE/decoder retained, unused VICRegL global projector/classifier keys explicitly audited",
+    "High fusedAdamW avoids full3GiB temporary; batch/LR/weight decay/loss unchanged; measuredFP32kernel differences in optimizer-kernel-audit.json",
+    "High activation checkpointing and deterministic kernels: same loss and all parameter gradients exact in final native comparison",
+    "Both branches continuous versus checkpoint-resumed update exactly match model/AdamW/RNG/scaler/scheduler",
+    "Deterministic resampled-shard seed/epoch ordering and original500buffer shuffle for replayable epoch-boundary recovery",
+    "Fixed validation RNG restored after diagnostics; all300val examples, high contrastive scoring uses full300pool after chunked feature extraction"
+  ],
+  "retention": "Latest2 complete continuation states per new run plus best validation inference state and fixed final endpoint; no old Subject1/NeuroAdapter weights touched",
+  "known_runtime_differences": {
+    "torch": "2.11.0+cu128",
+    "torchvision": "0.26.0+cu128",
+    "transformers": "4.57.6",
+    "process_local_diffusers": "0.13.0"
+  },
+  "failed_preflight_logs_preserved": true,
+  "no_test_based_selection": true
+}

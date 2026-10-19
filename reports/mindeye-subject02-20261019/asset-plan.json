@@ -1,0 +1,145 @@
+{
+  "subject": 2,
+  "repository": "pscotti/naturalscenesdataset",
+  "revision": "421fb80ea4ca5600c7364ed400f9a5941380c387",
+  "files": [
+    {
+      "path": "models/sd_image_var_autoenc.pth",
+      "bytes": 334711043,
+      "sha256": "8af660ba8146c0be6ec3e94e19b096f2060f4b05df5e316a0c0c8e093e21f40b",
+      "url": "https://huggingface.co/datasets/pscotti/naturalscenesdataset/resolve/421fb80ea4ca5600c7364ed400f9a5941380c387/sd_image_var_autoenc.pth"
+    },
+    {
+      "path": "models/convnext_xlarge_alpha0.75_fullckpt.pth",
+      "bytes": 6546149685,
+      "sha256": null,
+      "etag": "\"dce47c51fdc7381d0b5becca4e0c914b-781\"",
+      "url": "https://dl.fbaipublicfiles.com/vicregl/convnext_xlarge_alpha0.75_fullckpt.pth"
+    },
+    {
+      "path": "webdataset_avg_split/train/train_subj02_17.tar",
+      "bytes": 268042240,
+      "sha256": "a5d0ef591ebd9c867698dd7037f8d1534a76749c8e164c2b010a33437fae3453",
+      "url": "https://huggingface.co/datasets/pscotti/naturalscenesdataset/resolve/421fb80ea4ca5600c7364ed400f9a5941380c387/webdataset_avg_split/train/train_subj02_17.tar"
+    },
+    {
+      "path": "webdataset_avg_split/val/val_subj02_0.tar",
+      "bytes": 1362892800,
+      "sha256": "dbc0fe66688927b7ae2ae0d4607af149f95e34d64df4bda41280764713b07787",
+      "url": "https://huggingface.co/datasets/pscotti/naturalscenesdataset/resolve/421fb80ea4ca5600c7364ed400f9a5941380c387/webdataset_avg_split/val/val_subj02_0.tar"
+    },
+    {
+      "path": "webdataset_avg_split/train/train_subj02_13.tar",
+      "bytes": 2270535680,
+      "sha256": "0e3ebc1e1976f8d40dcd7eb97f592bd806246c3a9fd92cac6684c79b56f75743",
+      "url": "https://huggingface.co/datasets/pscotti/naturalscenesdataset/resolve/421fb80ea4ca5600c7364ed400f9a5941380c387/webdataset_avg_split/train/train_subj02_13.tar"
+    },
+    {
+      "path": "webdataset_avg_split/train/train_subj02_4.tar",
+      "bytes": 2270873600,
+      "sha256": "9033d87f030f86a812598ba7d05568f27171bd0726e1d64a0913c7157210f877",
+      "url": "https://huggingface.co/datasets/pscotti/naturalscenesdataset/resolve/421fb80ea4ca5600c7364ed400f9a5941380c387/webdataset_avg_split/train/train_subj02_4.tar"
+    },
+    {
+      "path": "webdataset_avg_split/train/train_subj02_1.tar",
+      "bytes": 2271180800,
+      "sha256": "189e875c4c7875aeb765c8d07a450140647872f303667de1c1476ae61ca178c8",
+      "url": "https://huggingface.co/datasets/pscotti/naturalscenesdataset/resolve/421fb80ea4ca5600c7364ed400f9a5941380c387/webdataset_avg_split/train/train_subj02_1.tar"
+    },
+    {
+      "path": "webdataset_avg_split/train/train_subj02_9.tar",
+      "bytes": 2271191040,
+      "sha256": "632e53eb42df57ac9f6bea6e99d32b09c84e5b839e96337ddd98e83fecb5cd35",
+      "url": "https://huggingface.co/datasets/pscotti/naturalscenesdataset/resolve/421fb80ea4ca5600c7364ed400f9a5941380c387/webdataset_avg_split/train/train_subj02_9.tar"
+    },
+    {
+      "path": "webdataset_avg_split/train/train_subj02_0.tar",
+      "bytes": 2271201280,
+      "sha256": "378f4afbc332ad0aa79d0c206845989e5e9731818c92fee33adf6b74162a9596",
+      "url": "https://huggingface.co/datasets/pscotti/naturalscenesdataset/resolve/421fb80ea4ca5600c7364ed400f9a5941380c387/webdataset_avg_split/train/train_subj02_0.tar"
+    },
+    {
+      "path": "webdataset_avg_split/train/train_subj02_16.tar",
+      "bytes": 2271221760,
+      "sha256": "046557298c907361b1ca7443155782bd8742d7d57b9ee33d89b5bf8376bc365d",
+      "url": "https://huggingface.co/datasets/pscotti/naturalscenesdataset/resolve/421fb80ea4ca5600c7364ed400f9a5941380c387/webdataset_avg_split/train/train_subj02_16.tar"
+    },
+    {
+      "path": "webdataset_avg_split/train/train_subj02_12.tar",
+      "bytes": 2271242240,
+      "sha256": "7a898ee67d4e41fa8a41cbe5f2762532e29d90e596eaa20951b4ac0c31787dc9",
+      "url": "https://huggingface.co/datasets/pscotti/naturalscenesdataset/resolve/421fb80ea4ca5600c7364ed400f9a5941380c387/webdataset_avg_split/train/train_subj02_12.tar"
+    },
+    {
+      "path": "webdataset_avg_split/train/train_subj02_7.tar",
+      "bytes": 2271283200,
+      "sha256": "dd2372f599493d2599c428e8f26af6c887dfc7f95b880986351d60c8313260b9",
+      "url": "https://huggingface.co/datasets/pscotti/naturalscenesdataset/resolve/421fb80ea4ca5600c7364ed400f9a5941380c387/webdataset_avg_split/train/train_subj02_7.tar"
+    },
+    {
+      "path": "webdataset_avg_split/train/train_subj02_2.tar",
+      "bytes": 2271344640,
+      "sha256": "32b2e89325783db7bcda900d3927a25a7e6d3d57998f53ac30ae1406f1ea82c6",
+      "url": "https://huggingface.co/datasets/pscotti/naturalscenesdataset/resolve/421fb80ea4ca5600c7364ed400f9a5941380c387/webdataset_avg_split/train/train_subj02_2.tar"
+    },
+    {
+      "path": "webdataset_avg_split/train/train_subj02_11.tar",
+      "bytes": 2271365120,
+      "sha256": "05c061f604d4c1b8b9b9431ff57989871e50242d58c3885c9c3a5fd3d5c115e0",
+      "url": "https://huggingface.co/datasets/pscotti/naturalscenesdataset/resolve/421fb80ea4ca5600c7364ed400f9a5941380c387/webdataset_avg_split/train/train_subj02_11.tar"
+    },
+    {
+      "path": "webdataset_avg_split/train/train_subj02_6.tar",
+      "bytes": 2271395840,
+      "sha256": "68988c5f56906ab48a896314c986d0a6ce482afb1587204dfd8483aded552969",
+      "url": "https://huggingface.co/datasets/pscotti/naturalscenesdataset/resolve/421fb80ea4ca5600c7364ed400f9a5941380c387/webdataset_avg_split/train/train_subj02_6.tar"
+    },
+    {
+      "path": "webdataset_avg_split/train/train_subj02_8.tar",
+      "bytes": 2271395840,
+      "sha256": "8151da200f198103a6aacde9d561a887affd10df786954e0c92711e754a3e20a",
+      "url": "https://huggingface.co/datasets/pscotti/naturalscenesdataset/resolve/421fb80ea4ca5600c7364ed400f9a5941380c387/webdataset_avg_split/train/train_subj02_8.tar"
+    },
+    {
+      "path": "webdataset_avg_split/train/train_subj02_14.tar",
+      "bytes": 2271477760,
+      "sha256": "1754b537dee5a2fd097df369570689a1611fae4ae0b658f7b02d43e67aa73f87",
+      "url": "https://huggingface.co/datasets/pscotti/naturalscenesdataset/resolve/421fb80ea4ca5600c7364ed400f9a5941380c387/webdataset_avg_split/train/train_subj02_14.tar"
+    },
+    {
+      "path": "webdataset_avg_split/train/train_subj02_15.tar",
+      "bytes": 2271580160,
+      "sha256": "ba509b088851e927eddac00f9d39c49c8ab65a8dffc2de4ffb98ef192a023f1d",
+      "url": "https://huggingface.co/datasets/pscotti/naturalscenesdataset/resolve/421fb80ea4ca5600c7364ed400f9a5941380c387/webdataset_avg_split/train/train_subj02_15.tar"
+    },
+    {
+      "path": "webdataset_avg_split/train/train_subj02_3.tar",
+      "bytes": 2271641600,
+      "sha256": "bc6adf6448a196419bab7975d85c67538485d8cfe3eb4ec9d08f59efc226249b",
+      "url": "https://huggingface.co/datasets/pscotti/naturalscenesdataset/resolve/421fb80ea4ca5600c7364ed400f9a5941380c387/webdataset_avg_split/train/train_subj02_3.tar"
+    },
+    {
+      "path": "webdataset_avg_split/train/train_subj02_10.tar",
+      "bytes": 2271651840,
+      "sha256": "1e3cc32420003d143631db4640a70281e1e90602f5058b96cd0dc01f73b4814b",
+      "url": "https://huggingface.co/datasets/pscotti/naturalscenesdataset/resolve/421fb80ea4ca5600c7364ed400f9a5941380c387/webdataset_avg_split/train/train_subj02_10.tar"
+    },
+    {
+      "path": "webdataset_avg_split/train/train_subj02_5.tar",
+      "bytes": 2271651840,
+      "sha256": "ffba8945b8a66183435a8532794d82d31e8813fcb5c83691545035cbd4134d5b",
+      "url": "https://huggingface.co/datasets/pscotti/naturalscenesdataset/resolve/421fb80ea4ca5600c7364ed400f9a5941380c387/webdataset_avg_split/train/train_subj02_5.tar"
+    }
+  ],
+  "total_bytes": 47124030008,
+  "metadata": {
+    "totals": {
+      "train": 8559,
+      "val": 300,
+      "test": 982
+    }
+  },
+  "metadata_sha256": "84dc6d92bee107b80788c355e3a5165dfb3bfc8418dfea4b7db6bded3c9db7f7",
+  "test_downloaded_for_training": false,
+  "time": 1792415506.5329602
+}

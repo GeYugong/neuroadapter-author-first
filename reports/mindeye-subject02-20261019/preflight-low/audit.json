@@ -1,0 +1,111 @@
+{
+  "passed": true,
+  "config": {
+    "kind": "low",
+    "subject": 2,
+    "seed": 0,
+    "epochs": 120,
+    "batch_size": 8,
+    "world_size": 1,
+    "train_images": 8559,
+    "val_images": 300,
+    "train_steps_per_epoch": 1069,
+    "max_lr": 0.0005,
+    "precision": "fp32",
+    "weight_decay": 0.01,
+    "optimizer": "AdamW; original groups; fused=True for high, foreach=False for low; same hyperparameters",
+    "gradient_clipping": false,
+    "loss_block_sha256": "dc5ec0061789112e112ab94bfef06c9cc01bfe70943c1f657cc3a72c05900fe5",
+    "source_patches": {
+      "from_pretrained(\"openai/clip-vit-large-patch14\")": "from_pretrained('/data1/matengyu/geyugong/neuroadapter-author-first/benchmarks/subj01-v1/assets/clip-vit-large-patch14', attn_implementation=\"eager\")",
+      "clip.load(clip_variant, device=device)": "clip.load('/data1/matengyu/geyugong/neuroadapter-subject1-research/models/evaluation/clip/ViT-L-14.pt', device=\"cpu\")",
+      "interpolation=transforms.InterpolationMode.BICUBIC),": "interpolation=transforms.InterpolationMode.BICUBIC, antialias=False),"
+    },
+    "activation_checkpointing": false,
+    "trainable_parameters": 200142788,
+    "source_files": {
+      "models.py": "28844196e1ad34a1bc33bafd7adb447c13ceaade601f1e7f393eb1930840b2ee",
+      "utils.py": "302241465b882365bea96dcb5f12f3ab931255dcecb95bda237f9dd4d5d9adc2",
+      "Train_MindEye.py": "6d4ac65e18ef50737240eaaa722ea65de3dfbcb2272dadd1e2d60594cc95eddc",
+      "train_autoencoder.py": "40099f368678b3418fd68bd706c58a72e9ec3de4139ad1af827240fe09ac5e92",
+      "convnext.py": "960e416c0cf60e7ecb08eb0f604561e18cc97a7bdb0773550342354eb633bec0"
+    },
+    "compatibility": "Pinned pure-Python author dependencies including diffusers0.13.0 with runtime torch2.11; not bit-exact historical execution",
+    "data_order": "Original resampled-shard and500-buffer shuffle; deterministic shard RNG based on seed/epoch; num_workers0",
+    "validation": "All300 held-out images; full300 high-level contrastive pool via chunked features; fixed RNG restored afterwards",
+    "primary_endpoint": "fixed last epoch; best held-out diagnostic inference state retained separately; no test-based switch"
+  },
+  "actual_GPU": "NVIDIA GeForce RTX 4090",
+  "real_batch_shape": [
+    8,
+    3,
+    14278
+  ],
+  "source_shard_sha256": "a5d0ef591ebd9c867698dd7037f8d1534a76749c8e164c2b010a33437fae3453",
+  "initial_steps": [
+    {
+      "loss": 5.228244304656982,
+      "components": {
+        "latent_l1": 0.8118031024932861,
+        "contrastive": 7.714608669281006
+      },
+      "gradient_norm": 8.870777130126953,
+      "gradients_finite": true,
+      "skipped": false,
+      "scale_before": 1.0,
+      "scale_after": 1.0,
+      "lr": 2.0000259341410704e-05,
+      "group_updates": {
+        "lin0.": true,
+        "upsampler.": true,
+        "maps_projector.": true
+      },
+      "batch_n": 8
+    }
+  ],
+  "continuous_step": {
+    "loss": 5.0440168380737305,
+    "components": {
+      "latent_l1": 0.7785006761550903,
+      "contrastive": 7.700630187988281
+    },
+    "gradient_norm": 7.418637752532959,
+    "gradients_finite": true,
+    "skipped": false,
+    "scale_before": 1.0,
+    "scale_after": 1.0,
+    "lr": 2.0001037365082342e-05,
+    "group_updates": {
+      "lin0.": true,
+      "upsampler.": true,
+      "maps_projector.": true
+    },
+    "batch_n": 8
+  },
+  "restored_step": {
+    "loss": 5.0440168380737305,
+    "components": {
+      "latent_l1": 0.7785006761550903,
+      "contrastive": 7.700630187988281
+    },
+    "gradient_norm": 7.418637752532959,
+    "gradients_finite": true,
+    "skipped": false,
+    "scale_before": 1.0,
+    "scale_after": 1.0,
+    "lr": 2.0001037365082342e-05,
+    "group_updates": {
+      "lin0.": true,
+      "upsampler.": true,
+      "maps_projector.": true
+    },
+    "batch_n": 8
+  },
+  "activation_checkpoint_parity": null,
+  "resumed_model_optimizer_RNG_scaler_scheduler_exact": true,
+  "frozen_no_gradients": true,
+  "checkpoint_sha256": "5f93b8f3b95e289b93c77bab6c49639600149b6aa29e0a6f7e3d54cb4c1c80e0",
+  "checkpoint_bytes": 2401871499,
+  "peak_gpu_bytes": 9635860992,
+  "time": 1792417624.1338575
+}

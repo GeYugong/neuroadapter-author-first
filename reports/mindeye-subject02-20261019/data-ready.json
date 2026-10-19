@@ -1,0 +1,128 @@
+{
+  "complete": true,
+  "subject": 2,
+  "train": 8559,
+  "val": 300,
+  "test_excluded": 982,
+  "all_IDs_unique_and_disjoint": true,
+  "original_brain_shape": [
+    3,
+    14278
+  ],
+  "original_brain_dtype": "float16",
+  "all_brain_values_finite": true,
+  "original_JPEG_RGB_shape": [
+    256,
+    256
+  ],
+  "official_arrays_unchanged": true,
+  "receipts": [
+    {
+      "path": "models/sd_image_var_autoenc.pth",
+      "sha256": "8af660ba8146c0be6ec3e94e19b096f2060f4b05df5e316a0c0c8e093e21f40b",
+      "bytes": 334711043
+    },
+    {
+      "path": "models/convnext_xlarge_alpha0.75_fullckpt.pth",
+      "sha256": "32187554e4acee79c46ec918145055fe1a4cf14a93983bc5f69ea73163f84f86",
+      "bytes": 6546149685
+    },
+    {
+      "path": "webdataset_avg_split/train/train_subj02_17.tar",
+      "sha256": "a5d0ef591ebd9c867698dd7037f8d1534a76749c8e164c2b010a33437fae3453",
+      "bytes": 268042240
+    },
+    {
+      "path": "webdataset_avg_split/val/val_subj02_0.tar",
+      "sha256": "dbc0fe66688927b7ae2ae0d4607af149f95e34d64df4bda41280764713b07787",
+      "bytes": 1362892800
+    },
+    {
+      "path": "webdataset_avg_split/train/train_subj02_13.tar",
+      "sha256": "0e3ebc1e1976f8d40dcd7eb97f592bd806246c3a9fd92cac6684c79b56f75743",
+      "bytes": 2270535680
+    },
+    {
+      "path": "webdataset_avg_split/train/train_subj02_4.tar",
+      "sha256": "9033d87f030f86a812598ba7d05568f27171bd0726e1d64a0913c7157210f877",
+      "bytes": 2270873600
+    },
+    {
+      "path": "webdataset_avg_split/train/train_subj02_1.tar",
+      "sha256": "189e875c4c7875aeb765c8d07a450140647872f303667de1c1476ae61ca178c8",
+      "bytes": 2271180800
+    },
+    {
+      "path": "webdataset_avg_split/train/train_subj02_9.tar",
+      "sha256": "632e53eb42df57ac9f6bea6e99d32b09c84e5b839e96337ddd98e83fecb5cd35",
+      "bytes": 2271191040
+    },
+    {
+      "path": "webdataset_avg_split/train/train_subj02_0.tar",
+      "sha256": "378f4afbc332ad0aa79d0c206845989e5e9731818c92fee33adf6b74162a9596",
+      "bytes": 2271201280
+    },
+    {
+      "path": "webdataset_avg_split/train/train_subj02_16.tar",
+      "sha256": "046557298c907361b1ca7443155782bd8742d7d57b9ee33d89b5bf8376bc365d",
+      "bytes": 2271221760
+    },
+    {
+      "path": "webdataset_avg_split/train/train_subj02_12.tar",
+      "sha256": "7a898ee67d4e41fa8a41cbe5f2762532e29d90e596eaa20951b4ac0c31787dc9",
+      "bytes": 2271242240
+    },
+    {
+      "path": "webdataset_avg_split/train/train_subj02_7.tar",
+      "sha256": "dd2372f599493d2599c428e8f26af6c887dfc7f95b880986351d60c8313260b9",
+      "bytes": 2271283200
+    },
+    {
+      "path": "webdataset_avg_split/train/train_subj02_2.tar",
+      "sha256": "32b2e89325783db7bcda900d3927a25a7e6d3d57998f53ac30ae1406f1ea82c6",
+      "bytes": 2271344640
+    },
+    {
+      "path": "webdataset_avg_split/train/train_subj02_11.tar",
+      "sha256": "05c061f604d4c1b8b9b9431ff57989871e50242d58c3885c9c3a5fd3d5c115e0",
+      "bytes": 2271365120
+    },
+    {
+      "path": "webdataset_avg_split/train/train_subj02_6.tar",
+      "sha256": "68988c5f56906ab48a896314c986d0a6ce482afb1587204dfd8483aded552969",
+      "bytes": 2271395840
+    },
+    {
+      "path": "webdataset_avg_split/train/train_subj02_8.tar",
+      "sha256": "8151da200f198103a6aacde9d561a887affd10df786954e0c92711e754a3e20a",
+      "bytes": 2271395840
+    },
+    {
+      "path": "webdataset_avg_split/train/train_subj02_14.tar",
+      "sha256": "1754b537dee5a2fd097df369570689a1611fae4ae0b658f7b02d43e67aa73f87",
+      "bytes": 2271477760
+    },
+    {
+      "path": "webdataset_avg_split/train/train_subj02_15.tar",
+      "sha256": "ba509b088851e927eddac00f9d39c49c8ab65a8dffc2de4ffb98ef192a023f1d",
+      "bytes": 2271580160
+    },
+    {
+      "path": "webdataset_avg_split/train/train_subj02_3.tar",
+      "sha256": "bc6adf6448a196419bab7975d85c67538485d8cfe3eb4ec9d08f59efc226249b",
+      "bytes": 2271641600
+    },
+    {
+      "path": "webdataset_avg_split/train/train_subj02_10.tar",
+      "sha256": "1e3cc32420003d143631db4640a70281e1e90602f5058b96cd0dc01f73b4814b",
+      "bytes": 2271651840
+    },
+    {
+      "path": "webdataset_avg_split/train/train_subj02_5.tar",
+      "sha256": "ffba8945b8a66183435a8532794d82d31e8813fcb5c83691545035cbd4134d5b",
+      "bytes": 2271651840
+    }
+  ],
+  "data_index_sha256": "501a0e3344b32d0612878d751b6c1d27c6beac6fcb8a2fe63958789efbce635c",
+  "time": 1792417832.1283195
+}
