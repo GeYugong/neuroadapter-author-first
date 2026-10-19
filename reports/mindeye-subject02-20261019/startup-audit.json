@@ -1,0 +1,66 @@
+{
+  "real_training_started": true,
+  "time": 1792418323.5148315,
+  "branches": {
+    "high": {
+      "actual_successful_updates": 264,
+      "skipped_updates": 3,
+      "first_successful_group_updates": {
+        "net.": true,
+        "voxel2clip.lin0.": true,
+        "voxel2clip.lin1.": true,
+        "voxel2clip.projector.": true
+      },
+      "last_update": {
+        "loss": 11.691584587097168,
+        "components": {
+          "nce": 2.9561214447021484,
+          "prior": 0.29118210077285767
+        },
+        "gradient_norm": 11.610831260681152,
+        "gradients_finite": true,
+        "skipped": false,
+        "scale_before": 8192.0,
+        "scale_after": 8192.0,
+        "lr": 0.00015387817555876846,
+        "group_updates": null,
+        "batch_n": 32,
+        "epoch": 1,
+        "step": 267,
+        "time": 1792418317.5855155
+      },
+      "pid": 738081
+    },
+    "low": {
+      "actual_successful_updates": 218,
+      "skipped_updates": 0,
+      "first_successful_group_updates": {
+        "lin0.": true,
+        "upsampler.": true,
+        "maps_projector.": true
+      },
+      "last_update": {
+        "loss": 4.470044136047363,
+        "components": {
+          "latent_l1": 0.6755309104919434,
+          "contrastive": 7.613926887512207
+        },
+        "gradient_norm": 4.480942249298096,
+        "gradients_finite": true,
+        "skipped": false,
+        "scale_before": 1.0,
+        "scale_after": 1.0,
+        "lr": 3.221981486345828e-05,
+        "group_updates": null,
+        "batch_n": 8,
+        "epoch": 1,
+        "step": 218,
+        "time": 1792418323.5017998
+      },
+      "pid": 738082
+    }
+  },
+  "high_initial_AMP_note": "Initial FP16 scaler overflow skips are recorded. No nonfinite gradients were applied; subsequent successful updates are finite. Do not misreport0skips or roll back based on these initial scaler adjustments.",
+  "no_test_data_in_training": true,
+  "source_commit": "e8da7c0fa35202a84bb453c919232001cedd9839"
+}

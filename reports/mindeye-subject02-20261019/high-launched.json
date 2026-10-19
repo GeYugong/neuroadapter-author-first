@@ -1,0 +1,13 @@
+{
+  "pid": 738081,
+  "gpu": 0,
+  "command": [
+    "/data1/matengyu/geyugong/neuroadapter-author-first/runtime/env/bin/python",
+    "-B",
+    "/data1/matengyu/geyugong/neuroadapter-author-first/scripts/train_mindeye_subject02.py",
+    "train",
+    "--kind",
+    "high"
+  ],
+  "time": 1792418174.9082904
+}
