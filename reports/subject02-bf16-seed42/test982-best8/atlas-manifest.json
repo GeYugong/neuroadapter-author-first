@@ -1,0 +1,169 @@
+{
+  "ids": [
+    46002,
+    48617,
+    44980,
+    32625,
+    53052,
+    4930,
+    6431,
+    70335,
+    36576,
+    57046,
+    7659,
+    30373,
+    25959,
+    65414,
+    42171,
+    5602,
+    21601,
+    62302,
+    5301,
+    15492,
+    25287,
+    6558,
+    16723,
+    40575,
+    45595,
+    9917,
+    26598,
+    60305,
+    4786,
+    19181,
+    72080,
+    36067
+  ],
+  "rule": "First32 standard test IDs; fixed before inference; no reselection",
+  "source_metrics_sha256": "014ddbf2bc4aec6c95619e67cb6e5bec75c59078d455d8711837d0bd4c636b0f",
+  "pages": [
+    {
+      "file": "comparison-1.png",
+      "ids": [
+        46002,
+        48617,
+        44980,
+        32625,
+        53052,
+        4930,
+        6431,
+        70335
+      ],
+      "sha256": "209cb7787f29441034613cd99dfafacf0d4dc31442a5d584c8f5e4efd9ba6342",
+      "width": 872,
+      "height": 2564
+    },
+    {
+      "file": "candidates-1.png",
+      "ids": [
+        46002,
+        48617,
+        44980,
+        32625,
+        53052,
+        4930,
+        6431,
+        70335
+      ],
+      "sha256": "30a8cfa44d2a4f8b3d901b643d8190abea34f6efdd05d32da1323c40d6fbbbf8",
+      "width": 1832,
+      "height": 2004
+    },
+    {
+      "file": "comparison-2.png",
+      "ids": [
+        36576,
+        57046,
+        7659,
+        30373,
+        25959,
+        65414,
+        42171,
+        5602
+      ],
+      "sha256": "c380d352b44c3698b71a85d01d5dc39340a8f8344deaa8157688e43af6448521",
+      "width": 872,
+      "height": 2564
+    },
+    {
+      "file": "candidates-2.png",
+      "ids": [
+        36576,
+        57046,
+        7659,
+        30373,
+        25959,
+        65414,
+        42171,
+        5602
+      ],
+      "sha256": "ca8e9457b88f066f2031a3dc776dc75450e71e7886f4bb9c1a0f24033e2fafe6",
+      "width": 1832,
+      "height": 2004
+    },
+    {
+      "file": "comparison-3.png",
+      "ids": [
+        21601,
+        62302,
+        5301,
+        15492,
+        25287,
+        6558,
+        16723,
+        40575
+      ],
+      "sha256": "0bf38232181a4d187d9b5a9cc835f19bd7a9bfd887b585594336db27a40a3891",
+      "width": 872,
+      "height": 2564
+    },
+    {
+      "file": "candidates-3.png",
+      "ids": [
+        21601,
+        62302,
+        5301,
+        15492,
+        25287,
+        6558,
+        16723,
+        40575
+      ],
+      "sha256": "a65d1c7ab03140707d4fa37b5e9b3a443dd2c6268dcc4d6c361ee6acfece9d3c",
+      "width": 1832,
+      "height": 2004
+    },
+    {
+      "file": "comparison-4.png",
+      "ids": [
+        45595,
+        9917,
+        26598,
+        60305,
+        4786,
+        19181,
+        72080,
+        36067
+      ],
+      "sha256": "6262a95911055221c35a7d421001672f87a184954bf19774f091f36f38cd33f8",
+      "width": 872,
+      "height": 2564
+    },
+    {
+      "file": "candidates-4.png",
+      "ids": [
+        45595,
+        9917,
+        26598,
+        60305,
+        4786,
+        19181,
+        72080,
+        36067
+      ],
+      "sha256": "ecf589c158993c6d62515e5ad007ac94630601fb5b5c82d4fcc439f7c34144da",
+      "width": 1832,
+      "height": 2004
+    }
+  ],
+  "presentation_only": "Uniform full-frame resizing; no crop, enhancement or content editing"
+}

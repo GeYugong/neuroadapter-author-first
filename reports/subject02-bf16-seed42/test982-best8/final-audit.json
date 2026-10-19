@@ -1,0 +1,66 @@
+{
+  "complete": true,
+  "time": 1792413476.201913,
+  "n": 982,
+  "K": 8,
+  "candidate_images_verified": 7856,
+  "unique_seeds": 7856,
+  "unique_candidate_pixel_hashes": 7856,
+  "exact_ID_sets": true,
+  "all_argmax_verified": true,
+  "K1_exact_candidate0": true,
+  "all_archive_hashes_verified": true,
+  "all_measured_brain_matches_source_dataset": true,
+  "full40_sessions_three_repetitions_per_ID": true,
+  "train_val_test_disjoint": true,
+  "full982_negative_pool": true,
+  "feature_batch_only": 16,
+  "per_image_mean_abs_errors": {
+    "K1": {
+      "PixCorr": 6.938893903907228e-18,
+      "SSIM": 0.0,
+      "Alex(2)": 0.0,
+      "Alex(5)": 0.0,
+      "Incep": 0.0,
+      "CLIP": 0.0,
+      "Eff": 2.220446049250313e-16,
+      "SwAV": 0.0
+    },
+    "best8": {
+      "PixCorr": 0.0,
+      "SSIM": 0.0,
+      "Alex(2)": 0.0,
+      "Alex(5)": 0.0,
+      "Incep": 0.0,
+      "CLIP": 1.4210854715202004e-14,
+      "Eff": 0.0,
+      "SwAV": 0.0
+    }
+  },
+  "protected_sha256_count": 55,
+  "protected_files_unchanged": true,
+  "large_data_file_stat_guards_verified": 5,
+  "stage_exit_codes": {
+    "generate": 0,
+    "select": 0,
+    "score": 0
+  },
+  "records_ordered_digest": "7e16117aa4a5dc6778295dc3fcd1092bb12f722a69fb24d065dc20824e185a29",
+  "selected_index_counts": {
+    "1": 127,
+    "7": 141,
+    "6": 127,
+    "0": 117,
+    "5": 118,
+    "2": 99,
+    "4": 125,
+    "3": 128
+  },
+  "selected_epoch": 109,
+  "K4_performed": false,
+  "test_used_to_switch_checkpoint": false,
+  "metrics_sha256": "014ddbf2bc4aec6c95619e67cb6e5bec75c59078d455d8711837d0bd4c636b0f",
+  "audit_code_sha256": "8e8078b3259d377feba23c38e9cf7a334b4cf9071a35373e082c4777695f37fb",
+  "pixel_data_unmodified": true,
+  "visual_review_pending": true
+}

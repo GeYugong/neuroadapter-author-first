@@ -1,0 +1,105 @@
+{
+  "complete": true,
+  "time": 1792413411.2464705,
+  "reviewer": "Codex visual inspection using view_image",
+  "ID_rule": "First32 standard test IDs; fixed before inference; no reselection",
+  "IDs": [
+    46002,
+    48617,
+    44980,
+    32625,
+    53052,
+    4930,
+    6431,
+    70335,
+    36576,
+    57046,
+    7659,
+    30373,
+    25959,
+    65414,
+    42171,
+    5602,
+    21601,
+    62302,
+    5301,
+    15492,
+    25287,
+    6558,
+    16723,
+    40575,
+    45595,
+    9917,
+    26598,
+    60305,
+    4786,
+    19181,
+    72080,
+    36067
+  ],
+  "comparison_pages_viewed": [
+    "comparison-1.png",
+    "comparison-2.png",
+    "comparison-3.png",
+    "comparison-4.png"
+  ],
+  "candidate_pages_viewed": [
+    "candidates-1.png",
+    "candidates-2.png",
+    "candidates-3.png",
+    "candidates-4.png"
+  ],
+  "candidate_images_viewed": 256,
+  "image_content_modified": false,
+  "samples_reselected": false,
+  "selection_unchanged_after_review": true,
+  "global_visual_win_rate_inferred": false,
+  "observations": [
+    {
+      "page": 1,
+      "improvement_examples": {
+        "32625": "K1 bathroom becomes a kitchen, matching the GT category better.",
+        "70335": "Selected giraffes in a green habitat improve on the K1 zebra/giraffe hybrid."
+      },
+      "failure_examples": {
+        "44980": "GT and K1 show an aircraft; the selected image shows a giraffe and person.",
+        "53052": "All candidates miss the patterned clock; the selected candidate is a texture."
+      }
+    },
+    {
+      "page": 2,
+      "improvement_examples": {
+        "36576": "Selection recovers a building instead of the K1 aircraft.",
+        "30373": "Selected bathroom includes mirror/sink cues closer to GT."
+      },
+      "failure_examples": {
+        "7659": "Hand/phone GT is reconstructed as hands manipulating food across candidates.",
+        "5602": "The selected urban street does not reproduce the waterside STOP-sign GT."
+      }
+    },
+    {
+      "page": 3,
+      "improvement_examples": {
+        "5301": "Selection includes a flower vase absent from the K1 flower close-up."
+      },
+      "failure_examples": {
+        "21601": "Umbrella scene is replaced by sports in all candidates.",
+        "15492": "Motorcycle road scene is not recovered; selected candidate shows animals in an interior.",
+        "40575": "K1 snow setting is lost when selection chooses surfing."
+      }
+    },
+    {
+      "page": 4,
+      "improvement_examples": {
+        "60305": "GT tennis category is recovered from a baseball-like K1.",
+        "4786": "Street/traffic category is recovered from the K1 sky scene."
+      },
+      "failure_examples": {
+        "9917": "A plane candidate exists but the selector picks a sign.",
+        "72080": "Urban cyclist GT is replaced by baseball despite street candidates."
+      }
+    }
+  ],
+  "interpretation": "Mixed per-image behavior with persistent category and layout errors. Whole-test means improve in seven metrics but SSIM decreases. These fixed32 images do not establish a population visual win rate.",
+  "atlas_manifest_sha256": "dca11efffa8753761fe55bcf24823d3e67357a5d57a80d54cd1d5bf5f91065a0"
+}

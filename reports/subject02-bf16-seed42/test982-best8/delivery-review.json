@@ -1,0 +1,74 @@
+{
+  "complete": true,
+  "time": 1792413505.3220615,
+  "selected_epoch": 109,
+  "training_stopped_epoch": 372,
+  "training_resumed": false,
+  "test_count": 982,
+  "candidate_count": 7856,
+  "K1_and_best8_complete": true,
+  "all_result_checks_passed": true,
+  "all_fixed32_visual_pages_reviewed": true,
+  "visual_review_pending": false,
+  "K4_performed": false,
+  "reference_weight_is_best_overall_claim": false,
+  "later_epoch_372_best_on_seven_validation_metrics": true,
+  "later_epochs_rejected_by_original_SSIM_non_decrease_gate": true,
+  "test_weight_unchanged": true,
+  "seven_test_metric_means_improve_but_SSIM_decreases": true,
+  "statistical_significance_claimed": false,
+  "metrics": {
+    "K1": {
+      "PixCorr": 0.05958110559980199,
+      "SSIM": 0.315270576698274,
+      "Alex(2)": 69.38979095689797,
+      "Alex(5)": 79.48620531441587,
+      "Incep": 76.50304876149903,
+      "CLIP": 79.88159968111015,
+      "Eff": 0.8408332359597015,
+      "SwAV": 0.518535106328936
+    },
+    "best8": {
+      "PixCorr": 0.07061292862621647,
+      "SSIM": 0.2846366469764202,
+      "Alex(2)": 73.63771121782295,
+      "Alex(5)": 83.92658059131648,
+      "Incep": 80.48865304325982,
+      "CLIP": 81.55732854998537,
+      "Eff": 0.8186219650269465,
+      "SwAV": 0.5026784476236209
+    }
+  },
+  "delta": {
+    "PixCorr": 0.011031823026414485,
+    "SSIM": -0.030633929721853803,
+    "Alex(2)": 4.247920260924985,
+    "Alex(5)": 4.44037527690061,
+    "Incep": 3.9856042817607857,
+    "CLIP": 1.6757288688752254,
+    "Eff": -0.02221127093275499,
+    "SwAV": -0.015856658705315052
+  },
+  "evidence_sha256": {
+    "metrics.json": "014ddbf2bc4aec6c95619e67cb6e5bec75c59078d455d8711837d0bd4c636b0f",
+    "K1-per-image.csv": "fcb6167aa3d4b843c45700b0854a4e1a8bb5016bcee1e986cbbb7011692bb115",
+    "best8-per-image.csv": "acbe96f9f43cb91bef9c3e799c9676a026a40f56e7be004fea1c9ec632d6fdc0",
+    "final-audit.json": "2def590e7f6bc784cc1505857d4115977dbcbc20563c7cea5fee676866a5ee4e",
+    "visual-review.json": "ca1205bea37b0dc60be32362d1078e584e41c648ea9f4fe5776c79401a992939",
+    "atlas-manifest.json": "dca11efffa8753761fe55bcf24823d3e67357a5d57a80d54cd1d5bf5f91065a0"
+  },
+  "supersedes_review_pending_flags_in": [
+    "metrics.json",
+    "final-audit.json",
+    "status.json"
+  ],
+  "limitations": [
+    "109 is the conservative SSIM-guard choice, not best on7other validation metrics",
+    "test results cannot be used to switch checkpoint",
+    "single training seed and posthoc validation comparison",
+    "encoder development split unknown",
+    "full40-session brain averaging; first37 defines982IDpool",
+    "fixed hash noise, different hardware/software/precision from authors historical execution",
+    "Validation repeatedly used during development; not an independent blind test."
+  ]
+}

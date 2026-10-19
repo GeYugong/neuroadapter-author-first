@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="zh-CN">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Subject 2 · 固定 32 样本测试图册</title>
+<style>
+body{margin:0;background:#edf1f3;color:#183037;font:16px/1.65 system-ui,sans-serif}header,main{max-width:1500px;margin:auto;padding:24px}h1{font-size:28px;margin:0 0 8px}p{margin:8px 0}nav{display:flex;flex-wrap:wrap;gap:12px;margin:18px 0}a{color:#086a65}nav a{background:white;padding:7px 14px;border-radius:6px}figure{background:white;padding:18px;margin:24px 0;border-radius:10px}figure img{display:block;margin:auto;width:100%;height:auto}figure.comp img{max-width:872px}figcaption{font-weight:600;margin-bottom:16px}footer{margin:24px 0;color:#50616a}details{margin:24px 0}summary{cursor:pointer;font-weight:600}
+</style>
+<header>
+<h1>Subject 2 · E109 · 固定 32 样本测试图册</h1>
+<p>按测试前冻结的 Subject 2 标准 982 图顺序，展示前 32 个 ID。左至右：GT、K1（候选 0）、脑响应相关性 8 选 1。没有为展示重新挑图。</p>
+<p>全测试集七项均值改善、SSIM 下降；图册保留改善和失败案例，不能据此推断总体视觉胜率。E109 是原验证门槛下的保守选择；E372 在验证集八项中七项数值更好，但未通过 SSIM 不降的门槛。</p>
+<nav><a href="#p1">样本 1–8</a><a href="#p2">样本 9–16</a><a href="#p3">样本 17–24</a><a href="#p4">样本 25–32</a><a href="#all">全部候选</a></nav>
+</header>
+<main>
+<figure class="comp" id="p1"><figcaption>样本 1–8</figcaption><a href="review-atlas/comparison-1.png"><img src="review-atlas/comparison-1.png" alt="固定测试样本1至8的GT、K1与8选1结果"></a></figure>
+<figure class="comp" id="p2"><figcaption>样本 9–16</figcaption><a href="review-atlas/comparison-2.png"><img src="review-atlas/comparison-2.png" alt="固定测试样本9至16的GT、K1与8选1结果"></a></figure>
+<figure class="comp" id="p3"><figcaption>样本 17–24</figcaption><a href="review-atlas/comparison-3.png"><img src="review-atlas/comparison-3.png" alt="固定测试样本17至24的GT、K1与8选1结果"></a></figure>
+<figure class="comp" id="p4"><figcaption>样本 25–32</figcaption><a href="review-atlas/comparison-4.png"><img src="review-atlas/comparison-4.png" alt="固定测试样本25至32的GT、K1与8选1结果"></a></figure>
+<details id="all" open><summary>同 32 个样本的全部 256 张候选图</summary><p>绿色边框表示脑响应相关性最高的候选；r 为相应相关性。GT 只供查看，没有参与选图。点击图片可查看原始图册尺寸。</p>
+<figure><figcaption>全部候选：样本 1–8</figcaption><a href="review-atlas/candidates-1.png"><img src="review-atlas/candidates-1.png" alt="样本1至8的全部候选及相关性"></a></figure>
+<figure><figcaption>全部候选：样本 9–16</figcaption><a href="review-atlas/candidates-2.png"><img src="review-atlas/candidates-2.png" alt="样本9至16的全部候选及相关性"></a></figure>
+<figure><figcaption>全部候选：样本 17–24</figcaption><a href="review-atlas/candidates-3.png"><img src="review-atlas/candidates-3.png" alt="样本17至24的全部候选及相关性"></a></figure>
+<figure><figcaption>全部候选：样本 25–32</figcaption><a href="review-atlas/candidates-4.png"><img src="review-atlas/candidates-4.png" alt="样本25至32的全部候选及相关性"></a></figure>
+</details>
+<footer>图片来自原始测试数组，仅统一缩放排版，无裁剪、增强或内容修改。研究局限：单训练种子、验证集曾用于开发、编码器开发划分未知、作者历史随机序列及环境不同；测试 ID 来自前 37 个 session，脑输入采用完整 40 个 session 的三次呈现均值。</footer>
+</main>
+</html>
