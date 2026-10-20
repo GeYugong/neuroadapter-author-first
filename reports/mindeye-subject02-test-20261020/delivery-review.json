@@ -1,0 +1,61 @@
+{
+  "complete": true,
+  "time": 1792500345.321472,
+  "n": 982,
+  "candidate_records": 15712,
+  "metrics": {
+    "K1": {
+      "PixCorr": 0.316565876816097,
+      "SSIM": 0.27197950611262334,
+      "Alex(2)": 94.45004993034665,
+      "Alex(5)": 97.21812191309006,
+      "Incep": 92.89359334483495,
+      "CLIP": 93.5346948435758,
+      "Eff": 0.6612621542769259,
+      "SwAV": 0.3763960043667979
+    },
+    "native16": {
+      "PixCorr": 0.3257558484629424,
+      "SSIM": 0.28083795954562185,
+      "Alex(2)": 95.18758654766427,
+      "Alex(5)": 97.75977793971404,
+      "Incep": 93.34753389761893,
+      "CLIP": 93.40473061488028,
+      "Eff": 0.6663205736816987,
+      "SwAV": 0.37374525571957506
+    }
+  },
+  "delta": {
+    "PixCorr": 0.00918997164684543,
+    "SSIM": 0.008858453432998514,
+    "Alex(2)": 0.7375366173176161,
+    "Alex(5)": 0.5416560266239827,
+    "Incep": 0.45394055278397616,
+    "CLIP": -0.1299642286955276,
+    "Eff": 0.005058419404772807,
+    "SwAV": -0.0026507486472228114
+  },
+  "all_fixed32_pages_actually_viewed": true,
+  "visual_review_pending": false,
+  "six_metrics_improved_two_worsened": true,
+  "test_used_for_checkpoint_selection": false,
+  "evidence_sha256": {
+    "metrics.json": "ef8a2c7e1422eb3eb0ac8a7a159decc08b2750655fdb2b92bbc6472852ffab74",
+    "K1-per-image.csv": "8ea7ec70624b03e0ef5004e19f3f71ee8db334a073068532d11a6541a25799f1",
+    "native16-per-image.csv": "99517be8cc5031cdbe270fd658c4d4bfc618fab290c93d9c838b71ed80c8c9eb",
+    "final-audit.json": "1e337c867390be11737860e14f8adf44d21a853ead0c94842f92bfc2243c233c",
+    "visual-review.json": "bce2850479919c240bcb21f9d205f641787bd1772f548d83ad89c7ff51ded27d",
+    "atlas-manifest.json": "0961c904e8c5a9dcee5923a37be940eab0fcb5046ef542a17739aeb7eafb3c14"
+  },
+  "supersedes_historical_pending_flags": [
+    "metrics.json",
+    "final-audit.json",
+    "status.json"
+  ],
+  "limitations": [
+    "Single training seed per branch; independent8559/300split differs from original test-monitoring script",
+    "Current runtime and original pure-Python dependencies differ from historical author environment",
+    "MindEye uses official volumetric nsdgeneral inputs and native repeat averaging; NeuroAdapter uses surface parcels/full40-session averaging",
+    "Native16 versus NeuroAdapter8 has a different candidate budget; report protocols explicitly"
+  ]
+}

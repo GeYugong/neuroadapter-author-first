@@ -1,0 +1,95 @@
+{
+  "complete": true,
+  "time": 1792500345.321281,
+  "reviewer": "AI visual inspection via view_image; not independent blinded human assessment",
+  "fixed_ids": [
+    46002,
+    48617,
+    44980,
+    32625,
+    53052,
+    4930,
+    6431,
+    70335,
+    36576,
+    57046,
+    7659,
+    30373,
+    25959,
+    65414,
+    42171,
+    5602,
+    21601,
+    62302,
+    5301,
+    15492,
+    25287,
+    6558,
+    16723,
+    40575,
+    45595,
+    9917,
+    26598,
+    60305,
+    4786,
+    19181,
+    72080,
+    36067
+  ],
+  "comparison_pages_viewed": [
+    "comparison-1.png",
+    "comparison-2.png",
+    "comparison-3.png",
+    "comparison-4.png"
+  ],
+  "candidate_pages_viewed": [
+    "candidates-1.png",
+    "candidates-2.png",
+    "candidates-3.png",
+    "candidates-4.png",
+    "candidates-5.png",
+    "candidates-6.png",
+    "candidates-7.png",
+    "candidates-8.png"
+  ],
+  "candidate_images_viewed": 512,
+  "reselection_after_review": false,
+  "image_content_edited": false,
+  "population_visual_win_rate_claimed": false,
+  "observations": [
+    {
+      "candidate_page": 1,
+      "notes": "46002 preserves cattle/field;32625 preserves kitchen category with changed layout.44980 fails to recover the prominent aircraft across candidates."
+    },
+    {
+      "candidate_page": 2,
+      "notes": "70335 selected giraffe improves on candidate0 zebra-like animals.53052 misses the patterned clock;6431 keeps baseball context but selected image is grayscale with a changed scene."
+    },
+    {
+      "candidate_page": 3,
+      "notes": "36576 preserves tower/building category;30373 retains candidate0 bathroom.57046 is reconstructed as a living room;7659 keeps hand/object composition but changes the object."
+    },
+    {
+      "candidate_page": 4,
+      "notes": "25959 retains skateboarding category.65414 cat becomes other animals, selected zebra;5602 waterside remains but the STOP sign is absent."
+    },
+    {
+      "candidate_page": 5,
+      "notes": "5301 selected red flowers better matches color than yellow candidate0.62302 contains cat candidates8/9 but selects bear5.21601 misses umbrella;15492 changes road/motorcycle to snow scenes."
+    },
+    {
+      "candidate_page": 6,
+      "notes": "25287 microwave is reconstructed as bathroom fixtures.6558 preserves food/table context with changed dishes and strong warm colors.16723 misses vehicle/kites;40575 changes snow sport to water sport."
+    },
+    {
+      "candidate_page": 7,
+      "notes": "45595 retains bar/restaurant social context;9917 retains airplane/tarmac context.26598 changes zebra to horse/giraffe-like animals.60305 candidate0 keeps a racket-sport cue but selected14 looks like a ball-playing scene."
+    },
+    {
+      "candidate_page": 8,
+      "notes": "4786 retains urban traffic;19181 retains food category with changed contents.72080 retains street/crowd/cycling cues but selects grayscale.36067 retains people/outdoor seating context with different poses and identities."
+    }
+  ],
+  "interpretation": "Six whole-test mean metrics improve versus pairedK1; CLIP identification and Eff worsen slightly. Candidate similarity is against brain-predicted CLIP, not GT metrics. No significance or universal per-image improvement claim.",
+  "atlas_manifest_sha256": "0961c904e8c5a9dcee5923a37be940eab0fcb5046ef542a17739aeb7eafb3c14"
+}

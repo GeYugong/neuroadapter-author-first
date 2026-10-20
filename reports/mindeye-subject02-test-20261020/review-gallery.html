@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="zh-CN"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>MindEye1 Subject 2 · 固定32样本图册</title>
+<style>body{font:16px/1.7 system-ui,sans-serif;background:#edf2f3;color:#183238;margin:0}header,main{max-width:1500px;margin:auto;padding:24px}h1{font-size:28px}a{color:#086a65}figure{margin:24px 0;padding:18px;background:white;border-radius:10px}img{display:block;width:100%;height:auto;margin:auto}.comparison img{max-width:872px}figcaption{font-weight:600;margin-bottom:12px}summary{cursor:pointer;font-weight:600}</style>
+<header><h1>MindEye1 Subject 2 · 固定32样本图册</h1>
+<p>固定高层240轮、低层120轮权重。展示测试前指定的前32个Subject 2标准测试ID；未重新挑图。所有982图已评分，原生16选1相对同组候选0的K1：六项均值改善，CLIP识别和Eff略退步。</p>
+<p>选图使用脑信号预测的CLIP表征与候选图特征的余弦相似度，GT图像不参与选图。图册中的s是该选图分数，不是八项指标中的CLIP识别率。点击图片可查看完整尺寸。</p>
+<p>图册保留失败案例及模型原始颜色/黑白输出，仅统一缩放排版，无裁剪、调色或增强。固定32样本不能用于推断总体视觉胜率。</p>
+<a href="#candidates">查看全部512张候选图</a></header><main>
+<figure class="comparison"><figcaption>GT / K1 / 原生16选1：样本1–8</figcaption><a href="review-atlas/comparison-1.png"><img src="review-atlas/comparison-1.png" alt="样本1至8对照"></a></figure>
+<figure class="comparison"><figcaption>样本9–16</figcaption><a href="review-atlas/comparison-2.png"><img src="review-atlas/comparison-2.png" alt="样本9至16对照"></a></figure>
+<figure class="comparison"><figcaption>样本17–24</figcaption><a href="review-atlas/comparison-3.png"><img src="review-atlas/comparison-3.png" alt="样本17至24对照"></a></figure>
+<figure class="comparison"><figcaption>样本25–32</figcaption><a href="review-atlas/comparison-4.png"><img src="review-atlas/comparison-4.png" alt="样本25至32对照"></a></figure>
+<details id="candidates" open><summary>全部候选（绿色边框为选中候选）</summary>
+<figure><figcaption>样本1–4</figcaption><a href="review-atlas/candidates-1.png"><img src="review-atlas/candidates-1.png" alt="候选图册第1页"></a></figure>
+<figure><figcaption>样本5–8</figcaption><a href="review-atlas/candidates-2.png"><img src="review-atlas/candidates-2.png" alt="候选图册第2页"></a></figure>
+<figure><figcaption>样本9–12</figcaption><a href="review-atlas/candidates-3.png"><img src="review-atlas/candidates-3.png" alt="候选图册第3页"></a></figure>
+<figure><figcaption>样本13–16</figcaption><a href="review-atlas/candidates-4.png"><img src="review-atlas/candidates-4.png" alt="候选图册第4页"></a></figure>
+<figure><figcaption>样本17–20</figcaption><a href="review-atlas/candidates-5.png"><img src="review-atlas/candidates-5.png" alt="候选图册第5页"></a></figure>
+<figure><figcaption>样本21–24</figcaption><a href="review-atlas/candidates-6.png"><img src="review-atlas/candidates-6.png" alt="候选图册第6页"></a></figure>
+<figure><figcaption>样本25–28</figcaption><a href="review-atlas/candidates-7.png"><img src="review-atlas/candidates-7.png" alt="候选图册第7页"></a></figure>
+<figure><figcaption>样本29–32</figcaption><a href="review-atlas/candidates-8.png"><img src="review-atlas/candidates-8.png" alt="候选图册第8页"></a></figure>
+</details><p>局限：每条训练线仅一个种子；8559训练/300验证划分与原脚本不同，软件环境也有差异。MindEye的体积空间nsdgeneral输入及16候选预算与NeuroAdapter的表面parcel输入及8候选不同，不能将差异直接归因于模型结构。本结果不声称精确复现论文或独立盲测，也未检验统计显著性。</p></main></html>

@@ -1,0 +1,89 @@
+{
+  "ids": [
+    46002,
+    48617,
+    44980,
+    32625,
+    53052,
+    4930,
+    6431,
+    70335,
+    36576,
+    57046,
+    7659,
+    30373,
+    25959,
+    65414,
+    42171,
+    5602,
+    21601,
+    62302,
+    5301,
+    15492,
+    25287,
+    6558,
+    16723,
+    40575,
+    45595,
+    9917,
+    26598,
+    60305,
+    4786,
+    19181,
+    72080,
+    36067
+  ],
+  "pages": [
+    {
+      "file": "comparison-1.png",
+      "sha256": "abed75910c2c22e5a23689383809ad716fbcd52445097054a78716774e54b203"
+    },
+    {
+      "file": "comparison-2.png",
+      "sha256": "66b2b400e0715b2ac17b0761ee67ec77c12d8a10d0b9e680e06a699d83974480"
+    },
+    {
+      "file": "comparison-3.png",
+      "sha256": "c353aaca36a9ba5287bdae6f222ab742ce39cdfa88f08388876bebba4b61e3da"
+    },
+    {
+      "file": "comparison-4.png",
+      "sha256": "08224630352cef42ffdd415be60d2983b4650a14f26ef9207d41320c7a84ab10"
+    },
+    {
+      "file": "candidates-1.png",
+      "sha256": "8736b2c9aa72480bd9ac38699efe4840e4cfff7ad53d5621a02f2c9160fa4ff9"
+    },
+    {
+      "file": "candidates-2.png",
+      "sha256": "7e54ad7f8defc97435f9fb252a2f6e5d9f9167967b2e318fef3f538b0f84ddbf"
+    },
+    {
+      "file": "candidates-3.png",
+      "sha256": "09f6c4de72c3e61ffcb15406ff395d57a89d7e69e371ce23253f059148c880c6"
+    },
+    {
+      "file": "candidates-4.png",
+      "sha256": "bcef9e3ee98a1b0cdcc06424bf4ff25fb1ea84004c4132146f50bfc2ed6b26d8"
+    },
+    {
+      "file": "candidates-5.png",
+      "sha256": "ce707e9fb9fa2f4c365a8732dccb7d67281f88166f4875c488441cabf8946432"
+    },
+    {
+      "file": "candidates-6.png",
+      "sha256": "5c88e505e855ec16e5df03d85b86c5ac5666c71faca0b7d2247bd8b61a52e496"
+    },
+    {
+      "file": "candidates-7.png",
+      "sha256": "fcc0896ae386012eb8e84aa8053e0032d261f1baed22161f58faa1a03fe72bca"
+    },
+    {
+      "file": "candidates-8.png",
+      "sha256": "a46302ee4913d6ed04157aeec6db3e588656822c4e52415438e8ba4242855ccd"
+    }
+  ],
+  "rule": "Predeclared first32 standard Subject2 IDs; no reselection",
+  "display_only": "Original tensors remain unchanged; thumbnails uniformly resized, no cropping or enhancement",
+  "time": 1792500166.0061736
+}

@@ -1,0 +1,32 @@
+{
+  "complete": true,
+  "n": 982,
+  "candidate_records": 15712,
+  "original_float_selected_and_K1_verified": true,
+  "fixed32_all_candidates_verified": 512,
+  "all_scores_argmax_IDs_and_hashes_verified": true,
+  "per_image_means_verified": true,
+  "negative_pool": 982,
+  "selected_index_counts": {
+    "0": 76,
+    "1": 61,
+    "2": 47,
+    "3": 74,
+    "4": 60,
+    "5": 78,
+    "6": 63,
+    "7": 59,
+    "8": 45,
+    "9": 66,
+    "10": 58,
+    "11": 58,
+    "12": 60,
+    "13": 52,
+    "14": 64,
+    "15": 61
+  },
+  "records_ordered_digest": "f6bf4b57dee6570cce24910ab7f03fc62b18683bc073b0fc11c06ab8e7bb576c",
+  "weight_selection_unchanged": true,
+  "visual_review_pending": true,
+  "time": 1792500098.9350586
+}
