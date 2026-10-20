@@ -1,0 +1,9 @@
+{
+  "human_request": "Perform MindEye1 Subject2 test reconstruction and eight-metric evaluation.",
+  "weights": "Fixed registered high240 and low120 endpoints, no retraining or test-based model selection",
+  "protocol": "Author native16 brain-predicted CLIP selector; paired candidate0 K1; same982 IDs and full982 negative pool",
+  "training_updates_allowed": 0,
+  "GT_image_selection_allowed": false,
+  "storage": "Lossless selected/K1 for all IDs; all16 candidates for first32 fixed IDs; all16 scores/hashes for every ID",
+  "time": 1792492070.4930243
+}

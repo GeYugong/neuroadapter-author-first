@@ -1,0 +1,13 @@
+{
+  "n": 982,
+  "subject": 2,
+  "IDs_match_independently_verified_S2_order": true,
+  "train_validation_disjoint": true,
+  "mean_precision": "Author torch float16 repeat mean THEN float32",
+  "brain_sha256": "a97e49958e0e98e4aea368d88d5c6f4b838ac1cbfc6d58454fe0bc9a13aff3c1",
+  "source_shards": {
+    "test_subj02_0.tar": "cf8d23c9523ee230c853b122109b01fdb3b11a3a630f9fa6071f590778dbf762",
+    "test_subj02_1.tar": "dcde6832b25f67869e7103ffb2da7a12079a381802fbc2681eb3b24cfea3174b"
+  },
+  "full_manifest_sha256": "8b46c07e11b37e9a9de1694860e3f575998ce30a245b09d347b718927e58a709"
+}
