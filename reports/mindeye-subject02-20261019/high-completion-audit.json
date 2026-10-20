@@ -1,0 +1,48 @@
+{
+  "complete": true,
+  "branch": "high",
+  "epochs": 240,
+  "attempted_updates": 64080,
+  "successful_updates": 64048,
+  "AMP_skips": 32,
+  "exit0_and_PID_gone": true,
+  "final_export_matches_full_checkpoint_all_tensors": true,
+  "all_model_and_optimizer_tensors_finite": true,
+  "full_checkpoint_sha256": "587758cad784cd2a16e6fc66a39f3f4497f96c5ea86e30977c410e84b758323a",
+  "final_export_sha256": "6a07146de13096ae8b6db6b35f8dbc254a5e6035bb2261611722cea8ecfc84f6",
+  "model_state_sha256": "d6ef55ab7fc760e7f3ddf13151aa465c947112359795e7a30e2dea23ed5bfca4",
+  "optimizer_state_sha256": "f7fc1d8026380ee8bcd4ca73fb198e0c9054fe212113997f2d59a789bf2cf6e7",
+  "restorable_fields_present": [
+    "model",
+    "optimizer",
+    "lr_scheduler",
+    "scaler",
+    "rng",
+    "loader"
+  ],
+  "frozen_sources_and_assets_valid": true,
+  "last_validation": {
+    "loss": 5.111823326349258,
+    "nce": 0.5897444486618042,
+    "prior": 0.1507359625895818,
+    "cosine": 0.07865802943706512,
+    "n": 300,
+    "contrastive_pool": 300
+  },
+  "first_validation": {
+    "loss": 12.94459240436554,
+    "nce": 4.3915815353393555,
+    "prior": 0.2851003623008728,
+    "cosine": 0.04736731946468353,
+    "n": 300,
+    "contrastive_pool": 300
+  },
+  "train_loss_first_last": [
+    12.888280061300328,
+    4.35722998822673
+  ],
+  "best_validation_epoch": 152,
+  "final_is_fixed_endpoint_not_test_selected": true,
+  "low_branch_complete": false,
+  "time": 1792458418.9864588
+}

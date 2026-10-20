@@ -1,0 +1,10 @@
+{
+  "complete": true,
+  "epochs": 240,
+  "updates": 64048,
+  "skips": 32,
+  "final_sha256": "6a07146de13096ae8b6db6b35f8dbc254a5e6035bb2261611722cea8ecfc84f6",
+  "final_weight": "runs/mindeye-subject02-high/last.pth",
+  "test_used": false,
+  "time": 1792456497.2914097
+}
