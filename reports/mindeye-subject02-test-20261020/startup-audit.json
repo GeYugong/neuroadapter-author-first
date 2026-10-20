@@ -1,0 +1,38 @@
+{
+  "time": 1792492496.1484108,
+  "formal_generation_started": true,
+  "records_completed": 51,
+  "original_and_instrumented_functions_exact": true,
+  "both4090_candidate_pixels_exact": true,
+  "initial_checks": [
+    {
+      "image_id": 46002,
+      "all16_hashes_verified": true,
+      "argmax_verified": true,
+      "K1_same_candidate0": true
+    },
+    {
+      "image_id": 48617,
+      "all16_hashes_verified": true,
+      "argmax_verified": true,
+      "K1_same_candidate0": true
+    },
+    {
+      "image_id": 44980,
+      "all16_hashes_verified": true,
+      "argmax_verified": true,
+      "K1_same_candidate0": true
+    },
+    {
+      "image_id": 32625,
+      "all16_hashes_verified": true,
+      "argmax_verified": true,
+      "K1_same_candidate0": true
+    }
+  ],
+  "weights_fixed_before_test": {
+    "high": 240,
+    "low": 120
+  },
+  "training_updates": 0
+}
