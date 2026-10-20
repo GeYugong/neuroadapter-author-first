@@ -1,0 +1,47 @@
+{
+  "complete": true,
+  "branch": "low",
+  "epochs": 120,
+  "attempted_updates": 128280,
+  "successful_updates": 128280,
+  "skips": 0,
+  "exit0_and_PID_gone": true,
+  "final_export_matches_full_checkpoint_all_tensors": true,
+  "all_model_and_optimizer_tensors_finite": true,
+  "full_checkpoint_sha256": "a8f31c78f0289d8d757bbe1bcdf3aff46bd792b9fa6c9515bc388b671f44c6c4",
+  "final_export_sha256": "81c278c68e0344b9e1523c1e5cb60373a2bcd8887acf1f57be1567d4c44d68b9",
+  "model_state_sha256": "08b62965559691f14c3f474a4e75eadc4ca9c0488c28fa8d80b290932415d0cc",
+  "optimizer_state_sha256": "b21e33b20cf205ea5f42f37c00e523273a1ebbdfe385179231bd2e683326e5fb",
+  "restorable_fields_present": [
+    "model",
+    "optimizer",
+    "lr_scheduler",
+    "scaler",
+    "rng",
+    "loader"
+  ],
+  "frozen_sources_and_assets_valid": true,
+  "last_validation": {
+    "loss": 0.7701935044924418,
+    "latent_mse": 0.7701935044924418,
+    "n": 300
+  },
+  "first_validation": {
+    "loss": 0.8207506322860718,
+    "latent_mse": 0.8207506322860718,
+    "n": 300
+  },
+  "train_loss_first_last": [
+    4.593562278488844,
+    3.038397200203477
+  ],
+  "best_validation_epoch": 19,
+  "best_validation": {
+    "loss": 0.7549367753664652,
+    "latent_mse": 0.7549367753664652,
+    "n": 300
+  },
+  "best_inference_preserved": true,
+  "final_is_fixed_endpoint_not_test_selected": true,
+  "time": 1792484263.9761422
+}
