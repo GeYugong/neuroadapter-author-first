@@ -1,0 +1,30 @@
+{
+  "raw_response": "<s> A plate of fruits on a table</s>",
+  "caption": "A plate of fruits on a table",
+  "token_ids": [
+    1,
+    319,
+    15284,
+    310,
+    285,
+    21211,
+    373,
+    263,
+    1591,
+    2
+  ],
+  "feature_sha256": "b35c7a8c0b7987007727875eb7d85c865c2fe0142571ec9be41c1e5c0fc1c901",
+  "native_index": 926,
+  "nsd_id0": 68814,
+  "shard": 1,
+  "sample": "sample000009296",
+  "brain_sha256": "a9e6031ae372d3e5a3cbb4d8197eacdc505695c43a36b1692238bac451ea034a",
+  "jpeg_sha256": "a9b20682356b1ca493c108aab02575f10de0afa2031e77b22846f71b9ae95f08",
+  "brainhub_tensor_sha256": "522cf0e2dd4b62a7959a64b8b5d0cfc5abaa90bdf2d08bb6ebe108955f0572c0",
+  "evaluation_png_sha256": "0df52853c67f41af6e9024b5970f836d43c43c889fb80064ae6bf21cd8c49fe3",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595517.57389
+}

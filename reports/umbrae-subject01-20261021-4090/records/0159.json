@@ -1,0 +1,32 @@
+{
+  "raw_response": "<s> A double decker bus driving down a street.</s>",
+  "caption": "A double decker bus driving down a street.",
+  "token_ids": [
+    1,
+    319,
+    3765,
+    316,
+    4937,
+    3593,
+    19500,
+    1623,
+    263,
+    11952,
+    29889,
+    2
+  ],
+  "feature_sha256": "447928b41debd00eb441b57c86bdaf6411943959ca91123b8fdbea0f151dfc22",
+  "native_index": 159,
+  "nsd_id0": 13720,
+  "shard": 0,
+  "sample": "sample000001774",
+  "brain_sha256": "a9d8b0f9448461e6498cc5e644d284528b4caa0615b530da916672435d72b27e",
+  "jpeg_sha256": "a9810cb1028ffb80e6f9fe615c795ec3aa153f5ba5f66760ff4f9da47136788d",
+  "brainhub_tensor_sha256": "c3ab1a8a278d558f212679a17ead29d397aff5a52cd4b4d329fe784ad7fd52c9",
+  "evaluation_png_sha256": "a1bb39f913e2eaef0a9d5e5a9e37ab34f651250e8fcff71d9d32dfa124557f5e",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595317.0603855
+}

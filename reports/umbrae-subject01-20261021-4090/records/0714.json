@@ -1,0 +1,31 @@
+{
+  "raw_response": "<s> A large building with a lot of windows.</s>",
+  "caption": "A large building with a lot of windows.",
+  "token_ids": [
+    1,
+    319,
+    2919,
+    5214,
+    411,
+    263,
+    3287,
+    310,
+    5417,
+    29889,
+    2
+  ],
+  "feature_sha256": "6de92337af5d2a34f4d21398660ed962e06762116861d62f4fc1cc2d3c0906e1",
+  "native_index": 714,
+  "nsd_id0": 53070,
+  "shard": 1,
+  "sample": "sample000007150",
+  "brain_sha256": "e5ba60a92e688348cf54565f97cf59da3b390d57dae0cc7f1f8bbb7a001e4f44",
+  "jpeg_sha256": "a9291d3edc9e2195475887414d6ad22a3379a084a7233c2cea12b04efe220962",
+  "brainhub_tensor_sha256": "2d7ef04f336692f4efc4d8f1ee3245e562c636d1298c485140f72593a45e284b",
+  "evaluation_png_sha256": "908a9aca3c9b6428f3384df6f3831f594e423796f943e747a23e6aed66f80568",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595463.2860334
+}

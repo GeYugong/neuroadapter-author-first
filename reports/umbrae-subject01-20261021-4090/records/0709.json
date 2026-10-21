@@ -1,0 +1,32 @@
+{
+  "raw_response": "<s> A man standing on skis on the snow.</s>",
+  "caption": "A man standing on skis on the snow.",
+  "token_ids": [
+    1,
+    319,
+    767,
+    13407,
+    373,
+    2071,
+    275,
+    373,
+    278,
+    15007,
+    29889,
+    2
+  ],
+  "feature_sha256": "493c92d01783c1eb2f3462ea02f3276b3bb51c746d4e1bb345a057e8acf7e9e1",
+  "native_index": 709,
+  "nsd_id0": 52598,
+  "shard": 1,
+  "sample": "sample000007079",
+  "brain_sha256": "468c843f63b29c56c8c67943a9529a08258b1907073003fc9a6db3a2e716f79e",
+  "jpeg_sha256": "99d49ec6c4ec903c14ae8f9025f48c27b01bc31963312e3d5869eca4c597b078",
+  "brainhub_tensor_sha256": "4b2c758a22803f1f391f86ea8de57eede3ba894c9da39176f5d43f5ad653a45d",
+  "evaluation_png_sha256": "150b5acbe993f4e4c2d4165ab2fd919241ac2738a39131094ce62db40283dbc8",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595462.1446242
+}

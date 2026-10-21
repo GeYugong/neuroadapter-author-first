@@ -1,0 +1,31 @@
+{
+  "raw_response": "<s> Two large birds standing next to each other.</s>",
+  "caption": "Two large birds standing next to each other.",
+  "token_ids": [
+    1,
+    7803,
+    2919,
+    17952,
+    13407,
+    2446,
+    304,
+    1269,
+    916,
+    29889,
+    2
+  ],
+  "feature_sha256": "be9bcf9e483b3e0278b66f43053e56129db2f877d73299a4ab99b6c8e65fea30",
+  "native_index": 585,
+  "nsd_id0": 44052,
+  "shard": 1,
+  "sample": "sample000005937",
+  "brain_sha256": "6eebadd1680da5abbe1270b7146db43beea002f849de90383b006a51e1809461",
+  "jpeg_sha256": "a4cce5eb9df4ede6f74bf4272f791c62ee44fb0af7d1e27d3996498128ecd766",
+  "brainhub_tensor_sha256": "6dde76171d1b10f7c320333a1a941e71377e4645ff2ab8b28bd0f5262c7d0ef6",
+  "evaluation_png_sha256": "95e92e183935dbcda72bb8c8852483b0110a9fa50f22abcf8f3bd9fe18946478",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595426.6054356
+}

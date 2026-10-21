@@ -1,0 +1,32 @@
+{
+  "raw_response": "<s> An old building with a clock tower on the roof</s>",
+  "caption": "An old building with a clock tower on the roof",
+  "token_ids": [
+    1,
+    530,
+    2030,
+    5214,
+    411,
+    263,
+    12006,
+    19372,
+    373,
+    278,
+    17526,
+    2
+  ],
+  "feature_sha256": "6ea2a99e392e5a113bbd1585b4265219e389ff05957d3283b1ff2077b0a8cc07",
+  "native_index": 4,
+  "nsd_id0": 3146,
+  "shard": 0,
+  "sample": "sample000000376",
+  "brain_sha256": "e1207a28bfddb1d3d1662fb9606354bd6136c35caf0a2b8dd36299a14a858048",
+  "jpeg_sha256": "56e71f3bc07034486287befa505bfda435eca6fdc1a44c5a399342907cf93847",
+  "brainhub_tensor_sha256": "cb04c6d251501f721031964a13f97fd02c2944c09a787703312e74b29615ab73",
+  "evaluation_png_sha256": "18e989accc8f73e15692d791ee5f19efe9c8b47e0f13d54211962001f28b581c",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595277.274003
+}

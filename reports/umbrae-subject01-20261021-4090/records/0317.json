@@ -1,0 +1,33 @@
+{
+  "raw_response": "<s> A brown bear is walking through a wooded area.</s>",
+  "caption": "A brown bear is walking through a wooded area.",
+  "token_ids": [
+    1,
+    319,
+    17354,
+    11460,
+    338,
+    22049,
+    1549,
+    263,
+    8112,
+    287,
+    4038,
+    29889,
+    2
+  ],
+  "feature_sha256": "8fe99007c5b5de780aea9200fc2a3519e13b328e5468f1f8e58a420db1a2c22a",
+  "native_index": 317,
+  "nsd_id0": 25318,
+  "shard": 0,
+  "sample": "sample000003336",
+  "brain_sha256": "333b993abef6e304f3de94e1cc0e2a473b9fa4768134c676e3c5e759ad5a147d",
+  "jpeg_sha256": "0729fcad4602d0809ce815a5135798b3b2f6f7b82164638db213af0a93d6e37d",
+  "brainhub_tensor_sha256": "f421f7c67160fac8bc2f358cca4e26fd1e62dd545e977daa10bd122e73fd7912",
+  "evaluation_png_sha256": "b68408f81ab5a4651795d972f056df2a9cc943911922c03498af08f491ab47b6",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595357.1559508
+}

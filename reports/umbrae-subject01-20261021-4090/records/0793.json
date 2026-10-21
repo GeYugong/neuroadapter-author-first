@@ -1,0 +1,32 @@
+{
+  "raw_response": "<s> A bus driving down the street near some trees.</s>",
+  "caption": "A bus driving down the street near some trees.",
+  "token_ids": [
+    1,
+    319,
+    3593,
+    19500,
+    1623,
+    278,
+    11952,
+    2978,
+    777,
+    10697,
+    29889,
+    2
+  ],
+  "feature_sha256": "ceca7c43686abd37099296814ebb49d1eac602fb134607e3253285998c492bc8",
+  "native_index": 793,
+  "nsd_id0": 58668,
+  "shard": 1,
+  "sample": "sample000007889",
+  "brain_sha256": "acc01eaaa676bbffe6b41293dab9fa774d1c1f5d0fb33017b3be037003a90fa5",
+  "jpeg_sha256": "3a89b8b3bce428427f4d790478053cc25923fc431c7d8c4e0626406b7efb6d97",
+  "brainhub_tensor_sha256": "a7ad14a0b8f7db8eaf5a2536d49e13a32b342ba059d0c05933162b1b005d9228",
+  "evaluation_png_sha256": "2e565743b24a6712ddd98e704f4230ad9a644408f2ec48948385a161526b0692",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595483.474054
+}

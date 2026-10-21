@@ -1,0 +1,32 @@
+{
+  "raw_response": "<s> A group of people in a body of water.</s>",
+  "caption": "A group of people in a body of water.",
+  "token_ids": [
+    1,
+    319,
+    2318,
+    310,
+    2305,
+    297,
+    263,
+    3573,
+    310,
+    4094,
+    29889,
+    2
+  ],
+  "feature_sha256": "803be367fdc45fd38af08609ddc478615f52c82d20bc9b67cd046f232e91e2e4",
+  "native_index": 640,
+  "nsd_id0": 47408,
+  "shard": 1,
+  "sample": "sample000006395",
+  "brain_sha256": "fa16950684643a1fd6bce20c89a3733db57ade85a87d3db43e30620295c22102",
+  "jpeg_sha256": "16f87db4ebd74716a0cfd2889b416f196c29e6551d11c9da110f24cbda044875",
+  "brainhub_tensor_sha256": "14c26132d3774fc4641c239c1a73726f50facf3035b8ee0ab011dc70291e5ac4",
+  "evaluation_png_sha256": "81c238b42a206b898e150bd1a10693f6118a0d8782bff8a1d0f93fec1e6c62d1",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595444.5421824
+}

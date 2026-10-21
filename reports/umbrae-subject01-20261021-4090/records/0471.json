@@ -1,0 +1,31 @@
+{
+  "raw_response": "<s> A large group of people in a city.</s>",
+  "caption": "A large group of people in a city.",
+  "token_ids": [
+    1,
+    319,
+    2919,
+    2318,
+    310,
+    2305,
+    297,
+    263,
+    4272,
+    29889,
+    2
+  ],
+  "feature_sha256": "6538236fef84cc5c8970e64a252244327920bb46f46861cdf98fd33573c54d39",
+  "native_index": 471,
+  "nsd_id0": 36576,
+  "shard": 0,
+  "sample": "sample000004903",
+  "brain_sha256": "a418a2513f1a33097bfa1cb09b7b8e50c76975b79a5f3fd1d26a7da51d8d2946",
+  "jpeg_sha256": "64536b8b49676c081a89533b1254d9653218594333365323d28989e73de7e689",
+  "brainhub_tensor_sha256": "ae48fc513cc0979de1c514999c4f1dda20fb860df3e3b56704b2e07e836e871a",
+  "evaluation_png_sha256": "a7a9c6c1babebca2b47a829e401ea735d21cae66424119d242b18c4d8762a6d8",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595397.2304425
+}

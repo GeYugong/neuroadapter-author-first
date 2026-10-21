@@ -1,0 +1,33 @@
+{
+  "raw_response": "<s> A man in a jacket skiing in a forest</s>",
+  "caption": "A man in a jacket skiing in a forest",
+  "token_ids": [
+    1,
+    319,
+    767,
+    297,
+    263,
+    28015,
+    300,
+    14993,
+    292,
+    297,
+    263,
+    13569,
+    2
+  ],
+  "feature_sha256": "96be9e68e0c0deda5ef34c9bab04e56a027089d08ca5064769f939f72c366786",
+  "native_index": 106,
+  "nsd_id0": 9722,
+  "shard": 0,
+  "sample": "sample000001263",
+  "brain_sha256": "20300ed6924376895ac715773fd83ae8408b24d6776d7aba4161bd5ac706ec92",
+  "jpeg_sha256": "5babf3f86e3b45881c148705ec9045b5bfa55a424c5c3c0ea7ec3ccfa1da9b35",
+  "brainhub_tensor_sha256": "8c48e81f91cc8ba386143cfd45e1f2c270f6f7e96f29b3ae05e4391175ac8c2a",
+  "evaluation_png_sha256": "18ffb52aa54f10f1c1bbe325dd04b238a3e985d180a1ee5b5e784aeb824ba94e",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595303.2097812
+}

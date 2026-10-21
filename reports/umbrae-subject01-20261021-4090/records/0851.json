@@ -1,0 +1,33 @@
+{
+  "raw_response": "<s> A desktop computer sitting on top of a desk.</s>",
+  "caption": "A desktop computer sitting on top of a desk.",
+  "token_ids": [
+    1,
+    319,
+    14616,
+    6601,
+    16246,
+    373,
+    2246,
+    310,
+    263,
+    553,
+    29895,
+    29889,
+    2
+  ],
+  "feature_sha256": "549cb7c23095544687cd02ce47a22cf1e9201e922bff6a0638e92fb4aab3b31d",
+  "native_index": 851,
+  "nsd_id0": 63182,
+  "shard": 1,
+  "sample": "sample000008533",
+  "brain_sha256": "d1d9db5075956d763872e9f6aff275a1573c75fa461477362fc8d2006728f94e",
+  "jpeg_sha256": "0968c6f39bcdb3c7b45178a6b3a8da8da534c2d99bbdb64b7f8e2fb1a79330ee",
+  "brainhub_tensor_sha256": "0e2a0e1373a00140762cf68b49d26a20bf8d6f8e7f8215a7f444d9576f1010b0",
+  "evaluation_png_sha256": "c83c24b2ba7bf50192d3ba4f79eb90bb62421ef360d72417e907f022817c1d86",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595498.4672277
+}

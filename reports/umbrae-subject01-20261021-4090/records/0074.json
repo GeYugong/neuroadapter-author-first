@@ -1,0 +1,32 @@
+{
+  "raw_response": "<s> A boy sitting on a bed looking at something.</s>",
+  "caption": "A boy sitting on a bed looking at something.",
+  "token_ids": [
+    1,
+    319,
+    8023,
+    16246,
+    373,
+    263,
+    6592,
+    3063,
+    472,
+    1554,
+    29889,
+    2
+  ],
+  "feature_sha256": "81a10681a4da8a54a292272b9ff3999a5163243003b4f9ace0c3c529b93655d2",
+  "native_index": 74,
+  "nsd_id0": 7480,
+  "shard": 0,
+  "sample": "sample000000974",
+  "brain_sha256": "5cf27ba548de6de7bd58dd80255904e471fa98c8615f5445293cd6506aa20eb9",
+  "jpeg_sha256": "e2cec30f88cc2df30817aab0e7f93dc4f627db354e7afd76065489943f7b4022",
+  "brainhub_tensor_sha256": "801be3fc91c4796659ef2b8f621700db4e652d1812961f206f5d8ca1b3ae7347",
+  "evaluation_png_sha256": "4037e689e4a6a805c96902fd4e4d705f5953f0259675fb01ef1ec2f5741ce7cc",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595295.0012143
+}

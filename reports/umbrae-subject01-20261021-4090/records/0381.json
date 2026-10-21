@@ -1,0 +1,33 @@
+{
+  "raw_response": "<s> Two baseball players standing on a field during a game.</s>",
+  "caption": "Two baseball players standing on a field during a game.",
+  "token_ids": [
+    1,
+    7803,
+    21573,
+    10769,
+    13407,
+    373,
+    263,
+    1746,
+    2645,
+    263,
+    3748,
+    29889,
+    2
+  ],
+  "feature_sha256": "b05ca90b50df9e88f6f5e985d823d2ccaf1e477ace58ae08ae49073cfff02acd",
+  "native_index": 381,
+  "nsd_id0": 28898,
+  "shard": 0,
+  "sample": "sample000003836",
+  "brain_sha256": "2982702ce04b4a40d4dd45fda78870d5a2b7490d86fea83f9035b49ed1354b36",
+  "jpeg_sha256": "f229cce3a9c671e544dc1ccf7d85e549032c6549f29105722a9c38b12a031ee8",
+  "brainhub_tensor_sha256": "d39eb7577ed0e4a9e46718d0d64cb9e63f180b905ab290ed6859d781b619a51a",
+  "evaluation_png_sha256": "2babe780a93d6964c968532b36e86251d56905c98ec1c39fb62387dd6fca5345",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595374.0088944
+}

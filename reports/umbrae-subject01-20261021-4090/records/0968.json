@@ -1,0 +1,33 @@
+{
+  "raw_response": "<s> A group of people in gear on the ski slope</s>",
+  "caption": "A group of people in gear on the ski slope",
+  "token_ids": [
+    1,
+    319,
+    2318,
+    310,
+    2305,
+    297,
+    330,
+    799,
+    373,
+    278,
+    14993,
+    24968,
+    2
+  ],
+  "feature_sha256": "ae85d1834836ec444f8dc6002e608d92932f16901580baaed7c8e6bb90c42a76",
+  "native_index": 968,
+  "nsd_id0": 71450,
+  "shard": 1,
+  "sample": "sample000009649",
+  "brain_sha256": "c090d127407639b95c3d154829cfb5b08c911abc47279c608d17c6bc8186a4c5",
+  "jpeg_sha256": "7cbdfaaca7a4b7ea7b26ac329900d254f354a49cd1de9e7329d4206b435dff91",
+  "brainhub_tensor_sha256": "4d6524ec0658794060508b6e1771edfaa3a9a027a72fa14f8af395dc4723a0d1",
+  "evaluation_png_sha256": "e732ab22fe69fcc064a21bdaf22f55f6b00a86bb2b9651ffcc34e82f498e6b84",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595528.5853093
+}

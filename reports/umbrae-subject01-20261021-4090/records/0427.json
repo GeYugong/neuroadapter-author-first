@@ -1,0 +1,33 @@
+{
+  "raw_response": "<s> A group of people sitting at tables in a restaurant.</s>",
+  "caption": "A group of people sitting at tables in a restaurant.",
+  "token_ids": [
+    1,
+    319,
+    2318,
+    310,
+    2305,
+    16246,
+    472,
+    6131,
+    297,
+    263,
+    27144,
+    29889,
+    2
+  ],
+  "feature_sha256": "42844a019f5de2b521f7f371d15cb98c5406903b9c02680943bfb48cbfb71620",
+  "native_index": 427,
+  "nsd_id0": 32307,
+  "shard": 0,
+  "sample": "sample000004296",
+  "brain_sha256": "d00ea5ffc45f0f5893dfa5f02579a92dd4b2a22ccc01e88758b8213813deae6e",
+  "jpeg_sha256": "a87e1795dc3bcfd5d046bc933c7d403e2f805d3c8ee9a9ee3fa1cab31830daa6",
+  "brainhub_tensor_sha256": "903d8dcf32840b61a7fd96d8372273f09fcad3733939cc5f9da8fe57bffc4959",
+  "evaluation_png_sha256": "c5a4111bf1deabd47cbbaf146f24b4c30e505ebc8f98c0428c28ce48861940a9",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595385.7605946
+}

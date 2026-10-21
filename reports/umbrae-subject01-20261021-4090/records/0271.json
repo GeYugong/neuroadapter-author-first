@@ -1,0 +1,33 @@
+{
+  "raw_response": "<s> A small group of people in a horse drawn carriage.</s>",
+  "caption": "A small group of people in a horse drawn carriage.",
+  "token_ids": [
+    1,
+    319,
+    2319,
+    2318,
+    310,
+    2305,
+    297,
+    263,
+    10435,
+    12061,
+    23840,
+    29889,
+    2
+  ],
+  "feature_sha256": "dd2cd5e793ef7d6695fa424503dc5c1c9ac41b2b95c955bba454ea1803abf567",
+  "native_index": 271,
+  "nsd_id0": 22530,
+  "shard": 0,
+  "sample": "sample000002926",
+  "brain_sha256": "7bf53ad00792735fc4f03ac3264b0a004044444333a554784ab0199070985786",
+  "jpeg_sha256": "f90cebf791375ba3c20619561b5487e6cbbbb615109fbc1697ce1a10e104cd7d",
+  "brainhub_tensor_sha256": "70abfe8c6c37468fcfd204b185dbc0b26f4f40377012d3de49bff663874034c1",
+  "evaluation_png_sha256": "682b64c20e93ef883aef8203e3f35d5c9a3c6bf2d4f566e1ae2e7cf85207c934",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595345.4023318
+}

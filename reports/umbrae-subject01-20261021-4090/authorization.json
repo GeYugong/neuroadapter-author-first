@@ -1,0 +1,10 @@
+{
+  "user_request": "Run official UMBRAE Subject1 inference and all13 caption metrics; leave DREAM untouched",
+  "latest_resource_choice": "Use the free physical GPU0 on dual4090 host",
+  "source_assets_host": "dual5090, storage only",
+  "disk_reserve_gib": 25,
+  "large_shikra_shards": "Verified anonymous-memory files on4090; durable originals retained on5090",
+  "no_training": true,
+  "no_candidate_or_seed_search": true,
+  "time": 1792594486.9088702
+}

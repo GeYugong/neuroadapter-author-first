@@ -1,0 +1,32 @@
+{
+  "raw_response": "<s> A group of men standing next to each other.</s>",
+  "caption": "A group of men standing next to each other.",
+  "token_ids": [
+    1,
+    319,
+    2318,
+    310,
+    1757,
+    13407,
+    2446,
+    304,
+    1269,
+    916,
+    29889,
+    2
+  ],
+  "feature_sha256": "7fcd5dd295931a35ca72612494ed7bdfe4508b3e8bc24374fe03eb13969cf7e9",
+  "native_index": 800,
+  "nsd_id0": 59284,
+  "shard": 1,
+  "sample": "sample000007977",
+  "brain_sha256": "53604d8228044887525653553f726d9e3b3a8bc13b0bc48b83ffa37f525ff57e",
+  "jpeg_sha256": "1da4f9e0af5960dbb75fe30af78c7459e857df9ca5cf1cc4df9ffc3d173c92b9",
+  "brainhub_tensor_sha256": "2fdec080691e6ddddd80c8de1a5d88598471e5d8be743587afdf3b81549b6bd1",
+  "evaluation_png_sha256": "e36f52fb636fe34b29285592ebd9bff06ba55c24fa0527996e603bbdba9f9305",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595485.1811142
+}

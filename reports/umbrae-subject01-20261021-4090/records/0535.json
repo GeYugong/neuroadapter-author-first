@@ -1,0 +1,33 @@
+{
+  "raw_response": "<s> A large mountain range in the middle of a valley.</s>",
+  "caption": "A large mountain range in the middle of a valley.",
+  "token_ids": [
+    1,
+    319,
+    2919,
+    14378,
+    3464,
+    297,
+    278,
+    7256,
+    310,
+    263,
+    19599,
+    29889,
+    2
+  ],
+  "feature_sha256": "e3c28f118e1b7ffec18c9f7f73f7f88e03c02ddbbe36a8f269d4dfe1e3bfcb5b",
+  "native_index": 535,
+  "nsd_id0": 41162,
+  "shard": 1,
+  "sample": "sample000005538",
+  "brain_sha256": "0c7f19733fb1d71dcba5d73db2590bd1b957c9ca44aa3386dd50fb67d4cfee4e",
+  "jpeg_sha256": "68bf0372014cf2e03dea046a0dfe45979df878434e4ae721f11c7995b1783d84",
+  "brainhub_tensor_sha256": "413e517287538181a3374ae6320c0c6208444d65671ef8bace2f140b72354ef0",
+  "evaluation_png_sha256": "707cc07e51198a6b1fc9e8ec2a73b79b12a0b2614a5982b6e6e36f4bceeb9f8c",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595413.9204054
+}

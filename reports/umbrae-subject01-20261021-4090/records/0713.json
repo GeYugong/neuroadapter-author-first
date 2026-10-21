@@ -1,0 +1,33 @@
+{
+  "raw_response": "<s> A large clock with many smaller clocks around it.</s>",
+  "caption": "A large clock with many smaller clocks around it.",
+  "token_ids": [
+    1,
+    319,
+    2919,
+    12006,
+    411,
+    1784,
+    7968,
+    12006,
+    29879,
+    2820,
+    372,
+    29889,
+    2
+  ],
+  "feature_sha256": "c86025647c038214bc0f38d3450206c782bacad99cfdfbb61c2a6a6f8b195e44",
+  "native_index": 713,
+  "nsd_id0": 53052,
+  "shard": 1,
+  "sample": "sample000007148",
+  "brain_sha256": "2decb9cb67a63c45b90bffe4d43fadae653fe25fa188fde831ac608647fa85fb",
+  "jpeg_sha256": "f06d094690cc1f9c3be91a6ab203ba4644d1732274ab6dfff3a0913367177811",
+  "brainhub_tensor_sha256": "e8eb2d057f42c7030c499eb99d495eed5c634d57fda52085ae00efd35f21d026",
+  "evaluation_png_sha256": "7c24a4644986af763956d93bd2c526f9532b9c663fe45c656662e57a9dc83a77",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595463.0822282
+}

@@ -1,0 +1,33 @@
+{
+  "raw_response": "<s> A man holding a tennis racket in his hand.</s>",
+  "caption": "A man holding a tennis racket in his hand.",
+  "token_ids": [
+    1,
+    319,
+    767,
+    13587,
+    263,
+    22556,
+    1153,
+    3522,
+    297,
+    670,
+    1361,
+    29889,
+    2
+  ],
+  "feature_sha256": "cd3991e7abbd784f8ce9e24b620ff8a65ded86da0ec9e817d6865e6773cf00a8",
+  "native_index": 290,
+  "nsd_id0": 23871,
+  "shard": 0,
+  "sample": "sample000003125",
+  "brain_sha256": "09786d346183a768504b7a1d9d433ecd6e19efeda31e824e89672b8e6bda3766",
+  "jpeg_sha256": "1f90f469d910a01d7b6b80d17274f9ab1983c9914d93d8333e9a26134465b5f1",
+  "brainhub_tensor_sha256": "68cd632c68e64f6ec6fea8277795a714c40be04136918b2c9984a1ac92c08a2b",
+  "evaluation_png_sha256": "2cf51e30e69c4c94858a095e02605e63d268b653967f5da9e50ee1cf78ef6a09",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595350.3146389
+}

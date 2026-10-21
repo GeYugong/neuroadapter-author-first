@@ -1,0 +1,33 @@
+{
+  "raw_response": "<s> A close up of a plate of broccoli.</s>",
+  "caption": "A close up of a plate of broccoli.",
+  "token_ids": [
+    1,
+    319,
+    3802,
+    701,
+    310,
+    263,
+    15284,
+    310,
+    2545,
+    617,
+    5079,
+    29889,
+    2
+  ],
+  "feature_sha256": "79ffc5295849e85fb626c58ca90634eb9edaa6738da6e1b5af2d838bd0cd9705",
+  "native_index": 135,
+  "nsd_id0": 11827,
+  "shard": 0,
+  "sample": "sample000001540",
+  "brain_sha256": "373551f5813d3603f7349724ffe99e84f1c2b257be33eb35f2867db848546724",
+  "jpeg_sha256": "066b5023cfdc41db0aec8801f76a234c0d45cf047d31717a6b160b0ff2c922b7",
+  "brainhub_tensor_sha256": "8f83adbc329e41a208efbabfc8a02e9c7476235337f03c8cbfabcfdc37a027a9",
+  "evaluation_png_sha256": "ced552962b84c36462df97dcb2f65d5c82c01de92c19a0f05a6a27e0c90ba24d",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595310.9193652
+}

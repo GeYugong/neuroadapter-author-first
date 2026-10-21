@@ -1,0 +1,33 @@
+{
+  "raw_response": "<s> Two people skiing down a snowy mountain slope.</s>",
+  "caption": "Two people skiing down a snowy mountain slope.",
+  "token_ids": [
+    1,
+    7803,
+    2305,
+    14993,
+    292,
+    1623,
+    263,
+    15007,
+    29891,
+    14378,
+    24968,
+    29889,
+    2
+  ],
+  "feature_sha256": "b0b21e35b72407d77d86958a75600a4c126512c905045ebef6d2ce5f05aa4461",
+  "native_index": 977,
+  "nsd_id0": 72312,
+  "shard": 1,
+  "sample": "sample000009759",
+  "brain_sha256": "d6f27b481da39bdde70cc6b31bef82137a7230365f9ad38d32d3770640ab2a3b",
+  "jpeg_sha256": "00872351721b08fbb38df7256af86f379d1aa359a6590bf6180e5b713b999548",
+  "brainhub_tensor_sha256": "5e2a5e456454929071b1962952991f89dc46147091317cfc8011c175b70907cc",
+  "evaluation_png_sha256": "14bc6071811c8ffda190eb909d682f0f95ea31798edd89ffc1b353372982476b",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595530.9119723
+}

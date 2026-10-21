@@ -1,0 +1,30 @@
+{
+  "raw_response": "<s> A dog is standing with its head down</s>",
+  "caption": "A dog is standing with its head down",
+  "token_ids": [
+    1,
+    319,
+    11203,
+    338,
+    13407,
+    411,
+    967,
+    2343,
+    1623,
+    2
+  ],
+  "feature_sha256": "09819963aed1a1e1b021ae754aa20d0fca768c9fe09af33d387f8f6b22d96f4e",
+  "native_index": 912,
+  "nsd_id0": 67252,
+  "shard": 1,
+  "sample": "sample000009085",
+  "brain_sha256": "d9ccab3380b594c5234625c025728f4b654ec7ee4bdb374d69b6af0076a55a5b",
+  "jpeg_sha256": "03c59de5bc37c5305f8d0613e846dca50c8d1d41028e3186d459dcfb9b6427d6",
+  "brainhub_tensor_sha256": "417dedb05c946508ceab10436c0c5aa929953de1a693f30c1428c99b1ec0520e",
+  "evaluation_png_sha256": "3329865ff4bdc4286c86d2f6b0cf6a858fad8f7cc0207557336f688763db0ea5",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595514.1232057
+}

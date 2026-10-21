@@ -1,0 +1,32 @@
+{
+  "raw_response": "<s> A close up of a pair of scissors</s>",
+  "caption": "A close up of a pair of scissor",
+  "token_ids": [
+    1,
+    319,
+    3802,
+    701,
+    310,
+    263,
+    5101,
+    310,
+    885,
+    790,
+    943,
+    2
+  ],
+  "feature_sha256": "de090635d7b832e33b2acb5c0883b4224d6151b2828564031ecff296a067026b",
+  "native_index": 172,
+  "nsd_id0": 14808,
+  "shard": 0,
+  "sample": "sample000001921",
+  "brain_sha256": "b4d545c5b6d0be435fb9f5ca4f39d2eca29da9aae11132ac5e8b64f8bdac82a0",
+  "jpeg_sha256": "1f635e1ac767fea558f675809472977114fbee1c5aeb398ff0ff2a862b5b7ee5",
+  "brainhub_tensor_sha256": "e08cb68c7384e1570968a2f1fe6ee1be90599c621cd7e695da3b6b7e415ae9f8",
+  "evaluation_png_sha256": "f8571bc9da2c470c84f4ffb7313411059fe19b8b3cea29c54366780d40343c10",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595320.4494286
+}

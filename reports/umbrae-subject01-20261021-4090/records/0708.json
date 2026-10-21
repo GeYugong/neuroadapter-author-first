@@ -1,0 +1,32 @@
+{
+  "raw_response": "<s> A street view of a traffic light and cars.</s>",
+  "caption": "A street view of a traffic light and cars.",
+  "token_ids": [
+    1,
+    319,
+    11952,
+    1776,
+    310,
+    263,
+    12469,
+    3578,
+    322,
+    18647,
+    29889,
+    2
+  ],
+  "feature_sha256": "b553693163fa7bd39c558f1d31786f27f9085be9c2523240b94a8744d38e1d01",
+  "native_index": 708,
+  "nsd_id0": 52596,
+  "shard": 1,
+  "sample": "sample000007078",
+  "brain_sha256": "2ce2d33c517a00a91cf206069032a94894fdc6cf2ad9f9f2af4b6cff95908b9d",
+  "jpeg_sha256": "8e7652f122a88738e28afea0476d43f007eb691e98fad3bfbc5b606d0526c4ad",
+  "brainhub_tensor_sha256": "16e4816a058548e5da872301ac28a5989113a287cd1c68db7d9750b581d67f53",
+  "evaluation_png_sha256": "20b3a67cbb8b1dc9f65210aa66e94c985d0d0ec830d9faa38ea9af272c726c80",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595461.92338
+}

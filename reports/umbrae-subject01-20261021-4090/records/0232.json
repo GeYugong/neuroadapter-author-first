@@ -1,0 +1,32 @@
+{
+  "raw_response": "<s> A dog on a sidewalk near the street.</s>",
+  "caption": "A dog on a sidewalk near the street.",
+  "token_ids": [
+    1,
+    319,
+    11203,
+    373,
+    263,
+    2625,
+    20919,
+    2978,
+    278,
+    11952,
+    29889,
+    2
+  ],
+  "feature_sha256": "f685ec4918ef3b98babd28f0371d0fe64249e1f337a8d7544b79f85d324caf8c",
+  "native_index": 232,
+  "nsd_id0": 19933,
+  "shard": 0,
+  "sample": "sample000002578",
+  "brain_sha256": "c6347dd0ba0c0b959e922965d44c5b375cd1b85a33cc7f843593e6a65d57a510",
+  "jpeg_sha256": "62bc6edbe203e547db8f575bc890f30db0fd40b0e9a605493f67c500487737bc",
+  "brainhub_tensor_sha256": "9e9db4b8eb17694877d45b4bff3e49c93511eba0ffbfc50a2ce53b12580c5a3d",
+  "evaluation_png_sha256": "8b08a2a7b473e2b2cb991579eb37f601446af3705df19d9ccd06f9156eadbe54",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595335.2902524
+}

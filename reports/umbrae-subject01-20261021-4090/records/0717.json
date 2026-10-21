@@ -1,0 +1,32 @@
+{
+  "raw_response": "<s> A man sitting in a chair in a room.</s>",
+  "caption": "A man sitting in a chair in a room.",
+  "token_ids": [
+    1,
+    319,
+    767,
+    16246,
+    297,
+    263,
+    11774,
+    297,
+    263,
+    5716,
+    29889,
+    2
+  ],
+  "feature_sha256": "45c9e161b5a7242013b39ff684473b66e0c0181c27091e8ba65f61f5d8d77eed",
+  "native_index": 717,
+  "nsd_id0": 53157,
+  "shard": 1,
+  "sample": "sample000007161",
+  "brain_sha256": "75465bae1712abcdd0abebc3d9de4a02d79b07a55cc797922f9f7181e55afcf8",
+  "jpeg_sha256": "a11e25dbc918f1cc170e4a104abd87890a7b2f3c3c63eb455da8cfdd3ada3d55",
+  "brainhub_tensor_sha256": "8a6499ac3cbd1363a54634a03e4a93b300b6c38ed75917ce45d521b3e3dc73d2",
+  "evaluation_png_sha256": "76469e56238548877928cdeb64fcc9aff850301eee5e7f148d8edd8768fca6b8",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595464.0024998
+}

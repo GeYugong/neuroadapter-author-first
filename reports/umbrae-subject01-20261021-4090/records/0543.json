@@ -1,0 +1,32 @@
+{
+  "raw_response": "<s> A group of kites flying in the sky.</s>",
+  "caption": "A group of kites flying in the sky.",
+  "token_ids": [
+    1,
+    319,
+    2318,
+    310,
+    413,
+    3246,
+    22764,
+    297,
+    278,
+    14744,
+    29889,
+    2
+  ],
+  "feature_sha256": "02e5f84658010cc2b054a7926a87e806be4260e94e8200fd956022e59f6888ad",
+  "native_index": 543,
+  "nsd_id0": 41814,
+  "shard": 1,
+  "sample": "sample000005629",
+  "brain_sha256": "99bfb06625ff6f5096342ad29d8840f48340e7a52cd8885ae5b7f8d50331be60",
+  "jpeg_sha256": "c2f5ec86f791acf1071e86d48d7d4babfa340a625bcd26579dc08c314ad57a00",
+  "brainhub_tensor_sha256": "f3e113ed5c45dc7baf0e76d5235c88c887f5676a3059108b7c2c56c2114484fa",
+  "evaluation_png_sha256": "b0089e2f17b11682be6476e9afe024066d1eef550b0a5ec33cad391a50f1a896",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595415.99207
+}

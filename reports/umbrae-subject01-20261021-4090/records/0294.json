@@ -1,0 +1,32 @@
+{
+  "raw_response": "<s> A cat lying on a bed in a bedroom</s>",
+  "caption": "A cat lying on a bed in a bedroom",
+  "token_ids": [
+    1,
+    319,
+    6635,
+    19214,
+    373,
+    263,
+    6592,
+    297,
+    263,
+    6592,
+    8345,
+    2
+  ],
+  "feature_sha256": "532c74541b251f7129d93b27ae6b2089901686c7c7e2c030207e29e1ef4d1fcd",
+  "native_index": 294,
+  "nsd_id0": 24202,
+  "shard": 0,
+  "sample": "sample000003174",
+  "brain_sha256": "7abbe17e8655aabf241ae3653b72761a649794bbbb61883702bf60f43be781a6",
+  "jpeg_sha256": "8c4aaabc1adf84716c0309f2280a71f658e712ccc4781fae82545cc351bcf62d",
+  "brainhub_tensor_sha256": "a29d7873779d9b440e155e41b56ec3cc591a4c38cf0f902cb970d2ccce4cb69b",
+  "evaluation_png_sha256": "5d13ef60d430607df9da4847e6f86631699d4ec89b7453c68c449075acbb23bc",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595351.2162845
+}

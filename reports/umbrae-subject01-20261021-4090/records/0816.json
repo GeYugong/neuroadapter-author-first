@@ -1,0 +1,33 @@
+{
+  "raw_response": "<s> A stop sign is shown against a clear blue sky.</s>",
+  "caption": "A stop sign is shown against a clear blue sky.",
+  "token_ids": [
+    1,
+    319,
+    5040,
+    1804,
+    338,
+    4318,
+    2750,
+    263,
+    2821,
+    7254,
+    14744,
+    29889,
+    2
+  ],
+  "feature_sha256": "dcc2580285e5c1e4cd09e193fb5cabd56ec7b0c9ca38841fb2cd24f616e790da",
+  "native_index": 816,
+  "nsd_id0": 60553,
+  "shard": 1,
+  "sample": "sample000008159",
+  "brain_sha256": "506c069dd6bbf8dd41f6a90c927dbd8a3f848b9cbdd75cde30d20632e315fae2",
+  "jpeg_sha256": "3e61695af8a7fa12784bd5d7b0e92847dae2083e5432a1b62eca2d0f47fbfc88",
+  "brainhub_tensor_sha256": "47093719b408964084c959204fb9ed454547406c5948955077c2856c5a98cded",
+  "evaluation_png_sha256": "5a10d034a9868fa2e92eecff7cb021781865032286c865d599cf9a91ddf40e2f",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595489.6643212
+}

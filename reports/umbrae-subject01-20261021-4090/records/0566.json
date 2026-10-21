@@ -1,0 +1,33 @@
+{
+  "raw_response": "<s> A close up view of a cow in a field.</s>",
+  "caption": "A close up view of a cow in a field.",
+  "token_ids": [
+    1,
+    319,
+    3802,
+    701,
+    1776,
+    310,
+    263,
+    21282,
+    297,
+    263,
+    1746,
+    29889,
+    2
+  ],
+  "feature_sha256": "49055d6f3aded9d752c1e3abdc89a0cfb5b950d8cfe2abbccc5eefa79feeca90",
+  "native_index": 566,
+  "nsd_id0": 43157,
+  "shard": 1,
+  "sample": "sample000005814",
+  "brain_sha256": "f502b47664b55d362712e3101224c83f1b415411ef37dfb267e6c31c519d4970",
+  "jpeg_sha256": "122f453b9aa707c860def6953ad96e21b374fe87505c51e485684dab719ffd43",
+  "brainhub_tensor_sha256": "93f2d40c8f62fd1ea2dbeda8219d7a9bcf101c0c8c348c56f06ba6912ddf7ab0",
+  "evaluation_png_sha256": "96d99232158e672dcbfa71fdec3fca04acb600a23c4a55381f2a829a66a42db6",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595421.7857673
+}

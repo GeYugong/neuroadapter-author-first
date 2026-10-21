@@ -1,0 +1,33 @@
+{
+  "raw_response": "<s> Four airplanes are flying close together in formation.</s>",
+  "caption": "Four airplanes are flying close together in formation.",
+  "token_ids": [
+    1,
+    12458,
+    4799,
+    9018,
+    267,
+    526,
+    22764,
+    3802,
+    4208,
+    297,
+    12409,
+    29889,
+    2
+  ],
+  "feature_sha256": "b9478c35ec9e5756212f2c60ea332aad1b0fc58a4ade850413d46636c1488f99",
+  "native_index": 52,
+  "nsd_id0": 5714,
+  "shard": 0,
+  "sample": "sample000000720",
+  "brain_sha256": "8192a5faaac800ea3aeac72e3a9b33153361bf2e33cc7983e3050ab7aa501ac8",
+  "jpeg_sha256": "c58d172c08920fe44db2cfe5dd7b3e0aa719216b06dcbfddf9756a8b07f56ee3",
+  "brainhub_tensor_sha256": "ba022bb8600e8785255714b5e68f25b7bd731778b4a53b425dc229e4a8f1446e",
+  "evaluation_png_sha256": "dccf4f3a3ce8a12bd6d0e4f42cf59ff1f0c5cc5a202dd781f96698d9dcfd542a",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595289.517157
+}

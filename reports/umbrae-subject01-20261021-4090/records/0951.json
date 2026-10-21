@@ -1,0 +1,32 @@
+{
+  "raw_response": "<s> The giraffe is standing beside a tree.</s>",
+  "caption": "The giraffe is standing beside a tree.",
+  "token_ids": [
+    1,
+    450,
+    330,
+    3055,
+    17615,
+    338,
+    13407,
+    17620,
+    263,
+    5447,
+    29889,
+    2
+  ],
+  "feature_sha256": "7c0304d32269762946445edaf6aaa6b660e0deef12799c83c92b91179c194b29",
+  "native_index": 951,
+  "nsd_id0": 70335,
+  "shard": 1,
+  "sample": "sample000009489",
+  "brain_sha256": "094f3e22a967331aef23b8d865c1b6bb97d2137b9616194a2f40fcc02f3c2768",
+  "jpeg_sha256": "86d3c71123dd071dac0bf3436fc50102039362a5116b5060f5485dde47a2a485",
+  "brainhub_tensor_sha256": "4d717a60c48ac72b86ed769d2c26cfff0607acd7b00569b909107ec7815cb28f",
+  "evaluation_png_sha256": "4fb99e967f6c38dd6c12109aa6593a71093af6ea9694bd7d625ad0c644646237",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595524.0437322
+}

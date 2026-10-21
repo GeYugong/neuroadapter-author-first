@@ -1,0 +1,38 @@
+{
+  "n": 982,
+  "raw": {
+    "BLEU-1": 0.5948110185777712,
+    "BLEU-2": 0.4053527700712449,
+    "BLEU-3": 0.277244420139266,
+    "BLEU-4": 0.19052895275113274,
+    "METEOR": 0.19472708202985808,
+    "ROUGE-L": 0.4379089383874407,
+    "CIDEr": 0.6117050043392246,
+    "SPICE": 0.1280275715124777,
+    "CLIPScore": 0.67822265625,
+    "RefCLIPScore": 0.73583984375,
+    "PACScore": 0.7080078125,
+    "RefPACScore": 0.767578125,
+    "SentenceScore": 0.577773928642273
+  },
+  "display_times100": {
+    "BLEU-1": 59.48110185777712,
+    "BLEU-2": 40.535277007124485,
+    "BLEU-3": 27.7244420139266,
+    "BLEU-4": 19.052895275113276,
+    "METEOR": 19.472708202985807,
+    "ROUGE-L": 43.79089383874407,
+    "CIDEr": 61.170500433922456,
+    "SPICE": 12.802757151247771,
+    "CLIPScore": 67.822265625,
+    "RefCLIPScore": 73.583984375,
+    "PACScore": 70.80078125,
+    "RefPACScore": 76.7578125,
+    "SentenceScore": 57.777392864227295
+  },
+  "evaluator": "Pinned BrainHub functions; path adaptation only",
+  "source": "New inference of official UMBRAE weights on Subject1",
+  "no_GT_inference": true,
+  "no_training": true,
+  "time": 1792595554.6855695
+}

@@ -1,0 +1,31 @@
+{
+  "raw_response": "<s> A group of people who are sitting together.</s>",
+  "caption": "A group of people who are sitting together.",
+  "token_ids": [
+    1,
+    319,
+    2318,
+    310,
+    2305,
+    1058,
+    526,
+    16246,
+    4208,
+    29889,
+    2
+  ],
+  "feature_sha256": "ce3be1316eb36e3a7635ef7dec238823364f35d12caef8b7e80b8f02743bfc0a",
+  "native_index": 251,
+  "nsd_id0": 21218,
+  "shard": 0,
+  "sample": "sample000002744",
+  "brain_sha256": "b76030b0d39e72bf69e46d857543e8818d6f3cdbb4b26c8a8b320c5afa2f4068",
+  "jpeg_sha256": "f673ea3b0b4656652821f69e5d3703c0eb06138dc5c4466c0a4c0f6d47036834",
+  "brainhub_tensor_sha256": "d1eb4150c04bde714e00d943c615c4cb9a4305760b27e5d6480d43885bc59d4a",
+  "evaluation_png_sha256": "b1b8ad130dfbf74b6c261196f5f6afdd0d857d5d7e3b7d187eef22b851654f92",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595339.9674313
+}

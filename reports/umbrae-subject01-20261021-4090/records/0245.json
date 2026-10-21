@@ -1,0 +1,32 @@
+{
+  "raw_response": "<s> A close up of the side of a building.</s>",
+  "caption": "A close up of the side of a building.",
+  "token_ids": [
+    1,
+    319,
+    3802,
+    701,
+    310,
+    278,
+    2625,
+    310,
+    263,
+    5214,
+    29889,
+    2
+  ],
+  "feature_sha256": "e8dab4af85fa2c87f102e1508cb586dc6690cf36ef446629f1f4cc74df00a6a7",
+  "native_index": 245,
+  "nsd_id0": 20777,
+  "shard": 0,
+  "sample": "sample000002692",
+  "brain_sha256": "2d071e342f6605448dec16ce170f3fda8c05445c5a750614f3b86caa8ceedf1b",
+  "jpeg_sha256": "2b6cad09d770063db9d5ccfdc1d44929d437186d95645919b044d7d6482da4e0",
+  "brainhub_tensor_sha256": "6d354e794fbe669781f87b777a0943ee3073351a69807d828143d2db4e058a16",
+  "evaluation_png_sha256": "d7ca256dd6042d61552fe5d446770f4f5687430a481e49cd29924c598dda511e",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595338.6075077
+}

@@ -1,0 +1,32 @@
+{
+  "raw_response": "<s> A group of plants sitting out on a table.</s>",
+  "caption": "A group of plants sitting out on a table.",
+  "token_ids": [
+    1,
+    319,
+    2318,
+    310,
+    18577,
+    16246,
+    714,
+    373,
+    263,
+    1591,
+    29889,
+    2
+  ],
+  "feature_sha256": "dea7bb09df6696d070408aeaebbbfaef00474a0d91205a70ea83c1541d4cdce0",
+  "native_index": 723,
+  "nsd_id0": 53728,
+  "shard": 1,
+  "sample": "sample000007231",
+  "brain_sha256": "81a71c754ee008056af462c3bd00403ac2a7937820bc466591560223fe0f64f6",
+  "jpeg_sha256": "df5e2eec5f1c2e77cf82f8debc096137bd7c52bcd8d952eebe55f8606a550e35",
+  "brainhub_tensor_sha256": "05d1916f64bde8afc39d4fc7e7b20b4cf4a03480c780308e81dd4161452c16b5",
+  "evaluation_png_sha256": "bffbb556ee4b14ae6851eef1a0ddb2b0709c4013a1de24695010490dcbffa996",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595465.5783868
+}

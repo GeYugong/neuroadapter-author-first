@@ -1,0 +1,30 @@
+{
+  "raw_response": "<s> A man in a kitchen with a table</s>",
+  "caption": "A man in a kitchen with a table",
+  "token_ids": [
+    1,
+    319,
+    767,
+    297,
+    263,
+    29181,
+    411,
+    263,
+    1591,
+    2
+  ],
+  "feature_sha256": "ce160281769b87e45b1e911574f8df43f12ca4db77cfa6c0f7e47ecbc5127098",
+  "native_index": 844,
+  "nsd_id0": 62479,
+  "shard": 1,
+  "sample": "sample000008441",
+  "brain_sha256": "4d82eafd740234cedcfe10a59853c9ee2d96f61668105be297a21166041e48ad",
+  "jpeg_sha256": "0aefbc423c956bf15be66f92444a485257124eb0112a7add51fe4c81a83fffdb",
+  "brainhub_tensor_sha256": "941dc3bab0dc10ff79dfab9fa25b343016a0f8202eadc8585d02aad0d7156d65",
+  "evaluation_png_sha256": "d80bbaba7fbbfccb5c1d86b81d60d67cbf97de7e75ce3ea9f97c677cbf3e98d3",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595496.7430005
+}

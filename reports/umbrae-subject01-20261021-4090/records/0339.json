@@ -1,0 +1,33 @@
+{
+  "raw_response": "<s> A group of waves are crashing in the ocean.</s>",
+  "caption": "A group of waves are crashing in the ocean.",
+  "token_ids": [
+    1,
+    319,
+    2318,
+    310,
+    20037,
+    526,
+    8095,
+    292,
+    297,
+    278,
+    23474,
+    29889,
+    2
+  ],
+  "feature_sha256": "75deef0cffb164075160ef3fdc08a3e1c60244e44877c424b2611b7ae8647b92",
+  "native_index": 339,
+  "nsd_id0": 26307,
+  "shard": 0,
+  "sample": "sample000003463",
+  "brain_sha256": "632d2eb860f4d1e4052bf6c42e7fd60284bfcc9c3fda769a1492b1ee01bab589",
+  "jpeg_sha256": "0264f12abb2ca55af568dadfc3f22573cc6ab34f36f8d86889a324d631cc91bf",
+  "brainhub_tensor_sha256": "38f67e0124646a7cea96d684c68193c1509a8cfb35d62df7ebb46d686af9267e",
+  "evaluation_png_sha256": "901f867c50461bc713d103205131294629ae25420f01c15715ed7a4b76c0bac1",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595363.1405773
+}

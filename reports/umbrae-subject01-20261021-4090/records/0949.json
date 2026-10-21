@@ -1,0 +1,32 @@
+{
+  "raw_response": "<s> A man and woman posing for a picture.</s>",
+  "caption": "A man and woman posing for a picture.",
+  "token_ids": [
+    1,
+    319,
+    767,
+    322,
+    6114,
+    926,
+    292,
+    363,
+    263,
+    7623,
+    29889,
+    2
+  ],
+  "feature_sha256": "b762a1554f15ae5ee143a7887bc2cd855017c172cc631d08d0b3b12669df0050",
+  "native_index": 949,
+  "nsd_id0": 70193,
+  "shard": 1,
+  "sample": "sample000009473",
+  "brain_sha256": "796cd642810643cee8e128bc13d2969b7ad3d51fd66feb11bf3e8ea3ede3aee8",
+  "jpeg_sha256": "b9d870276252f8e2c5344c3b7e5699e7627b941a722765999fb7d5614b238827",
+  "brainhub_tensor_sha256": "27a3dd95d2e0eb6fccbdbfa929d3a96ee037f41732b4e6d466ab8dcd23a8f4ff",
+  "evaluation_png_sha256": "a268034c13319ca0f59f5f3abd9aab660a8b02f3d9a619a35b45ce232fdaedd0",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595523.5654533
+}

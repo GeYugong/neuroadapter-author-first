@@ -1,0 +1,32 @@
+{
+  "raw_response": "<s> A bird walking on the beach near the ocean.</s>",
+  "caption": "A bird walking on the beach near the ocean.",
+  "token_ids": [
+    1,
+    319,
+    11199,
+    22049,
+    373,
+    278,
+    25695,
+    2978,
+    278,
+    23474,
+    29889,
+    2
+  ],
+  "feature_sha256": "9bb3abe65abf225c254c65fc16f19689a11ff851e8e2c3e6761507aa4944fb85",
+  "native_index": 43,
+  "nsd_id0": 5285,
+  "shard": 0,
+  "sample": "sample000000664",
+  "brain_sha256": "bdefc3b9cf799376ac09efe852e7387a5f77ee18452e4ec1a709f28afa6516d9",
+  "jpeg_sha256": "1dc7cf7d4569d121c6ec0b01c2f7ed62daadaef3a381de001e1eeea471754983",
+  "brainhub_tensor_sha256": "d1407926ceb8b42aa65d71a450e65602bd7bbe6d80288ed1682205a920d31d0e",
+  "evaluation_png_sha256": "91ad77afc2d97dc0801712e61e908e0521eee0e85ca6dcc8442144bf2ccc3bdb",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595287.5297277
+}

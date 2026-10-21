@@ -1,0 +1,33 @@
+{
+  "raw_response": "<s> A cluttered kitchen with a lot of items.</s>",
+  "caption": "A cluttered kitchen with a lot of items.",
+  "token_ids": [
+    1,
+    319,
+    1067,
+    6463,
+    287,
+    29181,
+    411,
+    263,
+    3287,
+    310,
+    4452,
+    29889,
+    2
+  ],
+  "feature_sha256": "b74a5e9f758f419f99f35f48ddcc002f99981b6161fee1c9dacaa7be63d24a9c",
+  "native_index": 649,
+  "nsd_id0": 48379,
+  "shard": 1,
+  "sample": "sample000006516",
+  "brain_sha256": "44ec765079ec2b305d3ff21ea36c39bc61d7f012d0b60b2cb215ef2a73976e07",
+  "jpeg_sha256": "8ae4cb7cfd88cb668168405a4d154adcc46c6715e27757a7d39c76325cdf582a",
+  "brainhub_tensor_sha256": "0ce259a267acaec1516198c876632d579b16aa61c723e1fb708482d476d55fb3",
+  "evaluation_png_sha256": "9ffb2f6a35dbf65d48cb46dd14e1ad22595c9b0204fced91b030f9b8f2c53241",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595446.726672
+}

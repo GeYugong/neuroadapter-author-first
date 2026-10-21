@@ -1,0 +1,33 @@
+{
+  "raw_response": "<s> A number of different briefcases lined up together.</s>",
+  "caption": "A number of different briefcases lined up together.",
+  "token_ids": [
+    1,
+    319,
+    1353,
+    310,
+    1422,
+    11473,
+    11436,
+    301,
+    1312,
+    701,
+    4208,
+    29889,
+    2
+  ],
+  "feature_sha256": "3cc4b7830901254851af76a4acd109a1ca56a20ecc0dd80f19bf3327504dbb62",
+  "native_index": 687,
+  "nsd_id0": 51077,
+  "shard": 1,
+  "sample": "sample000006866",
+  "brain_sha256": "7a13e46f827fceab08cdfce99a820bc13b8064b92b5b888bec04f779a72de7b7",
+  "jpeg_sha256": "5a215fa72b5c7fd6491c7c3f90a6fb57f7563c9103bcbb2060bdb35039f06269",
+  "brainhub_tensor_sha256": "c05132639cd2d864aba28ea782dab8a040bbc5b72acf717b60e19dc213659ff2",
+  "evaluation_png_sha256": "9a6ceac062bcfbff3e314b1a6fe707c66b7706945e8068927fd5dbda4e2ff6b9",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595456.7130578
+}

@@ -1,0 +1,32 @@
+{
+  "raw_response": "<s> A group of animals standing next to each other.</s>",
+  "caption": "A group of animals standing next to each other.",
+  "token_ids": [
+    1,
+    319,
+    2318,
+    310,
+    15006,
+    13407,
+    2446,
+    304,
+    1269,
+    916,
+    29889,
+    2
+  ],
+  "feature_sha256": "d0859e03bb205b4849da9fe879870725e6e2ebc4e49512eb0ed0e504936247c8",
+  "native_index": 514,
+  "nsd_id0": 39553,
+  "shard": 1,
+  "sample": "sample000005318",
+  "brain_sha256": "61b0d298da8915cbff1c588f96f1d14d9590b717a9ebb49619970858ded5a4b7",
+  "jpeg_sha256": "e466a72e45a7d6eb34179f58558bab121f6d4cea52f1f3138f9b04aa2f2cd810",
+  "brainhub_tensor_sha256": "380e73c16eb3efd85ebae3b6d723c2158cf07d053979cd133350b62eb4cb8be5",
+  "evaluation_png_sha256": "401fadefbe4f54c77433cd0e223197e470387129a81390b06dba76684b1d0cd6",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595408.282401
+}

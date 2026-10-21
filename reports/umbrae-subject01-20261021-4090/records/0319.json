@@ -1,0 +1,31 @@
+{
+  "raw_response": "<s> A large group of people at a dinner.</s>",
+  "caption": "A large group of people at a dinner.",
+  "token_ids": [
+    1,
+    319,
+    2919,
+    2318,
+    310,
+    2305,
+    472,
+    263,
+    17803,
+    29889,
+    2
+  ],
+  "feature_sha256": "f2e3881e208b10ac196c50d8fabe58ffce84e214a3ffc80cfe4674c4d2a23f6b",
+  "native_index": 319,
+  "nsd_id0": 25371,
+  "shard": 0,
+  "sample": "sample000003344",
+  "brain_sha256": "36a2fea1e96f301dfd0a788c87372c536b6eba467c001cd34f80ebe1582d28b8",
+  "jpeg_sha256": "a5fe6fa652c57dd26beb29bcba1694c013f5fb712b16c6e482359f439ddb0959",
+  "brainhub_tensor_sha256": "dcfef9cb84a36196f3a7a6aceb2626ce8201f4a5eb9d3251fd6e30a55c42b58f",
+  "evaluation_png_sha256": "362d1d5f08f7699c899e2d9e2e0851f038aa29927e46877763a61ba0a4c6b54b",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595357.6326358
+}

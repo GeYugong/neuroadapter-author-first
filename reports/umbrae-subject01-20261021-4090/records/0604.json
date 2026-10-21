@@ -1,0 +1,31 @@
+{
+  "raw_response": "<s> A cat sitting and looking up at something.</s>",
+  "caption": "A cat sitting and looking up at something.",
+  "token_ids": [
+    1,
+    319,
+    6635,
+    16246,
+    322,
+    3063,
+    701,
+    472,
+    1554,
+    29889,
+    2
+  ],
+  "feature_sha256": "00c8510b135e1f767edf79ac248422b7ff15fc4cd548a9ea8e88602ee0f8ad56",
+  "native_index": 604,
+  "nsd_id0": 45356,
+  "shard": 1,
+  "sample": "sample000006102",
+  "brain_sha256": "2bf2d0fd1bb08727027497290f81dfcb32b8fd84f14f15bba5ef45be1af9e8c3",
+  "jpeg_sha256": "8329028aba8af74708d1cfd19d6b4d72d1fa11e6accff9a43375483173876f4e",
+  "brainhub_tensor_sha256": "d2943333ba301b007e0d407c71bcd4d76279533b935d313cfdb6595756869ad7",
+  "evaluation_png_sha256": "77579265c24c5db64b2bf74efbd252aabfff7dc6fadc5b55c5488c5aafaa8244",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595435.1955144
+}

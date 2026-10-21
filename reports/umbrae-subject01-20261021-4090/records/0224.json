@@ -1,0 +1,33 @@
+{
+  "raw_response": "<s> A train on one of several tracks in a forest.</s>",
+  "caption": "A train on one of several tracks in a forest.",
+  "token_ids": [
+    1,
+    319,
+    7945,
+    373,
+    697,
+    310,
+    3196,
+    16257,
+    297,
+    263,
+    13569,
+    29889,
+    2
+  ],
+  "feature_sha256": "092991111f70d66a12fa9b4d397c4f471e9d3d965bb211c31286322ce2e8c819",
+  "native_index": 224,
+  "nsd_id0": 19199,
+  "shard": 0,
+  "sample": "sample000002484",
+  "brain_sha256": "24ca6f9d656c4fd54f205e0ea283ceb7cd403ca90b917a373417a35083099e50",
+  "jpeg_sha256": "c1233c36131626eb47ed2cb0eeef62673a68adc483005b6161bbac5e4dcb3e5c",
+  "brainhub_tensor_sha256": "134bbb7a8aeb6fce3495a70b2dfe6454f12d16fd1ffeb192b57f373a83edf560",
+  "evaluation_png_sha256": "ce6312b23d99211dcda6f9d22164c2d89b881699f24454d094374acf3f043d4b",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595333.451545
+}

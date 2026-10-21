@@ -1,0 +1,32 @@
+{
+  "raw_response": "<s> A large transport truck driving down a road.</s>",
+  "caption": "A large transport truck driving down a road.",
+  "token_ids": [
+    1,
+    319,
+    2919,
+    8608,
+    534,
+    2707,
+    19500,
+    1623,
+    263,
+    6520,
+    29889,
+    2
+  ],
+  "feature_sha256": "1f6e05e5488fb49290ea0f17bcf8d09cae56aa0988bbe95e7649eee0ee393a07",
+  "native_index": 225,
+  "nsd_id0": 19200,
+  "shard": 0,
+  "sample": "sample000002485",
+  "brain_sha256": "02eb051b61cdbe99688c36e1979cc4dd98ac63610d231d55b6c6a00ff43e7643",
+  "jpeg_sha256": "1b4e38c4f5f7310f68af07ec7c25c6a3894ac54d6eef64b8e9fd8b4faf109158",
+  "brainhub_tensor_sha256": "8b79d7d0cd980bdbfbef9183b5f76d58b766c1536cad378a032410999b59a4e7",
+  "evaluation_png_sha256": "93a4aed56ad5f3803be6c2060d1e8e2d50be3545ef21a982bb5f772ccd73c99a",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595333.672396
+}

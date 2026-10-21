@@ -1,0 +1,32 @@
+{
+  "raw_response": "<s> A small airplane flying through a blue sky.</s>",
+  "caption": "A small airplane flying through a blue sky.",
+  "token_ids": [
+    1,
+    319,
+    2319,
+    4799,
+    22116,
+    22764,
+    1549,
+    263,
+    7254,
+    14744,
+    29889,
+    2
+  ],
+  "feature_sha256": "3c3890935c278c1748d34337538622f4ff18c3f4343c8662aee5201ab7f28c38",
+  "native_index": 143,
+  "nsd_id0": 12214,
+  "shard": 0,
+  "sample": "sample000001586",
+  "brain_sha256": "dccedc100f2a4cbfecc5d46dacbbbadb2aefb02c12d2c38da36037055dfc54b2",
+  "jpeg_sha256": "9547d7fbed15c089ba2ec273c050990b7e9130091a8c39103ce151c84873d4cc",
+  "brainhub_tensor_sha256": "7e9ff188745577760226adeebcab9a98748e522dca7f6fa97c8eea7abcaa5e31",
+  "evaluation_png_sha256": "c027c0eab74fbbeb5b49dcceaabbc4ee9798bb7c652758df7cadb482614e432c",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595313.0443592
+}

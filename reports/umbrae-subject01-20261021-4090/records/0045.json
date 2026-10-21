@@ -1,0 +1,31 @@
+{
+  "raw_response": "<s> A group of people standing around each other.</s>",
+  "caption": "A group of people standing around each other.",
+  "token_ids": [
+    1,
+    319,
+    2318,
+    310,
+    2305,
+    13407,
+    2820,
+    1269,
+    916,
+    29889,
+    2
+  ],
+  "feature_sha256": "ea4249ffdce630b5e14465bcfda240a186cfa2dd60671657bdfeb513bdb1b3aa",
+  "native_index": 45,
+  "nsd_id0": 5338,
+  "shard": 0,
+  "sample": "sample000000669",
+  "brain_sha256": "b8267e2c50585bc541b65ba6c04517081811eca78adbd9a2f4a4436be81cfeec",
+  "jpeg_sha256": "520042c11dbf35f3669b97ed9d4288b76c143f7974c422f4e8134ead47be85ed",
+  "brainhub_tensor_sha256": "c6634383f7606acbecb43d5e9ae2b90da618225c43cb00d632917302eb12dc00",
+  "evaluation_png_sha256": "626494af4d7761d933f9e2f73049262c17e5320d73fbc4eaeb30c1ca9e48e79e",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595287.9529283
+}

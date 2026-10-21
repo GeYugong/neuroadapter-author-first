@@ -1,0 +1,33 @@
+{
+  "raw_response": "<s> a bird on a rock with a blurry background</s>",
+  "caption": "a bird on a rock with a blurry background",
+  "token_ids": [
+    1,
+    263,
+    11199,
+    373,
+    263,
+    7679,
+    411,
+    263,
+    1999,
+    332,
+    719,
+    3239,
+    2
+  ],
+  "feature_sha256": "16e504085da9f4e50b1199f91291443a5120a38f8455ce9458b5d328de149ee1",
+  "native_index": 386,
+  "nsd_id0": 29568,
+  "shard": 0,
+  "sample": "sample000003924",
+  "brain_sha256": "38a7f574f71ccf3f49df994a519da4b80449f43cb8bff53e3952000e4b2bdbb0",
+  "jpeg_sha256": "b5c236d8f0946025fd4db05cb7b5fcc04f41ac4ba2d4f74b68d4feb6780cc2e7",
+  "brainhub_tensor_sha256": "c87beaf3d9f862f8227b921736b6cf0a77111e0f40d42b3dde908d0c96ccedf0",
+  "evaluation_png_sha256": "7532bb9da3022dd015d2e832c8a651c22f92e64fde832abd15f394bd30982a94",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595375.2735605
+}

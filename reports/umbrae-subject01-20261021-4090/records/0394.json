@@ -1,0 +1,32 @@
+{
+  "raw_response": "<s> A stop sign on the side of the road.</s>",
+  "caption": "A stop sign on the side of the road.",
+  "token_ids": [
+    1,
+    319,
+    5040,
+    1804,
+    373,
+    278,
+    2625,
+    310,
+    278,
+    6520,
+    29889,
+    2
+  ],
+  "feature_sha256": "187981092da09d98b128a014215eef29ad5309ce0e1c5049cce94c0e8267c07a",
+  "native_index": 394,
+  "nsd_id0": 30081,
+  "shard": 0,
+  "sample": "sample000003995",
+  "brain_sha256": "b762803f4701c7b49ac03b944baccfbbb1055d75099b66d191a71eb4a5742dd4",
+  "jpeg_sha256": "6b5dea57500ed4b8b69d5ce6564eec58866bcf864da7214d23e9e35abab929eb",
+  "brainhub_tensor_sha256": "b75fe19ba73ac2b88dbb9223b06afd4ed24e33ea8ca01fe1e2a1548b3255636b",
+  "evaluation_png_sha256": "fe358bfc08e130459b1230ec651002e7e557a5d6e8c2267b25c6e54e6f52097b",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595377.272974
+}

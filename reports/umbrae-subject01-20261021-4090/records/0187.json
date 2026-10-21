@@ -1,0 +1,30 @@
+{
+  "raw_response": "<s> A large bus is driving down the street</s>",
+  "caption": "A large bus is driving down the street",
+  "token_ids": [
+    1,
+    319,
+    2919,
+    3593,
+    338,
+    19500,
+    1623,
+    278,
+    11952,
+    2
+  ],
+  "feature_sha256": "2265ab33dcd73bc313f592a95183fd23fcf0bd0779633b0e3aeaa98c8c35cfe2",
+  "native_index": 187,
+  "nsd_id0": 16344,
+  "shard": 0,
+  "sample": "sample000002119",
+  "brain_sha256": "d49840588f01e265286da49a500b08b8412fb5333ab004421dcd3201b95c19ba",
+  "jpeg_sha256": "0f892149d847caf23afff941c14836cb0c07f0dcc7610c6108e187644e874737",
+  "brainhub_tensor_sha256": "916cd616d0f837825d63507dd51df2adf54bc52ece8c1fd36f714b269fed33b1",
+  "evaluation_png_sha256": "6e6a6efbdc0d6789cd2c3cdd8105b8a89df5514ee8f3f94fdf2c510877928464",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595324.208647
+}

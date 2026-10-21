@@ -1,0 +1,32 @@
+{
+  "raw_response": "<s> A person on a snowboard on a mountain.</s>",
+  "caption": "A person on a snowboard on a mountain.",
+  "token_ids": [
+    1,
+    319,
+    2022,
+    373,
+    263,
+    15007,
+    3377,
+    373,
+    263,
+    14378,
+    29889,
+    2
+  ],
+  "feature_sha256": "f5391968d4affe276867ea7bffca40985c70b6dca32a4219e3edb97dd7e21289",
+  "native_index": 660,
+  "nsd_id0": 48832,
+  "shard": 1,
+  "sample": "sample000006576",
+  "brain_sha256": "64fc1eba90eedfc38dbdb0a895d5a8bf62fc2509890a7335a4591c151ce0291c",
+  "jpeg_sha256": "fb1b785488a8453732d259c1956600e910b5f93f4d7288f86d3d526f543de093",
+  "brainhub_tensor_sha256": "048094f5df02faf61e9ea2416612b69e7fcb9ad74359f3b2df371c3b0eef5d20",
+  "evaluation_png_sha256": "79d984c6efd235a29c2baa275b04565099aad63bd6257750a9b8f17e88c819af",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595449.5516775
+}

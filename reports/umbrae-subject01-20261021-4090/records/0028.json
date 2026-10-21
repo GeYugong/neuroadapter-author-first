@@ -1,0 +1,32 @@
+{
+  "raw_response": "<s> Two birds sitting on top branches of a tree.</s>",
+  "caption": "Two birds sitting on top branches of a tree.",
+  "token_ids": [
+    1,
+    7803,
+    17952,
+    16246,
+    373,
+    2246,
+    14202,
+    310,
+    263,
+    5447,
+    29889,
+    2
+  ],
+  "feature_sha256": "476376ecece3deb883234eeaabe0d07b7667eb2d04101f13d733b28e6a0d263f",
+  "native_index": 28,
+  "nsd_id0": 4325,
+  "shard": 0,
+  "sample": "sample000000532",
+  "brain_sha256": "f89da9ddd8be5cac70f1271b34778d13a5b40ef9ffc8e99d7580fa0cd160c7d4",
+  "jpeg_sha256": "c54af186d1c4a8c37ed24a372e14dc32b9a8850dfbc18841756df44697e8498f",
+  "brainhub_tensor_sha256": "b7283a04c13406ec75590d085e2cea17289ebf81c54d4e689a1db7b114260ebb",
+  "evaluation_png_sha256": "339b4a0f9dabed39a3bc515ad6745266435710c843ee0404547aab6bb4aff0cd",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595283.68107
+}

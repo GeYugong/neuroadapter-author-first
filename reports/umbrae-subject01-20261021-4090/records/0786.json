@@ -1,0 +1,32 @@
+{
+  "raw_response": "<s> Two adult horses look at something in a field.</s>",
+  "caption": "Two adult horses look at something in a field.",
+  "token_ids": [
+    1,
+    7803,
+    16157,
+    15100,
+    1106,
+    472,
+    1554,
+    297,
+    263,
+    1746,
+    29889,
+    2
+  ],
+  "feature_sha256": "3c6662f7622ada80b0cefab7583bd16738abcd6524ff449e777ee1d8f6789044",
+  "native_index": 786,
+  "nsd_id0": 57838,
+  "shard": 1,
+  "sample": "sample000007784",
+  "brain_sha256": "d490beff4818b680662d96ce0c1675708725d445a10fe40105ba722399c1d10e",
+  "jpeg_sha256": "f91c8eee4cb2c7436b342dbd41792a32c5f602e538a4d14edca81075d7bf2f20",
+  "brainhub_tensor_sha256": "dea6e37f44aab18488137002cee412d3137140f14ff68323286c5351d48db3a3",
+  "evaluation_png_sha256": "f5f43464ab739772b46532198badd8152477e30b18481b76c636f220ffa28e83",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595481.7850006
+}

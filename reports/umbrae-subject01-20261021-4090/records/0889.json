@@ -1,0 +1,32 @@
+{
+  "raw_response": "<s> A large bird is in the water looking around.</s>",
+  "caption": "A large bird is in the water looking around.",
+  "token_ids": [
+    1,
+    319,
+    2919,
+    11199,
+    338,
+    297,
+    278,
+    4094,
+    3063,
+    2820,
+    29889,
+    2
+  ],
+  "feature_sha256": "f78037fbbdb885cd05bd9ec06ef5ed63441cf9f3cc6e022969d20269765bf2ad",
+  "native_index": 889,
+  "nsd_id0": 65920,
+  "shard": 1,
+  "sample": "sample000008899",
+  "brain_sha256": "7517a1cee3f3fb18fc0279af7b7359fcda664fcd3637d12009729927ca4d5f2b",
+  "jpeg_sha256": "3c9461572f1630089498d2ff9a40f23e6bfba30810ac7b67a6faae53b38d2bc2",
+  "brainhub_tensor_sha256": "bb2d50cff8a5dae5e22dc1514774e3272acaf45f46eca5356523d7666ca7e868",
+  "evaluation_png_sha256": "61f4e05df76b64d35f222904b4a115d5aed7c89944a507fb7f836205c83e59f5",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595508.219986
+}

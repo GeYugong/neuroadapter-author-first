@@ -1,0 +1,33 @@
+{
+  "raw_response": "<s> A kitchen with windows, cabinets and a sink.</s>",
+  "caption": "A kitchen with windows, cabinets and a sink.",
+  "token_ids": [
+    1,
+    319,
+    29181,
+    411,
+    5417,
+    29892,
+    28830,
+    1691,
+    322,
+    263,
+    28169,
+    29889,
+    2
+  ],
+  "feature_sha256": "73d00c68a2b05a97c65ac5024d2f7a090d6c1d582ec1071b28ce82ef6f6f0a2b",
+  "native_index": 959,
+  "nsd_id0": 70758,
+  "shard": 1,
+  "sample": "sample000009552",
+  "brain_sha256": "492cf6e33ee6191c7eac36b1d285baa25b0f9d1a603a3cc3aa34e76d7b0010a2",
+  "jpeg_sha256": "5a01ce59d2189d63dca10f3f33682e958293796e672bf512b90b69b6b60a4fde",
+  "brainhub_tensor_sha256": "46e8d61ddda0fabb3ba1673b1e0d2ce0fab02d964585ee22aacae04392142d2e",
+  "evaluation_png_sha256": "f71d97fe9e928df6a2ea472478e5f33d5aead97618fe41c7b6afdc12adb4885c",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595526.1674433
+}

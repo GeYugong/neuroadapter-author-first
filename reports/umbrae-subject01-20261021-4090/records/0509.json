@@ -1,0 +1,33 @@
+{
+  "raw_response": "<s> A group of boats floating in a body of water.</s>",
+  "caption": "A group of boats floating in a body of water.",
+  "token_ids": [
+    1,
+    319,
+    2318,
+    310,
+    25462,
+    16526,
+    297,
+    263,
+    3573,
+    310,
+    4094,
+    29889,
+    2
+  ],
+  "feature_sha256": "54c74b46acae1f1ab3decf6e6a8d77a4594ea2749111ab4a83f2d84f7ce74869",
+  "native_index": 509,
+  "nsd_id0": 39298,
+  "shard": 1,
+  "sample": "sample000005277",
+  "brain_sha256": "83a8f521a2842b758cfc19c780d69a694e81677ce32490471003ee4fd17fea0a",
+  "jpeg_sha256": "a1cf9822ae61f0f4b2017a5503100491b4dda465e5b37f412f898b9a8eb28a58",
+  "brainhub_tensor_sha256": "f03a25451bc89a30b65a2d8be521a165f56ded768d0df8d3e2891812488ce054",
+  "evaluation_png_sha256": "bafb4933ec236302b1795871f2643f99c5fee31e6b4f38fc8445181ed15b149c",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595407.0153503
+}

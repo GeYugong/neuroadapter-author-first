@@ -1,0 +1,31 @@
+{
+  "raw_response": "<s> Three women sitting down next to each other.</s>",
+  "caption": "Three women sitting down next to each other.",
+  "token_ids": [
+    1,
+    12753,
+    5866,
+    16246,
+    1623,
+    2446,
+    304,
+    1269,
+    916,
+    29889,
+    2
+  ],
+  "feature_sha256": "6edff8995ed4dbf89266b80cb1c032e01b6d05a5ef0f31d6576f540a235d1451",
+  "native_index": 675,
+  "nsd_id0": 50026,
+  "shard": 1,
+  "sample": "sample000006737",
+  "brain_sha256": "a8cb54b312b89f173a412dcf2e9e7ffc4023ef5e921b66a12fe1864e809f52df",
+  "jpeg_sha256": "63d3ef7635e7dddf651e69ea56dec17f6cfa82e34fe777a396330c902a7e7038",
+  "brainhub_tensor_sha256": "a8c8241012013f7dbb6becb4c986e952075746c61908d9f8325fb0018f64cea5",
+  "evaluation_png_sha256": "29ce27941cbd1e3b4447253a06e9821b76bb30806c7c2bd180288c125b4404e3",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595453.5790546
+}

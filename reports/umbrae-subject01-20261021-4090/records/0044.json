@@ -1,0 +1,32 @@
+{
+  "raw_response": "<s> A vase filled with flowers on a table.</s>",
+  "caption": "A vase filled with flowers on a table.",
+  "token_ids": [
+    1,
+    319,
+    325,
+    559,
+    10423,
+    411,
+    18281,
+    373,
+    263,
+    1591,
+    29889,
+    2
+  ],
+  "feature_sha256": "4582da89fe09a4a763c8e945851c6700ff13675e6499b03eca4855a152637de1",
+  "native_index": 44,
+  "nsd_id0": 5301,
+  "shard": 0,
+  "sample": "sample000000665",
+  "brain_sha256": "d3ea159c34c3c1e34713cea0b3dcd2b1fb029e6c1a37a031333c2cc550cd9e02",
+  "jpeg_sha256": "dde573c7eb2f34b6df59de65d740c8be661321c507bfe5262d7bb0049373a1e3",
+  "brainhub_tensor_sha256": "571ffe8c01217e94b00cee09440b2f5497954fe9bb9f7fa6673e3585042f3d00",
+  "evaluation_png_sha256": "c4635118a93855713c9705c2b2b0542b7d4f11932120f334c84e010da1840f21",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595287.7502198
+}

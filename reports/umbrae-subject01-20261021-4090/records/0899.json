@@ -1,0 +1,33 @@
+{
+  "raw_response": "<s> A man standing in a field next to a forest.</s>",
+  "caption": "A man standing in a field next to a forest.",
+  "token_ids": [
+    1,
+    319,
+    767,
+    13407,
+    297,
+    263,
+    1746,
+    2446,
+    304,
+    263,
+    13569,
+    29889,
+    2
+  ],
+  "feature_sha256": "b5ecea0f636f1029d799b65dc788ebff0e2822a1dac4c895b7a610fca12ac266",
+  "native_index": 899,
+  "nsd_id0": 66479,
+  "shard": 1,
+  "sample": "sample000008976",
+  "brain_sha256": "b88b13647fc88632bef6f1ac6681c46aa63e1071f805396ebab41c31ca836c20",
+  "jpeg_sha256": "3694949511a42a2374f501b65445a9f41ccc1f4e6b402374ab728dffd9c48880",
+  "brainhub_tensor_sha256": "82a545fd5caa01e0e59a63cd027a533ecf170063996eacd632f9b91c69a7e745",
+  "evaluation_png_sha256": "c8a97fa02ae42fc4ddcbb06e223eb7efb04c8dac5254e4b3b90c970aa46eae28",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595510.7319283
+}

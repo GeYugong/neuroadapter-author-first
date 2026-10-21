@@ -1,0 +1,32 @@
+{
+  "raw_response": "<s> A large city with a lot of tall buildings.</s>",
+  "caption": "A large city with a lot of tall buildings.",
+  "token_ids": [
+    1,
+    319,
+    2919,
+    4272,
+    411,
+    263,
+    3287,
+    310,
+    15655,
+    13814,
+    29889,
+    2
+  ],
+  "feature_sha256": "fd6051823a24650525b82bb8082fae12c0f79aecaf39e2b18d998b3af5d853bb",
+  "native_index": 484,
+  "nsd_id0": 37436,
+  "shard": 0,
+  "sample": "sample000005017",
+  "brain_sha256": "e2f93ac4121d378ab01dd00f175f8712f978cb6f5bc8b43f0e870e6b2701f5cc",
+  "jpeg_sha256": "0a3d2ec5950c60758a15bfcbec6ba972567d8b04a41f1db7e86837c6d43496fb",
+  "brainhub_tensor_sha256": "c036be69c25d0195ead67221172d52776623b30d03d1a8312ceed39994dfba7a",
+  "evaluation_png_sha256": "49f85fd7b23e76c971ae3b659e3ef0f236d790dfbcc0141eac7c2b8d825afee2",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595400.6185367
+}

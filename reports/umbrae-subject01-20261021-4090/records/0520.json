@@ -1,0 +1,33 @@
+{
+  "raw_response": "<s> A girl sits on a bed looking at something.</s>",
+  "caption": "A girl sits on a bed looking at something.",
+  "token_ids": [
+    1,
+    319,
+    7826,
+    269,
+    1169,
+    373,
+    263,
+    6592,
+    3063,
+    472,
+    1554,
+    29889,
+    2
+  ],
+  "feature_sha256": "b926d6dc216e0a9430755359109bef6454befb0a54cc039ab7b1fdeb868dcfe9",
+  "native_index": 520,
+  "nsd_id0": 40548,
+  "shard": 1,
+  "sample": "sample000005446",
+  "brain_sha256": "69ab76735920fd3cda633d40e02cb5bf770512e78132d281a48ef4094947a52b",
+  "jpeg_sha256": "8bdddbf0ae1f3ccb1bf5b2b41977b2589efb8065b97c4b7a05f7b5d4854df393",
+  "brainhub_tensor_sha256": "710f978844c06c37f100d4e7f41571a0cf901415a15e3b9599aae96862fda53a",
+  "evaluation_png_sha256": "08f071e318b3f71f50e49007c04dae90e8db6425c905fcceaf9daf9906fc6632",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595409.9290068
+}

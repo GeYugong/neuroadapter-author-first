@@ -1,0 +1,32 @@
+{
+  "raw_response": "<s> A bathroom with a large mirror above the sink</s>",
+  "caption": "A bathroom with a large mirror above the sink",
+  "token_ids": [
+    1,
+    319,
+    27683,
+    8345,
+    411,
+    263,
+    2919,
+    19571,
+    2038,
+    278,
+    28169,
+    2
+  ],
+  "feature_sha256": "abb896349b85786339a08a8678be1091823a1cc59a98655a579edee8b636c5b8",
+  "native_index": 118,
+  "nsd_id0": 10393,
+  "shard": 0,
+  "sample": "sample000001341",
+  "brain_sha256": "716d551674576a0f004a595e50a77b8e4b9267766269cb13ad840189286a4cc0",
+  "jpeg_sha256": "45c238ab2282c96ac215901a7303b4601ebbf620115da61136d0834408f1dadd",
+  "brainhub_tensor_sha256": "334edb53a6315c4cec5e7c995d226705199b2524d70c89e0e9f8905e335ab3b0",
+  "evaluation_png_sha256": "1216c17c78090218872ff8a4bbdad62e01d1ae38ed20d2680a7c096bd81521f9",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595306.36029
+}

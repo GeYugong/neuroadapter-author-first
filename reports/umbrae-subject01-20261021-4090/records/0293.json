@@ -1,0 +1,31 @@
+{
+  "raw_response": "<s> A group of people standing around a street.</s>",
+  "caption": "A group of people standing around a street.",
+  "token_ids": [
+    1,
+    319,
+    2318,
+    310,
+    2305,
+    13407,
+    2820,
+    263,
+    11952,
+    29889,
+    2
+  ],
+  "feature_sha256": "98f022164b7cd789a24e446813339aad22a3f40cc593734b7c2092079754f3b6",
+  "native_index": 293,
+  "nsd_id0": 23993,
+  "shard": 0,
+  "sample": "sample000003143",
+  "brain_sha256": "9535b7bf2b1da94215ad7a2643c224818407dd6d10e22bba742223b97c91533e",
+  "jpeg_sha256": "e541a5f5d221aba42d8e9217acee09908f6aaa534a40506c6dfb805b0abf7cb3",
+  "brainhub_tensor_sha256": "e471dd5d405e11c702dec15f0c85400a30dfd07efbc8f332fb4aa4ce983c30fd",
+  "evaluation_png_sha256": "a78ef864f10b2364b09b4d0d88d789a476c4c4724da64c0c3070fb455d4ffd9b",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595350.9958665
+}

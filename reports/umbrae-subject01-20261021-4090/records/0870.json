@@ -1,0 +1,32 @@
+{
+  "raw_response": "<s> A bathroom sink sitting under a large mirror.</s>",
+  "caption": "A bathroom sink sitting under a large mirror.",
+  "token_ids": [
+    1,
+    319,
+    27683,
+    8345,
+    28169,
+    16246,
+    1090,
+    263,
+    2919,
+    19571,
+    29889,
+    2
+  ],
+  "feature_sha256": "54869094d39a85c3c3b5f5376a3f3a22fdb741db1af805adb7c75e6bc1d4f05f",
+  "native_index": 870,
+  "nsd_id0": 64893,
+  "shard": 1,
+  "sample": "sample000008757",
+  "brain_sha256": "af399b6a8afb0354c3f5be082f4d73c4571fa72fa8309568388b603bd68781fc",
+  "jpeg_sha256": "94d65e2192cc443518a9a84aa294a883090b83e1350d72024f3649aed1cf2b84",
+  "brainhub_tensor_sha256": "6e52cbdcfb2459439263c747cb7ab6e76c8572d9bfae7b275a960ef9454d77fb",
+  "evaluation_png_sha256": "04c3c8520dd01ec7eeada477dca29f78b58a9e683a7d804e8a529667b50c194a",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595503.5224822
+}

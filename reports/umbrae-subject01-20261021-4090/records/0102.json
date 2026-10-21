@@ -1,0 +1,32 @@
+{
+  "raw_response": "<s> A small dog walking across a grass covered field.</s>",
+  "caption": "A small dog walking across a grass covered field.",
+  "token_ids": [
+    1,
+    319,
+    2319,
+    11203,
+    22049,
+    4822,
+    263,
+    17455,
+    10664,
+    1746,
+    29889,
+    2
+  ],
+  "feature_sha256": "428fd8531d5fd22eb40011ac8c1e87bce6bece980050b298d498650540d92cc4",
+  "native_index": 102,
+  "nsd_id0": 9147,
+  "shard": 0,
+  "sample": "sample000001195",
+  "brain_sha256": "6afa21809bb48087a0df561daf3022e458b07d50ef862bad4ada029aa6fd3375",
+  "jpeg_sha256": "244adb791516dd13301a4f261503303da150f9584d53994b678f1a2977829868",
+  "brainhub_tensor_sha256": "cf3f36d2307f11f5f9c7ef6823c8641443b7839c33bb29102a3c7b69c7575315",
+  "evaluation_png_sha256": "beaa7e839a78fde4feba85d762a35d8f18535d02499b861f6cc744dd45038edd",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595302.1835735
+}

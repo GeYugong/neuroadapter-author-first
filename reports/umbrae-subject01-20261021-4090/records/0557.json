@@ -1,0 +1,32 @@
+{
+  "raw_response": "<s> A group of sheep grazing in a field.</s>",
+  "caption": "A group of sheep grazing in a field.",
+  "token_ids": [
+    1,
+    319,
+    2318,
+    310,
+    29735,
+    2646,
+    19583,
+    297,
+    263,
+    1746,
+    29889,
+    2
+  ],
+  "feature_sha256": "31032fcf3bd369804af102cc5aa928f712ffdd71d7586f5d2ee0d872c96227db",
+  "native_index": 557,
+  "nsd_id0": 42648,
+  "shard": 1,
+  "sample": "sample000005745",
+  "brain_sha256": "51f235c38c339c25c037fb6497f121e08f7c2ce5026ecf10497198558dd88d04",
+  "jpeg_sha256": "b83ebcb86cd3b238d5c15563f35ff9ed9a2702b9ad1174d6cf1e114042c22d5a",
+  "brainhub_tensor_sha256": "db330910e210e493da16d4e058f61b4cb1c7dbca786e81214b62f9cca3e20124",
+  "evaluation_png_sha256": "05ca777d66d40b945ed52cbcfb6dc40f46aa7004272e56f3a726b6e7be0cb712",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595419.3156059
+}

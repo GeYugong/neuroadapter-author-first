@@ -1,0 +1,32 @@
+{
+  "raw_response": "<s> A large fish is swimming in the water.</s>",
+  "caption": "A large fish is swimming in the water.",
+  "token_ids": [
+    1,
+    319,
+    2919,
+    9427,
+    338,
+    2381,
+    25217,
+    297,
+    278,
+    4094,
+    29889,
+    2
+  ],
+  "feature_sha256": "f1f8aec08b5645d4278f6cafb85805291f6f5e80e72561de015dc27ab9d53c18",
+  "native_index": 219,
+  "nsd_id0": 18543,
+  "shard": 0,
+  "sample": "sample000002408",
+  "brain_sha256": "4d495bcff9eaf09d57ec81a05c121415171321caeacba9c0b38864ec2c63b045",
+  "jpeg_sha256": "3a3bee3d1992fe17203dd87be10e44dce0aea3c031b255940b2d7b17c14679fe",
+  "brainhub_tensor_sha256": "e9c7a86724e9ad4f5f21b32427d1e9f334be2287843218b0d0c914a863f4b16f",
+  "evaluation_png_sha256": "2f84bf1058c837a41276c61c39e785190b4dd5d38adf10d986b526729dd87624",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595332.348323
+}

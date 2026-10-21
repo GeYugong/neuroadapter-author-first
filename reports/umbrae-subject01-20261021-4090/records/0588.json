@@ -1,0 +1,32 @@
+{
+  "raw_response": "<s> A plate full of different types of vegetables.</s>",
+  "caption": "A plate full of different types of vegetables.",
+  "token_ids": [
+    1,
+    319,
+    15284,
+    2989,
+    310,
+    1422,
+    4072,
+    310,
+    18655,
+    1849,
+    29889,
+    2
+  ],
+  "feature_sha256": "a12aad806a85ed2fb5c59cf5f520b92ac0cfde86e3b21ab90f334ab8605325fa",
+  "native_index": 588,
+  "nsd_id0": 44138,
+  "shard": 1,
+  "sample": "sample000005949",
+  "brain_sha256": "e247109f16a23db14129f22517668a033e337985bd94d40dd4c3381cd4eae966",
+  "jpeg_sha256": "9719aab43e9a227da67c6ef84336439d75786d90d15849602609718a0b33fbfe",
+  "brainhub_tensor_sha256": "67df8192b24af32f57dcb790196716b98f20e6378548ce63d0df2a135c4d7feb",
+  "evaluation_png_sha256": "1d1ff5614f85c16d4e005af917e30c0c2324645f56ba3e5b15af28ff239ce0b8",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595427.304538
+}

@@ -1,0 +1,32 @@
+{
+  "raw_response": "<s> A cat is laying down on a bed.</s>",
+  "caption": "A cat is laying down on a bed.",
+  "token_ids": [
+    1,
+    319,
+    6635,
+    338,
+    6568,
+    292,
+    1623,
+    373,
+    263,
+    6592,
+    29889,
+    2
+  ],
+  "feature_sha256": "dbf2c0614482dd8b1c69919172a84728304d299ab80f38edbd624c981656bc95",
+  "native_index": 547,
+  "nsd_id0": 42126,
+  "shard": 1,
+  "sample": "sample000005674",
+  "brain_sha256": "0b78e434560d4d33f0520862db2d341e90b8a8b3a430f6a70940aa5577bb32a5",
+  "jpeg_sha256": "70a09a8e539f5c538b1590da3293d7f9ed52d8e5aaa2c1858818a631007dced4",
+  "brainhub_tensor_sha256": "0cf41938f3a9914278e84b47fbc0f68f4d5aa5776d3510938d0b57a36d57ad64",
+  "evaluation_png_sha256": "be3fbf0ead1b3fa26e286efd6db4aede748e83c33ffd994cbceedc1a0719988c",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595416.8565462
+}

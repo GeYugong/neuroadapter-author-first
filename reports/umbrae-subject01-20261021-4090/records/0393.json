@@ -1,0 +1,33 @@
+{
+  "raw_response": "<s> A train is on the tracks next to a building.</s>",
+  "caption": "A train is on the tracks next to a building.",
+  "token_ids": [
+    1,
+    319,
+    7945,
+    338,
+    373,
+    278,
+    16257,
+    2446,
+    304,
+    263,
+    5214,
+    29889,
+    2
+  ],
+  "feature_sha256": "79c66939bcda4ff6884d572b9da267272d2877f0a5303edb4c78e0e927f6aef8",
+  "native_index": 393,
+  "nsd_id0": 29980,
+  "shard": 0,
+  "sample": "sample000003983",
+  "brain_sha256": "f75835cfd70c5eace3a74029a5cbe517158e62aa421e4ad019e341f16b328a53",
+  "jpeg_sha256": "16b3ad3261eec1fdd940ca3d5b83fba559fd499e10eac2933ed9c586496b8201",
+  "brainhub_tensor_sha256": "0fc7ccc92b3445459de13c72d76b72baead4961266c7e26c6b67d44dc3d3a235",
+  "evaluation_png_sha256": "aea76355ed81978a379fa49b6563a879987d950f4d900b46f6fb964b643ae384",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595377.052108
+}

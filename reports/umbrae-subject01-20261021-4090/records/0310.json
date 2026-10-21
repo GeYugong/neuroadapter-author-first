@@ -1,0 +1,33 @@
+{
+  "raw_response": "<s> A woman sitting on a couch in a living room</s>",
+  "caption": "A woman sitting on a couch in a living room",
+  "token_ids": [
+    1,
+    319,
+    6114,
+    16246,
+    373,
+    263,
+    274,
+    3222,
+    297,
+    263,
+    8471,
+    5716,
+    2
+  ],
+  "feature_sha256": "9a60069de9e4e79a6e0150f095f5a9c50b49d410d506ad6bec40787dc151e499",
+  "native_index": 310,
+  "nsd_id0": 25091,
+  "shard": 0,
+  "sample": "sample000003305",
+  "brain_sha256": "b65f2467ffe326550c56e32a1a210a8f82bff8d6a5380f3765d9ae871a20b9eb",
+  "jpeg_sha256": "5a9a2665f2439ac7ad77f1dcb3aca06e50c7758d50bacbc5c959a36e70c0bbea",
+  "brainhub_tensor_sha256": "150ba372179b37b66d7236d5ee0c1c437e50dbf35ba309cb9708fce307b0134f",
+  "evaluation_png_sha256": "f3c05d485d70e384d751a701ebc277b128557ac766d82d526bc7ac7a7e099e6f",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595355.3753958
+}

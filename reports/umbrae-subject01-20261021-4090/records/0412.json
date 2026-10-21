@@ -1,0 +1,32 @@
+{
+  "raw_response": "<s> A person on the beach flying a kite.</s>",
+  "caption": "A person on the beach flying a kite.",
+  "token_ids": [
+    1,
+    319,
+    2022,
+    373,
+    278,
+    25695,
+    22764,
+    263,
+    413,
+    568,
+    29889,
+    2
+  ],
+  "feature_sha256": "af98e28bf0d897c580c6e23f5b9f57e2c8d49bf9be558148cd6b55dbbeadf195",
+  "native_index": 412,
+  "nsd_id0": 31064,
+  "shard": 0,
+  "sample": "sample000004120",
+  "brain_sha256": "2e36309b3b2f05ef9e7c7ef81c366c263bfaf6ecab87042d8612c463d8cf71ea",
+  "jpeg_sha256": "c5e1c9d094ea46fc7f5c7f6752553078c015517d8603f2f3bc5ef69b4575e130",
+  "brainhub_tensor_sha256": "1f203f6977a0dcd5e1efe1e58ad735323d786e28db35a263e2077a7967f9a5c3",
+  "evaluation_png_sha256": "46343d4837016cc064c0bd80091e1949b33cbe2b098ac60cb2948ae2e874a417",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595381.786386
+}

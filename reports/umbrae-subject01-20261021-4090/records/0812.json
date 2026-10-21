@@ -1,0 +1,33 @@
+{
+  "raw_response": "<s> A man standing on top of a grass covered field.</s>",
+  "caption": "A man standing on top of a grass covered field.",
+  "token_ids": [
+    1,
+    319,
+    767,
+    13407,
+    373,
+    2246,
+    310,
+    263,
+    17455,
+    10664,
+    1746,
+    29889,
+    2
+  ],
+  "feature_sha256": "6c694ab6519a65255937a170c612058e03d7b0fa0a30977a075f27671efab766",
+  "native_index": 812,
+  "nsd_id0": 60305,
+  "shard": 1,
+  "sample": "sample000008117",
+  "brain_sha256": "79603387f7ecb6fdbb57bee859f8c2f293fbed1f5fd90e618e637a71b93e71c8",
+  "jpeg_sha256": "7d9f05d9dcf530d25ca19c78dd756e69debbc3234914b3d031dbb389b3913315",
+  "brainhub_tensor_sha256": "4c0f50fcd416905391ef91069dac945d187d9871e549d7427cec2321dbd28370",
+  "evaluation_png_sha256": "e825a9ea20fe54a1c61f7ed00add592f8e9532497f8868fa6a3f55139eca6858",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595488.6555045
+}

@@ -1,0 +1,33 @@
+{
+  "raw_response": "<s> A top of a clock showing only the top portion.</s>",
+  "caption": "A top of a clock showing only the top portion.",
+  "token_ids": [
+    1,
+    319,
+    2246,
+    310,
+    263,
+    12006,
+    6445,
+    871,
+    278,
+    2246,
+    11910,
+    29889,
+    2
+  ],
+  "feature_sha256": "fc63ddf8cb282f43354eb9f32aa1f417ea205e02b78bc876d43e2700ace0a818",
+  "native_index": 648,
+  "nsd_id0": 48374,
+  "shard": 1,
+  "sample": "sample000006514",
+  "brain_sha256": "c78b5e67cc0f5fd84788dfc5499c1e82b36a5375c4877d1ef5782585961fdef0",
+  "jpeg_sha256": "3e596b1ffb9abec981626bf32944e490045cedd87fff2ae7c32916860edf806e",
+  "brainhub_tensor_sha256": "cafe253ba8b80f05ac33c8a415317b93579218afd649bcb843ab01eeca3263c2",
+  "evaluation_png_sha256": "8e0a53a5b080373a8dd9395bc1a844c393a0efd550288730d473a2d88f73b71e",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595446.4878323
+}

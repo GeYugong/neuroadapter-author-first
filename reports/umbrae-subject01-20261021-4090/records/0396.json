@@ -1,0 +1,32 @@
+{
+  "raw_response": "<s> a couple of bears are laying out together</s>",
+  "caption": "a couple of bears are laying out together",
+  "token_ids": [
+    1,
+    263,
+    7303,
+    310,
+    367,
+    1503,
+    526,
+    6568,
+    292,
+    714,
+    4208,
+    2
+  ],
+  "feature_sha256": "0b92ea94240f68d64850af371b0923fa59ea74e06a814019751bde0552ce104b",
+  "native_index": 396,
+  "nsd_id0": 30395,
+  "shard": 0,
+  "sample": "sample000004032",
+  "brain_sha256": "216a12336bde7cd325efb6fcd01b4fedc7ddb164885f1fbf7e3a136a27818bef",
+  "jpeg_sha256": "64a717b354f51107bde100fbfdece6fd5f98c8a70cf0436c6561912f02b13973",
+  "brainhub_tensor_sha256": "07b22ccbf4f202d8f0c6edff13e09152a419cda0187d18e2cf57da96a6d4dc47",
+  "evaluation_png_sha256": "31ee25b9b25880521776aba1676c816765d74ed1a9f0c12cfb78a042a35d3bd1",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595377.75028
+}

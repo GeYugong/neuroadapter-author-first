@@ -1,0 +1,31 @@
+{
+  "raw_response": "<s> A small brown cow walking through a field.</s>",
+  "caption": "A small brown cow walking through a field.",
+  "token_ids": [
+    1,
+    319,
+    2319,
+    17354,
+    21282,
+    22049,
+    1549,
+    263,
+    1746,
+    29889,
+    2
+  ],
+  "feature_sha256": "cc0789c495b1d76f73ebd0553f686a1d7609be035d8b7b0481cbc0694b495e65",
+  "native_index": 575,
+  "nsd_id0": 43500,
+  "shard": 1,
+  "sample": "sample000005862",
+  "brain_sha256": "de9a2cb5681da356980016ce1ec70a7abffec4ef17875f728ef44ee2070bedbd",
+  "jpeg_sha256": "150d4adfaaafee06b82d9eeba8a035d71fec30e7a705704d3c0133f4cbb694b8",
+  "brainhub_tensor_sha256": "e873839f50d65375c93cbbdf08506caa42dcea9429e9010b87760acf6828f6fb",
+  "evaluation_png_sha256": "bd394a7ef088b679f2538198335fa0dbfa845b27a1b226fcc793b3efd98b4a2f",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595424.1117775
+}

@@ -1,0 +1,32 @@
+{
+  "raw_response": "<s> A car that is parked by a tree.</s>",
+  "caption": "A car that is parked by a tree.",
+  "token_ids": [
+    1,
+    319,
+    1559,
+    393,
+    338,
+    14089,
+    287,
+    491,
+    263,
+    5447,
+    29889,
+    2
+  ],
+  "feature_sha256": "01337abab701f3defb8e2c2ec83d8eddb0ad5e9fa9221d80411efa614c9ddb13",
+  "native_index": 228,
+  "nsd_id0": 19573,
+  "shard": 0,
+  "sample": "sample000002527",
+  "brain_sha256": "ab669c8e6d0ace28e208ee58d420567e1df69eaba84cf36b94f0154fa716ef44",
+  "jpeg_sha256": "fd2a13fcbacba005f28ee75da8a62cf1e44d9824b1ae27fa00ebd798ede8a1f5",
+  "brainhub_tensor_sha256": "406d53434089df0d260b8e9d56e1b12bfe2cf7b31ddec36a56f2c68586a22529",
+  "evaluation_png_sha256": "1a36339a47420ef5a423c86f091b3353012a06b16a2fc92198ebd030a609466d",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595334.3348753
+}

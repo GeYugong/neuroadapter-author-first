@@ -1,0 +1,32 @@
+{
+  "raw_response": "<s> A group of people in a grassy park.</s>",
+  "caption": "A group of people in a grassy park.",
+  "token_ids": [
+    1,
+    319,
+    2318,
+    310,
+    2305,
+    297,
+    263,
+    17455,
+    29891,
+    14089,
+    29889,
+    2
+  ],
+  "feature_sha256": "7a41b85126a2ac06895ad0400f8c5e4131242d606020cbb0432c5e24c146466a",
+  "native_index": 944,
+  "nsd_id0": 69854,
+  "shard": 1,
+  "sample": "sample000009426",
+  "brain_sha256": "7ec154ef230007a234a71982662311c1cb382a823873f7b29fa9797555fce73a",
+  "jpeg_sha256": "65cee0a2c3d14c3a492cf93f111b58e25e35f2a5f00ea33c395c9bc77f3948fd",
+  "brainhub_tensor_sha256": "6a930747db4831cd909ab32aed336c1250125b4a4f6860c2991e03fa504cbea4",
+  "evaluation_png_sha256": "a575a1824a489cc235d1f9531627e871f92d313ea8d5c5ab248afcc7a9217365",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595522.337087
+}

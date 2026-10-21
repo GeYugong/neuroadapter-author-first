@@ -1,0 +1,33 @@
+{
+  "raw_response": "<s> A bed with sheets and a pillow on it.</s>",
+  "caption": "A bed with sheets and a pillow on it.",
+  "token_ids": [
+    1,
+    319,
+    6592,
+    411,
+    26718,
+    322,
+    263,
+    22549,
+    340,
+    373,
+    372,
+    29889,
+    2
+  ],
+  "feature_sha256": "2b42e23f76bba21668e85c33d2f1ed0805ca3ed7b161a60e288a06a58c226a84",
+  "native_index": 510,
+  "nsd_id0": 39369,
+  "shard": 1,
+  "sample": "sample000005286",
+  "brain_sha256": "9ca54053c08a387a4cc63e2c8b4d26c9076f0a0dfddd56df30062a659bb79f57",
+  "jpeg_sha256": "cd1433bc5d81007e48f61448aea6cdab782d3f3bf3289bc3a0416717ecdf7ff5",
+  "brainhub_tensor_sha256": "c2432b3a27a49c460582a2b02e8d25f8342917a46888d594cf9287cfca6dfdec",
+  "evaluation_png_sha256": "98de1679127be7dc17341028024a9dc48c878aff8d0eb62498bf6f0721465f04",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595407.2549613
+}

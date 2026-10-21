@@ -1,0 +1,32 @@
+{
+  "raw_response": "<s> A woman that is standing on a tennis court.</s>",
+  "caption": "A woman that is standing on a tennis court.",
+  "token_ids": [
+    1,
+    319,
+    6114,
+    393,
+    338,
+    13407,
+    373,
+    263,
+    22556,
+    8973,
+    29889,
+    2
+  ],
+  "feature_sha256": "80325c5548fc63484de6c07219d34e767a2e7928d002c654fc570d347c8b1978",
+  "native_index": 913,
+  "nsd_id0": 67295,
+  "shard": 1,
+  "sample": "sample000009090",
+  "brain_sha256": "95093415b490e78c797cc57a923924ef96257b6bb6d0bb25a51dc453cd15f6bb",
+  "jpeg_sha256": "860ea4c2f22c9690f2ae3aa011d137f27af74e0f3204156d1426cda829a7b604",
+  "brainhub_tensor_sha256": "a874f84efd4bcf772550d56de8526db375e98d632b94ab231e7389f799fbc969",
+  "evaluation_png_sha256": "97cdb2d31d028839e3c1a3bd61e1f669ac606b9c3aeb3bf40649529698311b4f",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595514.3442943
+}

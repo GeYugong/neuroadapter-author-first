@@ -1,0 +1,32 @@
+{
+  "raw_response": "<s> A couple of kites flying over a beach.</s>",
+  "caption": "A couple of kites flying over a beach.",
+  "token_ids": [
+    1,
+    319,
+    7303,
+    310,
+    413,
+    3246,
+    22764,
+    975,
+    263,
+    25695,
+    29889,
+    2
+  ],
+  "feature_sha256": "d50e832c71bc257404ae58026435aeeffb5bdc67cda6353aea4eab26e258a449",
+  "native_index": 489,
+  "nsd_id0": 37927,
+  "shard": 0,
+  "sample": "sample000005095",
+  "brain_sha256": "6c8fe12c7d2f18e22a134965483cc49d2854b205c0685ecd66287c450cfcb508",
+  "jpeg_sha256": "4754d5fa66e5987436ffdeccc7f8a8f0ed477d88993234130d814e89cc54450e",
+  "brainhub_tensor_sha256": "3f77d2220ddaf661dd96d18f6d49a7d15078dd58d1de70130b1452b80c3b9a67",
+  "evaluation_png_sha256": "695bee759f58d6435c8f6bf5e82f79a6ac9dbea10dbc8ed49ebd5f05f9d234c0",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595401.9552503
+}

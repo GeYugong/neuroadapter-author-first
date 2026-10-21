@@ -1,0 +1,32 @@
+{
+  "raw_response": "<s> A computer desk is shown with a laptop.</s>",
+  "caption": "A computer desk is shown with a laptop.",
+  "token_ids": [
+    1,
+    319,
+    6601,
+    553,
+    29895,
+    338,
+    4318,
+    411,
+    263,
+    19022,
+    29889,
+    2
+  ],
+  "feature_sha256": "e2d5fae0fe899199b29377fd6b6698adb125ad2f9c499d9d11017b05c75c0256",
+  "native_index": 665,
+  "nsd_id0": 49234,
+  "shard": 1,
+  "sample": "sample000006617",
+  "brain_sha256": "0c5bdbd045d1efb46bf067481d41f0af360f0396990e9ca2bccca7f9d2acd0dd",
+  "jpeg_sha256": "31969221cb7e2bd69e7a2ebcbc484082decbdea4594064c2167ff9b841e7fc97",
+  "brainhub_tensor_sha256": "efaa7c0c07a1337f72e2e99ce4de11be425e83516f2346f978b7c8f64d424cbb",
+  "evaluation_png_sha256": "39446dffb00a909e52572a70001c755e140d201bc4705f186a6912ca78a77774",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595450.9593384
+}

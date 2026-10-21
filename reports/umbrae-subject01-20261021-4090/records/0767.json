@@ -1,0 +1,32 @@
+{
+  "raw_response": "<s> A close up picture of a computer and a cup</s>",
+  "caption": "A close up picture of a computer and a cup",
+  "token_ids": [
+    1,
+    319,
+    3802,
+    701,
+    7623,
+    310,
+    263,
+    6601,
+    322,
+    263,
+    18002,
+    2
+  ],
+  "feature_sha256": "2f2225c7a2b9ed7f5d7d9c62eaceca3afe1fd68451c4be8fb173fbc75ed59506",
+  "native_index": 767,
+  "nsd_id0": 56723,
+  "shard": 1,
+  "sample": "sample000007620",
+  "brain_sha256": "218625a9394b03963384e3b35dfe9a1cd5ee9a2afae67c10ff3328d2e60dff9b",
+  "jpeg_sha256": "b647ccaded08e050ceae7b9e82105c8486f9934c6940412ade8d870967ab59c3",
+  "brainhub_tensor_sha256": "e3e78c6282678b910d36943f62c39f55020d9b113b729c16b64c37f8f6ed3549",
+  "evaluation_png_sha256": "448d4a95d6adfa97a38d73791f3021be2e76013dcad4eefffb32103c215d0fbc",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595476.836867
+}

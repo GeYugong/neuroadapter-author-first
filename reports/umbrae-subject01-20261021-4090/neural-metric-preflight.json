@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "n_probes": 2,
+  "scope": "CPU evaluator load and finite-output check only; captions copied from references solely for this probe, excluded from experiment results",
+  "MiniLM": true,
+  "CLIP": true,
+  "PAC_strict_load": true,
+  "time": 1792594949.4241261
+}

@@ -1,0 +1,31 @@
+{
+  "raw_response": "<s> A group of horses walking down a street.</s>",
+  "caption": "A group of horses walking down a street.",
+  "token_ids": [
+    1,
+    319,
+    2318,
+    310,
+    15100,
+    22049,
+    1623,
+    263,
+    11952,
+    29889,
+    2
+  ],
+  "feature_sha256": "50f30767888c949e584cdccde0ad43700400d67db267e4f05f415c5e6ff72d2e",
+  "native_index": 196,
+  "nsd_id0": 16841,
+  "shard": 0,
+  "sample": "sample000002180",
+  "brain_sha256": "1ce0b36ae0df6866e8a6fd41fe13a3e450bcd1d83a3493a58210d274bec9ebae",
+  "jpeg_sha256": "33f809d51c52ccc03c4545153fbd0ac28eb25bee4a20b0a83428fa4ecaff12b8",
+  "brainhub_tensor_sha256": "1870c5d1cca8464db40390b234796a0c7c6929b06388e537aa084148e28c4365",
+  "evaluation_png_sha256": "1f3892122dca974720277956f0469ad98816682da1752febe6d1abb9115279a0",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595326.4474025
+}

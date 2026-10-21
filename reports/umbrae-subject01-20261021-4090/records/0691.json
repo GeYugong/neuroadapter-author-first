@@ -1,0 +1,33 @@
+{
+  "raw_response": "<s> A pile of various vegetables on a plate.</s>",
+  "caption": "A pile of various vegetables on a plate.",
+  "token_ids": [
+    1,
+    319,
+    282,
+    488,
+    310,
+    5164,
+    18655,
+    1849,
+    373,
+    263,
+    15284,
+    29889,
+    2
+  ],
+  "feature_sha256": "34c3bc2a76de1d6e27b2235442592c06d6a0ca7fa1ae932e37f88b1bc9b61b2e",
+  "native_index": 691,
+  "nsd_id0": 51521,
+  "shard": 1,
+  "sample": "sample000006919",
+  "brain_sha256": "464f78b67e31f39ebe3719c31a0140618300e83d371c91dc8bcb7a401a8cbf78",
+  "jpeg_sha256": "76deeb0296bd3afc7781a4882028f081d99f0c1f82b6d78b5ad7a60922a57299",
+  "brainhub_tensor_sha256": "3b1ce822b22b1a3204cf8289679708bf8cd23d37effc4119b4e358342ea259a3",
+  "evaluation_png_sha256": "d7e5e3c9240be16d72dabaeab073bf0edd7f6323b08ba43a2983c202a86234bd",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595457.668277
+}

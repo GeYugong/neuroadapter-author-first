@@ -1,0 +1,33 @@
+{
+  "raw_response": "<s> A bus parked on the side of a street.</s>",
+  "caption": "A bus parked on the side of a street.",
+  "token_ids": [
+    1,
+    319,
+    3593,
+    14089,
+    287,
+    373,
+    278,
+    2625,
+    310,
+    263,
+    11952,
+    29889,
+    2
+  ],
+  "feature_sha256": "a29a677861b77fb0e6ec0f8a5607f67fe11381b8b5b3493965cdc56e7802b3c3",
+  "native_index": 505,
+  "nsd_id0": 38853,
+  "shard": 1,
+  "sample": "sample000005223",
+  "brain_sha256": "4455aead9e4148b68baaca3e2e5d0511ec34228de996e3672510d2580f38977e",
+  "jpeg_sha256": "4307010401047203c124e689dd88cc3af978e5042e4b053981e031c9580ebbf0",
+  "brainhub_tensor_sha256": "0dd8ab32e672ab5d52fb18f44297ebf6511966592332d6bd7949641358ea7497",
+  "evaluation_png_sha256": "972d62f3c47f2a5bdb70f414881d1f41af10d911b28614cc762e7d624b3e74ff",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595406.078833
+}

@@ -1,0 +1,33 @@
+{
+  "raw_response": "<s> A person standing on top of a snow covered slope.</s>",
+  "caption": "A person standing on top of a snow covered slope.",
+  "token_ids": [
+    1,
+    319,
+    2022,
+    13407,
+    373,
+    2246,
+    310,
+    263,
+    15007,
+    10664,
+    24968,
+    29889,
+    2
+  ],
+  "feature_sha256": "60f4c234fd0961cec5ef716df8a3089e5cb7386f8ae0ee5c3bd1d79f51c61246",
+  "native_index": 476,
+  "nsd_id0": 36759,
+  "shard": 0,
+  "sample": "sample000004924",
+  "brain_sha256": "2eec727741cde7035818aa663bb91d77692ee2b304596e1ecb33618d64aa2d7a",
+  "jpeg_sha256": "ea598e40223036e683747d5396deb3b347ce62d15858e5e5c583a065ff1d1b7c",
+  "brainhub_tensor_sha256": "76524299ecfe75367d0624f0de3ee3d4c8a9a5c25a01a7f0f08d67bfa5a536ee",
+  "evaluation_png_sha256": "96331d717fb6447c8acf0490b36d1fd6dd16fa47c9ad8d138ed36371be41592e",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595398.4773972
+}

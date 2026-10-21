@@ -1,0 +1,33 @@
+{
+  "raw_response": "<s> A cat sitting inside a car looking out the window.</s>",
+  "caption": "A cat sitting inside a car looking out the window.",
+  "token_ids": [
+    1,
+    319,
+    6635,
+    16246,
+    2768,
+    263,
+    1559,
+    3063,
+    714,
+    278,
+    3474,
+    29889,
+    2
+  ],
+  "feature_sha256": "06a464e8aca9b719d9fd2773dea3c19a18bf5bc16e7849c1f0b5f161f3057734",
+  "native_index": 706,
+  "nsd_id0": 52527,
+  "shard": 1,
+  "sample": "sample000007067",
+  "brain_sha256": "037c63af02f8e700960158408d67289b988ecb1129cce9ab2c59f79c38fec611",
+  "jpeg_sha256": "b713c174dddcb09d192e9521127b737571d234d0173532c71c0b5363fee0adb6",
+  "brainhub_tensor_sha256": "7b70d49a9193e23d99bf66b3bbda642f917b37dda6b104706a6365a3acab4f00",
+  "evaluation_png_sha256": "74e136b4da95273b8c3faa25c72eea522d1bcdd600367f6a13d34e365f55f2bc",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595461.4283533
+}

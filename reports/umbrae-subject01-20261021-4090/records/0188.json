@@ -1,0 +1,33 @@
+{
+  "raw_response": "<s> Two sheep sitting next to each other on a bed.</s>",
+  "caption": "Two sheep sitting next to each other on a bed.",
+  "token_ids": [
+    1,
+    7803,
+    29735,
+    16246,
+    2446,
+    304,
+    1269,
+    916,
+    373,
+    263,
+    6592,
+    29889,
+    2
+  ],
+  "feature_sha256": "1e59bd8879a95acf0f184f7a2b7fd51393580cce4e9062fc84dbf5d8fbc20c88",
+  "native_index": 188,
+  "nsd_id0": 16421,
+  "shard": 0,
+  "sample": "sample000002126",
+  "brain_sha256": "53c7c4f1000745cab0db6f110b6200999e8fce512c23c1f6dfdaaf9c6c48706b",
+  "jpeg_sha256": "d2017b5543cdb1df2e58a9011d47c2865396940b07c8c0291e26dc87c37cb46a",
+  "brainhub_tensor_sha256": "b79d894d5d0ccd955d63d4f3cc81f688f3441ae2181b6904561a21f0d05c0ffd",
+  "evaluation_png_sha256": "0613e5c90ccda626098fe4b3c560f62b40dceae232c5caaaa739058f3e38ba1e",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595324.447707
+}

@@ -1,0 +1,33 @@
+{
+  "raw_response": "<s> A large clock tower standing under a cloudy sky.</s>",
+  "caption": "A large clock tower standing under a cloudy sky.",
+  "token_ids": [
+    1,
+    319,
+    2919,
+    12006,
+    19372,
+    13407,
+    1090,
+    263,
+    9570,
+    29891,
+    14744,
+    29889,
+    2
+  ],
+  "feature_sha256": "770a18cd4c1df9b4ba3119c4b7bce4031dd648781ca6e18116e7c2a18ed4880e",
+  "native_index": 618,
+  "nsd_id0": 46136,
+  "shard": 1,
+  "sample": "sample000006219",
+  "brain_sha256": "dbdeddb8017220e8911be7e507ffb3f72d824240ab6d38c931eb45fb540002cd",
+  "jpeg_sha256": "1c64245a30331ebfc6f62674f2266182fabe01f89fb7f8214f5f6c930edb0423",
+  "brainhub_tensor_sha256": "c84579b8873a20939a770d6d05206dd770389002586b8aff7e5329b7176e8cdf",
+  "evaluation_png_sha256": "55bb9ce0fb4db557c85be449e651e6775d9be8ef1821d96a9316b6c248192891",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595439.0552225
+}

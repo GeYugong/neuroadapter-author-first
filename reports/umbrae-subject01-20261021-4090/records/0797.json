@@ -1,0 +1,31 @@
+{
+  "raw_response": "<s> A large long train on a steel track.</s>",
+  "caption": "A large long train on a steel track.",
+  "token_ids": [
+    1,
+    319,
+    2919,
+    1472,
+    7945,
+    373,
+    263,
+    22973,
+    5702,
+    29889,
+    2
+  ],
+  "feature_sha256": "cfa13000d38dd99399a9db225cfb2f338944395c65816b43ae4826d881b92417",
+  "native_index": 797,
+  "nsd_id0": 59046,
+  "shard": 1,
+  "sample": "sample000007940",
+  "brain_sha256": "6359fd7321e2b0bf949438a288014943ded76014fa311dde663ba74191380108",
+  "jpeg_sha256": "0d5904a3dd210e55704fb1d94d7be09d2810e4c2ca4399e58dfa8b711a8b98b7",
+  "brainhub_tensor_sha256": "bc7bf6df757119aa1318394372b1ac018b9fe4b53693eab14c24eb1cd70ef1ec",
+  "evaluation_png_sha256": "2b894e0efea0ac4a88bf73f02015a7115e8e37f7c6ed2b794cc3bc54fbb359e4",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595484.4470701
+}

@@ -1,0 +1,32 @@
+{
+  "raw_response": "<s> A close up view of a wooden bench.</s>",
+  "caption": "A close up view of a wooden bench.",
+  "token_ids": [
+    1,
+    319,
+    3802,
+    701,
+    1776,
+    310,
+    263,
+    27278,
+    3856,
+    305,
+    29889,
+    2
+  ],
+  "feature_sha256": "2d303c84ac8ad2583597e832adb53365391cd92ed4b328d82551bf12c55dd1ff",
+  "native_index": 473,
+  "nsd_id0": 36629,
+  "shard": 0,
+  "sample": "sample000004913",
+  "brain_sha256": "28e97b91fe44d451f9883956ef7ad6efc77074a1209f3a97dc47caf38a70d8db",
+  "jpeg_sha256": "fe6774ef4559e4fc231e146f0a53a34e82a4acdc9f42b9fe0cd2395eb0c9d9ec",
+  "brainhub_tensor_sha256": "1eb4e79d55e244ea7e172d2596ce62b2bbb2c07cf850448829724a79b4505286",
+  "evaluation_png_sha256": "abec7852318716aa84ce00d21c96c15a1a36c30ddf9a88e8bc3a4eeb630bb12c",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595397.7075315
+}

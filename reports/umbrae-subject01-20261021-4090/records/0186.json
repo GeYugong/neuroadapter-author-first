@@ -1,0 +1,33 @@
+{
+  "raw_response": "<s> A large clock in a shop with many different products.</s>",
+  "caption": "A large clock in a shop with many different products.",
+  "token_ids": [
+    1,
+    319,
+    2919,
+    12006,
+    297,
+    263,
+    18296,
+    411,
+    1784,
+    1422,
+    9316,
+    29889,
+    2
+  ],
+  "feature_sha256": "c23c9114dc61dcae576000f48e1b8954320b3a34c74c8a6aed6221c1c82bf33f",
+  "native_index": 186,
+  "nsd_id0": 16252,
+  "shard": 0,
+  "sample": "sample000002112",
+  "brain_sha256": "c91da5014056de00ffe0295a7d0e496dccaf7c6bc6c3c983d514224059ae937e",
+  "jpeg_sha256": "987b978ab6ba43b6c8942ff0cb178f55f378a981e9248a32778e3e41687b94f7",
+  "brainhub_tensor_sha256": "9f6950dc04a23ffd65513970fce1540e61bc6c2e49494929aba1caa83b9386c3",
+  "evaluation_png_sha256": "384fa7974e55d9ed3b012918d9488bd655cb30aa3078c3174a2f0f326e591e54",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595324.0234396
+}

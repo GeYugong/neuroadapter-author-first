@@ -1,0 +1,31 @@
+{
+  "raw_response": "<s> A bear is walking through a grassy field</s>",
+  "caption": "A bear is walking through a grassy field",
+  "token_ids": [
+    1,
+    319,
+    11460,
+    338,
+    22049,
+    1549,
+    263,
+    17455,
+    29891,
+    1746,
+    2
+  ],
+  "feature_sha256": "c83e22b30c6830e87195676d2d43c73993942acec27d5ef2ec7380e5b1dda9c2",
+  "native_index": 12,
+  "nsd_id0": 3489,
+  "shard": 0,
+  "sample": "sample000000418",
+  "brain_sha256": "6d4ae56a1595bde9094151abad32903f15a41728d7a260cd1abe38131c31cacc",
+  "jpeg_sha256": "d6437c3e18422caf10161a233c8475019f0bcf9c9c565613fd8b28bc7cf8ae98",
+  "brainhub_tensor_sha256": "a037b07ac02c9027e4968c3cfdf6bc6ab47f517e03b558a79d5aac63c2ac91f4",
+  "evaluation_png_sha256": "f3b0427c07038e9a7f2b3961bdd7e6887211135fc882142c4cd50728f32f7f4a",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595279.3624258
+}

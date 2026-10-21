@@ -1,0 +1,32 @@
+{
+  "raw_response": "<s> A man standing on a field covered in snow.</s>",
+  "caption": "A man standing on a field covered in snow.",
+  "token_ids": [
+    1,
+    319,
+    767,
+    13407,
+    373,
+    263,
+    1746,
+    10664,
+    297,
+    15007,
+    29889,
+    2
+  ],
+  "feature_sha256": "ec2d176e789750c0c778ff4a44d64f87e805514606a0056d287f19f9bfca2600",
+  "native_index": 759,
+  "nsd_id0": 56290,
+  "shard": 1,
+  "sample": "sample000007574",
+  "brain_sha256": "57776689b6c7e86809b690c39a6d854f3833bf6b3024c1bd3e4182ea8dfe6040",
+  "jpeg_sha256": "307ff8ebe9c11cfc5cbf2d90666c69f3e9bc3c998da76bb9f548f73105ca0a55",
+  "brainhub_tensor_sha256": "d95c2435469093c50342c12d9a2d87dbe7fcfe98916daef58700ab2842af6175",
+  "evaluation_png_sha256": "a6e58a74de618b3305a36b62a6446edb60343868f7fd843c939866a6bd486da7",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595474.7648203
+}

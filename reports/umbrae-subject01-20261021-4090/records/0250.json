@@ -1,0 +1,31 @@
+{
+  "raw_response": "<s> A man on a horse in the water.</s>",
+  "caption": "A man on a horse in the water.",
+  "token_ids": [
+    1,
+    319,
+    767,
+    373,
+    263,
+    10435,
+    297,
+    278,
+    4094,
+    29889,
+    2
+  ],
+  "feature_sha256": "911e9439b0f65e078e68bf244185cf9bd45a592bad3bda624a360accc0e5c93d",
+  "native_index": 250,
+  "nsd_id0": 21197,
+  "shard": 0,
+  "sample": "sample000002741",
+  "brain_sha256": "4a4eefc85f7a711791d5202fcf9af72bbdc5f17b3c6cce13d92d16e6fa6d65a9",
+  "jpeg_sha256": "e0ca44f8bcc57b97edd1ea9e702d1ececd1775e5eaea3c45639439ea2d0f9dbb",
+  "brainhub_tensor_sha256": "7d34ff98e6fa756834933d1222ed54a14d697e4385c9b511fbd0642f610b33e7",
+  "evaluation_png_sha256": "94f0c9db7dd7ee33f5d40062bc8e14fdb9c35784525794eda0eef804901735d1",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595339.7645686
+}

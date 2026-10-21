@@ -1,0 +1,32 @@
+{
+  "raw_response": "<s> A living room filled with lots of furniture.</s>",
+  "caption": "A living room filled with lots of furniture.",
+  "token_ids": [
+    1,
+    319,
+    8471,
+    5716,
+    10423,
+    411,
+    14568,
+    310,
+    15252,
+    17252,
+    29889,
+    2
+  ],
+  "feature_sha256": "e9e69aba8cc03cbf152fed4d7bcac40033652065e38fddf0b9a8da0aea8c119a",
+  "native_index": 637,
+  "nsd_id0": 47290,
+  "shard": 1,
+  "sample": "sample000006382",
+  "brain_sha256": "2049feb87e55b83f5b682376033c12ecea5f0ee4c2473c1848678d6ab7a1856a",
+  "jpeg_sha256": "2a347372ca612afdc9957ee6f333d1cd5881a8d57bc14f8896c9cbfbada033fa",
+  "brainhub_tensor_sha256": "0011681f930bef090bf36d9563f213746fd80ba982241847e60b60fc1d3b2024",
+  "evaluation_png_sha256": "c028ad4523fba685fb43a579ef025d33b22af72f2c2d50c9fc5dd3b6f9883cf8",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595443.8253067
+}

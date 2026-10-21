@@ -1,0 +1,30 @@
+{
+  "raw_response": "<s> A man looks directly at the camera.</s>",
+  "caption": "A man looks directly at the camera.",
+  "token_ids": [
+    1,
+    319,
+    767,
+    3430,
+    4153,
+    472,
+    278,
+    10656,
+    29889,
+    2
+  ],
+  "feature_sha256": "dc533827ca12f60228f691d67230f01b2b14a2d9ac2bf1acd525c99cb577bd76",
+  "native_index": 248,
+  "nsd_id0": 21192,
+  "shard": 0,
+  "sample": "sample000002737",
+  "brain_sha256": "c74a9e9b7931af4226d9216700dccf8b26184ed2126142b6b653336b25c09e96",
+  "jpeg_sha256": "3e944a0d082a602e384a6c6a5654883c7186f4826de98ac41d159f6c9a0f9c61",
+  "brainhub_tensor_sha256": "e85176d6584578960c6d3efcfa9df2f9d8eeb7b94ee4b8b18f23c82a08d5ea00",
+  "evaluation_png_sha256": "db8073296f48c8d53ca169502dde75e9a2d5a10a5b5f3db127ead383da18344c",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595339.2515259
+}

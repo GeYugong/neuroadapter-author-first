@@ -1,0 +1,32 @@
+{
+  "raw_response": "<s> A man skiing down a snow covered mountain.</s>",
+  "caption": "A man skiing down a snow covered mountain.",
+  "token_ids": [
+    1,
+    319,
+    767,
+    14993,
+    292,
+    1623,
+    263,
+    15007,
+    10664,
+    14378,
+    29889,
+    2
+  ],
+  "feature_sha256": "442a9ce642a6a9bb179b39163e9b7627341446e8dc401ea30c21d9950ee261dd",
+  "native_index": 593,
+  "nsd_id0": 44369,
+  "shard": 1,
+  "sample": "sample000005983",
+  "brain_sha256": "feb158f00302f1367c2a5f3f12b08c08f3ebd1654db6a30655366c5609a634a9",
+  "jpeg_sha256": "340728ab96a48e18f1e77e052ac265afafaf92c1c09b75690a4a1f4df225cac6",
+  "brainhub_tensor_sha256": "a12eeaa345cba62304703ec72724b5adfc6ef9145fd85f253196337524633814",
+  "evaluation_png_sha256": "a4a0da1fcce2d499b923693fc1af1222f8554658d419d2c587ba4b10e620fd07",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595428.5702183
+}

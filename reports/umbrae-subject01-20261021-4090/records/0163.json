@@ -1,0 +1,32 @@
+{
+  "raw_response": "<s> A clock tower in a park near some trees.</s>",
+  "caption": "A clock tower in a park near some trees.",
+  "token_ids": [
+    1,
+    319,
+    12006,
+    19372,
+    297,
+    263,
+    14089,
+    2978,
+    777,
+    10697,
+    29889,
+    2
+  ],
+  "feature_sha256": "eeda7f0ab2bac83ca9ee8e9d7a53f8b96fbeeae3fc2b6c7ac89d2ac43cdedb5d",
+  "native_index": 163,
+  "nsd_id0": 14165,
+  "shard": 0,
+  "sample": "sample000001841",
+  "brain_sha256": "c9bc9312776fe5c7ae896acf3a9fbbdca131a0c00dec65ecf79fb5a0b03fb96b",
+  "jpeg_sha256": "31e982f3b09595261814d2faa1e9e2bc8ee606f6399cf79bee5d43d2363b6719",
+  "brainhub_tensor_sha256": "efbf00e1edc57d9bca87ec3a2f189b7ea2e5e052b2033097e958c9744136a298",
+  "evaluation_png_sha256": "4f4d8225d77e7e3231e58dfea61576533ff5dc4c35e0683f86a24d7f03e377f9",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595318.140493
+}

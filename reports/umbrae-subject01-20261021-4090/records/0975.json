@@ -1,0 +1,32 @@
+{
+  "raw_response": "<s> A man eating something with his mouth closed.</s>",
+  "caption": "A man eating something with his mouth closed.",
+  "token_ids": [
+    1,
+    319,
+    767,
+    321,
+    1218,
+    1554,
+    411,
+    670,
+    13394,
+    5764,
+    29889,
+    2
+  ],
+  "feature_sha256": "98040c67a4511fbe71c312274bc75193bd85d3eecf218521fc777c18b665dca6",
+  "native_index": 975,
+  "nsd_id0": 72209,
+  "shard": 1,
+  "sample": "sample000009746",
+  "brain_sha256": "64459a9274867e4968bee79c3e3fd4381a06cde99ac448041e38776c32789948",
+  "jpeg_sha256": "fbe5ba63a114d7aec47db75754394a29594d44b5a442f6afd6380b9022677cdd",
+  "brainhub_tensor_sha256": "b5d062cfea51ec6cff78a00681136ea625653626ea112ca1effd90a20e75a048",
+  "evaluation_png_sha256": "8a2cc2322db79a1be3b318acb0d2a6087f8eb00f611ea32acb2c4b2ff802bc19",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595530.4172544
+}

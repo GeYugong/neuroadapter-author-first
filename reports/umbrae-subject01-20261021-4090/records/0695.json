@@ -1,0 +1,33 @@
+{
+  "raw_response": "<s> A man on a surfboard in the water.</s>",
+  "caption": "A man on a surfboard in the water.",
+  "token_ids": [
+    1,
+    319,
+    767,
+    373,
+    263,
+    1190,
+    29888,
+    3377,
+    297,
+    278,
+    4094,
+    29889,
+    2
+  ],
+  "feature_sha256": "3fc570e51cb3139cf95c7b0e117464989ffe1d40e5e16b3687812e5285508574",
+  "native_index": 695,
+  "nsd_id0": 51907,
+  "shard": 1,
+  "sample": "sample000006964",
+  "brain_sha256": "09e4dc7314cd2a1785af0b4972976c238773658a4a34aa64101d1a4aa74ba93c",
+  "jpeg_sha256": "0f452e2f08c1b49a99a20ba6bb7fbea77938796f9a605dd40604ca5f4f5c6148",
+  "brainhub_tensor_sha256": "15d3f0b7e8c292c88753cad7e36560cdd6543d3d25e4e1aea6723a2365709303",
+  "evaluation_png_sha256": "2d4acf4d634c9512f52c76e412060138f850772d7b70e96861cc8e99eb192354",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595458.659051
+}

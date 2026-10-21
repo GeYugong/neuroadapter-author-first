@@ -1,0 +1,33 @@
+{
+  "raw_response": "<s> A baseball player getting ready to swing at a ball.</s>",
+  "caption": "A baseball player getting ready to swing at a ball.",
+  "token_ids": [
+    1,
+    319,
+    21573,
+    4847,
+    2805,
+    7960,
+    304,
+    24500,
+    472,
+    263,
+    8287,
+    29889,
+    2
+  ],
+  "feature_sha256": "457cf6d955d38d39528598231f2fcc0daa0b55b7cf2d0cdc93bb46b694f576e5",
+  "native_index": 112,
+  "nsd_id0": 10006,
+  "shard": 0,
+  "sample": "sample000001293",
+  "brain_sha256": "d3918a342feea2fd46f93083f7e3793a91cacb1add9c01b5a2511f95616b388b",
+  "jpeg_sha256": "b840874acd2fdd256519e7090a4aaf7d1e509c55f3e1b63a9b55fb401445a67f",
+  "brainhub_tensor_sha256": "0a468dc5773f104e302dc0eabc266bd50bc2f4d30ee56851f1ededcd08113c82",
+  "evaluation_png_sha256": "ffa4f65a1f8197d1327042d3a05feba7d3ce971217116dfe0fce0e6316638647",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595304.857671
+}

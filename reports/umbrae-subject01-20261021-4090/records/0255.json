@@ -1,0 +1,32 @@
+{
+  "raw_response": "<s> A pizza that is sitting on a table.</s>",
+  "caption": "A pizza that is sitting on a table.",
+  "token_ids": [
+    1,
+    319,
+    282,
+    24990,
+    393,
+    338,
+    16246,
+    373,
+    263,
+    1591,
+    29889,
+    2
+  ],
+  "feature_sha256": "d2d8217d18b55cb0ce0ce14c496add436cc0a07fb3ca94dcba8f456a807bafb6",
+  "native_index": 255,
+  "nsd_id0": 21508,
+  "shard": 0,
+  "sample": "sample000002775",
+  "brain_sha256": "12d2e5019022baa1848d4bda31a14bbc181e2a157987c534f872fc09532e4a4f",
+  "jpeg_sha256": "972d8e4eedb1844f579c5572ca13533f1fd1530627b7e9003b13550269ce42c0",
+  "brainhub_tensor_sha256": "b57e2e3f9dc63e4948c896f49af4a899175afd06b84cc172995bc845cf5f4b16",
+  "evaluation_png_sha256": "81f8be9f36eadccafb930ea509a9b2684e5b99c35a92631df670164f6306a752",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595341.048698
+}

@@ -1,0 +1,31 @@
+{
+  "raw_response": "<s> A man in a tie looking at the camera</s>",
+  "caption": "A man in a tie looking at the camera",
+  "token_ids": [
+    1,
+    319,
+    767,
+    297,
+    263,
+    22134,
+    3063,
+    472,
+    278,
+    10656,
+    2
+  ],
+  "feature_sha256": "da6f576c1a06bd22bbee96a47b9ced0080b454deb07809cfd2b1c133f617c91a",
+  "native_index": 830,
+  "nsd_id0": 61748,
+  "shard": 1,
+  "sample": "sample000008328",
+  "brain_sha256": "cb8d2b3b45bcaa43fe79b477dfe7b46ec716964b376a5485da5c37313c9bf9d1",
+  "jpeg_sha256": "fd0ba7e155706c6bf08fea18762e75a58bf82e15bde7f05dbe0ccd7c3ae68597",
+  "brainhub_tensor_sha256": "ef33df2c7b154ba1e40b49b88179c1718213a5c257e1692bf6498f950bd29562",
+  "evaluation_png_sha256": "e7626f09be6c0dfe8d3ec2ff742c38b2f898cd6210ab39190efca91e7ca95a77",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595493.382763
+}

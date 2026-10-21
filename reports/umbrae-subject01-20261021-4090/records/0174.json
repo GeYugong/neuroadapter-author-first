@@ -1,0 +1,31 @@
+{
+  "raw_response": "<s> A bird standing in the water looking around.</s>",
+  "caption": "A bird standing in the water looking around.",
+  "token_ids": [
+    1,
+    319,
+    11199,
+    13407,
+    297,
+    278,
+    4094,
+    3063,
+    2820,
+    29889,
+    2
+  ],
+  "feature_sha256": "5b0b732b41299116e07df50b5f4ef61cd6416db74b0221e39ef1543df3e98725",
+  "native_index": 174,
+  "nsd_id0": 14898,
+  "shard": 0,
+  "sample": "sample000001937",
+  "brain_sha256": "ad15adaef84e923300b848799175b76f26227d882116939db5d019921e548f7c",
+  "jpeg_sha256": "abbb42619fa6a23a37d334e2761778dcae607c9354d669eb9c43c64c2483e64a",
+  "brainhub_tensor_sha256": "bd3be2c98594610e01e4687bca1a382f8b0ce7fc13f8bc3ff25440898b40309d",
+  "evaluation_png_sha256": "7abbf95bbd1d819434b513a0f5afe470f11b1e5d2209b22918c70423dc8a6288",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595320.9446924
+}

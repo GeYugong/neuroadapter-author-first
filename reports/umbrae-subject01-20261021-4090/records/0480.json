@@ -1,0 +1,33 @@
+{
+  "raw_response": "<s> A table topped with cakes and pies.</s>",
+  "caption": "A table topped with cakes and pies.",
+  "token_ids": [
+    1,
+    319,
+    1591,
+    304,
+    2986,
+    411,
+    274,
+    6926,
+    322,
+    282,
+    583,
+    29889,
+    2
+  ],
+  "feature_sha256": "db1f4c371b7e1741b5f9d2165865442a648c237332ea0a5e563d0ee93fb657e2",
+  "native_index": 480,
+  "nsd_id0": 36978,
+  "shard": 0,
+  "sample": "sample000004954",
+  "brain_sha256": "bec82c24e04126ef23cb01a95aeb9fcec9d9d99334d7eaaddce1338ba06af39d",
+  "jpeg_sha256": "24dc38a1a3e9612e45181dd1fbdb1cc7b58b3b39f3af299d200baae9ca287554",
+  "brainhub_tensor_sha256": "67cc2cf9498e50d665a4169b6c13b97457fae793a0cda6d90c799860cad69e3a",
+  "evaluation_png_sha256": "5096bb9c831e4d0305cc0023fa534abecab71c44c445c7e6b3c7e021b84a7592",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595399.610171
+}

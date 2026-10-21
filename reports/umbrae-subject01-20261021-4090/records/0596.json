@@ -1,0 +1,31 @@
+{
+  "raw_response": "<s> A man sitting in front of a computer.</s>",
+  "caption": "A man sitting in front of a computer.",
+  "token_ids": [
+    1,
+    319,
+    767,
+    16246,
+    297,
+    4565,
+    310,
+    263,
+    6601,
+    29889,
+    2
+  ],
+  "feature_sha256": "8033bd1a44346e49a50f7530d120d4df598aad4b4351481aa2e93c819c2b7f67",
+  "native_index": 596,
+  "nsd_id0": 44720,
+  "shard": 1,
+  "sample": "sample000006029",
+  "brain_sha256": "7e11ed059a8aa86d00b334bbae9229620c3787abdbd9f496123022c048717c5a",
+  "jpeg_sha256": "79a7ab7d7dcad2dcd8712fae82465e37385537167ac8839a881c8d942f410721",
+  "brainhub_tensor_sha256": "3a94744a81535a61ccbbb3ff15aa84bc1d992db01e1048052a94d1354cb3bf0d",
+  "evaluation_png_sha256": "dbb5c9e1fa451559cfdf454adb3e486c1a5fdb94e20cdfe2fa6fb40268d64c99",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595429.2509885
+}

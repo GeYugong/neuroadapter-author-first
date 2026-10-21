@@ -1,0 +1,31 @@
+{
+  "raw_response": "<s> A picture of an animal in the grass.</s>",
+  "caption": "A picture of an animal in the grass.",
+  "token_ids": [
+    1,
+    319,
+    7623,
+    310,
+    385,
+    13019,
+    297,
+    278,
+    17455,
+    29889,
+    2
+  ],
+  "feature_sha256": "4a1fa2540ece77179607495e092f31d7445332cc0bf07d116f5b3f44f2401a3e",
+  "native_index": 568,
+  "nsd_id0": 43164,
+  "shard": 1,
+  "sample": "sample000005817",
+  "brain_sha256": "b90407629777350f39864ce8de36f408232c7c2827c7dcc954b2a8cd76d4dc0a",
+  "jpeg_sha256": "79c0cea4b6144885b04caf8a1a246513fdffef026338bdd192d3bde821063a73",
+  "brainhub_tensor_sha256": "d19b01caa7a3e6360d6571608d04bf345137c7bf76de29b89f5d81c8c57f5155",
+  "evaluation_png_sha256": "9bb7289106a4160c253b6f6c4b9bbfe676c3e375a75180c006a9e99412059345",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595422.245232
+}

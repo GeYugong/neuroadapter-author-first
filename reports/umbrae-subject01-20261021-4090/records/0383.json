@@ -1,0 +1,33 @@
+{
+  "raw_response": "<s> A bathroom with double sinks and a mirror.</s>",
+  "caption": "A bathroom with double sinks and a mirror.",
+  "token_ids": [
+    1,
+    319,
+    27683,
+    8345,
+    411,
+    3765,
+    269,
+    19363,
+    322,
+    263,
+    19571,
+    29889,
+    2
+  ],
+  "feature_sha256": "3a4afc2c0e6e4e4ce3da5c132470d04b7f3006e9cbc66188cfbe92db4cbdc530",
+  "native_index": 383,
+  "nsd_id0": 29010,
+  "shard": 0,
+  "sample": "sample000003856",
+  "brain_sha256": "ed9553525ff90a078737e5b8c8c5163bf2931a825f7462e62e172c0d522e5c03",
+  "jpeg_sha256": "249348ebc5289055d427e702406233909d28bfbe1beebc827accd88706037ae2",
+  "brainhub_tensor_sha256": "2b0a042f9ff46cf6729f926c8a450e8fd3cc28ae80db8b85e622a03de62fe9a3",
+  "evaluation_png_sha256": "2bfaf9c65985fa59a38d4d22518aa9c02fbf3c1f69b9b16c24bbbd9cee82acbe",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595374.5037022
+}

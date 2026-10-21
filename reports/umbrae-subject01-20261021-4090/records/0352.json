@@ -1,0 +1,33 @@
+{
+  "raw_response": "<s> A zebra standing in front of a tree.</s>",
+  "caption": "A zebra standing in front of a tree.",
+  "token_ids": [
+    1,
+    319,
+    503,
+    774,
+    336,
+    13407,
+    297,
+    4565,
+    310,
+    263,
+    5447,
+    29889,
+    2
+  ],
+  "feature_sha256": "84f9ef523f729dbe8b2a652a270be788315b0e419855eb8e08f88889b31f9fc8",
+  "native_index": 352,
+  "nsd_id0": 27275,
+  "shard": 0,
+  "sample": "sample000003593",
+  "brain_sha256": "086a0cba9608b88a1d8ff9c4973d8f1939cbbdea23f37def43e54354f8acf9b5",
+  "jpeg_sha256": "9ae084ec90a304a95928ea48b979328e144dfa263cd27759134d8a6024e8eb2e",
+  "brainhub_tensor_sha256": "1d0349550a0540036bde0fbd46b7decbca1a513c605a10f1c86c2812b776e8d5",
+  "evaluation_png_sha256": "9b3efe7b101b437c24d81bda9f3df31cc89bafa03eb4fd091f2118a6946a4af2",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595366.60194
+}

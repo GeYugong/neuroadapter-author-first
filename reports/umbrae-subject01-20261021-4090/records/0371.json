@@ -1,0 +1,31 @@
+{
+  "raw_response": "<s> A man is standing in a grassy field</s>",
+  "caption": "A man is standing in a grassy field",
+  "token_ids": [
+    1,
+    319,
+    767,
+    338,
+    13407,
+    297,
+    263,
+    17455,
+    29891,
+    1746,
+    2
+  ],
+  "feature_sha256": "5483fe241e23122df76b597c655b405c15828157af61119164808ba923d78fc0",
+  "native_index": 371,
+  "nsd_id0": 28349,
+  "shard": 0,
+  "sample": "sample000003759",
+  "brain_sha256": "b80be67b80663fe06fa37a0837f909dc2032641517d37845f957dc4b71a9ab4e",
+  "jpeg_sha256": "7420ea1c5cb79b66b3f5a9a3dd7bf8329c146b184e840ef0366fd19fe85cb6f1",
+  "brainhub_tensor_sha256": "e808770e7376d2ac10c7c10617ae6583ef92e06ede8471f2a27375a93a93474d",
+  "evaluation_png_sha256": "4e6019ccc965f4253ed31d39c9fea44b6af1e6f8b768f2ce2a0aba325dd0b2fe",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595371.3890185
+}

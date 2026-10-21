@@ -1,0 +1,32 @@
+{
+  "raw_response": "<s> A close up of two sheep in a field.</s>",
+  "caption": "A close up of two sheep in a field.",
+  "token_ids": [
+    1,
+    319,
+    3802,
+    701,
+    310,
+    1023,
+    29735,
+    297,
+    263,
+    1746,
+    29889,
+    2
+  ],
+  "feature_sha256": "85097c39f5966220bfadb5b2aea74c9c31dbb37c8fc3ad753cd20104a8e1a4fc",
+  "native_index": 429,
+  "nsd_id0": 32643,
+  "shard": 0,
+  "sample": "sample000004344",
+  "brain_sha256": "1e73e7f4f699126e7d51b60e88a65858a08443bd93a4720cf1ba9e1e392d4b45",
+  "jpeg_sha256": "6d4d0d98d31cf6f1989d7e4205e7d02b749079876e6a97de26b2bebb3ee74c2b",
+  "brainhub_tensor_sha256": "aa69627487aef97cd7cc1c4b7de431758d66e0e2b0b1c82d4111d47a521282e4",
+  "evaluation_png_sha256": "964be1b21c526077d35c27b424bdfe8565e1eb7a54b607d04b02c0d42c346599",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595386.1840684
+}

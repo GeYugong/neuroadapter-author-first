@@ -1,0 +1,30 @@
+{
+  "raw_response": "<s> A woman looks directly at the camera.</s>",
+  "caption": "A woman looks directly at the camera.",
+  "token_ids": [
+    1,
+    319,
+    6114,
+    3430,
+    4153,
+    472,
+    278,
+    10656,
+    29889,
+    2
+  ],
+  "feature_sha256": "d2074ad202b701fd8c7770c61d39b062d63ad777844998f91182e69f7befdfeb",
+  "native_index": 281,
+  "nsd_id0": 22886,
+  "shard": 0,
+  "sample": "sample000002976",
+  "brain_sha256": "43e55fcc867e26437533ef4cac574c363b2cc1918562c6134d787894d9977ccf",
+  "jpeg_sha256": "cbabdb44f77d227434beac43570cdfc95395f714e949ad3016a9b56102cece9d",
+  "brainhub_tensor_sha256": "1b9ef58f6be90deefa48238c3730aaf5bf62f1890eef42be691f7aee64e7dd38",
+  "evaluation_png_sha256": "349a2387aa25ffb073828859d3b6defa3ae540f74b8db79ba64e758b4f09864f",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595347.9331102
+}

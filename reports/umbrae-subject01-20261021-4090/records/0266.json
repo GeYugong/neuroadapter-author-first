@@ -1,0 +1,32 @@
+{
+  "raw_response": "<s> A view of several street signs in a row.</s>",
+  "caption": "A view of several street signs in a row.",
+  "token_ids": [
+    1,
+    319,
+    1776,
+    310,
+    3196,
+    11952,
+    18906,
+    297,
+    263,
+    1948,
+    29889,
+    2
+  ],
+  "feature_sha256": "64d478357901ba34f903fd0aaea89dc7bdc3805178cee8602e9b452b345dc2b8",
+  "native_index": 266,
+  "nsd_id0": 22387,
+  "shard": 0,
+  "sample": "sample000002903",
+  "brain_sha256": "c4c1214a7aa4a45d452bc953e087425c877a9648a19e314160ac52e1bcb22d75",
+  "jpeg_sha256": "acc7ab81dd093cd97267d4b36618f0c13d669477a4401bda9a79a202c6018b9c",
+  "brainhub_tensor_sha256": "0b4c298a3c918b0febfe38b2698416b572b5d70bc3891ff181b79766cdbb1019",
+  "evaluation_png_sha256": "a6ec2111364f746729d128b01a91f5360ecd5e81a00a1a30e0376ba47c0a906e",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595344.1388614
+}

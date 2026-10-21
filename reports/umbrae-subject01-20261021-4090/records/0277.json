@@ -1,0 +1,33 @@
+{
+  "raw_response": "<s> A clock tower is at the top of a building.</s>",
+  "caption": "A clock tower is at the top of a building.",
+  "token_ids": [
+    1,
+    319,
+    12006,
+    19372,
+    338,
+    472,
+    278,
+    2246,
+    310,
+    263,
+    5214,
+    29889,
+    2
+  ],
+  "feature_sha256": "a3796bd35d75492620ff547cc4c6135a4b86bb8f6b3e5e1b2f3b86f65ef20438",
+  "native_index": 277,
+  "nsd_id0": 22809,
+  "shard": 0,
+  "sample": "sample000002965",
+  "brain_sha256": "4188957d205d4c10dda72adf6a2ad812e172c7f5494813296fc746df5b689ae2",
+  "jpeg_sha256": "7a883f11feeab7c95c56ca584cd019afedd555f6bffd5c2cb1bb7ae031b852dd",
+  "brainhub_tensor_sha256": "920bb495f1bb7740f9fc9b51c21a2f11b8ce3e391151cd23ca044c10aae53b29",
+  "evaluation_png_sha256": "4266cbcfe2baa46f1c0332bc4655cbb8295b50bcf03a82d1c6ac02f0049da3cd",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595346.9068406
+}

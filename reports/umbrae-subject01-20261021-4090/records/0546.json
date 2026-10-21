@@ -1,0 +1,31 @@
+{
+  "raw_response": "<s> A large jet flying through a gray sky.</s>",
+  "caption": "A large jet flying through a gray sky.",
+  "token_ids": [
+    1,
+    319,
+    2919,
+    22588,
+    22764,
+    1549,
+    263,
+    16749,
+    14744,
+    29889,
+    2
+  ],
+  "feature_sha256": "2f73c252c6ae4a5d79da0541825854907c49d25e9ca8646a9d5ad9cba6152d70",
+  "native_index": 546,
+  "nsd_id0": 42007,
+  "shard": 1,
+  "sample": "sample000005659",
+  "brain_sha256": "8c8f3645fd915265bc8c0312dc4313184eed0d75f5f2acaf213ba59881942789",
+  "jpeg_sha256": "03af6d26cbd5ad4ed5c1dd623816f3b6243757ee6d021f2cd5a93263b70a911b",
+  "brainhub_tensor_sha256": "f3d91abd286de80748c32d04c5ce0b331ba4a7761bd0b483afe0d232456de260",
+  "evaluation_png_sha256": "eec571ef6af936d9c1f19374ac5199429d838e1863dec0db98b039fadc812a44",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595416.6359391
+}

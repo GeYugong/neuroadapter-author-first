@@ -1,0 +1,33 @@
+{
+  "raw_response": "<s> A bathroom with two sinks under a mirror.</s>",
+  "caption": "A bathroom with two sinks under a mirror.",
+  "token_ids": [
+    1,
+    319,
+    27683,
+    8345,
+    411,
+    1023,
+    269,
+    19363,
+    1090,
+    263,
+    19571,
+    29889,
+    2
+  ],
+  "feature_sha256": "1ada540910e9046d03cd5743bafe7a93eb7d0e394a9eaa2a3d18badf3349fad9",
+  "native_index": 725,
+  "nsd_id0": 53858,
+  "shard": 1,
+  "sample": "sample000007247",
+  "brain_sha256": "810d3625b4e33fabe49a7f2755f4b4676e9121e5dfae6bf79c9b5048d9a8497d",
+  "jpeg_sha256": "26d90250327fa31c494e5956bd042968b23842588843531df708a1eac7dca235",
+  "brainhub_tensor_sha256": "327c89ad7dbffc5f1734a83a94e243b4a487e5b8438b0c5d6ae54b757c4589c5",
+  "evaluation_png_sha256": "8f9b67ce6c02ff65a19b55a29e6351f48fb366f09437d33f6124698762d1fb93",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595466.0737822
+}

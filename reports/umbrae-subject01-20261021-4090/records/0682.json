@@ -1,0 +1,33 @@
+{
+  "raw_response": "<s> A building with a clock on the front second story.</s>",
+  "caption": "A building with a clock on the front second story.",
+  "token_ids": [
+    1,
+    319,
+    5214,
+    411,
+    263,
+    12006,
+    373,
+    278,
+    4565,
+    1473,
+    5828,
+    29889,
+    2
+  ],
+  "feature_sha256": "ae6145aed4535f86d3bf27404d557afa5b87b59e5913375c091cf26446884ce4",
+  "native_index": 682,
+  "nsd_id0": 50811,
+  "shard": 1,
+  "sample": "sample000006827",
+  "brain_sha256": "ee49b2999783bc0968f1a6b2548413febfd5cb288c2b303bd9b333fa9bcca15b",
+  "jpeg_sha256": "f84641f5d212f107f97c937d94f102ece122e8ec61fe9100d6d7469e104562b5",
+  "brainhub_tensor_sha256": "a9b8e6ce155dbe130bb08e096002e0207772aceed44803c2a04c02e7c49b9e98",
+  "evaluation_png_sha256": "cd5e3311fe6604c560f4bba1dbcd820b719e12c50d1848230e0465ba9b3453d3",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595455.3404253
+}

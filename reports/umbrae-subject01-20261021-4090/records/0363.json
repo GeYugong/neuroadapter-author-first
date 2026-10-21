@@ -1,0 +1,33 @@
+{
+  "raw_response": "<s> A white plate topped with a type of food.</s>",
+  "caption": "A white plate topped with a type of food.",
+  "token_ids": [
+    1,
+    319,
+    4796,
+    15284,
+    304,
+    2986,
+    411,
+    263,
+    1134,
+    310,
+    9687,
+    29889,
+    2
+  ],
+  "feature_sha256": "0634afa48a40902b1bd98005828234e9b690acf8f6984311e80fd74d2389eeb3",
+  "native_index": 363,
+  "nsd_id0": 28096,
+  "shard": 0,
+  "sample": "sample000003712",
+  "brain_sha256": "975b9e85f1bdb329bee98b8683659b6e938d1c34e6dd57b62068b2606ac8d540",
+  "jpeg_sha256": "eddaaad84934bab14b88565e762fb40ddd977341288a82893596ffbf6599e46c",
+  "brainhub_tensor_sha256": "2a3acd63c4c3f5cb3793b0c374abff153ba604f13acf57cfd629f1f9da0d0aee",
+  "evaluation_png_sha256": "ee1c2c9a896562ff9dfa6a97472039074cdfd1762e39cb7dd63e670f57ed8621",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595369.4781225
+}

@@ -1,0 +1,33 @@
+{
+  "raw_response": "<s> A person flying a kite in a grassy field</s>",
+  "caption": "A person flying a kite in a grassy field",
+  "token_ids": [
+    1,
+    319,
+    2022,
+    22764,
+    263,
+    413,
+    568,
+    297,
+    263,
+    17455,
+    29891,
+    1746,
+    2
+  ],
+  "feature_sha256": "0fcd336b945dea626f200c13041b23252ed47d46beebf519e4aa62aced89001f",
+  "native_index": 73,
+  "nsd_id0": 7418,
+  "shard": 0,
+  "sample": "sample000000966",
+  "brain_sha256": "9093990ab0a8e614820bd04e8d3918178af77b13c94492667033a8244b838753",
+  "jpeg_sha256": "42be2399a7bf71fe64e09d6b7dbfee0e4a36d90c3ffa7dbe860ade3c68d675d9",
+  "brainhub_tensor_sha256": "956e526b0a97df376f8e2c8658b532976a208bfa3999b801774e8d4b21473b85",
+  "evaluation_png_sha256": "91fce1fb27e4a5d7730c076b0fd52c1769a671d8cd4a68970c7312697b874689",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595294.7805343
+}

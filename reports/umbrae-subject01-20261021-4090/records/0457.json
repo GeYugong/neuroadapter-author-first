@@ -1,0 +1,33 @@
+{
+  "raw_response": "<s> A street view of a town on a sunny day</s>",
+  "caption": "A street view of a town on a sunny day",
+  "token_ids": [
+    1,
+    319,
+    11952,
+    1776,
+    310,
+    263,
+    4726,
+    373,
+    263,
+    6575,
+    1460,
+    2462,
+    2
+  ],
+  "feature_sha256": "aa1419de87654fe9160c6a423bff1b5f707130738d538adca5f26d674c6dac18",
+  "native_index": 457,
+  "nsd_id0": 34850,
+  "shard": 0,
+  "sample": "sample000004660",
+  "brain_sha256": "d9f988655fd2213517da624ac54470b02d901d194f52c5d2a578c720ce526135",
+  "jpeg_sha256": "953773de0e9abbfa0f2b0d3bc922813dd1b0d18d31cd22d2aab7f42e82a1c2b4",
+  "brainhub_tensor_sha256": "191141a75773b19f8fe68c80462bec436258242542e1c5b67ab6439543226028",
+  "evaluation_png_sha256": "ff197acf50801bffae922f8ba53a611f2e0bb5d1a071ac6b05e1a0a41bbea9e6",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595393.7615914
+}

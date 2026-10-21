@@ -1,0 +1,33 @@
+{
+  "raw_response": "<s> A man surfing a wave in the ocean.</s>",
+  "caption": "A man surfing a wave in the ocean.",
+  "token_ids": [
+    1,
+    319,
+    767,
+    1190,
+    29888,
+    292,
+    263,
+    10742,
+    297,
+    278,
+    23474,
+    29889,
+    2
+  ],
+  "feature_sha256": "95bc8bc05bfd08d28fbb80f89a6c4c00c13bf4ccc5ecedb67ab3281912ad7b65",
+  "native_index": 453,
+  "nsd_id0": 34603,
+  "shard": 0,
+  "sample": "sample000004625",
+  "brain_sha256": "91ea1582c0d7e4bda22dccbea50cba35b5a8c251d53ff7a0ed45e3b253733bbf",
+  "jpeg_sha256": "9d1bf16b8f1d74480c3f2a080a5d962bce33fb8b5d19996c7c35a2ee84a4576c",
+  "brainhub_tensor_sha256": "f6d89badf7c116c7c5f462e599f04e562655734f74609d17ddd380a0dae14ed6",
+  "evaluation_png_sha256": "83e947ba7967607d62efd9668ee70cdcfd1981bdfb9f4b77c018b2ca7cb62597",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595392.6284528
+}

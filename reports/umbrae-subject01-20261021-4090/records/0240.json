@@ -1,0 +1,31 @@
+{
+  "raw_response": "<s> A large bus on a open city street.</s>",
+  "caption": "A large bus on a open city street.",
+  "token_ids": [
+    1,
+    319,
+    2919,
+    3593,
+    373,
+    263,
+    1722,
+    4272,
+    11952,
+    29889,
+    2
+  ],
+  "feature_sha256": "2b7375b318591ee7e7b5187c1173bd759c4f891589542ec8f819768e8228ae68",
+  "native_index": 240,
+  "nsd_id0": 20442,
+  "shard": 0,
+  "sample": "sample000002653",
+  "brain_sha256": "0bf09453e4980dd2367297398a737cc3959c9b2d1dbaddd8d9c1c208ac1917ee",
+  "jpeg_sha256": "2e6cee8d7610ae51f37e07dfc37263e445667704075d2a0eb29f80c32705076d",
+  "brainhub_tensor_sha256": "b5095c628362937b6c62a6d236bb7d6e5f90ba7fb79dffe6bcca8dd074f2da20",
+  "evaluation_png_sha256": "93638a977b68a69c4ac4b0274920cc0098b32232711a74cf482760f7f84a0800",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595337.4502456
+}

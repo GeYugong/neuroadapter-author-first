@@ -1,0 +1,32 @@
+{
+  "raw_response": "<s> A computer desk is shown with a monitor.</s>",
+  "caption": "A computer desk is shown with a monitor.",
+  "token_ids": [
+    1,
+    319,
+    6601,
+    553,
+    29895,
+    338,
+    4318,
+    411,
+    263,
+    11819,
+    29889,
+    2
+  ],
+  "feature_sha256": "5c834023f7114f08fb6641551b49e851a5b19b54b6cbf0a490821fd9742f9c7b",
+  "native_index": 269,
+  "nsd_id0": 22515,
+  "shard": 0,
+  "sample": "sample000002922",
+  "brain_sha256": "638f289c1f0a6e97f2ac60d417c59325c34f4dec7ecdf9cc43125a8bb6e5cb6f",
+  "jpeg_sha256": "62137385b99b90b58818ab836e05526e1b00e59332c92b44b5826321b4a2a14a",
+  "brainhub_tensor_sha256": "366e5df2829f47c1dcc4511293359777f3dcd7ff1ad0d851896988a29376e0ba",
+  "evaluation_png_sha256": "67d96302ac9ff9792cec7b51e66075680913a676aea7ffa291b3eb14c3540965",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595344.9076245
+}

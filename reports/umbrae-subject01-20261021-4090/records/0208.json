@@ -1,0 +1,33 @@
+{
+  "raw_response": "<s> A kitchen with a center island next to a window.</s>",
+  "caption": "A kitchen with a center island next to a window.",
+  "token_ids": [
+    1,
+    319,
+    29181,
+    411,
+    263,
+    4818,
+    11359,
+    2446,
+    304,
+    263,
+    3474,
+    29889,
+    2
+  ],
+  "feature_sha256": "c4efa3b8ec44101ef06c03662e44f329967e6ea4d7e67d3d505c8e3e89d3eae2",
+  "native_index": 208,
+  "nsd_id0": 17549,
+  "shard": 0,
+  "sample": "sample000002268",
+  "brain_sha256": "8d5d3655a9706b9584945ea7ba084d7c208c7d2993ad92c0a0aa1cc853eaf71f",
+  "jpeg_sha256": "d6350600279fc7773ad6cc6498d444fbba07c302a57dd909ddcf9a70b1f60a07",
+  "brainhub_tensor_sha256": "1ab4f284200533e5d30f47695776178c8815dbf189a4bb4584ba055a4192f3ec",
+  "evaluation_png_sha256": "5034736a753502dc40a1ebcda7035288f9f43f1535c2a08fd9931c0fe60c7b1a",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595329.4892838
+}

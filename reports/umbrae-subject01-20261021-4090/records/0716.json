@@ -1,0 +1,32 @@
+{
+  "raw_response": "<s> A dark city street has no people on it.</s>",
+  "caption": "A dark city street has no people on it.",
+  "token_ids": [
+    1,
+    319,
+    6501,
+    4272,
+    11952,
+    756,
+    694,
+    2305,
+    373,
+    372,
+    29889,
+    2
+  ],
+  "feature_sha256": "909ec1dfabfe35175caf1c78278b45062e45f2ba599cd8e15074c767c46931f6",
+  "native_index": 716,
+  "nsd_id0": 53155,
+  "shard": 1,
+  "sample": "sample000007160",
+  "brain_sha256": "f80ca1ffde97010075274474bba35ba0f9c8aad7126d9d52eab7f27925369062",
+  "jpeg_sha256": "db7234181f349f907354f0fc906fcd0682798791750cddaf578ea3f85a07c33d",
+  "brainhub_tensor_sha256": "9347962d273e2fb35b7d3859aa5ada42f0762e15b9e10dff38337600e6cdddbb",
+  "evaluation_png_sha256": "828bbd0b5ce4dcaf724fab10a111073ec82a425d515279a7a99ab48f9ef1677a",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595463.7813334
+}

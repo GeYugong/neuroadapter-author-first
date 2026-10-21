@@ -1,0 +1,31 @@
+{
+  "raw_response": "<s> A large group of people in a field.</s>",
+  "caption": "A large group of people in a field.",
+  "token_ids": [
+    1,
+    319,
+    2919,
+    2318,
+    310,
+    2305,
+    297,
+    263,
+    1746,
+    29889,
+    2
+  ],
+  "feature_sha256": "5e2cd77a1320cb55cd77e2d493af982fccfc3f0547033b29eec865970caade17",
+  "native_index": 194,
+  "nsd_id0": 16723,
+  "shard": 0,
+  "sample": "sample000002163",
+  "brain_sha256": "5f1813246e1d0f352474061bf2d624f2aed7344a23a40e77f4245017c3ba151a",
+  "jpeg_sha256": "ff5850fc0bbd3bb089e542a34eb3829d5be3afbd3240cba2d65a3981054badd9",
+  "brainhub_tensor_sha256": "df701f864b62deaa9b0ad8e6c24b5496c74cdd7e2d3379c7f6678d95cc087de9",
+  "evaluation_png_sha256": "482780357c399785484f372a7d9ce1fdc65b20b53a57f13a50cd87b420b4dab2",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595326.0235953
+}

@@ -1,0 +1,58 @@
+{
+  "passed": true,
+  "rank": 0,
+  "original_loop_tokens_exact": true,
+  "samples": [
+    {
+      "raw_response": "<s> A group of people cooking in a kitchen</s>",
+      "caption": "A group of people cooking in a kitchen",
+      "token_ids": [
+        1,
+        319,
+        2318,
+        310,
+        2305,
+        7984,
+        292,
+        297,
+        263,
+        29181,
+        2
+      ],
+      "feature_sha256": "1aa5db785ac795048037eeb2b2ebe3594519e68da85e4a5277f28c2eb440b608"
+    },
+    {
+      "raw_response": "<s> A man in a kitchen with a spoon in his hand.</s>",
+      "caption": "A man in a kitchen with a spoon in his hand.",
+      "token_ids": [
+        1,
+        319,
+        767,
+        297,
+        263,
+        29181,
+        411,
+        263,
+        805,
+        6150,
+        297,
+        670,
+        1361,
+        29889,
+        2
+      ],
+      "feature_sha256": "e1015fbc4f8c61b1a7f69aadd57ba513ef1d9f73f9203d5019d6b172009ab563"
+    }
+  ],
+  "loading_info": {
+    "missing_keys": [],
+    "unexpected_keys": [
+      "model.mm_projector.bias",
+      "model.mm_projector.weight"
+    ],
+    "mismatched_keys": [],
+    "error_msgs": []
+  },
+  "peak_cuda_bytes": 14516287488,
+  "time": 1792595276.0073907
+}

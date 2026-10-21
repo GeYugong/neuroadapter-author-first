@@ -1,0 +1,31 @@
+{
+  "raw_response": "<s> A kitchen with lots of counter top space.</s>",
+  "caption": "A kitchen with lots of counter top space.",
+  "token_ids": [
+    1,
+    319,
+    29181,
+    411,
+    14568,
+    310,
+    6795,
+    2246,
+    2913,
+    29889,
+    2
+  ],
+  "feature_sha256": "5500a2a1038eff7ebbe075cedb1f83e4d2931a70c168d56e0f9b690bceb7e811",
+  "native_index": 428,
+  "nsd_id0": 32625,
+  "shard": 0,
+  "sample": "sample000004342",
+  "brain_sha256": "defce331d1183155a1e5a93692d388742953dd644ab2990d8fa7b0b0d8b05240",
+  "jpeg_sha256": "63aec8250bcf961de55be34aa24cf5c2d998ad82ba04af5037e963bdbf4cbc6e",
+  "brainhub_tensor_sha256": "3b17b7adec29f60b987fc6e85cd52effd60e6b8eb853856e633c12531a8f9edc",
+  "evaluation_png_sha256": "5b1d981848364ae133738a34d4ba63ac052ca0987de1fccf43030f53f0707f35",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595385.9631813
+}

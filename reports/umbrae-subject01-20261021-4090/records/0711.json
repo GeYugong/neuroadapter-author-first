@@ -1,0 +1,31 @@
+{
+  "raw_response": "<s> A group of people walking along a beach.</s>",
+  "caption": "A group of people walking along a beach.",
+  "token_ids": [
+    1,
+    319,
+    2318,
+    310,
+    2305,
+    22049,
+    3412,
+    263,
+    25695,
+    29889,
+    2
+  ],
+  "feature_sha256": "156f9333b3a8754fdedcfcba5907ea50441c39f8fa71611fe6c8c8dfd9d35ced",
+  "native_index": 711,
+  "nsd_id0": 52892,
+  "shard": 1,
+  "sample": "sample000007128",
+  "brain_sha256": "3cb63ccc8ed7ac589c79316b793df67c536cf972ccf9ba0cd69bd1bec55fc0fa",
+  "jpeg_sha256": "2f10f857b7ef573eac4b4d6c9949fc7596328fa3bcb9ed8067bb13f58cbfcff2",
+  "brainhub_tensor_sha256": "4604e37ef4e50d936fa957e24821054e54bcdd427543574a46b96cab542ee11b",
+  "evaluation_png_sha256": "c9c3e78b59297d8c20c5c2b273a2a0a2072713e125e079cac14e58669e346345",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595462.6223257
+}

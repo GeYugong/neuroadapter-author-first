@@ -1,0 +1,30 @@
+{
+  "raw_response": "<s> a large air plane on a run way</s>",
+  "caption": "a large air plane on a run way",
+  "token_ids": [
+    1,
+    263,
+    2919,
+    4799,
+    10694,
+    373,
+    263,
+    1065,
+    982,
+    2
+  ],
+  "feature_sha256": "498feca407c31c2c9051908828a7f85eabb2fea0b181e04615a9aa018b7e02c9",
+  "native_index": 46,
+  "nsd_id0": 5459,
+  "shard": 0,
+  "sample": "sample000000683",
+  "brain_sha256": "6d8178fe6c791a73850187b118204a6830db2ea1a442b6aa8f78cf976639b6f2",
+  "jpeg_sha256": "bacb5273d45740d22f364f220e31cb86760987c55ad8cf4f2c07b56a797f8ae7",
+  "brainhub_tensor_sha256": "ae2bfc04908818c7fc251151508c1fcdaf42c9ff445a10a2c4cb5c8c9f0dd1fb",
+  "evaluation_png_sha256": "e92bdfddc8dbb26e67a7a23b9921041884e21bc2c10b1d8c48baccb0e20b98ce",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595288.137551
+}

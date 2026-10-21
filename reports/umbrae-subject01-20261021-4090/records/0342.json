@@ -1,0 +1,33 @@
+{
+  "raw_response": "<s> A group of people flying kites in a field.</s>",
+  "caption": "A group of people flying kites in a field.",
+  "token_ids": [
+    1,
+    319,
+    2318,
+    310,
+    2305,
+    22764,
+    413,
+    3246,
+    297,
+    263,
+    1746,
+    29889,
+    2
+  ],
+  "feature_sha256": "bafeaa2b4d48fb6e286280604474d75b4b5f826e0eaee248e9894a5d46304f71",
+  "native_index": 342,
+  "nsd_id0": 26435,
+  "shard": 0,
+  "sample": "sample000003480",
+  "brain_sha256": "2c22d73d4fe66eb41f71c4e0c87e9dd56299b096194179f2e7cd99a7ff9ac98f",
+  "jpeg_sha256": "39b639e1a8d0504533c461090c4d165eec863fedafe87365ecef3fab8b1cdd87",
+  "brainhub_tensor_sha256": "4181728616a48ec81c3cb6cf8cbfbe5167a33f4fef753906626e37938c8a8241",
+  "evaluation_png_sha256": "5645a1584a9ba7867cb29a504b4ab1a0cfcb6f89d013b01a6cc00c26a42a7ecf",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595363.946023
+}

@@ -1,0 +1,33 @@
+{
+  "raw_response": "<s> A small boat in the open water near the shore.</s>",
+  "caption": "A small boat in the open water near the shore.",
+  "token_ids": [
+    1,
+    319,
+    2319,
+    13006,
+    297,
+    278,
+    1722,
+    4094,
+    2978,
+    278,
+    19055,
+    29889,
+    2
+  ],
+  "feature_sha256": "47d275931cb67a923a46156a19f4408b43abaafe88233db4ab1934b322321a04",
+  "native_index": 103,
+  "nsd_id0": 9230,
+  "shard": 0,
+  "sample": "sample000001212",
+  "brain_sha256": "da848bc97b518a6f89896af97debf952b8c731155bfbce2813e6f54d06bc82ec",
+  "jpeg_sha256": "2dfff47ff4ee4fd5e0844ede1ce00feee423503797c5ade85c97189d67f2349b",
+  "brainhub_tensor_sha256": "c55880cd3bc07330d326f0d239ffc5cc63b5aaf7becfdc3960849dd4b41fbf5e",
+  "evaluation_png_sha256": "f4207179ec6c8b6d008e95ac583b9af19058eeee1559fbc84105d5ae3af99e9d",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595302.422083
+}

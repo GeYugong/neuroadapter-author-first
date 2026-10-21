@@ -1,0 +1,33 @@
+{
+  "raw_response": "<s> A woman holding a tennis racket on a court.</s>",
+  "caption": "A woman holding a tennis racket on a court.",
+  "token_ids": [
+    1,
+    319,
+    6114,
+    13587,
+    263,
+    22556,
+    1153,
+    3522,
+    373,
+    263,
+    8973,
+    29889,
+    2
+  ],
+  "feature_sha256": "de918216abbf5cb9ddd5e667bab86e97a2e0beb33db67c9fc108425f7a79d98a",
+  "native_index": 657,
+  "nsd_id0": 48679,
+  "shard": 1,
+  "sample": "sample000006554",
+  "brain_sha256": "234030ee95fbb5da10e5216810cbd3a0ee42e8792d81cb8b00da3cfaadeb012d",
+  "jpeg_sha256": "b7e6b162dbe3a72f1ef245d183be9c7e8da7cf2cd8b905ae17c3d561c52d3e55",
+  "brainhub_tensor_sha256": "47c38f67208b4fbc55da3d3c7328c359f4a3e3c48f48e3aa6ea0f8e6610e0637",
+  "evaluation_png_sha256": "dddb68d4798ca35ae2ea9f9f939be8770d3b88c39e3983fcdd9fedfe0ec7c4e0",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595448.852472
+}

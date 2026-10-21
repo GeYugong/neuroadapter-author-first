@@ -1,0 +1,31 @@
+{
+  "raw_response": "<s> A close up of a dog's face</s>",
+  "caption": "A close up of a dog's face",
+  "token_ids": [
+    1,
+    319,
+    3802,
+    701,
+    310,
+    263,
+    11203,
+    29915,
+    29879,
+    3700,
+    2
+  ],
+  "feature_sha256": "31cf9282776c7c56e2985b310cbad84d61dfed90a66cb5abcc89a8107290f254",
+  "native_index": 730,
+  "nsd_id0": 54257,
+  "shard": 1,
+  "sample": "sample000007304",
+  "brain_sha256": "7520f28ae9dcdfcd68885582e366584bf4b4778c1ca7006d2e4c05ada3da7556",
+  "jpeg_sha256": "21ba3bdfa0efa70e35f4995a2d1996a7d87e10442a2b2460b71f642b1b8094cf",
+  "brainhub_tensor_sha256": "7722050133b53073b48d5138afbbdedf77131e361233508a5579564205a8578f",
+  "evaluation_png_sha256": "51ee1b6a4972870d8eaad44a014c533805888960c792368a7ada02dfb2cb8620",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595467.2134173
+}

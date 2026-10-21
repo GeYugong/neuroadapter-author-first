@@ -1,0 +1,33 @@
+{
+  "raw_response": "<s> A person's hand is holding a small snack</s>",
+  "caption": "A person's hand is holding a small snack",
+  "token_ids": [
+    1,
+    319,
+    2022,
+    29915,
+    29879,
+    1361,
+    338,
+    13587,
+    263,
+    2319,
+    5807,
+    547,
+    2
+  ],
+  "feature_sha256": "b4bd2827f06c15f38a89d985bad0ff20ea3ca45279ff208617a2d89c3278c1e2",
+  "native_index": 76,
+  "nsd_id0": 7659,
+  "shard": 0,
+  "sample": "sample000000997",
+  "brain_sha256": "475a5c573f20524f4f99dc8ed22ed8fa86c5839bc2285bb11a448b6716c00005",
+  "jpeg_sha256": "81fc17597fbbec6d12254b6dcecf027494b22e8276a09d6d69a0171743f79e64",
+  "brainhub_tensor_sha256": "e09aa06832376fd75d0d8fc66eebdf7ab7f834ff6e540d76a81d91353dfb222d",
+  "evaluation_png_sha256": "f8c7ddaebd7c3b10d0f0e5cf153d067c023d44a3e62c9b562bb9e3a8eb808eb4",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595295.5322628
+}

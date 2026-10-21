@@ -1,0 +1,31 @@
+{
+  "raw_response": "<s> A group of people who are standing together.</s>",
+  "caption": "A group of people who are standing together.",
+  "token_ids": [
+    1,
+    319,
+    2318,
+    310,
+    2305,
+    1058,
+    526,
+    13407,
+    4208,
+    29889,
+    2
+  ],
+  "feature_sha256": "d01586fbca78e1cc54617850c555204678d0a8402addcb4d6f6dc7ed592c1457",
+  "native_index": 367,
+  "nsd_id0": 28303,
+  "shard": 0,
+  "sample": "sample000003749",
+  "brain_sha256": "4a9dc970452e2e003639f4c323fc902a70b0a71e1e599ab59faaab22f50778e3",
+  "jpeg_sha256": "3df7d6fd1f3282d42235f7811b1a1de88030f3161083165a214be0cf7ea0c5f4",
+  "brainhub_tensor_sha256": "eeb7389bea0252274442ddd461fc5cfde5daa278e8b01b1b91f09f5435cf8dff",
+  "evaluation_png_sha256": "b4c358714276316291e8dc8d61ac5eb48c6572624b9e4a10f721932ebeabc642",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595370.486852
+}

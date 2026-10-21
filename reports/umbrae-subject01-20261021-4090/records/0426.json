@@ -1,0 +1,32 @@
+{
+  "raw_response": "<s> A group of birds flying in the sky together.</s>",
+  "caption": "A group of birds flying in the sky together.",
+  "token_ids": [
+    1,
+    319,
+    2318,
+    310,
+    17952,
+    22764,
+    297,
+    278,
+    14744,
+    4208,
+    29889,
+    2
+  ],
+  "feature_sha256": "3f3a06affb9590b2b60368542bf6de9ab4e757cdc1458010162ae02b0133dca2",
+  "native_index": 426,
+  "nsd_id0": 32303,
+  "shard": 0,
+  "sample": "sample000004294",
+  "brain_sha256": "1da0f4381ada14b57382ec678bf632c478c820f42d2bc8b3b69bc5648983b10f",
+  "jpeg_sha256": "4d264e6cdb8bd9c2bfac51d545498f819c7acaebefeb3cb871ad66750c85a66c",
+  "brainhub_tensor_sha256": "b9012dcb046ca51724a0a772e9e7b69c819b37dc8b091ad31f93549dce0d7c9c",
+  "evaluation_png_sha256": "1909c46b18b129d286e98c0ede33a52d688fc561a7ad14a20034d3dceebfa26b",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595385.5221648
+}

@@ -1,0 +1,32 @@
+{
+  "raw_response": "<s> A large pizza is shown on a plate.</s>",
+  "caption": "A large pizza is shown on a plate.",
+  "token_ids": [
+    1,
+    319,
+    2919,
+    282,
+    24990,
+    338,
+    4318,
+    373,
+    263,
+    15284,
+    29889,
+    2
+  ],
+  "feature_sha256": "d114536c7166d5fd992541abe6e3f07b265d5f9baf26e5554407b1cca7fbff88",
+  "native_index": 834,
+  "nsd_id0": 61809,
+  "shard": 1,
+  "sample": "sample000008339",
+  "brain_sha256": "bfb879c37225c020de7b800e440e48b1f73fe1bd097186f642f05ed9f14c8de7",
+  "jpeg_sha256": "45b45b19cf551461161522f88d507bbe4ed80115989e66fa1e1362ec9ea2c234",
+  "brainhub_tensor_sha256": "a19ece32a8e8d12e343d2a637b17ec82bbe1268eadac242c6d315e44f7d84db3",
+  "evaluation_png_sha256": "2b6bfa650f0399b94c7a4b655e1d6ab1338f0e5c13bc41dac3a473edbb37ca41",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595494.3191237
+}

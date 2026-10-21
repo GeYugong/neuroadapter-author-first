@@ -1,0 +1,32 @@
+{
+  "raw_response": "<s> A child sitting at a table and eating.</s>",
+  "caption": "A child sitting at a table and eating.",
+  "token_ids": [
+    1,
+    319,
+    2278,
+    16246,
+    472,
+    263,
+    1591,
+    322,
+    321,
+    1218,
+    29889,
+    2
+  ],
+  "feature_sha256": "f0df2038c33bbe3e0cf52dceb35149e53d20f2e3da4a32ab51d8864912904351",
+  "native_index": 947,
+  "nsd_id0": 70075,
+  "shard": 1,
+  "sample": "sample000009456",
+  "brain_sha256": "e2a60ca61359bf7274ac9730e0b18a20cc203d4cf077e6c0d3eb072769a0eacf",
+  "jpeg_sha256": "a87f129f2dab478bab7a2c10bde58378ebae0eabbb8b653a35c7538dc301038e",
+  "brainhub_tensor_sha256": "474256f6ad1903c1145a8639afb99e172211927c9f26c988ab4a63702f9c5f5f",
+  "evaluation_png_sha256": "4362df9f45090f1e606b63c077cd6cb664aa4ee46bdd39858ca68db8e6266b8c",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595523.0705676
+}

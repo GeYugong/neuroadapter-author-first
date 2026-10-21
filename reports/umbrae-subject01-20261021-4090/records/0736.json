@@ -1,0 +1,33 @@
+{
+  "raw_response": "<s> A plate full of cut up vegetables is shown.</s>",
+  "caption": "A plate full of cut up vegetables is shown.",
+  "token_ids": [
+    1,
+    319,
+    15284,
+    2989,
+    310,
+    5700,
+    701,
+    18655,
+    1849,
+    338,
+    4318,
+    29889,
+    2
+  ],
+  "feature_sha256": "ac1812354140de298f2313a648e5fab04663e0778802a30e007a6858bbd68255",
+  "native_index": 736,
+  "nsd_id0": 54743,
+  "shard": 1,
+  "sample": "sample000007355",
+  "brain_sha256": "8b60474132bb48c6315f887b8539069afd0bf3b615e748aeefb91114d4fd2fea",
+  "jpeg_sha256": "dd71d4055fb5b2abe274e9ab338b1145cf08860d9d95732da41095d7d39838ba",
+  "brainhub_tensor_sha256": "ec21a2c2ab53797f61d1efcb3638ccfa3c35af7879a84783356b5c881c2f4758",
+  "evaluation_png_sha256": "419f6b3d6c604c4e3c1efda4d6886c43f0e4c3b3eec5bbab517d375d80c61993",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595468.73522
+}

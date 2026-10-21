@@ -1,0 +1,33 @@
+{
+  "raw_response": "<s> A bowl of vegetables is on a table.</s>",
+  "caption": "A bowl of vegetables is on a table.",
+  "token_ids": [
+    1,
+    319,
+    12580,
+    29880,
+    310,
+    18655,
+    1849,
+    338,
+    373,
+    263,
+    1591,
+    29889,
+    2
+  ],
+  "feature_sha256": "b2147b5a2a9eadea57e48acd154cdc646c77099abd1d2651b615860a29c2b42c",
+  "native_index": 364,
+  "nsd_id0": 28159,
+  "shard": 0,
+  "sample": "sample000003724",
+  "brain_sha256": "aba84b7b3ab3269de60be446f25c8cdc885f381f9febc6600e47e32dcd548ec7",
+  "jpeg_sha256": "7bd50ff68963850228e0d6df4116a853dca5e04328d123add73f2b3f14a440a8",
+  "brainhub_tensor_sha256": "b1fc3e5d6d2bb7578470ec1afa9ffc77aeac69dea12f1c746b96920f3aa42967",
+  "evaluation_png_sha256": "3363947b3e8892e4aeeb94527fbbbc9e3d59a3ec25e6c9c8fe6a3076a38ced2e",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595369.7167995
+}

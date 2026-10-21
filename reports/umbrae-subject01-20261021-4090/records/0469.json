@@ -1,0 +1,33 @@
+{
+  "raw_response": "<s> A house with a window and a ladder out side</s>",
+  "caption": "A house with a window and a ladder out side",
+  "token_ids": [
+    1,
+    319,
+    3699,
+    411,
+    263,
+    3474,
+    322,
+    263,
+    11979,
+    672,
+    714,
+    2625,
+    2
+  ],
+  "feature_sha256": "9868793476d73db868ef1405e79652914aded1d8932349525d7c42640b7b62b1",
+  "native_index": 469,
+  "nsd_id0": 36476,
+  "shard": 0,
+  "sample": "sample000004889",
+  "brain_sha256": "f1691f903617836e76f4c6cf660bd7229f6c6bda66a392b18cf3a231c08db0ef",
+  "jpeg_sha256": "b5a29235887752557d71bcccc65902f78a315762450acd51753b124e47eb1b20",
+  "brainhub_tensor_sha256": "aa1b5435d8317680193f55a73f1b13496e23bdf7705a05e2c08ee282a2d2eabe",
+  "evaluation_png_sha256": "542931eb3a13d2829772c8c18e0358f30715ea14e222b734b11b6b0a70b554e4",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595396.7699952
+}

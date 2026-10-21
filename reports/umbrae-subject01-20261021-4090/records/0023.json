@@ -1,0 +1,32 @@
+{
+  "raw_response": "<s> Two people are walking through a wooded area.</s>",
+  "caption": "Two people are walking through a wooded area.",
+  "token_ids": [
+    1,
+    7803,
+    2305,
+    526,
+    22049,
+    1549,
+    263,
+    8112,
+    287,
+    4038,
+    29889,
+    2
+  ],
+  "feature_sha256": "676cc8eb2eeefe2ccd1b69e2bb0b9ec8db611f4d895498fb97ab08478db0692a",
+  "native_index": 23,
+  "nsd_id0": 4051,
+  "shard": 0,
+  "sample": "sample000000497",
+  "brain_sha256": "e6fade69634b062dac312bf4cab1780b17aabf823d07e20d573da8d0f21e946c",
+  "jpeg_sha256": "b2362427fa0d16c160d51bc0bbf3fe10c69be7e64315640039263ffcab5c345d",
+  "brainhub_tensor_sha256": "20e81e1c4d3046f68af466cdad6d133a7d7b62b5049a32301b8dd9e1ec744887",
+  "evaluation_png_sha256": "187348acad2e1e6955cf38f24a9a9c0d77dbc87ce969ee7cfe1b9333260a61f0",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595282.4524693
+}

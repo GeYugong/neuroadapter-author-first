@@ -1,0 +1,33 @@
+{
+  "raw_response": "<s> A large jet sitting on top of a runway.</s>",
+  "caption": "A large jet sitting on top of a runway.",
+  "token_ids": [
+    1,
+    319,
+    2919,
+    22588,
+    16246,
+    373,
+    2246,
+    310,
+    263,
+    1065,
+    1582,
+    29889,
+    2
+  ],
+  "feature_sha256": "2459d8881288dfe6d4fa50bce5cfc31bc1ede82ddd6540421e25a1227fda7036",
+  "native_index": 115,
+  "nsd_id0": 10105,
+  "shard": 0,
+  "sample": "sample000001305",
+  "brain_sha256": "a27989ded10326f4bf1d2e9825988ca370d00f40fe5dbf81aa46d08c19f22515",
+  "jpeg_sha256": "eaf73f81350410ad942fd9362678b6c93395a59479d5494d370494dbe32eaccc",
+  "brainhub_tensor_sha256": "196e91cf7d8cd1bcdf52aea80e95f098a3ebede7c8c4589ed45731f0e7b6d3d6",
+  "evaluation_png_sha256": "d4068d59deb1295dc42bae5aaf50f06545b1124540ff6b5b48d50b7cd1dd21a3",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595305.6090302
+}

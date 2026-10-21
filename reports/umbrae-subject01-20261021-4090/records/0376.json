@@ -1,0 +1,31 @@
+{
+  "raw_response": "<s> A street sign is beside a busy street.</s>",
+  "caption": "A street sign is beside a busy street.",
+  "token_ids": [
+    1,
+    319,
+    11952,
+    1804,
+    338,
+    17620,
+    263,
+    19587,
+    11952,
+    29889,
+    2
+  ],
+  "feature_sha256": "b5ad15bf0accbfd6e63a227770a7ad7e5ddf15c8bd048fbe58a09d35582c96ab",
+  "native_index": 376,
+  "nsd_id0": 28689,
+  "shard": 0,
+  "sample": "sample000003807",
+  "brain_sha256": "c7f037f31d39b41364b424cb493d290edcfa11ec0fe6cc93818399b655096a61",
+  "jpeg_sha256": "7b2ec8e8a448cb642c6180083964a54e4ac9660d3dcbf43934e726449eb20c14",
+  "brainhub_tensor_sha256": "6a8e03eadabea0592f3a25456314dfea1fd03a782726b2ec9e01b9747f862632",
+  "evaluation_png_sha256": "dfe55bde585a799e5d9fb51d59f0aa4fce01d6d5b8d9a1623f4e360c275ff2da",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595372.69021
+}

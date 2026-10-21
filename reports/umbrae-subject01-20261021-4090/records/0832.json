@@ -1,0 +1,33 @@
+{
+  "raw_response": "<s> A man looking up while holding something in his hand.</s>",
+  "caption": "A man looking up while holding something in his hand.",
+  "token_ids": [
+    1,
+    319,
+    767,
+    3063,
+    701,
+    1550,
+    13587,
+    1554,
+    297,
+    670,
+    1361,
+    29889,
+    2
+  ],
+  "feature_sha256": "2c959843f4981ae47f6493ebbc2fbeaad50383a5d5c6df340ea12786b0d1dd9a",
+  "native_index": 832,
+  "nsd_id0": 61797,
+  "shard": 1,
+  "sample": "sample000008336",
+  "brain_sha256": "2e787e4ed1644b96e90d9ceacba5fc1e43a9643a5ebeb2f8a4af648f48783d9b",
+  "jpeg_sha256": "cfdca3230ac6e109be171fc9d06067efd29aeb8c1c807e6fb56836036b77632c",
+  "brainhub_tensor_sha256": "e4c149dbe2ea57ed03a2487abfbe76b2c66ab56a61b5eb60f598e7cb7600e29e",
+  "evaluation_png_sha256": "112ba1210b2328d4bd8f8964a0a2884b1f55864d9a56a5da9e02876d3e1d0304",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595493.8416939
+}

@@ -1,0 +1,33 @@
+{
+  "raw_response": "<s> A man in a grey shirt is playing tennis.</s>",
+  "caption": "A man in a grey shirt is playing tennis.",
+  "token_ids": [
+    1,
+    319,
+    767,
+    297,
+    263,
+    18345,
+    528,
+    2728,
+    338,
+    8743,
+    22556,
+    29889,
+    2
+  ],
+  "feature_sha256": "2f46ca07f5ac26f8e610075dc8b03a0b593be89f0604dbd61f6885388f460e3f",
+  "native_index": 485,
+  "nsd_id0": 37494,
+  "shard": 0,
+  "sample": "sample000005023",
+  "brain_sha256": "6173a60399bbb32c0cb5dbae8bc9da19b463937edf76165c4fc30277feab2eb5",
+  "jpeg_sha256": "553e683725453dde392e8cd6d9086dd305f7f9ef93e5881cb46972312242c4aa",
+  "brainhub_tensor_sha256": "41a4a9eafd0fbc4f97fce1a18c72c67fb653a3c1284f3b9e30fc196a5e111c7d",
+  "evaluation_png_sha256": "407d90ea5dd1000951257d666c0b0748e77f77b8782e3075db876a03eb708771",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595400.857391
+}

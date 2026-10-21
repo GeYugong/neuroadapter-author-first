@@ -1,0 +1,33 @@
+{
+  "raw_response": "<s> A man standing in front of a snow covered mountain.</s>",
+  "caption": "A man standing in front of a snow covered mountain.",
+  "token_ids": [
+    1,
+    319,
+    767,
+    13407,
+    297,
+    4565,
+    310,
+    263,
+    15007,
+    10664,
+    14378,
+    29889,
+    2
+  ],
+  "feature_sha256": "02943a4c369fd1d83b37d2d1fc6def76964827dbfb9b88dadc2ba12bd79f90d8",
+  "native_index": 113,
+  "nsd_id0": 10046,
+  "shard": 0,
+  "sample": "sample000001299",
+  "brain_sha256": "29635c6c5ff69c50fe8f4b3102881ba2d48db162e23381bfd3b2f1c2db9d992d",
+  "jpeg_sha256": "fea15fd689369caba0590d20301f8f4be2187b6910d8718971d93d069dcbc62f",
+  "brainhub_tensor_sha256": "b1c7217aa04f5ea972cb86c30f6899aecdc0282552e51f81fad2ae8eb409a6a0",
+  "evaluation_png_sha256": "c8f749a5ede113cf99ed83240e9d3be68fca63a72660edc42abf7bb459a8733e",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595305.0962353
+}

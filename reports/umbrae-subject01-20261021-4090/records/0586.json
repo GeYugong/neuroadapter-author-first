@@ -1,0 +1,32 @@
+{
+  "raw_response": "<s> A small elephant is standing in a field</s>",
+  "caption": "A small elephant is standing in a field",
+  "token_ids": [
+    1,
+    319,
+    2319,
+    4552,
+    561,
+    424,
+    338,
+    13407,
+    297,
+    263,
+    1746,
+    2
+  ],
+  "feature_sha256": "d5bcf8199cfcd4ea62aa83b1a725b1e7da033de57fd75b9aa4d93f72465df03e",
+  "native_index": 586,
+  "nsd_id0": 44097,
+  "shard": 1,
+  "sample": "sample000005944",
+  "brain_sha256": "6fb3181259e607f70052649092f4043c0b07821e65a32100fe4e2d9e46ff42f8",
+  "jpeg_sha256": "82ed8ecdbeb1474c7c7184c3ed0553d3ac35e799347861def9aca4753dc47f63",
+  "brainhub_tensor_sha256": "f8f0f3e45aef6f7294cc5e506d76fe688f1f420c60adebfe9178d91d5543f501",
+  "evaluation_png_sha256": "3bbe54709400d121dd55e9b8af5c33ac865896caf7ee8dce334366c44c0a69db",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595426.8263898
+}

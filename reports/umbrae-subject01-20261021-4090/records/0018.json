@@ -1,0 +1,32 @@
+{
+  "raw_response": "<s> A man is standing on a soccer field.</s>",
+  "caption": "A man is standing on a soccer field.",
+  "token_ids": [
+    1,
+    319,
+    767,
+    338,
+    13407,
+    373,
+    263,
+    269,
+    11953,
+    1746,
+    29889,
+    2
+  ],
+  "feature_sha256": "ad831efaf6d23b7fdb8a037a6b3e8761845853d05b9f032a1b80da4c05209247",
+  "native_index": 18,
+  "nsd_id0": 3842,
+  "shard": 0,
+  "sample": "sample000000469",
+  "brain_sha256": "7b2bedb4630d6a41046e1aeb98df9764b47f129ed335f0ac5f3c498cf7548a4d",
+  "jpeg_sha256": "a5eb216e8659eff852c261ea76cff1a79e4f2b64f58eb14381d5cc6d9eec8f31",
+  "brainhub_tensor_sha256": "ec593f6e8e8ca1ad4717ee0d71a9edddb8208a598c8aa6e36ac3da4eef697c9a",
+  "evaluation_png_sha256": "6c81df37bfe3f88b3784755a01f26adc92d0b5b766e32aee24fa9e22caf40daa",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595281.062521
+}

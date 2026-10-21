@@ -1,0 +1,18 @@
+{
+  "passed": true,
+  "n_synthetic": 2,
+  "original_corpus_functions": true,
+  "scores": {
+    "bleu": [
+      0.999999999875,
+      0.9999999998705358,
+      0.9999999998650795,
+      0.9999999998581847
+    ],
+    "meteor": 1.0,
+    "rouge": 1.0,
+    "cider": 10.0,
+    "spice": 1.0
+  },
+  "seconds": 5.151993036270142
+}

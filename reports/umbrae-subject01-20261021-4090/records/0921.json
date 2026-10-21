@@ -1,0 +1,31 @@
+{
+  "raw_response": "<s> A display of books in a bookstore.</s>",
+  "caption": "A display of books in a bookstore.",
+  "token_ids": [
+    1,
+    319,
+    2479,
+    310,
+    8277,
+    297,
+    263,
+    3143,
+    8899,
+    29889,
+    2
+  ],
+  "feature_sha256": "8fb4a6203666641c4043b9202fe98172c167ada6f70618c1bad09c9d0a39d8d3",
+  "native_index": 921,
+  "nsd_id0": 68311,
+  "shard": 1,
+  "sample": "sample000009225",
+  "brain_sha256": "f12fc151d453c8ca76e83991c03f2f99d1173239879474b268cf14277fc8e1c0",
+  "jpeg_sha256": "a7377d8d72569676bcd1899f255ae774f03841e5e46bdc93ebfd1d540c5f180e",
+  "brainhub_tensor_sha256": "3840ba9c64b84450e78aa0949c7598ddc8b1c6bd610f3538c152286526630c4c",
+  "evaluation_png_sha256": "aa059003db731140c1b5a30d3bfc398cc5a598bd45c6aa1b740f11822451b770",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595516.3621528
+}

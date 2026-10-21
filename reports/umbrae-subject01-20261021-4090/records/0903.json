@@ -1,0 +1,32 @@
+{
+  "raw_response": "<s> A man standing in a park under a tree.</s>",
+  "caption": "A man standing in a park under a tree.",
+  "token_ids": [
+    1,
+    319,
+    767,
+    13407,
+    297,
+    263,
+    14089,
+    1090,
+    263,
+    5447,
+    29889,
+    2
+  ],
+  "feature_sha256": "940e569631d4bbff5c8eeadea4b27be75896cdfd67ba1418069672038f215313",
+  "native_index": 903,
+  "nsd_id0": 66773,
+  "shard": 1,
+  "sample": "sample000009024",
+  "brain_sha256": "f476c002d621d2322298bb7d900469bfb7fcd31d2a7e8bb3effd4ac519990e67",
+  "jpeg_sha256": "8f8ba09e48a5e6dfb1fc47076de5728a97b7051bb4f981f58b9a1c7aecb826c6",
+  "brainhub_tensor_sha256": "411a3b809ae9e485e9ef7d3d73673522ba4ba67576eac625b8284bead27b6021",
+  "evaluation_png_sha256": "b930355237bcdcb2c6479a284ce478145b1dfc15d0848fcd5b07306e9e72cd72",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595511.759577
+}

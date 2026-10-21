@@ -1,0 +1,33 @@
+{
+  "raw_response": "<s> The woman is standing by the window in her kitchen.</s>",
+  "caption": "The woman is standing by the window in her kitchen.",
+  "token_ids": [
+    1,
+    450,
+    6114,
+    338,
+    13407,
+    491,
+    278,
+    3474,
+    297,
+    902,
+    29181,
+    29889,
+    2
+  ],
+  "feature_sha256": "10c4e04d3ec162e22ef0e75284412ea78f4b94aa793f7ab760b215fec67ae715",
+  "native_index": 857,
+  "nsd_id0": 63922,
+  "shard": 1,
+  "sample": "sample000008629",
+  "brain_sha256": "2639204dff981a8237b66a57c1cbf13cca0f5f83570dcab71d77c01e75e24044",
+  "jpeg_sha256": "5af51f8694561db449c4d7956bdd2e7d2d84e86289eb1a204a8c0b4ab01e0506",
+  "brainhub_tensor_sha256": "efcbb8740f018e3116b61e83ccc71d67511c83b3d92c8595a8b16bde68625ba8",
+  "evaluation_png_sha256": "80e156615091bf624ee96e69f48ca7fddde3f5501aae451bda019ad8845f5221",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595500.0970163
+}

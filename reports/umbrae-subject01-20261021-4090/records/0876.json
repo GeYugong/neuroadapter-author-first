@@ -1,0 +1,32 @@
+{
+  "raw_response": "<s> A desktop computer is sitting in a workspace.</s>",
+  "caption": "A desktop computer is sitting in a workspace.",
+  "token_ids": [
+    1,
+    319,
+    14616,
+    6601,
+    338,
+    16246,
+    297,
+    263,
+    664,
+    3493,
+    29889,
+    2
+  ],
+  "feature_sha256": "c8365047a8a9cf220f9754bf7e0748e8b4b389aaf4a90eb5313c286e40b1da97",
+  "native_index": 876,
+  "nsd_id0": 65232,
+  "shard": 1,
+  "sample": "sample000008797",
+  "brain_sha256": "9d057fac75ca8967ce7cdc249399eee0ab09f9bec9cfcac6fa028a8d3dc32fbf",
+  "jpeg_sha256": "7d6f359cd2ed40022f37eb1c488916f2e49990e60ff98ef0d275dc91c1e8ffee",
+  "brainhub_tensor_sha256": "7eab5cae2ac8d2564db33e4b76d1d8b30400dc50fcc1909074ce8c6162e55fe5",
+  "evaluation_png_sha256": "ec7dbf7486286408e4bbf86cb8b6398fb3b8e2e8fc43d17603b5e45bfb712b16",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595504.9546194
+}

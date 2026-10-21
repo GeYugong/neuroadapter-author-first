@@ -1,0 +1,22 @@
+{
+  "python": "3.11.16 (main, Aug 27 2026, 14:44:21) [GCC 14.3.0]",
+  "versions": {
+    "torch": "2.11.0+cu128",
+    "torchvision": "0.26.0+cu128",
+    "transformers": "4.37.2",
+    "sentence-transformers": "2.7.0",
+    "tokenizers": "0.15.2",
+    "numpy": "1.26.4",
+    "clip-anytorch": "2.6.0",
+    "pycocoevalcap": "1.2",
+    "webdataset": "0.2.86"
+  },
+  "java": "openjdk version \"1.8.0_504\"\nOpenJDK Runtime Environment (build 1.8.0_504-8u504-ga-1ubuntu1~22.04.3-b01)\nOpenJDK 64-Bit Server VM (build 25.504-b01, mixed mode)",
+  "CUDA": "12.8",
+  "execution_device": "RTX4090 physicalGPU0",
+  "brain": "FP32 parameters/FP16 autocast",
+  "Shikra": "FP16 parameters/FP16 autocast",
+  "official_evaluator": "BrainHub commit4838666f1a04d0521c2184fa50b5b77e7e7ac5ee",
+  "numpy_note": "Official CLIPScore code warns that NumPy>=1.21 may differ numerically from historical paper environment",
+  "time": 1792596328.3720236
+}

@@ -1,0 +1,33 @@
+{
+  "raw_response": "<s> A large clock mounted to the side of a building.</s>",
+  "caption": "A large clock mounted to the side of a building.",
+  "token_ids": [
+    1,
+    319,
+    2919,
+    12006,
+    19239,
+    304,
+    278,
+    2625,
+    310,
+    263,
+    5214,
+    29889,
+    2
+  ],
+  "feature_sha256": "d1be983ec2ad105d864099a45145c325ef20050db4f07a659ad1ff2213ea3964",
+  "native_index": 239,
+  "nsd_id0": 20307,
+  "shard": 0,
+  "sample": "sample000002638",
+  "brain_sha256": "bbad962a614bb580fdb6b032015517ef4e0650b759e4edf0a0396a8c30204035",
+  "jpeg_sha256": "148bfa9e96985524cf85a324e702b39a8b5c72d1dda39f896877002cd993c703",
+  "brainhub_tensor_sha256": "64b959a72c6454f22e0da6f4238b6a789bc2c69896fc61d41e2daf3623a9da24",
+  "evaluation_png_sha256": "130071b8107d907c71036086be4fa89372e6f50d8c800a6059a03e93afde176b",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595337.2473178
+}

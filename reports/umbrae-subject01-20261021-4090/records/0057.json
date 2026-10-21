@@ -1,0 +1,32 @@
+{
+  "raw_response": "<s> A group of men playing baseball on a field.</s>",
+  "caption": "A group of men playing baseball on a field.",
+  "token_ids": [
+    1,
+    319,
+    2318,
+    310,
+    1757,
+    8743,
+    21573,
+    373,
+    263,
+    1746,
+    29889,
+    2
+  ],
+  "feature_sha256": "9ef3d46c6de5f763b4bec8dc441e54acf7a208e40ab8808cc593db0c62c0b786",
+  "native_index": 57,
+  "nsd_id0": 6431,
+  "shard": 0,
+  "sample": "sample000000820",
+  "brain_sha256": "ada3c82207fac5cfefc1545bf69466a260a1dffedaaf8327f8a489171b52ec26",
+  "jpeg_sha256": "32d721e1a3194841377e92fd65ec0720de12abcddf9401b2a122c097fed2501a",
+  "brainhub_tensor_sha256": "a57a42278989482e0ffb1f478c5423f15f24af5609d8cc38b7b378086bf825bc",
+  "evaluation_png_sha256": "5f26ccbfad767b8607af70a4a885171938b638b4829128bb134d908c2997d840",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595290.692929
+}

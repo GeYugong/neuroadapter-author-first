@@ -1,0 +1,32 @@
+{
+  "raw_response": "<s> A group of large boats in a harbor.</s>",
+  "caption": "A group of large boats in a harbor.",
+  "token_ids": [
+    1,
+    319,
+    2318,
+    310,
+    2919,
+    25462,
+    297,
+    263,
+    4023,
+    4089,
+    29889,
+    2
+  ],
+  "feature_sha256": "a2d1967b928d7565276896e1445c6ba4c16ae9bd39d0e892b5e5fcd98f2b8e08",
+  "native_index": 132,
+  "nsd_id0": 11689,
+  "shard": 0,
+  "sample": "sample000001522",
+  "brain_sha256": "99ede9476a8bde9067748a1974d713ce01dc0cc9f2dffadd96b09c51f5d6e5d9",
+  "jpeg_sha256": "a67fc6b4e8133e50455afb2847867a9a32a1b45daf018c52eb5ba6b2e559203d",
+  "brainhub_tensor_sha256": "32f841e19eb61d7ff2f96181957647fa0e279d7f1943ea169eac22a427fb5789",
+  "evaluation_png_sha256": "7f484d67c9af3c99d776f216f6eafe05a81151ed924a3f89d1f8e29ea48a7e14",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595310.1131477
+}

@@ -1,0 +1,33 @@
+{
+  "raw_response": "<s> A large building with a window and a street view.</s>",
+  "caption": "A large building with a window and a street view.",
+  "token_ids": [
+    1,
+    319,
+    2919,
+    5214,
+    411,
+    263,
+    3474,
+    322,
+    263,
+    11952,
+    1776,
+    29889,
+    2
+  ],
+  "feature_sha256": "747a39d2b205617590c6078fe3614518eac4c48de226e541e687ea06e83aea5d",
+  "native_index": 872,
+  "nsd_id0": 65010,
+  "shard": 1,
+  "sample": "sample000008771",
+  "brain_sha256": "6fcfaa69149bff97b3ad0a0fee92d9ac8be9251af1e4890774f7660a43871497",
+  "jpeg_sha256": "1cbc412ee03e1a8359d815559c45594634d5a5ffaa3a517df21ccbf0ff9f45fe",
+  "brainhub_tensor_sha256": "e5426a16bd07b311d85761e44db125249c8977823ae9a89a8299b62e0dfdd1ff",
+  "evaluation_png_sha256": "34bbbdcc7cdf7de6e993adc390b2f65fdac60474d2e5b682d8e8df024f62f53d",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595504.0358126
+}

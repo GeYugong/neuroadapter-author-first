@@ -1,0 +1,32 @@
+{
+  "raw_response": "<s> A picture of a plant in a greenhouse.</s>",
+  "caption": "A picture of a plant in a greenhouse.",
+  "token_ids": [
+    1,
+    319,
+    7623,
+    310,
+    263,
+    8024,
+    297,
+    263,
+    7933,
+    8697,
+    29889,
+    2
+  ],
+  "feature_sha256": "7ef5d7844c1e5592b0fe5e000f346fc2f60011b7e065a10fa3381aa3a6a8e4eb",
+  "native_index": 291,
+  "nsd_id0": 23876,
+  "shard": 0,
+  "sample": "sample000003127",
+  "brain_sha256": "f0fce447f3f54b0a611d6f1a6017834604d49726a51702e94ddf0cace0b0f2f6",
+  "jpeg_sha256": "467a4cd44cc689a33ae56111b78ce848a056aa9ecdbbc56ccdae345f1a949ff2",
+  "brainhub_tensor_sha256": "81d41771aa95e339ac5d9f5a8e564368b731f1dc9dc5f6ded6f20ec09a7b99a2",
+  "evaluation_png_sha256": "c7bd1ec33cc1945ef781fa574a085b2eff627207102af37b68f7bf9ca07b3d7e",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595350.5355973
+}

@@ -1,0 +1,33 @@
+{
+  "raw_response": "<s> A view of a city intersection with several street signs.</s>",
+  "caption": "A view of a city intersection with several street signs.",
+  "token_ids": [
+    1,
+    319,
+    1776,
+    310,
+    263,
+    4272,
+    17686,
+    411,
+    3196,
+    11952,
+    18906,
+    29889,
+    2
+  ],
+  "feature_sha256": "295e31a6cc99278cfec32b6f8348c4d271fd00adb668c923f908c5e022418de4",
+  "native_index": 67,
+  "nsd_id0": 7039,
+  "shard": 0,
+  "sample": "sample000000912",
+  "brain_sha256": "63398f7901596a43269aeddd69c5328f2be2c0b271ba54adf6b65a785e5d1041",
+  "jpeg_sha256": "6ca90a50e2fb94a64918dd76ad8b72007eaf4b6651fdeb6b6045bc981c91275c",
+  "brainhub_tensor_sha256": "5dfbe37b905ea47ed9014ea1ddd217690b8b08709540d22c2d689ed6e584ccc4",
+  "evaluation_png_sha256": "62a56b30bfcf947dea58f40b4b9dc5f71e9c9e04eb6b7b0d9171dcef88e11353",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595293.2404923
+}

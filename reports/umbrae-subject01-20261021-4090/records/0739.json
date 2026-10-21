@@ -1,0 +1,33 @@
+{
+  "raw_response": "<s> The baseball players are in the middle of a game.</s>",
+  "caption": "The baseball players are in the middle of a game.",
+  "token_ids": [
+    1,
+    450,
+    21573,
+    10769,
+    526,
+    297,
+    278,
+    7256,
+    310,
+    263,
+    3748,
+    29889,
+    2
+  ],
+  "feature_sha256": "decb9750fd2ce3ad9185f0ead6f3590c30ba0a361a7b1ce9ee9377282dcdaca8",
+  "native_index": 739,
+  "nsd_id0": 54959,
+  "shard": 1,
+  "sample": "sample000007386",
+  "brain_sha256": "666432bbe05b3f58e2175daeb36569866024e74c3ca55553592e2a7e9114ba9b",
+  "jpeg_sha256": "e02cb2efeda8a52b9ea1a7d23a349c2e7e15956033aabd701ff54ced3c8f76d4",
+  "brainhub_tensor_sha256": "8da947280a859aa59a166e02a9599dde8257389dbb84ca83ea19e1d76bdc2c5f",
+  "evaluation_png_sha256": "ca8f15dd54c7db5808f2ee3dbd7f85aa5522cd30684439ffb4ff646dc2a2ebb6",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595469.452023
+}

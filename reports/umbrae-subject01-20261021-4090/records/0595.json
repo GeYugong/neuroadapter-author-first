@@ -1,0 +1,32 @@
+{
+  "raw_response": "<s> A large bus is parked on the street.</s>",
+  "caption": "A large bus is parked on the street.",
+  "token_ids": [
+    1,
+    319,
+    2919,
+    3593,
+    338,
+    14089,
+    287,
+    373,
+    278,
+    11952,
+    29889,
+    2
+  ],
+  "feature_sha256": "a59abd69049fac01577385bfe2834e40da00baf1d5b8a93e913813520e7e7c7e",
+  "native_index": 595,
+  "nsd_id0": 44705,
+  "shard": 1,
+  "sample": "sample000006026",
+  "brain_sha256": "8cc055c0576dd2befcb03e6e1f3c25b96fc7e5060aad406d1d3d929a57d09242",
+  "jpeg_sha256": "3dcad59045ae6904d540ea7f61cf353806068a10afa37bb5a8ffccecfe576e77",
+  "brainhub_tensor_sha256": "c3e442feabb22494f2d66c2bc34f59b8367977d69b6bd5bdb46e4d314d6484f0",
+  "evaluation_png_sha256": "ced5552cab346e212afc465e512d8d87c39001334900b7c124f9b70023ba5f16",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595429.0481021
+}

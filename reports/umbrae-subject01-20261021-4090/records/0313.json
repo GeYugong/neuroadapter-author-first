@@ -1,0 +1,32 @@
+{
+  "raw_response": "<s> A close up of a bunch of bananas.</s>",
+  "caption": "A close up of a bunch of bananas.",
+  "token_ids": [
+    1,
+    319,
+    3802,
+    701,
+    310,
+    263,
+    14928,
+    310,
+    9892,
+    16397,
+    29889,
+    2
+  ],
+  "feature_sha256": "cd38800933b53796f6fb06ecb0d62708d8cc2ebefdb1bde58c7825808b2ee108",
+  "native_index": 313,
+  "nsd_id0": 25250,
+  "shard": 0,
+  "sample": "sample000003325",
+  "brain_sha256": "888a34d6efba51aeff5a225e76f909f64132cc870cfdfdd97a7a63bbd2b64c18",
+  "jpeg_sha256": "0f847e9f39efcf634c34c327a1720591372cce96676677b97b05a8724c0e9914",
+  "brainhub_tensor_sha256": "41c9437beb1d8245778612d9e707dc9dc73899ee251dcefc7823524183e12a66",
+  "evaluation_png_sha256": "c9b629138360aad091e0088a41b29a69209e42fad44894a645b1ad65506fbade",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595356.200479
+}

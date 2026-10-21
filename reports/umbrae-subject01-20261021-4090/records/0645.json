@@ -1,0 +1,33 @@
+{
+  "raw_response": "<s> A table full of various plates and foods.</s>",
+  "caption": "A table full of various plates and foods.",
+  "token_ids": [
+    1,
+    319,
+    1591,
+    2989,
+    310,
+    5164,
+    715,
+    1078,
+    322,
+    9687,
+    29879,
+    29889,
+    2
+  ],
+  "feature_sha256": "f48553c5284231dc93ee69042483e2fb7a6053ed3f6398b41abdc19cd6ae2262",
+  "native_index": 645,
+  "nsd_id0": 47687,
+  "shard": 1,
+  "sample": "sample000006432",
+  "brain_sha256": "3673ab1cd59889bd04c3f8b0f8e22e89d257c089b441d94adf4cd0253686c904",
+  "jpeg_sha256": "e55cea7b4dc31f4df1450ee72d433327f0f19ec1e58f78f4ec52639a1cbd4a7b",
+  "brainhub_tensor_sha256": "90980afe761d83aea754d33b7316bf31df32fa78e6ea115e4e8a817405d947aa",
+  "evaluation_png_sha256": "1d5bd1b4b3e15ac69488cca6515fa9eb3395b548a72a8265aaabee9fafbb5103",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595445.7359376
+}

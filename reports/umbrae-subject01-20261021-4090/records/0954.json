@@ -1,0 +1,32 @@
+{
+  "raw_response": "<s> A baseball player is standing on a playing field.</s>",
+  "caption": "A baseball player is standing on a playing field.",
+  "token_ids": [
+    1,
+    319,
+    21573,
+    4847,
+    338,
+    13407,
+    373,
+    263,
+    8743,
+    1746,
+    29889,
+    2
+  ],
+  "feature_sha256": "d50134e4a01b8844c2c6a6fcfba8a68c44903c0d4c0677a33af1b1a3fe150bc0",
+  "native_index": 954,
+  "nsd_id0": 70427,
+  "shard": 1,
+  "sample": "sample000009502",
+  "brain_sha256": "9deca177a9da64535b40824e8d34d15ee9fb6ef4ea1c3ac2d601cdc28f218c50",
+  "jpeg_sha256": "cb8fc8d3c6f0074024f4fdee7187298a6164be9bf4dfdb762281ba928729d936",
+  "brainhub_tensor_sha256": "174b9d3fa172246430268339a413ba8f17c5dd0cdc8a8568b90da60419538334",
+  "evaluation_png_sha256": "bdcc9459a03c7e1567d20036dbc6ff87920ad4d49323384200bfb92db03e39e2",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595524.7773428
+}

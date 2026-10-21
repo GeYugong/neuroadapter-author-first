@@ -1,0 +1,33 @@
+{
+  "raw_response": "<s> A group of rheingles in a tree branch</s>",
+  "caption": "A group of rheingles in a tree branch",
+  "token_ids": [
+    1,
+    319,
+    2318,
+    310,
+    364,
+    354,
+    292,
+    793,
+    297,
+    263,
+    5447,
+    5443,
+    2
+  ],
+  "feature_sha256": "f2be2e13de2748385dbc12f5b307e3f8bdaf8d1d40a3dd71945be21232697bd1",
+  "native_index": 692,
+  "nsd_id0": 51745,
+  "shard": 1,
+  "sample": "sample000006942",
+  "brain_sha256": "44eb8d0eff775571077cf731e722586b05b11c542035c80e35c012bf4e0e065f",
+  "jpeg_sha256": "5096b241643f7c7166f82239a6aa63e6711aa083717f312f606841bbd1bed840",
+  "brainhub_tensor_sha256": "e193e03308b5a36fcb5b2a5a5ed41259ea85e1ba5461f41c8685fa2c29755ab1",
+  "evaluation_png_sha256": "52aacbdf9643b2c3a43c56b6852e3ba39410660ae8778ecf56a3a08d00e1fe27",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595457.9070125
+}

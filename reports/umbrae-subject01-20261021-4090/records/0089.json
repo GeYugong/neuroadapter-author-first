@@ -1,0 +1,32 @@
+{
+  "raw_response": "<s> A kitchen with a large window and many lights.</s>",
+  "caption": "A kitchen with a large window and many lights.",
+  "token_ids": [
+    1,
+    319,
+    29181,
+    411,
+    263,
+    2919,
+    3474,
+    322,
+    1784,
+    26068,
+    29889,
+    2
+  ],
+  "feature_sha256": "b6c2fe33462c7cea2f44f803b8200cd7cd8819656e65d601409ad8072ae218f7",
+  "native_index": 89,
+  "nsd_id0": 8394,
+  "shard": 0,
+  "sample": "sample000001091",
+  "brain_sha256": "85d553ecc70bc3a215eacb5c5d6242f72bfc53a6df5f236f78bd9b757f159365",
+  "jpeg_sha256": "4493f5bf07531a2674fa90dcee9609bbde4198c48b99bf41e419c7c276c01a5b",
+  "brainhub_tensor_sha256": "736efbd9af991dbdef59e22535b5c2309f5fd01d80e80e8c43b76913522029e0",
+  "evaluation_png_sha256": "a348944a16ed345938d7556fd9ebc7ec92065db5fd2aebc0a04b75610c1f9b45",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595298.8666584
+}

@@ -1,0 +1,33 @@
+{
+  "raw_response": "<s> Two people standing next to each other in a room.</s>",
+  "caption": "Two people standing next to each other in a room.",
+  "token_ids": [
+    1,
+    7803,
+    2305,
+    13407,
+    2446,
+    304,
+    1269,
+    916,
+    297,
+    263,
+    5716,
+    29889,
+    2
+  ],
+  "feature_sha256": "828ffdd01933599d64d6becb7db7c4f2eed4ca6db99515fc2b4852791861cae7",
+  "native_index": 467,
+  "nsd_id0": 36067,
+  "shard": 0,
+  "sample": "sample000004839",
+  "brain_sha256": "55a49c387ee6d08ec6c66cdbb70a0b3a242af45fdf420d3d80f101791ea77a61",
+  "jpeg_sha256": "c65e2fef2c9b37ce1624c39ca151799ec894e7d035e1ceba620853d478c99fc5",
+  "brainhub_tensor_sha256": "deb73c6e75f42e6bc55490a8a83c3b90ae59a4f8ae95d4f31c33f458d9dcbf33",
+  "evaluation_png_sha256": "520205f332f0ac05185b334ab6edffcce032ab6c47707ec81241086529db3b4c",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595396.2574217
+}

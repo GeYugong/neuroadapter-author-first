@@ -1,0 +1,33 @@
+{
+  "raw_response": "<s> A man sitting on a motorcycle on a road.</s>",
+  "caption": "A man sitting on a motorcycle on a road.",
+  "token_ids": [
+    1,
+    319,
+    767,
+    16246,
+    373,
+    263,
+    10992,
+    23090,
+    373,
+    263,
+    6520,
+    29889,
+    2
+  ],
+  "feature_sha256": "a3052b30bb430296e5882a2a1ceafd0c345ed1456926f3d846c3b8572b4a1b9a",
+  "native_index": 221,
+  "nsd_id0": 18796,
+  "shard": 0,
+  "sample": "sample000002435",
+  "brain_sha256": "9b351d759147ebf5e5b4abb62fece19fed8e06aa1cff797a948a0f85cdfd7a70",
+  "jpeg_sha256": "a13ff2d5e1a754aa17878e2f23b936e0772e6fea032bb79f6d0970317588e746",
+  "brainhub_tensor_sha256": "bf065e078808491d9984a043c541f900f0bbed12070914f03af9f55bf36ae984",
+  "evaluation_png_sha256": "99e187740fac2c3e9032a5da5ac5608a811eca09329602b84e41eaeafde3992f",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595332.8075244
+}

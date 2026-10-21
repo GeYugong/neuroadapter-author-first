@@ -1,0 +1,32 @@
+{
+  "raw_response": "<s> A little girl that is sitting on a bed.</s>",
+  "caption": "A little girl that is sitting on a bed.",
+  "token_ids": [
+    1,
+    319,
+    2217,
+    7826,
+    393,
+    338,
+    16246,
+    373,
+    263,
+    6592,
+    29889,
+    2
+  ],
+  "feature_sha256": "971240ee8aea9f83401e841e4dcc5911b257a8eb81b8feaae8fa0a449b5b6de2",
+  "native_index": 29,
+  "nsd_id0": 4423,
+  "shard": 0,
+  "sample": "sample000000547",
+  "brain_sha256": "e4191f71201823208c55ab9aaef748f645ac6d692398901165642b6733afeb27",
+  "jpeg_sha256": "f4150f1eca916e28b0deee29af298ac7ade725b1ffcb1bb4a894d3b62c92f620",
+  "brainhub_tensor_sha256": "ccf27c5486332d8b460f086c46e1cd31f8d069d6e8346f1d76ff8fca2c0b8620",
+  "evaluation_png_sha256": "229c57c52a4f849de053f7aaa94577ba5aba587a21d540cf193a360ce4240f2b",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595283.901678
+}

@@ -1,0 +1,33 @@
+{
+  "raw_response": "<s> A person snowboarding down a snowy hill.</s>",
+  "caption": "A person snowboarding down a snowy hill.",
+  "token_ids": [
+    1,
+    319,
+    2022,
+    15007,
+    3377,
+    292,
+    1623,
+    263,
+    15007,
+    29891,
+    17306,
+    29889,
+    2
+  ],
+  "feature_sha256": "ec8c1d8d88b50f3d196a7e2098bc1f03b9e4e60614aacc21cca95affa57622b4",
+  "native_index": 530,
+  "nsd_id0": 40979,
+  "shard": 1,
+  "sample": "sample000005509",
+  "brain_sha256": "0a4cda4f201202bafc7c77777304462419d0ce6c599a961d09e9d0dd0f9edeb6",
+  "jpeg_sha256": "c958cfa0ecd465c744258ffc6dc5c8dfd035cf2636b0a03681d21296bb11f0df",
+  "brainhub_tensor_sha256": "eb5917f764213813cb5aa961d77a8558daa81ccf149870da0cc9331dddc243c8",
+  "evaluation_png_sha256": "09e9e3e18fa3ce4cefc524b51d8f6f60456056a0b3804d3bb6be48716d92cae1",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595412.5659204
+}

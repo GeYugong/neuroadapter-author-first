@@ -1,0 +1,18 @@
+{
+  "complete": true,
+  "n": 982,
+  "brain_shape": [
+    982,
+    3,
+    15724
+  ],
+  "official_image_tensor_order_exact": true,
+  "original_WebDataset_and_mean_exact": true,
+  "locked_S1_test_ID_set_exact": true,
+  "reference_caption_count": 4913,
+  "brain_state_strict_load": true,
+  "Shikra_load_pending": true,
+  "checkpoint_epoch": 99,
+  "free_gib": 27.36914825439453,
+  "time": 1792594525.798583
+}

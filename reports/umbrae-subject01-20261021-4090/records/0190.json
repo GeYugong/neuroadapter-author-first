@@ -1,0 +1,33 @@
+{
+  "raw_response": "<s> A living room with a couch and chairs.</s>",
+  "caption": "A living room with a couch and chairs.",
+  "token_ids": [
+    1,
+    319,
+    8471,
+    5716,
+    411,
+    263,
+    274,
+    3222,
+    322,
+    521,
+    7121,
+    29889,
+    2
+  ],
+  "feature_sha256": "4cf11120004765d442c79b3c9c69161cb2a727c3358184e5f5e09a5a20d72d27",
+  "native_index": 190,
+  "nsd_id0": 16616,
+  "shard": 0,
+  "sample": "sample000002148",
+  "brain_sha256": "64c882bbe96775c35963e9e8d753ad2ee9fcfbf98260d069c7396a1bd63e0430",
+  "jpeg_sha256": "0e8eaae1d1fe513a8d9d54749121bfeac9ed17643360fe7541f76702a8244240",
+  "brainhub_tensor_sha256": "21fcfaee6567449a0a904b23a24d2bc8c668a1a159a45d04cfeada1f4773a6c4",
+  "evaluation_png_sha256": "972a497e6f30902388aec6a98b79dc431e88ae0c13630c5389260674e2e22798",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595324.9429784
+}

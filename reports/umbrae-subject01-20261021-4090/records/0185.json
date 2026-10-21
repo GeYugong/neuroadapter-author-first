@@ -1,0 +1,32 @@
+{
+  "raw_response": "<s> Two bears that are standing in the grass.</s>",
+  "caption": "Two bears that are standing in the grass.",
+  "token_ids": [
+    1,
+    7803,
+    367,
+    1503,
+    393,
+    526,
+    13407,
+    297,
+    278,
+    17455,
+    29889,
+    2
+  ],
+  "feature_sha256": "183fed1d0451ab86d779df0b571d1d466d06b0bfd7ce6d141061cb81a1b023d2",
+  "native_index": 185,
+  "nsd_id0": 16063,
+  "shard": 0,
+  "sample": "sample000002090",
+  "brain_sha256": "0ce9b5219b45558ef4dea85b13bc4c8a7a42a9ab100386c59bc3a044baeb7001",
+  "jpeg_sha256": "f1d4e1f3602c1ebb60ed844f5bf9d102dbc9ce946fc860f651a7913f48946a76",
+  "brainhub_tensor_sha256": "0932dc767a8e3e092fbd840d2b0a2b128f5207b91683e3bccf32d538c29ed32d",
+  "evaluation_png_sha256": "eac1901cd3b658539937150824e4257958a38e1ca13b5491d350528e5dd8e12a",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595323.7844958
+}

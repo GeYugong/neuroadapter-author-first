@@ -1,0 +1,33 @@
+{
+  "raw_response": "<s> A bunch of cars that are sitting in the street.</s>",
+  "caption": "A bunch of cars that are sitting in the street.",
+  "token_ids": [
+    1,
+    319,
+    14928,
+    310,
+    18647,
+    393,
+    526,
+    16246,
+    297,
+    278,
+    11952,
+    29889,
+    2
+  ],
+  "feature_sha256": "fd4c563bcfbd8f6de3aa7e55033c24c395c74dcb7dbbbbf477908ffe2f4e694a",
+  "native_index": 54,
+  "nsd_id0": 6132,
+  "shard": 0,
+  "sample": "sample000000776",
+  "brain_sha256": "7f2697af66db10dba9eb689034a39b02fca0ef0ec24499e00b080ee5008e628f",
+  "jpeg_sha256": "56ff6aa5dee84682f2d7a59489667569a73c63326b35eb92d16c7d47ede9ff73",
+  "brainhub_tensor_sha256": "44d08dd0009aa5523ca46d01dabe207eae62fe60a02c49cfd99de2e76f80e355",
+  "evaluation_png_sha256": "691e19cf6afaf8f76a0f03295a108f3fbb9c8e4f4adbe0124866477ebdb661e0",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595289.9591959
+}

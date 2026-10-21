@@ -1,0 +1,33 @@
+{
+  "raw_response": "<s> A large jetliner flying through a gray sky.</s>",
+  "caption": "A large jetliner flying through a gray sky.",
+  "token_ids": [
+    1,
+    319,
+    2919,
+    22588,
+    1915,
+    261,
+    22764,
+    1549,
+    263,
+    16749,
+    14744,
+    29889,
+    2
+  ],
+  "feature_sha256": "6fb176c93c1c21dd70828492855dda16c6396347273e40a3e6252c4d499b4220",
+  "native_index": 145,
+  "nsd_id0": 12487,
+  "shard": 0,
+  "sample": "sample000001623",
+  "brain_sha256": "8e4276fb8a9c3465e46cc1e5f78a959ff38f11b79994f6c01e8cb8308a5b55b2",
+  "jpeg_sha256": "6c0b165c8efffed428deae90ff9ef94120e8d2b6000ebb6d76dece5d9d4b2189",
+  "brainhub_tensor_sha256": "56db090339ecdae276f88504e53a18734b16bde7a14c7cbeb77550991f48a77a",
+  "evaluation_png_sha256": "77d78f8632eec24dd5dae5ef962843787b4c15db9e958668559f2ab0c62be571",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595313.5219207
+}

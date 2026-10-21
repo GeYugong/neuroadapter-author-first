@@ -1,0 +1,32 @@
+{
+  "raw_response": "<s> A view of an empty city street and train tracks</s>",
+  "caption": "A view of an empty city street and train track",
+  "token_ids": [
+    1,
+    319,
+    1776,
+    310,
+    385,
+    4069,
+    4272,
+    11952,
+    322,
+    7945,
+    16257,
+    2
+  ],
+  "feature_sha256": "bc53513ea79eea4ae5d50a8429a0e02328305c588039e56db963f349198c94ef",
+  "native_index": 545,
+  "nsd_id0": 41934,
+  "shard": 1,
+  "sample": "sample000005648",
+  "brain_sha256": "01a70cba9d4ea877e12d200c1423837ef033da874e134683932d0edb3d9e7ddd",
+  "jpeg_sha256": "9a38cee4a857b12f9fae8c81cc284e7ae3cb6924044a8c3a635d723f36be4cd7",
+  "brainhub_tensor_sha256": "7ae51441e0678ebae8e3b8ec70335c319a3d6f2ab0e0fe4c32930be839d991c6",
+  "evaluation_png_sha256": "f4daf3bc636fd8f278020c2ea5a627709790bfeabbfdc4e0e1036c23240731e0",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595416.4330935
+}

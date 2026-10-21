@@ -1,0 +1,33 @@
+{
+  "raw_response": "<s> A group of boxed in items in a store.</s>",
+  "caption": "A group of boxed in items in a store.",
+  "token_ids": [
+    1,
+    319,
+    2318,
+    310,
+    3800,
+    287,
+    297,
+    4452,
+    297,
+    263,
+    3787,
+    29889,
+    2
+  ],
+  "feature_sha256": "c078f48554c1436ff113c0b525c9865fb77c2711981642461dc7d20be47522c1",
+  "native_index": 896,
+  "nsd_id0": 66342,
+  "shard": 1,
+  "sample": "sample000008958",
+  "brain_sha256": "6da82503b21127c76b4ad4cf7c526ca74c328ac177549fbfa7aab5ff49142bc9",
+  "jpeg_sha256": "e411168ba372e014255eeb4f6668289392e43883ede9c898ded61268514e2156",
+  "brainhub_tensor_sha256": "76ae7841625a5aa8a144f95f0c0625084e245f40dd46700146da0ad6954be25d",
+  "evaluation_png_sha256": "1785f2c600831ff57cbcebbdf8536442e91853e47388c47091760e458217891b",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595509.998045
+}

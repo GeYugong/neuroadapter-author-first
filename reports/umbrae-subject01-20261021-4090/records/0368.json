@@ -1,0 +1,30 @@
+{
+  "raw_response": "<s> two skiers on a snow covered mountain</s>",
+  "caption": "two skiers on a snow covered mountain",
+  "token_ids": [
+    1,
+    1023,
+    14993,
+    414,
+    373,
+    263,
+    15007,
+    10664,
+    14378,
+    2
+  ],
+  "feature_sha256": "8b04b8176802bc0e25c0dd4b525c37ef81a42bef2d1569d97b61c1607693f69b",
+  "native_index": 368,
+  "nsd_id0": 28319,
+  "shard": 0,
+  "sample": "sample000003751",
+  "brain_sha256": "5748a5c28796e7986b37f9fa296c4689386b019e7808a68f54234a2b311e1edd",
+  "jpeg_sha256": "a15c33ef27efa897d2bb9be7990f4bd82e0cc39d4f950c8f11ee6b744ffe8c0a",
+  "brainhub_tensor_sha256": "cb4b524a7aa4c74cda4983c49dbc22fcf0bb616a73857ea1591a14e32ee8891f",
+  "evaluation_png_sha256": "459f3919fa32d97aabd01c295efc76be7b1165a7922013164b23ec5e67d09546",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595370.6722078
+}

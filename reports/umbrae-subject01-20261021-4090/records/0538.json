@@ -1,0 +1,32 @@
+{
+  "raw_response": "<s> A living room with a desk and computer.</s>",
+  "caption": "A living room with a desk and computer.",
+  "token_ids": [
+    1,
+    319,
+    8471,
+    5716,
+    411,
+    263,
+    553,
+    29895,
+    322,
+    6601,
+    29889,
+    2
+  ],
+  "feature_sha256": "a6f99269c0fa5412daced26aaf38d7c46764d6bdc68a5bfd912ae80852eda426",
+  "native_index": 538,
+  "nsd_id0": 41574,
+  "shard": 1,
+  "sample": "sample000005602",
+  "brain_sha256": "9a5a75781b2043a58c9b594b25831c2894340aa4df952e53787f30962b87dd21",
+  "jpeg_sha256": "23ccd6ef0b759fdd54019aabf6fe19a25be8dd148846f697b9961c965c6cfb9b",
+  "brainhub_tensor_sha256": "22fd857bc693ac48a156396811511a827ff75b26fcf55a1345156a1cf78d5667",
+  "evaluation_png_sha256": "3959263ca6be9c50394495d25222b5e1f6ca7df7a8358fc026492e8781525b1c",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595414.6193073
+}

@@ -1,0 +1,33 @@
+{
+  "raw_response": "<s> A man in a jacket skiing down a slope</s>",
+  "caption": "A man in a jacket skiing down a slope",
+  "token_ids": [
+    1,
+    319,
+    767,
+    297,
+    263,
+    28015,
+    300,
+    14993,
+    292,
+    1623,
+    263,
+    24968,
+    2
+  ],
+  "feature_sha256": "428031438149fe7a87b7b05c9ce0d15eb3681c07abd873c91b6dbcf4e2405031",
+  "native_index": 698,
+  "nsd_id0": 51983,
+  "shard": 1,
+  "sample": "sample000006981",
+  "brain_sha256": "13e8a9d9cc5d6ebbadaeec57216ba84ac71a6c4546f49bb06dce38e71c320876",
+  "jpeg_sha256": "c7f3ee2afa1bd3895defc4f10463fc2cd4545694838eeae3a1801ad0083894fa",
+  "brainhub_tensor_sha256": "f03db0720807fa0399e3071e2f59585992c285092922a967e54eceb92a35f01b",
+  "evaluation_png_sha256": "eb4fb6510ddf670ce8393b5be650ba793437b20145ca8d4a2c40dab16af30f5c",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595459.4102213
+}

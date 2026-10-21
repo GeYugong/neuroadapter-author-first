@@ -1,0 +1,32 @@
+{
+  "raw_response": "<s> A woman standing by some plants and a building.</s>",
+  "caption": "A woman standing by some plants and a building.",
+  "token_ids": [
+    1,
+    319,
+    6114,
+    13407,
+    491,
+    777,
+    18577,
+    322,
+    263,
+    5214,
+    29889,
+    2
+  ],
+  "feature_sha256": "ee1aee22b3650b96f39d5839ada1fa48cc40ac84d77e35582947088eaac95d34",
+  "native_index": 602,
+  "nsd_id0": 45129,
+  "shard": 1,
+  "sample": "sample000006072",
+  "brain_sha256": "d03e9a683e2210577b58e98fe0bbf897dcbc2b21eafc468f1f2f257134410289",
+  "jpeg_sha256": "ca57d484501d316e4ff0fef9fc2a98d9304552f35280a32eea80277a4e695c32",
+  "brainhub_tensor_sha256": "2401bbf91434bba610b97b01c606374408c3b77aa040ed9a8e552ef5d1f5d35f",
+  "evaluation_png_sha256": "a6473cb56750176b44d4e6bc880473b107442d5e25dcc563aefe295623e18ea1",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595434.7359943
+}

@@ -1,0 +1,31 @@
+{
+  "raw_response": "<s> A person that is walking in the woods.</s>",
+  "caption": "A person that is walking in the woods.",
+  "token_ids": [
+    1,
+    319,
+    2022,
+    393,
+    338,
+    22049,
+    297,
+    278,
+    25013,
+    29889,
+    2
+  ],
+  "feature_sha256": "7d81437fa12f32421ec08b45676764d52d0819330f53da5f15a7d55b1d36d11d",
+  "native_index": 125,
+  "nsd_id0": 11159,
+  "shard": 0,
+  "sample": "sample000001449",
+  "brain_sha256": "3c1198d1ed236aa861138a93d614e828b06b244d3924f8f84b7f23101f3dc0ae",
+  "jpeg_sha256": "f37e3228c4bfc6ee7ac0b0fd0b414118952d8895d7a19bffd8599a340de16c44",
+  "brainhub_tensor_sha256": "db736fb587d57ed1814f74461dda095c7eaeb3e8216ccbec4c784b02becce875",
+  "evaluation_png_sha256": "25c9ebd37b341714cfd77cab91364e9eaba26797002568a19b19c04bb4db763a",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595308.299816
+}

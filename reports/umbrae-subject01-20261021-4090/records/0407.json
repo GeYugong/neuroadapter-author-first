@@ -1,0 +1,33 @@
+{
+  "raw_response": "<s> A lush green forest filled with lots of trees.</s>",
+  "caption": "A lush green forest filled with lots of trees.",
+  "token_ids": [
+    1,
+    319,
+    301,
+    1878,
+    7933,
+    13569,
+    10423,
+    411,
+    14568,
+    310,
+    10697,
+    29889,
+    2
+  ],
+  "feature_sha256": "0b82c3e23cce332bacc8d7bc7fc9c65ef3175025eb163c7177f8f79b1c0ab297",
+  "native_index": 407,
+  "nsd_id0": 30922,
+  "shard": 0,
+  "sample": "sample000004098",
+  "brain_sha256": "a28de3a8cbbdab59968b58555c625325e502b0393b707d7e9b366c1ffeedd9c8",
+  "jpeg_sha256": "69967f4ff9e4255a8335a6f7cf9ff61108945b99858becacc0781c74e77ad414",
+  "brainhub_tensor_sha256": "26d3929253bde0cc8eba39f84541b155d3a51d4be86815bab8e35f70c27f69f1",
+  "evaluation_png_sha256": "e13085cb14cecf253cc0b50a1fc7f78dc59b21d4c3209dc074d0ec50886fea6a",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595380.6083593
+}

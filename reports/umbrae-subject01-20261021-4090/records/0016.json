@@ -1,0 +1,32 @@
+{
+  "raw_response": "<s> A man in a suit looks determined to succeed.</s>",
+  "caption": "A man in a suit looks determined to succeed.",
+  "token_ids": [
+    1,
+    319,
+    767,
+    297,
+    263,
+    14726,
+    3430,
+    10087,
+    304,
+    9269,
+    29889,
+    2
+  ],
+  "feature_sha256": "9d12c5bd67d5ec91579162dc88fc32d048a0a336f4e426c46b8888a3fb3bbcbc",
+  "native_index": 16,
+  "nsd_id0": 3729,
+  "shard": 0,
+  "sample": "sample000000455",
+  "brain_sha256": "aeba50f09af9788765245bfeb5628ee110f02b229ee5c6f668d62ff9117793ab",
+  "jpeg_sha256": "85fcdbe8e941bbe9fc0b13376c5e0e9f4a1bdad5bb8acbd7757d2010f6f3c8fe",
+  "brainhub_tensor_sha256": "2413c4fa60529d34965f87bd0008732d514fe8ea5c24f01a4d551173488cdb54",
+  "evaluation_png_sha256": "57a2dfe3f66313771131cb0142f15ecf585545667a058c0f16db42c703b74733",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595280.5857387
+}

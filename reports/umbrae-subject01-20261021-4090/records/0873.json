@@ -1,0 +1,33 @@
+{
+  "raw_response": "<s> A couple of people hanging out with each other.</s>",
+  "caption": "A couple of people hanging out with each other.",
+  "token_ids": [
+    1,
+    319,
+    7303,
+    310,
+    2305,
+    298,
+    9776,
+    714,
+    411,
+    1269,
+    916,
+    29889,
+    2
+  ],
+  "feature_sha256": "6adfd1d64ddc3b95bb21b116688b9ec4410a3c34bda489db4b56c60d5484148a",
+  "native_index": 873,
+  "nsd_id0": 65069,
+  "shard": 1,
+  "sample": "sample000008777",
+  "brain_sha256": "00c8fc7cd036ce256f691a781edfc692a1824ad9328a808a9aead675e4b108a2",
+  "jpeg_sha256": "14adf42216e3d83591262fb35c4c1b1b4eee63fa41d98436386114c3d44913b9",
+  "brainhub_tensor_sha256": "d039cf7bbfacadf7c9118b2b6f07127335bfd5802ed1d62d87882bd86ec3adf5",
+  "evaluation_png_sha256": "1ce9ad01402e55d608d1d83b1b37978779f6226931b9bef59c2d1f6522303cce",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595504.2745397
+}

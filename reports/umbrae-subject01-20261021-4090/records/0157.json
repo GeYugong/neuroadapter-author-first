@@ -1,0 +1,32 @@
+{
+  "raw_response": "<s> A person riding a horse on a trail.</s>",
+  "caption": "A person riding a horse on a trail.",
+  "token_ids": [
+    1,
+    319,
+    2022,
+    364,
+    4821,
+    263,
+    10435,
+    373,
+    263,
+    26203,
+    29889,
+    2
+  ],
+  "feature_sha256": "0ae3409df21eca1488419447a456f916afe6ced432449ac717335a19399177d6",
+  "native_index": 157,
+  "nsd_id0": 13653,
+  "shard": 0,
+  "sample": "sample000001763",
+  "brain_sha256": "67cac3e0ddbbe52a08260997618fed640cea6b806c75abfb511abcb0de22f38d",
+  "jpeg_sha256": "1fb656e5e6fe22e9e1d4f074fe8b8598d8d814b3cd8fd6657b0dec7f93944b1d",
+  "brainhub_tensor_sha256": "8328523342d196acc3f547214def81cb3a56faa405d7f2a8af2be8d9f60090ac",
+  "evaluation_png_sha256": "c5f644804a7e17af40375f7f1282ece2c05683e5a7fa0e5d4b0e025d2a94d1b4",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595316.6364017
+}

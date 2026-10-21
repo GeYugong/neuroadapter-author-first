@@ -1,0 +1,33 @@
+{
+  "raw_response": "<s> A plate of fruits is seen in this picture.</s>",
+  "caption": "A plate of fruits is seen in this picture.",
+  "token_ids": [
+    1,
+    319,
+    15284,
+    310,
+    285,
+    21211,
+    338,
+    3595,
+    297,
+    445,
+    7623,
+    29889,
+    2
+  ],
+  "feature_sha256": "fd53db2d34941698fb8b1c66339dfc3dc7affa1788bacb93837337979b4edc68",
+  "native_index": 749,
+  "nsd_id0": 55680,
+  "shard": 1,
+  "sample": "sample000007484",
+  "brain_sha256": "de81b66e56a5813ac3f1b69ce91f34eb0550be0e1dd60ac2dc72acaea930529e",
+  "jpeg_sha256": "73568a3abb5ef1d73ec6ae4b46b70776c6d3d270aac4116af0a2f5b19d5d2b33",
+  "brainhub_tensor_sha256": "d1b5c5c5f5f1cb33ef36257c43dafd00cec83cf6d2b908d78ec4fe357cdcf394",
+  "evaluation_png_sha256": "8557f2e1fe2c1805b9a16fbf1b6903174868921ffa861b080a219db2d246c42a",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595472.0375628
+}

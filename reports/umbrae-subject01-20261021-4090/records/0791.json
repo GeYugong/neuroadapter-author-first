@@ -1,0 +1,32 @@
+{
+  "raw_response": "<s> Three men stand at attention in a training exercise.</s>",
+  "caption": "Three men stand at attention in a training exercise.",
+  "token_ids": [
+    1,
+    12753,
+    1757,
+    2317,
+    472,
+    8570,
+    297,
+    263,
+    6694,
+    15058,
+    29889,
+    2
+  ],
+  "feature_sha256": "a0db6e102d7d40108dde85d9a38f36a1b9b339496ee552f36dfc13c52523914e",
+  "native_index": 791,
+  "nsd_id0": 58187,
+  "shard": 1,
+  "sample": "sample000007832",
+  "brain_sha256": "12b906b1ac8a54c8123d272a099a05f0be0bb5533cfa2a6c5983fca75ef976f1",
+  "jpeg_sha256": "48457b67fa907a7f79e2ff55e39d23e2e8699a17dacb1575e4eef9d3033c0838",
+  "brainhub_tensor_sha256": "eb7b133bd448ba42044c0e0b1519d4282e84926a7d11a2bb6d6cc1282c58ebd2",
+  "evaluation_png_sha256": "f91ca5bafc163e0223e7104772df824b533db37ec045f9a28076daa4642e624b",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595483.0327816
+}

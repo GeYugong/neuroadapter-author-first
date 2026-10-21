@@ -1,0 +1,32 @@
+{
+  "raw_response": "<s> A bench that is set in a field.</s>",
+  "caption": "A bench that is set in a field.",
+  "token_ids": [
+    1,
+    319,
+    3856,
+    305,
+    393,
+    338,
+    731,
+    297,
+    263,
+    1746,
+    29889,
+    2
+  ],
+  "feature_sha256": "6f593b19bca204794c50f5ef6d22f0cc58e14848b8e37a835b8962dfc48e73cf",
+  "native_index": 877,
+  "nsd_id0": 65253,
+  "shard": 1,
+  "sample": "sample000008800",
+  "brain_sha256": "d84d1d7829e04daa988fff975148b20a1e691a45ee868c3de6d582574cb47b31",
+  "jpeg_sha256": "e7a075de67e316fb6cf508724ad054d24033b2e5a1246a4c47d0a54f37de0d74",
+  "brainhub_tensor_sha256": "c4e6410d3ba725c444a051a849892b7f004b9b4788c5bdb1124fb5eb623fff15",
+  "evaluation_png_sha256": "37f9d1bbb65da76849c0b828d9752406c736a871b4771c2af396cc61e17850f1",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595505.1758034
+}

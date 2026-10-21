@@ -1,0 +1,33 @@
+{
+  "raw_response": "<s> A clock tower in front of a few other buildings.</s>",
+  "caption": "A clock tower in front of a few other buildings.",
+  "token_ids": [
+    1,
+    319,
+    12006,
+    19372,
+    297,
+    4565,
+    310,
+    263,
+    2846,
+    916,
+    13814,
+    29889,
+    2
+  ],
+  "feature_sha256": "b54085c45c97945d9ae1bf8a16ea4cae9632fe92c8adae45ebbbad30e3ed8b4a",
+  "native_index": 201,
+  "nsd_id0": 17230,
+  "shard": 0,
+  "sample": "sample000002231",
+  "brain_sha256": "87ae177ddfea4e1e89a5caa3b99ed167e81f08f1f7416fb9bf9d186029041a33",
+  "jpeg_sha256": "3c67e16072fd53dab77053f0a2e03247dd7fef6c619ad412d82da7e1b4db7030",
+  "brainhub_tensor_sha256": "7cddb5119bac4b9905d4c91b30c2e2390a55a75892c1d6e2e913d6c26fd018f0",
+  "evaluation_png_sha256": "678dbb623c33d861d976002a7587a764211867a1d16b3b7f98c69503377afa70",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595327.7123337
+}

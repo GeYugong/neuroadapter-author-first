@@ -1,0 +1,32 @@
+{
+  "raw_response": "<s> The woman is holding the lamp in her hand.</s>",
+  "caption": "The woman is holding the lamp in her hand.",
+  "token_ids": [
+    1,
+    450,
+    6114,
+    338,
+    13587,
+    278,
+    28692,
+    297,
+    902,
+    1361,
+    29889,
+    2
+  ],
+  "feature_sha256": "0be8766ede8cd80cd5ae6b55b1ff064a205bc7180b54fdc18a716e66f5ec8e5a",
+  "native_index": 729,
+  "nsd_id0": 54147,
+  "shard": 1,
+  "sample": "sample000007287",
+  "brain_sha256": "55622d6eea6b43d6b811798a27ff5b63d4c071a211c303b55086ee7996c83483",
+  "jpeg_sha256": "bcec9a04976ff2b495da09ed08019527c0b8338cf441717100b7f6e3b5dd13da",
+  "brainhub_tensor_sha256": "c89dce5fb05271496c2328dd1a88197cbe217f6eaa9d7a580be02081ccca78f4",
+  "evaluation_png_sha256": "7a41134c2171fc8b668e7608aee9332aa45faf41b79d6e50cc55f5c778a639eb",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595467.0104637
+}

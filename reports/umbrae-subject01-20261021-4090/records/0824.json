@@ -1,0 +1,33 @@
+{
+  "raw_response": "<s> A forest filled with lots of trees and brush.</s>",
+  "caption": "A forest filled with lots of trees and brush.",
+  "token_ids": [
+    1,
+    319,
+    13569,
+    10423,
+    411,
+    14568,
+    310,
+    10697,
+    322,
+    1506,
+    1878,
+    29889,
+    2
+  ],
+  "feature_sha256": "269f813635c3052323324ed1e44ed96fb74c1ee27b0464cc22cb5be0deb579a6",
+  "native_index": 824,
+  "nsd_id0": 61177,
+  "shard": 1,
+  "sample": "sample000008245",
+  "brain_sha256": "16bc7ed8646f8e79b1b7450fd4d3e934a1bf9c9d058d5911d7838ba7d95ba9bb",
+  "jpeg_sha256": "ff84693c97d11416ad1a749feea9e1604c7235b5a6f7a9bb0a0807f5d4c29f7e",
+  "brainhub_tensor_sha256": "2d851d0626b7596bb26cee3010a34c7354e7a2e3bd70afd56f0c969fa9de6bc7",
+  "evaluation_png_sha256": "e2bcaf96cfe2222df67ee96ed7af30eeb17ae84c257ef55f1c79e66f3e88a505",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595491.7715476
+}

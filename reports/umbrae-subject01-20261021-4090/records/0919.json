@@ -1,0 +1,33 @@
+{
+  "raw_response": "<s> A park with a lot of trees and a bench</s>",
+  "caption": "A park with a lot of trees and a bench",
+  "token_ids": [
+    1,
+    319,
+    14089,
+    411,
+    263,
+    3287,
+    310,
+    10697,
+    322,
+    263,
+    3856,
+    305,
+    2
+  ],
+  "feature_sha256": "c1cbc86668968e1563581ad39058b9145850b67df8ebaa6ea7018b30294373a4",
+  "native_index": 919,
+  "nsd_id0": 68168,
+  "shard": 1,
+  "sample": "sample000009199",
+  "brain_sha256": "ed36543904484e93056b29be30b664d7f8cd8d6f410c1f7aead03e335b6ce285",
+  "jpeg_sha256": "274597529b52867a524123ae9a4d79576c99de691f01683fd6ca3388a498d315",
+  "brainhub_tensor_sha256": "5e0d0ec77e2bc6ca7a0f95bee69edfa2e7630b9c854235f3e42410f636cff83f",
+  "evaluation_png_sha256": "952b6f1fe963c8ff7c3d9a2eb53601a995bfb7470968fe5ac1fcc81dd3258107",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595515.901553
+}

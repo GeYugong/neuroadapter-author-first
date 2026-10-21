@@ -1,0 +1,33 @@
+{
+  "raw_response": "<s> A man swinging a baseball bat during a game.</s>",
+  "caption": "A man swinging a baseball bat during a game.",
+  "token_ids": [
+    1,
+    319,
+    767,
+    24500,
+    292,
+    263,
+    21573,
+    17152,
+    2645,
+    263,
+    3748,
+    29889,
+    2
+  ],
+  "feature_sha256": "16661d860bcdb0faebef7076fcb1084913b94384eb4e7c27c1d1ded6ec9cd3dd",
+  "native_index": 932,
+  "nsd_id0": 69030,
+  "shard": 1,
+  "sample": "sample000009324",
+  "brain_sha256": "4c000fbec1237f30b0768e0123785de15aed8e2df989237d94b5b6dd1e01d7bd",
+  "jpeg_sha256": "a775d4f43fd712384da844dc8815cc163ac25334a0fa1193cb2100f53bb155e6",
+  "brainhub_tensor_sha256": "249eee95b44118cdae4375e1e3f4497195f75e4c332c855881c6ee870bc186df",
+  "evaluation_png_sha256": "92ca2052ee90e1c89a8a37cf017f121b722640b3b920b0b988ab38f16eb4ab69",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595519.1491504
+}

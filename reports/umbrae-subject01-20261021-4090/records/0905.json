@@ -1,0 +1,33 @@
+{
+  "raw_response": "<s> A small airplane sitting on top of a field.</s>",
+  "caption": "A small airplane sitting on top of a field.",
+  "token_ids": [
+    1,
+    319,
+    2319,
+    4799,
+    22116,
+    16246,
+    373,
+    2246,
+    310,
+    263,
+    1746,
+    29889,
+    2
+  ],
+  "feature_sha256": "af300d69289c007d7dc37abd622e891287561df0a2f35332479f6a3897744b4b",
+  "native_index": 905,
+  "nsd_id0": 66946,
+  "shard": 1,
+  "sample": "sample000009050",
+  "brain_sha256": "bc95de3e26e5ba82b064af02afd7c1359d01c4c7ea76ba6bb3bc80bba3878ec6",
+  "jpeg_sha256": "eab0de37c86773eafbc9de0a04d9ce0e66013e3d1f81604e2efa8e81819933ef",
+  "brainhub_tensor_sha256": "302ea759effafdedcbf6063d877a7916a9691ba1d177f716f9c8ff2f6ff38c18",
+  "evaluation_png_sha256": "7d9535294fc0b2d5dd6e030e64eabe812219196d3dacc8b0dfa94cad87de56d6",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595512.3087184
+}

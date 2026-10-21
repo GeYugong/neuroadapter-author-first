@@ -1,0 +1,33 @@
+{
+  "raw_response": "<s> A baseball player stands at home plate with his bat.</s>",
+  "caption": "A baseball player stands at home plate with his bat.",
+  "token_ids": [
+    1,
+    319,
+    21573,
+    4847,
+    15028,
+    472,
+    3271,
+    15284,
+    411,
+    670,
+    17152,
+    29889,
+    2
+  ],
+  "feature_sha256": "524208e08aad6a58a9d1aa259692c1a5edf9777963a746452d29500e13815772",
+  "native_index": 548,
+  "nsd_id0": 42166,
+  "shard": 1,
+  "sample": "sample000005681",
+  "brain_sha256": "07797a0420903caef056013d2aa0ebe9bb49454e83ddf3ce06d3fa9d17cff2f7",
+  "jpeg_sha256": "8f785f640edd57a3500f0cb671a725723c01e704915672da6ede19b0f0912554",
+  "brainhub_tensor_sha256": "108fd896589f7649f93564fbaae83566bb683eb72cd6522c91da471fd30ed442",
+  "evaluation_png_sha256": "058f6807494b91a6c5baa05f4577a47a209be6f1490b2a56d5af1002ebcaa60d",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595417.095322
+}

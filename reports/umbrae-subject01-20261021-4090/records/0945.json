@@ -1,0 +1,33 @@
+{
+  "raw_response": "<s> A man sitting on top of a wooden bench.</s>",
+  "caption": "A man sitting on top of a wooden bench.",
+  "token_ids": [
+    1,
+    319,
+    767,
+    16246,
+    373,
+    2246,
+    310,
+    263,
+    27278,
+    3856,
+    305,
+    29889,
+    2
+  ],
+  "feature_sha256": "a5fc4bc94fd1413870ad9ecd265a7d372364810ee6b40b2a8445f77366a65d49",
+  "native_index": 945,
+  "nsd_id0": 69918,
+  "shard": 1,
+  "sample": "sample000009436",
+  "brain_sha256": "218267b26844cc3c0aa941affff56436dc74dc29e1bc2b014d7f07af631b959d",
+  "jpeg_sha256": "1f7039456fe3f15c2b31d592e5ce3bc44dc9b61a518cacc77637ac14ccca8072",
+  "brainhub_tensor_sha256": "b726ae9d78d8e52d7bddaabb8d15701af49f71239fbed7b09446a62f9dfebdef",
+  "evaluation_png_sha256": "e2451d7b92baf05bf79d5fdf7bf8cf9663d088de743d12e6014720387ec50dfe",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595522.5755963
+}

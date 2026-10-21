@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "n": 982,
+  "metrics": 13,
+  "published_scores_match_original_CLI": true,
+  "all_caption_tokens_IDs_and_images_verified": true,
+  "official_per_instance_values_preserved": true,
+  "inference_source_snapshot_verified": true,
+  "source_generation_functions_unchanged": true,
+  "official_evaluator_sha256": "61e832657c02cb7abb128d82fd5cfea2553a91c962f5f5916fb24255951457b2",
+  "final_metrics_sha256": "1089589752123d1f3d0e07b69860845e4579bb2cf4916adec1cff5d9fb557055"
+}

@@ -1,0 +1,32 @@
+{
+  "raw_response": "<s> A man holding a baseball bat on a field.</s>",
+  "caption": "A man holding a baseball bat on a field.",
+  "token_ids": [
+    1,
+    319,
+    767,
+    13587,
+    263,
+    21573,
+    17152,
+    373,
+    263,
+    1746,
+    29889,
+    2
+  ],
+  "feature_sha256": "751258d968492209ca5383a2ba277b7fef3996469a0ebf3308ed2c2871cf8cdf",
+  "native_index": 737,
+  "nsd_id0": 54812,
+  "shard": 1,
+  "sample": "sample000007362",
+  "brain_sha256": "2d54cb6da5b2e87270ec471a9d743117bcb3ef5c25510c89d8e04d78bc7e6292",
+  "jpeg_sha256": "0ab3f34d6834d9c3f1dcaa4f7a066fee919d85594cb8ea623b879098c7eadd76",
+  "brainhub_tensor_sha256": "2aba8b3e60d90a68b7497b0319785d1526088f16acf3399ad70eebfcf424d03a",
+  "evaluation_png_sha256": "982c88bba58581ca866be8c2c96097422fe8051796088ecbe77c662bee0f95f9",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595468.956126
+}

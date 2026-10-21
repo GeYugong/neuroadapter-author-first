@@ -1,0 +1,31 @@
+{
+  "raw_response": "<s> There is a large room with a window.</s>",
+  "caption": "There is a large room with a window.",
+  "token_ids": [
+    1,
+    1670,
+    338,
+    263,
+    2919,
+    5716,
+    411,
+    263,
+    3474,
+    29889,
+    2
+  ],
+  "feature_sha256": "a8581d570d87d9b420ac1ca730f56f7ff0ad3eac323e7051935bdab1157216c1",
+  "native_index": 158,
+  "nsd_id0": 13662,
+  "shard": 0,
+  "sample": "sample000001765",
+  "brain_sha256": "ac27cb8b6d4b190986935e82e2f18133bfd86454bd27e36f3bd28f019a7f11cd",
+  "jpeg_sha256": "ab5b0bcc290f137ffe8da2a549f2a9d2be2953a822b707908fc7893e79648f39",
+  "brainhub_tensor_sha256": "6f371bccea7e0a2376d376800d4818dc8b58f287bf64007084f4c803b8e753e0",
+  "evaluation_png_sha256": "c718890eacfc58a0c8a5af93dbd4069561f2a858374798137f9958f058095b87",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595316.8393428
+}

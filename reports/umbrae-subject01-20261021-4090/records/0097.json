@@ -1,0 +1,33 @@
+{
+  "raw_response": "<s> A building with a clock on the front of it.</s>",
+  "caption": "A building with a clock on the front of it.",
+  "token_ids": [
+    1,
+    319,
+    5214,
+    411,
+    263,
+    12006,
+    373,
+    278,
+    4565,
+    310,
+    372,
+    29889,
+    2
+  ],
+  "feature_sha256": "62ad8134212df9cc6effceaf01d822d1a5314d7467bc6a1547df681ea21b2292",
+  "native_index": 97,
+  "nsd_id0": 8843,
+  "shard": 0,
+  "sample": "sample000001149",
+  "brain_sha256": "649cefe256e13c771f6d4c6fb6cc8631b740da2d673818a6cb01e0d88fc54a67",
+  "jpeg_sha256": "108129e43b74a00bddbd596da9b3089c64f3200d1e1016a0ecc279d08e6ad91f",
+  "brainhub_tensor_sha256": "830bd008d41c7e35f841ad5df69fd5a77002769693d79233f675898e70b7e697",
+  "evaluation_png_sha256": "d19d146742765305cfc52c65870e48f4bc085296b8178c07e9ce59853f1649cc",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595300.900771
+}

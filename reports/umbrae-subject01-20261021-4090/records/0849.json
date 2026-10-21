@@ -1,0 +1,32 @@
+{
+  "raw_response": "<s> A white plate topped with lots of food.</s>",
+  "caption": "A white plate topped with lots of food.",
+  "token_ids": [
+    1,
+    319,
+    4796,
+    15284,
+    304,
+    2986,
+    411,
+    14568,
+    310,
+    9687,
+    29889,
+    2
+  ],
+  "feature_sha256": "054b176d9f343f319f3eb04c60e0c4d3d3c35db14313db01c8ae4d8c47b98854",
+  "native_index": 849,
+  "nsd_id0": 62960,
+  "shard": 1,
+  "sample": "sample000008497",
+  "brain_sha256": "915ffff255857da3ec3bba7b6e111a69da112c61007a7b7e106e5ec54b1bcf3c",
+  "jpeg_sha256": "4b57e3fb26b02472e8e5ff477de090edd53b09ca6556389cf2ae74d87cb4f6bd",
+  "brainhub_tensor_sha256": "c91fb1249a9b2e7b3ec7c9504cd290976a987a2a2fcbacb1d3e69150aaefe8b3",
+  "evaluation_png_sha256": "9a3a93fa8c9249b977f1d76e9d67a54a50f15a0596bc48fb66d72d88b822f441",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595497.9902148
+}

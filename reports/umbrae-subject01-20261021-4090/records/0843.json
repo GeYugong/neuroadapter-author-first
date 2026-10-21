@@ -1,0 +1,31 @@
+{
+  "raw_response": "<s> A group of people standing around a field.</s>",
+  "caption": "A group of people standing around a field.",
+  "token_ids": [
+    1,
+    319,
+    2318,
+    310,
+    2305,
+    13407,
+    2820,
+    263,
+    1746,
+    29889,
+    2
+  ],
+  "feature_sha256": "95e7e7f141761a832c180c74420223b59341ad86ead2f9144e2b626606d5b86c",
+  "native_index": 843,
+  "nsd_id0": 62365,
+  "shard": 1,
+  "sample": "sample000008427",
+  "brain_sha256": "d7ffac0d3d8d1dac5cf1a84496079f8bd8551695e6260d7e7dd9174566bc90f4",
+  "jpeg_sha256": "72379756c83ad46df952a61ee1466de60799886850b4c8eb4674956ce7eca70b",
+  "brainhub_tensor_sha256": "20853fdcfef9ef1f46808b7d0515692b2d63058aef9667cce1265b81ed6f4c9a",
+  "evaluation_png_sha256": "b8ba08413b887f70a3a300ee292ee87efabbfed872a2e7a937f5ea9409f261ba",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595496.5576265
+}

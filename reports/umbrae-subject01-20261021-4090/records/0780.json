@@ -1,0 +1,31 @@
+{
+  "raw_response": "<s> A baseball player in uniform after a game.</s>",
+  "caption": "A baseball player in uniform after a game.",
+  "token_ids": [
+    1,
+    319,
+    21573,
+    4847,
+    297,
+    9090,
+    1156,
+    263,
+    3748,
+    29889,
+    2
+  ],
+  "feature_sha256": "391cb754777ce89f874c242417143c00aef82e8d11295879b48b103184c80493",
+  "native_index": 780,
+  "nsd_id0": 57542,
+  "shard": 1,
+  "sample": "sample000007730",
+  "brain_sha256": "28b06036b5a50f8247b98d9d26f4b8c665cf216cb015efe9d923c2424afa5a4e",
+  "jpeg_sha256": "27de547418a8143ca9b51fb37702329527feeb6d6c3c08c22133fd8c67dbd5a5",
+  "brainhub_tensor_sha256": "ba884e04d51b3f47173037a73cb46cb46b26577fcfdf1d28c124baedee91c12e",
+  "evaluation_png_sha256": "17edabb9f5696b2c6d3fdca5dd42e62313e239dcc17abac888b19b14715481f0",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595480.2095442
+}

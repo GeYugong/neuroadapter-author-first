@@ -1,0 +1,33 @@
+{
+  "raw_response": "<s> A man standing next to a horse on a street.</s>",
+  "caption": "A man standing next to a horse on a street.",
+  "token_ids": [
+    1,
+    319,
+    767,
+    13407,
+    2446,
+    304,
+    263,
+    10435,
+    373,
+    263,
+    11952,
+    29889,
+    2
+  ],
+  "feature_sha256": "ed831a702d17aa2bd0804987d1a98b16856637283239a06f64d6715b9e01825f",
+  "native_index": 299,
+  "nsd_id0": 24517,
+  "shard": 0,
+  "sample": "sample000003217",
+  "brain_sha256": "9604a91d2c2e5345b86d6077145e6a905a63c30d3fca5233322578ac14af81cc",
+  "jpeg_sha256": "c23bf659ea0e6ff71b274ebd51636f59f4c0f780927091412431382f181a6aac",
+  "brainhub_tensor_sha256": "9461b2e8d993242a605f911fb15386a776586de1efc32e1d0ecbf81febb85353",
+  "evaluation_png_sha256": "79bcaf8705c9fb1bbb7e761b0cc820ede86110b7fe538e711fed445d529d446e",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595352.534583
+}

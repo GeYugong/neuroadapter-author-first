@@ -1,0 +1,33 @@
+{
+  "raw_response": "<s> A computer keyboard sitting on top of a desk.</s>",
+  "caption": "A computer keyboard sitting on top of a desk.",
+  "token_ids": [
+    1,
+    319,
+    6601,
+    12247,
+    16246,
+    373,
+    2246,
+    310,
+    263,
+    553,
+    29895,
+    29889,
+    2
+  ],
+  "feature_sha256": "fcf9fcec9979e1767efe95eca6f84b24c3c25ad5fb725c196f18e752ce09780b",
+  "native_index": 539,
+  "nsd_id0": 41623,
+  "shard": 1,
+  "sample": "sample000005607",
+  "brain_sha256": "b9a823a1ddd27834772fa7a2d444d22f17a5762dd5207c60ce65220c0a276c57",
+  "jpeg_sha256": "eeefc5e716712b11558ec0150c6292d6e62cce8ec711697f44486c257a0f304f",
+  "brainhub_tensor_sha256": "04fc944bacb8dbb4c4d19325a14fd0e9f04763dadd7f0c5354eb939926a9590e",
+  "evaluation_png_sha256": "5aa98f22b4fbc5ef828abf4564ae913a51e5217de732ebed001f9e4a5967311d",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595414.8584151
+}

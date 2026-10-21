@@ -1,0 +1,31 @@
+{
+  "raw_response": "<s> A large black bird standing on a street.</s>",
+  "caption": "A large black bird standing on a street.",
+  "token_ids": [
+    1,
+    319,
+    2919,
+    4628,
+    11199,
+    13407,
+    373,
+    263,
+    11952,
+    29889,
+    2
+  ],
+  "feature_sha256": "36c9d181f8e2849f9e87b478762d44a77ce70703020056ed78b5847142266250",
+  "native_index": 231,
+  "nsd_id0": 19690,
+  "shard": 0,
+  "sample": "sample000002548",
+  "brain_sha256": "874fd546bb9e722fb44d03efacddf4411b175f40194b348069ea4e59253e9812",
+  "jpeg_sha256": "d6657db49318d0d36ddade5285c3eece13cc4a60370faa5b9ffb6dcb15a61148",
+  "brainhub_tensor_sha256": "a862a23fc7c040b1b2ecede25ce294c0b7ec2b96505a088dc1f2675e4f501fa4",
+  "evaluation_png_sha256": "66509dc4249a86e98e98f82486c9b8890d4f3447b612f59d26e9c6c35561883f",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595335.0688353
+}

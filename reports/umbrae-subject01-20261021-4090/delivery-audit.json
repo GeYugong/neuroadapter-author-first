@@ -1,0 +1,25 @@
+{
+  "complete": true,
+  "authoritative_metrics": "final-metrics.json",
+  "final_values_match_official_CLI_output": true,
+  "official_CLI_source_sha256": "61e832657c02cb7abb128d82fd5cfea2553a91c962f5f5916fb24255951457b2",
+  "original_CLI_finished_before_comparison_assertion": true,
+  "legacy_adapter_parity": false,
+  "legacy_difference_cause": "The superseded adapter retained FP16/FP32 reduction output dtypes; the official CLI converts per-instance values to Python floats before aggregation.",
+  "max_legacy_raw_difference": 0.0001886993221741351,
+  "superseded_outputs": [
+    "metrics.json",
+    "neural-metrics.json",
+    "per-sample.csv"
+  ],
+  "model_inference_repeated": false,
+  "all_982_token_decodes_captions_and_IDs_verified": true,
+  "records_digest": "ab06e0d7989f6538e59e9374a3775a256a9e921b1e9f73fcf669c51f2cc5464e",
+  "inference_source_snapshot": "reports/umbrae-subject01-20261021-4090/source-snapshot/umbrae_subject01_4090.py",
+  "inference_source_sha256": "8adf49d94655efac96c085fed1cf9c2bd7de35719b9b5004f6088949740d346e",
+  "canonical_generation_functions_unchanged": true,
+  "canonical_scoring_now_calls_original_entry": true,
+  "final_csv_sha256": "4fdd02a2c7602be043c0361c1087ea13e3fae2a4ed8fd83da107ae5463256f21",
+  "free_gib": 27.362510681152344,
+  "time": 1792596134.0941348
+}

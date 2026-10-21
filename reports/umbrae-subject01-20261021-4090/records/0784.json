@@ -1,0 +1,33 @@
+{
+  "raw_response": "<s> A table full of various fruits and vegetables.</s>",
+  "caption": "A table full of various fruits and vegetables.",
+  "token_ids": [
+    1,
+    319,
+    1591,
+    2989,
+    310,
+    5164,
+    285,
+    21211,
+    322,
+    18655,
+    1849,
+    29889,
+    2
+  ],
+  "feature_sha256": "ab79a797fdd091a0ff3516ec5b64c2a0e2023330dbf7cf59731d3d4b7305fe35",
+  "native_index": 784,
+  "nsd_id0": 57681,
+  "shard": 1,
+  "sample": "sample000007761",
+  "brain_sha256": "3acae3d8e5845697e1babfebf33173e7e6cce15cbf10de51676d398e034e3629",
+  "jpeg_sha256": "94a5626b767d8350938dd1ec432f51135db6985454f0e4eb7d2f1c74ed6fff3f",
+  "brainhub_tensor_sha256": "18f993f49f2cbad1836b41a52d759bf4be85e24267ff0b8b1777c51db7454d4f",
+  "evaluation_png_sha256": "368336b933140ea4219b2f4f575ba7a6d59bd1b6e6c73e6adee34741c9563084",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595481.2541814
+}

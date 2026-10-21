@@ -1,0 +1,33 @@
+{
+  "raw_response": "<s> A woman's face is shown very close up.</s>",
+  "caption": "A woman's face is shown very close up.",
+  "token_ids": [
+    1,
+    319,
+    6114,
+    29915,
+    29879,
+    3700,
+    338,
+    4318,
+    1407,
+    3802,
+    701,
+    29889,
+    2
+  ],
+  "feature_sha256": "070cb91f4692b340a134c5d7628cea36a9162399346e9c9bd62992a4a8ceb49c",
+  "native_index": 766,
+  "nsd_id0": 56695,
+  "shard": 1,
+  "sample": "sample000007617",
+  "brain_sha256": "7a10185a99a0bf322d822721f8b21577f6c29303066077ea0e3e5187efce8109",
+  "jpeg_sha256": "5fd153826bd3c125e761bda597888666923ceb9aeff039bcf3d37039a997e465",
+  "brainhub_tensor_sha256": "2aa5bae2293247989047122f43ba682682a8e79724159c47d5c8d80eb94f5e7c",
+  "evaluation_png_sha256": "d74d82419f2e65f925c84f06585206aef45390e8957060fdcfc59626d00143e8",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595476.6155312
+}

@@ -1,0 +1,33 @@
+{
+  "raw_response": "<s> A cat sitting in the front seat of a car.</s>",
+  "caption": "A cat sitting in the front seat of a car.",
+  "token_ids": [
+    1,
+    319,
+    6635,
+    16246,
+    297,
+    278,
+    4565,
+    12949,
+    310,
+    263,
+    1559,
+    29889,
+    2
+  ],
+  "feature_sha256": "a378ead5da5346b227ee107082a03d671bd4ed2d7eefff7b737bf16641a88aaf",
+  "native_index": 962,
+  "nsd_id0": 71025,
+  "shard": 1,
+  "sample": "sample000009591",
+  "brain_sha256": "34a0190182a1c9074e59cdc5332e6ed450179d7b533bf7929742f690448daeca",
+  "jpeg_sha256": "73c9e83c987d0bd3f539bb39bf260d553ba02415ca7b620892f7b985b136eec7",
+  "brainhub_tensor_sha256": "0deffb7b89fe48a12c530318ff53655c4c15181b2d470079e9e5e62ec9e1474d",
+  "evaluation_png_sha256": "45de51e3efc3b27d66558e8cf523d2dd1864adea42912b776106f427499796e4",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595527.063792
+}

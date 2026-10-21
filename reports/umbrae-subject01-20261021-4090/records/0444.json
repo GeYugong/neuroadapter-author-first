@@ -1,0 +1,32 @@
+{
+  "raw_response": "<s> A large group of bananas is shown here.</s>",
+  "caption": "A large group of bananas is shown here.",
+  "token_ids": [
+    1,
+    319,
+    2919,
+    2318,
+    310,
+    9892,
+    16397,
+    338,
+    4318,
+    1244,
+    29889,
+    2
+  ],
+  "feature_sha256": "723efafcb69ced520f80fb782e4213773221ede212c999d043f038715e8380a1",
+  "native_index": 444,
+  "nsd_id0": 33813,
+  "shard": 0,
+  "sample": "sample000004509",
+  "brain_sha256": "604baeef736495f6e513c0a5f77aa0afb51b16a50a9b79316fd31924a720d462",
+  "jpeg_sha256": "ce25e9b129e183f54221ac488f852d08203e01af6da3aa19991ef864d5923d72",
+  "brainhub_tensor_sha256": "bea0a8aecb14cbe8c32ee1cafbddb9847683ceabdcff5f159dd27a4685e3dc9a",
+  "evaluation_png_sha256": "17e0b644429250b38750f63cec96c70f02dddacc3f6ceca94e42d0154c240c9c",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595390.1044078
+}

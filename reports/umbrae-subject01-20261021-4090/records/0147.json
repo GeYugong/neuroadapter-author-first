@@ -1,0 +1,33 @@
+{
+  "raw_response": "<s> A fire hydrant in a field near some trees.</s>",
+  "caption": "A fire hydrant in a field near some trees.",
+  "token_ids": [
+    1,
+    319,
+    3974,
+    27246,
+    21867,
+    297,
+    263,
+    1746,
+    2978,
+    777,
+    10697,
+    29889,
+    2
+  ],
+  "feature_sha256": "90e7aa021ee0afedb622d5c861c8738720faa5fbca5983086efa19484c91b330",
+  "native_index": 147,
+  "nsd_id0": 12685,
+  "shard": 0,
+  "sample": "sample000001647",
+  "brain_sha256": "e09b896e3fec68e2060a71868b76100922ee7ce28b496f59291fab22c3792b28",
+  "jpeg_sha256": "872cacac6febf9348d2563a9aac8682de91a5a6000e1594ffc422bbc5b61ec10",
+  "brainhub_tensor_sha256": "6fd3db2b939ff65507a043147650b404f0c858175c8eb69963df938b92186c43",
+  "evaluation_png_sha256": "57f12ce1e32bd01747e03452f9e2250e321b37131f41a9db7b1a59d40cb12be7",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595313.9993262
+}

@@ -1,0 +1,30 @@
+{
+  "raw_response": "<s> A cat is sitting with its eyes open</s>",
+  "caption": "A cat is sitting with its eyes open",
+  "token_ids": [
+    1,
+    319,
+    6635,
+    338,
+    16246,
+    411,
+    967,
+    5076,
+    1722,
+    2
+  ],
+  "feature_sha256": "21f6e83b97d874f8a8006285020a7a67759d15b8078eb79d99baeaa9f96c7121",
+  "native_index": 880,
+  "nsd_id0": 65414,
+  "shard": 1,
+  "sample": "sample000008827",
+  "brain_sha256": "d5bad6070354ea019c2f265710976f3957afd56cbce92a6828151d6f1637973f",
+  "jpeg_sha256": "7af26d8660d3868195dd974253491423466f12ad09e25d7da59549b0586aab9e",
+  "brainhub_tensor_sha256": "ac822c8d647b5eb356074fa4a8bf7af3b6a2a8aadef833aa8095451d8efd65d8",
+  "evaluation_png_sha256": "5947a256e16cd20053051780f99edd476626d62c4ac5ab223d9c65907d435de9",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595505.8920147
+}

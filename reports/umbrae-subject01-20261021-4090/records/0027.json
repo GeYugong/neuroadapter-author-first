@@ -1,0 +1,33 @@
+{
+  "raw_response": "<s> A small airplane is sitting on a runway.</s>",
+  "caption": "A small airplane is sitting on a runway.",
+  "token_ids": [
+    1,
+    319,
+    2319,
+    4799,
+    22116,
+    338,
+    16246,
+    373,
+    263,
+    1065,
+    1582,
+    29889,
+    2
+  ],
+  "feature_sha256": "524a90cfd31ef969a058f05e949f4fba9dcf5b12b0d00d83a05eeac3f8de4931",
+  "native_index": 27,
+  "nsd_id0": 4249,
+  "shard": 0,
+  "sample": "sample000000523",
+  "brain_sha256": "15c1a74cfba014ba8fb28079ecbc468f340e138770cdbee7f571ec8b8bd04848",
+  "jpeg_sha256": "d3ab6df4463bb41f49a2e92aeae5cbea3fbb0c2c4d464be5ea72af2732b081f7",
+  "brainhub_tensor_sha256": "8a4ed3a48984747224ed970e48bc0460b1a4d6be02bf763f1e5f6ffc716c800e",
+  "evaluation_png_sha256": "929ca3b625902a099b1972bebc6a65b2163f0326d1d385497774503c14b0866d",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595283.4604447
+}

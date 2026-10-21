@@ -1,0 +1,33 @@
+{
+  "raw_response": "<s> A little girl that is sitting down in a chair.</s>",
+  "caption": "A little girl that is sitting down in a chair.",
+  "token_ids": [
+    1,
+    319,
+    2217,
+    7826,
+    393,
+    338,
+    16246,
+    1623,
+    297,
+    263,
+    11774,
+    29889,
+    2
+  ],
+  "feature_sha256": "540dcf13f98fac3ee3c3f3d72c90402bb9e5b969421da850f7316ab57e5dcef8",
+  "native_index": 260,
+  "nsd_id0": 21950,
+  "shard": 0,
+  "sample": "sample000002835",
+  "brain_sha256": "693c1314faf6fd95b9455bbf2509321f43c8248f9710ec58e2c9d2eab140e028",
+  "jpeg_sha256": "afbc4978b9d863c1eaa7c9abdd2a3ce39419dae6286dfd92750b0e2014218a7d",
+  "brainhub_tensor_sha256": "9c6507a1c1cebe1c72899872876d7f590b6b9e8a62d1af65eb939d7b98612be2",
+  "evaluation_png_sha256": "2f761b6c5f939bd0ff1c9c4c88787d48fba02f0623df4cc39fb12de6ee5ae978",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595342.617324
+}

@@ -1,0 +1,33 @@
+{
+  "raw_response": "<s> A giraffe is standing in a grassy field</s>",
+  "caption": "A giraffe is standing in a grassy field",
+  "token_ids": [
+    1,
+    319,
+    330,
+    3055,
+    17615,
+    338,
+    13407,
+    297,
+    263,
+    17455,
+    29891,
+    1746,
+    2
+  ],
+  "feature_sha256": "9dad7e2bb03d849dbf5f7c38e7e9e513fa3d583ca2f11b22008acae5f3a0f981",
+  "native_index": 497,
+  "nsd_id0": 38358,
+  "shard": 0,
+  "sample": "sample000005156",
+  "brain_sha256": "c8b42f792e3e2697e2e9b73c28c04bb35825a19ea931abbdd8b6cea217c0d177",
+  "jpeg_sha256": "84b3891e914cfc22b427b3d4235818858cf35114bf1286afecd0d3f8a36b676d",
+  "brainhub_tensor_sha256": "a4981c44a99773adc71902e0a3d1da0898681dee094a998abbad3fbb72a43b18",
+  "evaluation_png_sha256": "89234e5eb28ed9e1bdb48677ed470abd1b3f96c4def88da3d9c825431fb11c1f",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595404.079221
+}

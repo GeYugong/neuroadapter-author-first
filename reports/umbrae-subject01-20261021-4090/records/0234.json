@@ -1,0 +1,32 @@
+{
+  "raw_response": "<s> A cat sitting on top of a wooden table.</s>",
+  "caption": "A cat sitting on top of a wooden table.",
+  "token_ids": [
+    1,
+    319,
+    6635,
+    16246,
+    373,
+    2246,
+    310,
+    263,
+    27278,
+    1591,
+    29889,
+    2
+  ],
+  "feature_sha256": "c6b0702acf9f6dbd0b2ae92edd829314749204662518c0695f50d05d797e0ce6",
+  "native_index": 234,
+  "nsd_id0": 20064,
+  "shard": 0,
+  "sample": "sample000002597",
+  "brain_sha256": "028c6cc1c2b48facb8b2847e5fcee7e5bff8add7e2f3027716dba5af0397396d",
+  "jpeg_sha256": "5ae1c794eafb0e723330a569343aacfefe6c2744c9d5a0bd8d434e43534a36ee",
+  "brainhub_tensor_sha256": "64f8412669385e541d9734f952399c5571575e7c904ddbed4c7c91dd84e73a4b",
+  "evaluation_png_sha256": "fbba5814e8410bdc2f9a95653eb2b4f77b12f7206c7bf040bc5398bece4f943f",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595335.8033044
+}

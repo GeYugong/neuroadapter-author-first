@@ -1,0 +1,33 @@
+{
+  "raw_response": "<s> A large open field with sheep grazing on it.</s>",
+  "caption": "A large open field with sheep grazing on it.",
+  "token_ids": [
+    1,
+    319,
+    2919,
+    1722,
+    1746,
+    411,
+    29735,
+    2646,
+    19583,
+    373,
+    372,
+    29889,
+    2
+  ],
+  "feature_sha256": "5ffd55855698ad3737db5bb00be43685926ede54c887e41b5f6357fb57fa97c2",
+  "native_index": 308,
+  "nsd_id0": 24846,
+  "shard": 0,
+  "sample": "sample000003265",
+  "brain_sha256": "459e217165357ffc5dea6634c41b15c6d6b25c6548f23aecf50fc8fa9034303b",
+  "jpeg_sha256": "ec788e7cdbc279b6688f923bbc9f97f6e1b063e30f3e2e010c65c1efa146cebb",
+  "brainhub_tensor_sha256": "37694745d5e2eb29e41dde04c168134abc36a3258a91df92dde04845ec54c7ec",
+  "evaluation_png_sha256": "f25ef56b480b900911245fe0b29e0d932272b6b9bbd794180267d32b817ca0ff",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595354.879872
+}

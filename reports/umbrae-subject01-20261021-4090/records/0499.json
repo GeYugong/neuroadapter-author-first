@@ -1,0 +1,33 @@
+{
+  "raw_response": "<s> A dark looking room with a window and a bed.</s>",
+  "caption": "A dark looking room with a window and a bed.",
+  "token_ids": [
+    1,
+    319,
+    6501,
+    3063,
+    5716,
+    411,
+    263,
+    3474,
+    322,
+    263,
+    6592,
+    29889,
+    2
+  ],
+  "feature_sha256": "33613e513eae953ce13874cd104df3fc7953098030d18b8961ba1a882106c5b0",
+  "native_index": 499,
+  "nsd_id0": 38486,
+  "shard": 0,
+  "sample": "sample000005171",
+  "brain_sha256": "33fa43af953992d166d5ff14fe54b1729bd424ebabe13354037b35367a302294",
+  "jpeg_sha256": "c332db8dfac1c2a801e0c910feb1531461993a284d0a2fd1f057b3c752e219e4",
+  "brainhub_tensor_sha256": "cb497c3c8a38ee8a4230ff003e14f2e4d451d6a524e2279f3479b95c395ec8ad",
+  "evaluation_png_sha256": "d9eb905274f94bff95a782a2ce32eefecf1db8c1a0b71aea183413c0aeef9d18",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595404.6281233
+}

@@ -1,0 +1,33 @@
+{
+  "raw_response": "<s> A woman walking down a street next to a building.</s>",
+  "caption": "A woman walking down a street next to a building.",
+  "token_ids": [
+    1,
+    319,
+    6114,
+    22049,
+    1623,
+    263,
+    11952,
+    2446,
+    304,
+    263,
+    5214,
+    29889,
+    2
+  ],
+  "feature_sha256": "ed69094e7254042ef384a8076c7b4cf995d73a6e23df16b8d453dba0bba6ee43",
+  "native_index": 50,
+  "nsd_id0": 5583,
+  "shard": 0,
+  "sample": "sample000000702",
+  "brain_sha256": "42f50b7f875f2b8af24129e5b2db0525eea763c6f3557dfb8e57dab88c47cba0",
+  "jpeg_sha256": "0eae4de2cc0ce87bc59df3c08977c9e024cfd2550359a2412f558bac6520faad",
+  "brainhub_tensor_sha256": "6d86ad1c26458f821fea72009d7ea658134c7a1985835986c80ecc8e2874b064",
+  "evaluation_png_sha256": "7b1b01a59a48c180729750e47b8676c1a38eca75b27c79428ac47a497fa8a6c9",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595289.0570374
+}

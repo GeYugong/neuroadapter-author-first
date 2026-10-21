@@ -1,0 +1,33 @@
+{
+  "raw_response": "<s> A zebra is standing in the grassy field</s>",
+  "caption": "A zebra is standing in the grassy field",
+  "token_ids": [
+    1,
+    319,
+    503,
+    774,
+    336,
+    338,
+    13407,
+    297,
+    278,
+    17455,
+    29891,
+    1746,
+    2
+  ],
+  "feature_sha256": "a174950be58348941aeb95fac5b3c7ce699f78936868fbc27ea5f9d35bde06b1",
+  "native_index": 66,
+  "nsd_id0": 7007,
+  "shard": 0,
+  "sample": "sample000000909",
+  "brain_sha256": "1fa7bd2aa349f4ccfcd10749c1c87e03c31afa35050692c2ebf4f62e989456d0",
+  "jpeg_sha256": "5e88cfe89c40e371c3399f59983e62ff4476d5cbdeb98433ee231d4988bc3ca7",
+  "brainhub_tensor_sha256": "d8d3c31f7afec9d57e9db641b4f2c0c4fc190d304c727c159dbea3c67b8ecaf4",
+  "evaluation_png_sha256": "0687633a8fff38be61e227ba84523078cec40bd1990a69df28851f5079a3e946",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595293.0019522
+}

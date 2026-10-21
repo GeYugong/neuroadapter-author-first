@@ -1,0 +1,33 @@
+{
+  "raw_response": "<s> A group of zebras are in a field.</s>",
+  "caption": "A group of zebras are in a field.",
+  "token_ids": [
+    1,
+    319,
+    2318,
+    310,
+    503,
+    774,
+    3417,
+    526,
+    297,
+    263,
+    1746,
+    29889,
+    2
+  ],
+  "feature_sha256": "f788e18153e02630f2b726a57d9537ff23e81a69d8e34a6b280d20c30eb00831",
+  "native_index": 462,
+  "nsd_id0": 35743,
+  "shard": 0,
+  "sample": "sample000004789",
+  "brain_sha256": "eb640b5f120a00e15a481caa9d291252e64d0795671877c4189890e4be5c6989",
+  "jpeg_sha256": "4867d9b8e9f4ebe4e02af9a490a48bb5ba81148eed6fc189f43fd567889d7c35",
+  "brainhub_tensor_sha256": "f45fedfb60a896832fe8b1cb34c8527a16cfd7a876ab0c1aa0469414462e3b89",
+  "evaluation_png_sha256": "e80cd4b495a1f8ed96dbf8a37f4e875368fb2ed1876643942407acf122953e62",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595395.0455513
+}

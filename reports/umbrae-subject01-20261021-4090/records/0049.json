@@ -1,0 +1,32 @@
+{
+  "raw_response": "<s> A bird that is sitting on a tree branch.</s>",
+  "caption": "A bird that is sitting on a tree branch.",
+  "token_ids": [
+    1,
+    319,
+    11199,
+    393,
+    338,
+    16246,
+    373,
+    263,
+    5447,
+    5443,
+    29889,
+    2
+  ],
+  "feature_sha256": "6bf247bd7c70efb22d450ae14571ee59c474063c4873a3b1bdf52682bdc64939",
+  "native_index": 49,
+  "nsd_id0": 5574,
+  "shard": 0,
+  "sample": "sample000000699",
+  "brain_sha256": "dd1f738daca674faf0aaabe8d7f5f692169fb311caa402558e900f7e20e2e9f6",
+  "jpeg_sha256": "168c7610dd9d5d5c18becbfdaae3d89e241cff22266bca17e7a5d8ba13d70fd4",
+  "brainhub_tensor_sha256": "dfe6b987161815761a912e13d8894718cecf0b57a4deff8d32034b265850ebfd",
+  "evaluation_png_sha256": "a0447111bd8a297fd5d1ca939dac7e7df33af606d253aa034de74d55be822210",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595288.8181038
+}

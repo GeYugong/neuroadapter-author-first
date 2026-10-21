@@ -1,0 +1,31 @@
+{
+  "raw_response": "<s> A close up of a hand holding something.</s>",
+  "caption": "A close up of a hand holding something.",
+  "token_ids": [
+    1,
+    319,
+    3802,
+    701,
+    310,
+    263,
+    1361,
+    13587,
+    1554,
+    29889,
+    2
+  ],
+  "feature_sha256": "8b92114921bd7cadf7e37c07e234463fad5504b692c0f31172f625a15239764c",
+  "native_index": 963,
+  "nsd_id0": 71186,
+  "shard": 1,
+  "sample": "sample000009614",
+  "brain_sha256": "79a946b48d4e5a50f035c84d2214345628f0488281d96d42c32e733c154e4a70",
+  "jpeg_sha256": "5ae5f937ff34f44b22eafdbcd416f6cf875b4f8ce85d24ba3ba5b4b56e3f5629",
+  "brainhub_tensor_sha256": "3dead9a9c493edbfb7fda96a078f44b70d15b680fa5df0e33e06f7a158f9883d",
+  "evaluation_png_sha256": "fa3c6daaa9808a3ad613c91258fda38a083beee9e920fd9815d62aa1f086519d",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595527.2667804
+}

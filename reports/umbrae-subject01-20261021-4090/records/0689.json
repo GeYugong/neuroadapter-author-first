@@ -1,0 +1,32 @@
+{
+  "raw_response": "<s> A tree with a lot of leaves around it.</s>",
+  "caption": "A tree with a lot of leaves around it.",
+  "token_ids": [
+    1,
+    319,
+    5447,
+    411,
+    263,
+    3287,
+    310,
+    11308,
+    2820,
+    372,
+    29889,
+    2
+  ],
+  "feature_sha256": "15646f86466f1018c6bf578335338895155c58b2ef55bf6e91db2e5eb10e340d",
+  "native_index": 689,
+  "nsd_id0": 51171,
+  "shard": 1,
+  "sample": "sample000006876",
+  "brain_sha256": "8e90fa1e35c17dec9d3910032b0ae474bc7ec54e5d098943c727a0619727b9cb",
+  "jpeg_sha256": "db89a753bdaeaf46c1600b42f64180c430ae8767c5cf2b84a459aebd7c8a2538",
+  "brainhub_tensor_sha256": "50b9fecce8655cb913bcfeed5a28f470affb0c72687c5fba17727bb4b01d376f",
+  "evaluation_png_sha256": "7d66118084aa8bfc002e08ba40083aeca910c34ad7bc37c7bb14a3b8f7898522",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595457.1726227
+}

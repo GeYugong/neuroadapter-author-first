@@ -1,0 +1,33 @@
+{
+  "raw_response": "<s> A man is eating something with a spoon.</s>",
+  "caption": "A man is eating something with a spoon.",
+  "token_ids": [
+    1,
+    319,
+    767,
+    338,
+    321,
+    1218,
+    1554,
+    411,
+    263,
+    805,
+    6150,
+    29889,
+    2
+  ],
+  "feature_sha256": "79d6eb0375fadedaac838bbfe78d781cf2c3ac4e1b25421f0971e04cefb3cd81",
+  "native_index": 741,
+  "nsd_id0": 55107,
+  "shard": 1,
+  "sample": "sample000007412",
+  "brain_sha256": "08fd4500712f8a7c3398b3d2962469a97181b0e3872b268ce485e0fbd8b0dd5d",
+  "jpeg_sha256": "1b6db8a9257db6d8696adceff738182e0a2ed44603237fc310047ef542047695",
+  "brainhub_tensor_sha256": "288c847591d9f2f676f9a3bd5ed80aa754193b303838c76dfc52a28103222f66",
+  "evaluation_png_sha256": "dce507ccfdb9c411ee999fb93f2860e912d2be4d2a1b4963569d6fd1b1519271",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595469.9302852
+}

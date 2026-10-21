@@ -1,0 +1,32 @@
+{
+  "raw_response": "<s> A cat is sitting on a computer desk.</s>",
+  "caption": "A cat is sitting on a computer desk.",
+  "token_ids": [
+    1,
+    319,
+    6635,
+    338,
+    16246,
+    373,
+    263,
+    6601,
+    553,
+    29895,
+    29889,
+    2
+  ],
+  "feature_sha256": "a817c9fb04f0f3f5ea29e5e12c4a426e453680e4dca961af61616e272f34cc32",
+  "native_index": 831,
+  "nsd_id0": 61752,
+  "shard": 1,
+  "sample": "sample000008329",
+  "brain_sha256": "1afc21146ca3358467f750c9f8b5be4d197fd0773db25e6368f788eff877e1c0",
+  "jpeg_sha256": "b4e24158b3f7908c3e94fcc79e367eb607fd7891f1b97438193886e46f47703c",
+  "brainhub_tensor_sha256": "396684b05412bac3b1c92192083e8d566b63db582c583fe2016982203344e0d0",
+  "evaluation_png_sha256": "02fb3879480bf390ad3be370994125b65f7199eb833bbaa9d5ad30c031955fb9",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595493.603405
+}

@@ -1,0 +1,33 @@
+{
+  "raw_response": "<s> Two horses are grazing in a field at night.</s>",
+  "caption": "Two horses are grazing in a field at night.",
+  "token_ids": [
+    1,
+    7803,
+    15100,
+    526,
+    2646,
+    19583,
+    297,
+    263,
+    1746,
+    472,
+    4646,
+    29889,
+    2
+  ],
+  "feature_sha256": "d10c26ceda1170448ec2fed273ae8719f63ce887e5d2f0391aedb81d3c747779",
+  "native_index": 909,
+  "nsd_id0": 67168,
+  "shard": 1,
+  "sample": "sample000009077",
+  "brain_sha256": "66d7cd295c4e02e6580ea4872d78d0811f2ed719e94b5afcd33997223ef7bfe2",
+  "jpeg_sha256": "812e29785041ce2c1d25abcd8d34ede15357c81a0e46c0a559153aeb5fd4e853",
+  "brainhub_tensor_sha256": "d8f71e42be34657a663c8d7313baa60d501eb47977826c99cd651641718b893a",
+  "evaluation_png_sha256": "9e143821e672725caed238f707a1d038b99d0681b75b1ccebf01d391167e5e47",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595513.3527868
+}

@@ -1,0 +1,33 @@
+{
+  "raw_response": "<s> A man holding a surfboard in the ocean.</s>",
+  "caption": "A man holding a surfboard in the ocean.",
+  "token_ids": [
+    1,
+    319,
+    767,
+    13587,
+    263,
+    1190,
+    29888,
+    3377,
+    297,
+    278,
+    23474,
+    29889,
+    2
+  ],
+  "feature_sha256": "fdd9e3805fe0c3e1170d993ca6daa736e408ec2c62425dee12bec9a838a4aa6c",
+  "native_index": 937,
+  "nsd_id0": 69502,
+  "shard": 1,
+  "sample": "sample000009385",
+  "brain_sha256": "625407a0db889e7cd9cf4b2da83dc55ae6718a2ef169e55aab34f81983123401",
+  "jpeg_sha256": "97a98beac7b101fe1948d0ba39cfa6e9790392b874389d03e7039fe51b510c4d",
+  "brainhub_tensor_sha256": "142235cd46df8cfb99563de85985332d017206b1c8ac05366861aa716cff72fe",
+  "evaluation_png_sha256": "695bf982db634ec0a8f0899d51d32e23f79886ed69bb158c80f2127b594c9b02",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595520.3608136
+}

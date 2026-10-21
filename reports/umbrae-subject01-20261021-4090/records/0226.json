@@ -1,0 +1,33 @@
+{
+  "raw_response": "<s> A bathroom with a sink, mirror and tub.</s>",
+  "caption": "A bathroom with a sink, mirror and tub.",
+  "token_ids": [
+    1,
+    319,
+    27683,
+    8345,
+    411,
+    263,
+    28169,
+    29892,
+    19571,
+    322,
+    23131,
+    29889,
+    2
+  ],
+  "feature_sha256": "5fa0e273cf586b3a1c378a6981ea35a2547431cce1c4d04d3dba151b127bfceb",
+  "native_index": 226,
+  "nsd_id0": 19292,
+  "shard": 0,
+  "sample": "sample000002498",
+  "brain_sha256": "267c5feae1ab6d8f5f0d8e3a65ce326dcfa60dbec5539c2d2eee9e9d4d48ab07",
+  "jpeg_sha256": "acd91f1afbceb45f830ac8eb72f047b5a1741aa5fa647c72ebc620d078ec2079",
+  "brainhub_tensor_sha256": "bad1b7a61217981f9b4fc8eeaa15e4ba11a91f9a1c80e78d2a53ee68802113ca",
+  "evaluation_png_sha256": "14c44fce93f3080db23c79522451d868bebebc759abcf6fa8bbf34a610688add",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595333.911279
+}

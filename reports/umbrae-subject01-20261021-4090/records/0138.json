@@ -1,0 +1,32 @@
+{
+  "raw_response": "<s> A man sitting at a table in a restaurant.</s>",
+  "caption": "A man sitting at a table in a restaurant.",
+  "token_ids": [
+    1,
+    319,
+    767,
+    16246,
+    472,
+    263,
+    1591,
+    297,
+    263,
+    27144,
+    29889,
+    2
+  ],
+  "feature_sha256": "02510fb1e5153bb877548526f0660371befa4c9e76f6284d2b8426879edbe1b9",
+  "native_index": 138,
+  "nsd_id0": 11932,
+  "shard": 0,
+  "sample": "sample000001554",
+  "brain_sha256": "e5bef161e689b92100e4afb9b2ac2526c60850e907d6481901f6ed094b59caf5",
+  "jpeg_sha256": "a8349624e5e3cf8dcd15ea56ea3563f85194e11498aac3c917ca31c4c0f6ee57",
+  "brainhub_tensor_sha256": "a5c562f069135c666c40d87f9c8e395b8fbbaa5a4b24fc98f40e96c37850b815",
+  "evaluation_png_sha256": "1d516a7be9ecf3be7bc6f4cac8c4ad16d2218917b80290acc8916be59f2328de",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595311.6537323
+}

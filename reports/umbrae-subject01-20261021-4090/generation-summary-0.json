@@ -1,0 +1,14 @@
+{
+  "complete": true,
+  "n": 982,
+  "peak_cuda_bytes": 14702109184,
+  "loading_info": {
+    "missing_keys": [],
+    "unexpected_keys": [
+      "model.mm_projector.bias",
+      "model.mm_projector.weight"
+    ],
+    "mismatched_keys": [],
+    "error_msgs": []
+  }
+}

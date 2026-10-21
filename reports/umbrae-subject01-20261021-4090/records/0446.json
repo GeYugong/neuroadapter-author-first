@@ -1,0 +1,32 @@
+{
+  "raw_response": "<s> a large group of people skiing down a hill</s>",
+  "caption": "a large group of people skiing down a hill",
+  "token_ids": [
+    1,
+    263,
+    2919,
+    2318,
+    310,
+    2305,
+    14993,
+    292,
+    1623,
+    263,
+    17306,
+    2
+  ],
+  "feature_sha256": "a55b97f5b5735fa52ce8a090eddf266f4a26bd4a189500ac13ec216ea368385a",
+  "native_index": 446,
+  "nsd_id0": 34068,
+  "shard": 0,
+  "sample": "sample000004549",
+  "brain_sha256": "7d98a8459cceb8b51e09a56d9c6d4352632d8d3970697d4aba0e3c765f15a86a",
+  "jpeg_sha256": "232d2a0b4c5759080eebed060c38f296d357da1d1f76706d2509722a02462b1b",
+  "brainhub_tensor_sha256": "3113d888c3d5496f25b618ba122cb922874c12e7775b4e02e6e2723a0681a535",
+  "evaluation_png_sha256": "3843d0f6d7b9240bf2bb0a5068e9a522626ed1c81c9182117ff29d281fb5c248",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595390.6351607
+}

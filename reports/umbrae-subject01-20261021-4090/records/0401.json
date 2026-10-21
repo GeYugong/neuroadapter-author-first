@@ -1,0 +1,32 @@
+{
+  "raw_response": "<s> A large brown bear poses for a picture.</s>",
+  "caption": "A large brown bear poses for a picture.",
+  "token_ids": [
+    1,
+    319,
+    2919,
+    17354,
+    11460,
+    926,
+    267,
+    363,
+    263,
+    7623,
+    29889,
+    2
+  ],
+  "feature_sha256": "f433457aa5de391a3b8f8a4dd8a901ae6651f00c1ba2059d93af25e9b2420ba4",
+  "native_index": 401,
+  "nsd_id0": 30632,
+  "shard": 0,
+  "sample": "sample000004067",
+  "brain_sha256": "0d09315e5adb02cfe5bcf273a723ad90f39ab7d2ec3f5766f256c472c3e2cf8e",
+  "jpeg_sha256": "59463079332e98b278ab5d4d6112493124db274ade4402c72868c951bec492d4",
+  "brainhub_tensor_sha256": "2955d7dd9aeb342a9b0726177afdab713d0372bade1ec30d09d1a6c5c4aa82c1",
+  "evaluation_png_sha256": "d2f486d45a4de626bf9ce4e09695ae23850ca276b802281da67006ac4ff0fe10",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595379.051117
+}

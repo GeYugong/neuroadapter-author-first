@@ -1,0 +1,33 @@
+{
+  "raw_response": "<s> A young elephant is standing in the grass.</s>",
+  "caption": "A young elephant is standing in the grass.",
+  "token_ids": [
+    1,
+    319,
+    4123,
+    4552,
+    561,
+    424,
+    338,
+    13407,
+    297,
+    278,
+    17455,
+    29889,
+    2
+  ],
+  "feature_sha256": "e562d951304a4b8dcf432af554ed4cb39a128f0e7c557a24f939fb59f885e7d6",
+  "native_index": 492,
+  "nsd_id0": 38060,
+  "shard": 0,
+  "sample": "sample000005112",
+  "brain_sha256": "06fc66b507d4bc6645ba6b472e3f791bd992838107ed5f2ee486c98858dc23c3",
+  "jpeg_sha256": "3835811991656e444ea3460063b9f5152e9184ac19119fab2e87159cb63e3ce8",
+  "brainhub_tensor_sha256": "ab4d1d42919e56a7f44f372b04d2ab8a5cb0b78259cdf3ce9b84172329816cf4",
+  "evaluation_png_sha256": "55eafc5d2061e411e8adffb06265c1281aafaa211f14f672173a7693eead59af",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595402.7605355
+}

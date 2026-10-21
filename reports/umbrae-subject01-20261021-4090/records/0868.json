@@ -1,0 +1,33 @@
+{
+  "raw_response": "<s> A living room filled with furniture and large windows.</s>",
+  "caption": "A living room filled with furniture and large windows.",
+  "token_ids": [
+    1,
+    319,
+    8471,
+    5716,
+    10423,
+    411,
+    15252,
+    17252,
+    322,
+    2919,
+    5417,
+    29889,
+    2
+  ],
+  "feature_sha256": "e08f6202fa9ec81936082ba924ca4da3bf53f5f94bfa9937b52106132ce8d2dc",
+  "native_index": 868,
+  "nsd_id0": 64867,
+  "shard": 1,
+  "sample": "sample000008751",
+  "brain_sha256": "ce2fb35ff131a37eae7accc1a1a4816019dfcf7ffe276d4b9d761074a0899a8b",
+  "jpeg_sha256": "3becac927d863177303238cfcbbd3c2f67f33250ac95178275a9839fef6cea1b",
+  "brainhub_tensor_sha256": "6cf610d34521de33268ee4c70bcbe789e16e1206accb4c3a049744ccd6227bc6",
+  "evaluation_png_sha256": "46ea2a28e1b3dc3d7a15b85efaf52c2e6837224030cb15a601af47f47bef6744",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595502.9918633
+}

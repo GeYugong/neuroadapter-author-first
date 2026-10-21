@@ -1,0 +1,33 @@
+{
+  "raw_response": "<s> A train traveling down train tracks near a forest.</s>",
+  "caption": "A train traveling down train tracks near a forest.",
+  "token_ids": [
+    1,
+    319,
+    7945,
+    9850,
+    292,
+    1623,
+    7945,
+    16257,
+    2978,
+    263,
+    13569,
+    29889,
+    2
+  ],
+  "feature_sha256": "7e9efd1e9c2cc25f84f08954994f277e2f0f652cf688c7d3b7b12e6f260480b1",
+  "native_index": 978,
+  "nsd_id0": 72510,
+  "shard": 1,
+  "sample": "sample000009781",
+  "brain_sha256": "835927800ae148ec239ffe2006e247d4320cc16c4387839708cc5a470fccb0ed",
+  "jpeg_sha256": "df6046ca309afc9f23eb680d4397e76fe106e83da5393156724d18c2b5b4a5f4",
+  "brainhub_tensor_sha256": "ea238f26db8bdebf6b8d8d292076d3fddd06c265e9987dc303757aeaf38af859",
+  "evaluation_png_sha256": "7bde032c3d6a41c829e2530e0565a55445a89b5fea337177bf264c9d8809e7ca",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595531.1505458
+}

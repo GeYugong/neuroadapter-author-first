@@ -1,0 +1,33 @@
+{
+  "raw_response": "<s> A young girl in a uniform shirt and tie.</s>",
+  "caption": "A young girl in a uniform shirt and tie.",
+  "token_ids": [
+    1,
+    319,
+    4123,
+    7826,
+    297,
+    263,
+    9090,
+    528,
+    2728,
+    322,
+    22134,
+    29889,
+    2
+  ],
+  "feature_sha256": "2028823b67ef7d98041a1d5c9ba0f15e17b9ef97b45c4c52d1735d6462aec9d5",
+  "native_index": 99,
+  "nsd_id0": 8933,
+  "shard": 0,
+  "sample": "sample000001166",
+  "brain_sha256": "a745b2fee99f472817e5e247c3de919faf1591a634552e531fedb76f4167bac5",
+  "jpeg_sha256": "d5465134fa4f2d87f0d68693520222eeda60988a8accf5ab155931b1756f4513",
+  "brainhub_tensor_sha256": "5bed9ddff159a6da8597640ac9710bee9eb21a53ce6da701e79610bfe5059e48",
+  "evaluation_png_sha256": "df30e9af6184b0df3bef162d375c19798de0ee21475ce9e5f9884a214e7d8478",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595301.4139225
+}

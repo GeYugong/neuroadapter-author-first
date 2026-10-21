@@ -1,0 +1,31 @@
+{
+  "raw_response": "<s> A city street filled with lots of traffic.</s>",
+  "caption": "A city street filled with lots of traffic.",
+  "token_ids": [
+    1,
+    319,
+    4272,
+    11952,
+    10423,
+    411,
+    14568,
+    310,
+    12469,
+    29889,
+    2
+  ],
+  "feature_sha256": "cb46ed2d0e223d3532e381e772ff9bbf2b0d527def33e862e844bc5be9b02c1d",
+  "native_index": 47,
+  "nsd_id0": 5502,
+  "shard": 0,
+  "sample": "sample000000689",
+  "brain_sha256": "6c6b598ba94f74b7a2b0bf2e7b84633e50aaa5ad61e0714dc4fd6ec96159cfc4",
+  "jpeg_sha256": "762c5931163c21b9427b13f628466186a9f628614b13a3641c5f8be1bf2946cf",
+  "brainhub_tensor_sha256": "90651240b54ef9846319e4f2814079f7514e1b6b0943b886267166d45d243cb4",
+  "evaluation_png_sha256": "022af5a45eaeab0cf977ce6e67850d873d4d224cf3fe5c05b370f6f42e5ed64e",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595288.3404906
+}

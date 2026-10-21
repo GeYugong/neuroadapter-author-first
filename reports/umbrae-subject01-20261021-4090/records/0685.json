@@ -1,0 +1,33 @@
+{
+  "raw_response": "<s> A parking meter on the side of a street.</s>",
+  "caption": "A parking meter on the side of a street.",
+  "token_ids": [
+    1,
+    319,
+    610,
+    9292,
+    11134,
+    373,
+    278,
+    2625,
+    310,
+    263,
+    11952,
+    29889,
+    2
+  ],
+  "feature_sha256": "86113df435bb2e19558f98c1cfe0e2863c7697340417f495017c11567062fbab",
+  "native_index": 685,
+  "nsd_id0": 51052,
+  "shard": 1,
+  "sample": "sample000006861",
+  "brain_sha256": "f7a0c2f8ce5f252cd4bebf370be2c2c9216d64dbe7c5033a43971c18f4b5181d",
+  "jpeg_sha256": "9bae9b449476f57aacc0739e4466eedc7d5d8334ed43bf8e6b0dd1828f6491a5",
+  "brainhub_tensor_sha256": "8b7aad8578beb9facad3010b26da75f1d28b50e13d359f4f5690c3d5dd4dcefc",
+  "evaluation_png_sha256": "b7769d457ef9cb5472768968a08a596dc4b550055fafcc580cac9d095331ac0c",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595456.1819305
+}

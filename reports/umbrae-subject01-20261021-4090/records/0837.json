@@ -1,0 +1,32 @@
+{
+  "raw_response": "<s> A street view of a building in the city.</s>",
+  "caption": "A street view of a building in the city.",
+  "token_ids": [
+    1,
+    319,
+    11952,
+    1776,
+    310,
+    263,
+    5214,
+    297,
+    278,
+    4272,
+    29889,
+    2
+  ],
+  "feature_sha256": "91b294568d4c8415ce9e36e2937b4abf755d3d6e3e60f285e010b62e2114bf75",
+  "native_index": 837,
+  "nsd_id0": 62006,
+  "shard": 1,
+  "sample": "sample000008375",
+  "brain_sha256": "d4cae006c15188b5363f281150af78060bc522f4fd865024d6fc62497099c3d1",
+  "jpeg_sha256": "abae8e622578c6b2ce2ca925c79e4789da86b1f809bee81972c86c5844d87a80",
+  "brainhub_tensor_sha256": "b10196d3ae9c0fa32703e3fdaa4a20fac42dd4b2f7389ecef223e25b8f7e13e5",
+  "evaluation_png_sha256": "6c7002fb745fd6fec47b859de488523e55795901b078febbc02811bb3653a7d5",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595495.0708838
+}

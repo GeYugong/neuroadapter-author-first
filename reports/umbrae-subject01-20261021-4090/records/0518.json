@@ -1,0 +1,32 @@
+{
+  "raw_response": "<s> A woman with a hat on in the grass.</s>",
+  "caption": "A woman with a hat on in the grass.",
+  "token_ids": [
+    1,
+    319,
+    6114,
+    411,
+    263,
+    3056,
+    373,
+    297,
+    278,
+    17455,
+    29889,
+    2
+  ],
+  "feature_sha256": "5eadde4890f2a5ebfc21b77393d46451985ed83331da7108a4c7b119195f18bf",
+  "native_index": 518,
+  "nsd_id0": 40235,
+  "shard": 1,
+  "sample": "sample000005409",
+  "brain_sha256": "f20de811cfc5e64a27bac218cb8566012e05f0d63c693ebbf6368361298a77db",
+  "jpeg_sha256": "499e5b819fdd84fbd128e13239513639bcfbb66804fc3e2a65d8f018f50d33af",
+  "brainhub_tensor_sha256": "7ffb9ca90bb1c30730dfd072f1d18b5bb4c4b55eef14b55e8d729bba47e7e891",
+  "evaluation_png_sha256": "18ca8c736b0b094aa857bfd2a726409b50bd3ed36738051a84fddef9a9164b26",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595409.362579
+}

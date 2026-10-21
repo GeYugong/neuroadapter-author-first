@@ -1,0 +1,32 @@
+{
+  "raw_response": "<s> A man walking on a street with a cow.</s>",
+  "caption": "A man walking on a street with a cow.",
+  "token_ids": [
+    1,
+    319,
+    767,
+    22049,
+    373,
+    263,
+    11952,
+    411,
+    263,
+    21282,
+    29889,
+    2
+  ],
+  "feature_sha256": "971112673dd3325dc89534cfef72f1a76c4957781e370e479896ce93cb6a44db",
+  "native_index": 274,
+  "nsd_id0": 22772,
+  "shard": 0,
+  "sample": "sample000002953",
+  "brain_sha256": "1f6d05ab79d9951ca32c988005009efa904dcdc00a5276fe39a86596a321262c",
+  "jpeg_sha256": "20499488b570848eeefc22cc847fecf3a6f4bbf1b2a01c013748aeb62fffbcb4",
+  "brainhub_tensor_sha256": "13dae501d3c0c01ad0e998ffed99aef94f5625c6d9de73097850571277c5b949",
+  "evaluation_png_sha256": "19d776a9cf6fd966cee3a9e3d202abcd3e234dcea7700a52ec948aab7ba019e0",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595346.1553032
+}

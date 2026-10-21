@@ -1,0 +1,32 @@
+{
+  "raw_response": "<s> A young steer is standing in the grass.</s>",
+  "caption": "A young steer is standing in the grass.",
+  "token_ids": [
+    1,
+    319,
+    4123,
+    1886,
+    261,
+    338,
+    13407,
+    297,
+    278,
+    17455,
+    29889,
+    2
+  ],
+  "feature_sha256": "9b389fce31a597e0a848fa03f41cd14e153c39946ee7d99102848eeceddf8ee3",
+  "native_index": 630,
+  "nsd_id0": 46806,
+  "shard": 1,
+  "sample": "sample000006307",
+  "brain_sha256": "850783f7821591ea8c32440947297dbb0c7dd56ce23b4b07bf8e89a60acdb473",
+  "jpeg_sha256": "5a85460114ebd3b0c40e86316b48e82cc6ade9f72822188ecc64bd37434f0ac1",
+  "brainhub_tensor_sha256": "b8ebf7588de2d21e7e51818ef3561ce98eb4db00e47edba7a2954293cb272eaa",
+  "evaluation_png_sha256": "e5e979c5654bff8a187d2e695d63a516438d9e408b546c02924cce012bd3ba3f",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595441.9926693
+}

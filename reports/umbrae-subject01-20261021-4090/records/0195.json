@@ -1,0 +1,32 @@
+{
+  "raw_response": "<s> A group of people on activities in the snow.</s>",
+  "caption": "A group of people on activities in the snow.",
+  "token_ids": [
+    1,
+    319,
+    2318,
+    310,
+    2305,
+    373,
+    14188,
+    297,
+    278,
+    15007,
+    29889,
+    2
+  ],
+  "feature_sha256": "df19a6c1af766f27bb351ea5dd7b44651aaef256a9564a56e33aa9a43c41896d",
+  "native_index": 195,
+  "nsd_id0": 16823,
+  "shard": 0,
+  "sample": "sample000002175",
+  "brain_sha256": "2572a6de9b146f7503199947764adf676f88e7b5f692c643c6ea035a6dc72478",
+  "jpeg_sha256": "27f0f8a12cd099b36e8d06a2316fd90165ac6a4950314d657390d48cadd1c364",
+  "brainhub_tensor_sha256": "bd2e3006f07da7c3ace4c22f8e0a4d49df716781309063b274cf37c9f5ca18ce",
+  "evaluation_png_sha256": "262bba80e192aa448e4e4c215184953127761e5d39ec0fa0ff456c13df6ac1d0",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595326.2444417
+}

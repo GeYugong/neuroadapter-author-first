@@ -1,0 +1,33 @@
+{
+  "raw_response": "<s> A small elephant standing on a dirty field.</s>",
+  "caption": "A small elephant standing on a dirty field.",
+  "token_ids": [
+    1,
+    319,
+    2319,
+    4552,
+    561,
+    424,
+    13407,
+    373,
+    263,
+    26616,
+    1746,
+    29889,
+    2
+  ],
+  "feature_sha256": "1d15c81175d38c1d8d435eed12db8d702b4f0eb3c4220c0983c958c1fac388d9",
+  "native_index": 183,
+  "nsd_id0": 15819,
+  "shard": 0,
+  "sample": "sample000002067",
+  "brain_sha256": "6fb65d093796050fc5c023f847ac613a3c5893d85a048c272bfcf74765d57302",
+  "jpeg_sha256": "5c1232ae34c8a38808bdfcaf13d1c6b6d33e8072c448580b2a528775245b2a10",
+  "brainhub_tensor_sha256": "62c1f6f51739dbf992af3d8f49ad9c7bd2a850487c20341b4e9bed85dad29d2e",
+  "evaluation_png_sha256": "e6e1ef382b4e64de44ea209c3e9bf1293518e8027ee92694ea50dd300d2206ac",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595323.2894397
+}

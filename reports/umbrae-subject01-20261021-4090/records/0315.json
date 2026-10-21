@@ -1,0 +1,33 @@
+{
+  "raw_response": "<s> A dog sitting in the back seat of a car.</s>",
+  "caption": "A dog sitting in the back seat of a car.",
+  "token_ids": [
+    1,
+    319,
+    11203,
+    16246,
+    297,
+    278,
+    1250,
+    12949,
+    310,
+    263,
+    1559,
+    29889,
+    2
+  ],
+  "feature_sha256": "f8b441a84b281e675dec33624befbdf991f436d8e49a061e6a8bdae55cfab26d",
+  "native_index": 315,
+  "nsd_id0": 25284,
+  "shard": 0,
+  "sample": "sample000003332",
+  "brain_sha256": "c431fe10992fb88c74fb0f7d9eaa64d63759a077cd2153a88affb0cf6c91c719",
+  "jpeg_sha256": "e9895347e805f9c6b81ba573adc462bb37d3483406d7ff20f0984a12b86b9902",
+  "brainhub_tensor_sha256": "ed3d918a50aa5199dada1fdad7ddb02cfcf206d8c00875454aea581502aa5aaa",
+  "evaluation_png_sha256": "07a957612448908cebdd42939deb624912475054533c493452af03f03578e028",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595356.6954606
+}

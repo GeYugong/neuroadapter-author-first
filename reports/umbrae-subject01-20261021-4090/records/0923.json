@@ -1,0 +1,32 @@
+{
+  "raw_response": "<s> A crowd of people standing next to each other.</s>",
+  "caption": "A crowd of people standing next to each other.",
+  "token_ids": [
+    1,
+    319,
+    19174,
+    310,
+    2305,
+    13407,
+    2446,
+    304,
+    1269,
+    916,
+    29889,
+    2
+  ],
+  "feature_sha256": "2b6185ce7493bf19e5627616650631823166cb17808c58e1614708423d916371",
+  "native_index": 923,
+  "nsd_id0": 68418,
+  "shard": 1,
+  "sample": "sample000009242",
+  "brain_sha256": "4f42103f63112040dcaea0f35c30a4da06a3232eca8f265d098ce8abecd217eb",
+  "jpeg_sha256": "587d7ccae5707133110930ca80d7a156daccae3232a82234c5486b70481b427b",
+  "brainhub_tensor_sha256": "bd30b8a17e32b44825b0cf87201c085b44e4bafd632930388c64cfdf713b9f36",
+  "evaluation_png_sha256": "0d36411359b52d70b7e08d92436536c5cdbc8b255c1e2ac4074cf555505525da",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595516.8576078
+}

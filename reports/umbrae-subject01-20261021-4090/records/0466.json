@@ -1,0 +1,32 @@
+{
+  "raw_response": "<s> A cat sitting on the floor in a bathroom</s>",
+  "caption": "A cat sitting on the floor in a bathroom",
+  "token_ids": [
+    1,
+    319,
+    6635,
+    16246,
+    373,
+    278,
+    11904,
+    297,
+    263,
+    27683,
+    8345,
+    2
+  ],
+  "feature_sha256": "f4d874723c340ba35c5d1d3962196ee94a1ce0f104e7482ff89d52f77e7009bb",
+  "native_index": 466,
+  "nsd_id0": 35986,
+  "shard": 0,
+  "sample": "sample000004826",
+  "brain_sha256": "62c5aed8b8664b15d9b37ade21bcca63b54410bc18ee0d95a0a3f57129aec7e3",
+  "jpeg_sha256": "878a2bd8657b8f7b7c4cf92e69aaa620b58e2885976354a62dc6a1c46dd3c9a7",
+  "brainhub_tensor_sha256": "9fccc67975a7b0df9d7bc2b7d5d19d75754ac296aaac708a736926a5b1606041",
+  "evaluation_png_sha256": "220416f5856bd89f3f4b3c5ef29130facf439ef889ae64ca7a056a2ace33dc7c",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595396.0188053
+}

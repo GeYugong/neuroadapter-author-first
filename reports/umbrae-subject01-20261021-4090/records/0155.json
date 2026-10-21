@@ -1,0 +1,33 @@
+{
+  "raw_response": "<s> A woman laying down on top of a bed.</s>",
+  "caption": "A woman laying down on top of a bed.",
+  "token_ids": [
+    1,
+    319,
+    6114,
+    6568,
+    292,
+    1623,
+    373,
+    2246,
+    310,
+    263,
+    6592,
+    29889,
+    2
+  ],
+  "feature_sha256": "b6982c9216edc5f59510e1c33eee101fa801e42807f925e3df03ea70281ade42",
+  "native_index": 155,
+  "nsd_id0": 13314,
+  "shard": 0,
+  "sample": "sample000001730",
+  "brain_sha256": "828a607427ed26042154b2cfeed67c60e4b13b81adb3f3e472b44e3ff3d6c9f8",
+  "jpeg_sha256": "d62778f7b5c23ea893af193528172b50c07735d490353ff290e00b0dff105097",
+  "brainhub_tensor_sha256": "ad4c401d5f9408fa4c2dae28b880561bb1cb17c1515fe9dca73560e4aa232e71",
+  "evaluation_png_sha256": "332302eff14967ef3ad81ff70da0921b9cc13a525fece324f0672ab52576140c",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595316.1592615
+}

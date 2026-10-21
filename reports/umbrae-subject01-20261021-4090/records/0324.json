@@ -1,0 +1,33 @@
+{
+  "raw_response": "<s> A large city with a harbor and tall buildings.</s>",
+  "caption": "A large city with a harbor and tall buildings.",
+  "token_ids": [
+    1,
+    319,
+    2919,
+    4272,
+    411,
+    263,
+    4023,
+    4089,
+    322,
+    15655,
+    13814,
+    29889,
+    2
+  ],
+  "feature_sha256": "7e5d0b7b1d2732704e7efab3ad221d21a310f744db933c07ba0129c6e0e3fa37",
+  "native_index": 324,
+  "nsd_id0": 25588,
+  "shard": 0,
+  "sample": "sample000003372",
+  "brain_sha256": "1f598576118ec5ec3aba7d013bf93815597b8225629f44a50a4bed8a723765ce",
+  "jpeg_sha256": "7460c21936d9fd3f905e66735932b6bd9d22eb78e32418893f406a9b274183fd",
+  "brainhub_tensor_sha256": "bee439eceb51336cb64400f3c7f75c8a8ffd0cf79f710c1b28dbe4724b91e2a9",
+  "evaluation_png_sha256": "edc46feb24ae862eed686e871966afdbbe124e7d3d6699043a17a077e5696abf",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595359.0588157
+}

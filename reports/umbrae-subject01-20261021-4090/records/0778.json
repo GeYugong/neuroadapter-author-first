@@ -1,0 +1,33 @@
+{
+  "raw_response": "<s> A very tall clock tower towering over a city.</s>",
+  "caption": "A very tall clock tower towering over a city.",
+  "token_ids": [
+    1,
+    319,
+    1407,
+    15655,
+    12006,
+    19372,
+    19372,
+    292,
+    975,
+    263,
+    4272,
+    29889,
+    2
+  ],
+  "feature_sha256": "6c7592282f10e1649a9bf06e33fffbdd0747aa4c58630d007d5f2104f32632e9",
+  "native_index": 778,
+  "nsd_id0": 57443,
+  "shard": 1,
+  "sample": "sample000007717",
+  "brain_sha256": "d5615fbb647a7fd48d30cf1f58d485364c5d12119b979941c87cd231503a5ec4",
+  "jpeg_sha256": "83f4ff76dea0bf50ac88a4950fb33b8f811fcfe026893526c1da364779475d3c",
+  "brainhub_tensor_sha256": "70eb6c8e01157a47250ff8c27bb749db3a36025b9e75d5a08b0950f4b8eda122",
+  "evaluation_png_sha256": "07a28be078b79f425aad1b3b6b6af6b85957f3dea160c87f47f172c631667f17",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595479.7134972
+}

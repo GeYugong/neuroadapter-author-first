@@ -1,0 +1,32 @@
+{
+  "raw_response": "<s> A close up of a dog with no mouth.</s>",
+  "caption": "A close up of a dog with no mouth.",
+  "token_ids": [
+    1,
+    319,
+    3802,
+    701,
+    310,
+    263,
+    11203,
+    411,
+    694,
+    13394,
+    29889,
+    2
+  ],
+  "feature_sha256": "52374a8b4d39430445c653fa3dc14d3bb79871c78310b3174daf0e3a3905776d",
+  "native_index": 822,
+  "nsd_id0": 61122,
+  "shard": 1,
+  "sample": "sample000008239",
+  "brain_sha256": "7cecaa82b32a0b4629848ab6af6a783b91f8ce62a812068b7fe6f74aa3e66798",
+  "jpeg_sha256": "ff0ccbde511306a6a6476d280da38e3ac28ee7630089108c70822fac83d20b93",
+  "brainhub_tensor_sha256": "17db1af9796a212f0762b0cec4b943070807db87a1687f4ff8fb5d82030ce23f",
+  "evaluation_png_sha256": "f582be5a04e259b8a2bd0c3682a9a926013ed6809d4aa2564ce2af71b82ad812",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595491.2395356
+}

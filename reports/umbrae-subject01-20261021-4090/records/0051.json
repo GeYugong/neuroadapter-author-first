@@ -1,0 +1,32 @@
+{
+  "raw_response": "<s> A beach view with the ocean in the background.</s>",
+  "caption": "A beach view with the ocean in the background.",
+  "token_ids": [
+    1,
+    319,
+    25695,
+    1776,
+    411,
+    278,
+    23474,
+    297,
+    278,
+    3239,
+    29889,
+    2
+  ],
+  "feature_sha256": "4fcb1342245e3b35718c1ad3aea158a868db9a71a0d9770afb5c7501b2dc52f5",
+  "native_index": 51,
+  "nsd_id0": 5602,
+  "shard": 0,
+  "sample": "sample000000704",
+  "brain_sha256": "abe0eea32fdf37d35f38a47b64c8a5d760a3335248d94ea834f98180f979e63e",
+  "jpeg_sha256": "49eb4e7f571d2981110839051928e78b171db451927b370e7560f8ba0ab5fd0e",
+  "brainhub_tensor_sha256": "d554b50f88beb9908a4f9def4f0aeaa562d74ad8abfc2bba8647c33f32e74278",
+  "evaluation_png_sha256": "f27c8bdc0b63217b3e492ffe6988750f47a2f546eb2a94e695127063611a0f94",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595289.2784567
+}

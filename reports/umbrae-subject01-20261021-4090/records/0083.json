@@ -1,0 +1,33 @@
+{
+  "raw_response": "<s> A man is standing and holding something in his hand.</s>",
+  "caption": "A man is standing and holding something in his hand.",
+  "token_ids": [
+    1,
+    319,
+    767,
+    338,
+    13407,
+    322,
+    13587,
+    1554,
+    297,
+    670,
+    1361,
+    29889,
+    2
+  ],
+  "feature_sha256": "79166ecff6e8699ff5d2073de83b03ac8930774838b92c9a8f482cd9e90daf5a",
+  "native_index": 83,
+  "nsd_id0": 8109,
+  "shard": 0,
+  "sample": "sample000001046",
+  "brain_sha256": "0d77801edf95c57bed0a416c529b2be2171c5851f512cca32d76fb7a292a5767",
+  "jpeg_sha256": "93be8d3174df2610b1c6e3427bb4a2a5fe7de5bbf8bb9a5a4b28de6fcea07617",
+  "brainhub_tensor_sha256": "130286e2a9c5a4bd286dff338ee6d03a5eedf842aa1e479e90233b5052fc97be",
+  "evaluation_png_sha256": "d3d1a33b1b0d7e6290df9c051378f214753204729143528daeb06679389f2b2e",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595297.3279235
+}

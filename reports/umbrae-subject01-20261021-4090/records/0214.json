@@ -1,0 +1,31 @@
+{
+  "raw_response": "<s> A group of people playing a video game.</s>",
+  "caption": "A group of people playing a video game.",
+  "token_ids": [
+    1,
+    319,
+    2318,
+    310,
+    2305,
+    8743,
+    263,
+    4863,
+    3748,
+    29889,
+    2
+  ],
+  "feature_sha256": "b78f89ca8f4bf133a7f369c13fdffca6f0e6bc588414682482c02706b36532c1",
+  "native_index": 214,
+  "nsd_id0": 18268,
+  "shard": 0,
+  "sample": "sample000002374",
+  "brain_sha256": "388bc2e615e8d0789836ab2dcee150b854d3ca29e688380e75fb54332943a88e",
+  "jpeg_sha256": "adecfe7da8acff9487d3e73dbe93ecfd590b46bcb085201062211cd1a38d060e",
+  "brainhub_tensor_sha256": "e23c08b03b7eb48de9e3aa700164db3c746c6a6acbfc66e60266b1bc8f333aa6",
+  "evaluation_png_sha256": "e925e3a9023f74db956af1bbbc6650881b8db63acdba8dde287c2a4476c7bbe6",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595330.9405289
+}

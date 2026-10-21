@@ -1,0 +1,32 @@
+{
+  "raw_response": "<s> Two horses walk across a field in the desert.</s>",
+  "caption": "Two horses walk across a field in the desert.",
+  "token_ids": [
+    1,
+    7803,
+    15100,
+    6686,
+    4822,
+    263,
+    1746,
+    297,
+    278,
+    18197,
+    29889,
+    2
+  ],
+  "feature_sha256": "a369f422ad73886972217f25f9c32a4292ba30097d434950521ca4c22b519e35",
+  "native_index": 814,
+  "nsd_id0": 60505,
+  "shard": 1,
+  "sample": "sample000008149",
+  "brain_sha256": "a2801179c272787390f2d4e878737777e3ab09c33fb442ef4f5daf8a2ae3bdc6",
+  "jpeg_sha256": "104a4eb1730184c3a595a2e9696ffd0613151694dffd715cd9549316ba5933db",
+  "brainhub_tensor_sha256": "76ca49c4da3ceb60b351a8c7695c2e9ec49d3d5d4041f4f75d5b03fb7d243a44",
+  "evaluation_png_sha256": "1f8f279fc92ec1b32dfed7275f106b7709c4daf695e7f2678f1543a4f408ced3",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595489.1686616
+}

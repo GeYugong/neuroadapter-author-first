@@ -1,0 +1,32 @@
+{
+  "raw_response": "<s> A street scene with an intersection and many trees.</s>",
+  "caption": "A street scene with an intersection and many trees.",
+  "token_ids": [
+    1,
+    319,
+    11952,
+    9088,
+    411,
+    385,
+    17686,
+    322,
+    1784,
+    10697,
+    29889,
+    2
+  ],
+  "feature_sha256": "c651b95f49504e952a2fe902f74c2f6d82d1456228b02f8a08ec1f14b4202698",
+  "native_index": 353,
+  "nsd_id0": 27287,
+  "shard": 0,
+  "sample": "sample000003596",
+  "brain_sha256": "2bce82b647dce3c7066854611da85ade8784a329cc739d41be6066c383fa22d6",
+  "jpeg_sha256": "e6b267fe532616d265933bf0e0086a0b60f2f515a4f25aeb5f13b2f53d1c915b",
+  "brainhub_tensor_sha256": "cf916f4bb88ef2bf7ca93b5d2502783ffdd5ea1cb9b82087e5a187208860e466",
+  "evaluation_png_sha256": "b793b25d5a0941b9b39ff9bdeaebb28c19590c1d8151d87b846b71eccdc15bbc",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595366.8225834
+}

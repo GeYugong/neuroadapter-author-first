@@ -1,0 +1,32 @@
+{
+  "raw_response": "<s> A woman walking in front of a tall building.</s>",
+  "caption": "A woman walking in front of a tall building.",
+  "token_ids": [
+    1,
+    319,
+    6114,
+    22049,
+    297,
+    4565,
+    310,
+    263,
+    15655,
+    5214,
+    29889,
+    2
+  ],
+  "feature_sha256": "da30ef0febd4ccd5e4a41edd72dd8c619caec180977bacbb1a82c81583e414c9",
+  "native_index": 817,
+  "nsd_id0": 60725,
+  "shard": 1,
+  "sample": "sample000008176",
+  "brain_sha256": "995b75714618b89c47d450a55de727e799632dde1ead1106ef760b452a00d41e",
+  "jpeg_sha256": "eca522abbc1f6a8602d79135a80612e3d09249f404d9b82305719d377fb90b88",
+  "brainhub_tensor_sha256": "92dd842033630b66ef42db4b5abe6379ed0a1370f93c0659b43d6e4d5f95c59f",
+  "evaluation_png_sha256": "d6a564338d1d17bc4f536ef9819e5232d28c4de91ce57cc29558a25940bfd6ae",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595489.8850787
+}

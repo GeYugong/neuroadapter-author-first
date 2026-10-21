@@ -1,0 +1,31 @@
+{
+  "raw_response": "<s> The large brown bear is looking forward outside.</s>",
+  "caption": "The large brown bear is looking forward outside.",
+  "token_ids": [
+    1,
+    450,
+    2919,
+    17354,
+    11460,
+    338,
+    3063,
+    6375,
+    5377,
+    29889,
+    2
+  ],
+  "feature_sha256": "7b65c9f024a3d9f61425d505d8aae416243003703470667ba447b4eaa4c04ad6",
+  "native_index": 627,
+  "nsd_id0": 46523,
+  "shard": 1,
+  "sample": "sample000006271",
+  "brain_sha256": "5f21be8e4854c424c7908b3858da628631334a6f0753aeab433a3e39e8eb160e",
+  "jpeg_sha256": "dce81da604be2c7af644eb19ee8e4c007477a2177516587dc00b7b2919ddd167",
+  "brainhub_tensor_sha256": "61d8e74a3a6679f56a77f8e102cdba5723017bc99a0dbb028e4ead34996318a2",
+  "evaluation_png_sha256": "d1c2f5ef628518c612db89e898b5ced24a31b7a1c314d4f75a920b1cc9f5a28c",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595441.2406595
+}

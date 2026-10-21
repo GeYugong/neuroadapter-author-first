@@ -1,0 +1,33 @@
+{
+  "raw_response": "<s> A man in a suit looks off into the distance.</s>",
+  "caption": "A man in a suit looks off into the distance.",
+  "token_ids": [
+    1,
+    319,
+    767,
+    297,
+    263,
+    14726,
+    3430,
+    1283,
+    964,
+    278,
+    5418,
+    29889,
+    2
+  ],
+  "feature_sha256": "2986eb9ef1a1daabcf7b942cdb61eb5dde347acaa1fed9932da1e2dd89645eac",
+  "native_index": 360,
+  "nsd_id0": 27972,
+  "shard": 0,
+  "sample": "sample000003697",
+  "brain_sha256": "358085f57178499177591734e2b9cfd8bea2bc0a9a74f39106a2f261c8eee000",
+  "jpeg_sha256": "7169e7c33ec52f25f2008e785b43413f83d9e9331a10dedd2d66f53aef4410db",
+  "brainhub_tensor_sha256": "ca610c5bb6be63aa1813fca1e7e10526779732cdfd154a15f9ec0c8bb70d3d49",
+  "evaluation_png_sha256": "94cde9a52a07b4847bdee7ca5bb39890e783d8a9924a6bcfb12b11fea377c817",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595368.7087367
+}

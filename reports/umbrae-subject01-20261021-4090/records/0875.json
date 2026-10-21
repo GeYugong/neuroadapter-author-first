@@ -1,0 +1,33 @@
+{
+  "raw_response": "<s> A view of a forest lake with trees in it.</s>",
+  "caption": "A view of a forest lake with trees in it.",
+  "token_ids": [
+    1,
+    319,
+    1776,
+    310,
+    263,
+    13569,
+    19437,
+    411,
+    10697,
+    297,
+    372,
+    29889,
+    2
+  ],
+  "feature_sha256": "d75ade7b3c28b7dc2e22ce932aab8d555e490ccd614ca77a2b744d47054c9a02",
+  "native_index": 875,
+  "nsd_id0": 65187,
+  "shard": 1,
+  "sample": "sample000008792",
+  "brain_sha256": "258fdd7cdf02d85f085e6ad4616a4ca6e9f9f2ab5144af3f0f203f97b134bdab",
+  "jpeg_sha256": "b5fb99b75c5e2a74d14da9a626c62acb3806900bced03063b1d6cb5cf9ecab47",
+  "brainhub_tensor_sha256": "e217a1376a9bf9ec94b31ce19006a6eb84f53179ba3a7dde71ec78c777b0b13d",
+  "evaluation_png_sha256": "cbbb699d2bc51787844a87a8cd70a2e033ffbb9b26d5c44f13d6665c8b5274fb",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595504.7338583
+}

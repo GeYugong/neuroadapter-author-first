@@ -1,0 +1,32 @@
+{
+  "raw_response": "<s> A man in a suit looking serious and standing.</s>",
+  "caption": "A man in a suit looking serious and standing.",
+  "token_ids": [
+    1,
+    319,
+    767,
+    297,
+    263,
+    14726,
+    3063,
+    10676,
+    322,
+    13407,
+    29889,
+    2
+  ],
+  "feature_sha256": "71bbdc129b9d0ca8430c3688344f61bf82489bf4b922a6b55b46a56eca55f367",
+  "native_index": 130,
+  "nsd_id0": 11617,
+  "shard": 0,
+  "sample": "sample000001504",
+  "brain_sha256": "c41988c62529926c0dbae38849ce58b2cabf885f37ff88a9920a765a04dfeb12",
+  "jpeg_sha256": "4bacc1ae8540ee951751799ed2cbef197355f7c19858d195d319f83ac8907801",
+  "brainhub_tensor_sha256": "02e87e98fb3e636d6783569b7621b158939164d29862580eea399bec4ec95cfd",
+  "evaluation_png_sha256": "04868addca208ef9fd487792e85365de011a05d1fcbbb4445352543e8f2710f4",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595309.6358726
+}

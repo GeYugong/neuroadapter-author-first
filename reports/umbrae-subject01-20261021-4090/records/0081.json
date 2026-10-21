@@ -1,0 +1,32 @@
+{
+  "raw_response": "<s> The trees are in the background of the photo.</s>",
+  "caption": "The trees are in the background of the photo.",
+  "token_ids": [
+    1,
+    450,
+    10697,
+    526,
+    297,
+    278,
+    3239,
+    310,
+    278,
+    15373,
+    29889,
+    2
+  ],
+  "feature_sha256": "7031e6a5d650561e37bb0eb751501a17284276911f673a7370313af822d30fa9",
+  "native_index": 81,
+  "nsd_id0": 7954,
+  "shard": 0,
+  "sample": "sample000001033",
+  "brain_sha256": "14c48b0e175bed5a546610522d6b5146887ca1f90c09e4b320e7af2d91a6b7a7",
+  "jpeg_sha256": "6aebdca6552d4aadf15cda15657acba1fe4d265dfa66bfc5b780c189b0de18a7",
+  "brainhub_tensor_sha256": "30464ad22d2969e0b17cd0f845f8ef2b70d4b01df47c1a2f66592ea60f46e6e6",
+  "evaluation_png_sha256": "dfb144f5cd826bc30c19d84b8e1f5a0aed69bca3034a931c60eb33b7274b9bbb",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595296.8325167
+}

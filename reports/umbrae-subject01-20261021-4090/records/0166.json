@@ -1,0 +1,30 @@
+{
+  "raw_response": "<s> A wall with a clock mounted on it</s>",
+  "caption": "A wall with a clock mounted on it",
+  "token_ids": [
+    1,
+    319,
+    10090,
+    411,
+    263,
+    12006,
+    19239,
+    373,
+    372,
+    2
+  ],
+  "feature_sha256": "ad74ba3d8d03fb945556defa1d4e64fbf2e3a4c336d714c4a228237589b70907",
+  "native_index": 166,
+  "nsd_id0": 14528,
+  "shard": 0,
+  "sample": "sample000001885",
+  "brain_sha256": "d2906ed98fe4f948d828c7aa8104e469b6be38be97af1fa08edfd884dbad5cda",
+  "jpeg_sha256": "25b0a812accaea998368ab5a87e685cf643c2d191a617ff9a1c07c67d07b44cd",
+  "brainhub_tensor_sha256": "a690bfba647f87355f1e85c54b8346c568dbcb646bdaaabe35baa5610a2738d4",
+  "evaluation_png_sha256": "cf3f7491506d6c550eef276c995eccf4b2621371d5caa9d5fab3b3504b1bf692",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595318.945576
+}

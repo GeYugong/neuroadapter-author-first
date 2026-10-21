@@ -1,0 +1,32 @@
+{
+  "raw_response": "<s> A bedroom with a computer and several books.</s>",
+  "caption": "A bedroom with a computer and several books.",
+  "token_ids": [
+    1,
+    319,
+    6592,
+    8345,
+    411,
+    263,
+    6601,
+    322,
+    3196,
+    8277,
+    29889,
+    2
+  ],
+  "feature_sha256": "ff55c1e4472ddbcd3f4ee8e505092c53d47422a3a9f07cd4892e48afed75dd58",
+  "native_index": 423,
+  "nsd_id0": 31964,
+  "shard": 0,
+  "sample": "sample000004245",
+  "brain_sha256": "aaf643476cc3067e16a34cc89f11fa38886197d2ea26c1676798b244e4299f1a",
+  "jpeg_sha256": "0504eb4780e5dbaaf8e4c0d249e65db61589397d0669bd0ab8675c54b0cdfd77",
+  "brainhub_tensor_sha256": "ce06a1c6ec947902eca6879aa5c617675b15126208fc6ddaafabbb2a830f93fa",
+  "evaluation_png_sha256": "d00f3784aa4cfffc345ee75d44136ad43b917406a40c91e988ce2fdf14d7fab6",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595384.7343216
+}

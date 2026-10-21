@@ -1,0 +1,32 @@
+{
+  "raw_response": "<s> A large semi truck on a city street.</s>",
+  "caption": "A large semi truck on a city street.",
+  "token_ids": [
+    1,
+    319,
+    2919,
+    12647,
+    534,
+    2707,
+    373,
+    263,
+    4272,
+    11952,
+    29889,
+    2
+  ],
+  "feature_sha256": "42974ace26d3fc1d4436d1a0d1bb8ff64fad966b871d39fe36a0490dfaccf4db",
+  "native_index": 659,
+  "nsd_id0": 48802,
+  "shard": 1,
+  "sample": "sample000006572",
+  "brain_sha256": "499dd76ad07a4cdfaa8cd5c52d36bd77044575c5953c977b6a5e39f29b59cf94",
+  "jpeg_sha256": "9015aab7eb3eeb22e1e447c064d9d78055eefe32bb43920d7f808cd179d4b24f",
+  "brainhub_tensor_sha256": "160761d917aea57e5b4e109fdf4f13935b9d17333d810ba8f4f7b57edaefb4eb",
+  "evaluation_png_sha256": "003d986752365b6ea11eeec1ab49eef3b7e44ebdd20aeeb677bfd32308fb3bcc",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595449.329977
+}

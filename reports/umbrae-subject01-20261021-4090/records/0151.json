@@ -1,0 +1,32 @@
+{
+  "raw_response": "<s> A living room with various electronic items in it.</s>",
+  "caption": "A living room with various electronic items in it.",
+  "token_ids": [
+    1,
+    319,
+    8471,
+    5716,
+    411,
+    5164,
+    27758,
+    4452,
+    297,
+    372,
+    29889,
+    2
+  ],
+  "feature_sha256": "4c370d16abffd886eba3d0f495ce7559e2b6399cb9357f853e2f7b06c165ca84",
+  "native_index": 151,
+  "nsd_id0": 12937,
+  "shard": 0,
+  "sample": "sample000001679",
+  "brain_sha256": "4ca573627a8f90e4266b7dff68ca69d4583f5bb51e753f9b52455fac45dc0942",
+  "jpeg_sha256": "b7ac2e04c6133c88dc4dce51f57ba896a38ab040d56a62abafa27477525c5816",
+  "brainhub_tensor_sha256": "4f2ce7a477526264901a5dc4bff2e3f006600d896606b481fc0578f750084c7d",
+  "evaluation_png_sha256": "e6b94e8461565fcad89b0bd07ff65a5bc176f9db83400164324c7e971d477056",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595315.1334436
+}

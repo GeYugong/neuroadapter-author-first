@@ -1,0 +1,33 @@
+{
+  "raw_response": "<s> A woman in a uniform sitting on a soccer field</s>",
+  "caption": "A woman in a uniform sitting on a soccer field",
+  "token_ids": [
+    1,
+    319,
+    6114,
+    297,
+    263,
+    9090,
+    16246,
+    373,
+    263,
+    269,
+    11953,
+    1746,
+    2
+  ],
+  "feature_sha256": "f3c94d397c3c330ca3bc307ef02046345b32f4364f59a838d949e7602b547d2b",
+  "native_index": 111,
+  "nsd_id0": 9978,
+  "shard": 0,
+  "sample": "sample000001289",
+  "brain_sha256": "7d12eab4c0a5d2a3b233b1aa309cd24d71f5d9ad865d9c5c3ea2c92236259662",
+  "jpeg_sha256": "65969dbcb01f91a6a270cf8bdbf54d680a264dec06cfaf523e57811bbcce0a23",
+  "brainhub_tensor_sha256": "b3230a240a6fb9f973b5b46bc182ecbf6a18681e1eb20e75830800eeaeb60b6e",
+  "evaluation_png_sha256": "b63ae41f6de8f5592654a46053e984fe9034b5fd157a6819bfd6d1987817c74a",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595304.6190438
+}

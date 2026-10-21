@@ -1,0 +1,33 @@
+{
+  "raw_response": "<s> A baseball player is getting ready to hit a ball.</s>",
+  "caption": "A baseball player is getting ready to hit a ball.",
+  "token_ids": [
+    1,
+    319,
+    21573,
+    4847,
+    338,
+    2805,
+    7960,
+    304,
+    7124,
+    263,
+    8287,
+    29889,
+    2
+  ],
+  "feature_sha256": "a3c9d89003a2abcef88b818a38439bd6c46513dc66fe6ae5dc4acd85e3bb3208",
+  "native_index": 320,
+  "nsd_id0": 25454,
+  "shard": 0,
+  "sample": "sample000003356",
+  "brain_sha256": "d021aaea47235496f4f3eff85c371987e7230fdf3b5cd8b0953d014d7c0068e4",
+  "jpeg_sha256": "df432cfc1021d082b66954b53c25b3c3df4e3a91f557871fc14d1ff65eb1c0df",
+  "brainhub_tensor_sha256": "b9e2473298be35fc50d9500958a9b812cf08c08b20f7705a4ab928e588393280",
+  "evaluation_png_sha256": "ad3b81f2ff87a7b9488f8af4e2ac364322931ccd85e4953cfa15ff3ba26c4176",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595357.871148
+}

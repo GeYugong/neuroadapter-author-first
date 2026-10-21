@@ -1,0 +1,31 @@
+{
+  "raw_response": "<s> A man getting ready to go some where .</s>",
+  "caption": "A man getting ready to go some where .",
+  "token_ids": [
+    1,
+    319,
+    767,
+    2805,
+    7960,
+    304,
+    748,
+    777,
+    988,
+    869,
+    2
+  ],
+  "feature_sha256": "3ee9dcf5e434dfe4c0ea250f82ee077c7675e38494a6a542c63d0ebae757609a",
+  "native_index": 123,
+  "nsd_id0": 10610,
+  "shard": 0,
+  "sample": "sample000001376",
+  "brain_sha256": "50b0a0111d87a3a09059b13ffef228d349b07125d5cca70296d5a813417f2399",
+  "jpeg_sha256": "d3d2fbabf0cb01b10e1b605c7afddd3293254112f2db2230c32e198eca0eae69",
+  "brainhub_tensor_sha256": "4b69c55b70824f8eabc21a7a96605b86ca6f1d3e14d4f4147350b92d96b6dea0",
+  "evaluation_png_sha256": "edca2924006c90ff0b345e75dfba1c49b1cef3fffba04c55660e10ad7eb371a4",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595307.6978288
+}

@@ -1,0 +1,32 @@
+{
+  "raw_response": "<s> A bird with an angry look on its face.</s>",
+  "caption": "A bird with an angry look on its face.",
+  "token_ids": [
+    1,
+    319,
+    11199,
+    411,
+    385,
+    26230,
+    1106,
+    373,
+    967,
+    3700,
+    29889,
+    2
+  ],
+  "feature_sha256": "6835a1e22abcbd3b99b53e257c11cc850377b499247eb7a1af0591f722e1c572",
+  "native_index": 168,
+  "nsd_id0": 14594,
+  "shard": 0,
+  "sample": "sample000001892",
+  "brain_sha256": "3aa6bda3a7c2c63abf40132fcc2f615c1ab755e51b06cd254eb586792d39a347",
+  "jpeg_sha256": "390cedb881af9c01c52a8d030689fe28c3cee1188729008f9027a91b488c17a7",
+  "brainhub_tensor_sha256": "22e0a2f359d80a10be5b912d7013f7d001809e396861ceec60a08cb09396d15f",
+  "evaluation_png_sha256": "f97fb9d685a9d344d3f9b30e713fd7c557323ad7305ec27e4cd94adf5dc3f49a",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595319.44091
+}

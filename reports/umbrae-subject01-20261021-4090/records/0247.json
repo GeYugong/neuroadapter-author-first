@@ -1,0 +1,33 @@
+{
+  "raw_response": "<s> A man on a skateboard doing a trick.</s>",
+  "caption": "A man on a skateboard doing a trick.",
+  "token_ids": [
+    1,
+    319,
+    767,
+    373,
+    263,
+    2071,
+    403,
+    3377,
+    2599,
+    263,
+    8938,
+    29889,
+    2
+  ],
+  "feature_sha256": "b371e89a66586c1980dcd06e81cb34dd8551fdbfba878f483c57841e5cc8f232",
+  "native_index": 247,
+  "nsd_id0": 21108,
+  "shard": 0,
+  "sample": "sample000002729",
+  "brain_sha256": "bcb5cb70f8b99c534d3cf960c1f68604eee6d3b2220d1757f2449e0b3faef8f8",
+  "jpeg_sha256": "aaa9a6b457e87b1063e9ceff954ec552383b676bb03ae47fc620c0a112518691",
+  "brainhub_tensor_sha256": "c388ed7e9e233d7c9412e4c053ad5807c968313d0a1385f00aaab2e7446a544c",
+  "evaluation_png_sha256": "fe6535c767e59fc9a9344ba81b8c63fe7d72d68638e53a176a00ec1f83a2a5bb",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595339.0664833
+}

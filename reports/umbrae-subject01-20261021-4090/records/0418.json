@@ -1,0 +1,31 @@
+{
+  "raw_response": "<s> A group of people walking down a street.</s>",
+  "caption": "A group of people walking down a street.",
+  "token_ids": [
+    1,
+    319,
+    2318,
+    310,
+    2305,
+    22049,
+    1623,
+    263,
+    11952,
+    29889,
+    2
+  ],
+  "feature_sha256": "7be3eafccd79a62eaf23fefd57fed326ce65881bce2ad3c1408fe91366e16fee",
+  "native_index": 418,
+  "nsd_id0": 31747,
+  "shard": 0,
+  "sample": "sample000004217",
+  "brain_sha256": "54b56b7741a0f6f026ef9c9755349c191366f45201935f1975dbc420aaed2163",
+  "jpeg_sha256": "906ab4d6acc92a158d79bdceec9f077d0973e4e26a5e0cb82721ec4af24a01ff",
+  "brainhub_tensor_sha256": "9f82e5e223092004e6b9c3a8b10b36ffdced1dc69f55904ddbd6ea8a0904c366",
+  "evaluation_png_sha256": "aea2a0fd90967c243eb056a5d92c73b6edc6420b2fdab294d95fbe0fa913a7e9",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595383.4162385
+}

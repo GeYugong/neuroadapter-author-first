@@ -1,0 +1,32 @@
+{
+  "raw_response": "<s> Two bears walking in a grassy field.</s>",
+  "caption": "Two bears walking in a grassy field.",
+  "token_ids": [
+    1,
+    7803,
+    367,
+    1503,
+    22049,
+    297,
+    263,
+    17455,
+    29891,
+    1746,
+    29889,
+    2
+  ],
+  "feature_sha256": "47e445cf7169e31d601d4ef352adc607b58adc2f068417f28e1396ca7a2af638",
+  "native_index": 694,
+  "nsd_id0": 51843,
+  "shard": 1,
+  "sample": "sample000006959",
+  "brain_sha256": "09cef74463e4077cb6328edbaba581f7b359be871efd25a5dbdda4f87c210d05",
+  "jpeg_sha256": "68ab5677c14e84a77aafcb4734022047269e7c39eae9f17e13ccde3b9c853b3d",
+  "brainhub_tensor_sha256": "6b79f22b173c3cb604bab2a24da4d38e8e919fc7d9741cd730d244bed220f9be",
+  "evaluation_png_sha256": "545e19da4dc95d567d55353c37afa395165955bf9b86041f08cd15200f133cfd",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595458.4204202
+}

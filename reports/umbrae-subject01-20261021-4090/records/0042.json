@@ -1,0 +1,32 @@
+{
+  "raw_response": "<s> An old train is parked on the tracks.</s>",
+  "caption": "An old train is parked on the tracks.",
+  "token_ids": [
+    1,
+    530,
+    2030,
+    7945,
+    338,
+    14089,
+    287,
+    373,
+    278,
+    16257,
+    29889,
+    2
+  ],
+  "feature_sha256": "e12f882d5425121a5a4a8a1d127f497446b00114216e6c99fceec82fa6f3da3f",
+  "native_index": 42,
+  "nsd_id0": 5204,
+  "shard": 0,
+  "sample": "sample000000650",
+  "brain_sha256": "33fe28ea057c9ba592b4176899f8d2aeceb035355a6de03b093c4359cda9323c",
+  "jpeg_sha256": "43a48667f0c6cccfe84706c90025109207cdc55cb47dd2d94ec06f06234a0005",
+  "brainhub_tensor_sha256": "030bf8a8bb024517741c9b5e0d0f5e80cee1fcc33f113af96ce29072db8c4660",
+  "evaluation_png_sha256": "ccb898718aa5ea05ad8ddab23e2eee856c66f04b93fe93d29d17ee54aa543942",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595287.3090916
+}

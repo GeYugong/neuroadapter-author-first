@@ -1,0 +1,33 @@
+{
+  "raw_response": "<s> A train drives down the train tracks near a building.</s>",
+  "caption": "A train drives down the train tracks near a building.",
+  "token_ids": [
+    1,
+    319,
+    7945,
+    25100,
+    1623,
+    278,
+    7945,
+    16257,
+    2978,
+    263,
+    5214,
+    29889,
+    2
+  ],
+  "feature_sha256": "4468e2ceb232cd049973eaca2d004bc5c9845722231bc7b942f68d9dc28a0d6e",
+  "native_index": 495,
+  "nsd_id0": 38297,
+  "shard": 0,
+  "sample": "sample000005145",
+  "brain_sha256": "9b10679f09194db615a1b58b46b622827d67c307ec6ae3c4326e65e1c2aa800b",
+  "jpeg_sha256": "536236932e43159ba3e807722d1ece2135155e5c3446a3c1e9dcc0010297ee26",
+  "brainhub_tensor_sha256": "7d2017aaf5cdd8ba7bb58b5840482c52967eebc464c5b543124ace4cdd64c719",
+  "evaluation_png_sha256": "16b6b0e8753f90c245cd3489ea7479ccc2e2c318239446f101d9fad0442f1d53",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595403.5126762
+}

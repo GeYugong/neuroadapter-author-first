@@ -1,0 +1,32 @@
+{
+  "raw_response": "<s> A group of bananas that are sitting together.</s>",
+  "caption": "A group of bananas that are sitting together.",
+  "token_ids": [
+    1,
+    319,
+    2318,
+    310,
+    9892,
+    16397,
+    393,
+    526,
+    16246,
+    4208,
+    29889,
+    2
+  ],
+  "feature_sha256": "7d830a5a9655518b5cb2e950427b3766e08585d845bf8284c447573c27704c87",
+  "native_index": 712,
+  "nsd_id0": 52931,
+  "shard": 1,
+  "sample": "sample000007133",
+  "brain_sha256": "c24cd1346dfdd62a6ceae75fa417a1768018392da912c7854d3b666110a86323",
+  "jpeg_sha256": "cbc3e7b09ede83529970beb8bfbad2c29943ae103d9220ab76365336a4a50fc9",
+  "brainhub_tensor_sha256": "a5ab503015db8b592ddcda2705b56536b923f2f2681a0da3afabe70a1ab63796",
+  "evaluation_png_sha256": "db56aa65b4331351c7bab53bd499a645cafb2206a739959c9a448de33df7ab74",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595462.8431427
+}

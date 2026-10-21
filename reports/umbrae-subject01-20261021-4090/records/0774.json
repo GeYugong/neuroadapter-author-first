@@ -1,0 +1,32 @@
+{
+  "raw_response": "<s> A woman is standing in front of some food.</s>",
+  "caption": "A woman is standing in front of some food.",
+  "token_ids": [
+    1,
+    319,
+    6114,
+    338,
+    13407,
+    297,
+    4565,
+    310,
+    777,
+    9687,
+    29889,
+    2
+  ],
+  "feature_sha256": "6f2160756914981029ba9bb66f6d6117acb2c9bcbfcb21cfd21a3452ebb79704",
+  "native_index": 774,
+  "nsd_id0": 56948,
+  "shard": 1,
+  "sample": "sample000007658",
+  "brain_sha256": "dd0f8e060b663b1e8ab0313ea408ba3d370083bd90f60ff00f3caad69f1af759",
+  "jpeg_sha256": "b304c28ab03016b3868fdce5947410df67ba95786776ed798541ef452222759e",
+  "brainhub_tensor_sha256": "b049083a986816d7a5f864f40da42db493fbb69dc8438289fa43f9d30bc7fb85",
+  "evaluation_png_sha256": "29b8a201da9330703a34b6f6647f62cd3cf407c7388db890c1dfaf51dbacbc47",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595478.6514452
+}

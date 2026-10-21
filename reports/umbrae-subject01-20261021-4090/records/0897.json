@@ -1,0 +1,33 @@
+{
+  "raw_response": "<s> A group of people sitting around a living room together.</s>",
+  "caption": "A group of people sitting around a living room together.",
+  "token_ids": [
+    1,
+    319,
+    2318,
+    310,
+    2305,
+    16246,
+    2820,
+    263,
+    8471,
+    5716,
+    4208,
+    29889,
+    2
+  ],
+  "feature_sha256": "0ff23d5ea8a306db1f7bb8eb051f7eb833be1a8873b0fd68f04bfd19558990be",
+  "native_index": 897,
+  "nsd_id0": 66421,
+  "shard": 1,
+  "sample": "sample000008969",
+  "brain_sha256": "d0860ce5eac5a3c36981e5f691956daf6136569baf60519dcabedf3330092023",
+  "jpeg_sha256": "e4370db0d89003c8db660376ac4f65effb229415919b68289dfb2b83768b4be3",
+  "brainhub_tensor_sha256": "9c5761adab87c9e9b868e711c539c03eeba7dd787bf2f4fbead30c33f8537d32",
+  "evaluation_png_sha256": "e434277b769aad895bfa0fea6c317ea3b9b0a6397cd50752e76f8cf068e6f885",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595510.236759
+}

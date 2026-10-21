@@ -1,0 +1,33 @@
+{
+  "raw_response": "<s> A vase with flowers in it sitting on a table</s>",
+  "caption": "A vase with flowers in it sitting on a table",
+  "token_ids": [
+    1,
+    319,
+    325,
+    559,
+    411,
+    18281,
+    297,
+    372,
+    16246,
+    373,
+    263,
+    1591,
+    2
+  ],
+  "feature_sha256": "ed789b6561919f7d701a8051a9160facdf31be415005d056f0854addca8d6377",
+  "native_index": 679,
+  "nsd_id0": 50653,
+  "shard": 1,
+  "sample": "sample000006803",
+  "brain_sha256": "07082a293b1d411e85a5173fca64f67295cdd8648d5e673fd095052d9940f174",
+  "jpeg_sha256": "fa63c2f003415f813f43b7f0f24f08a0bec94332a98cb5ca115c1f6d86c1c5f6",
+  "brainhub_tensor_sha256": "45054c1d1762ce2189613e32743a2f0b5bb710ccf229bc95a45f7380c4b20b9a",
+  "evaluation_png_sha256": "19c9d18231c492fa9505f73fcc15681f84a3a35d5b4e10db9d34d46e825ba315",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595454.5701318
+}

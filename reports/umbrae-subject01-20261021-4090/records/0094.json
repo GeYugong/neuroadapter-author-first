@@ -1,0 +1,33 @@
+{
+  "raw_response": "<s> A close up picture of a man's face.</s>",
+  "caption": "A close up picture of a man's face.",
+  "token_ids": [
+    1,
+    319,
+    3802,
+    701,
+    7623,
+    310,
+    263,
+    767,
+    29915,
+    29879,
+    3700,
+    29889,
+    2
+  ],
+  "feature_sha256": "b830dad8c0b553926440c89c5ef8ecac3f670aa3964bdae16243cabef7fa1b78",
+  "native_index": 94,
+  "nsd_id0": 8631,
+  "shard": 0,
+  "sample": "sample000001121",
+  "brain_sha256": "272084163efd9f64b0572210c802ccfbc671ef4cf80653ab522c1d103f4375fb",
+  "jpeg_sha256": "f5351edf3a8558b7faaa5789dffff997e65488e1243f9b1abb2420eb38da824c",
+  "brainhub_tensor_sha256": "d603a8a98dba4dc923da354951faf2d5dc46d4d770d59bee5d80b81e5dc1257c",
+  "evaluation_png_sha256": "989737ec2af0e689b59bc2214a6e472c1b97a49df448d490cb3cab1a56bf51b7",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595300.1315439
+}

@@ -1,0 +1,32 @@
+{
+  "raw_response": "<s> A man looks up and holds a cell phone.</s>",
+  "caption": "A man looks up and holds a cell phone.",
+  "token_ids": [
+    1,
+    319,
+    767,
+    3430,
+    701,
+    322,
+    8640,
+    263,
+    3038,
+    9008,
+    29889,
+    2
+  ],
+  "feature_sha256": "3a42a9ee157cdb6214373beaa0c4a6ec8187a07fd3d64be641dbe9f0cbd452c3",
+  "native_index": 821,
+  "nsd_id0": 60978,
+  "shard": 1,
+  "sample": "sample000008215",
+  "brain_sha256": "866798b42ddf2584c20bf61286659ac8f16a13342250640cfca830d0367499c4",
+  "jpeg_sha256": "9e13a2ba7917d79a7e2c5098b2136715da88d50a7b9c9709b66d8cd81551ea5e",
+  "brainhub_tensor_sha256": "4a3618d576a1918fd10923f44e35850b34eab4b6f48e370a552a51c570c4586a",
+  "evaluation_png_sha256": "5e2fb39086988270a3908344a1e46ae4afead66c8035f440cae54708419209d9",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595491.0192432
+}

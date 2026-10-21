@@ -1,0 +1,32 @@
+{
+  "raw_response": "<s> A group of people playing a game of tennis.</s>",
+  "caption": "A group of people playing a game of tennis.",
+  "token_ids": [
+    1,
+    319,
+    2318,
+    310,
+    2305,
+    8743,
+    263,
+    3748,
+    310,
+    22556,
+    29889,
+    2
+  ],
+  "feature_sha256": "8ae53bd6fdeffe18909dcf1b5e37c313a74c000b92bc2ed44cea9905be1afc8f",
+  "native_index": 867,
+  "nsd_id0": 64687,
+  "shard": 1,
+  "sample": "sample000008726",
+  "brain_sha256": "7556faab686d2604ac0b0ada994d2dabda3c3878fe05a01492a216fdbe6f8115",
+  "jpeg_sha256": "738e7e6d9edb4f5be795a1d6afb1bc59f7451bc0ce12a22c16099c789f611365",
+  "brainhub_tensor_sha256": "6be24f6625cfc1faa0ff41abfbc901cecb6d8fa0445185551e53235731dd8ae2",
+  "evaluation_png_sha256": "a7a79c945fb682938858a8c1ffe87801ad17dbb54b4eaaff58a102e34f39b607",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595502.7530024
+}

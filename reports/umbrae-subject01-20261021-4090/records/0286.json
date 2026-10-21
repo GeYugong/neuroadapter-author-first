@@ -1,0 +1,33 @@
+{
+  "raw_response": "<s> A man and a woman sitting together at a table.</s>",
+  "caption": "A man and a woman sitting together at a table.",
+  "token_ids": [
+    1,
+    319,
+    767,
+    322,
+    263,
+    6114,
+    16246,
+    4208,
+    472,
+    263,
+    1591,
+    29889,
+    2
+  ],
+  "feature_sha256": "23fe0781895a34dc992764548f788035aaf6d3c20f602f908606f1055c517126",
+  "native_index": 286,
+  "nsd_id0": 23241,
+  "shard": 0,
+  "sample": "sample000003036",
+  "brain_sha256": "89d27a7f77b98541047a932bb2e815789d7edaef428b3bd821d65f3ec707559d",
+  "jpeg_sha256": "1a169ae4beec8d427d371d16e0e80ef0bf98c898e984812f767944abdfc0639c",
+  "brainhub_tensor_sha256": "6890fe4ce27d21a8c4c561e7d7adb90816809dffee179ed95eaef3d0e0ed503c",
+  "evaluation_png_sha256": "e39f59628076aaac313a025fec488359ade926b677f8ddd2eb2fcba0370922a5",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595349.2161381
+}

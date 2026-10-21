@@ -1,0 +1,33 @@
+{
+  "raw_response": "<s> A man is eating a slice of toast.</s>",
+  "caption": "A man is eating a slice of toast.",
+  "token_ids": [
+    1,
+    319,
+    767,
+    338,
+    321,
+    1218,
+    263,
+    22780,
+    310,
+    304,
+    579,
+    29889,
+    2
+  ],
+  "feature_sha256": "0f04b3e472273d9dfae973f904cc9bcf9c5c3a375358dc88d29c0e5fbc4acdef",
+  "native_index": 152,
+  "nsd_id0": 13138,
+  "shard": 0,
+  "sample": "sample000001702",
+  "brain_sha256": "58981b256eaa5e2dd75d5f5c1faaa0442df0d854e27a4fb3dd441a6bca5b82d8",
+  "jpeg_sha256": "efbb5ecf33aa4d413328bf51f5eac930503b4345fc4ebcbf6aa7800cc6ca3048",
+  "brainhub_tensor_sha256": "815802e70f1e15c602004329857f1ca4ee81cb1d632ed6b80d2014ec867b2507",
+  "evaluation_png_sha256": "5b62950f42ac01b0b7d708f63f703a7b5c76576fe997f95bd26a004a7e93db47",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595315.371854
+}

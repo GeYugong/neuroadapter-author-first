@@ -1,0 +1,32 @@
+{
+  "raw_response": "<s> A train passing down the track near a building.</s>",
+  "caption": "A train passing down the track near a building.",
+  "token_ids": [
+    1,
+    319,
+    7945,
+    6819,
+    1623,
+    278,
+    5702,
+    2978,
+    263,
+    5214,
+    29889,
+    2
+  ],
+  "feature_sha256": "46c0368d7d1cf777f8815bc736e54a8a7aaa85ce5bc35c931de6ea2f9de21087",
+  "native_index": 555,
+  "nsd_id0": 42563,
+  "shard": 1,
+  "sample": "sample000005735",
+  "brain_sha256": "0920e513f2144355eb40c16629747e708a897804028fe77af0b4421947ff0302",
+  "jpeg_sha256": "f6fb6a59ad8dfffc08ae2d82a7267224398ddacb74683446fba785157d6aec93",
+  "brainhub_tensor_sha256": "7b65091563b5c22777d9e4530d0a23444e8c355f0c271f0be9ee719d44d661ff",
+  "evaluation_png_sha256": "959ad302349eb653a573b8500ad729fd7866af97a019ecba96d4660a0857fdc6",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595418.8379483
+}

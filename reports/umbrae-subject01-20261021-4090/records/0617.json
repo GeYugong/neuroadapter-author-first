@@ -1,0 +1,33 @@
+{
+  "raw_response": "<s> Two men standing on a beach next to the ocean.</s>",
+  "caption": "Two men standing on a beach next to the ocean.",
+  "token_ids": [
+    1,
+    7803,
+    1757,
+    13407,
+    373,
+    263,
+    25695,
+    2446,
+    304,
+    278,
+    23474,
+    29889,
+    2
+  ],
+  "feature_sha256": "6b0fbc23dc11d2ee92eb0cbbefac9360fe46c86fccc4a398ab8d665570f7ea96",
+  "native_index": 617,
+  "nsd_id0": 46101,
+  "shard": 1,
+  "sample": "sample000006211",
+  "brain_sha256": "8a5b97f5692aec41d22bba5fdfaa19c4e885997c2da0b0ce635105c73963c0b3",
+  "jpeg_sha256": "505aab457efa2b2e8950f5fd167402473d6079d99ea3d30a529dd04fd7c179dd",
+  "brainhub_tensor_sha256": "99fa0adbf65caf76279ae3b05f770723ba6d32af01faeed6238f56eee22135fa",
+  "evaluation_png_sha256": "544f03bc0bef63896ed301c8fa4247314612330eddc89243cfa230f3d8ed5cb6",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595438.8167102
+}

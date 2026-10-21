@@ -1,0 +1,32 @@
+{
+  "raw_response": "<s> Two vases that are sitting on a table.</s>",
+  "caption": "Two vases that are sitting on a table.",
+  "token_ids": [
+    1,
+    7803,
+    325,
+    2129,
+    393,
+    526,
+    16246,
+    373,
+    263,
+    1591,
+    29889,
+    2
+  ],
+  "feature_sha256": "a23d33a71741d889e3bad1bdf56ebf98e16864555bc574129880fe72a498c0e4",
+  "native_index": 554,
+  "nsd_id0": 42473,
+  "shard": 1,
+  "sample": "sample000005726",
+  "brain_sha256": "2d0e4da1604001230035c094e686bfccb59c8251b8a936e14f43734a29f50d27",
+  "jpeg_sha256": "4a12bf228c5d5019779470bbf0e8f1a797e46c41d3745c270681037987a1073d",
+  "brainhub_tensor_sha256": "b84dc1785db44d07a96d0c6eaf00e34775d383581a1fef0e516cc9d349b4c8cb",
+  "evaluation_png_sha256": "d2646abab7f38f0e3f34edf6404b59e14438a68985ac8d5c288acb2c425f1c56",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595418.6168325
+}

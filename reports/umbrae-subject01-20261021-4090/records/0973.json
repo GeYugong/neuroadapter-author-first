@@ -1,0 +1,32 @@
+{
+  "raw_response": "<s> A crowd of people are walking through a city.</s>",
+  "caption": "A crowd of people are walking through a city.",
+  "token_ids": [
+    1,
+    319,
+    19174,
+    310,
+    2305,
+    526,
+    22049,
+    1549,
+    263,
+    4272,
+    29889,
+    2
+  ],
+  "feature_sha256": "d48833fd2af63e1b5164d6d971adaa94b0dca29bcdf55569677d0d72e5de3323",
+  "native_index": 973,
+  "nsd_id0": 72080,
+  "shard": 1,
+  "sample": "sample000009723",
+  "brain_sha256": "3ab0b33a4be7fdedc48ccfc16e091972a9d180856501d7bafc992fdb701e879a",
+  "jpeg_sha256": "cbaac2ecf84671a2200debb8b5adac9695c6e7d7860e083304060506b949e2b3",
+  "brainhub_tensor_sha256": "ddacbad89d510eceaec65393fb205a0c46f4af18b621d89435b2b7713808da2b",
+  "evaluation_png_sha256": "4b85b48236a09f42d31d0608577b33f10e8ca2e1dbc8fa70181d76c4629716e2",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595529.9399633
+}

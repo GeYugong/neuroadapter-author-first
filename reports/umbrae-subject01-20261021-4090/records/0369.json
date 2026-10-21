@@ -1,0 +1,33 @@
+{
+  "raw_response": "<s> A person riding a horse in a grassy field</s>",
+  "caption": "A person riding a horse in a grassy field",
+  "token_ids": [
+    1,
+    319,
+    2022,
+    364,
+    4821,
+    263,
+    10435,
+    297,
+    263,
+    17455,
+    29891,
+    1746,
+    2
+  ],
+  "feature_sha256": "0565314c7fa803f0d91e5234ef35a26a19775687fda9bf1e958a536f1adde910",
+  "native_index": 369,
+  "nsd_id0": 28325,
+  "shard": 0,
+  "sample": "sample000003753",
+  "brain_sha256": "c1df97b1cdbd8ee97cc8d1f4069da968b5f757941ecc16cb2fe98da4b5285ae9",
+  "jpeg_sha256": "9a41e9265273e060b3a96d31eed5ad4fa6a54819c746468c762a2244115a6688",
+  "brainhub_tensor_sha256": "350895e2724da75091cece2ccd46dd6095e943fc75b58eed062609ddbf0b34bb",
+  "evaluation_png_sha256": "f36ba8475516876123e297a5f0df45b21bbf9d47a93219794863f3e419ef4cd7",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595370.9110305
+}

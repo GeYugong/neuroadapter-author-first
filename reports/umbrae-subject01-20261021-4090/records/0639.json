@@ -1,0 +1,31 @@
+{
+  "raw_response": "<s> A woman is holding her head with both hands</s>",
+  "caption": "A woman is holding her head with both hand",
+  "token_ids": [
+    1,
+    319,
+    6114,
+    338,
+    13587,
+    902,
+    2343,
+    411,
+    1716,
+    6567,
+    2
+  ],
+  "feature_sha256": "7ab79bd4a9dbf1f2c0c34cb3d1ddf305af3c3fdf7a29fbad790916b828bc9892",
+  "native_index": 639,
+  "nsd_id0": 47321,
+  "shard": 1,
+  "sample": "sample000006386",
+  "brain_sha256": "7e84009092b3490d45c80bdf8620fb0bf0b0c925a321a167e80dcaf4758bc868",
+  "jpeg_sha256": "d56574f8a2f9da160f71a7a1cdca7177c3d846574a2d3d992c648ab9a6395830",
+  "brainhub_tensor_sha256": "78559ed2ab029e776a4192d2d19d62b8ad473cc70053a8eb47f168a05a6df847",
+  "evaluation_png_sha256": "9d664a0a91eaf0a2754c3e8ef9c87ef598cc5e0465930e843a37a3a3dd31c161",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595444.320564
+}

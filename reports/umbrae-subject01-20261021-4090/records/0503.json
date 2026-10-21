@@ -1,0 +1,32 @@
+{
+  "raw_response": "<s> A train on the tracks in a train station.</s>",
+  "caption": "A train on the tracks in a train station.",
+  "token_ids": [
+    1,
+    319,
+    7945,
+    373,
+    278,
+    16257,
+    297,
+    263,
+    7945,
+    5073,
+    29889,
+    2
+  ],
+  "feature_sha256": "8b00958465dcf63c60644daef228f86d35c6ba25ee65dd37791919094ff382f4",
+  "native_index": 503,
+  "nsd_id0": 38817,
+  "shard": 1,
+  "sample": "sample000005217",
+  "brain_sha256": "988f13cdf844aa2ee50ab53565fe8a0517f87d031752582479f69a6ac9fa5cc6",
+  "jpeg_sha256": "6669012ab1b87433a1cc7cf7c3cab253f2d40313e2233b55cd3fa64df3a7eddf",
+  "brainhub_tensor_sha256": "1e41398ee92c6118eba4053331d224bad7fc2f592afe4d790727cb051d791823",
+  "evaluation_png_sha256": "ac129cd739fbba18b12dd6782c8fbaceba78d410a9b30a383008d4413ad40bcc",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595405.6009395
+}

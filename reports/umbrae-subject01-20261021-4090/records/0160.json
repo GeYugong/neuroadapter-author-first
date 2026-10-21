@@ -1,0 +1,33 @@
+{
+  "raw_response": "<s> A large group of people traveling down a street.</s>",
+  "caption": "A large group of people traveling down a street.",
+  "token_ids": [
+    1,
+    319,
+    2919,
+    2318,
+    310,
+    2305,
+    9850,
+    292,
+    1623,
+    263,
+    11952,
+    29889,
+    2
+  ],
+  "feature_sha256": "7ba154c50c42e0911f7992512d0ccc06bb2a7fbbb0a5983611408f5c23680c13",
+  "native_index": 160,
+  "nsd_id0": 13846,
+  "shard": 0,
+  "sample": "sample000001795",
+  "brain_sha256": "51b470d6e6cc249089f54ab0ad056695e2d3cc22454692fb678246163f83b65d",
+  "jpeg_sha256": "79c52493c2674f6119303926863f566a9793e1c5cdeb5fc7b6419f8dfac3ba35",
+  "brainhub_tensor_sha256": "c123d80b4520bd7769647260dc0fcbe0b1a5beb8227e9094ed5624e7446a5271",
+  "evaluation_png_sha256": "70c89bf8b72fa8fdca56e13ee72aed5e7897f4a3fc12cead07f521df31633bdb",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595317.2989593
+}

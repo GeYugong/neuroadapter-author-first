@@ -1,0 +1,33 @@
+{
+  "raw_response": "<s> A plate with a sandwich cut in half on it</s>",
+  "caption": "A plate with a sandwich cut in half on it",
+  "token_ids": [
+    1,
+    319,
+    15284,
+    411,
+    263,
+    11982,
+    16416,
+    5700,
+    297,
+    4203,
+    373,
+    372,
+    2
+  ],
+  "feature_sha256": "2b111c77ac01c3dbfc4f3a81646f01f3c7a432927f1f493bb8bcf2ba71e5ecd5",
+  "native_index": 146,
+  "nsd_id0": 12634,
+  "shard": 0,
+  "sample": "sample000001640",
+  "brain_sha256": "9f28dde4134bd2f774d99d5cc02ded57881f2e2010c85dfeb4475eb34b30c68b",
+  "jpeg_sha256": "9116f34aed00da09e9145c65adc6e50019f257e36a494e47ca472c5918ef257d",
+  "brainhub_tensor_sha256": "78903aacc6a04c478af7060a73ff0544bd79ecec88f518f4516a12fcd9318bf3",
+  "evaluation_png_sha256": "7b2bbd7fbe5e3f580b0440207278d6af35af053b65e5bb27f5cd4e25bf12bc95",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595313.760728
+}

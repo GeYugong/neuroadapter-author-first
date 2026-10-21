@@ -1,0 +1,31 @@
+{
+  "raw_response": "<s> A group of electronic devices are gathered together.</s>",
+  "caption": "A group of electronic devices are gathered together.",
+  "token_ids": [
+    1,
+    319,
+    2318,
+    310,
+    27758,
+    9224,
+    526,
+    22229,
+    4208,
+    29889,
+    2
+  ],
+  "feature_sha256": "9d1bb19403c87ca6ad506b75c366b630f07d1498fa91d839356b0f85144a5564",
+  "native_index": 623,
+  "nsd_id0": 46372,
+  "shard": 1,
+  "sample": "sample000006249",
+  "brain_sha256": "aa67929812be70c6f5df7877c18c2947971ca34caec4d0b06d4fcbb838ce238f",
+  "jpeg_sha256": "b4c912f0bcb3210c37ed076885cfe4a408976b85630f131f29c666907c083759",
+  "brainhub_tensor_sha256": "9a98b8136084c024642852d5e513c91a2b3fdc11dd559c015918147f16136554",
+  "evaluation_png_sha256": "c2d0a939515857de6432abf97eec9ff0116171c3a2561aad83bf98640e25e2e0",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595440.3041675
+}

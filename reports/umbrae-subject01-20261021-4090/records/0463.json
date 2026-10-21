@@ -1,0 +1,32 @@
+{
+  "raw_response": "<s> A sink and some windows in a bathroom.</s>",
+  "caption": "A sink and some windows in a bathroom.",
+  "token_ids": [
+    1,
+    319,
+    28169,
+    322,
+    777,
+    5417,
+    297,
+    263,
+    27683,
+    8345,
+    29889,
+    2
+  ],
+  "feature_sha256": "de403d89ea32ac00d024740c7c0f1e52de85e1721de3962f9ffa0ef79f8be7c9",
+  "native_index": 463,
+  "nsd_id0": 35752,
+  "shard": 0,
+  "sample": "sample000004791",
+  "brain_sha256": "6814f67877f08c165122b82cea5c1a6a298ed6af8a223f6ed71616a4513ce4b9",
+  "jpeg_sha256": "63c39b796a2694129ab85c4432c47ae028f1c95594af444051ccf7eec15e9c9e",
+  "brainhub_tensor_sha256": "58ad929e635582b02aeb399b8927030720146f9e1737a1801131a97bb4f4cf25",
+  "evaluation_png_sha256": "f8ea95831afd4d612dc1ab901b7bb4af5ddf30673f3dd57eda9456a34d19b93b",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595395.266619
+}

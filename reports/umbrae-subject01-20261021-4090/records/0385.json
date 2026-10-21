@@ -1,0 +1,33 @@
+{
+  "raw_response": "<s> Two sheep standing next to each other on a field.</s>",
+  "caption": "Two sheep standing next to each other on a field.",
+  "token_ids": [
+    1,
+    7803,
+    29735,
+    13407,
+    2446,
+    304,
+    1269,
+    916,
+    373,
+    263,
+    1746,
+    29889,
+    2
+  ],
+  "feature_sha256": "0128432a98f5217d2b0bfdea3c72c54a3fa697483aa921a4b5d7373fc5b62a39",
+  "native_index": 385,
+  "nsd_id0": 29381,
+  "shard": 0,
+  "sample": "sample000003900",
+  "brain_sha256": "a36eb622f6ff0e1b583686419af373b54fe8de499c74ea31175156d6bdec483e",
+  "jpeg_sha256": "5347c657d39e2488db456219fd78ae6468c05296d0cfa735b1b07f14118be941",
+  "brainhub_tensor_sha256": "6b04d30f282e08e99f3baa0a19e5be3d6533a6fc59e8968cfa8efb149fe32be8",
+  "evaluation_png_sha256": "469a4a9d8c6811004b5776ac2854a1f7a5f43545e09aac8a5d24cd401b1c3f40",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595375.0347328
+}

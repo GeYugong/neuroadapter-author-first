@@ -1,0 +1,32 @@
+{
+  "raw_response": "<s> A train going down the train tracks by day.</s>",
+  "caption": "A train going down the train tracks by day.",
+  "token_ids": [
+    1,
+    319,
+    7945,
+    2675,
+    1623,
+    278,
+    7945,
+    16257,
+    491,
+    2462,
+    29889,
+    2
+  ],
+  "feature_sha256": "546efb5f239c50205288e36fdb0835747da521053d9676ede54f36e6f0236009",
+  "native_index": 874,
+  "nsd_id0": 65148,
+  "shard": 1,
+  "sample": "sample000008787",
+  "brain_sha256": "e81c5c40ac7b9702a5026622a6a29b30c09038079de915b80c6e5c1eef24a0d0",
+  "jpeg_sha256": "3826e4cbc176bceacf596d4cebadd76404ed64654738597185c1679f9fb33914",
+  "brainhub_tensor_sha256": "53cd7f5bfce62784b8d30e9ccc571a0d40dc946b0de9dbeb2ba3a7d475f0fd72",
+  "evaluation_png_sha256": "4e05a8efc00d8d62212492aaf579f1d43c32388d4fa7a47aa358acadfbb96f32",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595504.4953773
+}

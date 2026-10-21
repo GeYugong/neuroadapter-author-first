@@ -1,0 +1,290 @@
+{
+  "remote_root": "/data/matengyu/geyugong/neuroadapter-author-first",
+  "subject": 1,
+  "variants": "official brainx-v-1-4 cross-subject weights, Subject1 evaluation only",
+  "revisions": {
+    "UMBRAE": "8c1795c434a41cdd38ce6628b7e1a774f31d9483",
+    "BrainHub": "4838666f1a04d0521c2184fa50b5b77e7e7ac5ee",
+    "umbrae_hf": "77d4f8e1c1d6d417a363ac32c380f12924bd92c8",
+    "MiniLM": "1110a243fdf4706b3f48f1d95db1a4f5529b4d41",
+    "NSD": "421fb80ea4ca5600c7364ed400f9a5941380c387"
+  },
+  "files": [
+    {
+      "url": "https://raw.githubusercontent.com/weihaox/UMBRAE/8c1795c434a41cdd38ce6628b7e1a774f31d9483/README.md",
+      "path": "runtime/umbrae/upstream/UMBRAE/README.md",
+      "bytes": 10099,
+      "sha256": "f6e96ededab3490195e577b28885b9801802bfda97814e019434683f5d53340e",
+      "local": "D:\\0code\\Research\\x_neuroadapter\\neuroadapter-author-first\\runtime\\umbrae-transfer\\stage\\runtime\\umbrae\\upstream\\UMBRAE\\README.md"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/weihaox/UMBRAE/8c1795c434a41cdd38ce6628b7e1a774f31d9483/umbrae/model.py",
+      "path": "runtime/umbrae/upstream/UMBRAE/umbrae/model.py",
+      "bytes": 7490,
+      "sha256": "d18e2e03d96c95371db3a21bce22a9dbd513b6df81a0fb72511640db786d0cd6",
+      "local": "D:\\0code\\Research\\x_neuroadapter\\neuroadapter-author-first\\runtime\\umbrae-transfer\\stage\\runtime\\umbrae\\upstream\\UMBRAE\\umbrae\\model.py"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/weihaox/UMBRAE/8c1795c434a41cdd38ce6628b7e1a774f31d9483/umbrae/perceiver.py",
+      "path": "runtime/umbrae/upstream/UMBRAE/umbrae/perceiver.py",
+      "bytes": 3298,
+      "sha256": "7a5fac8f4b22ec1937a84a966342c3af09a22e53f4404031c302288dbfc927ff",
+      "local": "D:\\0code\\Research\\x_neuroadapter\\neuroadapter-author-first\\runtime\\umbrae-transfer\\stage\\runtime\\umbrae\\upstream\\UMBRAE\\umbrae\\perceiver.py"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/weihaox/UMBRAE/8c1795c434a41cdd38ce6628b7e1a774f31d9483/umbrae/utils.py",
+      "path": "runtime/umbrae/upstream/UMBRAE/umbrae/utils.py",
+      "bytes": 9623,
+      "sha256": "f19a9e9f2f5ead33f3f69f6ad248f30e29dbf6a86c7a9292448896005d149978",
+      "local": "D:\\0code\\Research\\x_neuroadapter\\neuroadapter-author-first\\runtime\\umbrae-transfer\\stage\\runtime\\umbrae\\upstream\\UMBRAE\\umbrae\\utils.py"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/weihaox/UMBRAE/8c1795c434a41cdd38ce6628b7e1a774f31d9483/umbrae/inference.py",
+      "path": "runtime/umbrae/upstream/UMBRAE/umbrae/inference.py",
+      "bytes": 9293,
+      "sha256": "3477fcb2b56f014138184349eb7a1a5eefa5e7ef16f10f8875dc65995be607c8",
+      "local": "D:\\0code\\Research\\x_neuroadapter\\neuroadapter-author-first\\runtime\\umbrae-transfer\\stage\\runtime\\umbrae\\upstream\\UMBRAE\\umbrae\\inference.py"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/weihaox/UMBRAE/8c1795c434a41cdd38ce6628b7e1a774f31d9483/umbrae/requirements.txt",
+      "path": "runtime/umbrae/upstream/UMBRAE/umbrae/requirements.txt",
+      "bytes": 283,
+      "sha256": "452272d4a85a7a6bd457a430b16cd7e5b40bd44a618750827a7d8cfbf03f5ace",
+      "local": "D:\\0code\\Research\\x_neuroadapter\\neuroadapter-author-first\\runtime\\umbrae-transfer\\stage\\runtime\\umbrae\\upstream\\UMBRAE\\umbrae\\requirements.txt"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/weihaox/BrainHub/4838666f1a04d0521c2184fa50b5b77e7e7ac5ee/README.md",
+      "path": "runtime/umbrae/upstream/BrainHub/README.md",
+      "bytes": 8377,
+      "sha256": "3c0d1c49db42257e80c4e0ae0fe21d0798665f1a14e82c83ba8cc49a3afc3560",
+      "local": "D:\\0code\\Research\\x_neuroadapter\\neuroadapter-author-first\\runtime\\umbrae-transfer\\stage\\runtime\\umbrae\\upstream\\BrainHub\\README.md"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/weihaox/BrainHub/4838666f1a04d0521c2184fa50b5b77e7e7ac5ee/eval_caption.py",
+      "path": "runtime/umbrae/upstream/BrainHub/eval_caption.py",
+      "bytes": 7589,
+      "sha256": "61e832657c02cb7abb128d82fd5cfea2553a91c962f5f5916fb24255951457b2",
+      "local": "D:\\0code\\Research\\x_neuroadapter\\neuroadapter-author-first\\runtime\\umbrae-transfer\\stage\\runtime\\umbrae\\upstream\\BrainHub\\eval_caption.py"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/weihaox/BrainHub/4838666f1a04d0521c2184fa50b5b77e7e7ac5ee/metrics/__init__.py",
+      "path": "runtime/umbrae/upstream/BrainHub/metrics/__init__.py",
+      "bytes": 4577,
+      "sha256": "e8926a3a731efdd9eb32f235b0c9eb7b742fe7a4874760999bdee3c232c019df",
+      "local": "D:\\0code\\Research\\x_neuroadapter\\neuroadapter-author-first\\runtime\\umbrae-transfer\\stage\\runtime\\umbrae\\upstream\\BrainHub\\metrics\\__init__.py"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/weihaox/BrainHub/4838666f1a04d0521c2184fa50b5b77e7e7ac5ee/metrics/clip_score.py",
+      "path": "runtime/umbrae/upstream/BrainHub/metrics/clip_score.py",
+      "bytes": 3289,
+      "sha256": "9ce60bc4d73bfca18c073df0a71fea17598cc459e3dc63b63f309c0bf859ba97",
+      "local": "D:\\0code\\Research\\x_neuroadapter\\neuroadapter-author-first\\runtime\\umbrae-transfer\\stage\\runtime\\umbrae\\upstream\\BrainHub\\metrics\\clip_score.py"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/weihaox/BrainHub/4838666f1a04d0521c2184fa50b5b77e7e7ac5ee/metrics/pac_score.py",
+      "path": "runtime/umbrae/upstream/BrainHub/metrics/pac_score.py",
+      "bytes": 2364,
+      "sha256": "7e1e785e78510ad450701e7d8eee4f61f423574741f2f852af96191abfc5504c",
+      "local": "D:\\0code\\Research\\x_neuroadapter\\neuroadapter-author-first\\runtime\\umbrae-transfer\\stage\\runtime\\umbrae\\upstream\\BrainHub\\metrics\\pac_score.py"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/weihaox/BrainHub/4838666f1a04d0521c2184fa50b5b77e7e7ac5ee/metrics/sentence_score.py",
+      "path": "runtime/umbrae/upstream/BrainHub/metrics/sentence_score.py",
+      "bytes": 1797,
+      "sha256": "647a253811e254264267c957e0a56917b9e5d92171f0733ace4304716c7bd100",
+      "local": "D:\\0code\\Research\\x_neuroadapter\\neuroadapter-author-first\\runtime\\umbrae-transfer\\stage\\runtime\\umbrae\\upstream\\BrainHub\\metrics\\sentence_score.py"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/weihaox/BrainHub/4838666f1a04d0521c2184fa50b5b77e7e7ac5ee/data/caption/fmri_cococap.json",
+      "path": "runtime/umbrae/upstream/BrainHub/data/caption/fmri_cococap.json",
+      "bytes": 283845,
+      "sha256": "5c08d57f054a42cbe5a6dfe758a6d4b16626d235db5a2472c8d29c8fdcd165d9",
+      "local": "D:\\0code\\Research\\x_neuroadapter\\neuroadapter-author-first\\runtime\\umbrae-transfer\\stage\\runtime\\umbrae\\upstream\\BrainHub\\data\\caption\\fmri_cococap.json"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/weihaox/BrainHub/4838666f1a04d0521c2184fa50b5b77e7e7ac5ee/data/processing/decode_images.py",
+      "path": "runtime/umbrae/upstream/BrainHub/data/processing/decode_images.py",
+      "bytes": 594,
+      "sha256": "9bc3c67201011fae68c5385648f77f5a69fa2fe8a2d196cd03ad726250422684",
+      "local": "D:\\0code\\Research\\x_neuroadapter\\neuroadapter-author-first\\runtime\\umbrae-transfer\\stage\\runtime\\umbrae\\upstream\\BrainHub\\data\\processing\\decode_images.py"
+    },
+    {
+      "url": "https://huggingface.co/datasets/weihaox/umbrae/resolve/77d4f8e1c1d6d417a363ac32c380f12924bd92c8/all_images.pt",
+      "path": "runtime/umbrae/assets/official/all_images.pt",
+      "bytes": 772277419,
+      "sha256": "1a313a2d4796f14aa4a930afb0ce94a1080ae9ea0482862f597a1b0afd539078"
+    },
+    {
+      "url": "https://huggingface.co/datasets/weihaox/umbrae/resolve/77d4f8e1c1d6d417a363ac32c380f12924bd92c8/model_weights/mm_projector.bin",
+      "path": "runtime/umbrae/assets/official/model_weights/mm_projector.bin",
+      "bytes": 8398326,
+      "sha256": "357a4a6a42c7214ecf3eca7cb17dfdadb9cdb9dba05f1daff764b969c71403ea"
+    },
+    {
+      "url": "https://huggingface.co/datasets/weihaox/umbrae/resolve/77d4f8e1c1d6d417a363ac32c380f12924bd92c8/model_weights/shikra-7b/added_tokens.json",
+      "path": "runtime/umbrae/assets/official/model_weights/shikra-7b/added_tokens.json",
+      "bytes": 70,
+      "sha256": "92dbc134300d65c92a4e339719e430143f13839faeb1f65b98765a436be9e9c0",
+      "local": "D:\\0code\\Research\\x_neuroadapter\\neuroadapter-author-first\\runtime\\umbrae-transfer\\stage\\runtime\\umbrae\\assets\\official\\model_weights\\shikra-7b\\added_tokens.json"
+    },
+    {
+      "url": "https://huggingface.co/datasets/weihaox/umbrae/resolve/77d4f8e1c1d6d417a363ac32c380f12924bd92c8/model_weights/shikra-7b/config.json",
+      "path": "runtime/umbrae/assets/official/model_weights/shikra-7b/config.json",
+      "bytes": 984,
+      "sha256": "de74c5e75d3d3e1642e17ea38df9abc5f66daea623dac8d408ba7d405d6ffcbf",
+      "local": "D:\\0code\\Research\\x_neuroadapter\\neuroadapter-author-first\\runtime\\umbrae-transfer\\stage\\runtime\\umbrae\\assets\\official\\model_weights\\shikra-7b\\config.json"
+    },
+    {
+      "url": "https://huggingface.co/datasets/weihaox/umbrae/resolve/77d4f8e1c1d6d417a363ac32c380f12924bd92c8/model_weights/shikra-7b/generation_config.json",
+      "path": "runtime/umbrae/assets/official/model_weights/shikra-7b/generation_config.json",
+      "bytes": 137,
+      "sha256": "7d9632121ed95e6db7d43667ee86df991a5ff3b151551e5ea9cace234dbb5fc2",
+      "local": "D:\\0code\\Research\\x_neuroadapter\\neuroadapter-author-first\\runtime\\umbrae-transfer\\stage\\runtime\\umbrae\\assets\\official\\model_weights\\shikra-7b\\generation_config.json"
+    },
+    {
+      "url": "https://huggingface.co/datasets/weihaox/umbrae/resolve/77d4f8e1c1d6d417a363ac32c380f12924bd92c8/model_weights/shikra-7b/model-00001-of-00003.safetensors",
+      "path": "runtime/umbrae/assets/official/model_weights/shikra-7b/model-00001-of-00003.safetensors",
+      "bytes": 4939009824,
+      "sha256": "612ef0eae528bbf60c72efd0e0b38b5ac27158c5df9b3e40434ee5afe0c97707"
+    },
+    {
+      "url": "https://huggingface.co/datasets/weihaox/umbrae/resolve/77d4f8e1c1d6d417a363ac32c380f12924bd92c8/model_weights/shikra-7b/model-00002-of-00003.safetensors",
+      "path": "runtime/umbrae/assets/official/model_weights/shikra-7b/model-00002-of-00003.safetensors",
+      "bytes": 4947390768,
+      "sha256": "3eb00aae9c3f7db77009e66ffe5da54ca8c827658b59c05cebccdfedaf88a1ff"
+    },
+    {
+      "url": "https://huggingface.co/datasets/weihaox/umbrae/resolve/77d4f8e1c1d6d417a363ac32c380f12924bd92c8/model_weights/shikra-7b/model-00003-of-00003.safetensors",
+      "path": "runtime/umbrae/assets/official/model_weights/shikra-7b/model-00003-of-00003.safetensors",
+      "bytes": 3598910312,
+      "sha256": "b89a2b471b7cf2cbc332d19968b41c139cf47ba1c4e7b1bc0ce1193a72732207"
+    },
+    {
+      "url": "https://huggingface.co/datasets/weihaox/umbrae/resolve/77d4f8e1c1d6d417a363ac32c380f12924bd92c8/model_weights/shikra-7b/model.safetensors.index.json",
+      "path": "runtime/umbrae/assets/official/model_weights/shikra-7b/model.safetensors.index.json",
+      "bytes": 24086,
+      "sha256": "4fbbaa883d8b4cbe337723476da0780194b26e2d47f1e2171710dee271158bc6",
+      "local": "D:\\0code\\Research\\x_neuroadapter\\neuroadapter-author-first\\runtime\\umbrae-transfer\\stage\\runtime\\umbrae\\assets\\official\\model_weights\\shikra-7b\\model.safetensors.index.json"
+    },
+    {
+      "url": "https://huggingface.co/datasets/weihaox/umbrae/resolve/77d4f8e1c1d6d417a363ac32c380f12924bd92c8/model_weights/shikra-7b/special_tokens_map.json",
+      "path": "runtime/umbrae/assets/official/model_weights/shikra-7b/special_tokens_map.json",
+      "bytes": 549,
+      "sha256": "39c182e1857b6bed683bedfca4bad3cc635769c6ba9797c14b942423f7b4e955",
+      "local": "D:\\0code\\Research\\x_neuroadapter\\neuroadapter-author-first\\runtime\\umbrae-transfer\\stage\\runtime\\umbrae\\assets\\official\\model_weights\\shikra-7b\\special_tokens_map.json"
+    },
+    {
+      "url": "https://huggingface.co/datasets/weihaox/umbrae/resolve/77d4f8e1c1d6d417a363ac32c380f12924bd92c8/model_weights/shikra-7b/tokenizer.json",
+      "path": "runtime/umbrae/assets/official/model_weights/shikra-7b/tokenizer.json",
+      "bytes": 1843320,
+      "sha256": "2affba383f409dea9adaacdb4c21bfcc81ea97f24b87d7fb8acb5b50a59adddb",
+      "local": "D:\\0code\\Research\\x_neuroadapter\\neuroadapter-author-first\\runtime\\umbrae-transfer\\stage\\runtime\\umbrae\\assets\\official\\model_weights\\shikra-7b\\tokenizer.json"
+    },
+    {
+      "url": "https://huggingface.co/datasets/weihaox/umbrae/resolve/77d4f8e1c1d6d417a363ac32c380f12924bd92c8/model_weights/shikra-7b/tokenizer.model",
+      "path": "runtime/umbrae/assets/official/model_weights/shikra-7b/tokenizer.model",
+      "bytes": 499723,
+      "sha256": "9e556afd44213b6bd1be2b850ebbbd98f5481437a8021afaf58ee7fb1818d347"
+    },
+    {
+      "url": "https://huggingface.co/datasets/weihaox/umbrae/resolve/77d4f8e1c1d6d417a363ac32c380f12924bd92c8/model_weights/shikra-7b/tokenizer_config.json",
+      "path": "runtime/umbrae/assets/official/model_weights/shikra-7b/tokenizer_config.json",
+      "bytes": 1458,
+      "sha256": "90ea24053a3ddfd527d2c135eee9da5ebab7638789370e0403043652da48194a",
+      "local": "D:\\0code\\Research\\x_neuroadapter\\neuroadapter-author-first\\runtime\\umbrae-transfer\\stage\\runtime\\umbrae\\assets\\official\\model_weights\\shikra-7b\\tokenizer_config.json"
+    },
+    {
+      "url": "https://huggingface.co/datasets/weihaox/umbrae/resolve/77d4f8e1c1d6d417a363ac32c380f12924bd92c8/train_logs/brainx-v-1-4/last.pth",
+      "path": "runtime/umbrae/assets/official/train_logs/brainx-v-1-4/last.pth",
+      "bytes": 1758600094,
+      "sha256": "b38aa7ce9d11d56c36ede011ec757a3fda4194c5deaa5f7b0f5f8e42187bb4fb"
+    },
+    {
+      "url": "https://huggingface.co/datasets/pscotti/naturalscenesdataset/resolve/421fb80ea4ca5600c7364ed400f9a5941380c387/webdataset_avg_split/test/test_subj01_0.tar",
+      "path": "runtime/umbrae/assets/nsd-test/test_subj01_0.tar",
+      "bytes": 2182819840,
+      "sha256": "680ab0104569def39cc5d7597610e453750851a8f7213f4246de904f99ccaa1c"
+    },
+    {
+      "url": "https://huggingface.co/datasets/pscotti/naturalscenesdataset/resolve/421fb80ea4ca5600c7364ed400f9a5941380c387/webdataset_avg_split/test/test_subj01_1.tar",
+      "path": "runtime/umbrae/assets/nsd-test/test_subj01_1.tar",
+      "bytes": 2104299520,
+      "sha256": "a1a1920d050fda3330b7315e47882f4883d9fd5dafc3c2fce356954e7cca48e1"
+    },
+    {
+      "url": "https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/1_Pooling/config.json",
+      "path": "runtime/umbrae/assets/minilm/1_Pooling/config.json",
+      "bytes": 190,
+      "sha256": "4be450dde3b0273bb9787637cfbd28fe04a7ba6ab9d36ac48e92b11e350ffc23",
+      "local": "D:\\0code\\Research\\x_neuroadapter\\neuroadapter-author-first\\runtime\\umbrae-transfer\\stage\\runtime\\umbrae\\assets\\minilm\\1_Pooling\\config.json"
+    },
+    {
+      "url": "https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config.json",
+      "path": "runtime/umbrae/assets/minilm/config.json",
+      "bytes": 612,
+      "sha256": "953f9c0d463486b10a6871cc2fd59f223b2c70184f49815e7efbcab5d8908b41",
+      "local": "D:\\0code\\Research\\x_neuroadapter\\neuroadapter-author-first\\runtime\\umbrae-transfer\\stage\\runtime\\umbrae\\assets\\minilm\\config.json"
+    },
+    {
+      "url": "https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config_sentence_transformers.json",
+      "path": "runtime/umbrae/assets/minilm/config_sentence_transformers.json",
+      "bytes": 116,
+      "sha256": "061ca9d39661d6c6d6de5ba27f79a1cd5770ea247f8d46412a68a498dc5ac9f3",
+      "local": "D:\\0code\\Research\\x_neuroadapter\\neuroadapter-author-first\\runtime\\umbrae-transfer\\stage\\runtime\\umbrae\\assets\\minilm\\config_sentence_transformers.json"
+    },
+    {
+      "url": "https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/model.safetensors",
+      "path": "runtime/umbrae/assets/minilm/model.safetensors",
+      "bytes": 90868376,
+      "sha256": "53aa51172d142c89d9012cce15ae4d6cc0ca6895895114379cacb4fab128d9db"
+    },
+    {
+      "url": "https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/modules.json",
+      "path": "runtime/umbrae/assets/minilm/modules.json",
+      "bytes": 349,
+      "sha256": "84e40c8e006c9b1d6c122e02cba9b02458120b5fb0c87b746c41e0207cf642cf",
+      "local": "D:\\0code\\Research\\x_neuroadapter\\neuroadapter-author-first\\runtime\\umbrae-transfer\\stage\\runtime\\umbrae\\assets\\minilm\\modules.json"
+    },
+    {
+      "url": "https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/sentence_bert_config.json",
+      "path": "runtime/umbrae/assets/minilm/sentence_bert_config.json",
+      "bytes": 53,
+      "sha256": "fc1993fde0a95c24ec6c022539d41cf6e2f7c9721e5415d6fb6897472a9cd4b7",
+      "local": "D:\\0code\\Research\\x_neuroadapter\\neuroadapter-author-first\\runtime\\umbrae-transfer\\stage\\runtime\\umbrae\\assets\\minilm\\sentence_bert_config.json"
+    },
+    {
+      "url": "https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/special_tokens_map.json",
+      "path": "runtime/umbrae/assets/minilm/special_tokens_map.json",
+      "bytes": 112,
+      "sha256": "303df45a03609e4ead04bc3dc1536d0ab19b5358db685b6f3da123d05ec200e3",
+      "local": "D:\\0code\\Research\\x_neuroadapter\\neuroadapter-author-first\\runtime\\umbrae-transfer\\stage\\runtime\\umbrae\\assets\\minilm\\special_tokens_map.json"
+    },
+    {
+      "url": "https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/tokenizer.json",
+      "path": "runtime/umbrae/assets/minilm/tokenizer.json",
+      "bytes": 466247,
+      "sha256": "be50c3628f2bf5bb5e3a7f17b1f74611b2561a3a27eeab05e5aa30f411572037",
+      "local": "D:\\0code\\Research\\x_neuroadapter\\neuroadapter-author-first\\runtime\\umbrae-transfer\\stage\\runtime\\umbrae\\assets\\minilm\\tokenizer.json"
+    },
+    {
+      "url": "https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/tokenizer_config.json",
+      "path": "runtime/umbrae/assets/minilm/tokenizer_config.json",
+      "bytes": 350,
+      "sha256": "acb92769e8195aabd29b7b2137a9e6d6e25c476a4f15aa4355c233426c61576b",
+      "local": "D:\\0code\\Research\\x_neuroadapter\\neuroadapter-author-first\\runtime\\umbrae-transfer\\stage\\runtime\\umbrae\\assets\\minilm\\tokenizer_config.json"
+    },
+    {
+      "url": "https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/vocab.txt",
+      "path": "runtime/umbrae/assets/minilm/vocab.txt",
+      "bytes": 231508,
+      "sha256": "07eced375cec144d27c900241f3e339478dec958f92fddbc551f295c992038a3",
+      "local": "D:\\0code\\Research\\x_neuroadapter\\neuroadapter-author-first\\runtime\\umbrae-transfer\\stage\\runtime\\umbrae\\assets\\minilm\\vocab.txt"
+    },
+    {
+      "url": "https://openaipublic.azureedge.net/clip/models/40d365715913c9da98579312b702a82c18be219cc2a73407c4526f58eba950af/ViT-B-32.pt",
+      "path": "runtime/umbrae/assets/evaluation/ViT-B-32.pt",
+      "bytes": 353976522,
+      "sha256": "40d365715913c9da98579312b702a82c18be219cc2a73407c4526f58eba950af"
+    }
+  ]
+}

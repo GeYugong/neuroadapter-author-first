@@ -1,0 +1,32 @@
+{
+  "raw_response": "<s> A large water dispenser is on the wall.</s>",
+  "caption": "A large water dispenser is on the wall.",
+  "token_ids": [
+    1,
+    319,
+    2919,
+    4094,
+    12272,
+    25594,
+    338,
+    373,
+    278,
+    10090,
+    29889,
+    2
+  ],
+  "feature_sha256": "dba40bc757ec0fa2bce2118e511eb7eddb1fefb938de7807faf1ff657884a080",
+  "native_index": 316,
+  "nsd_id0": 25287,
+  "shard": 0,
+  "sample": "sample000003333",
+  "brain_sha256": "c1578e6b1068dd6219503362c589ae98385e92c3ab5eb955a876c8e186484bc1",
+  "jpeg_sha256": "6127bc3bd17e8c67a8261031c5736d59614b6a0805942f30a3676e1b5dc6e054",
+  "brainhub_tensor_sha256": "a4df1faa0574aab745879cceb57a20669b05647ce1226807eb7e29df1d9fd6be",
+  "evaluation_png_sha256": "86d3f81c6bdb31c736621d281d16452501d0e2851293fa6e29439d37867d6064",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595356.916778
+}

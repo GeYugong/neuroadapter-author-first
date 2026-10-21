@@ -1,0 +1,33 @@
+{
+  "raw_response": "<s> A small horse standing in a field with tall grass.</s>",
+  "caption": "A small horse standing in a field with tall grass.",
+  "token_ids": [
+    1,
+    319,
+    2319,
+    10435,
+    13407,
+    297,
+    263,
+    1746,
+    411,
+    15655,
+    17455,
+    29889,
+    2
+  ],
+  "feature_sha256": "45358f6507d6ae234beb587f8bc108d40a2f99b5d109d45a542777c29eb3c2e9",
+  "native_index": 460,
+  "nsd_id0": 35094,
+  "shard": 0,
+  "sample": "sample000004700",
+  "brain_sha256": "e01c0421d0555b51d919017e8ea85903dfd6f7b82161aba0dc8c5c0977ab061c",
+  "jpeg_sha256": "d1df0b600543da6f0d233ed3861139ed900b979e2279b04687bed91025d7ca32",
+  "brainhub_tensor_sha256": "a9819b4a23cc2d61d0b6d8433b5b015fef058a3027d2f522b9e9f74d561d49fe",
+  "evaluation_png_sha256": "bab02c466c1329925d62add422ab2af9d4567621d21a625a6e32a26da439f7cf",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595394.514231
+}

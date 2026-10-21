@@ -1,0 +1,33 @@
+{
+  "raw_response": "<s> A large open kitchen with a table and chairs.</s>",
+  "caption": "A large open kitchen with a table and chairs.",
+  "token_ids": [
+    1,
+    319,
+    2919,
+    1722,
+    29181,
+    411,
+    263,
+    1591,
+    322,
+    521,
+    7121,
+    29889,
+    2
+  ],
+  "feature_sha256": "c68459cd0e26b0ee7702852a52586989d95b99b6d270546a403b22ba5a9fb07c",
+  "native_index": 935,
+  "nsd_id0": 69240,
+  "shard": 1,
+  "sample": "sample000009356",
+  "brain_sha256": "5b6ab79979b52b1e32e7496b14bf99c06ed533c257c0379ea5b896523f1ac1b7",
+  "jpeg_sha256": "45f34ad91a1922e400177753a17fe93507276618892b3d6edf99979dee14814d",
+  "brainhub_tensor_sha256": "b9fffcc0f113317f26268d4e9217fa0a8d659b820f2a34f905eeb4f800c4b043",
+  "evaluation_png_sha256": "990bbcc7f6817a3c6bd8bead93f49c19b67e024eb51dbdae290999c895fc544d",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595519.882914
+}

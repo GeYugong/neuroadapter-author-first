@@ -1,0 +1,33 @@
+{
+  "raw_response": "<s> A close up of a sheep standing in the grass.</s>",
+  "caption": "A close up of a sheep standing in the grass.",
+  "token_ids": [
+    1,
+    319,
+    3802,
+    701,
+    310,
+    263,
+    29735,
+    13407,
+    297,
+    278,
+    17455,
+    29889,
+    2
+  ],
+  "feature_sha256": "66a7b76278b352c243f1c880a91e78c6f6cff39ccd1b9ee5ebde22b8f5caedec",
+  "native_index": 306,
+  "nsd_id0": 24740,
+  "shard": 0,
+  "sample": "sample000003252",
+  "brain_sha256": "309dfd474d2ec16f1c4113b654f7f65abb768f933feeecfa5c0129232bc7051a",
+  "jpeg_sha256": "21edbbf0b94cdb7828d75eea33ba15db4ea1390d904a66b0fcad816bf1483945",
+  "brainhub_tensor_sha256": "3329780d10600c3e729c2c5fde174fd6efd5dff1b99861161dc764d6217b374d",
+  "evaluation_png_sha256": "e9fe2a4f15b311973ffd27a382384efdead7833860882d91dc1303acd6d05c85",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595354.3669114
+}

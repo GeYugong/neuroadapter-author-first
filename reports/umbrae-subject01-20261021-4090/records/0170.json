@@ -1,0 +1,31 @@
+{
+  "raw_response": "<s> A small plate holds a serving of food.</s>",
+  "caption": "A small plate holds a serving of food.",
+  "token_ids": [
+    1,
+    319,
+    2319,
+    15284,
+    8640,
+    263,
+    16330,
+    310,
+    9687,
+    29889,
+    2
+  ],
+  "feature_sha256": "8abf698a09d6cbd3f1d2839750cb0a3c100d2c07dbfc9903ed9750b8cf2060cb",
+  "native_index": 170,
+  "nsd_id0": 14644,
+  "shard": 0,
+  "sample": "sample000001902",
+  "brain_sha256": "f08b718ade600ae896ecf93dd76880825c41e34d6bff065a0ba02282a5df893d",
+  "jpeg_sha256": "61b6754a3a5af9430d026c6229ff9b7ab5937756a06472e510c3e362cb2a6c1f",
+  "brainhub_tensor_sha256": "97058a5232183ceddf7809d7991ced5e9328bddd2b91bf4fa965227391ae03b6",
+  "evaluation_png_sha256": "e35a2f978163031c392bfc963f59d800ef5b075406d7eff20771a41f9b090e69",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595319.9184158
+}

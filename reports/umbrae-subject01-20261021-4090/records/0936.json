@@ -1,0 +1,33 @@
+{
+  "raw_response": "<s> A group of park benches sitting in a park.</s>",
+  "caption": "A group of park benches sitting in a park.",
+  "token_ids": [
+    1,
+    319,
+    2318,
+    310,
+    14089,
+    3856,
+    6609,
+    16246,
+    297,
+    263,
+    14089,
+    29889,
+    2
+  ],
+  "feature_sha256": "8206cd65afd847712aa90db466c5702003a28343da69fa0b8e2ac119b09ff819",
+  "native_index": 936,
+  "nsd_id0": 69442,
+  "shard": 1,
+  "sample": "sample000009378",
+  "brain_sha256": "9512f321532cc449e687d62372c468d815248a4e785ad1edeb7fa8ba316052c8",
+  "jpeg_sha256": "d76a0189e4610ad431b83bcfa802a324cd3a089e5f05388e272935b46c81875d",
+  "brainhub_tensor_sha256": "ed612b2fc3d8fc9269cc68f8759c45602a90abffd9da4651de355b4bcf942099",
+  "evaluation_png_sha256": "679f5199d6b27206bb7517b3e17677ae846bc315fe8e8c49fc9b4ef3d906387b",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595520.122199
+}

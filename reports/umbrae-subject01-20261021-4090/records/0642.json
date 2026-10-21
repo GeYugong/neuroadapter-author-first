@@ -1,0 +1,32 @@
+{
+  "raw_response": "<s> A large group of people gathered by the water.</s>",
+  "caption": "A large group of people gathered by the water.",
+  "token_ids": [
+    1,
+    319,
+    2919,
+    2318,
+    310,
+    2305,
+    22229,
+    491,
+    278,
+    4094,
+    29889,
+    2
+  ],
+  "feature_sha256": "7bbc4f6a53f478fd11968d3cb9569222baf682857c96d095eb9fb4df43a3d88c",
+  "native_index": 642,
+  "nsd_id0": 47600,
+  "shard": 1,
+  "sample": "sample000006421",
+  "brain_sha256": "48a08ff2216747ba4fbd47d2746ab10a09bb14dad852552b208c8a60742182c2",
+  "jpeg_sha256": "ffac2301c1c31a812c3ff837f1327e5f4550e430e1e88c173122a3705d4c5e35",
+  "brainhub_tensor_sha256": "5d4a08669ad49e2360d045c4b55b50ebb8235d965d6a4d1bfe423420aa292944",
+  "evaluation_png_sha256": "01386edd8a5d15c080756949140451b7b36d892c1c42830afcd4307fa0697ce3",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595444.9835885
+}

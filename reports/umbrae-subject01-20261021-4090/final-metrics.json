@@ -1,0 +1,41 @@
+{
+  "n": 982,
+  "raw": {
+    "BLEU-1": 0.5948,
+    "BLEU-2": 0.4054,
+    "BLEU-3": 0.2772,
+    "BLEU-4": 0.1905,
+    "METEOR": 0.1947,
+    "ROUGE-L": 0.4379,
+    "CIDEr": 0.6117,
+    "SPICE": 0.128,
+    "CLIPScore": 0.6782,
+    "RefCLIPScore": 0.7357,
+    "PACScore": 0.7078,
+    "RefPACScore": 0.7677,
+    "SentenceScore": 0.5778
+  },
+  "display_times100": {
+    "BLEU-1": 59.48,
+    "BLEU-2": 40.54,
+    "BLEU-3": 27.72,
+    "BLEU-4": 19.05,
+    "METEOR": 19.470000000000002,
+    "ROUGE-L": 43.79,
+    "CIDEr": 61.17,
+    "SPICE": 12.8,
+    "CLIPScore": 67.82000000000001,
+    "RefCLIPScore": 73.57000000000001,
+    "PACScore": 70.78,
+    "RefPACScore": 76.77000000000001,
+    "SentenceScore": 57.78
+  },
+  "precision": "Original CLI output rounded to4 decimal places",
+  "score_source": "Official BrainHub eval_caption.py main entry; no custom score formulas or aggregation",
+  "source_sha256": "61e832657c02cb7abb128d82fd5cfea2553a91c962f5f5916fb24255951457b2",
+  "raw_output": "reports/umbrae-subject01-20261021-4090/native-score-check/results_.txt",
+  "raw_output_sha256": "ad1534a03897e18790b49a43a38ae7161ca30b47ee8fd12c5e93306f455c5328",
+  "per_instance": "reports/umbrae-subject01-20261021-4090/native-score-check/per-instance.json",
+  "inference": "Official UMBRAE brainx-v-1-4 cross-subject checkpoint evaluated on S1",
+  "time": 1792596132.8423393
+}

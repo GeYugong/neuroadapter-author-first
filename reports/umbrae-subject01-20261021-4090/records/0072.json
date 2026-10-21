@@ -1,0 +1,33 @@
+{
+  "raw_response": "<s> A large truck is parked at a rest stop</s>",
+  "caption": "A large truck is parked at a rest stop",
+  "token_ids": [
+    1,
+    319,
+    2919,
+    534,
+    2707,
+    338,
+    14089,
+    287,
+    472,
+    263,
+    1791,
+    5040,
+    2
+  ],
+  "feature_sha256": "acdc10eeaebf421344a6e00c4cbc6bb3db16afba9f4adc378f4a949fee53e6ca",
+  "native_index": 72,
+  "nsd_id0": 7409,
+  "shard": 0,
+  "sample": "sample000000962",
+  "brain_sha256": "3239abcb8aea11ce44b7be7b4d9f03e007ff3f98bb360f80a88cc2f2c55cf786",
+  "jpeg_sha256": "69dfa6236dbeec2bdf2125455419bea963af9efcbfbad00f6857bef1a55f2fef",
+  "brainhub_tensor_sha256": "92d048741ec7c174510947b61bce281a3d2de91a587e44214b17f3277194f9d0",
+  "evaluation_png_sha256": "66e8484fe5b61fc11a66947ac5a2989bb1ffb0fa6041b0da1f226dd019a94a14",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595294.5420773
+}

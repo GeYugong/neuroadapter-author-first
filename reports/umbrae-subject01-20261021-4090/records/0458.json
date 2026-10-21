@@ -1,0 +1,32 @@
+{
+  "raw_response": "<s> A man in a suit and tie is standing.</s>",
+  "caption": "A man in a suit and tie is standing.",
+  "token_ids": [
+    1,
+    319,
+    767,
+    297,
+    263,
+    14726,
+    322,
+    22134,
+    338,
+    13407,
+    29889,
+    2
+  ],
+  "feature_sha256": "df85d21ed9470f7fef70389e022d2a6a9785b07f489240fc0cf305f730dc3b3a",
+  "native_index": 458,
+  "nsd_id0": 34874,
+  "shard": 0,
+  "sample": "sample000004664",
+  "brain_sha256": "3d7c8985738b26aa678f84ad5a4aad1f8990eb311473555686545692bf90d464",
+  "jpeg_sha256": "c85c4b653b167ea1d45cac986dcd6d904af1eb7e9dc98ae20860435706871525",
+  "brainhub_tensor_sha256": "480107c3b468dc430420d1334b59a8ab7eefecedc7cf00060cede5032a124fbf",
+  "evaluation_png_sha256": "3b698e0fc19b4e8db4388154ee96665db9f057abe24a81d6e65498c208322c13",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595393.982765
+}

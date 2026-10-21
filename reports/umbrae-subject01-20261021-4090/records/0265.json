@@ -1,0 +1,33 @@
+{
+  "raw_response": "<s> A brown bear walking in the grass near brush.</s>",
+  "caption": "A brown bear walking in the grass near brush.",
+  "token_ids": [
+    1,
+    319,
+    17354,
+    11460,
+    22049,
+    297,
+    278,
+    17455,
+    2978,
+    1506,
+    1878,
+    29889,
+    2
+  ],
+  "feature_sha256": "ce57381e46b31db95bb5e273035eecffc4d2584febe8c691b2df063ed281b739",
+  "native_index": 265,
+  "nsd_id0": 22263,
+  "shard": 0,
+  "sample": "sample000002883",
+  "brain_sha256": "3dda91a986f70db0ab207cd71f95f6508d18a94aacb7604c3d0e1e2af4a9b77f",
+  "jpeg_sha256": "ca9ab4f23825b5eac1a048299d2f8a366b3f750f80638974fcaee20589d89ec5",
+  "brainhub_tensor_sha256": "61807488d48ae529ff343eeb7c60e83a1c37a408b0b8b6a5adee3e084f6ce554",
+  "evaluation_png_sha256": "cbe31cc7382e94b1473d08be6b5f059ae4a0add6ab777ec974e9d07f80cc4954",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595343.918427
+}

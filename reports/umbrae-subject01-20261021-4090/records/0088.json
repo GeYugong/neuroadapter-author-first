@@ -1,0 +1,31 @@
+{
+  "raw_response": "<s> A busy city street with cars in traffic.</s>",
+  "caption": "A busy city street with cars in traffic.",
+  "token_ids": [
+    1,
+    319,
+    19587,
+    4272,
+    11952,
+    411,
+    18647,
+    297,
+    12469,
+    29889,
+    2
+  ],
+  "feature_sha256": "2647b1848b6978a44b16a431f7f923bfc5749e89eed2471dff50c3dd36cd3de5",
+  "native_index": 88,
+  "nsd_id0": 8387,
+  "shard": 0,
+  "sample": "sample000001088",
+  "brain_sha256": "a5d62b9d311238a35e0eb374fd1b2275f387519f3627fff22021380efc7a110d",
+  "jpeg_sha256": "51aa1c2416e3273c061deddfb9cb045ea21ffa7d2b21bab26c65c40180376c9d",
+  "brainhub_tensor_sha256": "588e0469683b2c5ba89ccf52655c5a446ac3913c0334f7a7437e424648d62073",
+  "evaluation_png_sha256": "741ee30fd90b06f3ef7670200655b1fcefc7b526e6b9cdb77aad36c16ef659de",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595298.6462042
+}

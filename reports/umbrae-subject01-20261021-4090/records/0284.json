@@ -1,0 +1,33 @@
+{
+  "raw_response": "<s> A tennis player is getting ready to return the ball.</s>",
+  "caption": "A tennis player is getting ready to return the ball.",
+  "token_ids": [
+    1,
+    319,
+    22556,
+    4847,
+    338,
+    2805,
+    7960,
+    304,
+    736,
+    278,
+    8287,
+    29889,
+    2
+  ],
+  "feature_sha256": "06a8a4001c08dcbf661315015cfd6a8cea119bddf45f1d653c6d1abb251dec45",
+  "native_index": 284,
+  "nsd_id0": 22993,
+  "shard": 0,
+  "sample": "sample000002995",
+  "brain_sha256": "b7357ec066217d7f2ab3d49fd73e69c6c66fc7f71f73f76893c5806849dc83b7",
+  "jpeg_sha256": "26ca899763d0fa8fde8e046314fc1184531a77e97469adb8bfd9238d3f12fe79",
+  "brainhub_tensor_sha256": "edaca0290466071a82e6e775f731a24d407afbcf73731b84b6797cfa5e5effe4",
+  "evaluation_png_sha256": "8cbe72916391153dfc9ec34582953189c999d6a9f63a9e19310c0a0adad6bfee",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595348.6848674
+}

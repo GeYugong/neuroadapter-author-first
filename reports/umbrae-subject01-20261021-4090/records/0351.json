@@ -1,0 +1,32 @@
+{
+  "raw_response": "<s> A cat is laying down with its laptop.</s>",
+  "caption": "A cat is laying down with its laptop.",
+  "token_ids": [
+    1,
+    319,
+    6635,
+    338,
+    6568,
+    292,
+    1623,
+    411,
+    967,
+    19022,
+    29889,
+    2
+  ],
+  "feature_sha256": "55ba0cd7d2545d7ec400de074d0b2055e3267c4b7e8d3020575a4fa654c3b65d",
+  "native_index": 351,
+  "nsd_id0": 27242,
+  "shard": 0,
+  "sample": "sample000003588",
+  "brain_sha256": "fb99a984aeff85e7fe97b3f323ed3b387a5e9f964988fe261b26afb586f5a5ce",
+  "jpeg_sha256": "7401cd64b5051deb72e6f5a248b5b46666fb01ac095fb04e102e22381b74bf7a",
+  "brainhub_tensor_sha256": "5773d412e7d77f4ecc59da6347daa19c1217aa51c47396ced2d2cbd8d2a1294e",
+  "evaluation_png_sha256": "9e462030d2cbb014bf6482b6fbdad0d0bc6e13753ff577937686d74cdd52b384",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595366.3630037
+}

@@ -1,0 +1,31 @@
+{
+  "raw_response": "<s> A large building with a tower on top.</s>",
+  "caption": "A large building with a tower on top.",
+  "token_ids": [
+    1,
+    319,
+    2919,
+    5214,
+    411,
+    263,
+    19372,
+    373,
+    2246,
+    29889,
+    2
+  ],
+  "feature_sha256": "d2183455b2d671ed05283ddf6f3483788dc1d6591cc56e5b69753a2cb1c5ea99",
+  "native_index": 731,
+  "nsd_id0": 54361,
+  "shard": 1,
+  "sample": "sample000007313",
+  "brain_sha256": "fe646dcd4e9443c9084672282e5ce2152e005828c59c6c07106cf65f92daf91a",
+  "jpeg_sha256": "f847ce61c9356a49731741fcbe5309104ae70f1fb7280dae8a2616f2b223a21f",
+  "brainhub_tensor_sha256": "b46afd581b6d667495292a441bbd6c57c03996cd898d4c0584081510d2bb779a",
+  "evaluation_png_sha256": "98aeedece372169910ee8bb1159a28d6e835e9071a5b8a13280633e4d10325d1",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595467.416354
+}

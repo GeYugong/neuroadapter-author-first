@@ -1,0 +1,32 @@
+{
+  "raw_response": "<s> A computer monitor is shown in a living room.</s>",
+  "caption": "A computer monitor is shown in a living room.",
+  "token_ids": [
+    1,
+    319,
+    6601,
+    11819,
+    338,
+    4318,
+    297,
+    263,
+    8471,
+    5716,
+    29889,
+    2
+  ],
+  "feature_sha256": "587ec855de84fd7443e1e841d7837d7ae3d8b800a66d596dfda95e2d785d774d",
+  "native_index": 137,
+  "nsd_id0": 11844,
+  "shard": 0,
+  "sample": "sample000001545",
+  "brain_sha256": "70107f12e8534bca85beb26fe5f2072ecc4b9b6dc449f973ea01219e1f051196",
+  "jpeg_sha256": "4b1c7135b6dff4b97b30c1c3a68a568442c43214e03dc0b0a7d7ac6a1a90dfa6",
+  "brainhub_tensor_sha256": "2bc90854985136224dca38779f43ea0bbd0f593360940a448475fb321a8a2cea",
+  "evaluation_png_sha256": "7f40c3dbd8267bede729b3639aaa6ba9b600f8589e0c62fb708a71c6ea4a7729",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595311.4327002
+}

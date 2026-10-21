@@ -1,0 +1,33 @@
+{
+  "raw_response": "<s> A banana on a plate cut into three pieces.</s>",
+  "caption": "A banana on a plate cut into three pieces.",
+  "token_ids": [
+    1,
+    319,
+    9892,
+    1648,
+    373,
+    263,
+    15284,
+    5700,
+    964,
+    2211,
+    12785,
+    29889,
+    2
+  ],
+  "feature_sha256": "4cea60612f0ace9a2a0bda6ea10001f6b59044ac846cfabb6c27c7f3b90a6091",
+  "native_index": 30,
+  "nsd_id0": 4436,
+  "shard": 0,
+  "sample": "sample000000551",
+  "brain_sha256": "a72d53f8c25bbe75197f8ae0fef696070e27b1db8c6c86f7d891f1886ded83e1",
+  "jpeg_sha256": "1f4597721bc093cfbd176f38e34f1b26065a81b287411fc3829a6d66b88d3e8f",
+  "brainhub_tensor_sha256": "fcd4a19cc5b15b1ed320b527e4af4dae617dd7a5bb85c8c5fc918ea5f0a093c4",
+  "evaluation_png_sha256": "f2ed15f707daddd338efb19021c93303be7928996a5d34421ec4da5f01029666",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595284.1409533
+}

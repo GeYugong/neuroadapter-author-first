@@ -1,0 +1,33 @@
+{
+  "raw_response": "<s> A large tall building with a clock on the top.</s>",
+  "caption": "A large tall building with a clock on the top.",
+  "token_ids": [
+    1,
+    319,
+    2919,
+    15655,
+    5214,
+    411,
+    263,
+    12006,
+    373,
+    278,
+    2246,
+    29889,
+    2
+  ],
+  "feature_sha256": "9b610bf1da6fbcbbb0f158ad7ba1a101667e0c5db4d5aa8bfe67cf0e5a7c2efa",
+  "native_index": 90,
+  "nsd_id0": 8415,
+  "shard": 0,
+  "sample": "sample000001094",
+  "brain_sha256": "fa2e3d84964bbdccc15263cef02f1ed9f1bf58338f3ec49bee7dbdd3e05b476f",
+  "jpeg_sha256": "d52afbaf60eefce5ab039c1177facaa890fca87ae075699a6b02c64134f78373",
+  "brainhub_tensor_sha256": "7d52d8fef666744749c5fad59774a3c198c652241d6c24cc89cafd69b29b778b",
+  "evaluation_png_sha256": "186d1331359c470b04e449a43c07e2bf6bc4a6514d6ceb40f8eceeaeb34a2358",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595299.1053386
+}

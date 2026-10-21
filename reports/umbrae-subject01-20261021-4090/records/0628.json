@@ -1,0 +1,32 @@
+{
+  "raw_response": "<s> A large plate of many individual pizzas.</s>",
+  "caption": "A large plate of many individual pizzas.",
+  "token_ids": [
+    1,
+    319,
+    2919,
+    15284,
+    310,
+    1784,
+    5375,
+    282,
+    4981,
+    294,
+    29889,
+    2
+  ],
+  "feature_sha256": "f3a031f57d884cb7b17c77b7c4b29828b7b17c78446a110a418cbd98c2faa709",
+  "native_index": 628,
+  "nsd_id0": 46642,
+  "shard": 1,
+  "sample": "sample000006285",
+  "brain_sha256": "b17a164877860a212638255085dd47ac8cbe0c9d2ec0a4b3a7d2ee2ad04e40ac",
+  "jpeg_sha256": "c05387d2086d7ff5201dce564b3f2f0c7f21b69e94dcd11c856e120ffcee144f",
+  "brainhub_tensor_sha256": "c1a616b1e2c91feb05f6f5c825ffa14c6616a4746f05597cde14becfc4632162",
+  "evaluation_png_sha256": "f3f272d1703961c8442afb31e3e680a475b2041c7bc9df3ace24842e87f0075b",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595441.461487
+}

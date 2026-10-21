@@ -1,0 +1,33 @@
+{
+  "raw_response": "<s> A street view of buildings and cars in a city.</s>",
+  "caption": "A street view of buildings and cars in a city.",
+  "token_ids": [
+    1,
+    319,
+    11952,
+    1776,
+    310,
+    13814,
+    322,
+    18647,
+    297,
+    263,
+    4272,
+    29889,
+    2
+  ],
+  "feature_sha256": "78fcc56bd98722b5e53eff72c8a96af9948babef0f011304cc7fca0d7cab8966",
+  "native_index": 600,
+  "nsd_id0": 44971,
+  "shard": 1,
+  "sample": "sample000006053",
+  "brain_sha256": "58b07db5f7197f8101206e42b1d8b3d933ffb65c968f8ad92244d33e93c81f37",
+  "jpeg_sha256": "e42a1fc8e3269fd7c10a43180286c4a3e2d9bee3e13d157edd9587c95de43308",
+  "brainhub_tensor_sha256": "ac3607c83cc8210a864215ce20c428df2b769e1d17235a0431098c78729f99e6",
+  "evaluation_png_sha256": "f063b9bb68c979f2f814d96481ff4932530f71222f77b05b117e3f26cc825f5d",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595430.2947888
+}

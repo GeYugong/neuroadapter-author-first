@@ -1,0 +1,29 @@
+{
+  "raw_response": "<s> A plate of food on a table</s>",
+  "caption": "A plate of food on a table",
+  "token_ids": [
+    1,
+    319,
+    15284,
+    310,
+    9687,
+    373,
+    263,
+    1591,
+    2
+  ],
+  "feature_sha256": "f2bbab5b0afc8afcaccd382a3f139c8b937f0e176253ca55edef7ee985754eee",
+  "native_index": 223,
+  "nsd_id0": 19181,
+  "shard": 0,
+  "sample": "sample000002482",
+  "brain_sha256": "42bbe0c0e50c0c4246d1df62f5ecc168a12f9a7d31f5714741a1de7701f13c65",
+  "jpeg_sha256": "4aa006f822fc02d1b2fd07c7739c663a5f6745165e9ed1ad468956ccaaf2a8da",
+  "brainhub_tensor_sha256": "4859ea1c01d91370167a6be7733288332500d1f8345cc376ed139402b99279fe",
+  "evaluation_png_sha256": "dcbb7f555d11088216efd992a09b702e1dab2ddb4c86049489f8bd920443caba",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595333.213272
+}

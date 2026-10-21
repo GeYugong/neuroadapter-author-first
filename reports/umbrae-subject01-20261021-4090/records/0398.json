@@ -1,0 +1,33 @@
+{
+  "raw_response": "<s> A close up of the side of a glass building.</s>",
+  "caption": "A close up of the side of a glass building.",
+  "token_ids": [
+    1,
+    319,
+    3802,
+    701,
+    310,
+    278,
+    2625,
+    310,
+    263,
+    12917,
+    5214,
+    29889,
+    2
+  ],
+  "feature_sha256": "49c5f6b8bedfb0a4b85dd866bba143b26c684ae082feb855c594e58f09fee590",
+  "native_index": 398,
+  "nsd_id0": 30430,
+  "shard": 0,
+  "sample": "sample000004035",
+  "brain_sha256": "6a174374e996219cfe8c60a83f4a1fa6525b5ee1ad290dd0497d02ae79af667f",
+  "jpeg_sha256": "41dc83e8ae1b52560c02c983dc57b020630fdce1ca9d0e9191944a9d1252f279",
+  "brainhub_tensor_sha256": "d496fb977035bf681043c371095fc4ee84b29f5f45d139a67e3b668fe6ff6544",
+  "evaluation_png_sha256": "c5a6a74bda64ab82db3259dd7fcb80e76f62bae4807c5dc8f1042aeb1f80ea33",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595378.2815619
+}

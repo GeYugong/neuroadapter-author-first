@@ -1,0 +1,32 @@
+{
+  "raw_response": "<s> A small dog standing in a grassy field.</s>",
+  "caption": "A small dog standing in a grassy field.",
+  "token_ids": [
+    1,
+    319,
+    2319,
+    11203,
+    13407,
+    297,
+    263,
+    17455,
+    29891,
+    1746,
+    29889,
+    2
+  ],
+  "feature_sha256": "154236439abc6dc4db3548291c5f65cac50403e7bb70f9523d5744cca36772c6",
+  "native_index": 755,
+  "nsd_id0": 56066,
+  "shard": 1,
+  "sample": "sample000007544",
+  "brain_sha256": "94e8cf07b6eebde4e5803beaba4aefa5f3c92be3286286375a478e7b7551e7d7",
+  "jpeg_sha256": "3bf8eb22eb756f328e6e6399ac31b5f1eae4c25b39413e18feadad63433ab351",
+  "brainhub_tensor_sha256": "0286c42e460440103682b37028d9bf429b43d625102a7c75cdcf661fa1ae8d0d",
+  "evaluation_png_sha256": "9ca37db9c113f3d01c33e669e1ba9e59e4f26eb2bebdcfe2295337785045d6c1",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595473.6488492
+}

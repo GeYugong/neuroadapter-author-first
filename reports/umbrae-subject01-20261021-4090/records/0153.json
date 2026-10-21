@@ -1,0 +1,33 @@
+{
+  "raw_response": "<s> A brown bear walking through a field with green grass.</s>",
+  "caption": "A brown bear walking through a field with green grass.",
+  "token_ids": [
+    1,
+    319,
+    17354,
+    11460,
+    22049,
+    1549,
+    263,
+    1746,
+    411,
+    7933,
+    17455,
+    29889,
+    2
+  ],
+  "feature_sha256": "86f8605f6d660b27a18dc35bab48e99e6c87a8ec59594952bd5bd3f569af9799",
+  "native_index": 153,
+  "nsd_id0": 13230,
+  "shard": 0,
+  "sample": "sample000001716",
+  "brain_sha256": "9183cf82635fef7aa149612d3387689227732fe8f3e908cfe6211ddb8292285d",
+  "jpeg_sha256": "2165f2d0a4a7479851c9ed36f8107006eb21ec7fbf5ed6e9daa42bcf445624e4",
+  "brainhub_tensor_sha256": "b676d25298048df3b3d37033f7e394223c0b652b4da0b0ff26c17f53c6666c28",
+  "evaluation_png_sha256": "a7cce7d0362a1bdec7c1b724815ff2b1dc7c0f10419d531f398cece38158ff74",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595315.6100771
+}

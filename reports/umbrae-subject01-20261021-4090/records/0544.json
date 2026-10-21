@@ -1,0 +1,32 @@
+{
+  "raw_response": "<s> A close up of a dog in a back yard</s>",
+  "caption": "A close up of a dog in a back yard",
+  "token_ids": [
+    1,
+    319,
+    3802,
+    701,
+    310,
+    263,
+    11203,
+    297,
+    263,
+    1250,
+    29413,
+    2
+  ],
+  "feature_sha256": "4c17ef15647af8743a531d3de01d50bf4d92eb6922eef99367676ab3191ec583",
+  "native_index": 544,
+  "nsd_id0": 41927,
+  "shard": 1,
+  "sample": "sample000005647",
+  "brain_sha256": "bc8d7a2147ef4859a70c37908baef7d4fcb523761eb0afd9ab093f2e757e809a",
+  "jpeg_sha256": "55e68f4116e51e60b786e57f7dd1e159d74d4e4aa35be0ec307522e27331c234",
+  "brainhub_tensor_sha256": "1bebaa01b8d2b6419a2cb4e6e5ae4a812ffd31df57d62924924bf392005d4dd5",
+  "evaluation_png_sha256": "d022fe5bc104e060dc53e442f00c6d72bc94de5a22c955b16c7570eac783dc5d",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595416.2125578
+}

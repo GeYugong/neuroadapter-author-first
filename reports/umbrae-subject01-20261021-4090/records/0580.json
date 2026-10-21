@@ -1,0 +1,32 @@
+{
+  "raw_response": "<s> A kite flying high up in the sky.</s>",
+  "caption": "A kite flying high up in the sky.",
+  "token_ids": [
+    1,
+    319,
+    413,
+    568,
+    22764,
+    1880,
+    701,
+    297,
+    278,
+    14744,
+    29889,
+    2
+  ],
+  "feature_sha256": "e856c3928f53652e0d75370ef47de3a963f56a0b20bd625363b43ebb784133c3",
+  "native_index": 580,
+  "nsd_id0": 43818,
+  "shard": 1,
+  "sample": "sample000005907",
+  "brain_sha256": "b8e5cd64b2c9c867ff4d8ba81fdaf93a2bcad8838601f12cab8bdc082cf69857",
+  "jpeg_sha256": "6c13d5e15f5486f6fd430359934d42f620eb5985d4dd67d20e48af384dba1b2e",
+  "brainhub_tensor_sha256": "56021eb7729eecccfb6ebbb5e39347c2ff80630fd253445d5b24939c8ee8b79b",
+  "evaluation_png_sha256": "d6a225b8dff911cdde6b263287255dfc9847566f21bab2afbf94805a48614df6",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595425.358558
+}

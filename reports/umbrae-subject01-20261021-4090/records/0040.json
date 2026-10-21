@@ -1,0 +1,33 @@
+{
+  "raw_response": "<s> A man is holding a kite with both hands.</s>",
+  "caption": "A man is holding a kite with both hands.",
+  "token_ids": [
+    1,
+    319,
+    767,
+    338,
+    13587,
+    263,
+    413,
+    568,
+    411,
+    1716,
+    6567,
+    29889,
+    2
+  ],
+  "feature_sha256": "69c496bbecfd0e6b9e766f616055b73d6c78a6dac76a14be8d13c3e7172deb67",
+  "native_index": 40,
+  "nsd_id0": 5034,
+  "shard": 0,
+  "sample": "sample000000622",
+  "brain_sha256": "f680fc65625406418781fd0e3752f90482484812543676a7901e7144fbaa4fd4",
+  "jpeg_sha256": "4280828da609798f9852f1686575f9983960092e247219c8f96f799547562de8",
+  "brainhub_tensor_sha256": "b30025f1e400b6d87c609dc6c3e9c22ee5425852ede7f931659c26eeab71e268",
+  "evaluation_png_sha256": "13645fd9624a5563cce9d8dda6246b30c983a91116e674a75abd703c2c07b8b2",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595286.850073
+}

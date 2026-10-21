@@ -1,0 +1,31 @@
+{
+  "raw_response": "<s> A close up of a cow's face</s>",
+  "caption": "A close up of a cow's face",
+  "token_ids": [
+    1,
+    319,
+    3802,
+    701,
+    310,
+    263,
+    21282,
+    29915,
+    29879,
+    3700,
+    2
+  ],
+  "feature_sha256": "306bc33d26209e9ae8152ba559dffe20f3efda76e2d80f991b9ce8052e16d7eb",
+  "native_index": 577,
+  "nsd_id0": 43675,
+  "shard": 1,
+  "sample": "sample000005890",
+  "brain_sha256": "e66204fa201c92dbe3d523b129874065eb652571b707a8ab0e9b26ca68a4df4b",
+  "jpeg_sha256": "fc5879efaaf4f8d66a197899755f4fc85371f0a2f87bc906f4e19f8549a459af",
+  "brainhub_tensor_sha256": "a4d2c6530117aaadd7379af50ff279a36e16eb0dcd2a3dccc8fc18622ac35345",
+  "evaluation_png_sha256": "1c700d66949a8172e5b7571ab19bd35ce75f969390572158082a8ef3159f8f93",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595424.5888817
+}

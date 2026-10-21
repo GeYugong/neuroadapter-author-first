@@ -1,0 +1,32 @@
+{
+  "raw_response": "<s> A large clock tower in the center of a city</s>",
+  "caption": "A large clock tower in the center of a city",
+  "token_ids": [
+    1,
+    319,
+    2919,
+    12006,
+    19372,
+    297,
+    278,
+    4818,
+    310,
+    263,
+    4272,
+    2
+  ],
+  "feature_sha256": "f8166523098c5ca96e308e2b5f69c102b8f094ec662194ff4e608c3fdeee6767",
+  "native_index": 200,
+  "nsd_id0": 17048,
+  "shard": 0,
+  "sample": "sample000002210",
+  "brain_sha256": "6ad5d2104f978ad820bc644d14722ac29247aa9e8ae592af5ae0cc15ab0b37ee",
+  "jpeg_sha256": "06496e529e8d80fa4aa4d953afaf85b31a81860afdd58af279edc01fdb8d90c0",
+  "brainhub_tensor_sha256": "cffd8c4d64b22edd8e0f49a8c58470a91d7dfa1c3fae945f085ce4d2e8f037e1",
+  "evaluation_png_sha256": "9e87bbd87706b32310a4d16c83d6cc70cc5d5e68d9ac6cccf9a98ad64bd6a1a7",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595327.4739964
+}

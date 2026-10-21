@@ -1,0 +1,33 @@
+{
+  "raw_response": "<s> A group of young children sitting together on a bed.</s>",
+  "caption": "A group of young children sitting together on a bed.",
+  "token_ids": [
+    1,
+    319,
+    2318,
+    310,
+    4123,
+    4344,
+    16246,
+    4208,
+    373,
+    263,
+    6592,
+    29889,
+    2
+  ],
+  "feature_sha256": "843ffd3bc523eff9e94cbc5d7b06c525f863ee1695b32e206b6396c42d1e62a1",
+  "native_index": 798,
+  "nsd_id0": 59079,
+  "shard": 1,
+  "sample": "sample000007944",
+  "brain_sha256": "6673aeb4b019267ba3c9c744099c907a2ba44a637a003845a95a1312d18bd67c",
+  "jpeg_sha256": "989b118d90735a8774fb81ece56ab3a57c547b6eefa6b6a89c7ff46408428f19",
+  "brainhub_tensor_sha256": "db0c1b289538c7a6afc6abbf6f9f5f251d1f3b2df6556d8b662faf8dae687495",
+  "evaluation_png_sha256": "58b72ee2fe4b06cd170df475fb4a0c47b046ea516782d2623cd34e2de4fc5318",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595484.6855767
+}

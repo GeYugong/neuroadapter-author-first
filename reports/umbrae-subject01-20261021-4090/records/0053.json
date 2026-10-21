@@ -1,0 +1,31 @@
+{
+  "raw_response": "<s> A bird that is sitting on the ground.</s>",
+  "caption": "A bird that is sitting on the ground.",
+  "token_ids": [
+    1,
+    319,
+    11199,
+    393,
+    338,
+    16246,
+    373,
+    278,
+    5962,
+    29889,
+    2
+  ],
+  "feature_sha256": "af6571a6ae0e9a2e8da92b07581aaf89a81140dc78d1abf53928cdbc085402be",
+  "native_index": 53,
+  "nsd_id0": 5878,
+  "shard": 0,
+  "sample": "sample000000743",
+  "brain_sha256": "524ff8e0467f643d310ecdfc59004256b559a1ff9321ecf65a6e0ef4f9c9511a",
+  "jpeg_sha256": "429bb7fd7690da18495845d6bef986a2e3ff3457227f29c0cf016851bd824fe7",
+  "brainhub_tensor_sha256": "1630739e0d17624139417aaaef49597c74a1cf3085929101017d53a460729cbd",
+  "evaluation_png_sha256": "ed1fee176931d7df0fcf38b92b27502349a2a7e94ca27756e997385d50eee327",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595289.7205303
+}

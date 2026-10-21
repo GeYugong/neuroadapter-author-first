@@ -1,0 +1,33 @@
+{
+  "raw_response": "<s> A large group of motorcycles on the road.</s>",
+  "caption": "A large group of motorcycles on the road.",
+  "token_ids": [
+    1,
+    319,
+    2919,
+    2318,
+    310,
+    10992,
+    1270,
+    7799,
+    373,
+    278,
+    6520,
+    29889,
+    2
+  ],
+  "feature_sha256": "371b0c77daa45c7c5026072281ec99ced5b5b21660ac28920c67611775a3e9a5",
+  "native_index": 180,
+  "nsd_id0": 15492,
+  "shard": 0,
+  "sample": "sample000002018",
+  "brain_sha256": "e071891269cb30833a00dbf8c0c994aaf6a6b4f4619dcd925515d7d8f23f3c05",
+  "jpeg_sha256": "9fc9bfe2f6322d6617f5ef481233b31f888863d3805b6c11c7f7d1b4fcb1a705",
+  "brainhub_tensor_sha256": "3962de0e45106167dfd39a32b47c972ba560d8cbf65d7757a186dd0b4f76b209",
+  "evaluation_png_sha256": "77465c000d6117c51db74747018e99cca632ff10213ac66f11510ed38a5ba692",
+  "rank": 0,
+  "seed": 42,
+  "prompt": "Describe this image <image> as simply as possible.",
+  "GT_used": false,
+  "time": 1792595322.555834
+}
