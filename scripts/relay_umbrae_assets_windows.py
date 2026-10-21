@@ -5,7 +5,7 @@ S='/data/matengyu/geyugong/neuroadapter-author-first'
 D='/data1/matengyu/geyugong/neuroadapter-author-first'
 source=['ssh','-i','C:/Users/gyg17/.ssh/id_ed25519_neuroadapter_5090','-o','IdentitiesOnly=yes','-o','BatchMode=yes','-o','ClearAllForwardings=yes','-o','ConnectTimeout=15','10.8.176.68']
 destination=['ssh','-o','BatchMode=yes','-o','ClearAllForwardings=yes','-o','ConnectTimeout=15','neuroadapter-4090']
-p=argparse.ArgumentParser();p.add_argument('mode',choices=['environment','assets','weights']);args=p.parse_args()
+p=argparse.ArgumentParser();p.add_argument('mode',choices=['environment','assets','weights']);p.add_argument('--asset-plan',type=pathlib.Path,required=True);args=p.parse_args()
 def relay(src,dst,label):
     a=subprocess.Popen(source+[src],stdout=subprocess.PIPE,stderr=subprocess.PIPE)
     b=subprocess.Popen(destination+[dst],stdin=subprocess.PIPE,stdout=subprocess.PIPE,stderr=subprocess.PIPE)
@@ -25,7 +25,7 @@ if args.mode=='environment':
     relay(f'cd {S} && tar -C runtime/umbrae-env/lib/python3.11/site-packages -cf - .',
           f'cd {D} && test ! -e runtime/umbrae-site && mkdir runtime/umbrae-site && tar -C runtime/umbrae-site -xf -','environment')
 elif args.mode=='assets':
-    plan=json.loads((H/'asset-plan.json').read_text())
+    plan=json.loads(args.asset_plan.read_text())
     rows=[r for r in plan['files'] if 'local' not in r and 'model-000' not in r['path'] and '/nsd-test/' not in r['path']]
     for row in rows:
         name=row['path'];parent=str(pathlib.PurePosixPath(name).parent)
@@ -40,7 +40,7 @@ elif args.mode=='assets':
     relay(f'cd {S} && tar -C runtime/umbrae/assets/evaluation-extras -cf - .',
           f'cd {D} && mkdir -p runtime/umbrae/assets/evaluation-extras && tar -C runtime/umbrae/assets/evaluation-extras -xf -','evaluation-extras')
 else:
-    plan=json.loads((H/'asset-plan.json').read_text())
+    plan=json.loads(args.asset_plan.read_text())
     for row in [r for r in plan['files'] if 'model-000' in r['path']]:
         name=row['path']
         for attempt in range(180):
