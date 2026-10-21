@@ -1,0 +1,244 @@
+{
+  "method": "mindbridge_s1",
+  "subject": 1,
+  "kind": "native",
+  "direction_names": [
+    "Image (brain-to-image)",
+    "Brain (image-to-brain)"
+  ],
+  "feature": "MindBridge MindSingle image head versus native projected CLIP-L/14 last hidden257x768 image tokens",
+  "precision": "FP32 brain/image forward, TF32 disabled; FP64 cosine; differs from historical FP16 evaluation",
+  "inputs": "Same fixed brain inputs as reconstruction; corresponding original official test JPEG256 images",
+  "image_preprocess": {
+    "resize": 224,
+    "interpolation": "bicubic",
+    "antialias": null,
+    "center_crop": 224,
+    "normalization": "CLIP",
+    "token_norm": "divide by CLS token norm"
+  },
+  "checkpoint_sha256": "5bd75a992755d70183633df514754b9084b0a4a681284afc83621b2387aac9ad",
+  "unused_checkpoint_parameters": [],
+  "no_GT_selection": true,
+  "source_sha256": {
+    "/data1/matengyu/geyugong/neuroadapter-author-first/benchmarks/subj01-v1/upstream/mindbridge/src/models.py": "5f2481b82fdcb547a9b9ce1902290930312de3301a0e17a7dca721ca82873e13",
+    "/data1/matengyu/geyugong/neuroadapter-author-first/scripts/evaluate_retrieval_native.py": "1ecedb4953c4700519e6e7efabe10e7db6e3f86590621a341ccb076308a167b4"
+  },
+  "rows": 982,
+  "pool_size": 300,
+  "rounds": 30,
+  "chance_percent": 0.3333333333333333,
+  "mean_percent": [
+    65.65555555555555,
+    84.16666666666667
+  ],
+  "draw_sd_percent": [
+    2.333305965904093,
+    1.9411850075962551
+  ],
+  "tie_rule": "first maximum in the shared sampled ID order",
+  "confidence_interval": null,
+  "uncertainty": "SD across overlapping sampled pools; not independent experimental replication",
+  "per_round": [
+    {
+      "row_query_top1_percent": 65.0,
+      "column_query_top1_percent": 82.66666666666667,
+      "row_max_ties": 0,
+      "column_max_ties": 0
+    },
+    {
+      "row_query_top1_percent": 61.33333333333333,
+      "column_query_top1_percent": 82.33333333333334,
+      "row_max_ties": 0,
+      "column_max_ties": 0
+    },
+    {
+      "row_query_top1_percent": 68.0,
+      "column_query_top1_percent": 87.66666666666667,
+      "row_max_ties": 0,
+      "column_max_ties": 0
+    },
+    {
+      "row_query_top1_percent": 64.66666666666666,
+      "column_query_top1_percent": 83.66666666666667,
+      "row_max_ties": 0,
+      "column_max_ties": 0
+    },
+    {
+      "row_query_top1_percent": 64.33333333333333,
+      "column_query_top1_percent": 86.33333333333333,
+      "row_max_ties": 0,
+      "column_max_ties": 0
+    },
+    {
+      "row_query_top1_percent": 69.33333333333334,
+      "column_query_top1_percent": 85.0,
+      "row_max_ties": 0,
+      "column_max_ties": 0
+    },
+    {
+      "row_query_top1_percent": 68.66666666666667,
+      "column_query_top1_percent": 84.33333333333334,
+      "row_max_ties": 0,
+      "column_max_ties": 0
+    },
+    {
+      "row_query_top1_percent": 62.66666666666667,
+      "column_query_top1_percent": 83.66666666666667,
+      "row_max_ties": 0,
+      "column_max_ties": 0
+    },
+    {
+      "row_query_top1_percent": 69.33333333333334,
+      "column_query_top1_percent": 87.33333333333333,
+      "row_max_ties": 0,
+      "column_max_ties": 0
+    },
+    {
+      "row_query_top1_percent": 63.33333333333333,
+      "column_query_top1_percent": 79.0,
+      "row_max_ties": 0,
+      "column_max_ties": 0
+    },
+    {
+      "row_query_top1_percent": 63.66666666666667,
+      "column_query_top1_percent": 84.33333333333334,
+      "row_max_ties": 0,
+      "column_max_ties": 0
+    },
+    {
+      "row_query_top1_percent": 64.66666666666666,
+      "column_query_top1_percent": 83.0,
+      "row_max_ties": 0,
+      "column_max_ties": 0
+    },
+    {
+      "row_query_top1_percent": 65.66666666666666,
+      "column_query_top1_percent": 86.66666666666667,
+      "row_max_ties": 0,
+      "column_max_ties": 0
+    },
+    {
+      "row_query_top1_percent": 66.66666666666666,
+      "column_query_top1_percent": 87.33333333333333,
+      "row_max_ties": 0,
+      "column_max_ties": 0
+    },
+    {
+      "row_query_top1_percent": 63.33333333333333,
+      "column_query_top1_percent": 83.33333333333334,
+      "row_max_ties": 0,
+      "column_max_ties": 0
+    },
+    {
+      "row_query_top1_percent": 67.0,
+      "column_query_top1_percent": 84.66666666666667,
+      "row_max_ties": 0,
+      "column_max_ties": 0
+    },
+    {
+      "row_query_top1_percent": 63.0,
+      "column_query_top1_percent": 83.0,
+      "row_max_ties": 0,
+      "column_max_ties": 0
+    },
+    {
+      "row_query_top1_percent": 68.66666666666667,
+      "column_query_top1_percent": 81.0,
+      "row_max_ties": 0,
+      "column_max_ties": 0
+    },
+    {
+      "row_query_top1_percent": 62.66666666666667,
+      "column_query_top1_percent": 86.66666666666667,
+      "row_max_ties": 0,
+      "column_max_ties": 0
+    },
+    {
+      "row_query_top1_percent": 64.33333333333333,
+      "column_query_top1_percent": 84.66666666666667,
+      "row_max_ties": 0,
+      "column_max_ties": 0
+    },
+    {
+      "row_query_top1_percent": 63.66666666666667,
+      "column_query_top1_percent": 82.66666666666667,
+      "row_max_ties": 0,
+      "column_max_ties": 0
+    },
+    {
+      "row_query_top1_percent": 67.66666666666666,
+      "column_query_top1_percent": 84.33333333333334,
+      "row_max_ties": 0,
+      "column_max_ties": 0
+    },
+    {
+      "row_query_top1_percent": 67.66666666666666,
+      "column_query_top1_percent": 84.0,
+      "row_max_ties": 0,
+      "column_max_ties": 0
+    },
+    {
+      "row_query_top1_percent": 68.0,
+      "column_query_top1_percent": 85.0,
+      "row_max_ties": 0,
+      "column_max_ties": 0
+    },
+    {
+      "row_query_top1_percent": 63.0,
+      "column_query_top1_percent": 81.66666666666667,
+      "row_max_ties": 0,
+      "column_max_ties": 0
+    },
+    {
+      "row_query_top1_percent": 69.33333333333334,
+      "column_query_top1_percent": 83.66666666666667,
+      "row_max_ties": 0,
+      "column_max_ties": 0
+    },
+    {
+      "row_query_top1_percent": 66.33333333333333,
+      "column_query_top1_percent": 84.0,
+      "row_max_ties": 0,
+      "column_max_ties": 0
+    },
+    {
+      "row_query_top1_percent": 66.66666666666666,
+      "column_query_top1_percent": 85.0,
+      "row_max_ties": 0,
+      "column_max_ties": 0
+    },
+    {
+      "row_query_top1_percent": 66.0,
+      "column_query_top1_percent": 85.0,
+      "row_max_ties": 0,
+      "column_max_ties": 0
+    },
+    {
+      "row_query_top1_percent": 65.0,
+      "column_query_top1_percent": 83.0,
+      "row_max_ties": 0,
+      "column_max_ties": 0
+    }
+  ],
+  "audit": {
+    "a_shape": [
+      982,
+      257,
+      768
+    ],
+    "b_shape": [
+      982,
+      257,
+      768
+    ],
+    "a_dtype": "float32",
+    "b_dtype": "float32",
+    "a_sha256": "83741051857443d05c40a3854f357a526dce0a28cd7761036670c9f938e13e7c",
+    "b_sha256": "f8978d9b1ba91293a75a373514472a4f6b094e3081fdea16e376338bf54ae81d",
+    "cosine_sha256": "c142ca15f29b6b3931b3b0e7442a11a3b19b3871cae76b74e8de1de8ae13f5c6",
+    "finite": true,
+    "orientation": "rows=query a; columns=query b; matching IDs on diagonal",
+    "scalar_dot_max_error": 6.661338147750939e-16
+  }
+}

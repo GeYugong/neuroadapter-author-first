@@ -1,0 +1,7 @@
+{
+  "common_CLIP_weight_sha256": "b8cca3fd41ae0c99ba7e8951adf17d267cdb84cd88be6f7c2e0eca1737a03836",
+  "first4_GT_features_max_error": 7.361173629760742e-06,
+  "matching_preprocessing": true,
+  "reference_host": "4090",
+  "execution_host": "5090"
+}

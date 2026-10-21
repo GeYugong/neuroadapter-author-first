@@ -1,0 +1,18 @@
+{
+  "reason": "45 retained ImageNet view tensors exceed1 only by floating-point resize rounding; global maximum1.0000003576278687",
+  "fix": "Match existing retrieval deliver.py: assert range within +/-1e-6 then clamp0..1 in memory; no source tensor rewrite, no minmax rescaling",
+  "completed_methods_preserved": [
+    "mindeye1_s1",
+    "mindbridge_s1",
+    "takagi_s1",
+    "brain_diffuser_s1"
+  ],
+  "restart_only": [
+    "imagenet_s1",
+    "mindeye1_s2"
+  ],
+  "failed_processes_confirmed_exited": true,
+  "previous_log": "reconstruction.log",
+  "previous_failure": "reconstruction-run-failure.json",
+  "time": 1792602793.3811953
+}

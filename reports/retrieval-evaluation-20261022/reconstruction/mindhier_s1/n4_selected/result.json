@@ -1,0 +1,226 @@
+{
+  "method": "mindhier_s1",
+  "subject": 1,
+  "kind": "reconstruction",
+  "variant": "N4_GT_assisted",
+  "GT_assisted": true,
+  "direction_names": [
+    "Recon-to-Image",
+    "Image-to-Recon"
+  ],
+  "rows": 982,
+  "pool_size": 300,
+  "rounds": 30,
+  "chance_percent": 0.3333333333333333,
+  "mean_percent": [
+    29.966666666666665,
+    32.32222222222222
+  ],
+  "draw_sd_percent": [
+    2.150202699168051,
+    2.4108365399747975
+  ],
+  "tie_rule": "first maximum in the shared sampled ID order",
+  "confidence_interval": null,
+  "uncertainty": "SD across overlapping sampled pools; not independent experimental replication",
+  "per_round": [
+    {
+      "row_query_top1_percent": 30.333333333333336,
+      "column_query_top1_percent": 33.666666666666664,
+      "row_max_ties": 0,
+      "column_max_ties": 0
+    },
+    {
+      "row_query_top1_percent": 28.666666666666668,
+      "column_query_top1_percent": 33.666666666666664,
+      "row_max_ties": 0,
+      "column_max_ties": 0
+    },
+    {
+      "row_query_top1_percent": 32.33333333333333,
+      "column_query_top1_percent": 33.0,
+      "row_max_ties": 0,
+      "column_max_ties": 0
+    },
+    {
+      "row_query_top1_percent": 30.333333333333336,
+      "column_query_top1_percent": 32.666666666666664,
+      "row_max_ties": 0,
+      "column_max_ties": 0
+    },
+    {
+      "row_query_top1_percent": 31.0,
+      "column_query_top1_percent": 36.0,
+      "row_max_ties": 0,
+      "column_max_ties": 0
+    },
+    {
+      "row_query_top1_percent": 29.666666666666668,
+      "column_query_top1_percent": 29.333333333333332,
+      "row_max_ties": 0,
+      "column_max_ties": 0
+    },
+    {
+      "row_query_top1_percent": 29.666666666666668,
+      "column_query_top1_percent": 29.666666666666668,
+      "row_max_ties": 0,
+      "column_max_ties": 0
+    },
+    {
+      "row_query_top1_percent": 28.000000000000004,
+      "column_query_top1_percent": 30.666666666666664,
+      "row_max_ties": 0,
+      "column_max_ties": 0
+    },
+    {
+      "row_query_top1_percent": 30.333333333333336,
+      "column_query_top1_percent": 32.666666666666664,
+      "row_max_ties": 0,
+      "column_max_ties": 0
+    },
+    {
+      "row_query_top1_percent": 32.33333333333333,
+      "column_query_top1_percent": 31.0,
+      "row_max_ties": 0,
+      "column_max_ties": 0
+    },
+    {
+      "row_query_top1_percent": 31.333333333333336,
+      "column_query_top1_percent": 35.66666666666667,
+      "row_max_ties": 0,
+      "column_max_ties": 0
+    },
+    {
+      "row_query_top1_percent": 28.999999999999996,
+      "column_query_top1_percent": 28.999999999999996,
+      "row_max_ties": 0,
+      "column_max_ties": 0
+    },
+    {
+      "row_query_top1_percent": 28.333333333333332,
+      "column_query_top1_percent": 31.333333333333336,
+      "row_max_ties": 0,
+      "column_max_ties": 0
+    },
+    {
+      "row_query_top1_percent": 28.666666666666668,
+      "column_query_top1_percent": 32.666666666666664,
+      "row_max_ties": 0,
+      "column_max_ties": 0
+    },
+    {
+      "row_query_top1_percent": 26.333333333333332,
+      "column_query_top1_percent": 31.666666666666664,
+      "row_max_ties": 0,
+      "column_max_ties": 0
+    },
+    {
+      "row_query_top1_percent": 27.666666666666668,
+      "column_query_top1_percent": 29.666666666666668,
+      "row_max_ties": 0,
+      "column_max_ties": 0
+    },
+    {
+      "row_query_top1_percent": 31.666666666666664,
+      "column_query_top1_percent": 29.666666666666668,
+      "row_max_ties": 0,
+      "column_max_ties": 0
+    },
+    {
+      "row_query_top1_percent": 32.33333333333333,
+      "column_query_top1_percent": 33.33333333333333,
+      "row_max_ties": 0,
+      "column_max_ties": 0
+    },
+    {
+      "row_query_top1_percent": 24.333333333333336,
+      "column_query_top1_percent": 24.666666666666668,
+      "row_max_ties": 0,
+      "column_max_ties": 0
+    },
+    {
+      "row_query_top1_percent": 30.666666666666664,
+      "column_query_top1_percent": 34.66666666666667,
+      "row_max_ties": 0,
+      "column_max_ties": 0
+    },
+    {
+      "row_query_top1_percent": 26.0,
+      "column_query_top1_percent": 32.666666666666664,
+      "row_max_ties": 0,
+      "column_max_ties": 0
+    },
+    {
+      "row_query_top1_percent": 33.0,
+      "column_query_top1_percent": 34.333333333333336,
+      "row_max_ties": 0,
+      "column_max_ties": 0
+    },
+    {
+      "row_query_top1_percent": 33.666666666666664,
+      "column_query_top1_percent": 35.333333333333336,
+      "row_max_ties": 0,
+      "column_max_ties": 0
+    },
+    {
+      "row_query_top1_percent": 28.666666666666668,
+      "column_query_top1_percent": 34.333333333333336,
+      "row_max_ties": 0,
+      "column_max_ties": 0
+    },
+    {
+      "row_query_top1_percent": 30.666666666666664,
+      "column_query_top1_percent": 32.666666666666664,
+      "row_max_ties": 0,
+      "column_max_ties": 0
+    },
+    {
+      "row_query_top1_percent": 30.666666666666664,
+      "column_query_top1_percent": 33.0,
+      "row_max_ties": 0,
+      "column_max_ties": 0
+    },
+    {
+      "row_query_top1_percent": 30.333333333333336,
+      "column_query_top1_percent": 31.666666666666664,
+      "row_max_ties": 0,
+      "column_max_ties": 0
+    },
+    {
+      "row_query_top1_percent": 32.33333333333333,
+      "column_query_top1_percent": 32.33333333333333,
+      "row_max_ties": 0,
+      "column_max_ties": 0
+    },
+    {
+      "row_query_top1_percent": 29.333333333333332,
+      "column_query_top1_percent": 33.666666666666664,
+      "row_max_ties": 0,
+      "column_max_ties": 0
+    },
+    {
+      "row_query_top1_percent": 31.333333333333336,
+      "column_query_top1_percent": 35.0,
+      "row_max_ties": 0,
+      "column_max_ties": 0
+    }
+  ],
+  "audit": {
+    "a_shape": [
+      982,
+      768
+    ],
+    "b_shape": [
+      982,
+      768
+    ],
+    "a_dtype": "float32",
+    "b_dtype": "float32",
+    "a_sha256": "5b84dad13f2e0e727452884f23f6538e098cf70c04302a10a53d1d4e20e5a2af",
+    "b_sha256": "a10e4cbf446d794871e5f5620127d18d46cb3c6266af7691fc7f43588a541ae6",
+    "cosine_sha256": "f50525d7d1e682417000b4d362db052981e9cd7341025d2c288130c1979f8ff3",
+    "finite": true,
+    "orientation": "rows=query a; columns=query b; matching IDs on diagonal",
+    "scalar_dot_max_error": 2.220446049250313e-16
+  }
+}

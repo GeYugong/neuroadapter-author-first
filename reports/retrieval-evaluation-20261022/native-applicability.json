@@ -1,0 +1,19 @@
+{
+  "evaluated": [
+    "brain_diffuser_s1",
+    "mindbridge_s1",
+    "mindeye1_s1",
+    "mindeye1_s2",
+    "mindhier_s1"
+  ],
+  "not_applicable": {
+    "takagi_s1": "Existing regression predicts SD latent/text conditioning, not the matched CLIP image-token space",
+    "imagenet_s1": "Encoding-model retrieval baseline; its native brain-space scoring is not the paper CLIP-decoding protocol"
+  },
+  "excluded": [
+    "NeuroAdapter S1",
+    "NeuroAdapter S2",
+    "NeuroAdapter B joint E75",
+    "UMBRAE caption-only"
+  ]
+}

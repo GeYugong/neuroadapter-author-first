@@ -1,0 +1,13 @@
+subject,method,variant,kind,row_direction,column_direction,row_top1_percent,column_top1_percent,row_draw_sd_pp,column_draw_sd_pp,GT_assisted,n,candidates,repeats,source
+1,brain_diffuser_s1,candidate0,reconstruction,Recon-to-Image,Image-to-Recon,2.6333333333333333,4.266666666666667,0.7943767889097848,0.8042035159206636,False,982,300,30,reconstruction/brain_diffuser_s1/candidate0/result.json
+1,mindbridge_s1,candidate0,reconstruction,Recon-to-Image,Image-to-Recon,17.855555555555558,14.244444444444447,1.5254754508720496,1.3445885106941367,False,982,300,30,reconstruction/mindbridge_s1/candidate0/result.json
+1,mindbridge_s1,native8_GT_assisted,reconstruction,Recon-to-Image,Image-to-Recon,23.37777777777778,18.988888888888887,1.714784334223725,1.9128188930206658,True,982,300,30,reconstruction/mindbridge_s1/selected/result.json
+1,mindeye1_s1,candidate0,reconstruction,Recon-to-Image,Image-to-Recon,22.71111111111111,25.76666666666667,1.9252970778047012,2.0193508307814616,False,982,300,30,reconstruction/mindeye1_s1/candidate0/result.json
+1,mindeye1_s1,native16,reconstruction,Recon-to-Image,Image-to-Recon,24.4,25.600000000000005,2.0349437752877537,1.904622326577253,False,982,300,30,reconstruction/mindeye1_s1/selected/result.json
+1,mindhier_s1,n1_candidate0,reconstruction,Recon-to-Image,Image-to-Recon,22.83333333333334,23.233333333333334,2.0280598659613998,2.1355412425114695,False,982,300,30,reconstruction/mindhier_s1/n1_candidate0/result.json
+1,mindhier_s1,N4_GT_assisted,reconstruction,Recon-to-Image,Image-to-Recon,29.966666666666665,32.32222222222222,2.150202699168051,2.4108365399747975,True,982,300,30,reconstruction/mindhier_s1/n4_selected/result.json
+1,takagi_s1,candidate0,reconstruction,Recon-to-Image,Image-to-Recon,1.9777777777777776,4.3888888888888875,0.6833169795258284,0.8490848503029887,False,982,300,30,reconstruction/takagi_s1/candidate0/result.json
+1,takagi_s1,candidate_mean,reconstruction,Recon-to-Image,Image-to-Recon,2.1044444444444443,4.171111111111111,0.440370214621659,0.4427996384321669,False,982,300,30,reconstruction/takagi_s1/candidate_mean/result.json
+1,imagenet_s1,candidate0,reconstruction,Recon-to-Image,Image-to-Recon,7.911111111111112,7.922222222222223,1.0054767014656745,1.2369884742037411,False,982,300,30,reconstruction-recovery1/imagenet_s1/candidate0/result.json
+2,mindeye1_s2,K1,reconstruction,Recon-to-Image,Image-to-Recon,21.322222222222216,21.422222222222224,1.2425512419056106,1.8464698291985402,False,982,300,30,reconstruction-recovery1/mindeye1_s2/K1/result.json
+2,mindeye1_s2,native16_selected,reconstruction,Recon-to-Image,Image-to-Recon,21.633333333333333,22.02222222222222,1.3905813442930215,1.953351248070792,False,982,300,30,reconstruction-recovery1/mindeye1_s2/native16_selected/result.json

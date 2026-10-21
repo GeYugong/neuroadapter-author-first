@@ -1,0 +1,227 @@
+{
+  "method": "mindeye1_s1",
+  "subject": 1,
+  "kind": "reconstruction",
+  "variant": "candidate2",
+  "direction_names": [
+    "Recon-to-Image",
+    "Image-to-Recon"
+  ],
+  "GT_assisted": false,
+  "image_source": "Existing retained arrays; no new generation or selection",
+  "rows": 982,
+  "pool_size": 300,
+  "rounds": 30,
+  "chance_percent": 0.3333333333333333,
+  "mean_percent": [
+    24.35555555555555,
+    25.44444444444445
+  ],
+  "draw_sd_percent": [
+    1.8402343123617058,
+    2.1286826702447343
+  ],
+  "tie_rule": "first maximum in the shared sampled ID order",
+  "confidence_interval": null,
+  "uncertainty": "SD across overlapping sampled pools; not independent experimental replication",
+  "per_round": [
+    {
+      "row_query_top1_percent": 20.333333333333332,
+      "column_query_top1_percent": 24.666666666666668,
+      "row_max_ties": 0,
+      "column_max_ties": 0
+    },
+    {
+      "row_query_top1_percent": 25.666666666666664,
+      "column_query_top1_percent": 27.0,
+      "row_max_ties": 0,
+      "column_max_ties": 0
+    },
+    {
+      "row_query_top1_percent": 24.666666666666668,
+      "column_query_top1_percent": 28.666666666666668,
+      "row_max_ties": 0,
+      "column_max_ties": 0
+    },
+    {
+      "row_query_top1_percent": 26.0,
+      "column_query_top1_percent": 27.666666666666668,
+      "row_max_ties": 0,
+      "column_max_ties": 0
+    },
+    {
+      "row_query_top1_percent": 25.0,
+      "column_query_top1_percent": 26.0,
+      "row_max_ties": 0,
+      "column_max_ties": 0
+    },
+    {
+      "row_query_top1_percent": 24.0,
+      "column_query_top1_percent": 26.0,
+      "row_max_ties": 0,
+      "column_max_ties": 0
+    },
+    {
+      "row_query_top1_percent": 24.333333333333336,
+      "column_query_top1_percent": 25.333333333333336,
+      "row_max_ties": 0,
+      "column_max_ties": 0
+    },
+    {
+      "row_query_top1_percent": 24.666666666666668,
+      "column_query_top1_percent": 26.0,
+      "row_max_ties": 0,
+      "column_max_ties": 0
+    },
+    {
+      "row_query_top1_percent": 25.666666666666664,
+      "column_query_top1_percent": 24.666666666666668,
+      "row_max_ties": 0,
+      "column_max_ties": 0
+    },
+    {
+      "row_query_top1_percent": 23.666666666666668,
+      "column_query_top1_percent": 20.666666666666668,
+      "row_max_ties": 0,
+      "column_max_ties": 0
+    },
+    {
+      "row_query_top1_percent": 26.0,
+      "column_query_top1_percent": 24.333333333333336,
+      "row_max_ties": 0,
+      "column_max_ties": 0
+    },
+    {
+      "row_query_top1_percent": 24.666666666666668,
+      "column_query_top1_percent": 25.0,
+      "row_max_ties": 0,
+      "column_max_ties": 0
+    },
+    {
+      "row_query_top1_percent": 25.0,
+      "column_query_top1_percent": 28.999999999999996,
+      "row_max_ties": 0,
+      "column_max_ties": 0
+    },
+    {
+      "row_query_top1_percent": 22.666666666666664,
+      "column_query_top1_percent": 24.666666666666668,
+      "row_max_ties": 0,
+      "column_max_ties": 0
+    },
+    {
+      "row_query_top1_percent": 26.333333333333332,
+      "column_query_top1_percent": 26.666666666666668,
+      "row_max_ties": 0,
+      "column_max_ties": 0
+    },
+    {
+      "row_query_top1_percent": 24.0,
+      "column_query_top1_percent": 24.333333333333336,
+      "row_max_ties": 0,
+      "column_max_ties": 0
+    },
+    {
+      "row_query_top1_percent": 22.0,
+      "column_query_top1_percent": 20.666666666666668,
+      "row_max_ties": 0,
+      "column_max_ties": 0
+    },
+    {
+      "row_query_top1_percent": 27.333333333333332,
+      "column_query_top1_percent": 27.0,
+      "row_max_ties": 0,
+      "column_max_ties": 0
+    },
+    {
+      "row_query_top1_percent": 24.0,
+      "column_query_top1_percent": 26.333333333333332,
+      "row_max_ties": 0,
+      "column_max_ties": 0
+    },
+    {
+      "row_query_top1_percent": 23.0,
+      "column_query_top1_percent": 23.666666666666668,
+      "row_max_ties": 0,
+      "column_max_ties": 0
+    },
+    {
+      "row_query_top1_percent": 20.333333333333332,
+      "column_query_top1_percent": 23.0,
+      "row_max_ties": 0,
+      "column_max_ties": 0
+    },
+    {
+      "row_query_top1_percent": 24.333333333333336,
+      "column_query_top1_percent": 26.0,
+      "row_max_ties": 0,
+      "column_max_ties": 0
+    },
+    {
+      "row_query_top1_percent": 22.666666666666664,
+      "column_query_top1_percent": 29.333333333333332,
+      "row_max_ties": 0,
+      "column_max_ties": 0
+    },
+    {
+      "row_query_top1_percent": 25.666666666666664,
+      "column_query_top1_percent": 25.666666666666664,
+      "row_max_ties": 0,
+      "column_max_ties": 0
+    },
+    {
+      "row_query_top1_percent": 26.666666666666668,
+      "column_query_top1_percent": 28.333333333333332,
+      "row_max_ties": 0,
+      "column_max_ties": 0
+    },
+    {
+      "row_query_top1_percent": 24.0,
+      "column_query_top1_percent": 25.333333333333336,
+      "row_max_ties": 0,
+      "column_max_ties": 0
+    },
+    {
+      "row_query_top1_percent": 22.333333333333332,
+      "column_query_top1_percent": 25.0,
+      "row_max_ties": 0,
+      "column_max_ties": 0
+    },
+    {
+      "row_query_top1_percent": 26.666666666666668,
+      "column_query_top1_percent": 22.333333333333332,
+      "row_max_ties": 0,
+      "column_max_ties": 0
+    },
+    {
+      "row_query_top1_percent": 22.0,
+      "column_query_top1_percent": 24.0,
+      "row_max_ties": 0,
+      "column_max_ties": 0
+    },
+    {
+      "row_query_top1_percent": 27.0,
+      "column_query_top1_percent": 26.0,
+      "row_max_ties": 0,
+      "column_max_ties": 0
+    }
+  ],
+  "audit": {
+    "a_shape": [
+      982,
+      768
+    ],
+    "b_shape": [
+      982,
+      768
+    ],
+    "a_dtype": "float32",
+    "b_dtype": "float32",
+    "a_sha256": "f47a242ad226f52ea56769d83d773f236a91f692bf2792154a157728e55f4b8b",
+    "b_sha256": "a10e4cbf446d794871e5f5620127d18d46cb3c6266af7691fc7f43588a541ae6",
+    "cosine_sha256": "6a6f3f5fcb4e13121c24a6467c4009918cf40c55722ab84002aa367739e486f2",
+    "finite": true,
+    "orientation": "rows=query a; columns=query b; matching IDs on diagonal",
+    "scalar_dot_max_error": 2.220446049250313e-16
+  }
+}

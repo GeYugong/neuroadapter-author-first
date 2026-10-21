@@ -1,0 +1,6 @@
+subject,method,variant,kind,row_direction,column_direction,row_top1_percent,column_top1_percent,row_draw_sd_pp,column_draw_sd_pp,GT_assisted,n,candidates,repeats,source
+1,brain_diffuser_s1,brain_diffuser_s1,native,Image (brain-to-image),Brain (image-to-brain),14.077777777777778,8.455555555555554,1.673968678516386,1.420925534361948,False,982,300,30,native/brain_diffuser_s1/result.json
+1,mindbridge_s1,mindbridge_s1,native,Image (brain-to-image),Brain (image-to-brain),65.65555555555555,84.16666666666667,2.333305965904093,1.9411850075962551,False,982,300,30,native/mindbridge_s1/result.json
+1,mindeye1_s1,mindeye1_s1,native,Image (brain-to-image),Brain (image-to-brain),93.94444444444443,97.05555555555557,1.4439285845718146,0.8844477175087188,False,982,300,30,native/mindeye1_s1/result.json
+2,mindeye1_s2,mindeye1_s2,native,Image (brain-to-image),Brain (image-to-brain),86.6111111111111,91.36666666666665,1.5113449221864086,1.4124514707019575,False,982,300,30,native/mindeye1_s2/result.json
+1,mindhier_s1,mindhier_s1,native,Image (brain-to-image),Brain (image-to-brain),26.888888888888882,85.43333333333334,3.399722023044222,1.998370984086365,False,982,300,30,native/mindhier_s1/result.json

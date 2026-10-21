@@ -1,0 +1,4 @@
+{
+  "traceback": "Traceback (most recent call last):\n  File \"/data1/matengyu/geyugong/neuroadapter-author-first/scripts/evaluate_retrieval_images.py\", line 131, in <module>\n    try:prepare() if a.mode=='prepare' else main()\n                                            ^^^^^^\n  File \"/data1/matengyu/geyugong/neuroadapter-author-first/scripts/evaluate_retrieval_images.py\", line 105, in main\n    feat=extractor(images);assert feat.shape==(kcount,768)\n         ^^^^^^^^^^^^^^^^^\n  File \"/data1/matengyu/geyugong/neuroadapter-author-first/scripts/retrieval_common.py\", line 89, in __call__\n    assert images.min()>=0 and images.max()<=1\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError\n",
+  "time": 1792602598.9187171
+}

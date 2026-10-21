@@ -1,0 +1,7 @@
+{
+  "reason": "Package __init__ loaded unused generator modules requiring tap; failed before feature computation",
+  "fix": "Load unchanged fmri_c2f_encoder.py directly via importlib file spec; do not import models/__init__",
+  "original_source_preserved": true,
+  "failed_task_processes_confirmed_exited": true,
+  "time": 1792602197.4080687
+}

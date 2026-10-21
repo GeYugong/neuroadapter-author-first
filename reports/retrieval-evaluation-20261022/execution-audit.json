@@ -1,0 +1,37 @@
+{
+  "complete": true,
+  "source_sha256": {
+    "scripts/evaluate_retrieval_images.py": "ca5b05057bc78c214fd49f8a4f8cda48891835fb888b50a8b66281d4ef64c631",
+    "scripts/evaluate_retrieval_bd.py": "1edbc6fce2c78576714fafa892a70d708588fe77dc88d1cd91249de14567d419",
+    "scripts/audit_retrieval_results.py": "be4edb225401585369bf378f9fb9ba4ed00c2dc6d94c4497581e1f456b7cd1cf",
+    "scripts/evaluate_retrieval_images_recovery1.py": "e7e3f2ee2712042ebaf4719a270d00f1371a0db1095eac78e71b307317cdaaab",
+    "scripts/retrieval_common.py": "6f007b72e684e20c200ae594292a74cb76b76a92aadb47be9abe54d65d13b0f9",
+    "scripts/evaluate_retrieval_mindhier_recovery1.py": "e174455aaa335f4b9452dbae469c28855450156d27832829ba70387a5ed5465e",
+    "scripts/evaluate_retrieval_native.py": "1ecedb4953c4700519e6e7efabe10e7db6e3f86590621a341ccb076308a167b4"
+  },
+  "native_HF_asset_hashes_rechecked": true,
+  "sampling": {
+    "1": {
+      "unique_ids": 982,
+      "min_draws_per_id": 2,
+      "max_draws_per_id": 18,
+      "draws_sha256": "7cb7af131dc4f0fe4328692414471cf5d70b719355e33cb8d79454404e021a39",
+      "ids_sha256": "fd05d3f71e0afbd2239dc57971a78af53db9ad5059c8f3d38117acdf70486056"
+    },
+    "2": {
+      "unique_ids": 982,
+      "min_draws_per_id": 2,
+      "max_draws_per_id": 18,
+      "draws_sha256": "7cb7af131dc4f0fe4328692414471cf5d70b719355e33cb8d79454404e021a39",
+      "ids_sha256": "2175a1e5ae45a3a6680220f0c028aad4ea788bbb90a37d2039f7d998b72f9410"
+    }
+  },
+  "processes_exited": true,
+  "original_failures_preserved": true,
+  "repairs": [
+    "MindHier direct-file import of unchanged brain class",
+    "ImageNet tolerance1e-6 followed by clamp0..1; only unfinished groups resumed"
+  ],
+  "disk_free_gib": 26.448158264160156,
+  "time": 1792603018.6665466
+}

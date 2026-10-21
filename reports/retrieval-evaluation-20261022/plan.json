@@ -1,0 +1,45 @@
+{
+  "created": 1792601723.8828666,
+  "excluded": [
+    "NeuroAdapter S1",
+    "NeuroAdapter S2",
+    "NeuroAdapter B joint E75",
+    "UMBRAE caption-only outputs"
+  ],
+  "common_image_protocol": "OpenAI CLIP ViT-L/14 global embeddings; input native tensors/PNG, prediction resize425 bilinear align_corners=False then Resize224 bilinear antialias=True and CLIP normalization; FP32 extraction and FP64 cosine",
+  "native_protocol": "Each model native brain-predicted image feature and its matching frozen visual target space; separate table",
+  "orientations": {
+    "reconstruction": [
+      "Recon-to-Image",
+      "Image-to-Recon"
+    ],
+    "native": [
+      "Image (brain-to-image)",
+      "Brain (image-to-brain)"
+    ]
+  },
+  "paired_draws": "RandomState42;30 without-replacement subsets of300 paired IDs per subject; same saved lists for every method",
+  "selection": "Existing selections only; no candidate reselection. GT-assisted rows flagged.",
+  "source_sha256": {
+    "/data1/matengyu/geyugong/neuroadapter-author-first/scripts/retrieval_common.py": "6f007b72e684e20c200ae594292a74cb76b76a92aadb47be9abe54d65d13b0f9",
+    "/data1/matengyu/geyugong/neuroadapter-author-first/scripts/evaluate_retrieval_images.py": "ca5b05057bc78c214fd49f8a4f8cda48891835fb888b50a8b66281d4ef64c631",
+    "/data1/matengyu/geyugong/neuroadapter-author-first/metric_brain_adapter.py": "646ee1f3673b033cd6ee485058db16a3d24fae7624d793fe5174008ad2e15f7d",
+    "/data1/matengyu/geyugong/neuroadapter-subject1-research/models/evaluation/clip/ViT-L-14.pt": "b8cca3fd41ae0c99ba7e8951adf17d267cdb84cd88be6f7c2e0eca1737a03836"
+  },
+  "ids_and_draws_sha256": {
+    "ids-s1.npy": "fd05d3f71e0afbd2239dc57971a78af53db9ad5059c8f3d38117acdf70486056",
+    "draws-s2.npy": "7cb7af131dc4f0fe4328692414471cf5d70b719355e33cb8d79454404e021a39",
+    "draws-s1.npy": "7cb7af131dc4f0fe4328692414471cf5d70b719355e33cb8d79454404e021a39",
+    "ids-s2.npy": "2175a1e5ae45a3a6680220f0c028aad4ea788bbb90a37d2039f7d998b72f9410"
+  },
+  "sanity": {
+    "asymmetric_direction_test": true,
+    "identity": true,
+    "joint_permutation": true,
+    "deliberate_shift_top1_percent": 0.0
+  },
+  "storage": "Save compact features, score matrices, records and hashes; no regenerated images or training",
+  "precision_note": "New retrieval protocol fixes FP32 features/FP64 cosine, not bitwise reproduction of the original FP16 notebook",
+  "candidates": "All retained full982 candidate sets; fixed32-only extra candidates excluded from full-pool metrics",
+  "disk_reserve_gib": 25
+}
