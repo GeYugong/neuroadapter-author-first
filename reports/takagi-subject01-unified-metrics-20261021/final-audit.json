@@ -1,0 +1,29 @@
+{
+  "complete": true,
+  "all_input_hashes_unchanged": true,
+  "all_protected_evaluator_and_historical_files_unchanged": true,
+  "n": 982,
+  "candidates": 4910,
+  "per_candidate_full_negative_pool": 982,
+  "candidate_and_aggregate_means_verified": true,
+  "SSIM_exception_count": 0,
+  "historical_K1_pixel_comparison": {
+    "n": 982,
+    "candidates": 4910,
+    "all_record_file_hashes_verified": true,
+    "all_RGB_shapes_valid": true,
+    "old_K1_pixel_identical_count": 0,
+    "old_K1_all_pixels_identical": false,
+    "free_gib": 31.56735610961914,
+    "inputs_sha256": "1f6f70ba5b1fa35e944b3b48cc299dfc453902af584cfd61c27e02b86e3959dd"
+  },
+  "new_image_or_candidate_selection": false,
+  "results_sha256": {
+    "candidate-4-per-image.csv": "ceb4ce20a5ef2a6ee9be2f5df059fa3129d9a2eb77fca9b403bd5d29cf3d5769",
+    "candidate-2-per-image.csv": "75bc2bf376c99a5a13645e4babc7272832cf14f67946daa3ac23b651f10cdd2f",
+    "candidate-1-per-image.csv": "81f4efcc7e1aae10af13ef4256eee57049ed0d9f6a81aaf9fa946b9f2d65ba08",
+    "candidate-3-per-image.csv": "587dc5304a5a482e1c5e27a38f86c2be8aebdc7ea05c3aeebdb0e0ef80c1f6e2",
+    "K5-mean-per-image.csv": "e823e371c13b6206f7e9920bd4ed0a327ef1b9a470893ea745cf7851258b7e5e",
+    "candidate-0-per-image.csv": "2d1eaa94c4fd90f3781e973653110fca1e4e208cee8c8fbea031e7c9a9cb2977"
+  }
+}

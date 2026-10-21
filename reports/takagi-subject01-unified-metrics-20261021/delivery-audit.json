@@ -1,0 +1,15 @@
+{
+  "complete": true,
+  "utc": "2026-10-21T09:49:55Z",
+  "metric_implementation": "Frozen NeuroAdapter metric_brain_adapter.py; unchanged",
+  "aggregation": "Per-candidate full982 evaluation then arithmetic mean of five score tables",
+  "recommendation": "Use explicitly labeled K1 for single-sample comparison and K5-mean as the no-selection five-sample average. Do not mix either with native Takagi four-metric aggregation.",
+  "historical_K1_caveat": "Existing native5 candidate0 differs at the pixel level from the earlier K1 generation, so this candidate0 was rescored.",
+  "limits": "Shared scoring removes evaluator differences, not candidate-budget/selector/training differences; no significance claim.",
+  "new_training": false,
+  "new_generation": false,
+  "GT_candidate_selection": false,
+  "completed_worker_processes_exited": true,
+  "disk_free_gib": 31.565380096435547,
+  "metrics_sha256": "74cf9251bd14481f1e021109efab0497a42bb5c8f4c73d3fdc416fd94d2802d5"
+}

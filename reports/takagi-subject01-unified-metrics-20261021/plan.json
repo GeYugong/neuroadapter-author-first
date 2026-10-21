@@ -1,0 +1,67 @@
+{
+  "subject": 1,
+  "n": 982,
+  "K": 5,
+  "negative_pool": 982,
+  "metric": "metric_brain_adapter.py",
+  "metric_sha256": "646ee1f3673b033cd6ee485058db16a3d24fae7624d793fe5174008ad2e15f7d",
+  "feature_batch": 16,
+  "aggregation": "Score each fixed candidate index on all982 independently; arithmetic mean of the five metric results AFTER identification.",
+  "rows": {
+    "K1": "Candidate0 of the existing five",
+    "K5-mean": "Mean of five separately evaluated candidate indices; no selection"
+  },
+  "selection": "none",
+  "candidate_indices": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "GT": "Existing original NSD425 RGB uint8/255",
+  "prediction": "Existing native PNG uint8/255; author resize_images bilinear align_corners=False to425",
+  "training_updates": 0,
+  "new_images": 0,
+  "seed_changes": 0,
+  "protected": {
+    "/data1/matengyu/geyugong/neuroadapter-author-first/scripts/score_takagi_subject01_unified.py": "1de0b76ab4927a1c5979754469f2c6286679de8f1494e634cf8c214338e4bc83",
+    "/data1/matengyu/geyugong/neuroadapter-author-first/benchmarks/subj01-v1/test_full_ids.txt": "4c438772ffa978ab8c5f781b8a3fc73df0159ae4892dc39d896f05a413d36441",
+    "/data1/matengyu/geyugong/neuroadapter-author-first/metric_brain_adapter.py": "646ee1f3673b033cd6ee485058db16a3d24fae7624d793fe5174008ad2e15f7d",
+    "/data1/matengyu/geyugong/neuroadapter-author-first/benchmarks/subj01-v1/metric_feature_batches.py": "08272975f6690413812cfb28b783faa9baf43ab02d1b88e921ea70b0a1822425",
+    "/data1/matengyu/geyugong/neuroadapter-author-first/benchmarks/subj01-v1/metric_protocol.json": "fdee2af4e050857d3707945d4b17634e73b35c0cd368196cf2ff36beef3179fd",
+    "/data1/matengyu/geyugong/neuroadapter-author-first/benchmarks/subj01-v1/outputs/takagi-native5/protocol.json": "c7f7466514257235a9647a46da94cbbd8b04e95a5001e23ce78bd411b6bbb098",
+    "/data1/matengyu/geyugong/neuroadapter-author-first/benchmarks/subj01-v1/metrics/takagi/test_full_ids/metrics.json": "4cd04890deff7de692593c5df5e04048e8bb5879b0cdeeee63a3c57e0dcc051e",
+    "/data1/matengyu/geyugong/neuroadapter-author-first/benchmarks/subj01-v1/metrics/takagi/test_full_ids/per-image.csv": "14361abd4bb802c119d6901fc659a732363423c30e5e5d8f63b0b4abc7ad122c",
+    "/data1/matengyu/geyugong/neuroadapter-author-first/reports/native-protocols-20261016/takagi/native-identification.json": "cb587807f41b4ab2871c0360af1a9f150ceff40123db3252fec303875736d331",
+    "/data1/matengyu/geyugong/neuroadapter-subject1-research/models/evaluation/clip/ViT-L-14.pt": "b8cca3fd41ae0c99ba7e8951adf17d267cdb84cd88be6f7c2e0eca1737a03836",
+    "/data1/matengyu/geyugong/neuroadapter-author-first/runtime/torch/hub/checkpoints/dinov2_vitb14_pretrain.pth": "0b8b82f85de91b424aded121c7e1dcc2b7bc6d0adeea651bf73a13307fad8c73",
+    "/data1/matengyu/geyugong/neuroadapter-author-first/runtime/torch/hub/checkpoints/alexnet-owt-7be5be79.pth": "7be5be791159472b1fbf3c69796f7cb30dca7ad8466c2df70058c37116cdee02",
+    "/data1/matengyu/geyugong/neuroadapter-author-first/runtime/torch/hub/checkpoints/swav_800ep_pretrain.pth.tar": "029d0b8c2e70bcee3f8beb70cc104ef51585c090224d33fb9c6f51d146cfd1eb",
+    "/data1/matengyu/geyugong/neuroadapter-author-first/runtime/torch/hub/checkpoints/efficientnet_b1-c27df63c.pth": "c27df63ce6eb17ef8bcea58922fd3a254cba910c720f41ee89d64d99fb7a4ddf",
+    "/data1/matengyu/geyugong/neuroadapter-author-first/runtime/torch/hub/checkpoints/inception_v3_google-0cc3c7bd.pth": "0cc3c7bd75056d25e46cba549dc184522069b81e9787eff6df84f397bd52a5ef",
+    "/data1/matengyu/geyugong/neuroadapter-author-first/runtime/swav/eval_linear.py": "67eb7c7b3e42f72540cc25635fc45a73e46ca14d51649064ef0c0c2936c80b17",
+    "/data1/matengyu/geyugong/neuroadapter-author-first/runtime/swav/main_deepclusterv2.py": "6ead66c630a4bf29fb784be84904b3d25858b43eb2262fabe1965b95895ffe37",
+    "/data1/matengyu/geyugong/neuroadapter-author-first/runtime/swav/main_swav.py": "cb29278303eacdba4da03f68146b207c0865c5f9aed829ce40b35997ecba8a3f",
+    "/data1/matengyu/geyugong/neuroadapter-author-first/runtime/swav/eval_semisup.py": "6326c66f26173af44cb2acf53d47ebd71fc790f1c95cec7b42f03bc41c38a996",
+    "/data1/matengyu/geyugong/neuroadapter-author-first/runtime/swav/hubconf.py": "b847cd9fb42479a0abbe457a6442b4dea9e56736e4683d99cbae393dd9c35e2b",
+    "/data1/matengyu/geyugong/neuroadapter-author-first/runtime/swav/src/utils.py": "9bed600d071fa3eac8003581f23f79ddf27ba416a1825e619feccb91da9e6f94",
+    "/data1/matengyu/geyugong/neuroadapter-author-first/runtime/swav/src/multicropdataset.py": "6e812e03843022a08362830bbe632be5fb785b4aacced50b53627866b15897e7",
+    "/data1/matengyu/geyugong/neuroadapter-author-first/runtime/swav/src/logger.py": "78d3e0c08e5dee722cd374bb7aa04d1010b201da8911758242e356bd24426075",
+    "/data1/matengyu/geyugong/neuroadapter-author-first/runtime/swav/src/resnet50.py": "68c2e74d2511242343d57417a2d0d0f6691375aa82c8d911d8b4dc09ce4946c7"
+  },
+  "disk_reserve_gib": 25,
+  "shared_gpu_authorization": "User: \u53ef\u4ee5\u4e00\u8d77\u8fd0\u884c",
+  "resource_limits": {
+    "gpu": 1,
+    "torch_memory_fraction": 0.28,
+    "cpu_threads": 4,
+    "nice_increment": 10
+  },
+  "limitations": [
+    "This is a unified evaluator, not Takagi native five-correlation aggregation.",
+    "Candidate budgets and selectors of other methods remain different.",
+    "No test-based candidate, weight, seed or protocol selection."
+  ],
+  "created": 1792575634.8933709
+}

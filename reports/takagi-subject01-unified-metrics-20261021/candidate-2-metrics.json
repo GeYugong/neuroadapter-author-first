@@ -1,0 +1,23 @@
+{
+  "candidate": 2,
+  "n": 982,
+  "negative_pool": 982,
+  "mean": {
+    "PixCorr": 0.2751047617634725,
+    "SSIM": 0.2454869693904168,
+    "Alex(2)": 78.28777318958375,
+    "Alex(5)": 78.53316890574688,
+    "Incep": 66.61424499295161,
+    "CLIP": 70.08736253583878,
+    "Eff": 0.9514134730772705,
+    "SwAV": 0.6713298459665431
+  },
+  "peak_cuda_allocated_bytes": 3075941376,
+  "peak_cuda_reserved_bytes": 4437573632,
+  "runtime": {
+    "torch": "2.11.0+cu128",
+    "device": "NVIDIA GeForce RTX 4090",
+    "tf32_matmul": false,
+    "tf32_cudnn": true
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "n": 982,
+  "candidates": 4910,
+  "all_record_file_hashes_verified": true,
+  "all_RGB_shapes_valid": true,
+  "old_K1_pixel_identical_count": 0,
+  "old_K1_all_pixels_identical": false,
+  "free_gib": 31.56735610961914,
+  "inputs_sha256": "1f6f70ba5b1fa35e944b3b48cc299dfc453902af584cfd61c27e02b86e3959dd"
+}
